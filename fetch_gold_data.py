@@ -2,20 +2,30 @@
 """
 金鉴 · 免费数据源抓取脚本
 --------------------------------
-从三个完全免费、无需信用卡的数据源拉取数据，写入本地 gold-data.json：
-  1. gold-api.com      -> 现货黄金/白银价格 (XAU/USD, XAG/USD)
-  2. Yahoo Finance      -> DXY美元指数, VIX恐慌指数, WTI原油 (通过 yfinance 库，无需Key)
-  3. FRED               -> 10年期名义/实际利率 (美联储圣路易斯分行，完全免费无限量)
+从四个数据源拉取数据，写入本地 gold-data.json：
+  1. gold-api.com      -> 现货黄金/白银价格 (XAU/USD, XAG/USD)，完全免费无需Key
+  2. GoldAPI.io         -> 当日开盘/最高/最低/昨收，需要免费Key（见下方说明）
+  3. Yahoo Finance      -> DXY美元指数, VIX恐慌指数, WTI原油 (通过 yfinance 库，无需Key)
+  4. FRED               -> 10年期名义/实际利率 (美联储圣路易斯分行，完全免费无限量)
 
 用法：
   pip install requests yfinance --break-system-packages
+  export GOLDAPI_IO_TOKEN="你的goldapi.io token"   # 可选，不设置则跳过这一项
   python3 fetch_gold_data.py
+
+⚠️ 安全提醒（GoldAPI.io官方要求）：
+  - 绝不要把 GoldAPI.io 的 token 写死在这个文件里、提交到 Git 仓库，
+    或粘贴到网页前端的任何输入框里 —— 那是公开可见的。
+  - 正确做法：只通过环境变量 GOLDAPI_IO_TOKEN 传入。本地跑就用 export，
+    GitHub Actions 里就用 repository secret（见 fetch_gold_data.yml 里的用法）。
+  - gold-api.com 和 GoldAPI.io 是两个不同的服务，认证方式不同，不要混用彼此的Key。
 
 建议：写一个 cron/定时任务，每 15-30 分钟跑一次，
      不要在前端页面里直接每次刷新都调用，避免浪费额度、也避免把API Key暴露在浏览器里。
 """
 
 import json
+import os
 import time
 from datetime import datetime, timezone
 
@@ -30,6 +40,38 @@ FRED_SERIES = {
     "10y_treasury": "DGS10",       # 10年期名义国债收益率
     "10y_real_rate": "DFII10",     # 10年期实际利率(TIPS)
 }
+
+
+def fetch_goldapi_io():
+    """从 GoldAPI.io 拉取当日开盘/最高/最低/昨收等OHLC数据（gold-api.com免费接口不提供这些字段）。
+    Token 只从环境变量 GOLDAPI_IO_TOKEN 读取，绝不硬编码在代码里。
+    没有设置该环境变量时，直接跳过，不影响其他数据源。
+    """
+    token = os.environ.get("GOLDAPI_IO_TOKEN")
+    if not token:
+        print("[提示] 未设置 GOLDAPI_IO_TOKEN 环境变量，跳过 GoldAPI.io（不影响其他数据）。")
+        return None
+    try:
+        resp = requests.get(
+            "https://www.goldapi.io/api/XAU/USD",
+            headers={"x-access-token": token, "Accept": "application/json"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        return {
+            "price": data.get("price"),
+            "open": data.get("open_price"),
+            "high": data.get("high_price"),
+            "low": data.get("low_price"),
+            "prevClose": data.get("prev_close_price"),
+            "change": data.get("ch"),
+            "changePct": data.get("chp"),
+            "timestamp": data.get("timestamp"),
+        }
+    except Exception as e:
+        print(f"[警告] 拉取 GoldAPI.io 失败: {e}")
+        return None
 
 
 def fetch_gold_silver():
@@ -109,6 +151,7 @@ def main():
 
     gold_silver = fetch_gold_silver()
     time.sleep(1)  # 简单限速，友好一点
+    goldapi_io = fetch_goldapi_io()
     macro = fetch_dxy_vix_oil()
     fred_data = {name: fetch_fred_series(series_id) for name, series_id in FRED_SERIES.items()}
 
@@ -116,6 +159,7 @@ def main():
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
         "gold": gold_silver.get("XAU"),
         "silver": gold_silver.get("XAG"),
+        "goldapi_io": goldapi_io,
         "dxy": macro.get("dxy"),
         "vix": macro.get("vix"),
         "wti": macro.get("wti"),
