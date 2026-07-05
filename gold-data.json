@@ -1,9 +1,12 @@
 {
-  "fetchedAt": "2026-07-05T09:27:26.728138+00:00",
-  "gold": null,
+  "fetchedAt": "2026-07-05T09:30:31.698522+00:00",
+  "gold": {
+    "price": 4176.100098,
+    "updatedAt": "2026-07-05T09:30:00Z"
+  },
   "silver": {
     "price": 62.516998,
-    "updatedAt": "2026-07-05T09:27:00Z"
+    "updatedAt": "2026-07-05T09:30:00Z"
   },
   "goldapi_io": {
     "price": 4175.005,
@@ -13,7 +16,7 @@
     "prevClose": 4123.154,
     "change": 51.85,
     "changePct": 1.26,
-    "timestamp": 1783243635
+    "timestamp": 1783243814
   },
   "dxy": null,
   "vix": null,
