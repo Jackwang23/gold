@@ -148,6 +148,51 @@ def fetch_fred_series(series_id):
         return None
 
 
+def fetch_news():
+    """从 Investing.com 免费公开RSS抓取黄金相关新闻标题，完全免费、无需注册Key。
+    只取标题/来源/时间/链接，不抓取正文，避免版权问题，也符合"资讯速览"这种
+    标题式展示的定位。"""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+
+    feeds = {
+        "commodities": ("https://www.investing.com/rss/news_11.rss", "大宗商品"),
+        "economy": ("https://www.investing.com/rss/news_14.rss", "经济数据"),
+        "central_banks": ("https://www.investing.com/rss/central_banks.rss", "央行动向"),
+    }
+
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; GoldDashboardBot/1.0)"}
+    items = []
+    for category, (url, label) in feeds.items():
+        try:
+            resp = requests.get(url, headers=headers, timeout=10)
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            for item in root.findall(".//item")[:4]:  # 每个分类最多取4条
+                title = item.findtext("title", default="").strip()
+                link = item.findtext("link", default="").strip()
+                pub_date_raw = item.findtext("pubDate", default="")
+                try:
+                    pub_dt = parsedate_to_datetime(pub_date_raw)
+                    pub_iso = pub_dt.isoformat()
+                except Exception:
+                    pub_iso = None
+                if title:
+                    items.append({
+                        "category": category,
+                        "categoryLabel": label,
+                        "title": title,
+                        "link": link,
+                        "publishedAt": pub_iso,
+                    })
+        except Exception as e:
+            print(f"[警告] 拉取新闻源 {label}({url}) 失败: {e}")
+
+    # 按发布时间倒序排列，最新的在前面
+    items.sort(key=lambda x: x["publishedAt"] or "", reverse=True)
+    return items[:12]  # 总共最多保留12条，避免文件过大
+
+
 def main():
     print("开始抓取数据...")
 
@@ -156,6 +201,7 @@ def main():
     macro = fetch_dxy_vix_oil()
     fred_data = {name: fetch_fred_series(series_id) for name, series_id in FRED_SERIES.items()}
     goldapi_data = fetch_goldapi()
+    news_data = fetch_news()
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -166,6 +212,7 @@ def main():
         "wti": macro.get("wti"),
         "fred": fred_data,
         "goldapi": goldapi_data,
+        "news": news_data,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
