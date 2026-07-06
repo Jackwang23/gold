@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-06T17:16:39.689519+00:00",
+  "fetchedAt": "2026-07-06T19:17:39.021796+00:00",
   "gold": {
-    "price": 4155.600098,
-    "updatedAt": "2026-07-06T17:16:08Z"
+    "price": 4160.200195,
+    "updatedAt": "2026-07-06T19:17:08Z"
   },
   "silver": {
-    "price": 61.986,
-    "updatedAt": "2026-07-06T17:16:07Z"
+    "price": 62.167,
+    "updatedAt": "2026-07-06T19:17:07Z"
   },
   "dxy": {
-    "value": 100.96,
-    "changePct": 0.1
+    "value": 100.86,
+    "changePct": 0.0
   },
   "vix": {
-    "value": 15.89,
-    "changePct": -1.61
+    "value": 15.66,
+    "changePct": -3.03
   },
   "wti": {
-    "value": 68.25,
-    "changePct": -0.64
+    "value": 68.62,
+    "changePct": -0.1
   },
   "fred": {
     "10y_treasury": {
@@ -63,6 +63,20 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "As Khamenei mourners fill Iran’s streets, discontent still simmers",
+      "link": "https://www.investing.com/news/commodities-news/as-khamenei-mourners-fill-irans-streets-discontent-still-simmers-4777032",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "US Strategic Petroleum Reserve drops to lowest since 1983",
+      "link": "https://www.investing.com/news/commodities-news/us-strategic-petroleum-reserve-drops-to-lowest-since-1983-93CH-4777158",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "Cuba’s national electric grid collapses, reason unknown",
       "link": "https://www.investing.com/news/commodities-news/cubas-national-electric-grid-collapses-reason-unknown-4777119",
       "publishedAt": null
@@ -75,45 +89,31 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump says there will either be a deal with Iran or US will ’finish the job’",
-      "link": "https://www.investing.com/news/commodities-news/trump-says-there-will-either-be-a-deal-with-iran-or-us-will-finish-the-job-4777039",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Gulf crude shipments to Europe rise with 28m barrels due",
-      "link": "https://www.investing.com/news/commodities-news/gulf-crude-shipments-to-europe-rise-with-28m-barrels-due-93CH-4777052",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Bank of Israel cuts rates, governor sees more easing as long as inflation behaves",
+      "link": "https://www.investing.com/news/economy-news/bank-of-israel-cuts-key-rate-by-25-bps-as-usiran-ceasefire-pushes-down-energy-prices-4776948",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal",
+      "title": "Fed’s Waller: Forward guidance ’valuable,’ though not at all moments",
+      "link": "https://www.investing.com/news/economy-news/feds-waller-forward-guidance-valuable-though-not-at-all-moments-4776969",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Singapore tax authority clarifies capital gains rules for SPVs",
+      "link": "https://www.investing.com/news/economy-news/singapore-tax-authority-clarifies-capital-gains-rules-for-spvs-93CH-4777208",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Wall Street climbs as Broadcom and other chipmakers rally",
       "link": "https://www.investing.com/news/economy-news/us-stock-futures-up-as-chip-shares-recover-oil-prices-decline-4775958",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Britain’s regulator urged to review AI chatbot financial advice",
-      "link": "https://www.investing.com/news/economy-news/britains-regulator-urged-to-review-ai-chatbot-financial-advice-93CH-4777083",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Canadian firms’ inflation outlook eased after Iran ceasefire, BoC survey finds",
-      "link": "https://www.investing.com/news/economy-news/canadian-firms-inflation-outlook-eased-after-iran-ceasefire-boc-survey-finds-4777013",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Bank of Canada survey shows inflation expectations ease after Mideast peace",
-      "link": "https://www.investing.com/news/economy-news/bank-of-canada-survey-shows-inflation-expectations-ease-after-mideast-peace-93CH-4777011",
       "publishedAt": null
     }
   ]
