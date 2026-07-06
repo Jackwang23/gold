@@ -1,0 +1,22 @@
+{
+  "fetchedAt": "2026-07-04T11:42:00+00:00",
+  "gold": { "price": 4170.30, "updatedAt": "2026-07-03T21:00:00Z" },
+  "silver": { "price": 38.10, "updatedAt": "2026-07-03T21:00:00Z" },
+  "dxy": { "value": 100.78, "changePct": -0.08 },
+  "vix": { "value": 15.81, "changePct": -2.11 },
+  "wti": { "value": 69.99, "changePct": 1.10 },
+  "fred": {
+    "10y_treasury": { "date": "2026-07-02", "value": 4.457 },
+    "10y_real_rate": { "date": "2026-07-02", "value": 2.25 }
+  },
+  "goldapi": {
+    "price": 4171.05,
+    "change": 12.40,
+    "changePercent": 0.30,
+    "open": 4158.65,
+    "high": 4176.20,
+    "low": 4149.90,
+    "prevClose": 4158.65,
+    "timestamp": 1751630400
+  }
+}
