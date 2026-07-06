@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-06T14:07:51.093913+00:00",
+  "fetchedAt": "2026-07-06T17:16:39.689519+00:00",
   "gold": {
-    "price": 4140.5,
-    "updatedAt": "2026-07-06T14:07:37Z"
+    "price": 4155.600098,
+    "updatedAt": "2026-07-06T17:16:08Z"
   },
   "silver": {
-    "price": 61.909,
-    "updatedAt": "2026-07-06T14:07:37Z"
+    "price": 61.986,
+    "updatedAt": "2026-07-06T17:16:07Z"
   },
   "dxy": {
-    "value": 101.14,
-    "changePct": 0.27
+    "value": 100.96,
+    "changePct": 0.1
   },
   "vix": {
-    "value": 16.22,
-    "changePct": 0.43
+    "value": 15.89,
+    "changePct": -1.61
   },
   "wti": {
-    "value": 68.67,
-    "changePct": -0.03
+    "value": 68.25,
+    "changePct": -0.64
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "CBOT wheat futures rise on USDA acreage cut support",
-      "link": "https://www.investing.com/news/commodities-news/cbot-wheat-futures-rise-on-usda-acreage-cut-support-93CH-4776706",
+      "title": "Cuba’s national electric grid collapses, reason unknown",
+      "link": "https://www.investing.com/news/commodities-news/cubas-national-electric-grid-collapses-reason-unknown-4777119",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices edge lower amid OPEC+ output hike plans, Hormuz uncertainty",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-slip-as-opec-output-hike-fuels-oversupply-concerns-4775512",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Gold prices reverse couse as U.S. dollar recovers from weekly loss",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-rise-as-cooling-rate-hike-bets-hit-dollar-4775514",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Oil falls after OPEC+ agrees to raise output targets",
+      "title": "Oil prices little changed as Saudi cuts prices, OPEC+ boosts target",
       "link": "https://www.investing.com/news/commodities-news/oil-slips-after-opec-agrees-to-raise-output-targets-4775506",
       "publishedAt": null
     },
     {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Trump says over 500,000 U.S. children have received $1,000 Trump account deposits",
-      "link": "https://www.investing.com/news/economy-news/trump-says-over-500000-us-children-have-received-1000-trump-account-deposits-4776803",
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Trump says there will either be a deal with Iran or US will ’finish the job’",
+      "link": "https://www.investing.com/news/commodities-news/trump-says-there-will-either-be-a-deal-with-iran-or-us-will-finish-the-job-4777039",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Gulf crude shipments to Europe rise with 28m barrels due",
+      "link": "https://www.investing.com/news/commodities-news/gulf-crude-shipments-to-europe-rise-with-28m-barrels-due-93CH-4777052",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "India office leasing hits record in first half of 2026",
-      "link": "https://www.investing.com/news/economy-news/india-office-leasing-hits-record-in-first-half-of-2026-93CH-4776772",
+      "title": "S&P 500, Nasdaq rise as chips recover, Broadcom gains on Apple deal",
+      "link": "https://www.investing.com/news/economy-news/us-stock-futures-up-as-chip-shares-recover-oil-prices-decline-4775958",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "AI investors may pivot to hyperscalers from chipmakers, Morgan Stanley says",
-      "link": "https://www.investing.com/news/economy-news/ai-investors-may-pivot-to-hyperscalers-from-chipmakers-morgan-stanley-says-4776770",
+      "title": "Britain’s regulator urged to review AI chatbot financial advice",
+      "link": "https://www.investing.com/news/economy-news/britains-regulator-urged-to-review-ai-chatbot-financial-advice-93CH-4777083",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "ECB payment system hit by second outage in a week",
-      "link": "https://www.investing.com/news/economy-news/ecb-payment-system-hit-by-second-outage-in-a-week-93CH-4776690",
+      "title": "Canadian firms’ inflation outlook eased after Iran ceasefire, BoC survey finds",
+      "link": "https://www.investing.com/news/economy-news/canadian-firms-inflation-outlook-eased-after-iran-ceasefire-boc-survey-finds-4777013",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Bank of Canada survey shows inflation expectations ease after Mideast peace",
+      "link": "https://www.investing.com/news/economy-news/bank-of-canada-survey-shows-inflation-expectations-ease-after-mideast-peace-93CH-4777011",
       "publishedAt": null
     }
   ]
