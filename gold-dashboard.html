@@ -1382,6 +1382,15 @@
 <footer>灰狼黄金 · 个人黄金交易辅助工具原型 · 全部数据为演示用途，非实时行情，仅供个人复盘参考，不构成任何投资建议</footer>
 
 <script>
+// ---------- 诊断用：把任何JS运行时错误直接显示在页面上，不需要打开开发者工具 ----------
+window.addEventListener('error', function(e){
+  const bar = document.querySelector('.data-status-bar');
+  if(bar){
+    bar.innerHTML = '<span class="dot" style="background:#FF3B30"></span><span style="color:#FF3B30"><b>脚本出错：</b>' +
+      (e.message || '未知错误') + '（第' + (e.lineno||'?') + '行）</span>';
+  }
+});
+
 // ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
 const dailyQuotes = [
   { text: "市场可以在你保持偿付能力的时间之前，长期保持非理性状态。", author: "凯恩斯", role: "经济学家" },
@@ -1703,7 +1712,11 @@ async function fetchLiveGoldPrice(){
     const dot = document.querySelector('.data-status-bar .dot');
     if(dot) dot.style.background = 'var(--rise)';
   }catch(e){
-    console.log('实时金价拉取失败（可能是网络限制），当前展示演示数据。');
+    console.log('实时金价拉取失败（可能是网络限制），当前展示演示数据。', e);
+    const bar = document.querySelector('.data-status-bar');
+    if(bar && !bar.textContent.includes('脚本出错')){
+      bar.innerHTML = '<span class="dot" style="background:#FFB000"></span><span style="color:#FFB000"><b>金价实时拉取失败：</b>' + (e.message || String(e)) + '</span>';
+    }
   }
 }
 fetchLiveGoldPrice();
