@@ -27,7 +27,7 @@ OUTPUT_FILE = "gold-data.json"
 # GoldAPI.io：更丰富的数据(涨跌额/涨跌幅/最高/最低/昨收)，需要免费注册的Key。
 # 安全起见，Key不写在代码里，而是从环境变量读取——本地跑就在命令行里临时设置，
 # 部署到GitHub Actions就存成仓库的加密Secret，永远不会出现在公开代码或网页里。
-GOLDAPI_KEY = os.environ.get("GOLDAPI_KEY")
+GOLDAPI_IO_TOKEN = os.environ.get("GOLDAPI_IO_TOKEN")
 
 # FRED 免费数据不需要 Key 也能拉 CSV，但用官方 API 更规范一些。
 # 如果你想用官方 API，需要免费注册一个 FRED API Key（在 fred.stlouisfed.org 免费申请）。
@@ -40,15 +40,15 @@ FRED_SERIES = {
 
 def fetch_goldapi():
     """从 GoldAPI.io 拉取更丰富的金价数据（涨跌额/涨跌幅/最高/最低/昨收）。
-    需要免费注册的Key，通过环境变量 GOLDAPI_KEY 传入。这是服务器端调用，
+    需要免费注册的Key，通过环境变量 GOLDAPI_IO_TOKEN 传入。这是服务器端调用，
     Key不会出现在任何公开文件或网页里。没设置Key时直接跳过，不影响其他数据正常抓取。"""
-    if not GOLDAPI_KEY:
-        print("[信息] 未设置 GOLDAPI_KEY 环境变量，跳过 GoldAPI.io 抓取（可选数据源，不影响其他部分）")
+    if not GOLDAPI_IO_TOKEN:
+        print("[信息] 未设置 GOLDAPI_IO_TOKEN 环境变量，跳过 GoldAPI.io 抓取（可选数据源，不影响其他部分）")
         return None
     try:
         resp = requests.get(
             "https://www.goldapi.io/api/XAU/USD",
-            headers={"x-access-token": GOLDAPI_KEY, "Content-Type": "application/json"},
+            headers={"x-access-token": GOLDAPI_IO_TOKEN, "Content-Type": "application/json"},
             timeout=10,
         )
         resp.raise_for_status()
@@ -103,14 +103,22 @@ def fetch_dxy_vix_oil():
     for key, symbol in tickers.items():
         try:
             t = yf.Ticker(symbol)
-            hist = t.history(period="2d")
+            # 用7天窗口而不是2天：DXY/VIX是指数，遇到周末/假期/当天未收盘时，
+            # 2天窗口经常凑不够2条数据导致误判失败。7天足以覆盖任何长周末。
+            hist = t.history(period="7d")
             if len(hist) >= 2:
                 last = hist["Close"].iloc[-1]
                 prev = hist["Close"].iloc[-2]
                 change_pct = (last - prev) / prev * 100
                 result[key] = {"value": round(float(last), 2), "changePct": round(float(change_pct), 2)}
+            elif len(hist) == 1:
+                # 只抓到1条也比null强：至少把最新价显示出来，涨跌幅留空
+                last = hist["Close"].iloc[-1]
+                result[key] = {"value": round(float(last), 2), "changePct": None}
+                print(f"[提示] {symbol} 只抓到1条历史数据，已显示最新价，涨跌幅暂缺")
             else:
                 result[key] = None
+                print(f"[警告] {symbol} 未返回任何数据（7天窗口内），标记为null")
         except Exception as e:
             print(f"[警告] 拉取 {symbol} 失败: {e}")
             result[key] = None
