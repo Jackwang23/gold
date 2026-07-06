@@ -859,7 +859,7 @@
     <div class="subsection">
       <div class="section-title">舆情速览 <span class="more">全部事件 ›</span></div>
       <div class="sent-legend">● 影响 ・时效 ・信源 —— 三灯常亮代表三项均达标，用于快速判断消息可信度</div>
-      <div class="card">
+      <div class="card" id="sentimentCard">
         <div class="sent-item">
           <div class="sent-cat cat-geo">地缘</div>
           <div class="sent-body">
@@ -1790,6 +1790,30 @@ async function loadLiveData(){
     if(data.wti && data.wti.value){
       const el = document.querySelectorAll('.macro-card .macro-value')[2];
       if(el) el.textContent = '$' + data.wti.value.toFixed(2);
+    }
+
+    // 舆情速览：用 Investing.com 免费RSS抓到的真实新闻标题，替换掉演示条目
+    if(Array.isArray(data.news) && data.news.length > 0){
+      const catClassMap = { commodities:'cat-trade', economy:'cat-policy', central_banks:'cat-geo' };
+      const sentCard = document.getElementById('sentimentCard');
+      if(sentCard){
+        sentCard.innerHTML = data.news.slice(0, 6).map(n => {
+          const catClass = catClassMap[n.category] || 'cat-policy';
+          const timeStr = n.publishedAt ? new Date(n.publishedAt).toLocaleTimeString('zh-CN', {hour12:false}) : '--:--:--';
+          const safeTitle = String(n.title).replace(/</g,'&lt;').replace(/>/g,'&gt;');
+          const link = n.link ? String(n.link).replace(/"/g,'&quot;') : '#';
+          return '<div class="sent-item">' +
+            '<div class="sent-cat ' + catClass + '">' + n.categoryLabel + '</div>' +
+            '<div class="sent-body">' +
+              '<a href="' + link + '" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;"><div class="sent-text">' + safeTitle + '</div></a>' +
+              '<div class="sent-meta">' +
+                '<span class="sent-lights"><span class="light on"></span><span class="light on"></span><span class="light on"></span></span>' +
+                '<span class="sent-time">' + timeStr + ' · Investing.com</span>' +
+              '</div>' +
+            '</div>' +
+          '</div>';
+        }).join('');
+      }
     }
 
     // 更新数据源状态条：金价+宏观指标均已实时化
