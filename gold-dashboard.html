@@ -6,7 +6,7 @@
 <title>灰狼黄金 · 黄金交易终端</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="https://cdn.staticfile.org/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root{
     --bg:#08080A;
@@ -1506,28 +1506,37 @@ let currentPriceRange = '1W';
 // 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线。
 let sessionPricePoints = [];
 
-const priceChart = new Chart(document.getElementById('priceChart'), {
-  type:'line',
-  data:{
-    labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
-    datasets:[{
-      data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
-      borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
-      backgroundColor:(ctx)=>{
-        const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
-        g.addColorStop(0,'rgba(201,162,76,0.20)');
-        g.addColorStop(1,'rgba(201,162,76,0.0)');
-        return g;
+let priceChart = null;
+try{
+  if(typeof Chart !== 'undefined'){
+    priceChart = new Chart(document.getElementById('priceChart'), {
+      type:'line',
+      data:{
+        labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
+        datasets:[{
+          data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
+          borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
+          backgroundColor:(ctx)=>{
+            const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
+            g.addColorStop(0,'rgba(201,162,76,0.20)');
+            g.addColorStop(1,'rgba(201,162,76,0.0)');
+            return g;
+          }
+        }]
+      },
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}, tooltip:{enabled:false}},
+        scales:{x:{display:false}, y:{display:false}},
+        elements:{point:{radius:0}}
       }
-    }]
-  },
-  options:{
-    responsive:true, maintainAspectRatio:false,
-    plugins:{legend:{display:false}, tooltip:{enabled:false}},
-    scales:{x:{display:false}, y:{display:false}},
-    elements:{point:{radius:0}}
+    });
+  } else {
+    console.log('Chart.js 未加载成功，跳过图表渲染，不影响其他功能（实时金价/新闻等照常运行）。');
   }
-});
+}catch(e){
+  console.log('价格图表初始化失败，跳过，不影响其他功能：', e);
+}
 
 function setPriceRange(el, range){
   document.querySelectorAll('.range-tab').forEach(t=>t.classList.remove('active'));
@@ -1535,6 +1544,7 @@ function setPriceRange(el, range){
   currentPriceRange = range;
   const cfg = priceRangeConfig[range];
   const hintEl = document.getElementById('chartKeyHint');
+  if(!priceChart) return; // Chart.js 未加载成功时，直接跳过，不影响其他功能
 
   // 1D：优先用本次会话累计的真实价格点(需要页面开着攒够几个点)
   if(range === '1D' && sessionPricePoints.length >= 3){
@@ -1555,16 +1565,21 @@ function setPriceRange(el, range){
 function spark(id, base, vol, color){
   const el = document.getElementById(id);
   if(!el) return;
-  new Chart(el, {
-    type:'line',
-    data:{ labels:Array.from({length:14},(_,i)=>i),
-      datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
-    options:{
-      responsive:true, maintainAspectRatio:false,
-      plugins:{legend:{display:false}, tooltip:{enabled:false}},
-      scales:{x:{display:false}, y:{display:false}}
-    }
-  });
+  if(typeof Chart === 'undefined') return; // Chart.js 未加载成功时跳过，不影响后续代码执行
+  try{
+    new Chart(el, {
+      type:'line',
+      data:{ labels:Array.from({length:14},(_,i)=>i),
+        datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}, tooltip:{enabled:false}},
+        scales:{x:{display:false}, y:{display:false}}
+      }
+    });
+  }catch(e){
+    console.log('迷你图表(' + id + ')渲染失败，跳过：', e);
+  }
 }
 spark('sparkDxy', 100.78, 0.25, '#C64F4F');
 spark('sparkReal', 2.25, 0.03, '#C64F4F');
