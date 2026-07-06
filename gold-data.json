@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-06T21:15:31.595688+00:00",
+  "fetchedAt": "2026-07-06T22:46:11.902921+00:00",
   "gold": {
-    "price": 4166.0,
-    "updatedAt": "2026-07-06T21:15:08Z"
+    "price": 4168.399902,
+    "updatedAt": "2026-07-06T22:46:08Z"
   },
   "silver": {
-    "price": 62.181999,
-    "updatedAt": "2026-07-06T21:15:07Z"
+    "price": 62.257999,
+    "updatedAt": "2026-07-06T22:46:08Z"
   },
   "dxy": {
-    "value": 100.87,
-    "changePct": 0.01
+    "value": 100.86,
+    "changePct": -0.0
   },
   "vix": {
     "value": 15.57,
     "changePct": -3.59
   },
   "wti": {
-    "value": 68.6,
-    "changePct": -0.13
+    "value": 68.67,
+    "changePct": -0.03
   },
   "fred": {
     "10y_treasury": {
@@ -91,6 +91,20 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
+      "title": "NY Fed says supply chain pressures eased in June",
+      "link": "https://www.investing.com/news/economy-news/ny-fed-says-supply-chain-pressures-eased-in-june-4777003",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Fed’s Waller: Forward guidance ’valuable,’ though not at all moments",
+      "link": "https://www.investing.com/news/economy-news/feds-waller-forward-guidance-valuable-though-not-at-all-moments-4776969",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
       "title": "Trading Day: Chips bounce back, oil eases",
       "link": "https://www.investing.com/news/economy-news/trading-day-chips-bounce-back-oil-eases-4777641",
       "publishedAt": null
@@ -100,20 +114,6 @@
       "categoryLabel": "经济数据",
       "title": "Uruguay central bank expects inflation to exceed target temporarily",
       "link": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "S&P 500, Nasdaq close sharply higher as Broadcom rallies",
-      "link": "https://www.investing.com/news/economy-news/us-stock-futures-up-as-chip-shares-recover-oil-prices-decline-4775958",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Bulgaria and Turkey freeze gas contract terms for 15 months",
-      "link": "https://www.investing.com/news/economy-news/bulgaria-and-turkey-freeze-gas-contract-terms-for-15-months-93CH-4777308",
       "publishedAt": null
     }
   ]
