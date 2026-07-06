@@ -1,0 +1,25 @@
+{
+  "fetchedAt": "2026-07-06T10:20:45.982591+00:00",
+  "gold": {
+    "price": 4150.799805,
+    "updatedAt": "2026-07-06T10:20:37Z"
+  },
+  "silver": {
+    "price": 62.153999,
+    "updatedAt": "2026-07-06T10:20:36Z"
+  },
+  "dxy": null,
+  "vix": null,
+  "wti": null,
+  "fred": {
+    "10y_treasury": {
+      "date": "2026-07-01",
+      "value": 4.48
+    },
+    "10y_real_rate": {
+      "date": "2026-07-01",
+      "value": 2.25
+    }
+  },
+  "goldapi": null
+}
