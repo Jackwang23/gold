@@ -980,7 +980,7 @@
           <div class="decision-item"><span class="bullet">·</span><span>建议数据公布后再确认方向，不建议在真空期追单边</span></div>
         </div>
         <div class="decision-position"><div class="decision-position-label">建议仓位</div><div class="decision-position-val" id="decisionPositionVal">常规仓位的 30%–50%</div></div>
-        <div class="decision-updated">更新于 2026-07-04 19:42:00</div>
+        <div class="decision-updated" id="decisionUpdatedTime">更新于 --</div>
       </div>
     </div>
 
@@ -1095,11 +1095,11 @@
     <div class="subsection">
       <div class="card review-card">
         <div class="review-hit-rate"><div class="review-hit-num mono">68%</div><div class="review-hit-label">风险评级近30日命中率</div></div>
-        <div class="review-list">
-          <div class="review-row"><div class="review-date mono">07-03</div><div class="review-verdict">判定单边趋势日 · 实际单边上行</div><div class="review-check hit">✓</div></div>
-          <div class="review-row"><div class="review-date mono">07-02</div><div class="review-verdict">判定盘整日 · 实际转大起大落</div><div class="review-check miss">✗</div></div>
-          <div class="review-row"><div class="review-date mono">07-01</div><div class="review-verdict">判定大起大落 · 实际宽幅震荡</div><div class="review-check hit">✓</div></div>
-          <div class="review-row"><div class="review-date mono">06-30</div><div class="review-verdict">判定盘整日 · 实际区间震荡</div><div class="review-check hit">✓</div></div>
+        <div class="review-list" id="reviewList">
+          <div class="review-row"><div class="review-date mono" data-days-ago="1">--</div><div class="review-verdict">判定单边趋势日 · 实际单边上行</div><div class="review-check hit">✓</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="2">--</div><div class="review-verdict">判定盘整日 · 实际转大起大落</div><div class="review-check miss">✗</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="3">--</div><div class="review-verdict">判定大起大落 · 实际宽幅震荡</div><div class="review-check hit">✓</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="4">--</div><div class="review-verdict">判定盘整日 · 实际区间震荡</div><div class="review-check hit">✓</div></div>
         </div>
       </div>
     </div>
@@ -1392,7 +1392,7 @@
   <div class="quote-attr" id="dailyQuoteAttr"></div>
 </div>
 
-<footer>灰狼黄金 · 个人黄金交易辅助工具原型 · 全部数据为演示用途，非实时行情，仅供个人复盘参考，不构成任何投资建议</footer>
+<footer>灰狼黄金 · 个人黄金交易辅助工具原型 · 金价为实时数据，宏观/新闻/情绪等模块为演示或人工更新数据，仅供个人复盘参考，不构成任何投资建议</footer>
 
 <script>
 // ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
@@ -1424,6 +1424,29 @@ function renderDailyQuote(){
   if(attrEl) attrEl.innerHTML = q.author + ' <span>· ' + q.role + '</span>';
 }
 renderDailyQuote();
+
+// ---------- 决策源时间戳：显示真实的页面加载时间，而非写死的固定日期 ----------
+function updateDecisionTimestamp(){
+  const el = document.getElementById('decisionUpdatedTime');
+  if(!el) return;
+  const now = new Date();
+  const y = now.getFullYear(), m = String(now.getMonth()+1).padStart(2,'0'), d = String(now.getDate()).padStart(2,'0');
+  const hh = String(now.getHours()).padStart(2,'0'), mm = String(now.getMinutes()).padStart(2,'0'), ss = String(now.getSeconds()).padStart(2,'0');
+  el.textContent = `更新于 ${y}-${m}-${d} ${hh}:${mm}:${ss}`;
+}
+updateDecisionTimestamp();
+
+// ---------- 复盘源日期：按"距今几天"动态计算，避免日期写死后随时间推移显得过时 ----------
+function updateReviewDates(){
+  document.querySelectorAll('#reviewList .review-date').forEach(el=>{
+    const daysAgo = parseInt(el.dataset.daysAgo, 10) || 0;
+    const d = new Date();
+    d.setDate(d.getDate() - daysAgo);
+    const m = String(d.getMonth()+1).padStart(2,'0'), day = String(d.getDate()).padStart(2,'0');
+    el.textContent = m + '-' + day;
+  });
+}
+updateReviewDates();
 
 // ---------- 广播模块 ----------
 // 接入华尔街见闻广播API后，将 bcText 替换为接口返回的当日广播标题/摘要字段
