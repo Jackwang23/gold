@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T16:12:19.492045+00:00",
+  "fetchedAt": "2026-07-07T18:22:25.656430+00:00",
   "gold": {
-    "price": 4141.200195,
-    "updatedAt": "2026-07-07T16:12:10Z"
+    "price": 4142.5,
+    "updatedAt": "2026-07-07T18:22:10Z"
   },
   "silver": {
-    "price": 60.917999,
-    "updatedAt": "2026-07-07T16:12:10Z"
+    "price": 61.119999,
+    "updatedAt": "2026-07-07T18:22:10Z"
   },
   "dxy": {
-    "value": 100.97,
-    "changePct": 0.12
+    "value": 100.96,
+    "changePct": 0.11
   },
   "vix": {
-    "value": 16.16,
-    "changePct": 3.79
+    "value": 15.62,
+    "changePct": 0.32
   },
   "wti": {
-    "value": 70.39,
-    "changePct": 2.68
+    "value": 70.47,
+    "changePct": 2.8
   },
   "fred": {
     "10y_treasury": {
@@ -63,6 +63,20 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "EIA raises oil output forecast after Hormuz reopening",
+      "link": "https://www.investing.com/news/commodities-news/eia-raises-oil-output-forecast-after-hormuz-reopening-93CH-4779815",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Qatar says Iran struck tanker in strait as vast crowds mourn Khamenei",
+      "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "Ukraine strikes Russian ’shadow fleet’ tankers supplying Crimea",
       "link": "https://www.investing.com/news/commodities-news/ukraine-strikes-russian-shadow-fleet-tankers-supplying-crimea-4779755",
       "publishedAt": null
@@ -75,45 +89,31 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs",
-      "link": "https://www.investing.com/news/commodities-news/nato-allies-to-discuss-hormuz-tensions-mission-with-gulf-arabs-4778470",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Oil prices gain as UKMTO says tanker struck by projectile in Hormuz",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "UK and Netherlands sign £2.4bn deal for amphibious ships",
+      "link": "https://www.investing.com/news/economy-news/uk-and-netherlands-sign-24bn-deal-for-amphibious-ships-93CH-4779832",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "’CatsOnACouch’ Instagram account owner sues over exclusion from VP Vance event",
-      "link": "https://www.investing.com/news/economy-news/catsonacouch-instagram-account-owner-sues-over-exclusion-from-vp-vance-event-4779758",
+      "title": "Netanyahu says US and Israel \"see eye to eye\" on big Iran issues",
+      "link": "https://www.investing.com/news/economy-news/netanyahu-says-us-and-israel-see-eye-to-eye-on-big-iran-issues-93CH-4779811",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Prince Harry’s war with UK press is over, and he’s lost",
-      "link": "https://www.investing.com/news/economy-news/prince-harrys-war-with-uk-press-is-over-and-hes-lost-4779739",
+      "title": "US power demand to climb through 2027 on data centers, EIA says",
+      "link": "https://www.investing.com/news/economy-news/us-power-demand-to-climb-through-2027-on-data-centers-eia-says-93CH-4779809",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Exclusive-BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
-      "link": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Factbox-Hedge funds reap June gains by piling into short bets but lose on oil, sources say",
-      "link": "https://www.investing.com/news/economy-news/factboxhedge-funds-reap-june-gains-by-piling-into-short-bets-but-lose-on-oil-sources-say-4779714",
+      "title": "Global oil output to return to pre-war levels by end of year, U.S. says",
+      "link": "https://www.investing.com/news/economy-news/global-oil-output-to-return-to-prewar-levels-by-end-of-year-us-says-93CH-4779799",
       "publishedAt": null
     }
   ]
