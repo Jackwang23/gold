@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T21:54:43.066145+00:00",
+  "fetchedAt": "2026-07-07T23:04:11.059324+00:00",
   "gold": {
-    "price": 4106.799805,
-    "updatedAt": "2026-07-07T21:54:11Z"
+    "price": 4097.700195,
+    "updatedAt": "2026-07-07T23:03:41Z"
   },
   "silver": {
-    "price": 60.091999,
-    "updatedAt": "2026-07-07T21:54:10Z"
+    "price": 59.902,
+    "updatedAt": "2026-07-07T23:03:40Z"
   },
   "dxy": {
-    "value": 101.11,
-    "changePct": 0.26
+    "value": 101.12,
+    "changePct": 0.27
   },
   "vix": {
     "value": 16.13,
     "changePct": 3.6
   },
   "wti": {
-    "value": 72.2,
-    "changePct": 5.32
+    "value": 72.48,
+    "changePct": 5.73
   },
   "fred": {
     "10y_treasury": {
@@ -63,29 +63,29 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US military launches strikes against Iran, Central Command says",
-      "link": "https://www.investing.com/news/commodities-news/us-military-launches-strikes-against-iran-central-command-says-4780328",
+      "title": "US oil prices jump after US military launches strikes against Iran",
+      "link": "https://www.investing.com/news/commodities-news/us-oil-prices-jump-after-us-military-launches-strikes-against-iran-4780487",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices shed more than 1% as dollar firms, oil prices spike on Iran escalation",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
+      "title": "Cuba restores grid but power shortfalls continue amid US fuel blockade",
+      "link": "https://www.investing.com/news/commodities-news/cuba-struggles-to-restore-power-to-island-following-nationwide-grid-collapse-4779626",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked",
+      "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Exxon Mobil signals higher second-quarter earnings",
-      "link": "https://www.investing.com/news/commodities-news/exxon-mobil-signals-higher-secondquarter-earnings-4780088",
+      "title": "Oil jumps after settlement as US revokes general license for Iran oil sales",
+      "link": "https://www.investing.com/news/commodities-news/oil-jumps-after-settlement-as-us-revokes-general-license-for-iran-oil-sales-4779914",
       "publishedAt": null
     },
     {
