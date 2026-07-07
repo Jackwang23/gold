@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T07:58:58.585351+00:00",
+  "fetchedAt": "2026-07-07T11:17:44.447708+00:00",
   "gold": {
-    "price": 4126.299805,
-    "updatedAt": "2026-07-07T07:58:39Z"
+    "price": 4137.700195,
+    "updatedAt": "2026-07-07T11:17:40Z"
   },
   "silver": {
-    "price": 60.985001,
-    "updatedAt": "2026-07-07T07:58:38Z"
+    "price": 60.91,
+    "updatedAt": "2026-07-07T11:17:39Z"
   },
   "dxy": {
-    "value": 100.95,
-    "changePct": 0.1
+    "value": 100.93,
+    "changePct": 0.08
   },
   "vix": {
-    "value": 15.89,
-    "changePct": 2.06
+    "value": 16.0,
+    "changePct": 2.76
   },
   "wti": {
-    "value": 69.57,
-    "changePct": 1.49
+    "value": 69.38,
+    "changePct": 1.21
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
+      "title": "Global gas demand to fall 0.5% in 2026, IEA says",
+      "link": "https://www.investing.com/news/commodities-news/global-gas-demand-to-fall-05-in-2026-iea-says-93CH-4778719",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Cuba begins to restore power to Havana following nationwide blackout",
-      "link": "https://www.investing.com/news/commodities-news/cubas-national-electric-grid-collapses-reason-unknown-4777119",
+      "title": "Morning Bid: Chip dip",
+      "link": "https://www.investing.com/news/commodities-news/morning-bid-chip-dip-4778718",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices fall further as rate uncertainty persists ahead of Fed minutes",
+      "title": "Tankers hit in Hormuz as millions mourn Iran’s Khamenei",
+      "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Gold prices dip as rate uncertainty persists ahead of Fed minutes",
       "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Oil prices gain as focus shifts to supply recovery and demand",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-gain-as-focus-shifts-to-supply-recovery-and-demand-4778140",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Latvia says US has \"invested interest\" in Europe troop presence",
+      "link": "https://www.investing.com/news/economy-news/latvia-says-us-has-invested-interest-in-europe-troop-presence-93CH-4778727",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Futures subdued; Samsung’s operating profit surge - what’s moving markets",
-      "link": "https://www.investing.com/news/economy-news/futures-subdued-samsungs-operating-profit-surge--whats-moving-markets-4778303",
+      "title": "Bank of England warns multiple financial risks may hit at once",
+      "link": "https://www.investing.com/news/economy-news/bank-of-england-warns-multiple-financial-risks-may-hit-at-once-93CH-4778723",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Analysis-China’s booming gig economy masks job market pain, strains welfare system",
-      "link": "https://www.investing.com/news/economy-news/analysischinas-booming-gig-economy-masks-job-market-pain-strains-welfare-system-4777969",
+      "title": "Exclusive-China’s DeepSeek developing its own AI chip, sources say",
+      "link": "https://www.investing.com/news/economy-news/exclusivechinas-deepseek-developing-its-own-ai-chip-sources-say-4778697",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Japan pushes back on views it is pressuring BOJ to keep rates low",
-      "link": "https://www.investing.com/news/economy-news/japan-pushes-back-on-views-it-is-pressuring-boj-to-keep-rates-low-4778209",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Morning Bid: Samsung boom, market gloom",
-      "link": "https://www.investing.com/news/economy-news/morning-bid-samsung-boom-market-gloom-4778208",
+      "title": "Trading surge, helped by SpaceX IPO, seen lifting Wall St banks’ second-quarter earnings",
+      "link": "https://www.investing.com/news/economy-news/trading-surge-helped-by-spacex-ipo-seen-lifting-wall-st-banks-secondquarter-earnings-4778616",
       "publishedAt": null
     }
   ]
