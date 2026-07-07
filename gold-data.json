@@ -1,33 +1,33 @@
 {
-  "fetchedAt": "2026-07-07T18:22:25.656430+00:00",
+  "fetchedAt": "2026-07-07T20:26:10.274969+00:00",
   "gold": {
-    "price": 4142.5,
-    "updatedAt": "2026-07-07T18:22:10Z"
+    "price": 4109.5,
+    "updatedAt": "2026-07-07T20:25:44Z"
   },
   "silver": {
-    "price": 61.119999,
-    "updatedAt": "2026-07-07T18:22:10Z"
+    "price": 60.205002,
+    "updatedAt": "2026-07-07T20:25:40Z"
   },
   "dxy": {
-    "value": 100.96,
-    "changePct": 0.11
+    "value": 101.08,
+    "changePct": 0.23
   },
   "vix": {
-    "value": 15.62,
-    "changePct": 0.32
+    "value": 16.12,
+    "changePct": 3.53
   },
   "wti": {
-    "value": 70.47,
-    "changePct": 2.8
+    "value": 72.02,
+    "changePct": 5.06
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-07-02",
-      "value": 4.49
+      "date": "2026-07-06",
+      "value": 4.48
     },
     "10y_real_rate": {
-      "date": "2026-07-02",
-      "value": 2.26
+      "date": "2026-07-06",
+      "value": 2.24
     }
   },
   "goldapi": null,
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "EIA raises oil output forecast after Hormuz reopening",
-      "link": "https://www.investing.com/news/commodities-news/eia-raises-oil-output-forecast-after-hormuz-reopening-93CH-4779815",
+      "title": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Qatar says Iran struck tanker in strait as vast crowds mourn Khamenei",
+      "title": "Oil jumps after settlement as US revokes general license for Iran oil sales",
+      "link": "https://www.investing.com/news/commodities-news/oil-jumps-after-settlement-as-us-revokes-general-license-for-iran-oil-sales-4779914",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Qatar blames Iran for strike on tanker in strait as vast crowds mourn Khamenei",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Ukraine strikes Russian ’shadow fleet’ tankers supplying Crimea",
-      "link": "https://www.investing.com/news/commodities-news/ukraine-strikes-russian-shadow-fleet-tankers-supplying-crimea-4779755",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "EU candidate countries should not expect membership soon, Serbia’s Vucic says",
-      "link": "https://www.investing.com/news/commodities-news/eu-candidate-countries-should-not-expect-membership-soon-serbias-vucic-says-4779740",
+      "title": "Cotton futures hit daily limit with 3 cent surge",
+      "link": "https://www.investing.com/news/commodities-news/cotton-futures-hit-daily-limit-with-3-cent-surge-93CH-4779863",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "UK and Netherlands sign £2.4bn deal for amphibious ships",
-      "link": "https://www.investing.com/news/economy-news/uk-and-netherlands-sign-24bn-deal-for-amphibious-ships-93CH-4779832",
+      "title": "U.S. revokes license allowing Iranian oil sales after new attacks on three ships",
+      "link": "https://www.investing.com/news/economy-news/iran-resumes-attacks-in-strait-of-hormuz-axios-reports-4778197",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Netanyahu says US and Israel \"see eye to eye\" on big Iran issues",
-      "link": "https://www.investing.com/news/economy-news/netanyahu-says-us-and-israel-see-eye-to-eye-on-big-iran-issues-93CH-4779811",
+      "title": "EPA air pollution chief Aaron Szabo resigns after a year - Bloomberg",
+      "link": "https://www.investing.com/news/economy-news/epa-air-pollution-chief-aaron-szabo-resigns-after-a-year--bloomberg-93CH-4779918",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "US power demand to climb through 2027 on data centers, EIA says",
-      "link": "https://www.investing.com/news/economy-news/us-power-demand-to-climb-through-2027-on-data-centers-eia-says-93CH-4779809",
+      "title": "Oil gains as US revokes license for Iranian sales after tanker attacks",
+      "link": "https://www.investing.com/news/economy-news/oil-gains-as-us-revokes-license-for-iranian-sales-after-tanker-attacks-4779887",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Global oil output to return to pre-war levels by end of year, U.S. says",
-      "link": "https://www.investing.com/news/economy-news/global-oil-output-to-return-to-prewar-levels-by-end-of-year-us-says-93CH-4779799",
+      "title": "France’s Marine Le Pen confirms 2027 presidential bid after court ruling",
+      "link": "https://www.investing.com/news/economy-news/frances-marine-le-pen-confirms-2027-presidential-bid-after-court-ruling-93CH-4779861",
       "publishedAt": null
     }
   ]
