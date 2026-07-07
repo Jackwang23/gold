@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T13:35:06.166541+00:00",
+  "fetchedAt": "2026-07-07T16:12:19.492045+00:00",
   "gold": {
-    "price": 4170.0,
-    "updatedAt": "2026-07-07T13:34:40Z"
+    "price": 4141.200195,
+    "updatedAt": "2026-07-07T16:12:10Z"
   },
   "silver": {
-    "price": 61.466,
-    "updatedAt": "2026-07-07T13:34:39Z"
+    "price": 60.917999,
+    "updatedAt": "2026-07-07T16:12:10Z"
   },
   "dxy": {
-    "value": 100.92,
-    "changePct": 0.07
+    "value": 100.97,
+    "changePct": 0.12
   },
   "vix": {
-    "value": 15.87,
-    "changePct": 1.93
+    "value": 16.16,
+    "changePct": 3.79
   },
   "wti": {
-    "value": 69.61,
-    "changePct": 1.55
+    "value": 70.39,
+    "changePct": 2.68
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei",
-      "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "title": "Ukraine strikes Russian ’shadow fleet’ tankers supplying Crimea",
+      "link": "https://www.investing.com/news/commodities-news/ukraine-strikes-russian-shadow-fleet-tankers-supplying-crimea-4779755",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Russia’s gold reserves drop to $298.99b in June",
-      "link": "https://www.investing.com/news/commodities-news/russias-gold-reserves-drop-to-29899b-in-june-93CH-4779401",
+      "title": "EU candidate countries should not expect membership soon, Serbia’s Vucic says",
+      "link": "https://www.investing.com/news/commodities-news/eu-candidate-countries-should-not-expect-membership-soon-serbias-vucic-says-4779740",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices steady as rate uncertainty persists ahead of Fed minutes",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
+      "title": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs",
+      "link": "https://www.investing.com/news/commodities-news/nato-allies-to-discuss-hormuz-tensions-mission-with-gulf-arabs-4778470",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Global gas demand to fall 0.5% in 2026, IEA says",
-      "link": "https://www.investing.com/news/commodities-news/global-gas-demand-to-fall-05-in-2026-iea-says-93CH-4778719",
+      "title": "Oil prices gain as UKMTO says tanker struck by projectile in Hormuz",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Canada trade surplus widens to C$4.2B on aluminum exports",
-      "link": "https://www.investing.com/news/economy-news/canada-trade-surplus-widens-to-c42b-on-aluminum-exports-93CH-4779407",
+      "title": "’CatsOnACouch’ Instagram account owner sues over exclusion from VP Vance event",
+      "link": "https://www.investing.com/news/economy-news/catsonacouch-instagram-account-owner-sues-over-exclusion-from-vp-vance-event-4779758",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Exclusive-China’s DeepSeek developing its own AI chip, sources say",
-      "link": "https://www.investing.com/news/economy-news/exclusivechinas-deepseek-developing-its-own-ai-chip-sources-say-4778697",
+      "title": "Prince Harry’s war with UK press is over, and he’s lost",
+      "link": "https://www.investing.com/news/economy-news/prince-harrys-war-with-uk-press-is-over-and-hes-lost-4779739",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Canada’s trade surplus in May jumps to a four-year high",
-      "link": "https://www.investing.com/news/economy-news/canadas-trade-surplus-in-may-sharply-up-to-a-fouryear-high-4779266",
+      "title": "Exclusive-BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
+      "link": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "French court upholds Le Pen conviction, reduces election ban",
-      "link": "https://www.investing.com/news/economy-news/french-court-upholds-le-pen-conviction-reduces-election-ban-93CH-4779338",
+      "title": "Factbox-Hedge funds reap June gains by piling into short bets but lose on oil, sources say",
+      "link": "https://www.investing.com/news/economy-news/factboxhedge-funds-reap-june-gains-by-piling-into-short-bets-but-lose-on-oil-sources-say-4779714",
       "publishedAt": null
     }
   ]
