@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T11:17:44.447708+00:00",
+  "fetchedAt": "2026-07-07T13:35:06.166541+00:00",
   "gold": {
-    "price": 4137.700195,
-    "updatedAt": "2026-07-07T11:17:40Z"
+    "price": 4170.0,
+    "updatedAt": "2026-07-07T13:34:40Z"
   },
   "silver": {
-    "price": 60.91,
-    "updatedAt": "2026-07-07T11:17:39Z"
+    "price": 61.466,
+    "updatedAt": "2026-07-07T13:34:39Z"
   },
   "dxy": {
-    "value": 100.93,
-    "changePct": 0.08
+    "value": 100.92,
+    "changePct": 0.07
   },
   "vix": {
-    "value": 16.0,
-    "changePct": 2.76
+    "value": 15.87,
+    "changePct": 1.93
   },
   "wti": {
-    "value": 69.38,
-    "changePct": 1.21
+    "value": 69.61,
+    "changePct": 1.55
   },
   "fred": {
     "10y_treasury": {
@@ -63,43 +63,36 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Global gas demand to fall 0.5% in 2026, IEA says",
-      "link": "https://www.investing.com/news/commodities-news/global-gas-demand-to-fall-05-in-2026-iea-says-93CH-4778719",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Morning Bid: Chip dip",
-      "link": "https://www.investing.com/news/commodities-news/morning-bid-chip-dip-4778718",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Tankers hit in Hormuz as millions mourn Iran’s Khamenei",
+      "title": "Qatar blames Iran for striking tanker in strait as huge crowds mourn Khamenei",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices dip as rate uncertainty persists ahead of Fed minutes",
+      "title": "Russia’s gold reserves drop to $298.99b in June",
+      "link": "https://www.investing.com/news/commodities-news/russias-gold-reserves-drop-to-29899b-in-june-93CH-4779401",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Gold prices steady as rate uncertainty persists ahead of Fed minutes",
       "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
       "publishedAt": null
     },
     {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Latvia says US has \"invested interest\" in Europe troop presence",
-      "link": "https://www.investing.com/news/economy-news/latvia-says-us-has-invested-interest-in-europe-troop-presence-93CH-4778727",
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Global gas demand to fall 0.5% in 2026, IEA says",
+      "link": "https://www.investing.com/news/commodities-news/global-gas-demand-to-fall-05-in-2026-iea-says-93CH-4778719",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Bank of England warns multiple financial risks may hit at once",
-      "link": "https://www.investing.com/news/economy-news/bank-of-england-warns-multiple-financial-risks-may-hit-at-once-93CH-4778723",
+      "title": "Canada trade surplus widens to C$4.2B on aluminum exports",
+      "link": "https://www.investing.com/news/economy-news/canada-trade-surplus-widens-to-c42b-on-aluminum-exports-93CH-4779407",
       "publishedAt": null
     },
     {
@@ -112,8 +105,15 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Trading surge, helped by SpaceX IPO, seen lifting Wall St banks’ second-quarter earnings",
-      "link": "https://www.investing.com/news/economy-news/trading-surge-helped-by-spacex-ipo-seen-lifting-wall-st-banks-secondquarter-earnings-4778616",
+      "title": "Canada’s trade surplus in May jumps to a four-year high",
+      "link": "https://www.investing.com/news/economy-news/canadas-trade-surplus-in-may-sharply-up-to-a-fouryear-high-4779266",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "French court upholds Le Pen conviction, reduces election ban",
+      "link": "https://www.investing.com/news/economy-news/french-court-upholds-le-pen-conviction-reduces-election-ban-93CH-4779338",
       "publishedAt": null
     }
   ]
