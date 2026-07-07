@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T20:26:10.274969+00:00",
+  "fetchedAt": "2026-07-07T21:54:43.066145+00:00",
   "gold": {
-    "price": 4109.5,
-    "updatedAt": "2026-07-07T20:25:44Z"
+    "price": 4106.799805,
+    "updatedAt": "2026-07-07T21:54:11Z"
   },
   "silver": {
-    "price": 60.205002,
-    "updatedAt": "2026-07-07T20:25:40Z"
+    "price": 60.091999,
+    "updatedAt": "2026-07-07T21:54:10Z"
   },
   "dxy": {
-    "value": 101.08,
-    "changePct": 0.23
+    "value": 101.11,
+    "changePct": 0.26
   },
   "vix": {
-    "value": 16.12,
-    "changePct": 3.53
+    "value": 16.13,
+    "changePct": 3.6
   },
   "wti": {
-    "value": 72.02,
-    "changePct": 5.06
+    "value": 72.2,
+    "changePct": 5.32
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
+      "title": "US military launches strikes against Iran, Central Command says",
+      "link": "https://www.investing.com/news/commodities-news/us-military-launches-strikes-against-iran-central-command-says-4780328",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil jumps after settlement as US revokes general license for Iran oil sales",
-      "link": "https://www.investing.com/news/commodities-news/oil-jumps-after-settlement-as-us-revokes-general-license-for-iran-oil-sales-4779914",
+      "title": "Gold prices shed more than 1% as dollar firms, oil prices spike on Iran escalation",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Qatar blames Iran for strike on tanker in strait as vast crowds mourn Khamenei",
+      "title": "US revokes Iran oil sale license in a threat to fragile truce after ships attacked",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Cotton futures hit daily limit with 3 cent surge",
-      "link": "https://www.investing.com/news/commodities-news/cotton-futures-hit-daily-limit-with-3-cent-surge-93CH-4779863",
+      "title": "Exxon Mobil signals higher second-quarter earnings",
+      "link": "https://www.investing.com/news/commodities-news/exxon-mobil-signals-higher-secondquarter-earnings-4780088",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "U.S. revokes license allowing Iranian oil sales after new attacks on three ships",
+      "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
+      "link": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Exclusive-China’s DeepSeek developing its own AI chip, sources say",
+      "link": "https://www.investing.com/news/economy-news/exclusivechinas-deepseek-developing-its-own-ai-chip-sources-say-4778697",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "U.S. launches retaliatory strikes against Iran for new attacks on three ships",
       "link": "https://www.investing.com/news/economy-news/iran-resumes-attacks-in-strait-of-hormuz-axios-reports-4778197",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "EPA air pollution chief Aaron Szabo resigns after a year - Bloomberg",
-      "link": "https://www.investing.com/news/economy-news/epa-air-pollution-chief-aaron-szabo-resigns-after-a-year--bloomberg-93CH-4779918",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Oil gains as US revokes license for Iranian sales after tanker attacks",
-      "link": "https://www.investing.com/news/economy-news/oil-gains-as-us-revokes-license-for-iranian-sales-after-tanker-attacks-4779887",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "France’s Marine Le Pen confirms 2027 presidential bid after court ruling",
-      "link": "https://www.investing.com/news/economy-news/frances-marine-le-pen-confirms-2027-presidential-bid-after-court-ruling-93CH-4779861",
+      "title": "IMF appoints Silvana Tenreyro as chief economist, head of research",
+      "link": "https://www.investing.com/news/economy-news/imf-appoints-silvana-tenreyro-as-chief-economist-head-of-research-4780266",
       "publishedAt": null
     }
   ]
