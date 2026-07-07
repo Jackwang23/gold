@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T04:17:22.638594+00:00",
+  "fetchedAt": "2026-07-07T07:58:58.585351+00:00",
   "gold": {
-    "price": 4134.600098,
-    "updatedAt": "2026-07-07T04:17:09Z"
+    "price": 4126.299805,
+    "updatedAt": "2026-07-07T07:58:39Z"
   },
   "silver": {
-    "price": 61.203999,
-    "updatedAt": "2026-07-07T04:17:08Z"
+    "price": 60.985001,
+    "updatedAt": "2026-07-07T07:58:38Z"
   },
   "dxy": {
-    "value": 100.88,
-    "changePct": 0.03
+    "value": 100.95,
+    "changePct": 0.1
   },
   "vix": {
-    "value": 15.57,
-    "changePct": -3.59
+    "value": 15.89,
+    "changePct": 2.06
   },
   "wti": {
-    "value": 68.94,
-    "changePct": 0.57
+    "value": 69.57,
+    "changePct": 1.49
   },
   "fred": {
     "10y_treasury": {
@@ -63,15 +63,22 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices edge lower as rate uncertainty persists ahead of Fed minutes",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
+      "title": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
+      "title": "Cuba begins to restore power to Havana following nationwide blackout",
+      "link": "https://www.investing.com/news/commodities-news/cubas-national-electric-grid-collapses-reason-unknown-4777119",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Gold prices fall further as rate uncertainty persists ahead of Fed minutes",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
       "publishedAt": null
     },
     {
@@ -82,38 +89,31 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Democratic AGs oppose Trump plan to impose tariffs on forced labor concerns",
-      "link": "https://www.investing.com/news/commodities-news/democratic-ags-oppose-trump-plan-to-impose-tariffs-on-forced-labor-concerns-4777782",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Futures subdued; Samsung’s operating profit surge - what’s moving markets",
+      "link": "https://www.investing.com/news/economy-news/futures-subdued-samsungs-operating-profit-surge--whats-moving-markets-4778303",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Iran resumes attacks in Strait of Hormuz, Axios reports",
-      "link": "https://www.investing.com/news/economy-news/iran-resumes-attacks-in-strait-of-hormuz-axios-reports-4778197",
+      "title": "Analysis-China’s booming gig economy masks job market pain, strains welfare system",
+      "link": "https://www.investing.com/news/economy-news/analysischinas-booming-gig-economy-masks-job-market-pain-strains-welfare-system-4777969",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Australian shares little changed as gold miners, consumer stocks drag",
-      "link": "https://www.investing.com/news/economy-news/australian-shares-little-changed-as-gold-miners-consumer-stocks-drag-4778164",
+      "title": "Japan pushes back on views it is pressuring BOJ to keep rates low",
+      "link": "https://www.investing.com/news/economy-news/japan-pushes-back-on-views-it-is-pressuring-boj-to-keep-rates-low-4778209",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Analysis-China breaks step with global markets, and investors buy in",
-      "link": "https://www.investing.com/news/economy-news/analysischina-breaks-step-with-global-markets-and-investors-buy-in-4778156",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "ECB’s Schnabel says Iran shock is not over",
-      "link": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-iran-shock-is-not-over-4777165",
+      "title": "Morning Bid: Samsung boom, market gloom",
+      "link": "https://www.investing.com/news/economy-news/morning-bid-samsung-boom-market-gloom-4778208",
       "publishedAt": null
     }
   ]
