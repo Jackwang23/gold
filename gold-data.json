@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-07T00:09:59.716450+00:00",
+  "fetchedAt": "2026-07-07T04:17:22.638594+00:00",
   "gold": {
-    "price": 4157.700195,
-    "updatedAt": "2026-07-07T00:09:38Z"
+    "price": 4134.600098,
+    "updatedAt": "2026-07-07T04:17:09Z"
   },
   "silver": {
-    "price": 62.054001,
-    "updatedAt": "2026-07-07T00:09:38Z"
+    "price": 61.203999,
+    "updatedAt": "2026-07-07T04:17:08Z"
   },
   "dxy": {
-    "value": 100.87,
-    "changePct": 0.01
+    "value": 100.88,
+    "changePct": 0.03
   },
   "vix": {
     "value": 15.57,
     "changePct": -3.59
   },
   "wti": {
-    "value": 68.76,
-    "changePct": 0.1
+    "value": 68.94,
+    "changePct": 0.57
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold mixed as traders weigh Fed rate cues against easing inflationary jitters",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-rise-as-cooling-rate-hike-bets-hit-dollar-4775514",
+      "title": "Gold prices edge lower as rate uncertainty persists ahead of Fed minutes",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-rate-uncertainty-persists-ahead-of-fed-minutes-4778187",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US Strategic Petroleum Reserve drops to lowest since 1983",
-      "link": "https://www.investing.com/news/commodities-news/us-strategic-petroleum-reserve-drops-to-lowest-since-1983-93CH-4777537",
+      "title": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Trump says there will either be a deal with Iran or US will ’finish the job’",
-      "link": "https://www.investing.com/news/commodities-news/trump-says-there-will-either-be-a-deal-with-iran-or-us-will-finish-the-job-4777039",
+      "title": "Oil prices gain as focus shifts to supply recovery and demand",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-gain-as-focus-shifts-to-supply-recovery-and-demand-4778140",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices settle at pre-Iran war levels as crude output grows",
-      "link": "https://www.investing.com/news/commodities-news/oil-slips-after-opec-agrees-to-raise-output-targets-4775506",
+      "title": "Democratic AGs oppose Trump plan to impose tariffs on forced labor concerns",
+      "link": "https://www.investing.com/news/commodities-news/democratic-ags-oppose-trump-plan-to-impose-tariffs-on-forced-labor-concerns-4777782",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "NY Fed says supply chain pressures eased in June",
-      "link": "https://www.investing.com/news/economy-news/ny-fed-says-supply-chain-pressures-eased-in-june-4777003",
+      "title": "Iran resumes attacks in Strait of Hormuz, Axios reports",
+      "link": "https://www.investing.com/news/economy-news/iran-resumes-attacks-in-strait-of-hormuz-axios-reports-4778197",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Fed’s Waller: Forward guidance ’valuable,’ though not at all moments",
-      "link": "https://www.investing.com/news/economy-news/feds-waller-forward-guidance-valuable-though-not-at-all-moments-4776969",
+      "title": "Australian shares little changed as gold miners, consumer stocks drag",
+      "link": "https://www.investing.com/news/economy-news/australian-shares-little-changed-as-gold-miners-consumer-stocks-drag-4778164",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Trading Day: Chips bounce back, oil eases",
-      "link": "https://www.investing.com/news/economy-news/trading-day-chips-bounce-back-oil-eases-4777641",
+      "title": "Analysis-China breaks step with global markets, and investors buy in",
+      "link": "https://www.investing.com/news/economy-news/analysischina-breaks-step-with-global-markets-and-investors-buy-in-4778156",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Uruguay central bank expects inflation to exceed target temporarily",
-      "link": "https://www.investing.com/news/economy-news/uruguay-central-bank-expects-inflation-to-exceed-target-temporarily-93CH-4777538",
+      "title": "ECB’s Schnabel says Iran shock is not over",
+      "link": "https://www.investing.com/news/economy-news/ecbs-schnabel-says-iran-shock-is-not-over-4777165",
       "publishedAt": null
     }
   ]
