@@ -6,7 +6,7 @@
 <title>灰狼黄金 · 黄金交易终端</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
-<script src="https://cdn.staticfile.org/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root{
     --bg:#08080A;
@@ -132,12 +132,15 @@
     position:relative; height:32px; border-radius:6px; overflow:hidden;
     background:var(--panel); border:1px solid var(--line);
   }
+  .volume-heatmap{ position:absolute; inset:0; z-index:0; }
   .session-block{
-    position:absolute; top:0; bottom:0;
+    position:absolute; top:0; bottom:0; z-index:1;
     display:flex; align-items:center; justify-content:center;
-    font-size:9px; font-weight:700; letter-spacing:.03em; color:var(--text-mute);
+    font-size:9px; font-weight:700; letter-spacing:.03em; color:var(--text-soft);
+    text-shadow:0 1px 3px rgba(0,0,0,0.7);
   }
-  .session-block.overlap{ background:var(--amber-dim); color:var(--amber); }
+  .session-block.overlap{ color:var(--amber); font-weight:800; }
+  .session-block-divider{ position:absolute; top:0; bottom:0; width:1px; background:rgba(0,0,0,0.35); z-index:1; }
   .now-marker{ position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--text); z-index:5; }
   .now-marker::after{
     content:''; position:absolute; top:-4px; left:50%; transform:translateX(-50%);
@@ -146,6 +149,11 @@
   .session-legend{ display:flex; gap:11px; margin-top:8px; font-size:10px; color:var(--text-mute); flex-wrap:wrap; }
   .session-legend span{display:flex; align-items:center; gap:4px;}
   .legend-swatch{width:8px;height:8px;border-radius:2px;}
+  .volume-gradient-bar{
+    height:6px; border-radius:3px; margin-top:7px;
+    background:linear-gradient(90deg, var(--panel-2) 0%, var(--amber) 100%);
+  }
+  .volume-gradient-labels{display:flex; justify-content:space-between; font-size:8.5px; color:var(--text-mute); margin-top:3px;}
 
   /* ---- Layout / Zone system ---- */
   main{padding:16px 16px 4px; display:flex; flex-direction:column; gap:10px;}
@@ -656,14 +664,19 @@
   <div class="session-strip">
     <div class="session-strip-label">
       <span>交易时段 · 北京时间 <b id="bjTimeLabel">--:--</b></span>
-      <span>伦敦-纽约重叠 <b style="color:var(--amber)">高波动</b></span>
+      <span>当前成交量水平 <b id="volNowLabel" style="color:var(--amber)">--</b></span>
     </div>
-    <div class="session-track" id="sessionTrack"></div>
+    <div class="session-track">
+      <div class="volume-heatmap" id="volumeHeatmap"></div>
+      <div id="sessionTrack" style="position:absolute; inset:0;"></div>
+    </div>
+    <div class="volume-gradient-bar"></div>
+    <div class="volume-gradient-labels"><span>成交量低</span><span>成交量高（伦敦-纽约重叠）</span></div>
     <div class="session-legend">
       <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>亚盘 07-16</span>
       <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>欧盘 15-24</span>
       <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>美盘 20-05</span>
-      <span><span class="legend-swatch" style="background:var(--amber-dim)"></span>欧美重叠 20-24 流动性最高</span>
+      <span><span class="legend-swatch" style="background:var(--amber)"></span>欧美重叠 20-24 流动性最高</span>
     </div>
   </div>
 
@@ -859,7 +872,7 @@
     <div class="subsection">
       <div class="section-title">舆情速览 <span class="more">全部事件 ›</span></div>
       <div class="sent-legend">● 影响 ・时效 ・信源 —— 三灯常亮代表三项均达标，用于快速判断消息可信度</div>
-      <div class="card" id="sentimentCard">
+      <div class="card">
         <div class="sent-item">
           <div class="sent-cat cat-geo">地缘</div>
           <div class="sent-body">
@@ -1382,15 +1395,6 @@
 <footer>灰狼黄金 · 个人黄金交易辅助工具原型 · 全部数据为演示用途，非实时行情，仅供个人复盘参考，不构成任何投资建议</footer>
 
 <script>
-// ---------- 诊断用：把任何JS运行时错误直接显示在页面上，不需要打开开发者工具 ----------
-window.addEventListener('error', function(e){
-  const bar = document.querySelector('.data-status-bar');
-  if(bar){
-    bar.innerHTML = '<span class="dot" style="background:#FF3B30"></span><span style="color:#FF3B30"><b>脚本出错：</b>' +
-      (e.message || '未知错误') + '（第' + (e.lineno||'?') + '行）</span>';
-  }
-});
-
 // ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
 const dailyQuotes = [
   { text: "市场可以在你保持偿付能力的时间之前，长期保持非理性状态。", author: "凯恩斯", role: "经济学家" },
@@ -1442,6 +1446,34 @@ document.getElementById('bcPlay').addEventListener('click', function(){
 });
 
 // ---------- 时区会话条 ----------
+// 黄金24小时(北京时间)相对成交量强度参考曲线，0-100分。
+// 参考经验规律：伦敦-纽约重叠时段(20-24点)流动性最高，NY午后到亚盘开盘前(03-07点)是全天最清淡的"死亡时段"。
+const goldVolumeProfile = [
+  55, 48, 40, 25, 15, 12, 18, 28,  //  0- 7点
+  35, 40, 42, 40, 35, 38, 45, 55,  //  8-15点
+  62, 68, 72, 78, 92, 100, 98, 90  // 16-23点
+];
+
+function volumeLabel(v){
+  if(v >= 80) return '高';
+  if(v >= 45) return '中';
+  return '低';
+}
+
+function renderVolumeHeatmap(){
+  const el = document.getElementById('volumeHeatmap');
+  if(!el) return;
+  // 用24个色标拼一条渐进的linear-gradient，強度越高越接近琥珀金、越低越接近深色背景
+  const stops = goldVolumeProfile.map((v, h) => {
+    const pct = (h / 24) * 100;
+    const alpha = (0.06 + (v/100) * 0.34).toFixed(3); // 0.06(低量)~0.40(高量)透明度区间
+    return `rgba(201,162,76,${alpha}) ${pct}%`;
+  });
+  // 首尾闭合，让0点与24点颜色衔接
+  stops.push(`rgba(201,162,76,${(0.06 + (goldVolumeProfile[0]/100)*0.34).toFixed(3)}) 100%`);
+  el.style.background = `linear-gradient(90deg, ${stops.join(', ')})`;
+}
+
 function renderSessionStrip(){
   const track = document.getElementById('sessionTrack');
   const now = new Date();
@@ -1449,6 +1481,15 @@ function renderSessionStrip(){
   const bjMin = now.getUTCMinutes();
   document.getElementById('bjTimeLabel').textContent =
     String(bjHour).padStart(2,'0') + ':' + String(bjMin).padStart(2,'0');
+
+  const currentVol = goldVolumeProfile[bjHour];
+  const volLabelEl = document.getElementById('volNowLabel');
+  if(volLabelEl){
+    volLabelEl.textContent = volumeLabel(currentVol) + '（约' + currentVol + '/100）';
+    volLabelEl.style.color = currentVol >= 80 ? 'var(--amber)' : (currentVol >= 45 ? 'var(--text-soft)' : 'var(--text-mute)');
+  }
+
+  renderVolumeHeatmap();
 
   const sessions = [
     {name:'亚盘', start:7, end:16, overlap:false},
@@ -1465,7 +1506,6 @@ function renderSessionStrip(){
     block.style.left = left + '%';
     block.style.width = width + '%';
     block.textContent = s.overlap ? '★ 高波动' : s.name;
-    if(s.overlap){ block.style.borderLeft = '1px dashed var(--amber)'; block.style.borderRight = '1px dashed var(--amber)'; }
     track.appendChild(block);
   });
   const marker = document.createElement('div');
@@ -1506,37 +1546,28 @@ let currentPriceRange = '1W';
 // 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线。
 let sessionPricePoints = [];
 
-let priceChart = null;
-try{
-  if(typeof Chart !== 'undefined'){
-    priceChart = new Chart(document.getElementById('priceChart'), {
-      type:'line',
-      data:{
-        labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
-        datasets:[{
-          data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
-          borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
-          backgroundColor:(ctx)=>{
-            const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
-            g.addColorStop(0,'rgba(201,162,76,0.20)');
-            g.addColorStop(1,'rgba(201,162,76,0.0)');
-            return g;
-          }
-        }]
-      },
-      options:{
-        responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}, tooltip:{enabled:false}},
-        scales:{x:{display:false}, y:{display:false}},
-        elements:{point:{radius:0}}
+const priceChart = new Chart(document.getElementById('priceChart'), {
+  type:'line',
+  data:{
+    labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
+    datasets:[{
+      data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
+      borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
+      backgroundColor:(ctx)=>{
+        const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
+        g.addColorStop(0,'rgba(201,162,76,0.20)');
+        g.addColorStop(1,'rgba(201,162,76,0.0)');
+        return g;
       }
-    });
-  } else {
-    console.log('Chart.js 未加载成功，跳过图表渲染，不影响其他功能（实时金价/新闻等照常运行）。');
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    plugins:{legend:{display:false}, tooltip:{enabled:false}},
+    scales:{x:{display:false}, y:{display:false}},
+    elements:{point:{radius:0}}
   }
-}catch(e){
-  console.log('价格图表初始化失败，跳过，不影响其他功能：', e);
-}
+});
 
 function setPriceRange(el, range){
   document.querySelectorAll('.range-tab').forEach(t=>t.classList.remove('active'));
@@ -1544,7 +1575,6 @@ function setPriceRange(el, range){
   currentPriceRange = range;
   const cfg = priceRangeConfig[range];
   const hintEl = document.getElementById('chartKeyHint');
-  if(!priceChart) return; // Chart.js 未加载成功时，直接跳过，不影响其他功能
 
   // 1D：优先用本次会话累计的真实价格点(需要页面开着攒够几个点)
   if(range === '1D' && sessionPricePoints.length >= 3){
@@ -1565,21 +1595,16 @@ function setPriceRange(el, range){
 function spark(id, base, vol, color){
   const el = document.getElementById(id);
   if(!el) return;
-  if(typeof Chart === 'undefined') return; // Chart.js 未加载成功时跳过，不影响后续代码执行
-  try{
-    new Chart(el, {
-      type:'line',
-      data:{ labels:Array.from({length:14},(_,i)=>i),
-        datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
-      options:{
-        responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}, tooltip:{enabled:false}},
-        scales:{x:{display:false}, y:{display:false}}
-      }
-    });
-  }catch(e){
-    console.log('迷你图表(' + id + ')渲染失败，跳过：', e);
-  }
+  new Chart(el, {
+    type:'line',
+    data:{ labels:Array.from({length:14},(_,i)=>i),
+      datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{enabled:false}},
+      scales:{x:{display:false}, y:{display:false}}
+    }
+  });
 }
 spark('sparkDxy', 100.78, 0.25, '#C64F4F');
 spark('sparkReal', 2.25, 0.03, '#C64F4F');
@@ -1727,11 +1752,7 @@ async function fetchLiveGoldPrice(){
     const dot = document.querySelector('.data-status-bar .dot');
     if(dot) dot.style.background = 'var(--rise)';
   }catch(e){
-    console.log('实时金价拉取失败（可能是网络限制），当前展示演示数据。', e);
-    const bar = document.querySelector('.data-status-bar');
-    if(bar && !bar.textContent.includes('脚本出错')){
-      bar.innerHTML = '<span class="dot" style="background:#FFB000"></span><span style="color:#FFB000"><b>金价实时拉取失败：</b>' + (e.message || String(e)) + '</span>';
-    }
+    console.log('实时金价拉取失败（可能是网络限制），当前展示演示数据。');
   }
 }
 fetchLiveGoldPrice();
@@ -1805,30 +1826,6 @@ async function loadLiveData(){
     if(data.wti && data.wti.value){
       const el = document.querySelectorAll('.macro-card .macro-value')[2];
       if(el) el.textContent = '$' + data.wti.value.toFixed(2);
-    }
-
-    // 舆情速览：用 Investing.com 免费RSS抓到的真实新闻标题，替换掉演示条目
-    if(Array.isArray(data.news) && data.news.length > 0){
-      const catClassMap = { commodities:'cat-trade', economy:'cat-policy', central_banks:'cat-geo' };
-      const sentCard = document.getElementById('sentimentCard');
-      if(sentCard){
-        sentCard.innerHTML = data.news.slice(0, 6).map(n => {
-          const catClass = catClassMap[n.category] || 'cat-policy';
-          const timeStr = n.publishedAt ? new Date(n.publishedAt).toLocaleTimeString('zh-CN', {hour12:false}) : '--:--:--';
-          const safeTitle = String(n.title).replace(/</g,'&lt;').replace(/>/g,'&gt;');
-          const link = n.link ? String(n.link).replace(/"/g,'&quot;') : '#';
-          return '<div class="sent-item">' +
-            '<div class="sent-cat ' + catClass + '">' + n.categoryLabel + '</div>' +
-            '<div class="sent-body">' +
-              '<a href="' + link + '" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;"><div class="sent-text">' + safeTitle + '</div></a>' +
-              '<div class="sent-meta">' +
-                '<span class="sent-lights"><span class="light on"></span><span class="light on"></span><span class="light on"></span></span>' +
-                '<span class="sent-time">' + timeStr + ' · Investing.com</span>' +
-              '</div>' +
-            '</div>' +
-          '</div>';
-        }).join('');
-      }
     }
 
     // 更新数据源状态条：金价+宏观指标均已实时化
