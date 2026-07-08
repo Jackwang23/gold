@@ -1,24 +1,21 @@
 {
-  "fetchedAt": "2026-07-08T09:09:58.693355+00:00",
+  "fetchedAt": "2026-07-08T11:18:25.032142+00:00",
   "gold": {
-    "price": 4054.600098,
-    "updatedAt": "2026-07-08T09:09:48Z"
+    "price": 4054.100098,
+    "updatedAt": "2026-07-08T11:18:18Z"
   },
   "silver": {
-    "price": 58.569,
-    "updatedAt": "2026-07-08T09:09:48Z"
+    "price": 58.644001,
+    "updatedAt": "2026-07-08T11:18:18Z"
   },
-  "dxy": {
-    "value": 101.13,
-    "changePct": -0.01
-  },
+  "dxy": null,
   "vix": {
-    "value": 18.13,
-    "changePct": 12.4
+    "value": 18.14,
+    "changePct": 12.46
   },
   "wti": {
-    "value": 74.88,
-    "changePct": 6.3
+    "value": 74.04,
+    "changePct": 5.11
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +60,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Europe gas prices surge as Hormuz clashes spark LNG supply fears",
-      "link": "https://www.investing.com/news/commodities-news/europe-gas-prices-surge-as-hormuz-clashes-spark-lng-supply-fears-4780830",
+      "title": "Morning Bid: Is it ’over’?",
+      "link": "https://www.investing.com/news/commodities-news/morning-bid-is-it-over-4781208",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Russia tries to jam Musk’s Starlink systems to counter Ukrainian drones",
-      "link": "https://www.investing.com/news/commodities-news/russia-tries-to-jam-musks-starlink-systems-to-counter-ukrainian-drones-4780717",
+      "title": "Europe gas surges 6% on Trump’s truce  pessimism",
+      "link": "https://www.investing.com/news/commodities-news/europe-gas-surges-6-on-trumps-truce--pessimism-4781075",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Iran targets sites in Bahrain, Kuwait after wave of US strikes",
+      "title": "Gold prices fall as Trump casts doubt on Iran deal",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Trump says interim accord to end war is ’over’ after Iranian strikes",
       "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Four oil and gas tankers turn back from Hormuz strait after vessel attacks",
-      "link": "https://www.investing.com/news/commodities-news/four-oil-and-gas-tankers-turn-back-from-hormuz-strait-after-vessel-attacks-4780670",
-      "publishedAt": null
-    },
-    {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Iran attacks U.S. military sites across Gulf after fresh American strikes",
-      "link": "https://www.investing.com/news/economy-news/iran-attacks-us-military-sites-across-gulf-after-fresh-american-strikes-4780839",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Tech stocks slide on AI valuation doubts; oil jumps after Middle East attacks",
+      "title": "Oil surges, stocks tumble as Trump declares Iran MOU ’over’",
       "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "U.S., Iran exchange strikes in Gulf; Fed minutes ahead - what’s moving markets",
-      "link": "https://www.investing.com/news/economy-news/us-iran-exchange-strikes-in-gulf-fed-minutes-ahead--whats-moving-markets-4780781",
+      "title": "Foreign investors pare India rate-hike bets, fuel record 5-year swaps trading",
+      "link": "https://www.investing.com/news/economy-news/foreign-investors-pare-india-ratehike-bets-fuel-record-5year-swaps-trading-4780993",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Japan considers policy wording change as BOJ independence fears roil bonds",
-      "link": "https://www.investing.com/news/economy-news/japan-considering-tweaking-blueprint-language-on-boj-nikkei-reports-4780609",
+      "title": "Hungary posts biggest monthly budget surplus since 2010",
+      "link": "https://www.investing.com/news/economy-news/hungary-posts-biggest-monthly-budget-surplus-since-2010-93CH-4781086",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "EU expects US to honor trade deal after Trump orders Spain trade cut",
+      "link": "https://www.investing.com/news/economy-news/eu-expects-us-to-honor-trade-deal-after-trump-orders-spain-trade-cut-93CH-4781073",
       "publishedAt": null
     }
   ]
