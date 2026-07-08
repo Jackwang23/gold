@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T21:42:47.105037+00:00",
+  "fetchedAt": "2026-07-08T22:45:46.449749+00:00",
   "gold": {
-    "price": 4076.699951,
-    "updatedAt": "2026-07-08T21:42:21Z"
+    "price": 4077.600098,
+    "updatedAt": "2026-07-08T22:45:21Z"
   },
   "silver": {
-    "price": 58.383999,
-    "updatedAt": "2026-07-08T21:42:20Z"
+    "price": 58.515999,
+    "updatedAt": "2026-07-08T22:45:20Z"
   },
   "dxy": {
-    "value": 101.04,
-    "changePct": -0.1
+    "value": 101.07,
+    "changePct": -0.07
   },
   "vix": {
     "value": 16.9,
     "changePct": 4.77
   },
   "wti": {
-    "value": 74.76,
-    "changePct": 6.13
+    "value": 74.4,
+    "changePct": 5.62
   },
   "fred": {
     "10y_treasury": {
@@ -63,36 +63,29 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US military says it is conducting fresh strikes on Iran, after Trump says accord is ’over’",
+      "title": "Russia denounces NATO summit decisions on aid for Ukraine, defence",
+      "link": "https://www.investing.com/news/commodities-news/russia-denounces-nato-summit-decisions-on-aid-for-ukraine-defence-4782750",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Oil rises more than a dollar per barrel as US launches fresh strikes against Iran",
+      "link": "https://www.investing.com/news/commodities-news/oil-rises-more-than-a-dollar-per-barrel-as-us-launches-fresh-strikes-against-iran-4782740",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "US military says it is carrying out fresh strikes on Iran, after Trump says accord is ’over’",
       "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Corn futures fall from one-month high on profit-taking",
-      "link": "https://www.investing.com/news/commodities-news/corn-futures-fall-from-onemonth-high-on-profittaking-93CH-4782453",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "US diesel futures post biggest daily gains in four years after Russia bans exports",
-      "link": "https://www.investing.com/news/commodities-news/us-diesel-futures-post-biggest-daily-gains-in-four-years-after-russia-bans-exports-4782361",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Russia export ban drives diesel futures to four-year high",
-      "link": "https://www.investing.com/news/commodities-news/russia-export-ban-drives-diesel-futures-to-fouryear-high-93CH-4782360",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal ’over’",
-      "link": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
+      "title": "Gold slips as spiking oil prices boost inflationary concerns, offset Fed minutes",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
       "publishedAt": null
     },
     {
@@ -100,6 +93,13 @@
       "categoryLabel": "经济数据",
       "title": "US judge approves Elon Musk settlement with SEC despite misgivings, ’red flags’",
       "link": "https://www.investing.com/news/economy-news/judge-approves-elon-musk-settlement-with-us-sec-over-twitter-disclosures-4782332",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal ’over’",
+      "link": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
       "publishedAt": null
     },
     {
