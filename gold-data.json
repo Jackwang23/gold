@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T06:30:02.150835+00:00",
+  "fetchedAt": "2026-07-08T09:09:58.693355+00:00",
   "gold": {
-    "price": 4131.700195,
-    "updatedAt": "2026-07-08T06:29:48Z"
+    "price": 4054.600098,
+    "updatedAt": "2026-07-08T09:09:48Z"
   },
   "silver": {
-    "price": 61.125,
-    "updatedAt": "2026-07-08T06:29:47Z"
+    "price": 58.569,
+    "updatedAt": "2026-07-08T09:09:48Z"
   },
   "dxy": {
-    "value": 101.03,
-    "changePct": -0.11
+    "value": 101.13,
+    "changePct": -0.01
   },
   "vix": {
-    "value": 16.13,
-    "changePct": 3.6
+    "value": 18.13,
+    "changePct": 12.4
   },
   "wti": {
-    "value": 72.62,
-    "changePct": 3.09
+    "value": 74.88,
+    "changePct": 6.3
   },
   "fred": {
     "10y_treasury": {
@@ -63,6 +63,20 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "Europe gas prices surge as Hormuz clashes spark LNG supply fears",
+      "link": "https://www.investing.com/news/commodities-news/europe-gas-prices-surge-as-hormuz-clashes-spark-lng-supply-fears-4780830",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Russia tries to jam Musk’s Starlink systems to counter Ukrainian drones",
+      "link": "https://www.investing.com/news/commodities-news/russia-tries-to-jam-musks-starlink-systems-to-counter-ukrainian-drones-4780717",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "Iran targets sites in Bahrain, Kuwait after wave of US strikes",
       "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
@@ -75,45 +89,31 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Protests break out in Havana as Cuba struggles to restore electricity",
-      "link": "https://www.investing.com/news/commodities-news/cuba-struggles-to-restore-power-to-island-following-nationwide-grid-collapse-4779626",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
-      "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Iran attacks U.S. military sites across Gulf after fresh American strikes",
+      "link": "https://www.investing.com/news/economy-news/iran-attacks-us-military-sites-across-gulf-after-fresh-american-strikes-4780839",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Chip stocks renew slide as Mideast fighting lifts oil",
+      "title": "Tech stocks slide on AI valuation doubts; oil jumps after Middle East attacks",
       "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Germany could gain from planned U.S. port fees on China-built ships, DIW says",
-      "link": "https://www.investing.com/news/economy-news/germany-could-gain-from-planned-us-port-fees-on-chinabuilt-ships-diw-says-4780671",
+      "title": "U.S., Iran exchange strikes in Gulf; Fed minutes ahead - what’s moving markets",
+      "link": "https://www.investing.com/news/economy-news/us-iran-exchange-strikes-in-gulf-fed-minutes-ahead--whats-moving-markets-4780781",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Political survivor Le Pen makes her boldest gamble yet for France’s presidency",
-      "link": "https://www.investing.com/news/economy-news/political-survivor-le-pen-makes-her-boldest-gamble-yet-for-frances-presidency-4780665",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Morning Bid: Ceasefire? What ceasefire?",
-      "link": "https://www.investing.com/news/economy-news/morning-bid-ceasefire-what-ceasefire-4780660",
+      "title": "Japan considers policy wording change as BOJ independence fears roil bonds",
+      "link": "https://www.investing.com/news/economy-news/japan-considering-tweaking-blueprint-language-on-boj-nikkei-reports-4780609",
       "publishedAt": null
     }
   ]
