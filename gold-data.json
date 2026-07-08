@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T20:22:31.208315+00:00",
+  "fetchedAt": "2026-07-08T21:42:47.105037+00:00",
   "gold": {
-    "price": 4075.899902,
-    "updatedAt": "2026-07-08T20:22:19Z"
+    "price": 4076.699951,
+    "updatedAt": "2026-07-08T21:42:21Z"
   },
   "silver": {
-    "price": 58.388,
-    "updatedAt": "2026-07-08T20:22:19Z"
+    "price": 58.383999,
+    "updatedAt": "2026-07-08T21:42:20Z"
   },
   "dxy": {
-    "value": 100.98,
-    "changePct": -0.16
+    "value": 101.04,
+    "changePct": -0.1
   },
   "vix": {
-    "value": 16.8,
-    "changePct": 4.15
+    "value": 16.9,
+    "changePct": 4.77
   },
   "wti": {
-    "value": 74.5,
-    "changePct": 5.76
+    "value": 74.76,
+    "changePct": 6.13
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil surges as Trump says Iran ceasefire over, Tehran threatens to shut Hormuz",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-surge-after-us-attacks-iran-over-hormuz-shipping-4780563",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump says he doesn’t think Iran conflict will start again",
-      "link": "https://www.investing.com/news/commodities-news/trump-says-he-doesnt-think-iran-conflict-will-start-again-4782122",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump says interim accord to end Iran war is ’over’, warns of US strikes on Wednesday",
+      "title": "US military says it is conducting fresh strikes on Iran, after Trump says accord is ’over’",
       "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices fall as Fed minutes showed concerns over high inflation",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
+      "title": "Corn futures fall from one-month high on profit-taking",
+      "link": "https://www.investing.com/news/commodities-news/corn-futures-fall-from-onemonth-high-on-profittaking-93CH-4782453",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "US diesel futures post biggest daily gains in four years after Russia bans exports",
+      "link": "https://www.investing.com/news/commodities-news/us-diesel-futures-post-biggest-daily-gains-in-four-years-after-russia-bans-exports-4782361",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Russia export ban drives diesel futures to four-year high",
+      "link": "https://www.investing.com/news/commodities-news/russia-export-ban-drives-diesel-futures-to-fouryear-high-93CH-4782360",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "IMF’s Georgieva to visit Argentina in late July",
-      "link": "https://www.investing.com/news/economy-news/imfs-georgieva-to-visit-argentina-in-late-july-4782244",
+      "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal ’over’",
+      "link": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Fed minutes show high uncertainty and evenly divided debate over rate outlook",
-      "link": "https://www.investing.com/news/economy-news/fed-minutes-show-high-uncertainty-and-debate-over-monetary-policy-outlook-4782167",
+      "title": "US judge approves Elon Musk settlement with SEC despite misgivings, ’red flags’",
+      "link": "https://www.investing.com/news/economy-news/judge-approves-elon-musk-settlement-with-us-sec-over-twitter-disclosures-4782332",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Ireland’s Manna begins push into U.S. drone delivery \"battleground\"",
-      "link": "https://www.investing.com/news/economy-news/irelands-manna-begins-push-into-us-drone-delivery-battleground-4782206",
+      "title": "Oil hits multi-week high, Wall Street slips as Iran tensions reignite",
+      "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Fed policymakers’ inflation concerns mounted at June meeting, minutes show",
-      "link": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
+      "title": "U.S. strikes Iran again after Trump’s earlier warning, as tensions escalate",
+      "link": "https://www.investing.com/news/economy-news/iran-attacks-us-military-sites-across-gulf-after-fresh-american-strikes-4780839",
       "publishedAt": null
     }
   ]
