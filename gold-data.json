@@ -1,21 +1,18 @@
 {
-  "fetchedAt": "2026-07-08T11:18:25.032142+00:00",
+  "fetchedAt": "2026-07-08T13:06:43.980879+00:00",
   "gold": {
-    "price": 4054.100098,
-    "updatedAt": "2026-07-08T11:18:18Z"
+    "price": 4082.399902,
+    "updatedAt": "2026-07-08T13:06:19Z"
   },
   "silver": {
-    "price": 58.644001,
-    "updatedAt": "2026-07-08T11:18:18Z"
+    "price": 59.057999,
+    "updatedAt": "2026-07-08T13:06:18Z"
   },
   "dxy": null,
-  "vix": {
-    "value": 18.14,
-    "changePct": 12.46
-  },
+  "vix": null,
   "wti": {
-    "value": 74.04,
-    "changePct": 5.11
+    "value": 73.54,
+    "changePct": 4.4
   },
   "fred": {
     "10y_treasury": {
@@ -60,15 +57,15 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Morning Bid: Is it ’over’?",
-      "link": "https://www.investing.com/news/commodities-news/morning-bid-is-it-over-4781208",
+      "title": "Baltic dry bulk freight index edges lower on capesize weakness",
+      "link": "https://www.investing.com/news/commodities-news/baltic-dry-bulk-freight-index-edges-lower-on-capesize-weakness-93CH-4781662",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Europe gas surges 6% on Trump’s truce  pessimism",
-      "link": "https://www.investing.com/news/commodities-news/europe-gas-surges-6-on-trumps-truce--pessimism-4781075",
+      "title": "Trump says interim accord to end war is ’over’ after Iranian strikes",
+      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
@@ -81,36 +78,36 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Trump says interim accord to end war is ’over’ after Iranian strikes",
-      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "title": "Oil prices surge after Trump says interim Iran peace deal is \"over\"",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-surge-after-us-attacks-iran-over-hormuz-shipping-4780563",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Oil surges, stocks tumble as Trump declares Iran MOU ’over’",
-      "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
+      "title": "Brazilian police search former President Bolsonaro’s home for weapons, Estadao reports",
+      "link": "https://www.investing.com/news/economy-news/brazilian-police-search-former-president-bolsonaros-home-for-weapons-estadao-reports-4781593",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Foreign investors pare India rate-hike bets, fuel record 5-year swaps trading",
-      "link": "https://www.investing.com/news/economy-news/foreign-investors-pare-india-ratehike-bets-fuel-record-5year-swaps-trading-4780993",
+      "title": "China’s central bank pledges to maintain accommodative policy amid weak demand, external shocks",
+      "link": "https://www.investing.com/news/economy-news/chinas-central-bank-pledges-to-maintain-accommodativepolicy-amid-weak-demand-external-shocks-4781334",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Hungary posts biggest monthly budget surplus since 2010",
-      "link": "https://www.investing.com/news/economy-news/hungary-posts-biggest-monthly-budget-surplus-since-2010-93CH-4781086",
+      "title": "Blue Origin nears $10 billion funding round at $130 billion value - NYT",
+      "link": "https://www.investing.com/news/economy-news/blue-origin-nears-10-billion-funding-round-at-130-billion-value--nyt-93CH-4781567",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "EU expects US to honor trade deal after Trump orders Spain trade cut",
-      "link": "https://www.investing.com/news/economy-news/eu-expects-us-to-honor-trade-deal-after-trump-orders-spain-trade-cut-93CH-4781073",
+      "title": "Hungary central bank plans three rate cuts this summer",
+      "link": "https://www.investing.com/news/economy-news/hungary-central-bank-plans-three-rate-cuts-this-summer-93CH-4781564",
       "publishedAt": null
     }
   ]
