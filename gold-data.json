@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T15:35:39.127177+00:00",
+  "fetchedAt": "2026-07-08T17:10:55.840854+00:00",
   "gold": {
-    "price": 4027.199951,
-    "updatedAt": "2026-07-08T15:35:19Z"
+    "price": 4066.5,
+    "updatedAt": "2026-07-08T17:10:49Z"
   },
   "silver": {
-    "price": 57.498001,
-    "updatedAt": "2026-07-08T15:35:19Z"
+    "price": 58.071999,
+    "updatedAt": "2026-07-08T17:10:48Z"
   },
   "dxy": {
-    "value": 101.19,
-    "changePct": 0.05
+    "value": 101.07,
+    "changePct": -0.07
   },
   "vix": {
-    "value": 18.09,
-    "changePct": 12.15
+    "value": 16.97,
+    "changePct": 5.21
   },
   "wti": {
-    "value": 75.32,
-    "changePct": 6.93
+    "value": 74.47,
+    "changePct": 5.72
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "Analysis-How Iran’s ’golden weapon’ of Hormuz became a bigger priority than its long-disputed nuclear programme",
+      "link": "https://www.investing.com/news/commodities-news/analysishow-irans-golden-weapon-of-hormuz-became-a-bigger-priority-than-its-longdisputed-nuclear-programme-4782091",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Trump says he thinks Israel will withdraw troops from southern Lebanon",
+      "link": "https://www.investing.com/news/commodities-news/trump-says-he-thinks-israel-will-withdraw-troops-from-southern-lebanon-4782046",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Russia reportedly bans diesel exports after Ukrainian drone attacks",
+      "link": "https://www.investing.com/news/commodities-news/russia-reportedly-bans-diesel-exports-after-ukrainian-drone-attacks-93CH-4782021",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "US energy firms set record for petroleum product exports",
       "link": "https://www.investing.com/news/commodities-news/us-energy-firms-set-record-for-petroleum-product-exports-93CH-4781990",
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump says interim accord to end Iran war is ’over’, warns of new US strikes",
-      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "US crude oil inventories rise as gasoline stocks decline",
-      "link": "https://www.investing.com/news/commodities-news/us-crude-oil-inventories-rise-as-gasoline-stocks-decline-93CH-4781969",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump on Iran: US will probably hit them again Wednesday night",
-      "link": "https://www.investing.com/news/commodities-news/trump-on-iran-us-will-probably-hit-them-again-wednesday-night-4781812",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Investors get inflation ’wake-up call’ as Trump fires up oil prices",
+      "link": "https://www.investing.com/news/economy-news/investors-get-inflation-wakeup-call-as-trump-fires-up-oil-prices-4782113",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Mexico expects economy to outperform IMF projections",
-      "link": "https://www.investing.com/news/economy-news/mexico-expects-economy-to-outperform-imf-projections-4782006",
+      "title": "US court says Trump name must stay off Kennedy Center during appeal",
+      "link": "https://www.investing.com/news/economy-news/us-court-says-trump-name-must-stay-off-kennedy-center-during-appeal-4782080",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Brazilian police search former President Bolsonaro’s home for weapons",
-      "link": "https://www.investing.com/news/economy-news/brazilian-police-search-former-president-bolsonaros-home-for-weapons-estadao-reports-4781593",
+      "title": "IMF says hopes to engage on central banks’ changes to forward guidance",
+      "link": "https://www.investing.com/news/economy-news/imf-says-hopes-to-engage-on-central-banks-changes-to-forward-guidance-4782039",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Wall Street jittery and oil up as Trump says interim Iran deal ’over’",
-      "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Stocks, bonds retreat after Trump says Iran MOU ’is over’",
-      "link": "https://www.investing.com/news/economy-news/stocks-bonds-retreat-after-trump-says-iran-mou-is-over-4781953",
+      "title": "Nearly half of tariffed Mid-Atlantic firms plan more price hikes, NY Fed says",
+      "link": "https://www.investing.com/news/economy-news/nearly-half-of-tariffed-midatlantic-firms-plan-more-price-hikes-ny-fed-says-93CH-4782034",
       "publishedAt": null
     }
   ]
