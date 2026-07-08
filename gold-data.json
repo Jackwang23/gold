@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T17:10:55.840854+00:00",
+  "fetchedAt": "2026-07-08T18:47:39.685602+00:00",
   "gold": {
-    "price": 4066.5,
-    "updatedAt": "2026-07-08T17:10:49Z"
+    "price": 4086.899902,
+    "updatedAt": "2026-07-08T18:47:19Z"
   },
   "silver": {
-    "price": 58.071999,
-    "updatedAt": "2026-07-08T17:10:48Z"
+    "price": 58.700001,
+    "updatedAt": "2026-07-08T18:47:19Z"
   },
   "dxy": {
-    "value": 101.07,
-    "changePct": -0.07
+    "value": 100.99,
+    "changePct": -0.15
   },
   "vix": {
-    "value": 16.97,
-    "changePct": 5.21
+    "value": 16.89,
+    "changePct": 4.71
   },
   "wti": {
-    "value": 74.47,
-    "changePct": 5.72
+    "value": 73.78,
+    "changePct": 4.74
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Analysis-How Iran’s ’golden weapon’ of Hormuz became a bigger priority than its long-disputed nuclear programme",
-      "link": "https://www.investing.com/news/commodities-news/analysishow-irans-golden-weapon-of-hormuz-became-a-bigger-priority-than-its-longdisputed-nuclear-programme-4782091",
+      "title": "Gold prices fall as Fed minutes showed concerns over high inflation",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Trump says he thinks Israel will withdraw troops from southern Lebanon",
-      "link": "https://www.investing.com/news/commodities-news/trump-says-he-thinks-israel-will-withdraw-troops-from-southern-lebanon-4782046",
+      "title": "Trump says interim accord to end Iran war is ’over’, warns of US strikes on Wednesday",
+      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Russia reportedly bans diesel exports after Ukrainian drone attacks",
-      "link": "https://www.investing.com/news/commodities-news/russia-reportedly-bans-diesel-exports-after-ukrainian-drone-attacks-93CH-4782021",
+      "title": "Trump says he doesn’t think Iran conflict will start again",
+      "link": "https://www.investing.com/news/commodities-news/trump-says-he-doesnt-think-iran-conflict-will-start-again-4782122",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US energy firms set record for petroleum product exports",
-      "link": "https://www.investing.com/news/commodities-news/us-energy-firms-set-record-for-petroleum-product-exports-93CH-4781990",
+      "title": "Northwest European gasoline margins fall as oil prices jump",
+      "link": "https://www.investing.com/news/commodities-news/northwest-european-gasoline-margins-fall-as-oil-prices-jump-93CH-4782118",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Investors get inflation ’wake-up call’ as Trump fires up oil prices",
-      "link": "https://www.investing.com/news/economy-news/investors-get-inflation-wakeup-call-as-trump-fires-up-oil-prices-4782113",
+      "title": "Fed minutes show high uncertainty and evenly divided debate over rate outlook",
+      "link": "https://www.investing.com/news/economy-news/fed-minutes-show-high-uncertainty-and-debate-over-monetary-policy-outlook-4782167",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "US court says Trump name must stay off Kennedy Center during appeal",
-      "link": "https://www.investing.com/news/economy-news/us-court-says-trump-name-must-stay-off-kennedy-center-during-appeal-4782080",
+      "title": "Fed policymakers’ inflation concerns mounted at June meeting, minutes show",
+      "link": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "IMF says hopes to engage on central banks’ changes to forward guidance",
-      "link": "https://www.investing.com/news/economy-news/imf-says-hopes-to-engage-on-central-banks-changes-to-forward-guidance-4782039",
+      "title": "Factbox-Major AI offerings at a glance",
+      "link": "https://www.investing.com/news/economy-news/factboxmajor-ai-models-at-a-glance-4781880",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Nearly half of tariffed Mid-Atlantic firms plan more price hikes, NY Fed says",
-      "link": "https://www.investing.com/news/economy-news/nearly-half-of-tariffed-midatlantic-firms-plan-more-price-hikes-ny-fed-says-93CH-4782034",
+      "title": "Swiss official sees good chance 15% US tariff rate maintained",
+      "link": "https://www.investing.com/news/economy-news/swiss-official-sees-good-chance-15-us-tariff-rate-maintained-4782182",
       "publishedAt": null
     }
   ]
