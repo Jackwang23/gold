@@ -1,33 +1,33 @@
 {
-  "fetchedAt": "2026-07-08T18:47:39.685602+00:00",
+  "fetchedAt": "2026-07-08T20:22:31.208315+00:00",
   "gold": {
-    "price": 4086.899902,
-    "updatedAt": "2026-07-08T18:47:19Z"
+    "price": 4075.899902,
+    "updatedAt": "2026-07-08T20:22:19Z"
   },
   "silver": {
-    "price": 58.700001,
-    "updatedAt": "2026-07-08T18:47:19Z"
+    "price": 58.388,
+    "updatedAt": "2026-07-08T20:22:19Z"
   },
   "dxy": {
-    "value": 100.99,
-    "changePct": -0.15
+    "value": 100.98,
+    "changePct": -0.16
   },
   "vix": {
-    "value": 16.89,
-    "changePct": 4.71
+    "value": 16.8,
+    "changePct": 4.15
   },
   "wti": {
-    "value": 73.78,
-    "changePct": 4.74
+    "value": 74.5,
+    "changePct": 5.76
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-07-06",
-      "value": 4.48
+      "date": "2026-07-07",
+      "value": 4.55
     },
     "10y_real_rate": {
-      "date": "2026-07-06",
-      "value": 2.24
+      "date": "2026-07-07",
+      "value": 2.3
     }
   },
   "goldapi": null,
@@ -63,15 +63,8 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices fall as Fed minutes showed concerns over high inflation",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Trump says interim accord to end Iran war is ’over’, warns of US strikes on Wednesday",
-      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "title": "Oil surges as Trump says Iran ceasefire over, Tehran threatens to shut Hormuz",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-surge-after-us-attacks-iran-over-hormuz-shipping-4780563",
       "publishedAt": null
     },
     {
@@ -84,8 +77,22 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Northwest European gasoline margins fall as oil prices jump",
-      "link": "https://www.investing.com/news/commodities-news/northwest-european-gasoline-margins-fall-as-oil-prices-jump-93CH-4782118",
+      "title": "Trump says interim accord to end Iran war is ’over’, warns of US strikes on Wednesday",
+      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Gold prices fall as Fed minutes showed concerns over high inflation",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "IMF’s Georgieva to visit Argentina in late July",
+      "link": "https://www.investing.com/news/economy-news/imfs-georgieva-to-visit-argentina-in-late-july-4782244",
       "publishedAt": null
     },
     {
@@ -98,22 +105,15 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
+      "title": "Ireland’s Manna begins push into U.S. drone delivery \"battleground\"",
+      "link": "https://www.investing.com/news/economy-news/irelands-manna-begins-push-into-us-drone-delivery-battleground-4782206",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
       "title": "Fed policymakers’ inflation concerns mounted at June meeting, minutes show",
       "link": "https://www.investing.com/news/economy-news/fed-policymakers-saw-inflation-concerns-mounting-at-june-meeting-minutes-show-4782177",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Factbox-Major AI offerings at a glance",
-      "link": "https://www.investing.com/news/economy-news/factboxmajor-ai-models-at-a-glance-4781880",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Swiss official sees good chance 15% US tariff rate maintained",
-      "link": "https://www.investing.com/news/economy-news/swiss-official-sees-good-chance-15-us-tariff-rate-maintained-4782182",
       "publishedAt": null
     }
   ]
