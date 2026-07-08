@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T00:12:15.417506+00:00",
+  "fetchedAt": "2026-07-08T03:47:45.840931+00:00",
   "gold": {
-    "price": 4101.899902,
-    "updatedAt": "2026-07-08T00:12:11Z"
+    "price": 4127.700195,
+    "updatedAt": "2026-07-08T03:47:30Z"
   },
   "silver": {
-    "price": 59.960999,
-    "updatedAt": "2026-07-08T00:12:10Z"
+    "price": 60.713001,
+    "updatedAt": "2026-07-08T03:47:30Z"
   },
   "dxy": {
-    "value": 101.19,
-    "changePct": 0.34
+    "value": 101.09,
+    "changePct": 0.24
   },
   "vix": {
     "value": 16.13,
     "changePct": 3.6
   },
   "wti": {
-    "value": 72.42,
-    "changePct": 5.65
+    "value": 72.28,
+    "changePct": 5.44
   },
   "fred": {
     "10y_treasury": {
@@ -63,13 +63,6 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Venezuela appoints new heads for state petrochemical company, tax authority",
-      "link": "https://www.investing.com/news/commodities-news/venezuela-appoints-new-heads-for-state-petrochemical-company-tax-authority-4780573",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
       "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
@@ -77,29 +70,43 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices surge after US attacks Iran over Hormuz shipping",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-surge-after-us-attacks-iran-over-hormuz-shipping-4780563",
+      "title": "Gold prices steady with Iran risks, Fed minutes in focus",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Cuba restores grid but power shortfalls continue amid US fuel blockade",
-      "link": "https://www.investing.com/news/commodities-news/cuba-struggles-to-restore-power-to-island-following-nationwide-grid-collapse-4779626",
+      "title": "US says it has completed a new round of strikes on Iran",
+      "link": "https://www.investing.com/news/commodities-news/us-says-it-has-completed-anew-round-of-strikes-on-iran-4780643",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Venezuela appoints new heads for state petrochemical company, tax authority",
+      "link": "https://www.investing.com/news/commodities-news/venezuela-appoints-new-heads-for-state-petrochemical-company-tax-authority-4780573",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Oil jumps and bonds dip as US strikes Iran",
+      "title": "Oil climbs, bonds slide on Mideast hostilities",
       "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Japan asset managers pursue global investor mandates as yen bond demand grows",
-      "link": "https://www.investing.com/news/economy-news/japan-asset-managers-pursue-global-investor-mandates-as-yen-bond-demand-grows-4780543",
+      "title": "RBNZ raises rates by 25 bps, signals more tightening ahead",
+      "link": "https://www.investing.com/news/economy-news/rbnz-raises-rates-by-25-bps-signals-more-tightening-ahead-4780642",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "South Korea to closely watch risks around stock market volatility",
+      "link": "https://www.investing.com/news/economy-news/south-korea-to-closely-watch-risks-around-stock-market-volatility-4780605",
       "publishedAt": null
     },
     {
@@ -107,13 +114,6 @@
       "categoryLabel": "经济数据",
       "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
       "link": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Exclusive-China’s DeepSeek developing its own AI chip, sources say",
-      "link": "https://www.investing.com/news/economy-news/exclusivechinas-deepseek-developing-its-own-ai-chip-sources-say-4778697",
       "publishedAt": null
     }
   ]
