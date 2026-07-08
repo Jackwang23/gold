@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-08T03:47:45.840931+00:00",
+  "fetchedAt": "2026-07-08T06:30:02.150835+00:00",
   "gold": {
-    "price": 4127.700195,
-    "updatedAt": "2026-07-08T03:47:30Z"
+    "price": 4131.700195,
+    "updatedAt": "2026-07-08T06:29:48Z"
   },
   "silver": {
-    "price": 60.713001,
-    "updatedAt": "2026-07-08T03:47:30Z"
+    "price": 61.125,
+    "updatedAt": "2026-07-08T06:29:47Z"
   },
   "dxy": {
-    "value": 101.09,
-    "changePct": 0.24
+    "value": 101.03,
+    "changePct": -0.11
   },
   "vix": {
     "value": 16.13,
     "changePct": 3.6
   },
   "wti": {
-    "value": 72.28,
-    "changePct": 5.44
+    "value": 72.62,
+    "changePct": 3.09
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "Iran targets sites in Bahrain, Kuwait after wave of US strikes",
+      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Four oil and gas tankers turn back from Hormuz strait after vessel attacks",
+      "link": "https://www.investing.com/news/commodities-news/four-oil-and-gas-tankers-turn-back-from-hormuz-strait-after-vessel-attacks-4780670",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Protests break out in Havana as Cuba struggles to restore electricity",
+      "link": "https://www.investing.com/news/commodities-news/cuba-struggles-to-restore-power-to-island-following-nationwide-grid-collapse-4779626",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks",
       "link": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Gold prices steady with Iran risks, Fed minutes in focus",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "US says it has completed a new round of strikes on Iran",
-      "link": "https://www.investing.com/news/commodities-news/us-says-it-has-completed-anew-round-of-strikes-on-iran-4780643",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Venezuela appoints new heads for state petrochemical company, tax authority",
-      "link": "https://www.investing.com/news/commodities-news/venezuela-appoints-new-heads-for-state-petrochemical-company-tax-authority-4780573",
-      "publishedAt": null
-    },
-    {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Oil climbs, bonds slide on Mideast hostilities",
+      "title": "Chip stocks renew slide as Mideast fighting lifts oil",
       "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "RBNZ raises rates by 25 bps, signals more tightening ahead",
-      "link": "https://www.investing.com/news/economy-news/rbnz-raises-rates-by-25-bps-signals-more-tightening-ahead-4780642",
+      "title": "Germany could gain from planned U.S. port fees on China-built ships, DIW says",
+      "link": "https://www.investing.com/news/economy-news/germany-could-gain-from-planned-us-port-fees-on-chinabuilt-ships-diw-says-4780671",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "South Korea to closely watch risks around stock market volatility",
-      "link": "https://www.investing.com/news/economy-news/south-korea-to-closely-watch-risks-around-stock-market-volatility-4780605",
+      "title": "Political survivor Le Pen makes her boldest gamble yet for France’s presidency",
+      "link": "https://www.investing.com/news/economy-news/political-survivor-le-pen-makes-her-boldest-gamble-yet-for-frances-presidency-4780665",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "BOJ dissenter Asada needs demand-driven inflation before backing rate hike",
-      "link": "https://www.investing.com/news/economy-news/exclusiveboj-dissenter-asada-needs-demanddriven-inflation-before-backing-rate-hike-4779695",
+      "title": "Morning Bid: Ceasefire? What ceasefire?",
+      "link": "https://www.investing.com/news/economy-news/morning-bid-ceasefire-what-ceasefire-4780660",
       "publishedAt": null
     }
   ]
