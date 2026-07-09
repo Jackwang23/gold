@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T14:05:58.326236+00:00",
+  "fetchedAt": "2026-07-09T16:41:58.146673+00:00",
   "gold": {
-    "price": 4132.700195,
-    "updatedAt": "2026-07-09T14:05:52Z"
+    "price": 4133.5,
+    "updatedAt": "2026-07-09T16:41:52Z"
   },
   "silver": {
-    "price": 60.523998,
-    "updatedAt": "2026-07-09T14:05:52Z"
+    "price": 60.597,
+    "updatedAt": "2026-07-09T16:41:52Z"
   },
   "dxy": {
-    "value": 100.92,
-    "changePct": -0.13
+    "value": 100.89,
+    "changePct": -0.16
   },
   "vix": {
-    "value": 16.66,
-    "changePct": -1.42
+    "value": 16.04,
+    "changePct": -5.09
   },
   "wti": {
-    "value": 72.74,
-    "changePct": -1.06
+    "value": 71.99,
+    "changePct": -2.08
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil eases as investors assess US-Iran peace prospects",
+      "title": "Oil prices slide over 1% as US-Iran conflict clouds Hormuz reopening",
       "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Iran says it hits US military targets in Gulf, prepares to bury slain leader",
+      "title": "Iran says it hits US military targets in Gulf, lays slain leader to rest",
       "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold to resume rally amid structural fiscal and geopolitical risks: HSBC",
-      "link": "https://www.investing.com/news/commodities-news/gold-to-resume-rally-amid-structural-fiscal-and-geopolitical-risks-hsbc-4784137",
+      "title": "Turkey and Iraq to sign one-year crude oil pipeline deal",
+      "link": "https://www.investing.com/news/commodities-news/turkey-and-iraq-to-sign-oneyear-crude-oil-pipeline-deal-93CH-4784517",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Qatar pauses LNG output ramp-up after tanker attack in Hormuz - Bloomberg",
-      "link": "https://www.investing.com/news/commodities-news/qatar-pauses-lng-output-rampup-after-tanker-attack-in-hormuz--bloomberg-93CH-4784126",
+      "title": "Jet fuel stocks fall in ARA hub on lower exports and imports",
+      "link": "https://www.investing.com/news/commodities-news/jet-fuel-stocks-fall-in-ara-hub-on-lower-exports-and-imports-93CH-4784503",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Stocks edge up as tech rebound offsets Middle East jitters",
-      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
+      "title": "IMF’s Georgieva, Venezuelan acting president discuss use of SDRs for earthquake needs",
+      "link": "https://www.investing.com/news/economy-news/imfs-georgieva-venezuelan-acting-president-discuss-use-of-sdrs-for-earthquake-needs-4784583",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "UN digital tech agency launches initiative to improve trust in AI agents",
-      "link": "https://www.investing.com/news/economy-news/un-digital-tech-agency-launches-initiative-to-improve-trust-in-ai-agents-4784310",
+      "title": "US Treasuries rise as investors buy bonds after weekly selloff",
+      "link": "https://www.investing.com/news/economy-news/us-treasuries-rise-as-investors-buy-bonds-after-weekly-selloff-93CH-4784569",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Former US Olympian pleads not guilty in Reflecting Pool vandalism case",
-      "link": "https://www.investing.com/news/economy-news/former-us-olympian-pleads-not-guilty-in-reflecting-pool-vandalism-case-4784305",
+      "title": "Analysis-US markets brace for renewed funding pressure as leverage rises",
+      "link": "https://www.investing.com/news/economy-news/analysisus-markets-brace-for-renewed-funding-pressure-as-leverage-rises-4784550",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Fed’s Williams says energy prices have already peaked despite new Iran fighting",
-      "link": "https://www.investing.com/news/economy-news/feds-williams-says-energy-prices-have-already-peaked-despite-new-iran-fighting-4784300",
+      "title": "Dollar dips as labor market remains stable, US-Iran tensions rise",
+      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
       "publishedAt": null
     }
   ]
