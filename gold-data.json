@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T16:41:58.146673+00:00",
+  "fetchedAt": "2026-07-09T18:28:58.783722+00:00",
   "gold": {
-    "price": 4133.5,
-    "updatedAt": "2026-07-09T16:41:52Z"
+    "price": 4125.200195,
+    "updatedAt": "2026-07-09T18:28:53Z"
   },
   "silver": {
-    "price": 60.597,
-    "updatedAt": "2026-07-09T16:41:52Z"
+    "price": 60.272999,
+    "updatedAt": "2026-07-09T18:28:52Z"
   },
   "dxy": {
-    "value": 100.89,
-    "changePct": -0.16
+    "value": 100.9,
+    "changePct": -0.15
   },
   "vix": {
-    "value": 16.04,
-    "changePct": -5.09
+    "value": 15.99,
+    "changePct": -5.38
   },
   "wti": {
-    "value": 71.99,
-    "changePct": -2.08
+    "value": 71.87,
+    "changePct": -2.24
   },
   "fred": {
     "10y_treasury": {
@@ -63,7 +63,7 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices slide over 1% as US-Iran conflict clouds Hormuz reopening",
+      "title": "Oil prices dive by more than 2% as inflation fears outweigh supply risks",
       "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
     },
@@ -91,29 +91,29 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "IMF’s Georgieva, Venezuelan acting president discuss use of SDRs for earthquake needs",
-      "link": "https://www.investing.com/news/economy-news/imfs-georgieva-venezuelan-acting-president-discuss-use-of-sdrs-for-earthquake-needs-4784583",
+      "title": "Bank of France raises Q2 growth forecast after June rebound",
+      "link": "https://www.investing.com/news/economy-news/bank-of-france-raises-q2-growth-forecast-after-june-rebound-93CH-4784687",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "US Treasuries rise as investors buy bonds after weekly selloff",
-      "link": "https://www.investing.com/news/economy-news/us-treasuries-rise-as-investors-buy-bonds-after-weekly-selloff-93CH-4784569",
+      "title": "Fed’s Perli reiterates flexible path of reserve management buying",
+      "link": "https://www.investing.com/news/economy-news/feds-perli-reiterates-flexible-path-of-reserve-management-buying-4784670",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Analysis-US markets brace for renewed funding pressure as leverage rises",
-      "link": "https://www.investing.com/news/economy-news/analysisus-markets-brace-for-renewed-funding-pressure-as-leverage-rises-4784550",
+      "title": "US existing home sales fall as house prices hit record high",
+      "link": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-fall-amid-stable-labor-market-conditions-4784125",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Dollar dips as labor market remains stable, US-Iran tensions rise",
-      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
+      "title": "Fed’s Logan says Fed open market operations would benefit from voluntary central clearing",
+      "link": "https://www.investing.com/news/economy-news/feds-logan-says-fed-open-market-operations-would-benefit-from-voluntary-central-clearing-4784665",
       "publishedAt": null
     }
   ]
