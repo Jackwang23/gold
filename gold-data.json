@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T20:24:49.543043+00:00",
+  "fetchedAt": "2026-07-09T21:59:18.015479+00:00",
   "gold": {
-    "price": 4122.799805,
-    "updatedAt": "2026-07-09T20:24:23Z"
+    "price": 4124.5,
+    "updatedAt": "2026-07-09T21:58:53Z"
   },
   "silver": {
-    "price": 60.042999,
-    "updatedAt": "2026-07-09T20:24:22Z"
+    "price": 60.084999,
+    "updatedAt": "2026-07-09T21:58:52Z"
   },
   "dxy": {
     "value": 100.94,
     "changePct": -0.11
   },
   "vix": {
-    "value": 15.86,
-    "changePct": -6.15
+    "value": 15.84,
+    "changePct": -6.27
   },
   "wti": {
-    "value": 71.72,
-    "changePct": -2.45
+    "value": 71.81,
+    "changePct": -2.33
   },
   "fred": {
     "10y_treasury": {
@@ -70,6 +70,13 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "Gold rebounds over 1% from one-week low as dollar eases, oil prices slip",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-iran-tensions-boost-dollar-4782961",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "Oil prices settle 2% lower as economic worries outweigh supply risks",
       "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
@@ -82,20 +89,6 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Turkey and Iraq to sign one-year crude oil pipeline deal",
-      "link": "https://www.investing.com/news/commodities-news/turkey-and-iraq-to-sign-oneyear-crude-oil-pipeline-deal-93CH-4784517",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Nasdaq rallies to sharply higher close; chip surge offsets Iran worries",
-      "link": "https://www.investing.com/news/economy-news/wall-st-futures-rebound-as-oil-retreats-investors-weigh-usiran-tensions-4783449",
-      "publishedAt": null
-    },
-    {
       "category": "economy",
       "categoryLabel": "经济数据",
       "title": "Fed’s Warsh taps broad group of Fed outsiders to oversee review",
@@ -105,15 +98,22 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
-      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
+      "title": "Skeptical US Democrats in Congress urge debate on Israel plans",
+      "link": "https://www.investing.com/news/economy-news/skeptical-us-democrats-in-congress-urge-debate-on-israel-plans-4784790",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Warsh’s Fed unveils heavy-hitter task forces to overhaul monetary policy",
-      "link": "https://www.investing.com/news/economy-news/warshs-fed-unveils-heavyhitter-task-forces-to-overhaul-monetary-policy-4784728",
+      "title": "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce",
+      "link": "https://www.investing.com/news/economy-news/trading-day-what-war-chipled-rally-helps-markets-ignore-onagain-offagain-usiran-truce-4785022",
+      "publishedAt": null
+    },
+    {
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
+      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
       "publishedAt": null
     }
   ]
