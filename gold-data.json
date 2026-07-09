@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T04:16:27.464089+00:00",
+  "fetchedAt": "2026-07-09T08:07:04.820509+00:00",
   "gold": {
-    "price": 4060.600098,
-    "updatedAt": "2026-07-09T04:16:21Z"
+    "price": 4107.600098,
+    "updatedAt": "2026-07-09T08:06:52Z"
   },
   "silver": {
-    "price": 57.911999,
-    "updatedAt": "2026-07-09T04:16:21Z"
+    "price": 59.303001,
+    "updatedAt": "2026-07-09T08:06:51Z"
   },
   "dxy": {
-    "value": 100.97,
-    "changePct": -0.07
+    "value": 100.92,
+    "changePct": -0.13
   },
   "vix": {
-    "value": 16.9,
-    "changePct": 4.77
+    "value": 16.57,
+    "changePct": -1.95
   },
   "wti": {
-    "value": 74.33,
-    "changePct": 1.1
+    "value": 72.79,
+    "changePct": -0.99
   },
   "fred": {
     "10y_treasury": {
@@ -70,15 +70,15 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold prices edge lower as Iran tensions boost dollar",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-iran-tensions-boost-dollar-4782961",
+      "title": "Oil prices little changed as markets weigh impact of US strikes on Iran",
+      "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil rises after US launches fresh strikes against Iran",
-      "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
+      "title": "Goldman flags key constraint on oil supply recovery as U.S.-Iran tensions escalate",
+      "link": "https://www.investing.com/news/commodities-news/goldman-flags-key-constraint-on-oil-supply-recovery-as-usiran-tensions-escalate-4783018",
       "publishedAt": null
     },
     {
@@ -91,29 +91,29 @@
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Gulf companies are set to reveal the unequal toll of Iran war",
-      "link": "https://www.investing.com/news/economy-news/gulf-companies-are-set-to-reveal-the-unequal-toll-of-iran-war-4782971",
+      "title": "Factbox-Hedge funds record best first-half performance in 13 years, sources say",
+      "link": "https://www.investing.com/news/economy-news/factboxhedge-funds-record-best-firsthalf-performance-in-13-years-sources-say-4783001",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Asian shares climb on chip rally, oil jumps as Gulf hostilities resume",
-      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
+      "title": "German exports rise unexpectedly in May",
+      "link": "https://www.investing.com/news/economy-news/german-exports-rise-unexpectedly-in-may-4783000",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bets",
+      "title": "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike bets",
       "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Japan benchmark bond yield hits 30-year high on inflation, fiscal health concerns",
-      "link": "https://www.investing.com/news/economy-news/japan-benchmark-bond-yield-hits-30year-high-on-inflation-fiscal-health-concerns-4782891",
+      "title": "Asian shares wobble as oil jumps on renewed Gulf hostilities",
+      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
       "publishedAt": null
     }
   ]
