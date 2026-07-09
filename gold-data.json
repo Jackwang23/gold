@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-09T21:59:18.015479+00:00",
+  "fetchedAt": "2026-07-09T23:21:23.596724+00:00",
   "gold": {
-    "price": 4124.5,
-    "updatedAt": "2026-07-09T21:58:53Z"
+    "price": 4125.399902,
+    "updatedAt": "2026-07-09T23:20:53Z"
   },
   "silver": {
-    "price": 60.084999,
-    "updatedAt": "2026-07-09T21:58:52Z"
+    "price": 60.146999,
+    "updatedAt": "2026-07-09T23:20:53Z"
   },
   "dxy": {
     "value": 100.94,
@@ -17,8 +17,8 @@
     "changePct": -6.27
   },
   "wti": {
-    "value": 71.81,
-    "changePct": -2.33
+    "value": 71.8,
+    "changePct": -2.34
   },
   "fred": {
     "10y_treasury": {
@@ -63,6 +63,13 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
+      "title": "US House to vote on bill to make daylight saving time permanent",
+      "link": "https://www.investing.com/news/commodities-news/us-house-to-vote-on-bill-to-make-daylight-saving-time-permanent-4785146",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
       "title": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei",
       "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
       "publishedAt": null
@@ -82,10 +89,10 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Oil prices slip even as escalating U.S.-Iran tensions threaten supply recovery",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-extend-gains-as-fresh-us-strikes-on-iran-revive-supply-concerns-4782949",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Nasdaq ends sharply higher; chip surge offsets Iran worries",
+      "link": "https://www.investing.com/news/economy-news/wall-st-futures-rebound-as-oil-retreats-investors-weigh-usiran-tensions-4783449",
       "publishedAt": null
     },
     {
@@ -107,13 +114,6 @@
       "categoryLabel": "经济数据",
       "title": "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce",
       "link": "https://www.investing.com/news/economy-news/trading-day-what-war-chipled-rally-helps-markets-ignore-onagain-offagain-usiran-truce-4785022",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
-      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
       "publishedAt": null
     }
   ]
