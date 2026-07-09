@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T08:07:04.820509+00:00",
+  "fetchedAt": "2026-07-09T11:24:57.617292+00:00",
   "gold": {
-    "price": 4107.600098,
-    "updatedAt": "2026-07-09T08:06:52Z"
+    "price": 4102.100098,
+    "updatedAt": "2026-07-09T11:24:52Z"
   },
   "silver": {
-    "price": 59.303001,
-    "updatedAt": "2026-07-09T08:06:51Z"
+    "price": 58.952,
+    "updatedAt": "2026-07-09T11:24:51Z"
   },
   "dxy": {
-    "value": 100.92,
-    "changePct": -0.13
+    "value": 101.01,
+    "changePct": -0.04
   },
   "vix": {
-    "value": 16.57,
-    "changePct": -1.95
+    "value": 17.17,
+    "changePct": 1.6
   },
   "wti": {
-    "value": 72.79,
-    "changePct": -0.99
+    "value": 74.0,
+    "changePct": 0.65
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
-      "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "title": "Bernstein sees higher gold prices in H2’26, sets new price target",
+      "link": "https://www.investing.com/news/commodities-news/bernstein-sees-higher-gold-prices-in-h226-sets-new-price-target-4783519",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices little changed as markets weigh impact of US strikes on Iran",
-      "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
+      "title": "Morning Bid: Markets remain long TACO",
+      "link": "https://www.investing.com/news/commodities-news/morning-bid-markets-remain-long-taco-4783507",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Goldman flags key constraint on oil supply recovery as U.S.-Iran tensions escalate",
-      "link": "https://www.investing.com/news/commodities-news/goldman-flags-key-constraint-on-oil-supply-recovery-as-usiran-tensions-escalate-4783018",
+      "title": "Iran says it hits US military targets in Gulf, prepares to bury slain leader",
+      "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices extend gains as fresh U.S. strikes on Iran revive supply concerns",
-      "link": "https://www.investing.com/news/commodities-news/oil-prices-extend-gains-as-fresh-us-strikes-on-iran-revive-supply-concerns-4782949",
+      "title": "Iraq seeks higher output quota but will stay in OPEC",
+      "link": "https://www.investing.com/news/commodities-news/iraq-seeks-higher-output-quota-but-will-stay-in-opec-93CH-4783454",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Factbox-Hedge funds record best first-half performance in 13 years, sources say",
-      "link": "https://www.investing.com/news/economy-news/factboxhedge-funds-record-best-firsthalf-performance-in-13-years-sources-say-4783001",
+      "title": "US relies more on foreign stock than debt flows, a dollar risk, Deutsche Bank warns",
+      "link": "https://www.investing.com/news/economy-news/us-relies-more-on-foreign-stock-than-debt-flows-a-dollar-risk-deutsche-bank-warns-4783665",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "German exports rise unexpectedly in May",
-      "link": "https://www.investing.com/news/economy-news/german-exports-rise-unexpectedly-in-may-4783000",
+      "title": "BofA sees Bank of Korea rate hike on inflation and FX concerns",
+      "link": "https://www.investing.com/news/economy-news/bofa-sees-bank-of-korea-rate-hike-on-inflation-and-fx-concerns-93CH-4783600",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike bets",
-      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
+      "title": "Wall St futures rebound as oil retreats, investors weigh US-Iran tensions",
+      "link": "https://www.investing.com/news/economy-news/wall-st-futures-rebound-as-oil-retreats-investors-weigh-usiran-tensions-4783449",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Asian shares wobble as oil jumps on renewed Gulf hostilities",
-      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
+      "title": "European Commission imposes anti-dumping duties on Chinese tyres",
+      "link": "https://www.investing.com/news/economy-news/european-commission-imposes-antidumping-duties-on-chinese-tyres-93CH-4783491",
       "publishedAt": null
     }
   ]
