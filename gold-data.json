@@ -1,33 +1,33 @@
 {
-  "fetchedAt": "2026-07-09T18:28:58.783722+00:00",
+  "fetchedAt": "2026-07-09T20:24:49.543043+00:00",
   "gold": {
-    "price": 4125.200195,
-    "updatedAt": "2026-07-09T18:28:53Z"
+    "price": 4122.799805,
+    "updatedAt": "2026-07-09T20:24:23Z"
   },
   "silver": {
-    "price": 60.272999,
-    "updatedAt": "2026-07-09T18:28:52Z"
+    "price": 60.042999,
+    "updatedAt": "2026-07-09T20:24:22Z"
   },
   "dxy": {
-    "value": 100.9,
-    "changePct": -0.15
+    "value": 100.94,
+    "changePct": -0.11
   },
   "vix": {
-    "value": 15.99,
-    "changePct": -5.38
+    "value": 15.86,
+    "changePct": -6.15
   },
   "wti": {
-    "value": 71.87,
-    "changePct": -2.24
+    "value": 71.72,
+    "changePct": -2.45
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-07-07",
-      "value": 4.55
+      "date": "2026-07-08",
+      "value": 4.56
     },
     "10y_real_rate": {
-      "date": "2026-07-07",
-      "value": 2.3
+      "date": "2026-07-08",
+      "value": 2.31
     }
   },
   "goldapi": null,
@@ -63,15 +63,22 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil prices dive by more than 2% as inflation fears outweigh supply risks",
+      "title": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei",
+      "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
+      "publishedAt": null
+    },
+    {
+      "category": "commodities",
+      "categoryLabel": "大宗商品",
+      "title": "Oil prices settle 2% lower as economic worries outweigh supply risks",
       "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Iran says it hits US military targets in Gulf, lays slain leader to rest",
-      "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
+      "title": "Oil prices slip even as escalating U.S.-Iran tensions threaten supply recovery",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-extend-gains-as-fresh-us-strikes-on-iran-revive-supply-concerns-4782949",
       "publishedAt": null
     },
     {
@@ -82,38 +89,31 @@
       "publishedAt": null
     },
     {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Jet fuel stocks fall in ARA hub on lower exports and imports",
-      "link": "https://www.investing.com/news/commodities-news/jet-fuel-stocks-fall-in-ara-hub-on-lower-exports-and-imports-93CH-4784503",
+      "category": "economy",
+      "categoryLabel": "经济数据",
+      "title": "Nasdaq rallies to sharply higher close; chip surge offsets Iran worries",
+      "link": "https://www.investing.com/news/economy-news/wall-st-futures-rebound-as-oil-retreats-investors-weigh-usiran-tensions-4783449",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Bank of France raises Q2 growth forecast after June rebound",
-      "link": "https://www.investing.com/news/economy-news/bank-of-france-raises-q2-growth-forecast-after-june-rebound-93CH-4784687",
+      "title": "Fed’s Warsh taps broad group of Fed outsiders to oversee review",
+      "link": "https://www.investing.com/news/economy-news/feds-warsh-taps-broad-group-of-central-bank-outsiders-to-oversee-review-4784723",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Fed’s Perli reiterates flexible path of reserve management buying",
-      "link": "https://www.investing.com/news/economy-news/feds-perli-reiterates-flexible-path-of-reserve-management-buying-4784670",
+      "title": "Dollar slips as labor market remains stable, US-Iran tensions flare",
+      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "US existing home sales fall as house prices hit record high",
-      "link": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-fall-amid-stable-labor-market-conditions-4784125",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Fed’s Logan says Fed open market operations would benefit from voluntary central clearing",
-      "link": "https://www.investing.com/news/economy-news/feds-logan-says-fed-open-market-operations-would-benefit-from-voluntary-central-clearing-4784665",
+      "title": "Warsh’s Fed unveils heavy-hitter task forces to overhaul monetary policy",
+      "link": "https://www.investing.com/news/economy-news/warshs-fed-unveils-heavyhitter-task-forces-to-overhaul-monetary-policy-4784728",
       "publishedAt": null
     }
   ]
