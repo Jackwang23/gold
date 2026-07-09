@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-07-09T00:13:07.579997+00:00",
+  "fetchedAt": "2026-07-09T04:16:27.464089+00:00",
   "gold": {
-    "price": 4084.399902,
-    "updatedAt": "2026-07-09T00:12:51Z"
+    "price": 4060.600098,
+    "updatedAt": "2026-07-09T04:16:21Z"
   },
   "silver": {
-    "price": 58.625999,
-    "updatedAt": "2026-07-09T00:12:50Z"
+    "price": 57.911999,
+    "updatedAt": "2026-07-09T04:16:21Z"
   },
   "dxy": {
-    "value": 101.0,
-    "changePct": -0.14
+    "value": 100.97,
+    "changePct": -0.07
   },
   "vix": {
     "value": 16.9,
     "changePct": 4.77
   },
   "wti": {
-    "value": 74.37,
-    "changePct": 5.58
+    "value": 74.33,
+    "changePct": 1.1
   },
   "fred": {
     "10y_treasury": {
@@ -63,57 +63,57 @@
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "US military says it is carrying out fresh strikes on Iran, after Trump says accord is ’over’",
+      "title": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
       "link": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Russia denounces NATO summit decisions on aid for Ukraine, defence",
-      "link": "https://www.investing.com/news/commodities-news/russia-denounces-nato-summit-decisions-on-aid-for-ukraine-defence-4782750",
+      "title": "Gold prices edge lower as Iran tensions boost dollar",
+      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-iran-tensions-boost-dollar-4782961",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Oil rises more than a dollar per barrel as US launches fresh strikes against Iran",
-      "link": "https://www.investing.com/news/commodities-news/oil-rises-more-than-a-dollar-per-barrel-as-us-launches-fresh-strikes-against-iran-4782740",
+      "title": "Oil rises after US launches fresh strikes against Iran",
+      "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
       "publishedAt": null
     },
     {
       "category": "commodities",
       "categoryLabel": "大宗商品",
-      "title": "Gold slips as spiking oil prices boost inflationary concerns, offset Fed minutes",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-steady-with-iran-risks-fed-minutes-in-focus-4780645",
+      "title": "Oil prices extend gains as fresh U.S. strikes on Iran revive supply concerns",
+      "link": "https://www.investing.com/news/commodities-news/oil-prices-extend-gains-as-fresh-us-strikes-on-iran-revive-supply-concerns-4782949",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "UK housing market downturn eased a little in June, RICS reports",
-      "link": "https://www.investing.com/news/economy-news/uk-housing-market-downturn-eased-a-little-in-june-rics-reports-4782805",
+      "title": "Gulf companies are set to reveal the unequal toll of Iran war",
+      "link": "https://www.investing.com/news/economy-news/gulf-companies-are-set-to-reveal-the-unequal-toll-of-iran-war-4782971",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "US judge approves Elon Musk settlement with SEC despite misgivings, ’red flags’",
-      "link": "https://www.investing.com/news/economy-news/judge-approves-elon-musk-settlement-with-us-sec-over-twitter-disclosures-4782332",
+      "title": "Asian shares climb on chip rally, oil jumps as Gulf hostilities resume",
+      "link": "https://www.investing.com/news/economy-news/asian-shares-climb-on-chip-rally-oil-jumps-as-gulf-hostilities-resume-4782953",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Trading Day: War on, risk-off: Stocks drop, crude jumps as Trump calls Iran peace deal ’over’",
-      "link": "https://www.investing.com/news/economy-news/trading-day-war-on-riskoff-stocks-drop-crude-jumps-as-trump-calls-iran-peace-deal-over-4782596",
+      "title": "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bets",
+      "link": "https://www.investing.com/news/economy-news/dollar-stands-tall-as-gulf-tensions-fuel-oil-price-surge-fed-hike-bets-4782925",
       "publishedAt": null
     },
     {
       "category": "economy",
       "categoryLabel": "经济数据",
-      "title": "Oil hits multi-week high, Wall Street slips as Iran tensions reignite",
-      "link": "https://www.investing.com/news/economy-news/oil-jumps-and-bonds-dip-as-us-strikes-iran-4780549",
+      "title": "Japan benchmark bond yield hits 30-year high on inflation, fiscal health concerns",
+      "link": "https://www.investing.com/news/economy-news/japan-benchmark-bond-yield-hits-30year-high-on-inflation-fiscal-health-concerns-4782891",
       "publishedAt": null
     }
   ]
