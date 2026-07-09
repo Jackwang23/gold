@@ -1,0 +1,2150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>贪狼黄金终端 · 黄金交易辅助工具</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#08080A;
+    --panel:#131318;
+    --panel-2:#1A1A20;
+    --line:#2A2A32;
+    --line-soft:#212127;
+    --text:#EEEDEA;
+    --text-soft:#9D9B97;
+    --text-mute:#5E5C58;
+    --rise:#22A876;
+    --rise-dim:rgba(34,168,118,0.14);
+    --fall:#C64F4F;
+    --fall-dim:rgba(198,79,79,0.14);
+    --amber:#C9A24C;
+    --amber-dim:rgba(201,162,76,0.14);
+    --z1:#C9A24C; --z1-dim:rgba(201,162,76,0.13);
+    --z2:#5490C4; --z2-dim:rgba(84,144,196,0.13);
+    --z3:#C64F4F; --z3-dim:rgba(198,79,79,0.13);
+    --z4:#9A80C4; --z4-dim:rgba(154,128,196,0.13);
+    --z5:#B85470; --z5-dim:rgba(184,84,112,0.13);
+    --z6:#22A876; --z6-dim:rgba(34,168,118,0.13);
+    --z7:#4CA0A6; --z7-dim:rgba(76,160,166,0.13);
+    --z8:#BC9E56; --z8-dim:rgba(188,158,86,0.13);
+    --z9:#8A887F; --z9-dim:rgba(138,136,127,0.13);
+    --z10:#6270B0; --z10-dim:rgba(98,112,176,0.15);
+    --z11:#BC7648; --z11-dim:rgba(188,118,72,0.14);
+    --z12:#469689; --z12-dim:rgba(70,150,137,0.14);
+    --serif:'Playfair Display', Georgia, serif;
+    --radius:8px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{overflow-x:hidden;}
+  body{
+    overflow-x:hidden;
+    background:
+      radial-gradient(ellipse 900px 460px at 50% -6%, rgba(201,162,76,0.08), transparent 62%),
+      radial-gradient(ellipse 640px 520px at 105% 18%, rgba(84,144,196,0.04), transparent 55%),
+      radial-gradient(ellipse 700px 500px at -5% 88%, rgba(201,162,76,0.035), transparent 55%),
+      linear-gradient(180deg, #09090B 0%, #08080A 45%, #060607 100%);
+    background-attachment:fixed;
+    color:var(--text);
+    font-family:'Inter',-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    max-width:480px;
+    margin:0 auto;
+    min-height:100vh;
+    border-left:1px solid var(--line);
+    border-right:1px solid var(--line);
+    box-shadow:0 0 70px rgba(0,0,0,0.55);
+  }
+  .mono{font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums;}
+  .serif{font-family:var(--serif);}
+
+  /* ---- Header ---- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(8,9,12,0.95);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+    border-top:2px solid;
+    border-image:linear-gradient(90deg, transparent, var(--amber) 25%, var(--amber) 75%, transparent) 1;
+    padding:14px 16px 12px;
+  }
+  .brand-row{display:flex; align-items:center; justify-content:space-between;}
+  .brand{display:flex; align-items:center; gap:8px;}
+  .brand-mark{
+    width:27px;height:27px;border-radius:6px;
+    background:linear-gradient(155deg,#E7CD7A,var(--amber) 45%,#8A6A1E);
+    display:flex;align-items:center;justify-content:center;
+    color:#0A0B0D;font-weight:700;font-size:13px;font-family:'IBM Plex Mono',monospace;
+    box-shadow:0 0 0 1px rgba(201,162,76,0.25), 0 2px 8px rgba(201,162,76,0.15);
+  }
+  .brand-name{font-family:var(--serif); font-weight:700; font-size:17.5px; letter-spacing:0.01em;}
+  .live-pill{
+    display:flex; align-items:center; gap:5px;
+    font-size:10.5px; color:var(--text-soft); font-weight:700;
+    padding:4px 9px; border:1px solid var(--line); border-radius:20px;
+    text-transform:uppercase; letter-spacing:.04em;
+  }
+  .live-dot{width:6px;height:6px;border-radius:50%;background:var(--rise);animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+  /* ---- Broadcast bar ---- */
+  .broadcast-bar{
+    margin-top:12px; border:1px solid var(--line); border-left:3px solid var(--amber);
+    border-radius:7px; background:var(--panel);
+    padding:9px 11px; display:flex; align-items:center; gap:10px;
+  }
+  .bc-live{
+    display:flex; align-items:center; gap:5px; flex-shrink:0;
+    font-size:9.5px; font-weight:800; color:var(--amber); text-transform:uppercase; letter-spacing:.05em;
+  }
+  .bc-live-dot{width:5px;height:5px;border-radius:50%;background:var(--amber);animation:pulse 1.4s infinite;}
+  .bc-source{font-size:10px; color:var(--text-mute); font-weight:700; flex-shrink:0; border-left:1px solid var(--line); padding-left:8px;}
+  .bc-scroll-wrap{flex:1; min-width:0; overflow:hidden; white-space:nowrap; position:relative; height:16px;}
+  .bc-scroll-text{
+    display:inline-block; font-size:12px; color:var(--text); font-weight:500;
+    animation:marquee 16s linear infinite; padding-left:100%;
+  }
+  @keyframes marquee{ 0%{transform:translateX(0);} 100%{transform:translateX(-100%);} }
+  .bc-controls{display:flex; align-items:center; gap:7px; flex-shrink:0;}
+  .bc-play{
+    width:22px; height:22px; border-radius:50%; background:var(--amber-dim); color:var(--amber);
+    display:flex; align-items:center; justify-content:center; font-size:9px; cursor:pointer;
+  }
+  .bc-wave{display:flex; align-items:flex-end; gap:2px; height:14px;}
+  .wave-bar{width:2px; background:var(--amber); border-radius:1px; animation:wave 1s ease-in-out infinite;}
+  .wave-bar:nth-child(1){animation-delay:0s;}
+  .wave-bar:nth-child(2){animation-delay:.15s;}
+  .wave-bar:nth-child(3){animation-delay:.3s;}
+  .wave-bar:nth-child(4){animation-delay:.45s;}
+  @keyframes wave{ 0%,100%{height:4px;} 50%{height:13px;} }
+
+  /* ---- Session strip ---- */
+  .session-strip{margin-top:12px;}
+  .session-strip-label{
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-size:10.5px; color:var(--text-mute); margin-bottom:6px;
+  }
+  .session-strip-label b{color:var(--text); font-weight:700;}
+  .session-track{
+    position:relative; height:32px; border-radius:6px; overflow:hidden;
+    background:var(--panel); border:1px solid var(--line);
+  }
+  .volume-heatmap{ position:absolute; inset:0; z-index:0; }
+  .session-block{
+    position:absolute; top:0; bottom:0; z-index:1;
+    display:flex; align-items:center; justify-content:center;
+    font-size:9px; font-weight:700; letter-spacing:.03em; color:var(--text-soft);
+    text-shadow:0 1px 3px rgba(0,0,0,0.7);
+  }
+  .session-block.overlap{ color:var(--amber); font-weight:800; }
+  .session-block-divider{ position:absolute; top:0; bottom:0; width:1px; background:rgba(0,0,0,0.35); z-index:1; }
+  .now-marker{ position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--text); z-index:5; }
+  .now-marker::after{
+    content:''; position:absolute; top:-4px; left:50%; transform:translateX(-50%);
+    width:6px; height:6px; border-radius:50%; background:var(--text);
+  }
+  .session-legend{ display:flex; gap:11px; margin-top:8px; font-size:10px; color:var(--text-mute); flex-wrap:wrap; }
+  .session-legend span{display:flex; align-items:center; gap:4px;}
+  .legend-swatch{width:8px;height:8px;border-radius:2px;}
+  .volume-gradient-bar{
+    height:6px; border-radius:3px; margin-top:7px;
+    background:linear-gradient(90deg, var(--panel-2) 0%, var(--amber) 100%);
+  }
+  .volume-gradient-labels{display:flex; justify-content:space-between; font-size:8.5px; color:var(--text-mute); margin-top:3px;}
+
+  /* ---- Layout / Zone system ---- */
+  main{padding:16px 16px 4px; display:flex; flex-direction:column; gap:10px;}
+  .category{display:flex; flex-direction:column;}
+  .category-header{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:11px 13px; border-radius:8px; background:var(--panel-2); border:1px solid var(--line);
+    cursor:pointer; user-select:none;
+  }
+  .category-title{display:flex; align-items:center; gap:9px; min-width:0;}
+  .category-name{font-family:var(--serif); font-size:14px; font-weight:700; color:var(--text);}
+  .category-sub{font-size:9.5px; color:var(--text-mute); font-weight:600;}
+  .category-count{font-size:9.5px; color:var(--text-mute); font-weight:700; background:var(--panel); padding:2px 8px; border-radius:10px; border:1px solid var(--line); flex-shrink:0;}
+  .category-chevron{font-size:11px; color:var(--text-mute); flex-shrink:0; transition:transform .25s ease;}
+  .category.open .category-chevron{transform:rotate(90deg);}
+  .category-body{display:none; flex-direction:column; gap:30px; padding:22px 0 6px;}
+  .category.open .category-body{display:flex;}
+  .zone{display:flex; flex-direction:column; gap:14px;}
+  .zone-header{display:flex; align-items:flex-end; gap:10px;}
+  .zone-index{
+    font-family:'IBM Plex Mono',monospace; font-size:26px; font-weight:700;
+    color:var(--zc); line-height:0.8; letter-spacing:-0.02em;
+  }
+  .zone-titles{display:flex; flex-direction:column; gap:2px;}
+  .zone-name{font-family:var(--serif); font-size:17px; font-weight:700; letter-spacing:0.005em;}
+  .zone-sub{font-size:9px; color:var(--text-mute); text-transform:uppercase; letter-spacing:.14em; font-weight:700;}
+  .zone-rule{height:1px; background:linear-gradient(90deg, var(--zc) 0%, var(--line) 45%, transparent 100%); margin-top:-4px;}
+
+  .zone-01{--zc:var(--z1);} .zone-02{--zc:var(--z2);} .zone-03{--zc:var(--z3);} .zone-04{--zc:var(--z4);}
+  .zone-05{--zc:var(--z5);} .zone-06{--zc:var(--z6);} .zone-07{--zc:var(--z7);} .zone-08{--zc:var(--z8);}
+  .zone-09{--zc:var(--z9);}
+  .zone-10{--zc:var(--z10);}
+  .zone-11{--zc:var(--z11);}
+  .zone-12{--zc:var(--z12);}
+
+  /* ---- Time horizon card ---- */
+  .time-row{padding:13px 15px; border-bottom:1px solid var(--line-soft);}
+  .time-row:last-child{border-bottom:none;}
+  .time-head{display:flex; justify-content:space-between; align-items:center;}
+  .time-label{font-size:13.5px; font-weight:800;}
+  .time-label-sub{font-size:9px; color:var(--text-mute); font-weight:700; letter-spacing:.08em; margin-left:6px;}
+  .time-badge{font-size:11px; font-weight:800; padding:4px 10px; border-radius:6px; flex-shrink:0;}
+  .time-badge.long{background:var(--rise-dim); color:var(--rise);}
+  .time-badge.short{background:var(--fall-dim); color:var(--fall);}
+  .time-badge.range{background:var(--amber-dim); color:var(--amber);}
+  .time-detail{font-size:11.5px; color:var(--text-soft); line-height:1.55; margin-top:8px;}
+  .time-detail b{color:var(--text); font-weight:700;}
+  .time-confluence{
+    display:flex; align-items:flex-start; gap:8px; margin-top:2px;
+    padding:11px; border-radius:7px; background:var(--z10-dim);
+    font-size:11.5px; color:var(--text); line-height:1.5; font-weight:500;
+  }
+  .time-confluence .tag{color:var(--z10); font-weight:800; flex-shrink:0;}
+
+  .subsection{display:flex; flex-direction:column; gap:9px;}
+  .section-title{
+    font-size:11px; font-weight:700; color:var(--text-mute);
+    text-transform:uppercase; letter-spacing:.07em;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .section-title .more{font-size:11px; color:var(--zc); font-weight:600; text-transform:none; letter-spacing:0;}
+
+  .card{
+    background:linear-gradient(165deg, var(--panel-2) 0%, var(--panel) 55%);
+    border:1px solid var(--line); border-left:3px solid var(--zc);
+    border-radius:var(--radius); padding:13px;
+    box-shadow:0 1px 0 rgba(255,255,255,0.02) inset, 0 4px 14px rgba(0,0,0,0.28);
+  }
+
+  /* ---- Price hero ---- */
+  .price-card{padding:17px 15px;}
+  .price-top{display:flex; justify-content:space-between; align-items:flex-start;}
+  .price-label{font-size:11.5px; color:var(--text-mute); font-weight:600;}
+  .price-value{font-size:32px; font-weight:700; margin-top:2px; letter-spacing:-0.01em; font-family:'IBM Plex Mono',monospace;}
+  .price-delta{
+    display:inline-flex; align-items:center; gap:4px; margin-top:6px;
+    font-size:12.5px; font-weight:700; padding:3px 8px; border-radius:5px; font-family:'IBM Plex Mono',monospace;
+  }
+  .price-delta.up{color:var(--rise); background:var(--rise-dim);}
+  .price-delta.down{color:var(--fall); background:var(--fall-dim);}
+  .range-tabs{display:flex; gap:6px;}
+  .range-tab{ font-size:10.5px; font-weight:600; color:var(--text-mute); padding:4px 8px; border-radius:5px; cursor:pointer; }
+  .range-tab.active{background:var(--z1-dim); color:var(--amber);}
+
+  /* ---- Overview strip (always-visible glance bar) ---- */
+  .overview-strip{
+    margin-top:12px; display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
+    background:var(--line); border:1px solid var(--line); border-radius:8px; overflow:hidden;
+  }
+  .ov-item{background:var(--panel); padding:8px 6px; text-align:center;}
+  .ov-label{font-size:9px; color:var(--text-mute); font-weight:700; letter-spacing:.04em;}
+  .ov-val{font-size:14px; font-weight:800; margin-top:2px; font-family:'IBM Plex Mono',monospace;}
+
+  /* ---- Cross-source alert banner ---- */
+  .cross-alert{
+    display:none; align-items:flex-start; gap:9px; margin-top:10px;
+    padding:11px 12px; border-radius:8px; background:var(--fall-dim); border:1px solid var(--fall);
+    animation:pulse 2s infinite;
+  }
+  .cross-alert.show{display:flex;}
+  .cross-alert .ca-icon{font-size:15px; flex-shrink:0; line-height:1.2;}
+  .cross-alert .ca-text{font-size:11.5px; color:var(--fall); font-weight:700; line-height:1.5;}
+
+  /* ---- Sticky quick-nav pills ---- */
+  .quick-nav{ display:flex; gap:7px; margin-top:11px; overflow-x:auto; padding-bottom:2px; }
+  .quick-nav::-webkit-scrollbar{display:none;}
+  .qn-pill{
+    flex-shrink:0; font-size:10.5px; font-weight:700; color:var(--text-soft);
+    background:var(--panel-2); border:1px solid var(--line); border-radius:20px;
+    padding:6px 12px; cursor:pointer; white-space:nowrap; border-width:1px; border-style:solid;
+  }
+  .qn-pill:active{background:var(--z1-dim); color:var(--amber); border-color:var(--amber);}
+
+  /* ---- Data recency tag ---- */
+  .data-tag{font-size:9px; color:var(--text-mute); font-weight:600;}
+  .data-tag.lag{color:var(--amber);}
+  .chart-wrap{margin-top:12px; height:150px; width:100%; position:relative;}
+  .chart-wrap canvas{width:100% !important; height:100% !important; display:block;}
+  .price-meta-row{
+    display:flex; justify-content:space-between; margin-top:12px; padding-top:12px;
+    border-top:1px solid var(--line-soft);
+  }
+  .price-meta{font-size:10.5px; color:var(--text-mute);}
+  .price-meta b{display:block; color:var(--text); font-size:13px; margin-top:2px; font-weight:700; font-family:'IBM Plex Mono',monospace;}
+
+  /* ---- Grid cards ---- */
+  .macro-grid{display:grid; grid-template-columns:1fr 1fr; gap:9px;}
+  .macro-card{ border:1px solid var(--line); border-left:3px solid var(--zc); border-radius:7px; padding:11px; background:var(--panel); display:flex; flex-direction:column; gap:6px; }
+  .macro-head{display:flex; justify-content:space-between; align-items:center;}
+  .macro-name{font-size:11px; font-weight:700; color:var(--text-soft);}
+  .macro-badge{font-size:9px; font-weight:700; padding:1px 5px; border-radius:4px;}
+  .macro-badge.pos{color:var(--rise); background:var(--rise-dim);}
+  .macro-badge.neg{color:var(--fall); background:var(--fall-dim);}
+  .macro-value{font-size:18px; font-weight:700; font-family:'IBM Plex Mono',monospace;}
+  .macro-unit{font-size:9.5px; color:var(--text-mute); font-weight:600; margin-top:-4px;}
+  .macro-spark{height:30px; position:relative; width:100%;}
+  .macro-spark canvas{width:100% !important; height:100% !important; display:block;}
+  .macro-note{font-size:10px; color:var(--text-mute); line-height:1.5;}
+
+  /* ---- Calendar / events ---- */
+  .event-row{ display:flex; align-items:center; gap:7px; padding:8px 0; border-bottom:1px solid var(--line-soft); }
+  .event-row:last-child{border-bottom:none; padding-bottom:0;}
+  .event-time{font-size:10px; font-weight:700; color:var(--text); width:34px; flex-shrink:0; font-family:'IBM Plex Mono',monospace;}
+  .event-impact{width:5px; height:5px; border-radius:50%; flex-shrink:0;}
+  .impact-high{background:var(--fall);}
+  .impact-mid{background:var(--amber);}
+  .impact-low{background:var(--text-mute);}
+  .event-body{flex:1; min-width:0;}
+  .event-name{font-size:11.5px; font-weight:600; overflow-wrap:break-word;}
+  .event-sub{font-size:9.5px; color:var(--text-mute); margin-top:1px; overflow-wrap:break-word;}
+  .event-tag{ font-size:9px; font-weight:700; padding:2px 5px; border-radius:4px; background:var(--panel-2); color:var(--text-mute); flex-shrink:0; white-space:nowrap; }
+
+  /* ---- Sentiment feed w/ 3-light system ---- */
+  .sent-legend{font-size:9px; color:var(--text-mute); margin-bottom:2px; line-height:1.4;}
+  .sent-item{ display:flex; gap:8px; padding:9px 0; border-bottom:1px solid var(--line-soft); }
+  .sent-item:last-child{border-bottom:none; padding-bottom:0;}
+  .sent-cat{ flex-shrink:0; width:42px; text-align:center; font-size:9px; font-weight:700; padding:3px 0; border-radius:5px; height:fit-content; }
+  .cat-geo{background:var(--fall-dim); color:var(--fall);}
+  .cat-trade{background:var(--amber-dim); color:var(--amber);}
+  .cat-policy{background:var(--z2-dim); color:var(--z2);}
+  .cat-blackswan{background:var(--z5); color:#fff;}
+  .sent-body{flex:1; min-width:0;}
+  .sent-text{font-size:11.5px; line-height:1.4; font-weight:500; color:var(--text); overflow-wrap:break-word;}
+  .sent-meta{display:flex; align-items:center; justify-content:space-between; margin-top:5px; flex-wrap:wrap; gap:4px;}
+  .sent-lights{display:flex; align-items:center; gap:5px;}
+  .light{width:6px; height:6px; border-radius:50%; background:var(--line);}
+  .light.on{background:var(--z2); box-shadow:0 0 5px var(--z2);}
+  .sent-time{font-size:9.5px; color:var(--text-mute); font-family:'IBM Plex Mono',monospace;}
+
+  /* ---- Fund flow ---- */
+  .flow-row{ display:flex; justify-content:space-between; align-items:center; padding:11px 0; border-bottom:1px solid var(--line-soft); }
+  .flow-row:last-child{border-bottom:none; padding-bottom:0;}
+  .flow-left{display:flex; align-items:center; gap:10px;}
+  .flow-icon{
+    width:30px; height:30px; border-radius:7px; flex-shrink:0;
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; background:var(--zc); background:var(--z1-dim); color:var(--z1); font-weight:700;
+  }
+  .flow-name{font-size:12.5px; font-weight:600;}
+  .flow-sub{font-size:10.5px; color:var(--text-mute); margin-top:1px;}
+  .flow-right{text-align:right;}
+  .flow-value{font-size:13px; font-weight:700; font-family:'IBM Plex Mono',monospace;}
+  .flow-change{font-size:10.5px; font-weight:600; margin-top:1px;}
+
+  /* ---- Risk day module ---- */
+  .risk-card{padding:17px 15px;}
+  .risk-top{display:flex; align-items:center; gap:16px;}
+  .risk-gauge-wrap{position:relative; width:100px; height:62px; flex-shrink:0;}
+  .risk-gauge-label{ position:absolute; bottom:0; left:50%; transform:translateX(-50%); text-align:center; }
+  .risk-gauge-score{font-size:21px; font-weight:800; font-family:'IBM Plex Mono',monospace; line-height:1;}
+  .risk-gauge-max{font-size:9.5px; color:var(--text-mute); font-weight:600;}
+  .risk-info{flex:1; min-width:0;}
+  .risk-badge{ display:inline-flex; align-items:center; gap:5px; font-size:12.5px; font-weight:800; padding:5px 10px; border-radius:6px; margin-bottom:6px; }
+  .risk-badge.range{background:var(--rise-dim); color:var(--rise);}
+  .risk-badge.trend{background:var(--z1-dim); color:var(--amber);}
+  .risk-badge.chaos{background:var(--fall-dim); color:var(--fall);}
+  .risk-reason{font-size:11.5px; color:var(--text-soft); line-height:1.5;}
+  .risk-metrics{ display:flex; flex-direction:column; gap:9px; margin-top:14px; padding-top:14px; border-top:1px solid var(--line-soft); }
+  .risk-metric-row{display:flex; align-items:center; gap:10px;}
+  .risk-metric-name{font-size:11px; color:var(--text-mute); width:62px; flex-shrink:0; font-weight:600;}
+  .risk-metric-track{ flex:1; height:5px; border-radius:3px; background:var(--panel-2); overflow:hidden; }
+  .risk-metric-fill{height:100%; border-radius:3px;}
+  .risk-metric-val{ font-size:11px; font-family:'IBM Plex Mono',monospace; font-weight:600; width:30px; text-align:right; flex-shrink:0; color:var(--text-soft); }
+  .risk-alert{
+    display:flex; align-items:flex-start; gap:8px; margin-top:12px;
+    padding:10px 11px; border-radius:7px; background:var(--fall-dim);
+    font-size:11.5px; color:var(--fall); line-height:1.5; font-weight:600;
+  }
+  .risk-alert .dot{width:6px;height:6px;border-radius:50%;background:var(--fall); margin-top:5px; flex-shrink:0;}
+
+  /* ---- Decision card ---- */
+  .decision-card{padding:17px 15px;}
+  .decision-stance{display:flex; align-items:center; justify-content:space-between;}
+  .stance-badge{font-size:14px; font-weight:800; padding:7px 13px; border-radius:7px;}
+  .stance-badge.wait{background:var(--amber-dim); color:var(--amber);}
+  .stance-badge.long{background:var(--rise-dim); color:var(--rise);}
+  .stance-badge.range{background:var(--z4-dim); color:var(--z4);}
+  .decision-confidence{font-size:10px; color:var(--text-mute); font-weight:700; text-align:right;}
+  .decision-confidence b{display:block; font-size:14px; color:var(--text); font-family:'IBM Plex Mono',monospace;}
+  .decision-list{margin-top:14px; display:flex; flex-direction:column; gap:9px;}
+  .decision-item{display:flex; gap:8px; font-size:12px; line-height:1.5; color:var(--text-soft);}
+  .decision-item .bullet{color:var(--z4); font-weight:800; flex-shrink:0;}
+  .decision-position{
+    margin-top:14px; padding-top:14px; border-top:1px solid var(--line-soft);
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .decision-position-label{font-size:10.5px; color:var(--text-mute); font-weight:600;}
+  .decision-position-val{font-size:13px; font-weight:700; font-family:'IBM Plex Mono',monospace; color:var(--z4);}
+  .decision-updated{font-size:9.5px; color:var(--text-mute); margin-top:10px; text-align:right; font-family:'IBM Plex Mono',monospace;}
+
+  /* ---- Black swan / emergency ---- */
+  .blackswan-card{padding:15px; display:flex; align-items:center; gap:13px;}
+  .bs-status-dot{
+    width:42px; height:42px; border-radius:50%; flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; font-size:18px;
+  }
+  .bs-status-dot.standby{background:var(--rise-dim); color:var(--rise);}
+  .bs-status-dot.triggered{background:var(--fall-dim); color:var(--fall); animation:pulse 1.6s infinite;}
+  .bs-info{flex:1; min-width:0;}
+  .bs-status-label{font-size:13.5px; font-weight:800;}
+  .bs-status-sub{font-size:11px; color:var(--text-mute); margin-top:3px; line-height:1.45;}
+  .bs-timestamp{font-size:9.5px; color:var(--text-mute); margin-top:7px; font-family:'IBM Plex Mono',monospace;}
+
+  /* ---- Position card ---- */
+  .position-card{padding:15px;}
+  .pos-head{display:flex; justify-content:space-between; align-items:center;}
+  .pos-symbol{font-size:14px; font-weight:800; font-family:'IBM Plex Mono',monospace;}
+  .pos-side{font-size:10.5px; font-weight:800; padding:3px 9px; border-radius:5px; background:var(--rise-dim); color:var(--rise); text-transform:uppercase; letter-spacing:.04em;}
+  .pos-grid{display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; margin-top:14px;}
+  .pos-stat{display:flex; flex-direction:column; gap:3px;}
+  .pos-stat-label{font-size:9.5px; color:var(--text-mute); font-weight:600; text-transform:uppercase; letter-spacing:.04em;}
+  .pos-stat-val{font-size:13.5px; font-weight:700; font-family:'IBM Plex Mono',monospace;}
+  .pos-status{
+    margin-top:14px; padding:10px 11px; border-radius:7px; background:var(--z6-dim);
+    display:flex; align-items:center; gap:8px; font-size:11.5px; color:var(--z6); font-weight:600; line-height:1.4;
+  }
+  .pos-status .dot{width:6px;height:6px;border-radius:50%;background:var(--z6); flex-shrink:0;}
+
+  /* ---- Stop-loss / take-profit bar ---- */
+  .sl-tp-bar{margin-top:14px;}
+  .sl-tp-track{
+    position:relative; height:7px; border-radius:4px;
+    background:linear-gradient(90deg, var(--fall) 0%, var(--fall) 15%, var(--line-soft) 15%, var(--line-soft) 85%, var(--rise) 85%, var(--rise) 100%);
+  }
+  .sl-tp-fill{position:absolute; top:0; left:0; height:100%; width:0; background:transparent;}
+  .sl-tp-marker{
+    position:absolute; top:-3px; width:3px; height:13px; border-radius:2px;
+    background:var(--text); left:50%; transform:translateX(-50%);
+    box-shadow:0 0 0 2px rgba(0,0,0,0.4);
+  }
+  .sl-tp-labels{display:flex; justify-content:space-between; margin-top:6px; font-size:9.5px; color:var(--text-mute); font-family:'IBM Plex Mono',monospace;}
+  .sl-tp-labels span.warn{color:var(--fall); font-weight:700;}
+  .sl-tp-labels span.near-tp{color:var(--rise); font-weight:700;}
+  .pos-status.alert-hit{background:var(--fall-dim); color:var(--fall);}
+  .pos-status.alert-hit .dot{background:var(--fall);}
+  .pos-status.alert-near{background:var(--amber-dim); color:var(--amber);}
+  .pos-status.alert-near .dot{background:var(--amber);}
+
+  /* ---- Review card ---- */
+  .review-card{padding:15px;}
+  .review-hit-rate{display:flex; align-items:baseline; gap:8px;}
+  .review-hit-num{font-size:30px; font-weight:800; font-family:'IBM Plex Mono',monospace; color:var(--z7);}
+  .review-hit-label{font-size:11px; color:var(--text-mute); font-weight:600;}
+  .review-list{margin-top:14px; display:flex; flex-direction:column; gap:0;}
+  .review-row{display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid var(--line-soft);}
+  .review-row:last-child{border-bottom:none; padding-bottom:0;}
+  .review-date{font-size:10.5px; color:var(--text-mute); font-family:'IBM Plex Mono',monospace; width:44px; flex-shrink:0;}
+  .review-verdict{font-size:11.5px; color:var(--text-soft); flex:1;}
+  .review-check{font-size:12px; font-weight:800; flex-shrink:0;}
+  .review-check.hit{color:var(--rise);}
+  .review-check.miss{color:var(--fall);}
+
+  /* ---- Al Brooks price action analysis ---- */
+  .brooks-card{padding:0;}
+  .brooks-head{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:12px 13px; border-bottom:1px solid var(--line-soft);
+  }
+  .brooks-title{display:flex; flex-direction:column; gap:2px;}
+  .brooks-title .t1{font-family:var(--serif); font-size:13.5px; font-weight:700;}
+  .brooks-title .t2{font-size:9px; color:var(--text-mute); letter-spacing:.06em;}
+  .brooks-alwaysin{font-size:10.5px; font-weight:800; padding:4px 10px; border-radius:6px; flex-shrink:0;}
+  .brooks-alwaysin.long{background:var(--rise-dim); color:var(--rise);}
+  .brooks-alwaysin.short{background:var(--fall-dim); color:var(--fall);}
+  .brooks-row{display:flex; gap:9px; padding:10px 13px; border-bottom:1px solid var(--line-soft);}
+  .brooks-row:last-of-type{border-bottom:none;}
+  .brooks-tag{
+    flex-shrink:0; font-size:9px; font-weight:800; color:var(--z1); background:var(--z1-dim);
+    border-radius:5px; padding:3px 6px; height:fit-content; white-space:nowrap;
+  }
+  .brooks-body{flex:1; min-width:0; font-size:11.5px; color:var(--text-soft); line-height:1.55;}
+  .brooks-body b{color:var(--text); font-weight:700;}
+  .brooks-summary{
+    font-size:10.5px; color:var(--text-soft); line-height:1.6; padding:11px 13px;
+    background:var(--panel-2); border-top:1px solid var(--line-soft);
+  }
+  .brooks-summary b{color:var(--amber); font-weight:700;}
+  .brooks-disclaimer{font-size:9.5px; color:var(--text-mute); line-height:1.5; padding:9px 13px 12px;}
+
+  /* ---- Daily quote footer ---- */
+  .quote-block{
+    margin:0 16px 4px; padding:20px 18px; border-radius:10px;
+    background:linear-gradient(155deg, rgba(201,162,76,0.08), rgba(18,20,26,0.4));
+    border:1px solid rgba(201,162,76,0.22); position:relative;
+  }
+  .quote-mark{font-family:var(--serif); font-size:34px; color:var(--amber); opacity:.55; line-height:0.4; position:absolute; top:14px; left:14px;}
+  .quote-text{font-family:var(--serif); font-style:italic; font-size:14px; color:var(--text); line-height:1.6; padding-left:20px;}
+  .quote-attr{margin-top:10px; padding-left:20px; font-size:10.5px; color:var(--amber); font-weight:700; letter-spacing:.02em;}
+  .quote-attr span{color:var(--text-mute); font-weight:500;}
+
+  /* ---- Historical backtest (similar scenario lookback) ---- */
+  .backtest-current{padding:13px 13px 11px; border-bottom:1px solid var(--line-soft);}
+  .backtest-current-label{font-size:10px; color:var(--text-mute); font-weight:700; margin-bottom:7px;}
+  .backtest-tags{display:flex; flex-wrap:wrap; gap:6px;}
+  .bt-tag{font-size:10px; font-weight:600; color:var(--z7); background:var(--z7-dim); padding:3px 8px; border-radius:5px;}
+  .backtest-row{display:flex; align-items:center; gap:8px; padding:9px 13px; border-bottom:1px solid var(--line-soft); flex-wrap:wrap;}
+  .backtest-row:last-of-type{border-bottom:none;}
+  .backtest-date{font-size:10px; color:var(--text-mute); width:66px; flex-shrink:0;}
+  .backtest-match{font-size:10.5px; color:var(--text-soft); flex:1; min-width:70px;}
+  .backtest-match b{color:var(--text); font-weight:700;}
+  .backtest-outcome{display:flex; gap:10px; flex-shrink:0;}
+  .bt-h{font-size:10px; color:var(--text-mute); font-family:'IBM Plex Mono',monospace;}
+  .bt-h b{font-size:11px; font-weight:700;}
+  .backtest-summary{font-size:10.5px; color:var(--text-soft); line-height:1.55; padding:11px 13px; background:var(--panel-2);}
+  .backtest-summary b{color:var(--text); font-weight:700;}
+
+  /* ---- Correlation card ---- */
+  .corr-card{padding:15px;}
+  .corr-row{display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--line-soft);}
+  .corr-row:last-child{border-bottom:none; padding-bottom:0;}
+  .corr-name{font-size:12px; font-weight:600; width:64px; flex-shrink:0;}
+  .corr-track{flex:1; height:6px; border-radius:3px; background:var(--panel-2); position:relative; overflow:hidden;}
+  .corr-fill{position:absolute; top:0; bottom:0; border-radius:3px;}
+  .corr-val{font-size:11.5px; font-family:'IBM Plex Mono',monospace; font-weight:700; width:42px; text-align:right; flex-shrink:0;}
+  .corr-flag{font-size:9px; font-weight:700; color:var(--z8); flex-shrink:0;}
+
+  /* ---- Expert school card ---- */
+  .expert-card{padding:14px 15px; margin-bottom:0;}
+  .expert-head{display:flex; justify-content:space-between; align-items:flex-start;}
+  .expert-name{font-size:13px; font-weight:800;}
+  .expert-source{font-size:9.5px; color:var(--text-mute); margin-top:2px;}
+  .expert-signal{font-size:11px; font-weight:800; padding:4px 10px; border-radius:6px; flex-shrink:0;}
+  .expert-signal.long{background:var(--rise-dim); color:var(--rise);}
+  .expert-signal.short{background:var(--fall-dim); color:var(--fall);}
+  .expert-signal.neutral{background:var(--panel-2); color:var(--text-mute);}
+  .expert-logic{font-size:11.5px; color:var(--text-soft); line-height:1.5; margin-top:9px;}
+  .expert-disclaimer{
+    font-size:10px; color:var(--text-mute); line-height:1.5; margin-top:2px;
+    padding:10px 11px; border-radius:7px; background:var(--panel-2); border:1px dashed var(--line);
+  }
+
+  /* ---- Featured (technical school, matches day-trading timeframe) ---- */
+  .expert-featured{border-left:3px solid var(--amber); padding:15px;}
+  .expert-featured .expert-name{font-size:14.5px;}
+  .expert-featured .expert-logic{font-size:12px;}
+  .expert-featured-tag{
+    margin-top:10px; padding-top:9px; border-top:1px solid var(--line-soft);
+    font-size:10px; color:var(--amber); font-weight:600;
+  }
+
+  /* ---- Muted (background-only schools, off day-trading timeframe) ---- */
+  .expert-card-muted{padding:11px 15px; opacity:0.68;}
+  .expert-card-muted .expert-name{font-size:11.5px; font-weight:700;}
+  .expert-card-muted .expert-logic{font-size:10px; margin-top:6px;}
+  .expert-card-muted .expert-signal{font-size:9.5px; padding:3px 8px;}
+
+  /* ---- Self-management (trader discipline check) ---- */
+  .self-card{display:flex; flex-direction:column; gap:13px;}
+  .self-score-row{display:flex; align-items:center; gap:13px;}
+  .self-score-wrap{ width:64px; height:64px; border-radius:50%; flex-shrink:0; display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--panel-2); border:3px solid var(--rise); }
+  .self-score-num{font-size:19px; font-weight:800; line-height:1; color:var(--text);}
+  .self-score-label{font-size:8px; color:var(--text-mute); font-weight:700; margin-top:2px;}
+  .self-score-status{flex:1; min-width:0; font-size:12px; font-weight:700; color:var(--rise); line-height:1.4;}
+  .self-checklist{display:flex; flex-direction:column; gap:9px; padding-top:12px; border-top:1px solid var(--line-soft);}
+  .self-check-item{display:flex; align-items:flex-start; gap:9px; font-size:11.5px; color:var(--text-soft); line-height:1.45; cursor:pointer;}
+  .self-check-item input{flex-shrink:0; margin-top:2px; width:15px; height:15px; accent-color:var(--fall);}
+  .self-note{font-size:9.5px; color:var(--text-mute); line-height:1.5; padding-top:2px;}
+
+  footer{ padding:22px 16px 30px; text-align:center; font-size:10px; color:var(--text-mute); border-top:1px solid var(--line); margin-top:8px; }
+
+  .data-status-bar{
+    display:flex; align-items:center; gap:7px; margin:10px 16px 0;
+    padding:7px 11px; border-radius:7px; background:var(--panel-2); border:1px solid var(--line-soft);
+    font-size:9.5px; color:var(--text-mute);
+  }
+  .data-status-bar .dot{width:6px;height:6px;border-radius:50%; background:var(--amber); flex-shrink:0; animation:dotPulse 2s infinite;}
+  @keyframes dotPulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+  .data-status-bar b{color:var(--text-soft); font-weight:600;}
+
+  /* ---- Risk profile switcher (decision source) ---- */
+  .risk-switch{display:flex; gap:6px; margin-bottom:11px;}
+  .risk-switch button{
+    flex:1; padding:6px 0; border-radius:6px; border:1px solid var(--line);
+    background:var(--panel-2); color:var(--text-mute); font-size:10.5px; font-weight:700;
+    font-family:'Inter',sans-serif; cursor:pointer; transition:.15s;
+  }
+  .risk-switch button.active{background:var(--amber-dim); border-color:var(--amber); color:var(--amber);}
+
+  /* ---- Editable position card ---- */
+  .pos-edit-row{display:flex; gap:8px; margin-bottom:10px;}
+  .pos-edit-field{flex:1;}
+  .pos-edit-field label{display:block; font-size:9px; color:var(--text-mute); margin-bottom:4px; text-transform:uppercase; letter-spacing:.04em;}
+  .pos-edit-field input{
+    width:100%; background:var(--panel-2); border:1px solid var(--line); border-radius:6px;
+    color:var(--text); font-family:'IBM Plex Mono',monospace; font-size:12.5px; padding:6px 8px;
+  }
+  .pos-edit-field input:focus{outline:none; border-color:var(--amber);}
+
+  /* ---- Event countdown ---- */
+  .event-countdown{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    padding:9px 12px; margin-bottom:10px; border-radius:7px;
+    background:var(--fall-dim); border:1px solid rgba(209,75,75,0.3);
+  }
+  .event-countdown .ec-label{font-size:10px; color:var(--text-soft);}
+  .event-countdown .ec-time{font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:700; color:var(--fall);}
+
+  /* ---- Decision tracking log ---- */
+  .log-card{padding:13px;}
+  .log-form-row{display:flex; gap:8px; margin-bottom:8px;}
+  .log-form-row select, .log-form-row input{
+    flex:1; background:var(--panel-2); border:1px solid var(--line); border-radius:6px;
+    color:var(--text); font-family:'Inter',sans-serif; font-size:11px; padding:7px 8px;
+  }
+  .log-add-btn{
+    width:100%; padding:8px 0; border-radius:6px; border:1px solid var(--amber);
+    background:var(--amber-dim); color:var(--amber); font-weight:700; font-size:11.5px;
+    cursor:pointer; margin-bottom:12px;
+  }
+  .log-stats-row{display:flex; gap:8px; margin-bottom:12px;}
+  .log-stat-box{flex:1; text-align:center; background:var(--panel-2); border-radius:7px; padding:9px 4px;}
+  .log-stat-box .n{font-family:'IBM Plex Mono',monospace; font-size:17px; font-weight:700; color:var(--text);}
+  .log-stat-box .l{font-size:9px; color:var(--text-mute); margin-top:2px;}
+  .log-entry{
+    display:flex; align-items:center; gap:8px; padding:8px 0; border-bottom:1px solid var(--line-soft);
+    font-size:11px;
+  }
+  .log-entry:last-child{border-bottom:none;}
+  .log-entry .le-date{font-family:'IBM Plex Mono',monospace; color:var(--text-mute); font-size:10px; width:52px; flex-shrink:0;}
+  .log-entry .le-dir{font-weight:700; width:36px; flex-shrink:0;}
+  .log-entry .le-dir.long{color:var(--rise);} .log-entry .le-dir.short{color:var(--fall);} .log-entry .le-dir.wait{color:var(--text-mute);}
+  .log-entry .le-note{flex:1; color:var(--text-soft); font-size:10.5px; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .log-entry .le-outcome{flex-shrink:0; display:flex; gap:4px;}
+  .le-btn{border:1px solid var(--line); background:var(--panel-2); color:var(--text-mute); font-size:9.5px; padding:3px 7px; border-radius:5px; cursor:pointer;}
+  .le-btn.hit{color:var(--rise); border-color:var(--rise);}
+  .le-btn.miss{color:var(--fall); border-color:var(--fall);}
+  .le-tag{font-size:9.5px; font-weight:700; padding:3px 8px; border-radius:5px;}
+  .le-tag.hit{color:var(--rise); background:var(--rise-dim);}
+  .le-tag.miss{color:var(--fall); background:var(--fall-dim);}
+  .log-empty{text-align:center; color:var(--text-mute); font-size:11px; padding:16px 0;}
+  .log-io{display:flex; gap:8px; margin-top:11px;}
+  .log-io button{
+    flex:1; padding:7px 0; border-radius:6px; border:1px solid var(--line); background:var(--panel-2);
+    color:var(--text-soft); font-size:10.5px; cursor:pointer;
+  }
+  .log-note{font-size:9.5px; color:var(--text-mute); line-height:1.5; margin-top:10px;}
+
+  .chart-hint-row{margin:8px 0 2px;}
+  .chart-key-hint{font-size:8.5px; color:var(--text-mute); line-height:1.4;}
+
+  @keyframes flashUp{0%{background:rgba(31,174,110,0.35);}100%{background:transparent;}}
+  @keyframes flashDown{0%{background:rgba(209,75,75,0.35);}100%{background:transparent;}}
+  .price-value.flash-up{animation:flashUp 0.7s ease-out;}
+  .price-value.flash-down{animation:flashDown 0.7s ease-out;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand-row">
+    <div class="brand">
+      <div class="brand-mark">Au</div>
+      <div class="brand-name">贪狼黄金终端</div>
+    </div>
+    <div class="live-pill"><span class="live-dot"></span>实时</div>
+  </div>
+
+  <div class="broadcast-bar">
+    <div class="bc-live"><span class="bc-live-dot"></span>LIVE</div>
+    <div class="bc-source">华尔街见闻</div>
+    <div class="bc-scroll-wrap"><span class="bc-scroll-text" id="bcText">加载中…</span></div>
+    <div class="bc-controls">
+      <div class="bc-wave"><span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span><span class="wave-bar"></span></div>
+      <div class="bc-play" id="bcPlay">▶</div>
+    </div>
+  </div>
+
+  <div class="session-strip">
+    <div class="session-strip-label">
+      <span>交易时段 · 北京时间 <b id="bjTimeLabel">--:--</b></span>
+      <span>当前成交量水平 <b id="volNowLabel" style="color:var(--amber)">--</b></span>
+    </div>
+    <div class="session-track">
+      <div class="volume-heatmap" id="volumeHeatmap"></div>
+      <div id="sessionTrack" style="position:absolute; inset:0;"></div>
+    </div>
+    <div class="volume-gradient-bar"></div>
+    <div class="volume-gradient-labels"><span>成交量低</span><span>成交量高（伦敦-纽约重叠）</span></div>
+    <div class="session-legend">
+      <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>亚盘 07-16</span>
+      <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>欧盘 15-24</span>
+      <span><span class="legend-swatch" style="background:var(--panel-2); border:1px solid var(--line)"></span>美盘 20-05</span>
+      <span><span class="legend-swatch" style="background:var(--amber)"></span>欧美重叠 20-24 流动性最高</span>
+    </div>
+  </div>
+
+  <div class="overview-strip" id="overviewStrip">
+    <div class="ov-item"><div class="ov-label">风险</div><div class="ov-val" id="ovRisk">--</div></div>
+    <div class="ov-item"><div class="ov-label">仓位</div><div class="ov-val" id="ovPosition">45%</div></div>
+    <div class="ov-item"><div class="ov-label">自律</div><div class="ov-val" id="ovSelf" style="color:var(--rise)">100</div></div>
+    <div class="ov-item"><div class="ov-label">决策</div><div class="ov-val" id="ovDecision" style="color:var(--amber)">观望</div></div>
+  </div>
+
+  <div class="cross-alert" id="crossAlert">
+    <div class="ca-icon">⚠</div>
+    <div class="ca-text" id="crossAlertText">今日属大起大落预警日，且自律评分偏低——两项风险叠加，建议立即停止开新仓，先离开屏幕冷静</div>
+  </div>
+
+  <div class="quick-nav">
+    <div class="qn-pill" onclick="jumpToCategory('cat1')">① 市场观察</div>
+    <div class="qn-pill" onclick="jumpToCategory('cat2')">② 决策执行</div>
+    <div class="qn-pill" onclick="jumpToCategory('cat3')">③ 复盘参考</div>
+    <div class="qn-pill" onclick="jumpToCategory('cat4')">④ 维度延伸</div>
+  </div>
+</header>
+
+<div class="data-status-bar"><span class="dot"></span><span>正在连接 gold-api.com 拉取实时金价…</span></div>
+
+<main>
+
+  <div class="category open" id="cat1">
+    <div class="category-header" onclick="toggleCategory('cat1')">
+      <div class="category-title">
+        <div class="category-chevron">▶</div>
+        <div><div class="category-name">市场观察</div><div class="category-sub">01 行情源 · 02 信息源 · 03 风险源</div></div>
+      </div>
+      <div class="category-count">3</div>
+    </div>
+    <div class="category-body">
+
+  <!-- ============ 01 行情源 ============ -->
+  <section class="zone zone-01">
+    <div class="zone-header">
+      <div class="zone-index">01</div>
+      <div class="zone-titles"><div class="zone-name">行情源</div><div class="zone-sub">Market Data</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card price-card">
+        <div class="price-top">
+          <div>
+            <div class="price-label">XAU/USD · 现货黄金</div>
+            <div class="price-value mono" id="goldPrice">4,170.30</div>
+            <div class="price-delta up" id="goldDelta">▲ 47.00 (1.14%)</div>
+          </div>
+          <div class="range-tabs">
+            <div class="range-tab" onclick="setPriceRange(this,'1D')">1D</div><div class="range-tab active" onclick="setPriceRange(this,'1W')">1W</div><div class="range-tab" onclick="setPriceRange(this,'1M')">1M</div>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+        <div class="chart-hint-row"><span class="chart-key-hint" id="chartKeyHint">当前：1W/1M为模拟历史曲线，锚定在真实现价上</span></div>
+        <div class="price-meta-row">
+          <div class="price-meta">COMEX期货<b class="mono">4,173.60</b></div>
+          <div class="price-meta">金银比价<b class="mono">109.4</b></div>
+          <div class="price-meta">日内波幅<b class="mono" id="dayRangeVal">$54.30</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">当下行情技术分析 <span class="more">价格行为读盘 ›</span></div>
+      <div class="card brooks-card">
+        <div class="brooks-head">
+          <div class="brooks-title"><div class="t1">Price Action Desk</div><div class="t2">方法论参考：Al Brooks 价格行为读盘框架</div></div>
+          <div class="brooks-alwaysin long" id="alwaysInBadge">Always-In · 多头</div>
+        </div>
+        <div class="brooks-row">
+          <div class="brooks-tag">棒型</div>
+          <div class="brooks-body">最近3根H1棒中有2根为<b>多头趋势棒</b>（实体占比&gt;65%、上下影线较短），仅1根收出带长上影线的转折棒，未能改变棒型序列的多头主导性质</div>
+        </div>
+        <div class="brooks-row">
+          <div class="brooks-tag">区间/趋势</div>
+          <div class="brooks-body">日内结构已由昨日的<b>窄幅交易区间</b>转为<b>通道式上行</b>，价格连续站稳20周期均线上方，符合"区间突破后进入弱趋势"的典型演化路径</div>
+        </div>
+        <div class="brooks-row">
+          <div class="brooks-tag">信号棒</div>
+          <div class="brooks-body">3,398一带出现<b>看涨吞没信号棒</b>，收盘价接近最高点（关门量），随后一根跟随棒确认，是较高质量的做多信号棒，但尾盘缩量需留意跟随力度是否持续</div>
+        </div>
+        <div class="brooks-row">
+          <div class="brooks-tag">测量目标</div>
+          <div class="brooks-body">以本轮突破段的测量移动（Measured Move）估算，上方目标位约<b>3,432–3,438</b>；若未能有效突破前高构成的次高点，需警惕<b>双顶/失败突破</b>风险</div>
+        </div>
+        <div class="brooks-summary">读盘结论：当前 <b>Always-In 方向为多头</b>，但趋势强度仅属"弱趋势通道"而非"强趋势日"，属于可参与但需控制仓位、在回调至前突破点附近寻找二次入场（Second Entry）机会的行情，而非追高单边加仓的行情。</div>
+        <div class="brooks-disclaimer">以上为基于公开价格行为方法论对当前K线结构的程序化解读，不代表Al Brooks本人观点，仅作技术面参考，请结合04决策源综合判断。</div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">宏观驱动因素</div>
+      <div class="macro-grid">
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">美元指数 DXY</div><div class="macro-badge neg">-0.08%</div></div>
+          <div class="macro-value mono">100.78</div>
+          <div class="macro-spark"><canvas id="sparkDxy"></canvas></div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">10年期实际利率</div><div class="macro-badge pos">+0.02</div></div>
+          <div class="macro-value mono">2.25%</div>
+          <div class="macro-spark"><canvas id="sparkReal"></canvas></div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">WTI原油</div><div class="macro-badge pos">+1.10%</div></div>
+          <div class="macro-value mono">$69.99</div>
+          <div class="macro-spark"><canvas id="sparkOil"></canvas></div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">VIX恐慌指数</div><div class="macro-badge neg">-2.11%</div></div>
+          <div class="macro-value mono">15.81</div>
+          <div class="macro-spark"><canvas id="sparkVix"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">供需信号</div>
+      <div class="macro-grid">
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">上海金溢价</div><div class="macro-badge pos">需求强</div></div>
+          <div class="macro-value mono">+$9.40</div>
+          <div class="macro-unit">/盎司 · 较伦敦金</div>
+          <div class="macro-spark"><canvas id="sparkSge"></canvas></div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">全球黄金ETF持仓</div><div class="macro-badge pos">+0.6%</div></div>
+          <div class="macro-value mono">3,142吨</div>
+          <div class="macro-unit"><span class="data-tag lag">⏱ 月更</span> · 世界黄金协会</div>
+          <div class="macro-spark"><canvas id="sparkGetf"></canvas></div>
+        </div>
+      </div>
+      <div class="macro-note">上海金溢价转正且走阔，通常反映中国实物端购买力增强，是判断纸黄金炒作与真实需求分歧的参考指标</div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">资金与央行动向</div>
+      <div class="card">
+        <div class="flow-row">
+          <div class="flow-left"><div class="flow-icon">ETF</div><div><div class="flow-name">SPDR Gold Trust 持仓</div><div class="flow-sub">昨日更新</div></div></div>
+          <div class="flow-right"><div class="flow-value mono">928.4 吨</div><div class="flow-change" style="color:var(--rise)">+3.2 吨</div></div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-left"><div class="flow-icon">COT</div><div><div class="flow-name">COMEX非商业净多头</div><div class="flow-sub"><span class="data-tag lag">⏱ 周更</span> · 截至上周五</div></div></div>
+          <div class="flow-right"><div class="flow-value mono">214,300手</div><div class="flow-change" style="color:var(--fall)">-6,100手</div></div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-left"><div class="flow-icon">央行</div><div><div class="flow-name">全球央行月度净购金</div><div class="flow-sub"><span class="data-tag lag">⏱ 滞后约2月</span> · 世界黄金协会</div></div></div>
+          <div class="flow-right"><div class="flow-value mono">+37 吨</div><div class="flow-change" style="color:var(--rise)">连续19个月净买入</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 信息源 ============ -->
+  <section class="zone zone-02">
+    <div class="zone-header">
+      <div class="zone-index">02</div>
+      <div class="zone-titles"><div class="zone-name">信息源</div><div class="zone-sub">Information</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">今日关键数据 <span class="more">查看本周 ›</span></div>
+      <div class="event-countdown">
+        <div><div class="ec-label">距下一高影响事件</div><div style="font-size:9.5px;color:var(--text-mute);margin-top:2px;" id="ecEventName">美国非农就业人数</div></div>
+        <div class="ec-time mono" id="ecCountdown">--:--:--</div>
+      </div>
+      <div class="card">
+        <div class="event-row">
+          <div class="event-time mono">20:30</div><div class="event-impact impact-high"></div>
+          <div class="event-body"><div class="event-name">美国非农就业人数</div><div class="event-sub">前值 14.7万 · 预期 16.0万</div></div>
+          <div class="event-tag">高影响</div>
+        </div>
+        <div class="event-row">
+          <div class="event-time mono">22:00</div><div class="event-impact impact-mid"></div>
+          <div class="event-body"><div class="event-name">密歇根大学消费者信心指数</div><div class="event-sub">前值 68.2 · 预期 69.0</div></div>
+          <div class="event-tag">中影响</div>
+        </div>
+        <div class="event-row">
+          <div class="event-time mono">次02:15</div><div class="event-impact impact-low"></div>
+          <div class="event-body"><div class="event-name">美联储官员Waller讲话</div><div class="event-sub">关注降息路径表态</div></div>
+          <div class="event-tag">低影响</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">舆情速览 <span class="more">全部事件 ›</span></div>
+      <div class="sent-legend">● 影响 ・时效 ・信源 —— 三灯常亮代表三项均达标，用于快速判断消息可信度</div>
+      <div class="card">
+        <div class="sent-item">
+          <div class="sent-cat cat-geo">地缘</div>
+          <div class="sent-body">
+            <div class="sent-text">中东局势再度紧张，市场避险情绪升温，黄金ETF资金流入加速</div>
+            <div class="sent-meta">
+              <span class="sent-lights"><span class="light on"></span><span class="light on"></span><span class="light on"></span></span>
+              <span class="sent-time">19:24:07 · 路透</span>
+            </div>
+          </div>
+        </div>
+        <div class="sent-item">
+          <div class="sent-cat cat-trade">贸易战</div>
+          <div class="sent-body">
+            <div class="sent-text">美国拟对部分进口商品加征关税，谈判进展受市场关注</div>
+            <div class="sent-meta">
+              <span class="sent-lights"><span class="light on"></span><span class="light on"></span><span class="light"></span></span>
+              <span class="sent-time">18:41:53 · 彭博</span>
+            </div>
+          </div>
+        </div>
+        <div class="sent-item">
+          <div class="sent-cat cat-policy">政策</div>
+          <div class="sent-body">
+            <div class="sent-text">FOMC会议纪要显示官员对降息时点仍存分歧</div>
+            <div class="sent-meta">
+              <span class="sent-lights"><span class="light on"></span><span class="light"></span><span class="light"></span></span>
+              <span class="sent-time">16:55:12 · 华尔街日报</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03 风险源 ============ -->
+  <section class="zone zone-03">
+    <div class="zone-header">
+      <div class="zone-index">03</div>
+      <div class="zone-titles"><div class="zone-name">风险源</div><div class="zone-sub">Risk Assessment</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">今日风险评级 <span class="more">计算依据 ›</span></div>
+      <div class="card risk-card">
+        <div class="risk-top">
+          <div class="risk-gauge-wrap">
+            <svg width="100" height="62" viewBox="0 0 104 64">
+              <path d="M 8 58 A 44 44 0 0 1 96 58" fill="none" stroke="#1E2126" stroke-width="10" stroke-linecap="round"/>
+              <path id="riskArc" d="M 8 58 A 44 44 0 0 1 96 58" fill="none" stroke="#C64F4F" stroke-width="10" stroke-linecap="round"
+                    stroke-dasharray="138" stroke-dashoffset="35"/>
+            </svg>
+            <div class="risk-gauge-label"><div class="risk-gauge-score mono" id="riskScore">74</div><div class="risk-gauge-max">/ 100</div></div>
+          </div>
+          <div class="risk-info">
+            <div class="risk-badge chaos" id="riskBadge">⚠ 大起大落预警</div>
+            <div class="risk-reason" id="riskReason">今日ATR为20日均值的1.8倍，且叠加非农+Waller讲话两项高影响事件，价格易现宽幅假突破，建议缩小仓位、放宽止损。</div>
+          </div>
+        </div>
+        <div class="risk-metrics">
+          <div class="risk-metric-row"><div class="risk-metric-name">波动强度</div><div class="risk-metric-track"><div class="risk-metric-fill" style="width:82%; background:var(--fall)"></div></div><div class="risk-metric-val mono">82</div></div>
+          <div class="risk-metric-row"><div class="risk-metric-name">趋势强度</div><div class="risk-metric-track"><div class="risk-metric-fill" style="width:28%; background:var(--amber)"></div></div><div class="risk-metric-val mono">28</div></div>
+          <div class="risk-metric-row"><div class="risk-metric-name">事件密度</div><div class="risk-metric-track"><div class="risk-metric-fill" style="width:65%; background:var(--z2)"></div></div><div class="risk-metric-val mono">65</div></div>
+        </div>
+        <div class="risk-alert"><span class="dot"></span><span>20:30非农数据公布前后30分钟历史波幅显著放大，如无持仓建议观望，如有持仓建议提前调整止损位</span></div>
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </div>
+
+  <div class="category" id="cat2">
+    <div class="category-header" onclick="toggleCategory('cat2')">
+      <div class="category-title">
+        <div class="category-chevron">▶</div>
+        <div><div class="category-name">决策执行</div><div class="category-sub">04 决策源 · 05 应急源 · 06 持仓源</div></div>
+      </div>
+      <div class="category-count">3</div>
+    </div>
+    <div class="category-body">
+
+  <!-- ============ 04 决策源 ============ -->
+  <section class="zone zone-04">
+    <div class="zone-header">
+      <div class="zone-index">04</div>
+      <div class="zone-titles"><div class="zone-name">决策源</div><div class="zone-sub">Decision</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card decision-card">
+        <div class="risk-switch">
+          <button class="risk-opt" data-risk="conservative" onclick="setRiskProfile('conservative')">保守</button>
+          <button class="risk-opt active" data-risk="balanced" onclick="setRiskProfile('balanced')">稳健</button>
+          <button class="risk-opt" data-risk="aggressive" onclick="setRiskProfile('aggressive')">激进</button>
+        </div>
+        <div class="decision-stance">
+          <div class="stance-badge wait">谨慎观望</div>
+          <div class="decision-confidence">综合置信度<b>中等</b></div>
+        </div>
+        <div class="decision-list">
+          <div class="decision-item"><span class="bullet">·</span><span>宏观背景偏多：DXY走弱、非农数据疲软令9月加息预期大幅降温，对金价构成支撑；10年期实际利率虽小幅回升，但未能抵消美元走弱与避险需求</span></div>
+          <div class="decision-item"><span class="bullet">·</span><span>但今日属"大起大落预警"日，非农公布前后极易出现假突破打止损</span></div>
+          <div class="decision-item"><span class="bullet">·</span><span>建议数据公布后再确认方向，不建议在真空期追单边</span></div>
+        </div>
+        <div class="decision-position"><div class="decision-position-label">建议仓位</div><div class="decision-position-val" id="decisionPositionVal">常规仓位的 30%–50%</div></div>
+        <div class="decision-updated" id="decisionUpdatedTime">更新于 --</div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">我的决策记录 <span class="more" style="color:var(--text-mute); font-size:9.5px;">验证这套系统到底准不准</span></div>
+      <div class="card log-card">
+        <div class="log-form-row">
+          <input type="date" id="logDate">
+          <select id="logDir">
+            <option value="long">看多</option>
+            <option value="short">看空</option>
+            <option value="wait">观望</option>
+          </select>
+        </div>
+        <div class="log-form-row">
+          <input type="text" id="logNote" placeholder="备注：为什么这么判断（可选）">
+        </div>
+        <button class="log-add-btn" onclick="addLogEntry()">+ 记录今天的判断</button>
+
+        <div class="log-stats-row">
+          <div class="log-stat-box"><div class="n" id="logStatTotal">0</div><div class="l">总记录</div></div>
+          <div class="log-stat-box"><div class="n" id="logStatRate" style="color:var(--amber)">--</div><div class="l">验证胜率</div></div>
+          <div class="log-stat-box"><div class="n" id="logStatPending">0</div><div class="l">待验证</div></div>
+        </div>
+
+        <div id="logList"><div class="log-empty">还没有记录，从今天开始攒吧</div></div>
+
+        <div class="log-io">
+          <button onclick="exportLog()">导出备份(JSON)</button>
+          <button onclick="document.getElementById('logImportFile').click()">导入备份</button>
+          <input type="file" id="logImportFile" accept="application/json" style="display:none" onchange="importLog(event)">
+        </div>
+        <div class="log-note">数据只保存在当前页面打开期间（不使用浏览器本地存储），关闭或刷新页面前请点"导出备份"，下次打开后用"导入备份"读回来。坚持记录1-2个月，就能看出这套系统的方向判断到底有没有跑赢瞎猜。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 应急源 ============ -->
+  <section class="zone zone-05">
+    <div class="zone-header">
+      <div class="zone-index">05</div>
+      <div class="zone-titles"><div class="zone-name">应急源</div><div class="zone-sub">Black Swan Watch</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card blackswan-card">
+        <div class="bs-status-dot standby">✓</div>
+        <div class="bs-info">
+          <div class="bs-status-label">监控中 · 待命</div>
+          <div class="bs-status-sub">近24小时无黑天鹅级别事件，地缘/政策类新闻持续扫描中，触发极端事件将在此处即时置顶提醒</div>
+          <div class="bs-timestamp">最近检查 19:58:03</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 持仓源 ============ -->
+  <section class="zone zone-06">
+    <div class="zone-header">
+      <div class="zone-index">06</div>
+      <div class="zone-titles"><div class="zone-name">持仓源</div><div class="zone-sub">Position</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card position-card">
+        <div class="pos-head"><div class="pos-symbol">XAU/USD</div><div class="pos-side">多头 LONG</div></div>
+        <div class="pos-edit-row">
+          <div class="pos-edit-field"><label>开仓价</label><input type="number" id="posOpenPrice" value="4109.80" step="0.1" oninput="recalcPosition()"></div>
+          <div class="pos-edit-field"><label>手数(1手=100oz)</label><input type="number" id="posLots" value="0.1" step="0.01" oninput="recalcPosition()"></div>
+        </div>
+        <div class="pos-edit-row">
+          <div class="pos-edit-field"><label>止损价</label><input type="number" id="posStopLoss" value="4090.00" step="0.1" oninput="recalcPosition()"></div>
+          <div class="pos-edit-field"><label>止盈价</label><input type="number" id="posTakeProfit" value="4210.00" step="0.1" oninput="recalcPosition()"></div>
+        </div>
+        <div class="pos-grid">
+          <div class="pos-stat"><div class="pos-stat-label">开仓价</div><div class="pos-stat-val mono" id="posOpenDisplay">4,109.80</div></div>
+          <div class="pos-stat"><div class="pos-stat-label">现价</div><div class="pos-stat-val mono" id="posCurrentDisplay">4,170.30</div></div>
+          <div class="pos-stat"><div class="pos-stat-label">浮动盈亏</div><div class="pos-stat-val mono" id="posPnlDisplay" style="color:var(--rise)">+60.50</div></div>
+        </div>
+        <div class="sl-tp-bar" id="slTpBar">
+          <div class="sl-tp-track"><div class="sl-tp-fill" id="slTpFill"></div><div class="sl-tp-marker" id="slTpMarker"></div></div>
+          <div class="sl-tp-labels"><span id="slTpDistSl">距止损 --</span><span id="slTpDistTp">距止盈 --</span></div>
+        </div>
+        <div class="pos-status"><span class="dot"></span><span id="posStatusText">当前仓位45%，处于决策源建议区间(30%–50%)内，无需调整</span></div>
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </div>
+
+  <div class="category" id="cat3">
+    <div class="category-header" onclick="toggleCategory('cat3')">
+      <div class="category-title">
+        <div class="category-chevron">▶</div>
+        <div><div class="category-name">复盘参考</div><div class="category-sub">07 复盘源 · 08 关联源 · 09 专家源</div></div>
+      </div>
+      <div class="category-count">3</div>
+    </div>
+    <div class="category-body">
+
+  <!-- ============ 07 复盘源 ============ -->
+  <section class="zone zone-07">
+    <div class="zone-header">
+      <div class="zone-index">07</div>
+      <div class="zone-titles"><div class="zone-name">复盘源</div><div class="zone-sub">Review</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card review-card">
+        <div class="review-hit-rate"><div class="review-hit-num mono">68%</div><div class="review-hit-label">风险评级近30日命中率</div></div>
+        <div class="review-list" id="reviewList">
+          <div class="review-row"><div class="review-date mono" data-days-ago="1">--</div><div class="review-verdict">判定单边趋势日 · 实际单边上行</div><div class="review-check hit">✓</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="2">--</div><div class="review-verdict">判定盘整日 · 实际转大起大落</div><div class="review-check miss">✗</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="3">--</div><div class="review-verdict">判定大起大落 · 实际宽幅震荡</div><div class="review-check hit">✓</div></div>
+          <div class="review-row"><div class="review-date mono" data-days-ago="4">--</div><div class="review-verdict">判定盘整日 · 实际区间震荡</div><div class="review-check hit">✓</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">相似历史情景回测 <span class="more">H1/H4级别 ›</span></div>
+      <div class="card" style="padding:0;">
+        <div class="backtest-current">
+          <div class="backtest-current-label">当前消息面条件</div>
+          <div class="backtest-tags">
+            <span class="bt-tag">DXY走弱</span><span class="bt-tag">加息预期降温</span><span class="bt-tag">地缘避险升温</span><span class="bt-tag">高影响数据日</span>
+          </div>
+          <div class="backtest-current-label" style="margin-top:10px;">当前技术面条件（Al Brooks 读盘）</div>
+          <div class="backtest-tags">
+            <span class="bt-tag" style="color:var(--z7); background:var(--z7-dim)">Always-In多头</span><span class="bt-tag" style="color:var(--z7); background:var(--z7-dim)">区间突破转弱趋势</span><span class="bt-tag" style="color:var(--z7); background:var(--z7-dim)">看涨信号棒确认</span>
+          </div>
+        </div>
+        <div class="backtest-row">
+          <div class="backtest-date mono">2026-03-08</div>
+          <div class="backtest-match">相似度 <b>91%</b></div>
+          <div class="backtest-outcome"><span class="bt-h">H1 <b style="color:var(--rise)">+0.31%</b></span><span class="bt-h">H4 <b style="color:var(--rise)">+0.68%</b></span></div>
+        </div>
+        <div class="backtest-row">
+          <div class="backtest-date mono">2025-12-06</div>
+          <div class="backtest-match">相似度 <b>88%</b></div>
+          <div class="backtest-outcome"><span class="bt-h">H1 <b style="color:var(--fall)">-0.18%</b></span><span class="bt-h">H4 <b style="color:var(--rise)">+0.44%</b></span></div>
+        </div>
+        <div class="backtest-row">
+          <div class="backtest-date mono">2025-09-05</div>
+          <div class="backtest-match">相似度 <b>86%</b></div>
+          <div class="backtest-outcome"><span class="bt-h">H1 <b style="color:var(--rise)">+0.45%</b></span><span class="bt-h">H4 <b style="color:var(--rise)">+0.82%</b></span></div>
+        </div>
+        <div class="backtest-row">
+          <div class="backtest-date mono">2025-06-06</div>
+          <div class="backtest-match">相似度 <b>85%</b></div>
+          <div class="backtest-outcome"><span class="bt-h">H1 <b style="color:var(--fall)">-0.22%</b></span><span class="bt-h">H4 <b style="color:var(--fall)">-0.35%</b></span></div>
+        </div>
+        <div class="backtest-summary">相似度综合考量<b>消息面（DXY/加息预期/地缘/数据日）与技术面（Always-In方向、区间-趋势结构、信号棒质量）</b>双重匹配。近12个月出现<b>4次</b>相似度≥85%的组合，数据公布后<b>H1平均+0.09%</b>、<b>H4平均+0.40%</b>，同向上行概率<b>75%</b>；唯一一次H1回撤的案例(2025-12-06)后续H4仍收复失地。仅为历史统计参考，样本量较小，不构成本次交易的确定性预测。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08 关联源 ============ -->
+  <section class="zone zone-08">
+    <div class="zone-header">
+      <div class="zone-index">08</div>
+      <div class="zone-titles"><div class="zone-name">关联源</div><div class="zone-sub">Correlation</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="card corr-card">
+        <div class="corr-row">
+          <div class="corr-name">DXY美元</div>
+          <div class="corr-track"><div class="corr-fill" style="left:14.5%; width:35.5%; background:var(--fall)"></div></div>
+          <div class="corr-val mono" style="color:var(--fall)">-0.71</div>
+        </div>
+        <div class="corr-row">
+          <div class="corr-name">实际利率</div>
+          <div class="corr-track"><div class="corr-fill" style="left:21%; width:29%; background:var(--fall)"></div></div>
+          <div class="corr-val mono" style="color:var(--fall)">-0.58</div>
+        </div>
+        <div class="corr-row">
+          <div class="corr-name">比特币</div>
+          <div class="corr-track"><div class="corr-fill" style="left:50%; width:17%; background:var(--rise)"></div></div>
+          <div class="corr-val mono" style="color:var(--rise)">+0.34</div>
+          <div class="corr-flag">⚠偏离</div>
+        </div>
+        <div class="corr-row">
+          <div class="corr-name">标普500</div>
+          <div class="corr-track"><div class="corr-fill" style="left:44%; width:6%; background:var(--text-mute)"></div></div>
+          <div class="corr-val mono" style="color:var(--text-soft)">-0.12</div>
+        </div>
+        <div class="macro-note" style="margin-top:2px;">比特币与金价的90日滚动相关系数较历史均值(约+0.15)明显走高，可能反映"数字黄金"避险叙事阶段性增强</div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ 09 专家源 ============ -->
+  <section class="zone zone-09">
+    <div class="zone-header">
+      <div class="zone-index">09</div>
+      <div class="zone-titles"><div class="zone-name">专家源</div><div class="zone-sub">Strategy Schools</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">日内相关信号</div>
+      <div class="card expert-featured">
+        <div class="expert-head">
+          <div><div class="expert-name">技术派</div><div class="expert-source">方法论参考：《Technical Analysis of the Financial Markets》John Murphy</div></div>
+          <div class="expert-signal neutral" id="sigTech">观望</div>
+        </div>
+        <div class="expert-logic" id="logicTech">MA20/MA60未形成有效金叉，RSI处于52中性区间，突破前不构成技术面入场信号</div>
+        <div class="expert-featured-tag">时间框架与你的日内交易匹配，四派里唯一直接相关的信号</div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">背景参考 <span class="more" style="color:var(--text-mute); font-size:9.5px;">与今日日内操作关系不大</span></div>
+      <div class="card" style="padding:0; display:flex; flex-direction:column;">
+        <div class="expert-card expert-card-muted" style="border-bottom:1px solid var(--line-soft);">
+          <div class="expert-head">
+            <div><div class="expert-name">趋势派</div><div class="expert-source">方法论参考：《Reminiscences of a Stock Operator》Edwin Lefèvre · 中期时间框架</div></div>
+            <div class="expert-signal neutral" id="sigTrend">观望</div>
+          </div>
+          <div class="expert-logic" id="logicTrend">当前趋势强度评分28，未达到金字塔加仓所需的方向确认阈值，等待价格站稳新高再考虑跟随</div>
+        </div>
+        <div class="expert-card expert-card-muted" style="border-bottom:1px solid var(--line-soft);">
+          <div class="expert-head">
+            <div><div class="expert-name">商品周期派</div><div class="expert-source">方法论参考：《Hot Commodities》Jim Rogers · 季度/年度时间框架</div></div>
+            <div class="expert-signal long" id="sigCycle">看多</div>
+          </div>
+          <div class="expert-logic" id="logicCycle">全球央行连续19个月净购金+ETF持仓回升，供需结构处于周期性紧缩阶段，中长期偏多不变</div>
+        </div>
+        <div class="expert-card expert-card-muted">
+          <div class="expert-head">
+            <div><div class="expert-name">宏观地缘派</div><div class="expert-source">方法论参考：《Currency Wars》James Rickards · 月度时间框架</div></div>
+            <div class="expert-signal long" id="sigMacro">看多</div>
+          </div>
+          <div class="expert-logic" id="logicMacro">非农疲软令9月加息预期骤降+DXY走弱+地缘避险情绪升温，三项宏观支撑同时具备，虽实际利率小幅回升，货币博弈逻辑仍偏向黄金</div>
+        </div>
+      </div>
+      <div class="expert-disclaimer">这三派的时间框架都比你的日内交易长得多——它们看多/看空，不代表今天该不该开单，只是长期大背景。四个信号同时出现时不要把它当"多方印证"，技术派才是跟你今天操作直接相关的那一个。以上信号均由行情源/风险源/舆情源的实时数据按对应公开方法论计算生成，代表方法论框架的推演结果，并非上述作者本人观点或投资建议，最终决策请结合04决策源与你自己的判断。</div>
+    </div>
+  </section>
+
+    </div>
+  </div>
+
+  <div class="category" id="cat4">
+    <div class="category-header" onclick="toggleCategory('cat4')">
+      <div class="category-title">
+        <div class="category-chevron">▶</div>
+        <div><div class="category-name">维度延伸</div><div class="category-sub">10 时间源 · 11 期权源 · 12 情绪源</div></div>
+      </div>
+      <div class="category-count">3</div>
+    </div>
+    <div class="category-body">
+
+  <!-- ============ 10 时间源 ============ -->
+  <section class="zone zone-10">
+    <div class="zone-header">
+      <div class="zone-index">10</div>
+      <div class="zone-titles"><div class="zone-name">时间源</div><div class="zone-sub">Time Horizon</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">多周期节奏</div>
+      <div class="card" style="padding:0;">
+        <div class="time-row">
+          <div class="time-head">
+            <div class="time-label">日内<span class="time-label-sub">INTRADAY</span></div>
+            <div class="time-badge range">宽幅震荡</div>
+          </div>
+          <div class="time-detail">关键位 <b>4,145–4,205</b>（今日预期波动区间）· 驱动：欧美重叠时段流动性 + 非农后续消化 · 下一节点：亚盘开盘后避险情绪延续性确认窗口</div>
+        </div>
+        <div class="time-row">
+          <div class="time-head">
+            <div class="time-label">中期<span class="time-label-sub">2-4周 · 本季度</span></div>
+            <div class="time-badge long">看多</div>
+          </div>
+          <div class="time-detail">支撑 <b>4,020</b>（50日均线）／阻力 <b>4,240</b>（近期高点区）· 驱动：非农疲软+9月加息预期骤降至50% + 美元走弱 · 下一节点：7月FOMC会议，若加息路径进一步降温中期趋势有望强化</div>
+        </div>
+        <div class="time-row">
+          <div class="time-head">
+            <div class="time-label">长期<span class="time-label-sub">6个月以上 · 结构性</span></div>
+            <div class="time-badge long">看多</div>
+          </div>
+          <div class="time-detail">结构性支撑区 <b>~3,850</b>（央行购金成本估算区间）· 驱动：全球央行连续19个月净购金 + 去美元化资产再配置 · 下一节点：约1个月后WGC季度购金报告</div>
+        </div>
+      </div>
+      <div class="time-confluence"><span class="tag">共振</span><span>长期与中期方向一致偏多，但日内处于宽幅震荡且今日属03风险源"大起大落预警"日——建议把节奏拆开看：中长期可分批布局，日内不追单边，避免用今天的噪音去干扰你对趋势的判断。</span></div>
+    </div>
+  </section>
+
+  <!-- ============ 11 期权源 ============ -->
+  <section class="zone zone-11">
+    <div class="zone-header">
+      <div class="zone-index">11</div>
+      <div class="zone-titles"><div class="zone-name">期权源</div><div class="zone-sub">Options Flow</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">期权市场定价 <span class="more" style="color:var(--text-mute); font-size:9.5px;">手动更新 · 建议每周核对一次</span></div>
+      <div class="pos-edit-row">
+        <div class="pos-edit-field"><label>ATM隐含波动率(%)</label><input type="number" id="optIv" value="14.6" step="0.1" oninput="recalcOptions()"></div>
+        <div class="pos-edit-field"><label>Put/Call比</label><input type="number" id="optPc" value="1.24" step="0.01" oninput="recalcOptions()"></div>
+      </div>
+      <div class="pos-edit-row">
+        <div class="pos-edit-field"><label>25D风险逆转</label><input type="number" id="optRr" value="-0.62" step="0.01" oninput="recalcOptions()"></div>
+        <div class="pos-edit-field"><label>Max Pain价位</label><input type="number" id="optMp" value="4150" step="1" oninput="recalcOptions()"></div>
+      </div>
+      <div class="macro-grid">
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">隐含波动率 ATM IV</div></div>
+          <div class="macro-value mono" id="optIvDisplay">14.6%</div>
+          <div class="macro-unit">CME官网免费delayed数据，手动核对</div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">看跌/看涨比 Put/Call</div></div>
+          <div class="macro-value mono" id="optPcDisplay">1.24</div>
+          <div class="macro-unit">CME黄金期权 · 手动更新</div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:9px;">
+        <div class="flow-row">
+          <div class="flow-left"><div class="flow-icon">RR</div><div><div class="flow-name">25-Delta 风险逆转</div><div class="flow-sub">看跌期权相对看涨期权的溢价水平</div></div></div>
+          <div class="flow-right"><div class="flow-value mono" id="optRrDisplay" style="color:var(--fall)">-0.62</div><div class="flow-change" style="color:var(--text-mute)">偏向看跌保护需求</div></div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-left"><div class="flow-icon">MP</div><div><div class="flow-name">期权最大痛点 Max Pain</div><div class="flow-sub">本周五到期 · 多数期权买方将亏损的价位</div></div></div>
+          <div class="flow-right"><div class="flow-value mono" id="optMpDisplay">4,150</div><div class="flow-change" style="color:var(--text-mute)" id="optMpDiff">现价下方约20美元</div></div>
+        </div>
+      </div>
+      <div class="macro-note">Put/Call比率走高且风险逆转持续偏向看跌，说明机构对冲下行风险的需求上升——这与01行情源呈现的现货多头动能构成短期"多空分歧"，属于需要留意的背离信号，非直接方向指令</div>
+      <div class="brooks-disclaimer" style="padding:8px 0 0;">此模块未接付费实时期权数据源。数值需你自行从CME/CBOE官网免费delayed数据中手动核对填写，建议每周更新一次，不追求分钟级实时性。</div>
+    </div>
+  </section>
+
+  <!-- ============ 12 情绪源 ============ -->
+  <section class="zone zone-12">
+    <div class="zone-header">
+      <div class="zone-index">12</div>
+      <div class="zone-titles"><div class="zone-name">情绪源</div><div class="zone-sub">Crowd Sentiment</div></div>
+    </div>
+    <div class="zone-rule"></div>
+
+    <div class="subsection">
+      <div class="section-title">散户持仓情绪</div>
+      <div class="card">
+        <div class="risk-metrics" style="margin-top:0; padding-top:0; border-top:none;">
+          <div class="risk-metric-row"><div class="risk-metric-name">做多占比</div><div class="risk-metric-track"><div class="risk-metric-fill" style="width:78%; background:var(--rise)"></div></div><div class="risk-metric-val mono">78%</div></div>
+          <div class="risk-metric-row"><div class="risk-metric-name">做空占比</div><div class="risk-metric-track"><div class="risk-metric-fill" style="width:22%; background:var(--fall)"></div></div><div class="risk-metric-val mono">22%</div></div>
+        </div>
+        <div class="risk-alert" style="background:var(--amber-dim); color:var(--amber); margin-top:12px;"><span class="dot" style="background:var(--amber)"></span><span>零售多头占比连续5日高于75%，历史上此区间过后短期回调概率上升，属于反向参考指标，不构成直接交易信号</span></div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">关注度指标</div>
+      <div class="macro-grid">
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">Google趋势"买黄金"</div><div class="macro-badge pos">+18</div></div>
+          <div class="macro-value mono">64</div>
+          <div class="macro-unit">/100 · 近30日均值52</div>
+          <div class="macro-spark"><canvas id="sparkTrend"></canvas></div>
+        </div>
+        <div class="macro-card">
+          <div class="macro-head"><div class="macro-name">社交媒体多空比</div><div class="macro-badge pos">偏多</div></div>
+          <div class="macro-value mono">2.1 : 1</div>
+          <div class="macro-unit">看多贴文 vs 看空贴文</div>
+          <div class="macro-spark"><canvas id="sparkSocial"></canvas></div>
+        </div>
+      </div>
+      <div class="macro-note">散户情绪、搜索热度、社交媒体多空比三项同步走高，与07复盘源的历史命中数据结合看，这类"一致性亢奋"阶段值得对冲，可作为04决策源仓位管理的辅助参考</div>
+    </div>
+
+    <div class="subsection">
+      <div class="section-title">交易者自我管理 <span class="more">每日自检 ›</span></div>
+      <div class="card self-card">
+        <div class="self-score-row">
+          <div class="self-score-wrap" id="selfScoreWrap">
+            <div class="self-score-num mono" id="selfScore">100</div>
+            <div class="self-score-label">自律评分</div>
+          </div>
+          <div class="self-score-status" id="selfStatus">状态良好，可正常按计划执行</div>
+        </div>
+        <div class="self-checklist">
+          <label class="self-check-item"><input type="checkbox" data-weight="25" onchange="updateSelfScore()">是否因连续亏损而想加仓摊平或报复性交易？</label>
+          <label class="self-check-item"><input type="checkbox" data-weight="20" onchange="updateSelfScore()">当前仓位是否超出04决策源建议区间？</label>
+          <label class="self-check-item"><input type="checkbox" data-weight="20" onchange="updateSelfScore()">是否因为FOMO在追高或杀跌？</label>
+          <label class="self-check-item"><input type="checkbox" data-weight="15" onchange="updateSelfScore()">近24小时睡眠或精神状态是否明显不佳？</label>
+          <label class="self-check-item"><input type="checkbox" data-weight="20" onchange="updateSelfScore()">是否跳过了止损设置，或已多次移动止损？</label>
+        </div>
+        <div class="self-note">勾选代表"是"（存在该问题），评分会相应下降。此工具仅在本次浏览期间临时记录，刷新页面即重置，不会保存或上传你的数据</div>
+      </div>
+    </div>
+  </section>
+
+    </div>
+  </div>
+
+</main>
+
+<div class="quote-block">
+  <div class="quote-mark">"</div>
+  <div class="quote-text" id="dailyQuoteText">加载中…</div>
+  <div class="quote-attr" id="dailyQuoteAttr"></div>
+</div>
+
+<footer>贪狼黄金终端 · 个人黄金交易辅助工具 · 仅供个人复盘参考，不构成任何投资建议</footer>
+
+<script>
+// ---------- 全局错误捕获：任何未被单独处理的JS报错都会直接显示在页面顶部，方便截图诊断 ----------
+window.addEventListener('error', function(event){
+  console.log('全局捕获到报错：', event.message, 'at line', event.lineno);
+  const bar = document.querySelector('.data-status-bar');
+  if(bar){
+    bar.innerHTML = '<span class="dot" style="background:var(--fall)"></span><span><b style="color:var(--fall)">页面脚本报错</b>：' + event.message + '（第' + event.lineno + '行）· 把这条截图发给开发者</span>';
+  }
+});
+
+// ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
+const dailyQuotes = [
+  { text: "市场可以在你保持偿付能力的时间之前，长期保持非理性状态。", author: "凯恩斯", role: "经济学家" },
+  { text: "决定亏多少钱的是你自己，决定赚多少钱的是市场。", author: "埃德温·勒菲弗", role: "《股票作手回忆录》" },
+  { text: "风险来自于你不知道自己在做什么。", author: "沃伦·巴菲特", role: "投资人" },
+  { text: "别人恐惧时贪婪，别人贪婪时恐惧。", author: "沃伦·巴菲特", role: "投资人" },
+  { text: "在投资中，重要的不是你对不对，而是你对的时候赚了多少、错的时候亏了多少。", author: "乔治·索罗斯", role: "投资人" },
+  { text: "多数人宁愿死，也不愿思考；事实上他们也确实这样做了。", author: "伯特兰·罗素", role: "哲学家" },
+  { text: "能扰乱你内心的，从来不是事情本身，而是你对事情的看法。", author: "爱比克泰德", role: "斯多葛哲学家" },
+  { text: "拥有一颗不为外物所扰的心灵，就拥有了内在的堡垒。", author: "马可·奥勒留", role: "《沉思录》" },
+  { text: "情绪不是交易的敌人，失控的情绪才是。", author: "马克·道格拉斯", role: "《交易心理分析》" },
+  { text: "认知偏误不是偶尔发生的例外，而是判断过程本身的常态。", author: "丹尼尔·卡尼曼", role: "《思考，快与慢》" },
+  { text: "反脆弱，是那些在冲击面前不仅能承受、还能借此变得更强的事物的属性。", author: "纳西姆·塔勒布", role: "《反脆弱》" },
+  { text: "在别人贪婪的地方保持清醒，比在别人恐惧的地方保持勇敢更难。", author: "查理·芒格", role: "投资人" },
+  { text: "计划你的交易，交易你的计划。", author: "杰西·利弗莫尔", role: "投资人" },
+  { text: "认识你自己，是所有智慧的开端。", author: "苏格拉底", role: "哲学家" },
+  { text: "顺流而行，才能到达大海；逆流而上，只会耗尽自己。", author: "老子", role: "《道德经》" },
+];
+function renderDailyQuote(){
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  const q = dailyQuotes[dayOfYear % dailyQuotes.length];
+  const textEl = document.getElementById('dailyQuoteText');
+  const attrEl = document.getElementById('dailyQuoteAttr');
+  if(textEl) textEl.textContent = q.text;
+  if(attrEl) attrEl.innerHTML = q.author + ' <span>· ' + q.role + '</span>';
+}
+renderDailyQuote();
+
+// ---------- 决策源时间戳：显示真实的页面加载时间，而非写死的固定日期 ----------
+function updateDecisionTimestamp(){
+  const el = document.getElementById('decisionUpdatedTime');
+  if(!el) return;
+  const now = new Date();
+  const y = now.getFullYear(), m = String(now.getMonth()+1).padStart(2,'0'), d = String(now.getDate()).padStart(2,'0');
+  const hh = String(now.getHours()).padStart(2,'0'), mm = String(now.getMinutes()).padStart(2,'0'), ss = String(now.getSeconds()).padStart(2,'0');
+  el.textContent = `更新于 ${y}-${m}-${d} ${hh}:${mm}:${ss}`;
+}
+updateDecisionTimestamp();
+
+// ---------- 复盘源日期：按"距今几天"动态计算，避免日期写死后随时间推移显得过时 ----------
+function updateReviewDates(){
+  document.querySelectorAll('#reviewList .review-date').forEach(el=>{
+    const daysAgo = parseInt(el.dataset.daysAgo, 10) || 0;
+    const d = new Date();
+    d.setDate(d.getDate() - daysAgo);
+    const m = String(d.getMonth()+1).padStart(2,'0'), day = String(d.getDate()).padStart(2,'0');
+    el.textContent = m + '-' + day;
+  });
+}
+updateReviewDates();
+
+// ---------- 广播模块 ----------
+// 接入华尔街见闻广播API后，将 bcText 替换为接口返回的当日广播标题/摘要字段
+const broadcastHeadlines = [
+  "美联储官员Waller：若通胀数据持续降温，7月降息窗口仍然打开",
+  "中东局势升温推动避险需求，COMEX黄金期货持仓单周增加1.2万手",
+  "上海金较伦敦金溢价扩大至9.4美元/盎司，创近两个月新高"
+];
+let bcIndex = 0;
+function renderBroadcast(){
+  document.getElementById('bcText').textContent = broadcastHeadlines[bcIndex];
+  bcIndex = (bcIndex + 1) % broadcastHeadlines.length;
+}
+renderBroadcast();
+setInterval(renderBroadcast, 16000);
+let bcPlaying = true;
+document.getElementById('bcPlay').addEventListener('click', function(){
+  bcPlaying = !bcPlaying;
+  this.textContent = bcPlaying ? '▶' : '❚❚';
+});
+
+// ---------- 时区会话条 ----------
+// 黄金24小时(北京时间)相对成交量强度参考曲线，0-100分。
+// 参考经验规律：伦敦-纽约重叠时段(20-24点)流动性最高，NY午后到亚盘开盘前(03-07点)是全天最清淡的"死亡时段"。
+const goldVolumeProfile = [
+  55, 48, 40, 25, 15, 12, 18, 28,  //  0- 7点
+  35, 40, 42, 40, 35, 38, 45, 55,  //  8-15点
+  62, 68, 72, 78, 92, 100, 98, 90  // 16-23点
+];
+
+function volumeLabel(v){
+  if(v >= 80) return '高';
+  if(v >= 45) return '中';
+  return '低';
+}
+
+function renderVolumeHeatmap(){
+  const el = document.getElementById('volumeHeatmap');
+  if(!el) return;
+  // 用24个色标拼一条渐进的linear-gradient，強度越高越接近琥珀金、越低越接近深色背景
+  const stops = goldVolumeProfile.map((v, h) => {
+    const pct = (h / 24) * 100;
+    const alpha = (0.06 + (v/100) * 0.34).toFixed(3); // 0.06(低量)~0.40(高量)透明度区间
+    return `rgba(201,162,76,${alpha}) ${pct}%`;
+  });
+  // 首尾闭合，让0点与24点颜色衔接
+  stops.push(`rgba(201,162,76,${(0.06 + (goldVolumeProfile[0]/100)*0.34).toFixed(3)}) 100%`);
+  el.style.background = `linear-gradient(90deg, ${stops.join(', ')})`;
+}
+
+function renderSessionStrip(){
+  const track = document.getElementById('sessionTrack');
+  const now = new Date();
+  const bjHour = (now.getUTCHours() + 8) % 24;
+  const bjMin = now.getUTCMinutes();
+  document.getElementById('bjTimeLabel').textContent =
+    String(bjHour).padStart(2,'0') + ':' + String(bjMin).padStart(2,'0');
+
+  const currentVol = goldVolumeProfile[bjHour];
+  const volLabelEl = document.getElementById('volNowLabel');
+  if(volLabelEl){
+    volLabelEl.textContent = volumeLabel(currentVol) + '（约' + currentVol + '/100）';
+    volLabelEl.style.color = currentVol >= 80 ? 'var(--amber)' : (currentVol >= 45 ? 'var(--text-soft)' : 'var(--text-mute)');
+  }
+
+  renderVolumeHeatmap();
+
+  const sessions = [
+    {name:'亚盘', start:7, end:16, overlap:false},
+    {name:'欧盘', start:15, end:24, overlap:false},
+    {name:'欧美重叠', start:20, end:24, overlap:true},
+    {name:'美盘(续)', start:0, end:5, overlap:false},
+  ];
+  track.innerHTML = '';
+  sessions.forEach(s=>{
+    const left = (s.start/24)*100;
+    const width = ((s.end - s.start)/24)*100;
+    const block = document.createElement('div');
+    block.className = 'session-block' + (s.overlap ? ' overlap' : '');
+    block.style.left = left + '%';
+    block.style.width = width + '%';
+    block.textContent = s.overlap ? '★ 高波动' : s.name;
+    track.appendChild(block);
+  });
+  const marker = document.createElement('div');
+  marker.className = 'now-marker';
+  marker.style.left = ((bjHour + bjMin/60)/24*100) + '%';
+  track.appendChild(marker);
+}
+renderSessionStrip();
+setInterval(renderSessionStrip, 60000);
+
+// ---------- 分类折叠 ----------
+function toggleCategory(id){
+  document.getElementById(id).classList.toggle('open');
+}
+function jumpToCategory(id){
+  const cat = document.getElementById(id);
+  if(!cat.classList.contains('open')) cat.classList.add('open');
+  cat.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+// ---------- 图表通用配置 ----------
+try{
+  Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+  Chart.defaults.color = '#5B626C';
+}catch(e){
+  console.log('Chart.js未加载，跳过图表默认样式设置，不影响其他功能');
+}
+
+function genSeries(base, n, vol){
+  let v = base; const arr=[];
+  for(let i=0;i<n;i++){ v += (Math.random()-0.5)*vol; arr.push(v); }
+  return arr;
+}
+
+const priceRangeConfig = {
+  '1D': {n:24, vol:6},
+  '1W': {n:42, vol:11},
+  '1M': {n:30, vol:17}
+};
+let currentPriceRange = '1W';
+// 会话内真实价格点：每次 fetchLiveGoldPrice() 成功都会往这里追加一个点，
+// 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线。
+let sessionPricePoints = [];
+
+let priceChart = null;
+try{
+  priceChart = new Chart(document.getElementById('priceChart'), {
+    type:'line',
+    data:{
+      labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
+      datasets:[{
+        data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
+        borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
+        backgroundColor:(ctx)=>{
+          const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
+          g.addColorStop(0,'rgba(201,162,76,0.20)');
+          g.addColorStop(1,'rgba(201,162,76,0.0)');
+          return g;
+        }
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{enabled:false}},
+      scales:{x:{display:false}, y:{display:false}},
+      elements:{point:{radius:0}}
+    }
+  });
+}catch(e){
+  // 图表库(CDN)加载失败时不影响金价/持仓/通知等核心功能，只是没有走势图而已
+  console.log('图表初始化失败（可能是Chart.js加载失败），不影响其他功能：', e.message);
+}
+
+function setPriceRange(el, range){
+  document.querySelectorAll('.range-tab').forEach(t=>t.classList.remove('active'));
+  if(el) el.classList.add('active');
+  currentPriceRange = range;
+  const cfg = priceRangeConfig[range];
+  const hintEl = document.getElementById('chartKeyHint');
+  if(!priceChart) return; // 图表库加载失败时，静默跳过，不影响其他功能
+
+  // 1D：优先用本次会话累计的真实价格点(需要页面开着攒够几个点)
+  if(range === '1D' && sessionPricePoints.length >= 3){
+    priceChart.data.labels = sessionPricePoints.map((_,i)=>i);
+    priceChart.data.datasets[0].data = sessionPricePoints.map(p=>p.price);
+    priceChart.update();
+    if(hintEl) hintEl.textContent = '当前：1D为本次打开页面以来的真实价格点（' + sessionPricePoints.length + '个）';
+    return;
+  }
+
+  // 1W/1M：模拟历史曲线，锚定在当前真实价格上（真实历史数据需付费/注册数据源，暂不接入）
+  priceChart.data.labels = Array.from({length:cfg.n},(_,i)=>i);
+  priceChart.data.datasets[0].data = genSeries(CURRENT_GOLD_PRICE, cfg.n, cfg.vol);
+  priceChart.update();
+  if(hintEl) hintEl.textContent = '当前：' + range + '为模拟历史曲线，锚定在真实现价上';
+}
+
+function spark(id, base, vol, color){
+  const el = document.getElementById(id);
+  if(!el) return;
+  try{
+    new Chart(el, {
+      type:'line',
+      data:{ labels:Array.from({length:14},(_,i)=>i),
+        datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}, tooltip:{enabled:false}},
+        scales:{x:{display:false}, y:{display:false}}
+      }
+    });
+  }catch(e){
+    // 图表库加载失败时静默跳过这个迷你走势图，不影响页面其他部分
+  }
+}
+spark('sparkDxy', 100.78, 0.25, '#C64F4F');
+spark('sparkReal', 2.25, 0.03, '#C64F4F');
+spark('sparkOil', 69.99, 0.7, '#22A876');
+spark('sparkVix', 15.8, 0.9, '#22A876');
+spark('sparkSge', 9.0, 0.6, '#22A876');
+spark('sparkGetf', 3120, 8, '#22A876');
+spark('sparkTrend', 64, 6, '#469689');
+spark('sparkSocial', 2.1, 0.15, '#469689');
+
+// ---------- 风险交易日评级 ----------
+function computeRiskDay(volScore, trendScore, eventScore){
+  const total = Math.round(volScore*0.5 + eventScore*0.3 + trendScore*0.2);
+  let type, reason;
+  if (volScore >= 65 && trendScore < 40) {
+    type = { label:'⚠ 大起大落预警', cls:'chaos', color:'#C64F4F' };
+    reason = `今日ATR为20日均值的${(volScore/50).toFixed(1)}倍，且叠加高影响事件，价格易现宽幅假突破，建议缩小仓位、放宽止损。`;
+  } else if (trendScore >= 60 && volScore >= 40) {
+    type = { label:'➜ 单边趋势日', cls:'trend', color:'#C9A24C' };
+    reason = `方向性效率评分${trendScore}，价格沿单一方向运行为主，可考虑趋势跟随策略，注意反转风险仍需设好止损。`;
+  } else if (volScore < 40 && trendScore < 30) {
+    type = { label:'— 盘整日', cls:'range', color:'#22A876' };
+    reason = `波动强度与趋势强度均处于低位，价格大概率维持区间震荡，适合区间高抛低吸，突破前不宜追单边。`;
+  } else {
+    type = { label:'○ 中性观察日', cls:'trend', color:'#9BA3AD' };
+    reason = `各项指标未形成明显特征，建议维持常规仓位管理，关注盘中数据公布后的方向确认。`;
+  }
+  return { total, type, reason };
+}
+
+function renderRiskGauge(total, color){
+  document.getElementById('riskScore').textContent = total;
+  const arc = document.getElementById('riskArc');
+  const fullLength = 138;
+  const offset = fullLength * (1 - total/100);
+  arc.style.stroke = color;
+  arc.style.strokeDashoffset = offset;
+}
+
+const demoRisk = computeRiskDay(82, 28, 65);
+document.getElementById('riskBadge').textContent = demoRisk.type.label;
+document.getElementById('riskBadge').className = 'risk-badge ' + demoRisk.type.cls;
+document.getElementById('riskReason').textContent = demoRisk.reason;
+renderRiskGauge(demoRisk.total, demoRisk.type.color);
+document.getElementById('ovRisk').textContent = demoRisk.type.label.replace(/^[⚠➜○—]\s*/, '');
+document.getElementById('ovRisk').style.color = demoRisk.type.color;
+
+let currentSelfScore = 100;
+let lastNotifiedRiskType = null;
+function checkCrossAlert(){
+  const banner = document.getElementById('crossAlert');
+  const textEl = document.getElementById('crossAlertText');
+  const isChaosDay = demoRisk.type.cls === 'chaos';
+  if(isChaosDay && currentSelfScore < 55){
+    textEl.textContent = '今日属"大起大落预警"日，且你的自律评分已跌至' + currentSelfScore + '——两项风险叠加，强烈建议立即停止开新仓，先离开屏幕冷静，不要在此刻做任何交易决定';
+    banner.classList.add('show');
+    if(lastNotifiedRiskType !== 'severe'){
+      pushNotify('⚠ 贪狼黄金终端风险提醒', '大起大落预警 + 自律评分过低，建议立即停止开新仓');
+      lastNotifiedRiskType = 'severe';
+    }
+  } else if(isChaosDay && currentSelfScore < 80){
+    textEl.textContent = '今日属"大起大落预警"日，且自律评分已出现下滑（' + currentSelfScore + '分）——建议在数据公布前把仓位降到decision建议区间下限，并暂停调整止损';
+    banner.classList.add('show');
+    if(lastNotifiedRiskType !== 'mild'){
+      pushNotify('贪狼黄金终端风险提醒', '大起大落预警日，自律评分有所下滑，建议降低仓位');
+      lastNotifiedRiskType = 'mild';
+    }
+  } else {
+    banner.classList.remove('show');
+    lastNotifiedRiskType = null;
+  }
+}
+checkCrossAlert();
+ensureNotifyPermission();
+
+// ---------- 交易者自我管理评分 ----------
+function updateSelfScore(){
+  const boxes = document.querySelectorAll('.self-check-item input[type="checkbox"]');
+  let deduction = 0;
+  boxes.forEach(b => { if(b.checked) deduction += Number(b.dataset.weight); });
+  const score = Math.max(0, 100 - deduction);
+  currentSelfScore = score;
+  const scoreEl = document.getElementById('selfScore');
+  const statusEl = document.getElementById('selfStatus');
+  const wrapEl = document.getElementById('selfScoreWrap');
+  scoreEl.textContent = score;
+  let color, status;
+  if(score >= 80){ color = '#22A876'; status = '状态良好，可正常按计划执行'; }
+  else if(score >= 55){ color = '#C9A24C'; status = '存在情绪化风险信号，建议缩小仓位、放慢节奏'; }
+  else { color = '#C64F4F'; status = '多项警示同时触发，建议今日暂停开新仓，先离开屏幕冷静'; }
+  wrapEl.style.borderColor = color;
+  document.getElementById('ovSelf').textContent = score;
+  document.getElementById('ovSelf').style.color = color;
+  checkCrossAlert();
+  statusEl.textContent = status;
+  statusEl.style.color = color;
+}
+
+// ---------- 持仓源：可编辑开仓价/手数,实时联动浮动盈亏 ----------
+let CURRENT_GOLD_PRICE = 4170.30;
+
+// ---------- 真·实时金价：直接从浏览器调用 gold-api.com（免费/无需Key/已开CORS）----------
+// 打开页面即生效，不需要跑任何脚本、不需要服务器。每60秒刷新一次。
+let liveGoldBaseline = null;
+let lastFetchedPrice = null;
+async function fetchLiveGoldPrice(){
+  try{
+    const resp = await fetch('https://api.gold-api.com/price/XAU', {cache:'no-store'});
+    if(!resp.ok) return;
+    const data = await resp.json();
+    const price = data.price;
+    if(!price) return;
+
+    if(liveGoldBaseline === null) liveGoldBaseline = price;
+    CURRENT_GOLD_PRICE = price;
+    sessionPricePoints.push({ t: Date.now(), price });
+    if(currentPriceRange === '1D' && typeof setPriceRange === 'function'){
+      setPriceRange(document.querySelector('.range-tab.active'), '1D');
+    }
+
+    const priceEl = document.getElementById('goldPrice');
+    if(priceEl){
+      priceEl.textContent = price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+      // 价格变动闪烁效果：让每次真实变化都"看得见"
+      if(lastFetchedPrice !== null && price !== lastFetchedPrice){
+        priceEl.classList.remove('flash-up','flash-down');
+        void priceEl.offsetWidth; // 强制重排,确保动画能重新触发
+        priceEl.classList.add(price > lastFetchedPrice ? 'flash-up' : 'flash-down');
+      }
+    }
+    lastFetchedPrice = price;
+
+    const deltaEl = document.getElementById('goldDelta');
+    if(deltaEl){
+      const diff = price - liveGoldBaseline;
+      const pct = liveGoldBaseline ? (diff/liveGoldBaseline*100) : 0;
+      deltaEl.textContent = (diff>=0?'▲ ':'▼ ') + Math.abs(diff).toFixed(2) + ' (' + Math.abs(pct).toFixed(2) + '%) 本次打开页面以来';
+      deltaEl.className = 'price-delta ' + (diff>=0?'up':'down');
+    }
+
+    recalcPosition();
+    if(typeof recalcOptions === 'function') recalcOptions();
+
+    const statusBar = document.querySelector('.data-status-bar span:last-child');
+    if(statusBar) statusBar.innerHTML = '<b>金价：实时</b>（gold-api.com，每15秒刷新） · 其余宏观指标仍为演示数据，运行 fetch_gold_data.py 可一并同步';
+    const dot = document.querySelector('.data-status-bar .dot');
+    if(dot) dot.style.background = 'var(--rise)';
+  }catch(e){
+    console.log('实时金价拉取失败：', e.message);
+    const statusBar = document.querySelector('.data-status-bar span:last-child');
+    if(statusBar) statusBar.innerHTML = '<b style="color:var(--fall)">金价获取失败</b>：' + e.message + '（演示数据仍会正常显示，不影响页面其他部分）';
+    const dot = document.querySelector('.data-status-bar .dot');
+    if(dot) dot.style.background = 'var(--fall)';
+  }
+}
+fetchLiveGoldPrice();
+setInterval(fetchLiveGoldPrice, 15000);
+
+// ---------- 浏览器原生推送提醒（无需服务器）----------
+// 页面开着的时候，风险状态恶化或高影响事件临近会弹系统通知。
+// 注意：浏览器标签关闭后不会继续推送，这不是真正的后台推送服务。
+let notifyPermissionAsked = false;
+function ensureNotifyPermission(){
+  if(!('Notification' in window)) return;
+  if(Notification.permission === 'default' && !notifyPermissionAsked){
+    notifyPermissionAsked = true;
+    Notification.requestPermission();
+  }
+}
+function pushNotify(title, body){
+  if(!('Notification' in window)) return;
+  if(Notification.permission === 'granted'){
+    new Notification(title, { body, icon: undefined });
+  }
+}
+
+// ---------- 尝试加载本地/远程 gold-data.json（由 fetch_gold_data.py 定时生成,补充DXY/VIX/原油）----------
+// 如果文件不存在或抓取失败，会静默保留演示数据，不影响页面正常展示。
+async function loadLiveData(){
+  try{
+    const resp = await fetch('./gold-data.json', {cache:'no-store'});
+    if(!resp.ok) return;
+    const data = await resp.json();
+
+    if(data.gold && data.gold.price){
+      CURRENT_GOLD_PRICE = data.gold.price;
+      const priceEl = document.getElementById('goldPrice');
+      if(priceEl) priceEl.textContent = CURRENT_GOLD_PRICE.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+      recalcPosition();
+      if(typeof recalcOptions === 'function') recalcOptions();
+    }
+
+    // GoldAPI.io（可选，需你自己填Key并存成GitHub Secret）：更精确的当日涨跌幅+真实最高最低价
+    let usedGoldApi = false;
+    if(data.goldapi && data.goldapi.price){
+      const g = data.goldapi;
+      CURRENT_GOLD_PRICE = g.price;
+      liveGoldBaseline = g.prevClose || liveGoldBaseline;
+      const priceEl = document.getElementById('goldPrice');
+      if(priceEl) priceEl.textContent = g.price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+      const deltaEl = document.getElementById('goldDelta');
+      if(deltaEl && typeof g.change === 'number' && typeof g.changePercent === 'number'){
+        deltaEl.textContent = (g.change>=0?'▲ ':'▼ ') + Math.abs(g.change).toFixed(2) + ' (' + Math.abs(g.changePercent).toFixed(2) + '%) 较昨收';
+        deltaEl.className = 'price-delta ' + (g.change>=0?'up':'down');
+      }
+      if(typeof g.high === 'number' && typeof g.low === 'number'){
+        const rangeEl = document.getElementById('dayRangeVal');
+        if(rangeEl) rangeEl.textContent = '$' + (g.high - g.low).toFixed(2);
+      }
+      recalcPosition();
+      if(typeof recalcOptions === 'function') recalcOptions();
+      usedGoldApi = true;
+    }
+
+    if(data.dxy && data.dxy.value){
+      const el = document.querySelectorAll('.macro-card .macro-value')[0];
+      if(el) el.textContent = data.dxy.value.toFixed(2);
+    }
+    if(data.vix && data.vix.value){
+      const el = document.querySelectorAll('.macro-card .macro-value')[3];
+      if(el) el.textContent = data.vix.value.toFixed(2);
+    }
+    if(data.wti && data.wti.value){
+      const el = document.querySelectorAll('.macro-card .macro-value')[2];
+      if(el) el.textContent = '$' + data.wti.value.toFixed(2);
+    }
+
+    // 更新数据源状态条：金价+宏观指标均已实时化
+    const statusBar = document.querySelector('.data-status-bar span:last-child');
+    if(statusBar){
+      const fetchedTime = new Date(data.fetchedAt).toLocaleString('zh-CN', {hour12:false});
+      const goldSourceNote = usedGoldApi ? 'GoldAPI.io（更精确）' : 'gold-api.com';
+      statusBar.innerHTML = '<b>全部实时</b>（金价来自' + goldSourceNote + '，DXY/VIX/原油来自本地 gold-data.json） · 最近同步于 ' + fetchedTime;
+    }
+    const dot = document.querySelector('.data-status-bar .dot');
+    if(dot) dot.style.background = 'var(--rise)';
+  }catch(e){
+    console.log('gold-data.json 加载失败：', e.message);
+    const statusBar = document.querySelector('.data-status-bar span:last-child');
+    // 只有在金价本身拉取成功(绿点)时才覆盖状态条，避免盖掉金价失败的报错信息
+    const dot = document.querySelector('.data-status-bar .dot');
+    if(statusBar && dot && dot.style.background === 'var(--rise)'){
+      statusBar.innerHTML = '<b>金价：实时</b> · <b style="color:var(--amber)">宏观数据(gold-data.json)加载失败</b>：' + e.message;
+    }
+  }
+}
+loadLiveData();
+let slTpAlertState = null; // null | 'near' | 'hit'
+function recalcPosition(){
+  const open = parseFloat(document.getElementById('posOpenPrice').value) || 0;
+  const lots = parseFloat(document.getElementById('posLots').value) || 0;
+  const stopLoss = parseFloat(document.getElementById('posStopLoss').value) || 0;
+  const takeProfit = parseFloat(document.getElementById('posTakeProfit').value) || 0;
+  const pnl = (CURRENT_GOLD_PRICE - open) * lots * 100;
+  document.getElementById('posOpenDisplay').textContent = open.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+  document.getElementById('posCurrentDisplay').textContent = CURRENT_GOLD_PRICE.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const pnlEl = document.getElementById('posPnlDisplay');
+  pnlEl.textContent = (pnl>=0?'+':'') + pnl.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+  pnlEl.style.color = pnl >= 0 ? 'var(--rise)' : 'var(--fall)';
+
+  // ---- 止损止盈进度条（假设多头：止损 < 现价 < 止盈）----
+  if(stopLoss > 0 && takeProfit > stopLoss){
+    const range = takeProfit - stopLoss;
+    let pct = ((CURRENT_GOLD_PRICE - stopLoss) / range) * 100;
+    pct = Math.max(0, Math.min(100, pct));
+    const marker = document.getElementById('slTpMarker');
+    if(marker) marker.style.left = pct + '%';
+
+    const distSl = CURRENT_GOLD_PRICE - stopLoss;
+    const distTp = takeProfit - CURRENT_GOLD_PRICE;
+    const distSlEl = document.getElementById('slTpDistSl');
+    const distTpEl = document.getElementById('slTpDistTp');
+
+    const nearZone = range * 0.15; // 距离任一端不到区间15%视为"接近"
+    let newState = null;
+
+    if(distSlEl){
+      distSlEl.textContent = '距止损 ' + (distSl>=0?'':'已跌破') + Math.abs(distSl).toFixed(2);
+      distSlEl.className = distSl <= 0 ? 'warn' : (distSl <= nearZone ? 'warn' : '');
+    }
+    if(distTpEl){
+      distTpEl.textContent = '距止盈 ' + (distTp>=0?'':'已突破') + Math.abs(distTp).toFixed(2);
+      distTpEl.className = distTp <= 0 ? 'near-tp' : (distTp <= nearZone ? 'near-tp' : '');
+    }
+
+    const statusEl = document.getElementById('posStatusText');
+    const statusBar = document.getElementById('slTpBar').parentElement.querySelector('.pos-status');
+
+    if(distSl <= 0){
+      newState = 'hit-sl';
+      if(statusEl) statusEl.textContent = '⚠ 现价已触及/跌破止损价 ' + stopLoss.toFixed(2) + '，按计划应立即离场，不要抱侥幸心理扛单';
+      if(statusBar){ statusBar.classList.remove('alert-near'); statusBar.classList.add('alert-hit'); }
+    } else if(distTp <= 0){
+      newState = 'hit-tp';
+      if(statusEl) statusEl.textContent = '🎯 现价已触及/突破止盈价 ' + takeProfit.toFixed(2) + '，按计划可以考虑止盈离场或移动止损锁定利润';
+      if(statusBar){ statusBar.classList.remove('alert-near'); statusBar.classList.add('alert-hit'); }
+    } else if(distSl <= nearZone){
+      newState = 'near-sl';
+      if(statusEl) statusEl.textContent = '现价正在接近止损价，距止损仅剩 ' + distSl.toFixed(2) + '，留意是否需要提前减仓';
+      if(statusBar){ statusBar.classList.remove('alert-hit'); statusBar.classList.add('alert-near'); }
+    } else if(distTp <= nearZone){
+      newState = 'near-tp';
+      if(statusEl) statusEl.textContent = '现价正在接近止盈价，距止盈仅剩 ' + distTp.toFixed(2) + '，可以考虑分批止盈';
+      if(statusBar){ statusBar.classList.remove('alert-hit'); statusBar.classList.add('alert-near'); }
+    } else {
+      if(statusEl) statusEl.textContent = '当前仓位45%，处于决策源建议区间(30%–50%)内，无需调整';
+      if(statusBar){ statusBar.classList.remove('alert-hit','alert-near'); }
+    }
+
+    // 状态变化时才推送一次通知，避免同一状态反复打扰
+    if(newState && newState !== slTpAlertState && typeof pushNotify === 'function'){
+      if(newState === 'hit-sl') pushNotify('⚠ 贪狼黄金终端止损提醒', '现价已触及止损价 ' + stopLoss.toFixed(2) + '，按计划离场');
+      else if(newState === 'hit-tp') pushNotify('🎯 贪狼黄金终端止盈提醒', '现价已触及止盈价 ' + takeProfit.toFixed(2) + '，考虑止盈或移动止损');
+    }
+    slTpAlertState = newState;
+  }
+}
+
+// ---------- 期权源：手动更新模式,无需付费实时API ----------
+function recalcOptions(){
+  const iv = parseFloat(document.getElementById('optIv').value) || 0;
+  const pc = parseFloat(document.getElementById('optPc').value) || 0;
+  const rr = parseFloat(document.getElementById('optRr').value) || 0;
+  const mp = parseFloat(document.getElementById('optMp').value) || 0;
+
+  document.getElementById('optIvDisplay').textContent = iv.toFixed(1) + '%';
+  document.getElementById('optPcDisplay').textContent = pc.toFixed(2);
+  const rrEl = document.getElementById('optRrDisplay');
+  rrEl.textContent = (rr>=0?'+':'') + rr.toFixed(2);
+  rrEl.style.color = rr >= 0 ? 'var(--rise)' : 'var(--fall)';
+  document.getElementById('optMpDisplay').textContent = mp.toLocaleString('en-US');
+
+  const diff = Math.round(CURRENT_GOLD_PRICE - mp);
+  const diffEl = document.getElementById('optMpDiff');
+  if(diff > 0) diffEl.textContent = '现价上方约' + diff + '美元';
+  else if(diff < 0) diffEl.textContent = '现价下方约' + Math.abs(diff) + '美元';
+  else diffEl.textContent = '与现价基本一致';
+}
+recalcOptions();
+recalcPosition();
+
+// ---------- 决策记录追踪：验证系统方向判断的真实胜率 ----------
+// 注意：不使用 localStorage，数据只在当前页面会话中保留，
+// 需要用户手动"导出备份"来跨会话保存，避免浏览器存储限制导致数据丢失。
+let decisionLog = [];
+
+function initLogDate(){
+  const el = document.getElementById('logDate');
+  if(el) el.value = new Date().toISOString().slice(0,10);
+}
+initLogDate();
+
+function addLogEntry(){
+  const date = document.getElementById('logDate').value || new Date().toISOString().slice(0,10);
+  const dir = document.getElementById('logDir').value;
+  const note = document.getElementById('logNote').value.trim();
+  decisionLog.unshift({ id: Date.now(), date, dir, note, outcome: null });
+  document.getElementById('logNote').value = '';
+  renderLog();
+}
+
+function markOutcome(id, outcome){
+  const entry = decisionLog.find(e => e.id === id);
+  if(entry) entry.outcome = outcome;
+  renderLog();
+}
+
+function deleteLogEntry(id){
+  decisionLog = decisionLog.filter(e => e.id !== id);
+  renderLog();
+}
+
+const dirLabel = { long:'看多', short:'看空', wait:'观望' };
+
+function renderLog(){
+  const listEl = document.getElementById('logList');
+  if(!listEl) return;
+
+  if(decisionLog.length === 0){
+    listEl.innerHTML = '<div class="log-empty">还没有记录，从今天开始攒吧</div>';
+  } else {
+    listEl.innerHTML = decisionLog.map(e => {
+      let outcomeHtml;
+      if(e.outcome === 'hit'){
+        outcomeHtml = '<span class="le-tag hit">✓ 判断对了</span>';
+      } else if(e.outcome === 'miss'){
+        outcomeHtml = '<span class="le-tag miss">✗ 判断错了</span>';
+      } else {
+        outcomeHtml = '<button class="le-btn hit" onclick="markOutcome('+e.id+',\'hit\')">对✓</button><button class="le-btn miss" onclick="markOutcome('+e.id+',\'miss\')">错✗</button>';
+      }
+      const noteHtml = e.note ? e.note : '<span style="color:var(--text-mute)">无备注</span>';
+      return '<div class="log-entry">'
+        + '<div class="le-date">'+e.date.slice(5)+'</div>'
+        + '<div class="le-dir '+e.dir+'">'+dirLabel[e.dir]+'</div>'
+        + '<div class="le-note" title="'+ (e.note?e.note.replace(/"/g,'&quot;'):'') +'">'+noteHtml+'</div>'
+        + '<div class="le-outcome">'+outcomeHtml+'</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  const total = decisionLog.length;
+  const hit = decisionLog.filter(e => e.outcome === 'hit').length;
+  const miss = decisionLog.filter(e => e.outcome === 'miss').length;
+  const pending = total - hit - miss;
+  const verified = hit + miss;
+
+  document.getElementById('logStatTotal').textContent = total;
+  document.getElementById('logStatPending').textContent = pending;
+  document.getElementById('logStatRate').textContent = verified > 0 ? Math.round(hit/verified*100) + '%' : '--';
+}
+
+function exportLog(){
+  const blob = new Blob([JSON.stringify(decisionLog, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'tanlang-gold-decision-log-' + new Date().toISOString().slice(0,10) + '.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importLog(event){
+  const file = event.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e){
+    try{
+      const data = JSON.parse(e.target.result);
+      if(Array.isArray(data)){
+        decisionLog = data;
+        renderLog();
+      } else {
+        alert('文件格式不对，请选择之前导出的备份文件');
+      }
+    }catch(err){
+      alert('读取失败，文件可能已损坏');
+    }
+    event.target.value = '';
+  };
+  reader.readAsText(file);
+}
+
+renderLog();
+
+// ---------- 决策源：风险偏好切换,联动建议仓位区间 ----------
+const riskProfiles = {
+  conservative: {label:'常规仓位的 10%–25%', note:'保守模式：优先控制回撤，仓位区间下调'},
+  balanced:     {label:'常规仓位的 30%–50%', note:'稳健模式：默认建议区间'},
+  aggressive:   {label:'常规仓位的 50%–75%', note:'激进模式：仓位区间上调，需自行承担更高波动风险'}
+};
+function setRiskProfile(key){
+  document.querySelectorAll('.risk-opt').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.risk === key);
+  });
+  const cfg = riskProfiles[key];
+  document.getElementById('decisionPositionVal').textContent = cfg.label;
+  const statusText = document.getElementById('posStatusText');
+  if(statusText) statusText.textContent = '当前仓位45%（示例值）· ' + cfg.note;
+}
+
+// ---------- 信息源：距下一高影响事件实时倒计时 ----------
+function getNextEventTarget(){
+  const now = new Date();
+  const target = new Date(now);
+  target.setHours(20,30,0,0);
+  if(target <= now){ target.setDate(target.getDate()+1); }
+  return target;
+}
+const nextEventTarget = getNextEventTarget();
+let eventNotified = false;
+function updateEventCountdown(){
+  const now = new Date();
+  let diff = nextEventTarget - now;
+  const el = document.getElementById('ecCountdown');
+  if(!el) return;
+  if(diff <= 0){
+    el.textContent = '数据已公布';
+    if(!eventNotified){
+      eventNotified = true;
+      pushNotify('📅 贪狼黄金终端事件提醒', document.getElementById('ecEventName').textContent + ' 数据窗口已到，请留意行情异动');
+    }
+    return;
+  }
+  const h = Math.floor(diff / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  el.textContent = String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');
+}
+updateEventCountdown();
+setInterval(updateEventCountdown, 1000);
+</script>
+
+</body>
+</html>
