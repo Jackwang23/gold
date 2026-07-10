@@ -502,6 +502,11 @@
 
   /* ---- Correlation card ---- */
   .corr-card{padding:15px;}
+  .corr-accumulating{
+    display:flex; align-items:center; gap:7px; margin-bottom:11px; padding:8px 10px;
+    background:var(--panel-2); border-radius:6px; font-size:10.5px; color:var(--text-soft);
+  }
+  .corr-accumulating .dot{width:6px;height:6px;border-radius:50%; background:var(--amber); flex-shrink:0;}
   .corr-row{display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--line-soft);}
   .corr-row:last-child{border-bottom:none; padding-bottom:0;}
   .corr-name{font-size:12px; font-weight:600; width:64px; flex-shrink:0;}
@@ -1152,28 +1157,38 @@
 
     <div class="subsection">
       <div class="card corr-card">
-        <div class="corr-row">
-          <div class="corr-name">DXY美元</div>
-          <div class="corr-track"><div class="corr-fill" style="left:14.5%; width:35.5%; background:var(--fall)"></div></div>
-          <div class="corr-val mono" style="color:var(--fall)">-0.71</div>
+        <div class="corr-accumulating" id="corrAccumulating" style="display:none;">
+          <span class="dot"></span><span id="corrAccumulatingText">相关系数数据积累中，需要至少10天历史数据才能计算，当前已积累 0 天</span>
         </div>
-        <div class="corr-row">
-          <div class="corr-name">实际利率</div>
-          <div class="corr-track"><div class="corr-fill" style="left:21%; width:29%; background:var(--fall)"></div></div>
-          <div class="corr-val mono" style="color:var(--fall)">-0.58</div>
+        <div id="corrRows">
+          <div class="corr-row" data-factor="dxy">
+            <div class="corr-name">DXY美元</div>
+            <div class="corr-track"><div class="corr-fill" style="left:14.5%; width:35.5%; background:var(--fall)"></div></div>
+            <div class="corr-val mono" style="color:var(--fall)">-0.71</div>
+          </div>
+          <div class="corr-row" data-factor="realRate">
+            <div class="corr-name">实际利率</div>
+            <div class="corr-track"><div class="corr-fill" style="left:21%; width:29%; background:var(--fall)"></div></div>
+            <div class="corr-val mono" style="color:var(--fall)">-0.58</div>
+          </div>
+          <div class="corr-row" data-factor="btc">
+            <div class="corr-name">比特币</div>
+            <div class="corr-track"><div class="corr-fill" style="left:50%; width:17%; background:var(--rise)"></div></div>
+            <div class="corr-val mono" style="color:var(--rise)">+0.34</div>
+            <div class="corr-flag">⚠偏离</div>
+          </div>
+          <div class="corr-row" data-factor="spx">
+            <div class="corr-name">标普500</div>
+            <div class="corr-track"><div class="corr-fill" style="left:44%; width:6%; background:var(--text-mute)"></div></div>
+            <div class="corr-val mono" style="color:var(--text-soft)">-0.12</div>
+          </div>
+          <div class="corr-row" data-factor="vix">
+            <div class="corr-name">VIX恐慌指数</div>
+            <div class="corr-track"><div class="corr-fill" style="left:44%; width:6%; background:var(--text-mute)"></div></div>
+            <div class="corr-val mono" style="color:var(--text-soft)">+0.08</div>
+          </div>
         </div>
-        <div class="corr-row">
-          <div class="corr-name">比特币</div>
-          <div class="corr-track"><div class="corr-fill" style="left:50%; width:17%; background:var(--rise)"></div></div>
-          <div class="corr-val mono" style="color:var(--rise)">+0.34</div>
-          <div class="corr-flag">⚠偏离</div>
-        </div>
-        <div class="corr-row">
-          <div class="corr-name">标普500</div>
-          <div class="corr-track"><div class="corr-fill" style="left:44%; width:6%; background:var(--text-mute)"></div></div>
-          <div class="corr-val mono" style="color:var(--text-soft)">-0.12</div>
-        </div>
-        <div class="macro-note" style="margin-top:2px;">比特币与金价的90日滚动相关系数较历史均值(约+0.15)明显走高，可能反映"数字黄金"避险叙事阶段性增强</div>
+        <div class="macro-note" id="corrNote" style="margin-top:2px;">以上为演示数值。接入真实历史数据后，将自动替换为基于实际每日收盘价计算的滚动相关系数</div>
       </div>
     </div>
   </section>
@@ -1888,7 +1903,57 @@ async function loadLiveData(){
       if(el) el.textContent = '$' + data.wti.value.toFixed(2);
     }
 
-    // 更新数据源状态条：金价+宏观指标均已实时化
+    // 08关联源：用真实计算的相关系数替换演示数值
+    if(data.correlations){
+      renderCorrelations(data.correlations);
+    }
+
+// ---------- 08关联源：渲染真实计算的相关系数(来自fetch_gold_data.py每日积累计算) ----------
+const corrFactorLabel = { dxy: 'DXY美元', realRate: '实际利率', btc: '比特币', spx: '标普500', vix: 'VIX恐慌指数' };
+function renderCorrelations(corr){
+  const accEl = document.getElementById('corrAccumulating');
+  const accTextEl = document.getElementById('corrAccumulatingText');
+  const noteEl = document.getElementById('corrNote');
+  const dataPoints = corr.dataPoints || 0;
+  const minRequired = corr.minRequired || 10;
+
+  if(dataPoints < minRequired){
+    if(accEl) accEl.style.display = 'flex';
+    if(accTextEl) accTextEl.textContent = '相关系数数据积累中，需要至少' + minRequired + '天历史数据才能计算，当前已积累 ' + dataPoints + ' 天';
+    if(noteEl) noteEl.textContent = '积累够天数后，以下将自动替换为基于真实每日收盘价计算的滚动相关系数';
+    return; // 样本不足时保留演示数值，不用不可靠的系数覆盖显示
+  }
+
+  if(accEl) accEl.style.display = 'none';
+  if(noteEl) noteEl.textContent = '以上为基于最近 ' + dataPoints + ' 天真实收盘价计算的皮尔逊相关系数（每日由后台自动更新一次）';
+
+  document.querySelectorAll('#corrRows .corr-row').forEach(row=>{
+    const factor = row.dataset.factor;
+    const v = corr[factor];
+    if(typeof v !== 'number') return;
+
+    const valEl = row.querySelector('.corr-val');
+    const fillEl = row.querySelector('.corr-fill');
+    const color = v >= 0.15 ? 'var(--rise)' : (v <= -0.15 ? 'var(--fall)' : 'var(--text-mute)');
+
+    if(valEl){
+      valEl.textContent = (v >= 0 ? '+' : '') + v.toFixed(2);
+      valEl.style.color = v >= 0.15 ? 'var(--rise)' : (v <= -0.15 ? 'var(--fall)' : 'var(--text-soft)');
+    }
+    if(fillEl){
+      // 把 -1~+1 映射到进度条：0在中间(50%)，正值向右延伸，负值向左延伸
+      const center = 50;
+      const half = v * 45; // 45%为单侧最大延伸幅度，留一点边距
+      const left = half >= 0 ? center : center + half;
+      const width = Math.abs(half);
+      fillEl.style.left = left + '%';
+      fillEl.style.width = width + '%';
+      fillEl.style.background = color;
+    }
+  });
+}
+
+// 更新数据源状态条：金价+宏观指标均已实时化
     const statusBar = document.querySelector('.data-status-bar span:last-child');
     if(statusBar){
       const fetchedTime = new Date(data.fetchedAt).toLocaleString('zh-CN', {hour12:false});
