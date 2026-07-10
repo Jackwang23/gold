@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-10T13:45:08.013859+00:00",
+  "fetchedAt": "2026-07-10T16:09:08.685221+00:00",
   "gold": {
-    "price": 4103.299805,
-    "updatedAt": "2026-07-10T13:44:55Z"
+    "price": 4110.799805,
+    "updatedAt": "2026-07-10T16:08:58Z"
   },
   "silver": {
-    "price": 59.887001,
-    "updatedAt": "2026-07-10T13:44:54Z"
+    "price": 60.029999,
+    "updatedAt": "2026-07-10T16:08:58Z"
   },
   "dxy": {
-    "value": 100.92,
-    "changePct": -0.02
+    "value": 100.75,
+    "changePct": -0.19
   },
   "vix": {
-    "value": 15.73,
-    "changePct": -0.69
+    "value": 15.41,
+    "changePct": -2.71
   },
   "wti": {
-    "value": 72.06,
-    "changePct": -0.03
+    "value": 70.96,
+    "changePct": -1.55
   },
   "btc": {
-    "value": 64339.04,
-    "changePct": 1.81
+    "value": 63981.94,
+    "changePct": 1.25
   },
   "spx": {
-    "value": 7548.63,
-    "changePct": 0.07
+    "value": 7556.03,
+    "changePct": 0.16
   },
   "fred": {
     "10y_treasury": {
