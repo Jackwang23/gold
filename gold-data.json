@@ -1,24 +1,29 @@
 {
-  "fetchedAt": "2026-07-09T23:21:23.596724+00:00",
+  "fetchedAt": "2026-07-10T01:10:24.131581+00:00",
   "gold": {
-    "price": 4125.399902,
-    "updatedAt": "2026-07-09T23:20:53Z"
+    "price": 4124.600098,
+    "updatedAt": "2026-07-10T01:09:53Z"
   },
   "silver": {
-    "price": 60.146999,
-    "updatedAt": "2026-07-09T23:20:53Z"
+    "price": 60.191002,
+    "updatedAt": "2026-07-10T01:09:53Z"
   },
   "dxy": {
-    "value": 100.94,
-    "changePct": -0.11
+    "value": 100.84,
+    "changePct": -0.2
   },
   "vix": {
     "value": 15.84,
     "changePct": -6.27
   },
   "wti": {
-    "value": 71.8,
-    "changePct": -2.34
+    "value": 72.08,
+    "changePct": -1.96
+  },
+  "btc": null,
+  "spx": {
+    "value": 7543.64,
+    "changePct": 0.81
   },
   "fred": {
     "10y_treasury": {
@@ -31,90 +36,13 @@
     }
   },
   "goldapi": null,
-  "news": [
-    {
-      "category": "central_banks",
-      "categoryLabel": "央行动向",
-      "title": "Opening Remarks On Government Securities Settlement",
-      "link": "https://www.investing.com/central-banks/federal-reserve/speeches/opening-remarks-on-government-securities-settlement-200162218",
-      "publishedAt": "2016-10-24T13:22:00+00:00"
-    },
-    {
-      "category": "central_banks",
-      "categoryLabel": "央行动向",
-      "title": "Japan's Economy and Monetary Policy",
-      "link": "https://www.investing.com/central-banks/bank-of-japan/speeches/japan's-economy-and-monetary-policy-200146900",
-      "publishedAt": "2016-08-04T09:00:00+00:00"
-    },
-    {
-      "category": "central_banks",
-      "categoryLabel": "央行动向",
-      "title": "Assessing The Implications Of Negative Interest Rates",
-      "link": "https://www.investing.com/central-banks/european-central-bank/speeches/assessing-the-implications-of-negative-interest-rates-200146901",
-      "publishedAt": "2016-07-28T09:00:00+00:00"
-    },
-    {
-      "category": "central_banks",
-      "categoryLabel": "央行动向",
-      "title": "Brexit And Monetary Policy",
-      "link": "https://www.investing.com/central-banks/bank-of-england/speeches/brexit-and-monetary-policy-200144190",
-      "publishedAt": "2016-07-18T09:00:00+00:00"
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "US House to vote on bill to make daylight saving time permanent",
-      "link": "https://www.investing.com/news/commodities-news/us-house-to-vote-on-bill-to-make-daylight-saving-time-permanent-4785146",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei",
-      "link": "https://www.investing.com/news/commodities-news/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader-4783457",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Gold rebounds over 1% from one-week low as dollar eases, oil prices slip",
-      "link": "https://www.investing.com/news/commodities-news/gold-prices-edge-lower-as-iran-tensions-boost-dollar-4782961",
-      "publishedAt": null
-    },
-    {
-      "category": "commodities",
-      "categoryLabel": "大宗商品",
-      "title": "Oil prices settle 2% lower as economic worries outweigh supply risks",
-      "link": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Nasdaq ends sharply higher; chip surge offsets Iran worries",
-      "link": "https://www.investing.com/news/economy-news/wall-st-futures-rebound-as-oil-retreats-investors-weigh-usiran-tensions-4783449",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Fed’s Warsh taps broad group of Fed outsiders to oversee review",
-      "link": "https://www.investing.com/news/economy-news/feds-warsh-taps-broad-group-of-central-bank-outsiders-to-oversee-review-4784723",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Skeptical US Democrats in Congress urge debate on Israel plans",
-      "link": "https://www.investing.com/news/economy-news/skeptical-us-democrats-in-congress-urge-debate-on-israel-plans-4784790",
-      "publishedAt": null
-    },
-    {
-      "category": "economy",
-      "categoryLabel": "经济数据",
-      "title": "Trading Day: What war? Chip-led rally helps markets ignore on-again, off-again US-Iran truce",
-      "link": "https://www.investing.com/news/economy-news/trading-day-what-war-chipled-rally-helps-markets-ignore-onagain-offagain-usiran-truce-4785022",
-      "publishedAt": null
-    }
-  ]
+  "correlations": {
+    "dataPoints": 1,
+    "minRequired": 10,
+    "dxy": null,
+    "realRate": null,
+    "vix": null,
+    "btc": null,
+    "spx": null
+  }
 }
