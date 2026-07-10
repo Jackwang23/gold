@@ -27,7 +27,7 @@ OUTPUT_FILE = "gold-data.json"
 # GoldAPI.io：更丰富的数据(涨跌额/涨跌幅/最高/最低/昨收)，需要免费注册的Key。
 # 安全起见，Key不写在代码里，而是从环境变量读取——本地跑就在命令行里临时设置，
 # 部署到GitHub Actions就存成仓库的加密Secret，永远不会出现在公开代码或网页里。
-GOLDAPI_IO_TOKEN = os.environ.get("GOLDAPI_IO_TOKEN")
+GOLDAPI_KEY = os.environ.get("GOLDAPI_KEY")
 
 # FRED 免费数据不需要 Key 也能拉 CSV，但用官方 API 更规范一些。
 # 如果你想用官方 API，需要免费注册一个 FRED API Key（在 fred.stlouisfed.org 免费申请）。
@@ -40,15 +40,15 @@ FRED_SERIES = {
 
 def fetch_goldapi():
     """从 GoldAPI.io 拉取更丰富的金价数据（涨跌额/涨跌幅/最高/最低/昨收）。
-    需要免费注册的Key，通过环境变量 GOLDAPI_IO_TOKEN 传入。这是服务器端调用，
+    需要免费注册的Key，通过环境变量 GOLDAPI_KEY 传入。这是服务器端调用，
     Key不会出现在任何公开文件或网页里。没设置Key时直接跳过，不影响其他数据正常抓取。"""
-    if not GOLDAPI_IO_TOKEN:
-        print("[信息] 未设置 GOLDAPI_IO_TOKEN 环境变量，跳过 GoldAPI.io 抓取（可选数据源，不影响其他部分）")
+    if not GOLDAPI_KEY:
+        print("[信息] 未设置 GOLDAPI_KEY 环境变量，跳过 GoldAPI.io 抓取（可选数据源，不影响其他部分）")
         return None
     try:
         resp = requests.get(
             "https://www.goldapi.io/api/XAU/USD",
-            headers={"x-access-token": GOLDAPI_IO_TOKEN, "Content-Type": "application/json"},
+            headers={"x-access-token": GOLDAPI_KEY, "Content-Type": "application/json"},
             timeout=10,
         )
         resp.raise_for_status()
@@ -66,6 +66,69 @@ def fetch_goldapi():
     except Exception as e:
         print(f"[警告] 拉取 GoldAPI.io 失败: {e}")
         return None
+
+
+HISTORY_FILE = "gold-history.json"
+MIN_POINTS_FOR_CORRELATION = 10   # 至少积累这么多天的数据才计算相关系数，样本太少的相关系数没有意义
+MAX_HISTORY_DAYS = 120            # 只保留最近120天，避免文件无限增长
+
+
+def load_history():
+    """读取已积累的历史数据文件，不存在则返回空列表"""
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[警告] 读取历史数据文件失败，将从头开始积累: {e}")
+        return []
+
+
+def update_history(history, today_str, gold_price, dxy, real_rate, vix, btc, spx):
+    """把今天的数据追加进历史序列（每天只记一条，重复运行不会重复添加），并裁剪到最大天数"""
+    if history and history[-1].get("date") == today_str:
+        # 今天已经记录过了，更新为最新值而不是重复追加
+        history[-1] = {
+            "date": today_str, "gold": gold_price, "dxy": dxy,
+            "realRate": real_rate, "vix": vix, "btc": btc, "spx": spx,
+        }
+    else:
+        history.append({
+            "date": today_str, "gold": gold_price, "dxy": dxy,
+            "realRate": real_rate, "vix": vix, "btc": btc, "spx": spx,
+        })
+    return history[-MAX_HISTORY_DAYS:]
+
+
+def pearson_correlation(xs, ys):
+    """手写皮尔逊相关系数，不依赖numpy/scipy，保持脚本零额外依赖"""
+    pairs = [(x, y) for x, y in zip(xs, ys) if x is not None and y is not None]
+    n = len(pairs)
+    if n < MIN_POINTS_FOR_CORRELATION:
+        return None
+    xs2 = [p[0] for p in pairs]
+    ys2 = [p[1] for p in pairs]
+    mean_x = sum(xs2) / n
+    mean_y = sum(ys2) / n
+    cov = sum((x - mean_x) * (y - mean_y) for x, y in pairs)
+    var_x = sum((x - mean_x) ** 2 for x in xs2)
+    var_y = sum((y - mean_y) ** 2 for y in ys2)
+    denom = (var_x * var_y) ** 0.5
+    if denom == 0:
+        return None
+    return round(cov / denom, 3)
+
+
+def compute_correlations(history):
+    """基于积累的历史序列，计算金价与各因子的滚动相关系数"""
+    n = len(history)
+    gold_series = [h.get("gold") for h in history]
+    result = {"dataPoints": n, "minRequired": MIN_POINTS_FOR_CORRELATION}
+    for factor_key, factor_name in [("dxy", "dxy"), ("realRate", "realRate"), ("vix", "vix"), ("btc", "btc"), ("spx", "spx")]:
+        factor_series = [h.get(factor_key) for h in history]
+        result[factor_name] = pearson_correlation(gold_series, factor_series)
+    return result
 
 
 def fetch_gold_silver():
@@ -87,38 +150,32 @@ def fetch_gold_silver():
 
 
 def fetch_dxy_vix_oil():
-    """通过 yfinance 从 Yahoo Finance 拉取 DXY / VIX / WTI原油，免费无需 Key"""
+    """通过 yfinance 从 Yahoo Finance 拉取 DXY / VIX / WTI原油 / 比特币 / 标普500，免费无需 Key"""
     try:
         import yfinance as yf
     except ImportError:
-        print("[警告] 未安装 yfinance，跳过 DXY/VIX/原油 抓取。运行: pip install yfinance --break-system-packages")
-        return {"dxy": None, "vix": None, "wti": None}
+        print("[警告] 未安装 yfinance，跳过宏观数据抓取。运行: pip install yfinance --break-system-packages")
+        return {"dxy": None, "vix": None, "wti": None, "btc": None, "spx": None}
 
     tickers = {
         "dxy": "DX-Y.NYB",   # 美元指数
         "vix": "^VIX",       # VIX恐慌指数
         "wti": "CL=F",       # WTI原油期货
+        "btc": "BTC-USD",    # 比特币
+        "spx": "^GSPC",      # 标普500
     }
     result = {}
     for key, symbol in tickers.items():
         try:
             t = yf.Ticker(symbol)
-            # 用7天窗口而不是2天：DXY/VIX是指数，遇到周末/假期/当天未收盘时，
-            # 2天窗口经常凑不够2条数据导致误判失败。7天足以覆盖任何长周末。
-            hist = t.history(period="7d")
+            hist = t.history(period="2d")
             if len(hist) >= 2:
                 last = hist["Close"].iloc[-1]
                 prev = hist["Close"].iloc[-2]
                 change_pct = (last - prev) / prev * 100
                 result[key] = {"value": round(float(last), 2), "changePct": round(float(change_pct), 2)}
-            elif len(hist) == 1:
-                # 只抓到1条也比null强：至少把最新价显示出来，涨跌幅留空
-                last = hist["Close"].iloc[-1]
-                result[key] = {"value": round(float(last), 2), "changePct": None}
-                print(f"[提示] {symbol} 只抓到1条历史数据，已显示最新价，涨跌幅暂缺")
             else:
                 result[key] = None
-                print(f"[警告] {symbol} 未返回任何数据（7天窗口内），标记为null")
         except Exception as e:
             print(f"[警告] 拉取 {symbol} 失败: {e}")
             result[key] = None
@@ -148,51 +205,6 @@ def fetch_fred_series(series_id):
         return None
 
 
-def fetch_news():
-    """从 Investing.com 免费公开RSS抓取黄金相关新闻标题，完全免费、无需注册Key。
-    只取标题/来源/时间/链接，不抓取正文，避免版权问题，也符合"资讯速览"这种
-    标题式展示的定位。"""
-    import xml.etree.ElementTree as ET
-    from email.utils import parsedate_to_datetime
-
-    feeds = {
-        "commodities": ("https://www.investing.com/rss/news_11.rss", "大宗商品"),
-        "economy": ("https://www.investing.com/rss/news_14.rss", "经济数据"),
-        "central_banks": ("https://www.investing.com/rss/central_banks.rss", "央行动向"),
-    }
-
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; GoldDashboardBot/1.0)"}
-    items = []
-    for category, (url, label) in feeds.items():
-        try:
-            resp = requests.get(url, headers=headers, timeout=10)
-            resp.raise_for_status()
-            root = ET.fromstring(resp.content)
-            for item in root.findall(".//item")[:4]:  # 每个分类最多取4条
-                title = item.findtext("title", default="").strip()
-                link = item.findtext("link", default="").strip()
-                pub_date_raw = item.findtext("pubDate", default="")
-                try:
-                    pub_dt = parsedate_to_datetime(pub_date_raw)
-                    pub_iso = pub_dt.isoformat()
-                except Exception:
-                    pub_iso = None
-                if title:
-                    items.append({
-                        "category": category,
-                        "categoryLabel": label,
-                        "title": title,
-                        "link": link,
-                        "publishedAt": pub_iso,
-                    })
-        except Exception as e:
-            print(f"[警告] 拉取新闻源 {label}({url}) 失败: {e}")
-
-    # 按发布时间倒序排列，最新的在前面
-    items.sort(key=lambda x: x["publishedAt"] or "", reverse=True)
-    return items[:12]  # 总共最多保留12条，避免文件过大
-
-
 def main():
     print("开始抓取数据...")
 
@@ -201,7 +213,22 @@ def main():
     macro = fetch_dxy_vix_oil()
     fred_data = {name: fetch_fred_series(series_id) for name, series_id in FRED_SERIES.items()}
     goldapi_data = fetch_goldapi()
-    news_data = fetch_news()
+
+    # ---- 08关联源：积累历史数据 + 计算真实相关系数 ----
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    gold_price = (gold_silver.get("XAU") or {}).get("price")
+    dxy_val = (macro.get("dxy") or {}).get("value")
+    real_rate_val = (fred_data.get("10y_real_rate") or {}).get("value")
+    vix_val = (macro.get("vix") or {}).get("value")
+    btc_val = (macro.get("btc") or {}).get("value")
+    spx_val = (macro.get("spx") or {}).get("value")
+
+    history = load_history()
+    if gold_price is not None:
+        history = update_history(history, today_str, gold_price, dxy_val, real_rate_val, vix_val, btc_val, spx_val)
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    correlations = compute_correlations(history)
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -210,15 +237,17 @@ def main():
         "dxy": macro.get("dxy"),
         "vix": macro.get("vix"),
         "wti": macro.get("wti"),
+        "btc": macro.get("btc"),
+        "spx": macro.get("spx"),
         "fred": fred_data,
         "goldapi": goldapi_data,
-        "news": news_data,
+        "correlations": correlations,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"完成，已写入 {OUTPUT_FILE}")
+    print(f"完成，已写入 {OUTPUT_FILE}（历史数据已积累 {len(history)} 天，存于 {HISTORY_FILE}）")
     print(json.dumps(output, ensure_ascii=False, indent=2))
 
 
