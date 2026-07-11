@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-10T23:30:15.768022+00:00",
+  "fetchedAt": "2026-07-11T01:02:58.306271+00:00",
   "gold": {
     "price": 4121.399902,
-    "updatedAt": "2026-07-10T23:30:00Z"
+    "updatedAt": "2026-07-11T01:02:31Z"
   },
   "silver": {
     "price": 60.014,
-    "updatedAt": "2026-07-10T23:30:00Z"
+    "updatedAt": "2026-07-11T01:02:30Z"
   },
   "dxy": {
     "value": 100.96,
@@ -20,10 +20,7 @@
     "value": 71.51,
     "changePct": -0.79
   },
-  "btc": {
-    "value": 64154.99,
-    "changePct": 1.52
-  },
+  "btc": null,
   "spx": {
     "value": 7575.39,
     "changePct": 0.42
