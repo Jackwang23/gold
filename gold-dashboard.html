@@ -876,8 +876,9 @@
 
     <div class="subsection">
       <div class="section-title">舆情速览 <span class="more">全部事件 ›</span></div>
-      <div class="sent-legend">● 影响 ・时效 ・信源 —— 三灯常亮代表三项均达标，用于快速判断消息可信度</div>
-      <div class="card">
+      <div class="sent-legend" id="sentLegend">● 影响 ・时效 ・信源 —— 三灯常亮代表三项均达标，用于快速判断消息可信度</div>
+      <div class="card" id="sentCard">
+        <div id="sentList">
         <div class="sent-item">
           <div class="sent-cat cat-geo">地缘</div>
           <div class="sent-body">
@@ -907,6 +908,7 @@
               <span class="sent-time">16:55:12 · 华尔街日报</span>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -1910,6 +1912,7 @@ async function loadLiveData(){
       liveNewsHeadlines = data.news.map(n => (n.time ? n.time + ' ' : '') + n.text);
       bcIndex = 0;
       renderBroadcast();
+      renderSentimentNews(data.news);
     }
 
     // 08关联源：用真实计算的相关系数替换演示数值
@@ -1919,6 +1922,26 @@ async function loadLiveData(){
 
 // ---------- 08关联源：渲染真实计算的相关系数(来自fetch_gold_data.py每日积累计算) ----------
 const corrFactorLabel = { dxy: 'DXY美元', realRate: '实际利率', btc: '比特币', spx: '标普500', vix: 'VIX恐慌指数' };
+// ---------- 02信息源：舆情速览渲染真实快讯 ----------
+// 注意：真实快讯没有"影响/时效/信源"三项人工评级数据，不伪造这个指标，
+// 演示数据里的"三灯"是示意用法，真实新闻这里只展示来源+时间，更诚实。
+function renderSentimentNews(news){
+  const listEl = document.getElementById('sentList');
+  const legendEl = document.getElementById('sentLegend');
+  if(!listEl) return;
+  if(legendEl) legendEl.textContent = '来自华尔街见闻实时快讯（非官方接口）· 按时间倒序';
+  listEl.innerHTML = news.map(n => {
+    const text = (n.text || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const time = n.time || '';
+    return '<div class="sent-item">'
+      + '<div class="sent-cat" style="background:var(--z9-dim); color:var(--z9);">快讯</div>'
+      + '<div class="sent-body">'
+      + '<div class="sent-text">' + text + '</div>'
+      + '<div class="sent-meta"><span class="sent-time">' + time + ' · 华尔街见闻</span></div>'
+      + '</div></div>';
+  }).join('');
+}
+
 function renderCorrelations(corr){
   const accEl = document.getElementById('corrAccumulating');
   const accTextEl = document.getElementById('corrAccumulatingText');
