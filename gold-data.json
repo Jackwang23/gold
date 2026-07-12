@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-12T08:39:06.956799+00:00",
+  "fetchedAt": "2026-07-12T10:15:09.306234+00:00",
   "gold": {
     "price": 4121.399902,
-    "updatedAt": "2026-07-12T08:38:55Z"
+    "updatedAt": "2026-07-12T10:14:55Z"
   },
   "silver": {
     "price": 60.014,
-    "updatedAt": "2026-07-12T08:38:55Z"
+    "updatedAt": "2026-07-12T10:14:55Z"
   },
   "dxy": null,
   "vix": {
@@ -15,8 +15,8 @@
   },
   "wti": null,
   "btc": {
-    "value": 63951.16,
-    "changePct": 0.23
+    "value": 63887.77,
+    "changePct": 0.13
   },
   "spx": {
     "value": 7575.39,
@@ -41,5 +41,55 @@
     "vix": null,
     "btc": null,
     "spx": null
-  }
+  },
+  "news": [
+    {
+      "time": "09:29",
+      "text": "乌克兰武装部队总参谋部12日在社交媒体发文称，当天凌晨，乌军袭击了俄罗斯萨马拉州塞兹兰炼油厂，此外，乌方还袭击了俄方在亚速海水域的10艘油轮和4艘渡轮。（新华社）"
+    },
+    {
+      "time": "09:04",
+      "text": "赛力斯公告，预计2026年半年度实现归属于上市公司股东的净利润为-18.00亿元到-15.00亿元，与上年同期（法定披露数据）相比，将出现亏损。其中，预计赛力斯汽车有限公司（简称“问界汽车”）2026年半年度实现归属于上市公司股东的净利润-"
+    },
+    {
+      "time": "08:58",
+      "text": "总台记者当地时间12日获悉，在伊朗宣布再次关闭霍尔木兹海峡后，该海峡的商业航运流量大幅下降。伊朗方面援引的商业航运追踪数据显示，过去24小时内，仅有11艘商业船舶通过霍尔木兹海峡，包括8艘油轮和3艘货船。（央视新闻）"
+    },
+    {
+      "time": "08:39",
+      "text": "7月11日夜间和12日凌晨，今年第9号台风“巴威”先后在浙江台州玉环市、温州乐清市两次登陆，浙江省多地出现暴风、强降雨等灾害，对当地生产生活造成严重影响。7月12日，国家防灾减灾救灾委员会启动国家四级救灾应急响应。国家发展改革委紧急安排中央"
+    },
+    {
+      "time": "08:18",
+      "text": "近期，受今年第10号台风“美莎克”影响，广西多地发生严重暴雨、洪涝灾害。国家发展改革委在7月6日紧急安排中央预算内投资1亿元基础上，追加安排1亿元，支持广西进一步做好灾区灾后应急恢复，推动尽快恢复正常生产生活秩序。"
+    },
+    {
+      "time": "08:16",
+      "text": "星网宇达公告，截至本公告披露日，公司卫星通信业务2025年度实现营业收入占公司营业总收入的比例为12.33%，且与近期市场关注的长征十号乙运载火箭海上回收技术突破不存在业务关联，公司未参与该项目的研制或配套供应。公司不存在跨界转型、重大产业"
+    },
+    {
+      "time": "07-09 19:00",
+      "text": "[Fed] Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
+    },
+    {
+      "time": "07-08 18:00",
+      "text": "[Fed] Minutes of the Federal Open Market Committee, June 16-17, 2026"
+    },
+    {
+      "time": "07-07 11:00",
+      "text": "[Fed] Bowman, Opening Remarks on Sound Practices for Artificial Intelligence"
+    },
+    {
+      "time": "07-06 15:00",
+      "text": "[Fed] Waller, Two Thoughts on the Transmission of Monetary Policy"
+    },
+    {
+      "time": "06-24 18:00",
+      "text": "[Fed] Cook, Welcome Remarks"
+    },
+    {
+      "time": "06-22 13:00",
+      "text": "[Fed] Waller, Welcoming Remarks on the International Role of the U.S. Dollar"
+    }
+  ]
 }
