@@ -133,6 +133,45 @@ def compute_correlations(history):
     return result
 
 
+def fetch_fed_rss(limit=6):
+    """抓取美联储官方RSS（新闻/讲话），这是政府官网直接提供的标准RSS，
+    稳定性远高于任何逆向接口，几乎不会失效。缺点：内容是英文（美联储官方语言），
+    且更新频率不如综合财经新闻高（一般几天一条），但权威性和稳定性最好。"""
+    import xml.etree.ElementTree as ET
+
+    feeds = [
+        "https://www.federalreserve.gov/feeds/press_monetary.xml",   # 货币政策相关新闻稿
+        "https://www.federalreserve.gov/feeds/speeches_and_testimony.xml",  # 官员讲话/证词
+    ]
+    items = []
+    for url in feeds:
+        try:
+            resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            root = ET.fromstring(resp.content)
+            for item in root.findall(".//item")[:limit]:
+                title = (item.findtext("title") or "").strip()
+                pub_date = (item.findtext("pubDate") or "").strip()
+                if title:
+                    items.append({"title": title, "pubDate": pub_date})
+        except Exception as e:
+            print(f"[警告] 拉取美联储RSS失败 ({url}): {e}")
+    # 按发布时间倒序，取前 limit 条
+    def parse_date(d):
+        try:
+            from email.utils import parsedate_to_datetime
+            return parsedate_to_datetime(d)
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+    items.sort(key=lambda x: parse_date(x["pubDate"]), reverse=True)
+    news = []
+    for it in items[:limit]:
+        dt = parse_date(it["pubDate"])
+        time_str = dt.strftime("%m-%d %H:%M") if dt != datetime.min.replace(tzinfo=timezone.utc) else ""
+        news.append({"time": time_str, "text": "[Fed] " + it["title"]})
+    return news if news else None
+
+
 def fetch_wallstreetcn_news(limit=6):
     """抓取华尔街见闻实时快讯。
     重要说明：华尔街见闻没有官方公开API，这里用的是业内广泛使用的非官方接口
@@ -263,7 +302,11 @@ def main():
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, ensure_ascii=False, indent=2)
     correlations = compute_correlations(history)
-    news = fetch_wallstreetcn_news()
+
+    # 新闻：美联储官方RSS作为可靠主源，华尔街见闻作为非官方补充（能抓到就加进来，抓不到不影响主源）
+    fed_news = fetch_fed_rss() or []
+    wscn_news = fetch_wallstreetcn_news() or []
+    news = (wscn_news + fed_news) or None  # 中文快讯排在前面，最后放不进任何数据时给None
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
