@@ -1477,16 +1477,18 @@ function updateReviewDates(){
 updateReviewDates();
 
 // ---------- 广播模块 ----------
-// 接入华尔街见闻广播API后，将 bcText 替换为接口返回的当日广播标题/摘要字段
+// 默认演示文案；接入 gold-data.json 里的真实华尔街见闻快讯后会自动替换（见 loadLiveData）
 const broadcastHeadlines = [
   "美联储官员Waller：若通胀数据持续降温，7月降息窗口仍然打开",
   "中东局势升温推动避险需求，COMEX黄金期货持仓单周增加1.2万手",
   "上海金较伦敦金溢价扩大至9.4美元/盎司，创近两个月新高"
 ];
+let liveNewsHeadlines = null; // 一旦从 gold-data.json 读到真实快讯，会覆盖这个变量
 let bcIndex = 0;
 function renderBroadcast(){
-  document.getElementById('bcText').textContent = broadcastHeadlines[bcIndex];
-  bcIndex = (bcIndex + 1) % broadcastHeadlines.length;
+  const list = (liveNewsHeadlines && liveNewsHeadlines.length > 0) ? liveNewsHeadlines : broadcastHeadlines;
+  document.getElementById('bcText').textContent = list[bcIndex % list.length];
+  bcIndex = (bcIndex + 1) % list.length;
 }
 renderBroadcast();
 setInterval(renderBroadcast, 16000);
@@ -1901,6 +1903,13 @@ async function loadLiveData(){
     if(data.wti && data.wti.value){
       const el = document.querySelectorAll('.macro-card .macro-value')[2];
       if(el) el.textContent = '$' + data.wti.value.toFixed(2);
+    }
+
+    // 02信息源：用真实华尔街见闻快讯替换演示播报文案(非官方接口,可能没有数据)
+    if(data.news && Array.isArray(data.news) && data.news.length > 0){
+      liveNewsHeadlines = data.news.map(n => (n.time ? n.time + ' ' : '') + n.text);
+      bcIndex = 0;
+      renderBroadcast();
     }
 
     // 08关联源：用真实计算的相关系数替换演示数值
