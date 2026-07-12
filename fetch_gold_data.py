@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-金鉴 · 免费数据源抓取脚本
+贪狼黄金终端 · 免费数据源抓取脚本
 --------------------------------
-从三个完全免费、无需信用卡的数据源拉取数据，写入本地 gold-data.json：
-  1. gold-api.com      -> 现货黄金/白银价格 (XAU/USD, XAG/USD)
-  2. Yahoo Finance      -> DXY美元指数, VIX恐慌指数, WTI原油 (通过 yfinance 库，无需Key)
+从多个数据源拉取数据，写入本地 gold-data.json：
+  1. gold-api.com      -> 现货黄金/白银价格 (XAU/USD, XAG/USD)，免费无需Key
+  2. Yahoo Finance      -> DXY美元指数, VIX恐慌指数, WTI原油, 比特币, 标普500 (通过 yfinance 库，免费无需Key)
   3. FRED               -> 10年期名义/实际利率 (美联储圣路易斯分行，完全免费无限量)
+  4. GoldAPI.io         -> 可选，更丰富的金价数据，需要免费注册的Key(存GitHub Secret)
+  5. 华尔街见闻         -> 可选，实时快讯，非官方接口，随时可能失效，失败自动跳过
 
 用法：
   pip install requests yfinance --break-system-packages
@@ -131,6 +133,38 @@ def compute_correlations(history):
     return result
 
 
+def fetch_wallstreetcn_news(limit=6):
+    """抓取华尔街见闻实时快讯。
+    重要说明：华尔街见闻没有官方公开API，这里用的是业内广泛使用的非官方接口
+    （很多开源项目如RSSHub也是通过这个接口实现的），不保证长期稳定，随时可能失效或改版。
+    个人自用没问题，但不建议依赖它做成对外产品。失败时会优雅跳过，不影响其他数据正常抓取。"""
+    try:
+        resp = requests.get(
+            "https://api-prod.wallstreetcn.com/apiv1/content/lives",
+            params={"channel": "global-channel", "client": "pc", "cursor": 0, "limit": limit},
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Accept": "application/json, text/plain, */*",
+            },
+            timeout=10,
+        )
+        resp.raise_for_status()
+        items = resp.json().get("data", {}).get("items", [])
+        news = []
+        for item in items[:limit]:
+            text = item.get("content_text") or item.get("title") or ""
+            text = text.strip()
+            if not text:
+                continue
+            ts = item.get("display_time")
+            time_str = datetime.fromtimestamp(ts, tz=timezone.utc).astimezone().strftime("%H:%M") if ts else ""
+            news.append({"time": time_str, "text": text[:120]})
+        return news
+    except Exception as e:
+        print(f"[警告] 拉取华尔街见闻快讯失败（非官方接口，可能已变更或限流）: {e}")
+        return None
+
+
 def fetch_gold_silver():
     """从 gold-api.com 拉取现货金价、银价，完全免费不需要 Key"""
     result = {}
@@ -229,6 +263,7 @@ def main():
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, ensure_ascii=False, indent=2)
     correlations = compute_correlations(history)
+    news = fetch_wallstreetcn_news()
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -242,6 +277,7 @@ def main():
         "fred": fred_data,
         "goldapi": goldapi_data,
         "correlations": correlations,
+        "news": news,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
