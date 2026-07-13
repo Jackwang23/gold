@@ -6,7 +6,41 @@
 <title>贪狼黄金终端 · 黄金交易辅助工具</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script>
+// Chart.js 多CDN兜底加载：依次尝试国内可访问的镜像源，前一个加载失败(或超时)自动换下一个，
+// 尽量避免"因为某个CDN在你的网络环境下访问不了，导致图表整个显示不出来"的问题。
+(function(){
+  var sources = [
+    'https://cdn.staticfile.net/chart.js/4.4.4/chart.umd.min.js',   // 国内优化镜像，优先尝试
+    'https://cdn.staticfile.org/chart.js/4.4.4/chart.umd.min.js',   // 同一服务的备用域名
+    'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js'
+  ];
+  var i = 0;
+  function tryLoad(){
+    if(i >= sources.length){
+      console.log('所有Chart.js CDN源均加载失败，图表功能将不可用，但页面其他部分不受影响');
+      return;
+    }
+    var src = sources[i++];
+    var s = document.createElement('script');
+    s.src = src;
+    var timeoutId = setTimeout(function(){
+      // 5秒还没加载完，视为这个源不可用，换下一个
+      s.onerror = s.onload = null;
+      tryLoad();
+    }, 5000);
+    s.onload = function(){
+      clearTimeout(timeoutId);
+      console.log('Chart.js 加载成功：' + src);
+      window.dispatchEvent(new Event('chartjsloaded'));
+    };
+    s.onerror = function(){ clearTimeout(timeoutId); tryLoad(); };
+    document.head.appendChild(s);
+  }
+  tryLoad();
+})();
+</script>
 <style>
   :root{
     --bg:#08080A;
@@ -1581,14 +1615,8 @@ function jumpToCategory(id){
   cat.scrollIntoView({behavior:'smooth', block:'start'});
 }
 
-// ---------- 图表通用配置 ----------
-try{
-  Chart.defaults.font.family = "'IBM Plex Mono', monospace";
-  Chart.defaults.color = '#5B626C';
-}catch(e){
-  console.log('Chart.js未加载，跳过图表默认样式设置，不影响其他功能');
-}
-
+// ---------- 图表初始化：包装成函数，等Chart.js真正加载完成后再执行 ----------
+// （因为上面改成了多CDN依次尝试的异步加载方式，不能再假设脚本执行到这里时Chart.js已经就绪）
 function genSeries(base, n, vol){
   let v = base; const arr=[];
   for(let i=0;i<n;i++){ v += (Math.random()-0.5)*vol; arr.push(v); }
@@ -1604,34 +1632,88 @@ let currentPriceRange = '1W';
 // 会话内真实价格点：每次 fetchLiveGoldPrice() 成功都会往这里追加一个点，
 // 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线。
 let sessionPricePoints = [];
-
 let priceChart = null;
-try{
-  priceChart = new Chart(document.getElementById('priceChart'), {
-    type:'line',
-    data:{
-      labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
-      datasets:[{
-        data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
-        borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
-        backgroundColor:(ctx)=>{
-          const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
-          g.addColorStop(0,'rgba(201,162,76,0.20)');
-          g.addColorStop(1,'rgba(201,162,76,0.0)');
-          return g;
-        }
-      }]
-    },
-    options:{
-      responsive:true, maintainAspectRatio:false,
-      plugins:{legend:{display:false}, tooltip:{enabled:false}},
-      scales:{x:{display:false}, y:{display:false}},
-      elements:{point:{radius:0}}
+
+function spark(id, base, vol, color){
+  const el = document.getElementById(id);
+  if(!el) return;
+  try{
+    new Chart(el, {
+      type:'line',
+      data:{ labels:Array.from({length:14},(_,i)=>i),
+        datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}, tooltip:{enabled:false}},
+        scales:{x:{display:false}, y:{display:false}}
+      }
+    });
+  }catch(e){
+    // 图表库加载失败时静默跳过这个迷你走势图，不影响页面其他部分
+  }
+}
+
+let chartsInitialized = false;
+function initAllCharts(){
+  if(chartsInitialized) return; // 防止多个CDN源都成功时重复初始化
+  if(typeof Chart === 'undefined') return; // Chart.js还没加载好，先不执行
+  chartsInitialized = true;
+
+  try{
+    Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+    Chart.defaults.color = '#5B626C';
+  }catch(e){
+    console.log('设置Chart.js默认样式失败，不影响其他功能');
+  }
+
+  try{
+    priceChart = new Chart(document.getElementById('priceChart'), {
+      type:'line',
+      data:{
+        labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
+        datasets:[{
+          data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
+          borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
+          backgroundColor:(ctx)=>{
+            const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
+            g.addColorStop(0,'rgba(201,162,76,0.20)');
+            g.addColorStop(1,'rgba(201,162,76,0.0)');
+            return g;
+          }
+        }]
+      },
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}, tooltip:{enabled:false}},
+        scales:{x:{display:false}, y:{display:false}},
+        elements:{point:{radius:0}}
+      }
+    });
+    // 图表初始化成功后，如果金价已经拉到了真实数据，用真实价格重画一次(而不是演示基准价)
+    if(typeof CURRENT_GOLD_PRICE !== 'undefined' && typeof setPriceRange === 'function'){
+      setPriceRange(document.querySelector('.range-tab.active'), currentPriceRange);
     }
-  });
-}catch(e){
-  // 图表库(CDN)加载失败时不影响金价/持仓/通知等核心功能，只是没有走势图而已
-  console.log('图表初始化失败（可能是Chart.js加载失败），不影响其他功能：', e.message);
+  }catch(e){
+    console.log('主图表初始化失败（可能是Chart.js加载失败），不影响其他功能：', e.message);
+  }
+
+  spark('sparkDxy', 100.78, 0.25, '#C64F4F');
+  spark('sparkReal', 2.25, 0.03, '#C64F4F');
+  spark('sparkOil', 69.99, 0.7, '#22A876');
+  spark('sparkVix', 15.8, 0.9, '#22A876');
+  spark('sparkSge', 9.0, 0.6, '#22A876');
+  spark('sparkGetf', 3120, 8, '#22A876');
+  spark('sparkTrend', 64, 6, '#469689');
+  spark('sparkSocial', 2.1, 0.15, '#469689');
+}
+
+// 如果Chart.js已经加载完成(比如缓存很快)，立刻初始化；否则等CDN加载器广播就绪事件
+if(typeof Chart !== 'undefined'){
+  initAllCharts();
+} else {
+  window.addEventListener('chartjsloaded', initAllCharts);
+  // 兜底：8秒后如果还没加载完，就不再等了(所有CDN源都试过一轮大概需要这么久)
+  setTimeout(initAllCharts, 8500);
 }
 
 function setPriceRange(el, range){
@@ -1658,32 +1740,6 @@ function setPriceRange(el, range){
   if(hintEl) hintEl.textContent = '当前：' + range + '为模拟历史曲线，锚定在真实现价上';
 }
 
-function spark(id, base, vol, color){
-  const el = document.getElementById(id);
-  if(!el) return;
-  try{
-    new Chart(el, {
-      type:'line',
-      data:{ labels:Array.from({length:14},(_,i)=>i),
-        datasets:[{ data:genSeries(base,14,vol), borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.4 }]},
-      options:{
-        responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}, tooltip:{enabled:false}},
-        scales:{x:{display:false}, y:{display:false}}
-      }
-    });
-  }catch(e){
-    // 图表库加载失败时静默跳过这个迷你走势图，不影响页面其他部分
-  }
-}
-spark('sparkDxy', 100.78, 0.25, '#C64F4F');
-spark('sparkReal', 2.25, 0.03, '#C64F4F');
-spark('sparkOil', 69.99, 0.7, '#22A876');
-spark('sparkVix', 15.8, 0.9, '#22A876');
-spark('sparkSge', 9.0, 0.6, '#22A876');
-spark('sparkGetf', 3120, 8, '#22A876');
-spark('sparkTrend', 64, 6, '#469689');
-spark('sparkSocial', 2.1, 0.15, '#469689');
 
 // ---------- 风险交易日评级 ----------
 function computeRiskDay(volScore, trendScore, eventScore){
