@@ -1904,8 +1904,13 @@ function ensureNotifyPermission(){
 }
 function pushNotify(title, body){
   if(!('Notification' in window)) return;
-  if(Notification.permission === 'granted'){
+  if(Notification.permission !== 'granted') return;
+  try{
     new Notification(title, { body, icon: undefined });
+  }catch(e){
+    // 部分浏览器(尤其安卓Chrome某些版本)要求走Service Worker才能发通知，
+    // 直接 new Notification() 会报错。这里安静跳过，不能让通知失败影响其他功能的状态提示。
+    console.log('系统通知发送失败（该浏览器可能要求走Service Worker），不影响其他功能：', e.message);
   }
 }
 
