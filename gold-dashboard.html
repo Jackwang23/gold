@@ -774,7 +774,7 @@
           </div>
         </div>
         <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
-        <div class="chart-hint-row"><span class="chart-key-hint" id="chartKeyHint">当前：1W/1M为模拟历史曲线，锚定在真实现价上</span></div>
+        
         <div class="price-meta-row">
           <div class="price-meta">COMEX期货<b class="mono">4,173.60</b></div>
           <div class="price-meta">金银比价<b class="mono">109.4</b></div>
@@ -792,22 +792,22 @@
         </div>
         <div class="brooks-row">
           <div class="brooks-tag">棒型</div>
-          <div class="brooks-body">最近3根H1棒中有2根为<b>多头趋势棒</b>（实体占比&gt;65%、上下影线较短），仅1根收出带长上影线的转折棒，未能改变棒型序列的多头主导性质</div>
+          <div class="brooks-body" id="brooksBarType">最近3根H1棒中有2根为<b>多头趋势棒</b>（实体占比&gt;65%、上下影线较短），仅1根收出带长上影线的转折棒，未能改变棒型序列的多头主导性质</div>
         </div>
         <div class="brooks-row">
           <div class="brooks-tag">区间/趋势</div>
-          <div class="brooks-body">日内结构已由昨日的<b>窄幅交易区间</b>转为<b>通道式上行</b>，价格连续站稳20周期均线上方，符合"区间突破后进入弱趋势"的典型演化路径</div>
+          <div class="brooks-body" id="brooksStructure">日内结构已由昨日的<b>窄幅交易区间</b>转为<b>通道式上行</b>，价格连续站稳20周期均线上方，符合"区间突破后进入弱趋势"的典型演化路径</div>
         </div>
         <div class="brooks-row">
           <div class="brooks-tag">信号棒</div>
-          <div class="brooks-body">3,398一带出现<b>看涨吞没信号棒</b>，收盘价接近最高点（关门量），随后一根跟随棒确认，是较高质量的做多信号棒，但尾盘缩量需留意跟随力度是否持续</div>
+          <div class="brooks-body" id="brooksSignal">3,398一带出现<b>看涨吞没信号棒</b>，收盘价接近最高点（关门量），随后一根跟随棒确认，是较高质量的做多信号棒，但尾盘缩量需留意跟随力度是否持续</div>
         </div>
         <div class="brooks-row">
           <div class="brooks-tag">测量目标</div>
-          <div class="brooks-body">以本轮突破段的测量移动（Measured Move）估算，上方目标位约<b>3,432–3,438</b>；若未能有效突破前高构成的次高点，需警惕<b>双顶/失败突破</b>风险</div>
+          <div class="brooks-body" id="brooksTarget">以本轮突破段的测量移动（Measured Move）估算，上方目标位约<b>3,432–3,438</b>；若未能有效突破前高构成的次高点，需警惕<b>双顶/失败突破</b>风险</div>
         </div>
-        <div class="brooks-summary">读盘结论：当前 <b>Always-In 方向为多头</b>，但趋势强度仅属"弱趋势通道"而非"强趋势日"，属于可参与但需控制仓位、在回调至前突破点附近寻找二次入场（Second Entry）机会的行情，而非追高单边加仓的行情。</div>
-        <div class="brooks-disclaimer">以上为基于公开价格行为方法论对当前K线结构的程序化解读，不代表Al Brooks本人观点，仅作技术面参考，请结合04决策源综合判断。</div>
+        <div class="brooks-summary" id="brooksSummary">读盘结论：当前 <b>Always-In 方向为多头</b>，但趋势强度仅属"弱趋势通道"而非"强趋势日"，属于可参与但需控制仓位、在回调至前突破点附近寻找二次入场（Second Entry）机会的行情，而非追高单边加仓的行情。</div>
+        <div class="brooks-disclaimer" id="brooksDisclaimer">以上为基于公开价格行为方法论对当前K线结构的程序化解读，不代表Al Brooks本人观点，仅作技术面参考，请结合04决策源综合判断。</div>
       </div>
     </div>
 
@@ -1458,6 +1458,7 @@ window.addEventListener('error', function(event){
 // ---------- 全局状态变量：统一放在脚本最开头声明，避免任何函数在其定义前被调用时报"暂时性死区"错误 ----------
 let notifyPermissionAsked = false;
 let lastNotifiedRiskType = null;
+let macroDataLoaded = false; // gold-data.json(DXY/VIX/原油等)是否已成功加载过，用于避免状态栏文字互相覆盖
 
 // ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
 const dailyQuotes = [
@@ -1877,7 +1878,14 @@ async function fetchLiveGoldPrice(){
     if(typeof recalcOptions === 'function') recalcOptions();
 
     const statusBar = document.querySelector('.data-status-bar span:last-child');
-    if(statusBar) statusBar.innerHTML = '<b>金价：实时</b>（gold-api.com，每15秒刷新） · 其余宏观指标仍为演示数据，运行 fetch_gold_data.py 可一并同步';
+    if(statusBar){
+      // 如果宏观数据(gold-data.json)已经成功加载过，就不要用"仍为演示数据"这句话覆盖掉正确状态
+      if(typeof macroDataLoaded !== 'undefined' && macroDataLoaded){
+        statusBar.innerHTML = '<b>全部实时</b>（金价来自gold-api.com，DXY/VIX/原油等来自本地 gold-data.json）· 金价每15秒刷新';
+      } else {
+        statusBar.innerHTML = '<b>金价：实时</b>（gold-api.com，每15秒刷新） · 其余宏观指标仍为演示数据，运行 fetch_gold_data.py 可一并同步';
+      }
+    }
     const dot = document.querySelector('.data-status-bar .dot');
     if(dot) dot.style.background = 'var(--rise)';
   }catch(e){
@@ -1968,17 +1976,31 @@ async function loadLiveData(){
       if(el) el.textContent = '$' + data.wti.value.toFixed(2);
     }
 
-    // 02信息源：用真实华尔街见闻快讯替换演示播报文案(非官方接口,可能没有数据)
+    // 02信息源：用真实新闻替换演示播报文案；抓取失败时把具体原因直接显示出来，不用再翻Actions日志
     if(data.news && Array.isArray(data.news) && data.news.length > 0){
       liveNewsHeadlines = data.news.map(n => (n.time ? n.time + ' ' : '') + n.text);
       bcIndex = 0;
       renderBroadcast();
       renderSentimentNews(data.news);
+    } else if(data.newsDebug){
+      const parts = [];
+      if(data.newsDebug.fedError) parts.push('Fed RSS: ' + data.newsDebug.fedError);
+      if(data.newsDebug.wscnError) parts.push('华尔街见闻: ' + data.newsDebug.wscnError);
+      const debugMsg = parts.join(' | ');
+      const bcEl = document.getElementById('bcText');
+      if(bcEl) bcEl.textContent = '新闻源抓取失败: ' + debugMsg;
+      const legendEl = document.getElementById('sentLegend');
+      if(legendEl) legendEl.textContent = '⚠ 新闻抓取失败，具体原因: ' + debugMsg;
     }
 
     // 08关联源：用真实计算的相关系数替换演示数值
     if(data.correlations){
       renderCorrelations(data.correlations);
+    }
+
+    // 01行情源：用真实H1棒线计算结果替换Al Brooks模板文案
+    if(data.priceAction){
+      renderPriceAction(data.priceAction);
     }
 
 // ---------- 08关联源：渲染真实计算的相关系数(来自fetch_gold_data.py每日积累计算) ----------
@@ -2001,6 +2023,52 @@ function renderSentimentNews(news){
       + '<div class="sent-meta"><span class="sent-time">' + time + ' · 华尔街见闻</span></div>'
       + '</div></div>';
   }).join('');
+}
+
+// ---------- 01行情源：渲染真实计算的Al Brooks价格行为分析(来自fetch_gold_data.py的H1棒线计算) ----------
+function renderPriceAction(pa){
+  const badge = document.getElementById('alwaysInBadge');
+  const isLong = pa.alwaysIn === 'long';
+  if(badge){
+    badge.textContent = 'Always-In · ' + (isLong ? '多头' : '空头');
+    badge.className = 'brooks-alwaysin ' + (isLong ? 'long' : 'short');
+  }
+
+  const barTypeEl = document.getElementById('brooksBarType');
+  if(barTypeEl){
+    const bullN = pa.bullTrendBarsInLast3, bearN = pa.bearTrendBarsInLast3;
+    const dominant = bullN > bearN ? '多头趋势棒' : (bearN > bullN ? '空头趋势棒' : '方向不明的转折棒');
+    const dominantCount = Math.max(bullN, bearN);
+    barTypeEl.innerHTML = '最近3根H1棒中有' + dominantCount + '根为<b>' + dominant + '</b>（实体占比&gt;65%），' + (3-dominantCount) + '根为转折棒，' + (dominantCount >= 2 ? '棒型序列方向较为一致' : '棒型序列方向不够统一，信号强度打折扣');
+  }
+
+  const structureEl = document.getElementById('brooksStructure');
+  if(structureEl){
+    const structureText = pa.isTrendStructure ? '通道式趋势' : '窄幅交易区间';
+    structureEl.innerHTML = '最近20根H1棒的波幅' + (pa.isTrendStructure ? '较前20根明显放大' : '与前20根相近') + '，当前结构判断为<b>' + structureText + '</b>，现价 ' + pa.currentPrice + ' ' + (pa.currentPrice > pa.sma20 ? '高于' : '低于') + ' 20周期均线(' + pa.sma20 + ')';
+  }
+
+  const signalEl = document.getElementById('brooksSignal');
+  if(signalEl){
+    const signalDir = pa.signalBarBull ? '看涨' : '看跌';
+    const signalMatchText = (pa.signalBarBull === isLong) ? '与当前Always-In方向一致' : '与当前Always-In方向不完全一致，需留意信号有效性';
+    signalEl.innerHTML = pa.signalBarPrice + ' 一带出现<b>' + signalDir + '信号棒</b>（近5根中实体占比与收盘位置综合最优的一根），' + signalMatchText;
+  }
+
+  const targetEl = document.getElementById('brooksTarget');
+  if(targetEl){
+    targetEl.innerHTML = '以最近20根波段的测量移动（Measured Move）估算，' + (isLong ? '上方' : '下方') + '目标位约<b>' + pa.measuredMoveLow + '–' + pa.measuredMoveHigh + '</b>；若未能延续现有结构，需警惕方向反转风险';
+  }
+
+  const summaryEl = document.getElementById('brooksSummary');
+  if(summaryEl){
+    summaryEl.innerHTML = '读盘结论：当前 <b>Always-In 方向为' + (isLong?'多头':'空头') + '</b>，结构判断为"' + (pa.isTrendStructure?'趋势':'区间') + '"，' + (pa.isTrendStructure ? '可参与但需控制仓位，在回调至前结构点附近寻找二次入场机会' : '建议等待区间突破确认后再考虑方向性操作，不宜在区间内追单边') + '。';
+  }
+
+  const disclaimerEl = document.getElementById('brooksDisclaimer');
+  if(disclaimerEl){
+    disclaimerEl.textContent = '以上基于最近48小时真实H1棒线数据程序化计算，不代表Al Brooks本人观点，仅作技术面参考，请结合04决策源综合判断。';
+  }
 }
 
 function renderCorrelations(corr){
@@ -2047,6 +2115,7 @@ function renderCorrelations(corr){
 }
 
 // 更新数据源状态条：金价+宏观指标均已实时化
+    macroDataLoaded = true;
     const statusBar = document.querySelector('.data-status-bar span:last-child');
     if(statusBar){
       const fetchedTime = new Date(data.fetchedAt).toLocaleString('zh-CN', {hour12:false});
