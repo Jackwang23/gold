@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-14T06:35:18.772779+00:00",
+  "fetchedAt": "2026-07-14T08:55:29.938595+00:00",
   "gold": {
-    "price": 4026.0,
-    "updatedAt": "2026-07-14T06:35:02Z"
+    "price": 4019.699951,
+    "updatedAt": "2026-07-14T08:55:03Z"
   },
   "silver": {
-    "price": 58.276001,
-    "updatedAt": "2026-07-14T06:35:02Z"
+    "price": 58.162998,
+    "updatedAt": "2026-07-14T08:55:02Z"
   },
   "dxy": {
-    "value": 101.22,
-    "changePct": -0.06
+    "value": 101.06,
+    "changePct": -0.22
   },
   "vix": {
-    "value": 17.16,
-    "changePct": 14.17
+    "value": 17.28,
+    "changePct": 0.7
   },
   "wti": {
-    "value": 79.87,
-    "changePct": 2.21
+    "value": 80.62,
+    "changePct": 3.17
   },
   "btc": {
-    "value": 62679.19,
-    "changePct": 0.71
+    "value": 62626.51,
+    "changePct": 0.62
   },
   "spx": {
     "value": 7515.34,
@@ -50,6 +50,30 @@
   },
   "news": [
     {
+      "time": "08:52",
+      "text": "昭衍新药公告，预计2026年1-6月实现营业收入约6.69亿元到7.39亿元，同比增加约0%到10.5%；预计归属于上市公司股东的净利润约6亿元到9亿元，同比增加约884.9%到1,377.4%。报告期内，生物资产市场价格上涨叠加自身自然生"
+    },
+    {
+      "time": "08:50",
+      "text": "三星电子：目前未考虑发行美国存托凭证的可能性。"
+    },
+    {
+      "time": "08:50",
+      "text": "完美世界公告，预计2026年1月1日至2026年6月30日归属于上市公司股东的净亏损8000万元–1.2亿元，上年同期盈利5.03亿元。扣除非经常性损益后的净亏损1.8亿元–2.2亿元，上年同期盈利3.18亿元。"
+    },
+    {
+      "time": "08:49",
+      "text": "英国央行行长贝利：金融稳定风险已上升。\n精炼产品价格回落幅度没有那么大。"
+    },
+    {
+      "time": "08:43",
+      "text": "通威股份公告，预计2026年半年度归属于母公司所有者的净利润为亏损48亿元至54亿元，上年同期亏损49.55亿元。报告期内，光伏行业产业链各环节开工率进一步降低，部分竞争力不足的产能正逐步退出，但行业整体供需失衡格局尚未根本性改善，各环节产"
+    },
+    {
+      "time": "08:42",
+      "text": "赤峰黄金公告，预计2026年上半年净利润为17亿元到17.8亿元，同比增长54%到61%。公司2026年半年度实现归属于上市公司股东的净利润、归属于上市公司股东的扣除非经常性损益的净利润同比均大幅增长，主要受益于黄金价格较上年同期大幅上涨，"
+    },
+    {
       "time": "07-13 16:30",
       "text": "[Fed] Waller, Monetary Policy at a Crossroads"
     },
@@ -74,20 +98,17 @@
       "text": "[Fed] Waller, Two Thoughts on the Transmission of Monetary Policy"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fce4114a1d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
-    "isTrendStructure": true,
+    "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4037.8,
-    "measuredMoveLow": 4080.3,
-    "measuredMoveHigh": 4127.6,
-    "sma20": 4028.4,
-    "currentPrice": 4033.0
+    "measuredMoveLow": 4068.85,
+    "measuredMoveHigh": 4111.4,
+    "sma20": 4021.67,
+    "currentPrice": 4026.3
   }
 }
