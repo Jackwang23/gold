@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-14T17:23:18.280499+00:00",
+  "fetchedAt": "2026-07-14T18:40:04.084593+00:00",
   "gold": {
-    "price": 4060.100098,
-    "updatedAt": "2026-07-14T17:23:04Z"
+    "price": 4054.199951,
+    "updatedAt": "2026-07-14T18:39:34Z"
   },
   "silver": {
-    "price": 58.805,
-    "updatedAt": "2026-07-14T17:23:03Z"
+    "price": 58.751999,
+    "updatedAt": "2026-07-14T18:39:34Z"
   },
   "dxy": {
-    "value": 100.92,
-    "changePct": -0.36
+    "value": 100.94,
+    "changePct": -0.34
   },
   "vix": {
-    "value": 16.46,
-    "changePct": -4.08
+    "value": 16.37,
+    "changePct": -4.6
   },
   "wti": {
-    "value": 78.87,
-    "changePct": 0.93
+    "value": 79.4,
+    "changePct": 1.61
   },
   "btc": {
-    "value": 64380.19,
-    "changePct": 3.44
+    "value": 64601.29,
+    "changePct": 3.8
   },
   "spx": {
-    "value": 7550.87,
-    "changePct": 0.47
+    "value": 7550.09,
+    "changePct": 0.46
   },
   "fred": {
     "10y_treasury": {
@@ -50,28 +50,32 @@
   },
   "news": [
     {
-      "time": "17:22",
-      "text": "Lucid集团股票恢复交易，跌幅扩大至39%。"
+      "time": "18:31",
+      "text": "WTI 8月原油期货收涨1.20美元，涨幅1.54%，报79.34美元/桶。\n中东Abu Dhabi Murban原油期货涨4.31%，报81.51美元/桶，北京时间17:02曾达到83.93美元。\nNYMEX 8月天然气期货收报2.904"
     },
     {
-      "time": "17:20",
-      "text": "俄罗斯亿万富翁德米特里·雷博洛夫列夫（Dmitry Rybolovlev）的家族信托在开曼群岛赢得了一场诉讼，成功罢免了一家规模达25亿美元的破产风投基金的管理人。这为双方围绕雷博洛夫列夫出资建立的生物科技企业的未来走向，埋下了又一场法庭争"
+      "time": "18:30",
+      "text": "上期所原油期货2608合约夜盘收涨2.82%，报511.30元人民币/桶。\n沪金夜盘收涨0.89%，沪银收涨1.98%。"
     },
     {
-      "time": "17:18",
-      "text": "在摩根大通高层，天气隐喻已经过时，地质学隐喻开始流行。就在摩根大通再次公布创纪录利润之际，首席执行官杰米·戴蒙周二在声明中表示：“包括地缘政治紧张局势和战争、顽固通胀、全球财政赤字高企以及资产价格处于高位在内的多重风险，正如地壳板块一样在表"
+      "time": "18:30",
+      "text": "纽约州成为全美首个对新建超大规模数据中心实施暂停令的州，民主党籍州长凯西·霍楚尔（Kathy Hochul）宣布暂停发放新建数据中心的环境许可证。\n霍楚尔周二宣布，将暂停发放新建数据中心的环境许可证，暂停期最长可达一年。这些设施的基础建设需"
     },
     {
-      "time": "17:16",
-      "text": "周二（7月14日），美联储隔夜逆回购协议（RRP）使用规模为2.78亿美元（交易对手4家），上个交易日报7.95亿美元。"
+      "time": "18:24",
+      "text": "摩根大通表示，由于与加密交易所Hyperliquid达成新合作，Circle和Coinbase的稳定币业务正面临日益增长的压力。\n该行下调了对这两家公司的业绩预期，称修改后的协议改变了Circle的USDC产生的收入在分发合作伙伴之间的分配"
     },
     {
-      "time": "17:15",
-      "text": "巴林：防空警报已经拉响。"
+      "time": "18:11",
+      "text": "阿曼海事安全中心：油轮“Stolt Magnesium”号在阿尔沙尔基亚（Al Sharqiyah）附近遭到袭击。\n该事件导致船只机舱起火。"
     },
     {
-      "time": "17:13",
-      "text": "贸易商托克（Trafigura）向伦敦金属交易所（LME）仓库进行了创纪录的铅交割，导致价格大幅下挫，并将库存推高至14年来的最高水平。据知情人士透露，该交易商在新加坡进行了大规模交割，使得该交易所追踪的全球库存激增了80,700吨。数据显"
+      "time": "18:05",
+      "text": "Lucid集团：（与破产、私有化想法有关的）相关传言完全不实。\n我司并没有针对相关选项组建董事会的特别委员会。\nAlixPartners并没有建议我司申请破产，对方正协助改善执行情况。（彭博）"
+    },
+    {
+      "time": "07-14 18:00",
+      "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     },
     {
       "time": "07-14 16:40",
@@ -92,23 +96,19 @@
     {
       "time": "07-09 19:00",
       "text": "[Fed] Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
-    },
-    {
-      "time": "07-08 18:00",
-      "text": "[Fed] Minutes of the Federal Open Market Committee, June 16-17, 2026"
     }
   ],
   "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4073.1,
-    "measuredMoveLow": 4125.85,
-    "measuredMoveHigh": 4186.9,
-    "sma20": 4039.63,
-    "currentPrice": 4064.8
+    "signalBarPrice": 4065.0,
+    "measuredMoveLow": 4126.05,
+    "measuredMoveHigh": 4187.1,
+    "sma20": 4042.78,
+    "currentPrice": 4065.0
   }
 }
