@@ -1,32 +1,29 @@
 {
-  "fetchedAt": "2026-07-14T18:40:04.084593+00:00",
-  "gold": {
-    "price": 4054.199951,
-    "updatedAt": "2026-07-14T18:39:34Z"
-  },
+  "fetchedAt": "2026-07-14T19:56:30.881041+00:00",
+  "gold": null,
   "silver": {
-    "price": 58.751999,
-    "updatedAt": "2026-07-14T18:39:34Z"
+    "price": 58.93,
+    "updatedAt": "2026-07-14T19:56:04Z"
   },
   "dxy": {
-    "value": 100.94,
-    "changePct": -0.34
+    "value": 100.91,
+    "changePct": -0.37
   },
   "vix": {
-    "value": 16.37,
-    "changePct": -4.6
+    "value": 16.47,
+    "changePct": -4.02
   },
   "wti": {
-    "value": 79.4,
-    "changePct": 1.61
+    "value": 79.73,
+    "changePct": 2.03
   },
   "btc": {
-    "value": 64601.29,
-    "changePct": 3.8
+    "value": 64587.53,
+    "changePct": 3.77
   },
   "spx": {
-    "value": 7550.09,
-    "changePct": 0.46
+    "value": 7546.99,
+    "changePct": 0.42
   },
   "fred": {
     "10y_treasury": {
@@ -40,7 +37,7 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 1,
+    "dataPoints": 0,
     "minRequired": 10,
     "dxy": null,
     "realRate": null,
@@ -50,28 +47,32 @@
   },
   "news": [
     {
-      "time": "18:31",
-      "text": "WTI 8月原油期货收涨1.20美元，涨幅1.54%，报79.34美元/桶。\n中东Abu Dhabi Murban原油期货涨4.31%，报81.51美元/桶，北京时间17:02曾达到83.93美元。\nNYMEX 8月天然气期货收报2.904"
+      "time": "19:56",
+      "text": "美国制裁伊朗央行。"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2608合约夜盘收涨2.82%，报511.30元人民币/桶。\n沪金夜盘收涨0.89%，沪银收涨1.98%。"
+      "time": "19:52",
+      "text": "周二（7月14日）美股尾盘，彭博电动汽车价格回报指数涨0.83%，报3394.46点，亚太时段呈现出V形走势，北京时间13:30转涨之后几乎一直维持上涨状态。\n成分股中，港股蔚来集团收涨8.66%领跑、小鹏集团涨3.05%、广州汽车集团涨2"
     },
     {
-      "time": "18:30",
-      "text": "纽约州成为全美首个对新建超大规模数据中心实施暂停令的州，民主党籍州长凯西·霍楚尔（Kathy Hochul）宣布暂停发放新建数据中心的环境许可证。\n霍楚尔周二宣布，将暂停发放新建数据中心的环境许可证，暂停期最长可达一年。这些设施的基础建设需"
+      "time": "19:42",
+      "text": "周二（7月14日）纽约尾盘，欧元兑美元涨0.36%，报1.1423，北京时间20:30发布美国CPI通胀报告时从1.1410附近拉升至1.1462刷新日高。\n英镑兑美元涨0.27%，报1.3385，美元兑瑞郎跌0.66%，报0.8093。\n"
     },
     {
-      "time": "18:24",
-      "text": "摩根大通表示，由于与加密交易所Hyperliquid达成新合作，Circle和Coinbase的稳定币业务正面临日益增长的压力。\n该行下调了对这两家公司的业绩预期，称修改后的协议改变了Circle的USDC产生的收入在分发合作伙伴之间的分配"
+      "time": "19:40",
+      "text": "据新华社报道，美军中央司令部14日在社交媒体发文说，其部队于美东时间当天15时对伊朗发动新一轮打击。此次打击正值美军准备恢复对伊朗实施海上封锁之际。封锁将于美国东部时间当天16时生效。"
     },
     {
-      "time": "18:11",
-      "text": "阿曼海事安全中心：油轮“Stolt Magnesium”号在阿尔沙尔基亚（Al Sharqiyah）附近遭到袭击。\n该事件导致船只机舱起火。"
+      "time": "19:35",
+      "text": "OpenAI置评苹果公司发起的窃密诉讼：对原告的任何证据都不知情。\n我们严肃对待苹果的指控。"
     },
     {
-      "time": "18:05",
-      "text": "Lucid集团：（与破产、私有化想法有关的）相关传言完全不实。\n我司并没有针对相关选项组建董事会的特别委员会。\nAlixPartners并没有建议我司申请破产，对方正协助改善执行情况。（彭博）"
+      "time": "19:30",
+      "text": "美军：今天美东时间15:00开始再次袭击伊朗。"
+    },
+    {
+      "time": "07-14 18:55",
+      "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     },
     {
       "time": "07-14 18:00",
@@ -92,23 +93,19 @@
     {
       "time": "07-13 09:25",
       "text": "[Fed] Bowman, Modernizing Financial Regulation"
-    },
-    {
-      "time": "07-09 19:00",
-      "text": "[Fed] Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy"
     }
   ],
   "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4065.0,
-    "measuredMoveLow": 4126.05,
-    "measuredMoveHigh": 4187.1,
-    "sma20": 4042.78,
-    "currentPrice": 4065.0
+    "signalBarPrice": 4073.1,
+    "measuredMoveLow": 4121.85,
+    "measuredMoveHigh": 4182.9,
+    "sma20": 4045.21,
+    "currentPrice": 4060.8
   }
 }
