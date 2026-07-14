@@ -1,26 +1,29 @@
 {
-  "fetchedAt": "2026-07-14T04:17:59.390072+00:00",
+  "fetchedAt": "2026-07-14T06:35:18.772779+00:00",
   "gold": {
-    "price": 4016.899902,
-    "updatedAt": "2026-07-14T04:17:32Z"
+    "price": 4026.0,
+    "updatedAt": "2026-07-14T06:35:02Z"
   },
   "silver": {
-    "price": 57.674999,
-    "updatedAt": "2026-07-14T04:17:31Z"
+    "price": 58.276001,
+    "updatedAt": "2026-07-14T06:35:02Z"
   },
   "dxy": {
-    "value": 101.18,
-    "changePct": -0.1
+    "value": 101.22,
+    "changePct": -0.06
   },
   "vix": {
     "value": 17.16,
     "changePct": 14.17
   },
   "wti": {
-    "value": 79.67,
-    "changePct": 1.96
+    "value": 79.87,
+    "changePct": 2.21
   },
-  "btc": null,
+  "btc": {
+    "value": 62679.19,
+    "changePct": 0.71
+  },
   "spx": {
     "value": 7515.34,
     "changePct": -0.79
@@ -47,30 +50,6 @@
   },
   "news": [
     {
-      "time": "04:01",
-      "text": "韩元兑美元涨幅扩大至0.7%，触及两个月来最高水平。"
-    },
-    {
-      "time": "03:58",
-      "text": "伊朗伊斯兰革命卫队14日在社交媒体上发表声明说，革命卫队海军和航空航天部队用导弹和无人机攻击了位于巴林的美军第五舰队，击中该舰队燃料库，成功击中并摧毁雷达系统以及“爱国者”防空系统。声明说，美军第五舰队的无人艇控制与监控中心也被彻底摧毁。伊"
-    },
-    {
-      "time": "03:51",
-      "text": "QuestMobile发布2026年AI应用市场发展半年报。数据显示，截止到2026年5月，AI原生APP、AI应用插件、终端厂商AI应用、PC网页端AI应用、PC客户端AI应用的月活分别为4.99亿、6.44亿、7.55亿、1.72亿、0"
-    },
-    {
-      "time": "03:49",
-      "text": "韩国首尔综指跌幅收窄至不到2%，稍早一度跌超5%。"
-    },
-    {
-      "time": "03:48",
-      "text": "根据Omdia最新研究，2026年第二季度全球智能手机出货量同比下降4%。持续的存储器供应危机扰乱了市场供应，并推高了关键元器件成本，进一步加剧了市场压力。当前市场正呈现明显的两极分化，不同厂商在应对策略上出现显著差异，主要受到战略重点、市"
-    },
-    {
-      "time": "03:47",
-      "text": "近日，市场传闻监管部门拟限制理财资金投资信托公司发行的消费金融ABS产品。就此，记者向多家信托公司及理财公司展开求证。多家信托公司人士表示，目前尚未收到明确监管文件，但普遍感受到业务合规要求正持续收紧。某信托公司高管透露，尽管未有正式信号落"
-    },
-    {
       "time": "07-13 16:30",
       "text": "[Fed] Waller, Monetary Policy at a Crossroads"
     },
@@ -95,17 +74,20 @@
       "text": "[Fed] Waller, Two Thoughts on the Transmission of Monetary Policy"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=6 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fce4114a1d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))"
+  },
   "priceAction": {
-    "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
+    "alwaysIn": "long",
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": true,
-    "signalBarPrice": 4013.9,
-    "measuredMoveLow": 3924.4,
-    "measuredMoveHigh": 3973.75,
-    "sma20": 4034.53,
-    "currentPrice": 4023.1
+    "signalBarPrice": 4037.8,
+    "measuredMoveLow": 4080.3,
+    "measuredMoveHigh": 4127.6,
+    "sma20": 4028.4,
+    "currentPrice": 4033.0
   }
 }
