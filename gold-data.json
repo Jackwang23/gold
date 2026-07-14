@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-14T15:58:08.738139+00:00",
+  "fetchedAt": "2026-07-14T17:23:18.280499+00:00",
   "gold": {
-    "price": 4068.100098,
-    "updatedAt": "2026-07-14T15:57:34Z"
+    "price": 4060.100098,
+    "updatedAt": "2026-07-14T17:23:04Z"
   },
   "silver": {
-    "price": 58.925999,
-    "updatedAt": "2026-07-14T15:58:03Z"
+    "price": 58.805,
+    "updatedAt": "2026-07-14T17:23:03Z"
   },
   "dxy": {
-    "value": 100.82,
-    "changePct": -0.45
+    "value": 100.92,
+    "changePct": -0.36
   },
   "vix": {
-    "value": 16.59,
-    "changePct": -3.32
+    "value": 16.46,
+    "changePct": -4.08
   },
   "wti": {
-    "value": 79.46,
-    "changePct": 1.69
+    "value": 78.87,
+    "changePct": 0.93
   },
   "btc": {
-    "value": 64616.1,
-    "changePct": 3.82
+    "value": 64380.19,
+    "changePct": 3.44
   },
   "spx": {
-    "value": 7534.08,
-    "changePct": 0.25
+    "value": 7550.87,
+    "changePct": 0.47
   },
   "fred": {
     "10y_treasury": {
@@ -50,28 +50,32 @@
   },
   "news": [
     {
-      "time": "15:56",
-      "text": "美联储主席沃什：我希望实施那些能够避免起起落落的货币政策。"
+      "time": "17:22",
+      "text": "Lucid集团股票恢复交易，跌幅扩大至39%。"
     },
     {
-      "time": "15:46",
-      "text": "彭博美元指数跌幅收窄，美联储主席沃什正在讲话。\n美国国债价格回吐涨幅，沃什淡化美国6月CPI通胀数据的意义。"
+      "time": "17:20",
+      "text": "俄罗斯亿万富翁德米特里·雷博洛夫列夫（Dmitry Rybolovlev）的家族信托在开曼群岛赢得了一场诉讼，成功罢免了一家规模达25亿美元的破产风投基金的管理人。这为双方围绕雷博洛夫列夫出资建立的生物科技企业的未来走向，埋下了又一场法庭争"
     },
     {
-      "time": "15:46",
-      "text": "美联储主席沃什：美元互换额度是货币政策独立性的一部分。"
+      "time": "17:18",
+      "text": "在摩根大通高层，天气隐喻已经过时，地质学隐喻开始流行。就在摩根大通再次公布创纪录利润之际，首席执行官杰米·戴蒙周二在声明中表示：“包括地缘政治紧张局势和战争、顽固通胀、全球财政赤字高企以及资产价格处于高位在内的多重风险，正如地壳板块一样在表"
     },
     {
-      "time": "15:43",
-      "text": "美联储主席沃什：今天的（美国CPI通胀）数据出炉后，我可不认为“任务完成”、也不认为“一切都很好”。\n我来这里是为了再次强调美联储2%的通胀目标。"
+      "time": "17:16",
+      "text": "周二（7月14日），美联储隔夜逆回购协议（RRP）使用规模为2.78亿美元（交易对手4家），上个交易日报7.95亿美元。"
     },
     {
-      "time": "15:42",
-      "text": "花旗跌幅扩大至5.5%，该公司正在举行分析师电话会议。\n道指跌0.3%，银行指数涨幅收窄至0.7%。"
+      "time": "17:15",
+      "text": "巴林：防空警报已经拉响。"
     },
     {
-      "time": "15:39",
-      "text": "美联储主席沃什：美联储正争分夺秒，力求在周六前出台《天才法案》（GENIUS Act）的相关规则。"
+      "time": "17:13",
+      "text": "贸易商托克（Trafigura）向伦敦金属交易所（LME）仓库进行了创纪录的铅交割，导致价格大幅下挫，并将库存推高至14年来的最高水平。据知情人士透露，该交易商在新加坡进行了大规模交割，使得该交易所追踪的全球库存激增了80,700吨。数据显"
+    },
+    {
+      "time": "07-14 16:40",
+      "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     },
     {
       "time": "07-14 12:30",
@@ -92,10 +96,6 @@
     {
       "time": "07-08 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, June 16-17, 2026"
-    },
-    {
-      "time": "07-07 11:00",
-      "text": "[Fed] Bowman, Opening Remarks on Sound Practices for Artificial Intelligence"
     }
   ],
   "newsDebug": null,
@@ -103,12 +103,12 @@
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
-    "isTrendStructure": false,
-    "signalBarBull": true,
-    "signalBarPrice": 4038.1,
-    "measuredMoveLow": 4143.05,
-    "measuredMoveHigh": 4204.1,
-    "sma20": 4034.32,
-    "currentPrice": 4082.0
+    "isTrendStructure": true,
+    "signalBarBull": false,
+    "signalBarPrice": 4073.1,
+    "measuredMoveLow": 4125.85,
+    "measuredMoveHigh": 4186.9,
+    "sma20": 4039.63,
+    "currentPrice": 4064.8
   }
 }
