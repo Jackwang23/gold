@@ -770,11 +770,11 @@
             <div class="price-delta up" id="goldDelta">▲ 47.00 (1.14%)</div>
           </div>
           <div class="range-tabs">
-            <div class="range-tab" onclick="setPriceRange(this,'1D')">1D</div><div class="range-tab active" onclick="setPriceRange(this,'1W')">1W</div><div class="range-tab" onclick="setPriceRange(this,'1M')">1M</div>
+            <div class="range-tab" onclick="setPriceRange(this,'1H')">1H</div><div class="range-tab" onclick="setPriceRange(this,'4H')">4H</div><div class="range-tab" onclick="setPriceRange(this,'1D')">1D</div><div class="range-tab active" onclick="setPriceRange(this,'1W')">1W</div><div class="range-tab" onclick="setPriceRange(this,'1M')">1M</div>
           </div>
         </div>
         <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
-        
+        <div class="chart-hint-row"><span class="chart-key-hint" id="chartKeyHint"></span></div>
         <div class="price-meta-row">
           <div class="price-meta">COMEX期货<b class="mono">4,173.60</b></div>
           <div class="price-meta">金银比价<b class="mono">109.4</b></div>
@@ -1443,7 +1443,7 @@
   <div class="quote-attr" id="dailyQuoteAttr"></div>
 </div>
 
-<footer>贪狼黄金终端 · 个人黄金交易辅助工具 · 仅供个人复盘参考，不构成任何投资建议</footer>
+<footer>贪狼黄金终端 · 个人黄金交易辅助工具 · 仅供个人复盘参考，不构成任何投资建议<br><span style="opacity:0.5">build 2026-07-14-candlestick-v1</span></footer>
 
 <script>
 // ---------- 全局错误捕获：任何未被单独处理的JS报错都会直接显示在页面顶部，方便截图诊断 ----------
@@ -1459,6 +1459,7 @@ window.addEventListener('error', function(event){
 let notifyPermissionAsked = false;
 let lastNotifiedRiskType = null;
 let macroDataLoaded = false; // gold-data.json(DXY/VIX/原油等)是否已成功加载过，用于避免状态栏文字互相覆盖
+let CURRENT_GOLD_PRICE = 4170.30; // 演示初始值，会被真实金价覆盖
 
 // ---------- 每日一言（金融/心理学/哲学，按日期确定性轮换）----------
 const dailyQuotes = [
@@ -1616,24 +1617,123 @@ function jumpToCategory(id){
   cat.scrollIntoView({behavior:'smooth', block:'start'});
 }
 
-// ---------- 图表初始化：包装成函数，等Chart.js真正加载完成后再执行 ----------
-// （因为上面改成了多CDN依次尝试的异步加载方式，不能再假设脚本执行到这里时Chart.js已经就绪）
+// ---------- 主价格图表：改用原生Canvas手写蜡烛图，不依赖任何图表库/CDN，彻底避免"库加载失败"的问题 ----------
 function genSeries(base, n, vol){
   let v = base; const arr=[];
   for(let i=0;i<n;i++){ v += (Math.random()-0.5)*vol; arr.push(v); }
   return arr;
 }
 
+// 生成一组模拟K线(开高低收)，锚定在真实现价上，仅用于1D/1W/1M这几个暂时没有真实K线数据源的周期
+function genCandles(base, n, vol){
+  const candles = [];
+  let prevClose = base;
+  for(let i=0;i<n;i++){
+    const open = prevClose;
+    const close = open + (Math.random()-0.5)*vol;
+    const high = Math.max(open,close) + Math.random()*vol*0.35;
+    const low = Math.min(open,close) - Math.random()*vol*0.35;
+    candles.push({open, high, low, close});
+    prevClose = close;
+  }
+  return candles;
+}
+
 const priceRangeConfig = {
+  '1H': {n:24, vol:2.5},
+  '4H': {n:30, vol:5},
   '1D': {n:24, vol:6},
   '1W': {n:42, vol:11},
   '1M': {n:30, vol:17}
 };
 let currentPriceRange = '1W';
 // 会话内真实价格点：每次 fetchLiveGoldPrice() 成功都会往这里追加一个点，
-// 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线。
+// 用来在 1D 视图画一条"真实但只覆盖本次打开页面时长"的曲线（转换成极窄实体的蜡烛显示）。
 let sessionPricePoints = [];
-let priceChart = null;
+// 真实H1/H4棒线数据：由 fetch_gold_data.py 抓取黄金期货真实K线后写入 gold-data.json，读到了就用真实的
+let realBars1h = null;
+let realBars4h = null;
+
+function drawCandlestickChart(bars){
+  const canvas = document.getElementById('priceChart');
+  if(!canvas || !bars || bars.length === 0) return;
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  const W = rect.width || 300, H = rect.height || 150;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  ctx.setTransform(1,0,0,1,0,0);
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0,0,W,H);
+
+  const highs = bars.map(b=>b.high), lows = bars.map(b=>b.low);
+  const maxP = Math.max(...highs), minP = Math.min(...lows);
+  const pad = (maxP-minP)*0.08 || Math.max(1, maxP*0.001);
+  const top = maxP+pad, bottom = minP-pad;
+  const range = (top-bottom) || 1;
+
+  const n = bars.length;
+  const slot = W/n;
+  const candleW = Math.max(1.5, slot*0.6);
+
+  bars.forEach((b,i)=>{
+    const x = i*slot + slot/2;
+    const yHigh = H - ((b.high-bottom)/range)*H;
+    const yLow = H - ((b.low-bottom)/range)*H;
+    const yOpen = H - ((b.open-bottom)/range)*H;
+    const yClose = H - ((b.close-bottom)/range)*H;
+    const up = b.close >= b.open;
+    const color = up ? '#22A876' : '#C64F4F';
+
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(x, yHigh);
+    ctx.lineTo(x, yLow);
+    ctx.stroke();
+
+    ctx.fillStyle = color;
+    const bodyTop = Math.min(yOpen, yClose);
+    const bodyH = Math.max(1, Math.abs(yClose-yOpen));
+    ctx.fillRect(x-candleW/2, bodyTop, candleW, bodyH);
+  });
+}
+
+let chartsInitialized = false;
+function initAllCharts(){
+  if(chartsInitialized) return; // 防止重复初始化
+  chartsInitialized = true;
+  setPriceRange(document.querySelector('.range-tab.active'), currentPriceRange);
+  // 迷你走势图(macro-spark)仍用Chart.js，等库加载完成后再画
+  if(typeof Chart !== 'undefined'){
+    try{
+      Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+      Chart.defaults.color = '#5B626C';
+    }catch(e){}
+    spark('sparkDxy', 100.78, 0.25, '#C64F4F');
+    spark('sparkReal', 2.25, 0.03, '#C64F4F');
+    spark('sparkOil', 69.99, 0.7, '#22A876');
+    spark('sparkVix', 15.8, 0.9, '#22A876');
+    spark('sparkSge', 9.0, 0.6, '#22A876');
+    spark('sparkGetf', 3120, 8, '#22A876');
+    spark('sparkTrend', 64, 6, '#469689');
+    spark('sparkSocial', 2.1, 0.15, '#469689');
+  } else {
+    window.addEventListener('chartjsloaded', function(){
+      spark('sparkDxy', 100.78, 0.25, '#C64F4F');
+      spark('sparkReal', 2.25, 0.03, '#C64F4F');
+      spark('sparkOil', 69.99, 0.7, '#22A876');
+      spark('sparkVix', 15.8, 0.9, '#22A876');
+      spark('sparkSge', 9.0, 0.6, '#22A876');
+      spark('sparkGetf', 3120, 8, '#22A76');
+      spark('sparkTrend', 64, 6, '#469689');
+      spark('sparkSocial', 2.1, 0.15, '#469689');
+    }, { once: true });
+  }
+}
+// 主图表(蜡烛图)不再需要等外部库，页面一加载就能画；迷你走势图仍走 Chart.js 异步加载
+initAllCharts();
 
 function spark(id, base, vol, color){
   const el = document.getElementById(id);
@@ -1654,93 +1754,45 @@ function spark(id, base, vol, color){
   }
 }
 
-let chartsInitialized = false;
-function initAllCharts(){
-  if(chartsInitialized) return; // 防止多个CDN源都成功时重复初始化
-  if(typeof Chart === 'undefined') return; // Chart.js还没加载好，先不执行
-  chartsInitialized = true;
-
-  try{
-    Chart.defaults.font.family = "'IBM Plex Mono', monospace";
-    Chart.defaults.color = '#5B626C';
-  }catch(e){
-    console.log('设置Chart.js默认样式失败，不影响其他功能');
-  }
-
-  try{
-    priceChart = new Chart(document.getElementById('priceChart'), {
-      type:'line',
-      data:{
-        labels:Array.from({length:priceRangeConfig['1W'].n},(_,i)=>i),
-        datasets:[{
-          data:genSeries(4170, priceRangeConfig['1W'].n, priceRangeConfig['1W'].vol),
-          borderColor:'#C9A24C', borderWidth:2, pointRadius:0, tension:0.35, fill:true,
-          backgroundColor:(ctx)=>{
-            const g = ctx.chart.ctx.createLinearGradient(0,0,0,150);
-            g.addColorStop(0,'rgba(201,162,76,0.20)');
-            g.addColorStop(1,'rgba(201,162,76,0.0)');
-            return g;
-          }
-        }]
-      },
-      options:{
-        responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}, tooltip:{enabled:false}},
-        scales:{x:{display:false}, y:{display:false}},
-        elements:{point:{radius:0}}
-      }
-    });
-    // 图表初始化成功后，如果金价已经拉到了真实数据，用真实价格重画一次(而不是演示基准价)
-    if(typeof CURRENT_GOLD_PRICE !== 'undefined' && typeof setPriceRange === 'function'){
-      setPriceRange(document.querySelector('.range-tab.active'), currentPriceRange);
-    }
-  }catch(e){
-    console.log('主图表初始化失败（可能是Chart.js加载失败），不影响其他功能：', e.message);
-  }
-
-  spark('sparkDxy', 100.78, 0.25, '#C64F4F');
-  spark('sparkReal', 2.25, 0.03, '#C64F4F');
-  spark('sparkOil', 69.99, 0.7, '#22A876');
-  spark('sparkVix', 15.8, 0.9, '#22A876');
-  spark('sparkSge', 9.0, 0.6, '#22A876');
-  spark('sparkGetf', 3120, 8, '#22A876');
-  spark('sparkTrend', 64, 6, '#469689');
-  spark('sparkSocial', 2.1, 0.15, '#469689');
-}
-
-// 如果Chart.js已经加载完成(比如缓存很快)，立刻初始化；否则等CDN加载器广播就绪事件
-if(typeof Chart !== 'undefined'){
-  initAllCharts();
-} else {
-  window.addEventListener('chartjsloaded', initAllCharts);
-  // 兜底：8秒后如果还没加载完，就不再等了(所有CDN源都试过一轮大概需要这么久)
-  setTimeout(initAllCharts, 8500);
-}
-
 function setPriceRange(el, range){
   document.querySelectorAll('.range-tab').forEach(t=>t.classList.remove('active'));
   if(el) el.classList.add('active');
   currentPriceRange = range;
   const cfg = priceRangeConfig[range];
   const hintEl = document.getElementById('chartKeyHint');
-  if(!priceChart) return; // 图表库加载失败时，静默跳过，不影响其他功能
 
-  // 1D：优先用本次会话累计的真实价格点(需要页面开着攒够几个点)
-  if(range === '1D' && sessionPricePoints.length >= 3){
-    priceChart.data.labels = sessionPricePoints.map((_,i)=>i);
-    priceChart.data.datasets[0].data = sessionPricePoints.map(p=>p.price);
-    priceChart.update();
-    if(hintEl) hintEl.textContent = '当前：1D为本次打开页面以来的真实价格点（' + sessionPricePoints.length + '个）';
+  // 1H/4H：优先用真实H1/H4棒线(来自fetch_gold_data.py抓取的黄金期货真实K线)
+  if(range === '1H' && realBars1h && realBars1h.length > 0){
+    drawCandlestickChart(realBars1h);
+    if(hintEl) hintEl.textContent = '真实H1棒线（黄金期货GC=F，与现货金价存在基差）';
+    return;
+  }
+  if(range === '4H' && realBars4h && realBars4h.length > 0){
+    drawCandlestickChart(realBars4h);
+    if(hintEl) hintEl.textContent = '真实H4棒线（黄金期货GC=F，与现货金价存在基差）';
     return;
   }
 
-  // 1W/1M：模拟历史曲线，锚定在当前真实价格上（真实历史数据需付费/注册数据源，暂不接入）
-  priceChart.data.labels = Array.from({length:cfg.n},(_,i)=>i);
-  priceChart.data.datasets[0].data = genSeries(CURRENT_GOLD_PRICE, cfg.n, cfg.vol);
-  priceChart.update();
-  if(hintEl) hintEl.textContent = '当前：' + range + '为模拟历史曲线，锚定在真实现价上';
-}
+  // 1D：优先用本次会话累计的真实价格点
+  if(range === '1D' && sessionPricePoints.length >= 3){
+    const prices = sessionPricePoints.map(p=>p.price);
+    const candles = prices.map((p,i)=>{
+      const prev = i>0 ? prices[i-1] : p;
+      return { open: prev, close: p, high: Math.max(prev,p), low: Math.min(prev,p) };
+    });
+    drawCandlestickChart(candles);
+    if(hintEl) hintEl.textContent = '本次打开页面以来的真实价格点（' + sessionPricePoints.length + '个）';
+    return;
+  }
 
+  // 其余情况：生成锚定在真实现价上的模拟K线
+  const candles = genCandles(CURRENT_GOLD_PRICE, cfg.n, cfg.vol);
+  drawCandlestickChart(candles);
+  if(hintEl) hintEl.textContent = '';
+}
+window.addEventListener('resize', function(){
+  if(chartsInitialized) setPriceRange(document.querySelector('.range-tab.active'), currentPriceRange);
+});
 
 // ---------- 风险交易日评级 ----------
 function computeRiskDay(volScore, trendScore, eventScore){
@@ -1830,7 +1882,6 @@ function updateSelfScore(){
 }
 
 // ---------- 持仓源：可编辑开仓价/手数,实时联动浮动盈亏 ----------
-let CURRENT_GOLD_PRICE = 4170.30;
 
 // ---------- 真·实时金价：直接从浏览器调用 gold-api.com（免费/无需Key/已开CORS）----------
 // 打开页面即生效，不需要跑任何脚本、不需要服务器。每60秒刷新一次。
@@ -2001,6 +2052,16 @@ async function loadLiveData(){
     // 01行情源：用真实H1棒线计算结果替换Al Brooks模板文案
     if(data.priceAction){
       renderPriceAction(data.priceAction);
+    }
+
+    // 蜡烛图：如果抓取脚本提供了真实H1/H4棒线，存下来；如果当前正显示这两个周期，立即重绘
+    if(data.bars1h && Array.isArray(data.bars1h) && data.bars1h.length > 0){
+      realBars1h = data.bars1h;
+      if(currentPriceRange === '1H') setPriceRange(document.querySelector('.range-tab.active'), '1H');
+    }
+    if(data.bars4h && Array.isArray(data.bars4h) && data.bars4h.length > 0){
+      realBars4h = data.bars4h;
+      if(currentPriceRange === '4H') setPriceRange(document.querySelector('.range-tab.active'), '4H');
     }
 
 // ---------- 08关联源：渲染真实计算的相关系数(来自fetch_gold_data.py每日积累计算) ----------
