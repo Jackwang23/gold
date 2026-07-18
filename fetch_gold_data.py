@@ -143,28 +143,48 @@ def analyze_price_action(bars, decimals=2):
     }
 
 
+def aggregate_bars(bars, group_size):
+    """把细颗粒度的棒线按group_size根一组聚合成粗颗粒度的棒线(比如4根H1聚合成1根H4)"""
+    aggregated = []
+    for i in range(0, len(bars), group_size):
+        chunk = bars[i:i+group_size]
+        if not chunk:
+            continue
+        aggregated.append({
+            "open": chunk[0]["open"],
+            "high": max(b["high"] for b in chunk),
+            "low": min(b["low"] for b in chunk),
+            "close": chunk[-1]["close"],
+        })
+    return aggregated
+
+
 def fetch_hourly_bars_and_analyze():
-    """通过yfinance拉取黄金期货最近的H1棒线，用于Al Brooks价格行为分析。
-    免费无需Key，但yfinance对小时线历史长度有限制(通常近几十天)，够这个分析用了。"""
+    """通过yfinance拉取黄金期货最近的H1棒线，用于Al Brooks价格行为分析和蜡烛图展示。
+    免费无需Key，但yfinance对小时线历史长度有限制(通常近几十天)，够这个分析用了。
+    返回 (价格行为分析结果, 用于蜡烛图的H1棒线, 用于蜡烛图的H4棒线) 三元组，任一项失败时对应位置为None。"""
     try:
         import yfinance as yf
     except ImportError:
-        print("[警告] 未安装 yfinance，跳过价格行为分析")
-        return None
+        print("[警告] 未安装 yfinance，跳过价格行为分析和K线图")
+        return None, None, None
     try:
         t = yf.Ticker("GC=F")  # COMEX黄金期货，比现货XAUUSD=X在yfinance上数据更完整
         hist = t.history(period="7d", interval="1h")
         if len(hist) < 25:
-            print(f"[警告] H1棒线数据不足({len(hist)}根)，跳过价格行为分析")
-            return None
+            print(f"[警告] H1棒线数据不足({len(hist)}根)，跳过价格行为分析和K线图")
+            return None, None, None
         bars = [
             {"open": float(row.Open), "high": float(row.High), "low": float(row.Low), "close": float(row.Close)}
             for row in hist.itertuples()
         ]
-        return analyze_price_action(bars)
+        price_action = analyze_price_action(bars)
+        bars1h_display = bars[-40:]   # 蜡烛图只展示最近40根，太多了手机屏幕上挤不下
+        bars4h_display = aggregate_bars(bars, 4)[-30:]
+        return price_action, bars1h_display, bars4h_display
     except Exception as e:
         print(f"[警告] 拉取H1棒线失败: {e}")
-        return None
+        return None, None, None
 
 
 def load_history():
@@ -423,7 +443,7 @@ def main():
         "wscnError": wscn_error,
     } if (fed_error or wscn_error) else None
 
-    price_action = fetch_hourly_bars_and_analyze()
+    price_action, bars1h, bars4h = fetch_hourly_bars_and_analyze()
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -440,6 +460,8 @@ def main():
         "news": news,
         "newsDebug": news_debug,
         "priceAction": price_action,
+        "bars1h": bars1h,
+        "bars4h": bars4h,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
