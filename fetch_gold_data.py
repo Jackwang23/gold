@@ -293,7 +293,46 @@ def fetch_fed_rss(limit=6):
     return news, None
 
 
-def fetch_wallstreetcn_news(limit=6):
+def fetch_alphavantage_news(limit=10):
+    """抓取Alpha Vantage官方新闻+情绪分析接口(NEWS_SENTIMENT)。
+    这是正规官方API(NASDAQ认证的美股数据商)，不是逆向接口，比华尔街见闻/RSS更稳定。
+    需要免费注册的Key(在 alphavantage.co 免费申请，30秒不用信用卡)，通过环境变量 ALPHAVANTAGE_KEY 传入。
+    免费档每天只有25次请求额度，所以这个函数会自己控制调用频率(见下方main函数里的节流判断)，
+    不要在每次运行时都调用，否则几次就把额度用完了。
+    返回 (news列表或None, 错误信息或None)。"""
+    api_key = os.environ.get("ALPHAVANTAGE_KEY")
+    if not api_key:
+        return None, "未设置 ALPHAVANTAGE_KEY 环境变量（可选数据源，不影响其他部分）"
+    try:
+        resp = requests.get(
+            "https://www.alphavantage.co/query",
+            params={
+                "function": "NEWS_SENTIMENT",
+                "topics": "financial_markets,economy_macro,economy_monetary",
+                "apikey": api_key,
+                "limit": limit,
+            },
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        feed = data.get("feed")
+        if not feed:
+            return None, f"接口返回但没有feed字段，原始响应片段: {str(data)[:200]}"
+        news = []
+        for item in feed[:limit]:
+            title = (item.get("title") or "").strip()
+            if not title:
+                continue
+            tp = item.get("time_published", "")  # 格式 YYYYMMDDTHHMMSS
+            time_str = f"{tp[4:6]}-{tp[6:8]} {tp[9:11]}:{tp[11:13]}" if len(tp) >= 13 else ""
+            news.append({"time": time_str, "text": "[AV] " + title[:120]})
+        return (news, None) if news else (None, "接口返回了feed但提取不出标题")
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
+def fetch_wallstreetcn_news(limit=15):
     """抓取华尔街见闻实时快讯。
     重要说明：华尔街见闻没有官方公开API，这里用的是业内广泛使用的非官方接口
     （很多开源项目如RSSHub也是通过这个接口实现的），不保证长期稳定，随时可能失效或改版。
@@ -432,16 +471,24 @@ def main():
             json.dump(history, f, ensure_ascii=False, indent=2)
     correlations = compute_correlations(history)
 
-    # 新闻：美联储官方RSS作为可靠主源，华尔街见闻作为非官方补充（能抓到就加进来，抓不到不影响主源）
+    # 新闻：美联储官方RSS作为可靠主源，华尔街见闻作为非官方补充，
+    # Alpha Vantage作为官方补充源(免费档每天25次，节流成每4小时才调一次，避免用超额度)
     fed_news, fed_error = fetch_fed_rss()
     wscn_news, wscn_error = fetch_wallstreetcn_news()
+    current_hour = datetime.now(timezone.utc).hour
+    if current_hour % 4 == 0:
+        av_news, av_error = fetch_alphavantage_news()
+    else:
+        av_news, av_error = None, "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
     fed_news = fed_news or []
     wscn_news = wscn_news or []
-    news = (wscn_news + fed_news) or None  # 中文快讯排在前面，最后放不进任何数据时给None
+    av_news = av_news or []
+    news = (wscn_news + av_news + fed_news) or None  # 中文快讯排最前面，最后放不进任何数据时给None
     news_debug = {
         "fedError": fed_error,
         "wscnError": wscn_error,
-    } if (fed_error or wscn_error) else None
+        "avError": av_error,
+    } if (fed_error or wscn_error or av_error) else None
 
     price_action, bars1h, bars4h = fetch_hourly_bars_and_analyze()
 
