@@ -293,6 +293,91 @@ def fetch_fed_rss(limit=6):
     return news, None
 
 
+def fetch_cot_gold():
+    """抓取CFTC(美国商品期货交易委员会)官方COT黄金持仓报告，通过Socrata开放数据API。
+    这是美国联邦监管机构直接发布的官方数据，完全免费、不需要注册Key，权威性最高。
+    每周五更新(数据实际对应上一个周二)。
+    返回 (持仓数据字典或None, 错误信息或None)。"""
+    try:
+        resp = requests.get(
+            "https://publicreporting.cftc.gov/resource/6dca-aqww.json",
+            params={
+                "$where": "market_and_exchange_names='GOLD - COMMODITY EXCHANGE INC.'",
+                "$order": "report_date_as_yyyy_mm_dd DESC",
+                "$limit": 2,
+            },
+            headers={"User-Agent": "personal-gold-dashboard (non-commercial, personal use)"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+        if not rows:
+            return None, "接口返回但没有GOLD - COMMODITY EXCHANGE INC.的记录"
+        latest = rows[0]
+        net_long = int(latest["noncomm_positions_long_all"]) - int(latest["noncomm_positions_short_all"])
+        change = None
+        if len(rows) >= 2:
+            prev = rows[1]
+            prev_net_long = int(prev["noncomm_positions_long_all"]) - int(prev["noncomm_positions_short_all"])
+            change = net_long - prev_net_long
+        return {
+            "netLong": net_long,
+            "change": change,
+            "reportDate": latest.get("report_date_as_yyyy_mm_dd", "")[:10],
+        }, None
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
+def fetch_finnhub_calendar(days_ahead=3):
+    """抓取Finnhub官方经济日历(非农/CPI/议息决议等高影响数据的时间/预期值/前值)。
+    这是正规官方API，免费档60次/分钟额度很宽裕，但经济日历这个具体接口
+    有可能被限制为付费专属(不同账号/时期政策不一，需要实测确认)。
+    需要免费注册的Key，通过环境变量 FINNHUB_KEY 传入。
+    返回 (日历事件列表或None, 错误信息或None)。"""
+    api_key = os.environ.get("FINNHUB_KEY")
+    if not api_key:
+        return None, "未设置 FINNHUB_KEY 环境变量（可选数据源，不影响其他部分）"
+    try:
+        resp = requests.get(
+            "https://finnhub.io/api/v1/calendar/economic",
+            params={"token": api_key},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        raw_events = data.get("economicCalendar") or data.get("data") or []
+        if not raw_events:
+            return None, f"接口返回但没有日历事件字段，原始响应片段: {str(data)[:200]}"
+
+        now = datetime.now(timezone.utc)
+        cutoff = now.timestamp() + days_ahead * 86400
+        events = []
+        for ev in raw_events:
+            country = (ev.get("country") or "").upper()
+            if country not in ("US", "USD", ""):
+                continue  # 只保留美国相关事件，对黄金影响最大
+            time_str = ev.get("time") or ev.get("date") or ""
+            try:
+                ev_dt = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+            except Exception:
+                continue
+            if ev_dt.timestamp() < now.timestamp() - 3600 or ev_dt.timestamp() > cutoff:
+                continue  # 只保留最近一小时内到未来几天的事件，太旧或太远的不展示
+            events.append({
+                "time": ev_dt.strftime("%m-%d %H:%M"),
+                "name": ev.get("event") or "",
+                "impact": ev.get("impact") or "",
+                "actual": ev.get("actual"),
+                "estimate": ev.get("estimate"),
+                "prev": ev.get("prev"),
+            })
+        events.sort(key=lambda e: e["time"])
+        return (events[:10], None) if events else (None, "接口返回了事件但过滤后没有近期美国相关的高影响数据")
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
 def fetch_alphavantage_news(limit=10):
     """抓取Alpha Vantage官方新闻+情绪分析接口(NEWS_SENTIMENT)。
     这是正规官方API(NASDAQ认证的美股数据商)，不是逆向接口，比华尔街见闻/RSS更稳定。
@@ -391,7 +476,9 @@ def fetch_gold_silver():
 
 
 def fetch_dxy_vix_oil():
-    """通过 yfinance 从 Yahoo Finance 拉取 DXY / VIX / WTI原油 / 比特币 / 标普500，免费无需 Key"""
+    """通过 yfinance 从 Yahoo Finance 拉取 DXY / VIX / WTI原油 / 比特币 / 标普500，免费无需 Key。
+    加了请求间延迟和失败重试：Yahoo Finance对短时间内连续多个不同代码的请求有时会限流，
+    表现为同一批请求里部分代码成功、部分返回空——不是这些代码本身有问题，是请求节奏太快。"""
     try:
         import yfinance as yf
     except ImportError:
@@ -405,21 +492,29 @@ def fetch_dxy_vix_oil():
         "btc": "BTC-USD",    # 比特币
         "spx": "^GSPC",      # 标普500
     }
+
+    def fetch_one(symbol):
+        t = yf.Ticker(symbol)
+        hist = t.history(period="2d")
+        if len(hist) >= 2:
+            last = hist["Close"].iloc[-1]
+            prev = hist["Close"].iloc[-2]
+            change_pct = (last - prev) / prev * 100
+            return {"value": round(float(last), 2), "changePct": round(float(change_pct), 2)}
+        return None
+
     result = {}
     for key, symbol in tickers.items():
-        try:
-            t = yf.Ticker(symbol)
-            hist = t.history(period="2d")
-            if len(hist) >= 2:
-                last = hist["Close"].iloc[-1]
-                prev = hist["Close"].iloc[-2]
-                change_pct = (last - prev) / prev * 100
-                result[key] = {"value": round(float(last), 2), "changePct": round(float(change_pct), 2)}
-            else:
-                result[key] = None
-        except Exception as e:
-            print(f"[警告] 拉取 {symbol} 失败: {e}")
-            result[key] = None
+        value = None
+        for attempt in range(2):  # 最多试2次：第一次失败大概率是限流，等一下再试一次
+            try:
+                value = fetch_one(symbol)
+                if value is not None:
+                    break
+            except Exception as e:
+                print(f"[警告] 拉取 {symbol} 第{attempt+1}次尝试失败: {e}")
+            time.sleep(1.5)  # 无论成功失败都稍微停一下，给下一个请求留出间隔，减少被限流概率
+        result[key] = value
     return result
 
 
@@ -491,6 +586,8 @@ def main():
     } if (fed_error or wscn_error or av_error) else None
 
     price_action, bars1h, bars4h = fetch_hourly_bars_and_analyze()
+    calendar_events, calendar_error = fetch_finnhub_calendar()
+    cot_gold, cot_error = fetch_cot_gold()
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -509,6 +606,10 @@ def main():
         "priceAction": price_action,
         "bars1h": bars1h,
         "bars4h": bars4h,
+        "calendar": calendar_events,
+        "calendarError": calendar_error,
+        "cot": cot_gold,
+        "cotError": cot_error,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
