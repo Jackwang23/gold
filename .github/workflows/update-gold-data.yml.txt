@@ -1,0 +1,59 @@
+name: 自动更新黄金数据
+
+# Tier B 方案：让GitHub每15分钟帮你自动跑一次 fetch_gold_data.py，
+# 把最新的 gold-data.json 提交回仓库。配合 GitHub Pages 托管，
+# 你手机上打开网页看到的 DXY/VIX/原油/利率 就不再依赖你自己电脑开着脚本了。
+#
+# 使用方法：
+# 1. 把这个仓库(包含 gold-dashboard.html、fetch_gold_data.py 等)推到你自己的GitHub
+# 2. 这个文件放在仓库的 .github/workflows/ 目录下（路径必须对）
+# 3. 去仓库 Settings -> Pages，把部署源设为这个仓库/分支，会给你一个免费的 xxx.github.io 网址
+# 4. 之后每15分钟，GitHub会自动帮你跑一次脚本、更新数据、提交，完全不用你自己的电脑参与
+#
+# 可选：如果你有 GoldAPI.io 的免费Key（能拿到涨跌额/最高/最低/昨收等更丰富的数据），
+# 去仓库 Settings -> Secrets and variables -> Actions -> New repository secret，
+# Name填 GOLDAPI_KEY，Value填你的Key，保存即可。Key只会在GitHub服务器端使用，
+# 不会出现在任何公开文件或网页源代码里，绝对安全。不设置这个Secret也完全没问题，
+# 脚本会自动跳过这部分，其他数据照常抓取。
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # 每15分钟跑一次（GitHub免费账户的定时任务有时会有几分钟误差，属正常现象）
+  workflow_dispatch:          # 也支持在GitHub网页上手动点一下立即跑一次
+
+permissions:
+  contents: write
+
+jobs:
+  update-gold-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install requests yfinance
+
+      - name: 运行抓取脚本
+        env:
+          GOLDAPI_KEY: ${{ secrets.GOLDAPI_KEY }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+        run: python3 fetch_gold_data.py
+
+      - name: 提交更新后的 gold-data.json
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add gold-data.json gold-history.json
+          git diff --staged --quiet || git commit -m "自动更新黄金数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # 关键修复：推送前先拉取远端最新代码并rebase，避免"同一时间有别的提交"导致push被拒绝。
+          # 如果rebase出现冲突(理论上不该发生，因为只改gold-data.json这一个文件)，
+          # 优先保留自己这次抓到的最新数据版本。
+          git pull --rebase --strategy-option=ours origin main || true
+          git push
