@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-19T16:02:57.588023+00:00",
+  "fetchedAt": "2026-07-19T17:16:37.774293+00:00",
   "gold": {
     "price": 4019.300049,
-    "updatedAt": "2026-07-19T16:02:23Z"
+    "updatedAt": "2026-07-19T17:16:23Z"
   },
   "silver": {
     "price": 56.080002,
-    "updatedAt": "2026-07-19T16:02:23Z"
+    "updatedAt": "2026-07-19T17:16:23Z"
   },
   "dxy": null,
   "vix": {
@@ -15,8 +15,8 @@
   },
   "wti": null,
   "btc": {
-    "value": 64504.91,
-    "changePct": -0.45
+    "value": 64636.42,
+    "changePct": -0.25
   },
   "spx": {
     "value": 7457.69,
@@ -131,7 +131,7 @@
   "newsDebug": {
     "fedError": null,
     "wscnError": null,
-    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Invalid inputs. Please refer to the API documentation https://www.alphavantage.co/documentation#newsapi and try again.'}"
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
