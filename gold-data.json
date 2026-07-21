@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-21T16:42:20.557422+00:00",
+  "fetchedAt": "2026-07-21T18:01:03.079615+00:00",
   "gold": {
-    "price": 4076.100098,
-    "updatedAt": "2026-07-21T16:42:04Z"
+    "price": 4069.5,
+    "updatedAt": "2026-07-21T18:00:34Z"
   },
   "silver": {
-    "price": 59.120998,
-    "updatedAt": "2026-07-21T16:42:03Z"
+    "price": 58.866001,
+    "updatedAt": "2026-07-21T18:00:33Z"
   },
   "dxy": {
     "value": 101.13,
-    "changePct": 0.14
+    "changePct": 0.13
   },
   "vix": {
-    "value": 17.08,
-    "changePct": -8.42
+    "value": 17.05,
+    "changePct": -8.58
   },
   "wti": {
-    "value": 84.26,
-    "changePct": 1.24
+    "value": 84.3,
+    "changePct": 1.29
   },
   "btc": {
-    "value": 66585.36,
-    "changePct": 2.08
+    "value": 66130.64,
+    "changePct": 1.38
   },
   "spx": {
-    "value": 7511.35,
-    "changePct": 0.91
+    "value": 7512.21,
+    "changePct": 0.93
   },
   "fred": {
     "10y_treasury": {
@@ -50,104 +50,64 @@
   },
   "news": [
     {
-      "time": "16:36",
-      "text": "美国总统特朗普7月21日在白宫会见到访的黎巴嫩总统奥恩时对媒体称，美国“很快”将对伊朗位于纳坦兹以南的“镐山”地下设施发动打击，而且打击力度将“非常猛烈”。 (CCTV国际时讯)"
+      "time": "18:00",
+      "text": "荷兰政府21日宣布，从9月22日起对以色列非法定居点实施贸易制裁措施，为期三年。根据荷兰政府当日发布的公报，原产于以色列非法定居点的货物将受到多项限制，包括禁止运入荷兰境内、禁止直接或间接购买、投放市场以及提供相关中介服务等。荷兰政府表示，"
     },
     {
-      "time": "16:34",
-      "text": "7月21日，美国白宫发布声明表示，美国总统特朗普宣布与约旦达成一项贸易协议，这项美约贸易协议将消除美国出口商长期面临的贸易壁垒，并为美国关键产业开辟新的市场准入机会。声明表示，这项贸易协议将建立在双方长期经济关系的基础上，其中包括于2001"
+      "time": "18:00",
+      "text": "CoreWeave首席执行官称，公司正在大规模部署AI基础设施，公司在构建AI原生云方面走在正确的道路上，此外，随着AI云收入增长，折旧的会计影响将减小。（华尔街日报）"
     },
     {
-      "time": "16:30",
-      "text": "俄罗斯国防部21日发布通报称，俄武装部队当天继续对乌克兰黑海港口及“服务于乌克兰武装部队”的船只发动远程打击。"
+      "time": "17:49",
+      "text": "油轮追踪数据显示，截至7月17日的一周，沙特通过延布港的两个码头日均出口原油590万桶，创历史新高。截至7月20日的七天内，日均出口量回落至550万桶。这些数据包括运往吉赞的原油以及向红海沿岸发电厂供应的原油，沙特阿美在吉赞运营一座炼油厂。"
     },
     {
-      "time": "16:29",
-      "text": "也门胡塞武装20日警告国际航运公司称，与沙特港口开展贸易往来的船只可能面临军事打击，进一步扩大了其此前宣布的针对沙特的海上禁运范围。"
+      "time": "17:48",
+      "text": "美国银行策略师已软化了他们对英镑的“超出共识的看涨观点”，预计随着政治不确定性持续高企，英镑近期的涨幅将会回落。\n由Kamal Sharma为首的策略师在报告中表示，在本月英镑“急剧、快速上涨”之后，他们对英镑的观点已经转为短线中性。"
     },
     {
-      "time": "16:28",
-      "text": "周三（8月6日）欧市尾盘，德国10年期国债收益率涨1.3个基点，报3.163%，北京时间16:23跌至3.144刷新日低，随后持续反弹、21:52刷新日高至3.185%，之后回吐部分涨幅。\n两年期德债收益率涨1.1个基点，报2.803%，日"
+      "time": "17:23",
+      "text": "法国参议院批准农业紧急法。\n应农民要求，法国食品法豁免了部分农药的使用。"
     },
     {
-      "time": "16:25",
-      "text": "巴基斯坦总理夏巴兹21日呼吁中东战事相关方保持克制，避免采取可能导致地区局势继续恶化的行动。\n据巴基斯坦总理办公室发表的声明，夏巴兹当天在伊斯兰堡会见到访的伊朗内政部长伊斯坎德尔·莫梅尼时表示，巴方致力于维护地区和平与稳定，并将继续进行斡旋"
+      "time": "17:22",
+      "text": "美国参议院多数党领袖约翰·图恩（John Thune，南达科他州共和党人）：我们将快速确认Keith E. Sonderling的劳工部长提名资格。"
     },
     {
-      "time": "16:17",
-      "text": "SpaceX已为资本市场历史上规模最大的股票解禁之一拉开序幕，下个月将有价值高达1160亿美元的股票首次具备出售资格。\n禁止部分内部人士出售多达9.115亿股股票的限制将于8月6日解除，也就是这家火箭、卫星和人工智能公司首次公布季度业绩的两"
+      "time": "17:16",
+      "text": "美国总统特朗普21日在白宫会见到访的黎巴嫩总统奥恩时表示，如果也门胡塞武装封锁红海，美国将采取行动。\n特朗普在谈及胡塞武装可能封锁红海一事时说，目前还没有发生这种情况，“如果真发生了，我们会采取行动，处理好”。"
     },
     {
-      "time": "16:13",
-      "text": "英伟达7月21日表示，AI云平台DeepInfra测试显示，Vera CPU相比其他CPU产品，在AI智能体工作负载下可实现最高2.2倍编排速度提升，并支持最高1.6倍更多智能体并发运行。DeepInfra表示，其平台每周处理近5万亿Tok"
+      "time": "17:16",
+      "text": "周三（8月6日），美联储隔夜逆回购协议（RRP）使用规模为2.75亿美元（交易对手1家），上个交易日报0.3亿美元。"
     },
     {
-      "time": "16:05",
-      "text": "7月21日，加拿大总理马克·卡尼表示，在美国关税宣布后，他已与美国总统特朗普通话。卡尼还表示，如果（新关税）生效，加拿大将考虑所有应对选项。"
+      "time": "17:11",
+      "text": "OpenAI产品负责人Tibo表示，Codex和 ChatGPT Work每周活跃用户已突破1000万人。"
     },
     {
-      "time": "16:04",
-      "text": "英伟达宣布，面向“千兆级AI工厂”的Vera Rubin平台正在全球扩大部署，CoreWeave、谷歌云、微软Azure和甲骨文云等已开始采用Vera Rubin NVL72系统。\n英伟达称，CoreWeave测试显示，Vera Rubin"
+      "time": "17:05",
+      "text": "空客调查该如何提高A330、A350飞机的产量。\n调查产量将“显著”高于每个月生产12架飞机。"
     },
     {
-      "time": "16:01",
-      "text": "Meta：新款父母监护工具将投放到Threads。\n父母可以了解自家青少年（10-20岁）在Threads所消耗的时间。"
+      "time": "17:04",
+      "text": "智利国家铜业公司（Codelco）周二表示，由于一场强冬季风暴持续影响智利中部，导致电力供应出现问题，其旗下的安迪纳（Andina）铜矿生产出现“不稳定”状况。\nCodelco在一份声明中表示，其各部门的运营目前均在旨在保护工人的紧急预案和"
     },
     {
-      "time": "15:48",
-      "text": "英伟达7月21日发布新一代Spectrum-6以太网交换系统，用于支持基于Vera Rubin平台的超大规模AI基础设施。该系统单交换容量达102.4Tbps，是上一代产品的两倍，旨在连接数十万级GPU和CPU，为大规模AI训练、智能体应用"
+      "time": "17:00",
+      "text": "国际铜夜盘收涨1.49%，沪铜收涨1.69%，沪铝收涨0.56%，沪锌收涨0.55%，沪铅收跌0.95%，沪镍收涨0.77%，沪锡收涨1.02%。\n氧化铝夜盘收涨0.22%，铝合金收涨0.50%。\n不锈钢夜盘收涨0.20%。"
     },
     {
-      "time": "15:46",
-      "text": "英伟达因其图形处理器（GPU）——即AI核心芯片——的需求极其旺盛而成为全球市值最高的公司。如今，英伟达已开始销售其专为AI设计的中央处理器（CPU）——Vera，并发布了新信息，以便潜在客户全面评估该芯片。英伟达发布了其数据中心CPU V"
+      "time": "16:59",
+      "text": "空客CEO：预计资本开支将温和增长。"
     },
     {
-      "time": "15:45",
-      "text": "空中客车董事会批准，未来三年回购50亿欧元股票。\n该公司计划2029年实现120亿-130亿欧元调整后EBIT。\n空客ADR涨3.4%，刷新日高。"
+      "time": "16:55",
+      "text": "纳斯达克100指数涨幅扩大至2%，刷新日高，成分股Nebius涨16.1%，闪迪涨13.2%泰瑞达涨13.1%，美光涨13%，西部数据涨12.8%，希捷科技涨11.5%，Lumentum涨9.3%，CoreWeave涨9.3%。\n标普500"
     },
     {
-      "time": "15:41",
-      "text": "7月21日，委内瑞拉卫生部发布公告称，该国东北部安索阿特吉州有3名患者因感染汉坦病毒死亡。公告表示，汉坦病毒主要通过啮齿动物传播，目前没有科学证据表明该病毒在委内瑞拉存在人际传播。"
-    },
-    {
-      "time": "07-21 14:12",
-      "text": "[AV] Darden Restaurants stock trades steadily as Olive Garden parent navigates inflation and traffic trends"
-    },
-    {
-      "time": "07-21 14:10",
-      "text": "[AV] Full Transcript: Atlantic Union Bankshares Q2 2026 Earnings Call"
-    },
-    {
-      "time": "07-21 13:40",
-      "text": "[AV] AGNC beats EPS estimates but misses revenue in Q2 2026 amid challenging market conditions"
-    },
-    {
-      "time": "07-21 11:27",
-      "text": "[AV] Citigroup cuts Turkey bond position by half on oil price surge"
-    },
-    {
-      "time": "07-21 10:41",
-      "text": "[AV] Next Week Could Be Volatile for Markets"
-    },
-    {
-      "time": "07-21 10:22",
-      "text": "[AV] Summit Global Investments Grows Holdings in Bank of America Corporation $BAC"
-    },
-    {
-      "time": "07-21 09:17",
-      "text": "[AV] The Zacks Analyst Blog Highlights Alphabet, Tesla, Intel, American Express, Adida, Nike and Carlsberg"
-    },
-    {
-      "time": "07-21 08:50",
-      "text": "[AV] The Zacks Analyst Blog Highlights Alphabet, Tesla, Intel, American Express, Adida, Nike and Carlsberg"
-    },
-    {
-      "time": "07-21 05:51",
-      "text": "[AV] At almost 20-year highs, here’s where the experts think the Barclays share price could go from here"
-    },
-    {
-      "time": "07-21 00:11",
-      "text": "[AV] Shares of Banco Bradesco (BVMF:BBDC4) Recover, Yet 14% Rate Scenario Intensifies Credit-Cost Challenge"
+      "time": "16:53",
+      "text": "LME期铜收涨263美元，报13885美元/吨。\nLME期铝收涨18美元，报3158美元/吨。\nLME期锌收涨32美元，报3552美元/吨。\nLME期铅收跌10美元，报1869美元/吨。\nLME期镍收涨156美元，报17085美元/吨。\nL"
     },
     {
       "time": "07-16 23:00",
@@ -174,26 +134,24 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 4072.9,
-    "measuredMoveLow": 4122.35,
-    "measuredMoveHigh": 4164.9,
-    "sma20": 4053.6,
-    "currentPrice": 4079.8
+    "signalBarBull": false,
+    "signalBarPrice": 4071.2,
+    "measuredMoveLow": 4113.75,
+    "measuredMoveHigh": 4156.3,
+    "sma20": 4056.37,
+    "currentPrice": 4071.2
   },
   "bars1h": [
-    {
-      "open": 3999.60009765625,
-      "high": 4014.5,
-      "low": 3986.5,
-      "close": 4013.699951171875
-    },
     {
       "open": 4013.5,
       "high": 4025.699951171875,
@@ -425,17 +383,17 @@
     {
       "open": 4078.5,
       "high": 4083.5,
-      "low": 4077.39990234375,
-      "close": 4079.800048828125
+      "low": 4074.10009765625,
+      "close": 4075.89990234375
+    },
+    {
+      "open": 4076.0,
+      "high": 4077.199951171875,
+      "low": 4071.0,
+      "close": 4071.199951171875
     }
   ],
   "bars4h": [
-    {
-      "open": 4038.5,
-      "high": 4112.5,
-      "low": 4029.800048828125,
-      "close": 4073.10009765625
-    },
     {
       "open": 4073.199951171875,
       "high": 4073.800048828125,
@@ -608,7 +566,13 @@
       "open": 4058.300048828125,
       "high": 4088.0,
       "low": 4048.39990234375,
-      "close": 4079.800048828125
+      "close": 4075.89990234375
+    },
+    {
+      "open": 4076.0,
+      "high": 4077.199951171875,
+      "low": 4071.0,
+      "close": 4071.199951171875
     }
   ],
   "calendar": null,
