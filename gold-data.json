@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-21T12:54:25.177176+00:00",
+  "fetchedAt": "2026-07-21T15:05:13.285860+00:00",
   "gold": {
-    "price": 4057.399902,
-    "updatedAt": "2026-07-21T12:54:03Z"
+    "price": 4070.399902,
+    "updatedAt": "2026-07-21T15:05:04Z"
   },
   "silver": {
-    "price": 59.186001,
-    "updatedAt": "2026-07-21T12:54:03Z"
+    "price": 59.075001,
+    "updatedAt": "2026-07-21T15:05:03Z"
   },
   "dxy": {
-    "value": 101.03,
-    "changePct": 0.04
+    "value": 101.15,
+    "changePct": 0.15
   },
   "vix": {
-    "value": 17.9,
-    "changePct": -4.02
+    "value": 17.33,
+    "changePct": -7.08
   },
   "wti": {
-    "value": 84.27,
-    "changePct": 1.25
+    "value": 84.36,
+    "changePct": 1.36
   },
   "btc": {
-    "value": 66472.73,
-    "changePct": 1.91
+    "value": 66625.66,
+    "changePct": 2.14
   },
   "spx": {
-    "value": 7443.28,
-    "changePct": -0.19
+    "value": 7484.26,
+    "changePct": 0.55
   },
   "fred": {
     "10y_treasury": {
@@ -50,104 +50,64 @@
   },
   "news": [
     {
-      "time": "12:54",
-      "text": "美国贸易代表格里尔：加拿大愿意谈判，但不愿做出改变。"
+      "time": "15:03",
+      "text": "“参考智能汽车自动驾驶的分工格局，未来端侧AI的70%市场将由第三方模型厂商提供，手机厂全栈自研不会是长期主流。”在2026WAIC期间，面壁智能CEO李大海谈到自己对端侧AI行业发展的观点。（澎湃）"
     },
     {
-      "time": "12:50",
-      "text": "通用汽车首席财务官：与电动汽车相关的资产减记已“基本完成”。"
+      "time": "15:03",
+      "text": "加拿大总理卡尼：如果美国执意实施关税，将研究一切反制选项。"
     },
     {
-      "time": "12:49",
-      "text": "证监会：行业机构加大逆周期架构力度，专家学者积极建言献策、理性发声。\n美国财长贝森特：2026年下半年增长3%“并非不合理”。\n报道：美国将对在美建厂企业的铝关税减半。\n伦敦证券交易所将于明年推出不间断交易。\n高盛：霍尔木兹若长期受阻，油价"
+      "time": "15:02",
+      "text": "巴基斯坦总理Sharif：敦促所有方面保持克制。\n巴方将继续发挥调停人作用。"
     },
     {
-      "time": "12:47",
-      "text": "普京将于11月18日至19日访问中国，出席亚太经合组织峰会。（塔斯社）"
+      "time": "15:00",
+      "text": "燃油夜盘收涨约4%，焦煤涨约1.9%，PTA涨约1.6%。"
     },
     {
-      "time": "12:38",
-      "text": "据中国基金报，7月份以来，A股市场经历了一轮剧烈的震荡调整。“近期公司量化指增策略和量化选股策略都遭遇大幅净值回撤和超额回撤，普遍在10个点以上。其中，量化选股因为承受更多市场波动，持仓更为分散，跌幅更大。”某百亿量化私募人士告诉记者。行情"
+      "time": "14:59",
+      "text": "加拿大总理卡尼周二与美国总统特朗普通话，双方同意加强沟通。"
     },
     {
-      "time": "12:32",
-      "text": "WTI原油日内涨幅达2.0%，报84.14美元/桶。"
+      "time": "14:56",
+      "text": "美元兑日元涨至163上方，日内涨超0.3%，日本当局干预的风险加重。"
     },
     {
-      "time": "12:30",
-      "text": "微软与法国人工智能初创公司Mistral AI于7月21日宣布扩大双方战略合作，围绕欧洲AI基础设施建设达成一项价值数十亿美元的协议，以提升欧洲地区AI计算能力。根据协议，微软将利用Mistral扩大的欧洲GPU基础设施，为其云计算和AI服"
+      "time": "14:56",
+      "text": "记者注意到，日前有投资者在上证e互动平台询问光大银行下半年的市值管理举措。对此，光大银行回复称，该行坚定看好中国资本市场发展前景，目前已成立“市值管理小组”，将全面统筹市值管理工作，积极维护公司价值和股东权益。（证券时报）"
     },
     {
-      "time": "12:27",
-      "text": "从北京市经信局获悉，上半年，全市数字经济增加值增速7.8%，其中数字经济核心产业增加值增速9.8%，对全市GDP增长的带动作用显著。深入实施京津冀“银河算廊”工程，上半年北京新增智能算力2.2万P，供给规模达到8.2万P。"
+      "time": "14:55",
+      "text": "科威特借油轮遇袭事件召见伊朗大使。"
     },
     {
-      "time": "12:24",
-      "text": "2026年下半年首批流感疫苗已获批签发并上市。科兴、华兰疫苗等企业的产品在列。（界面新闻）"
+      "time": "14:55",
+      "text": "伊朗部长会见巴基斯坦陆军元帅和总理。"
     },
     {
-      "time": "12:20",
-      "text": "惠誉将中国中信金融资产管理的信用评级上调至BBB+，评级展望维持稳定。"
+      "time": "14:54",
+      "text": "美军中央司令部20日发表声明称，美军已于美国东部时间20日21时（北京时间21日9时）完成对伊朗的新一轮打击行动。这是美军连续第10晚对伊朗发动打击。伊朗方面也发表声明称对巴林和科威特的美军目标发动打击。另据外媒报道，卡塔尔、埃及、巴基斯坦"
     },
     {
-      "time": "12:19",
-      "text": "特朗普将于7月28日林赛·格雷厄姆的葬礼上致词。"
+      "time": "14:53",
+      "text": "巴克莱策略师Andres Mok和Amrut Nashikkar在一份报告中指出，由于流动性状况改善以及交易商资产负债表容量的增加，美国国债期现基差交易（cash-futures basis trade）已有所降温，目前其复苏的条件尚未成熟"
     },
     {
-      "time": "12:17",
-      "text": "7月21日，公募基金2026年二季报披露完毕。天相投顾数据显示，公募基金最新前十大重仓股分别是中际旭创、新易盛、东山精密、寒武纪、宁德时代、北方华创、兆易创新、源杰科技、中微公司、三环集团。"
+      "time": "14:52",
+      "text": "联合海事信息中心(JMIC)在报告中表示，近期发生袭击事件后，多家公司推迟船只通过霍尔木兹海峡，商业船舶通行量降至三周低点。\n船只正经由南部阿曼航道和北部由伊朗控制的航道通行。\n近期油轮在阿曼水域遇袭进一步影响了运营商的行为，并导致通行密度"
     },
     {
-      "time": "12:16",
-      "text": "美国财长贝森特：2026年下半年增长3%“并非不合理”。\n美国经济基础强劲，核心物价稳定。\n通过政府对公司的持股，正试图创造市场信号。\n新冠疫情是对大国冲突的一场供应链考验。\n加拿大在乳制品、酒精、饮品上存在高度歧视。"
+      "time": "14:52",
+      "text": "长鑫科技网下初步配售结果显示，共有113家私募旗下的2459个产品获得了长鑫科技的网下配售，合计获配数量达1.61亿股，获配金额达14.36亿元。"
     },
     {
-      "time": "12:15",
-      "text": "ADP：截至7月4日的四周，美国私营部门就业人数平均每周增加16500人。"
+      "time": "14:50",
+      "text": "玩具公司孩之宝公布的第二季度营收和盈利均超出分析师预期，并凭借《万智牌》卡牌业务的强劲表现上调了全年业绩展望，受此消息提振，孩之宝股价一度飙升高达14%。\n孩之宝还宣布，作为其数字战略更广泛调整的一部分，公司正在取消多个电子游戏项目。"
     },
     {
-      "time": "12:15",
-      "text": "【万科A：深铁集团提供不超过5.19亿元股东借款】万科A公告，公司第一大股东深圳市地铁集团有限公司向公司提供不超过5.19亿元借款，用于偿还公司在公开市场发行的债券本息及指定借款利息。借款期限最晚不晚于首笔借款资金实际支付之日起3年届满之日"
-    },
-    {
-      "time": "07-21 11:27",
-      "text": "[AV] Citigroup cuts Turkey bond position by half on oil price surge"
-    },
-    {
-      "time": "07-21 10:41",
-      "text": "[AV] Next Week Could Be Volatile for Markets"
-    },
-    {
-      "time": "07-21 10:22",
-      "text": "[AV] Summit Global Investments Grows Holdings in Bank of America Corporation $BAC"
-    },
-    {
-      "time": "07-21 09:17",
-      "text": "[AV] The Zacks Analyst Blog Highlights Alphabet, Tesla, Intel, American Express, Adida, Nike and Carlsberg"
-    },
-    {
-      "time": "07-21 08:50",
-      "text": "[AV] The Zacks Analyst Blog Highlights Alphabet, Tesla, Intel, American Express, Adida, Nike and Carlsberg"
-    },
-    {
-      "time": "07-21 00:11",
-      "text": "[AV] Shares of Banco Bradesco (BVMF:BBDC4) Recover, Yet 14% Rate Scenario Intensifies Credit-Cost Challenge"
-    },
-    {
-      "time": "07-20 23:08",
-      "text": "[AV] Jamie Dimon says markets underestimate risks and he wouldn't buy stocks or Treasurys at current prices"
-    },
-    {
-      "time": "07-20 21:39",
-      "text": "[AV] Gold is heavily oversold and likely to bottom by September, with currency debasement driving its next all-time high."
-    },
-    {
-      "time": "07-20 20:35",
-      "text": "[AV] Customers Bancorp stock trades steady as loan growth and margin trends frame 2025 outlook"
-    },
-    {
-      "time": "07-20 20:07",
-      "text": "[AV] Why Enphase (ENPH) Shares Are Falling Today"
+      "time": "14:49",
+      "text": "PRESS TV：伊朗伊斯兰革命卫队击中科威特贾比尔基地的美军雷达。"
     },
     {
       "time": "07-16 23:00",
@@ -174,32 +134,24 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4060.6,
-    "measuredMoveLow": 4099.85,
-    "measuredMoveHigh": 4142.4,
-    "sma20": 4041.43,
-    "currentPrice": 4057.3
+    "measuredMoveLow": 4117.55,
+    "measuredMoveHigh": 4160.1,
+    "sma20": 4046.93,
+    "currentPrice": 4075.0
   },
   "bars1h": [
-    {
-      "open": 4016.39990234375,
-      "high": 4020.89990234375,
-      "low": 4006.800048828125,
-      "close": 4019.89990234375
-    },
-    {
-      "open": 4019.89990234375,
-      "high": 4023.0,
-      "low": 4013.199951171875,
-      "close": 4018.800048828125
-    },
     {
       "open": 4001.0,
       "high": 4004.39990234375,
@@ -426,16 +378,22 @@
       "open": 4060.5,
       "high": 4070.39990234375,
       "low": 4055.0,
-      "close": 4057.300048828125
+      "close": 4058.0
+    },
+    {
+      "open": 4058.300048828125,
+      "high": 4066.10009765625,
+      "low": 4048.39990234375,
+      "close": 4057.199951171875
+    },
+    {
+      "open": 4057.5,
+      "high": 4079.10009765625,
+      "low": 4055.39990234375,
+      "close": 4075.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4027.300048828125,
-      "high": 4039.0,
-      "low": 4020.10009765625,
-      "close": 4038.10009765625
-    },
     {
       "open": 4038.5,
       "high": 4112.5,
@@ -608,7 +566,13 @@
       "open": 4067.699951171875,
       "high": 4074.800048828125,
       "low": 4055.0,
-      "close": 4057.300048828125
+      "close": 4058.0
+    },
+    {
+      "open": 4058.300048828125,
+      "high": 4079.10009765625,
+      "low": 4048.39990234375,
+      "close": 4075.0
     }
   ],
   "calendar": null,
