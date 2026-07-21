@@ -477,8 +477,9 @@ def fetch_gold_silver():
 
 def fetch_dxy_vix_oil():
     """通过 yfinance 从 Yahoo Finance 拉取 DXY / VIX / WTI原油 / 比特币 / 标普500，免费无需 Key。
-    加了请求间延迟和失败重试：Yahoo Finance对短时间内连续多个不同代码的请求有时会限流，
-    表现为同一批请求里部分代码成功、部分返回空——不是这些代码本身有问题，是请求节奏太快。"""
+    改用 yf.download() 一次性批量拉取所有代码(底层只发一次网络请求)，
+    比逐个用 yf.Ticker().history() 分开请求(会发5次独立请求)更不容易被限流。
+    批量拉取如果整体失败，再退回逐个请求+重试作为兜底。"""
     try:
         import yfinance as yf
     except ImportError:
@@ -492,29 +493,39 @@ def fetch_dxy_vix_oil():
         "btc": "BTC-USD",    # 比特币
         "spx": "^GSPC",      # 标普500
     }
+    symbol_to_key = {v: k for k, v in tickers.items()}
+    result = {key: None for key in tickers}
 
-    def fetch_one(symbol):
-        t = yf.Ticker(symbol)
-        hist = t.history(period="2d")
-        if len(hist) >= 2:
-            last = hist["Close"].iloc[-1]
-            prev = hist["Close"].iloc[-2]
-            change_pct = (last - prev) / prev * 100
-            return {"value": round(float(last), 2), "changePct": round(float(change_pct), 2)}
-        return None
-
-    result = {}
-    for key, symbol in tickers.items():
-        value = None
-        for attempt in range(2):  # 最多试2次：第一次失败大概率是限流，等一下再试一次
+    # ---- 方案A：批量一次性下载(优先) ----
+    try:
+        data = yf.download(list(tickers.values()), period="5d", group_by="ticker", progress=False, threads=False)
+        for symbol, key in symbol_to_key.items():
             try:
-                value = fetch_one(symbol)
-                if value is not None:
-                    break
+                closes = data[symbol]["Close"].dropna()
+                if len(closes) >= 2:
+                    last, prev = float(closes.iloc[-1]), float(closes.iloc[-2])
+                    result[key] = {"value": round(last, 2), "changePct": round((last - prev) / prev * 100, 2)}
             except Exception as e:
-                print(f"[警告] 拉取 {symbol} 第{attempt+1}次尝试失败: {e}")
-            time.sleep(1.5)  # 无论成功失败都稍微停一下，给下一个请求留出间隔，减少被限流概率
-        result[key] = value
+                print(f"[警告] 批量下载中解析 {symbol} 失败: {e}")
+    except Exception as e:
+        print(f"[警告] yf.download 批量拉取整体失败: {e}")
+
+    # ---- 方案B：批量拉取里没成功的代码，逐个重试兜底 ----
+    missing = [key for key, v in result.items() if v is None]
+    if missing:
+        print(f"[信息] 批量拉取后仍缺: {missing}，逐个重试兜底")
+        for key in missing:
+            symbol = tickers[key]
+            for attempt in range(2):
+                try:
+                    hist = yf.Ticker(symbol).history(period="2d")
+                    if len(hist) >= 2:
+                        last, prev = float(hist["Close"].iloc[-1]), float(hist["Close"].iloc[-2])
+                        result[key] = {"value": round(last, 2), "changePct": round((last - prev) / prev * 100, 2)}
+                        break
+                except Exception as e:
+                    print(f"[警告] 兜底重试 {symbol} 第{attempt+1}次失败: {e}")
+                time.sleep(2)
     return result
 
 
