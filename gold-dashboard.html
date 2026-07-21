@@ -11,10 +11,10 @@
 // 尽量避免"因为某个CDN在你的网络环境下访问不了，导致图表整个显示不出来"的问题。
 (function(){
   var sources = [
-    'https://cdn.staticfile.net/chart.js/4.4.4/chart.umd.min.js',   // 国内优化镜像，优先尝试
-    'https://cdn.staticfile.org/chart.js/4.4.4/chart.umd.min.js',   // 同一服务的备用域名
+    'https://lib.baomitu.com/Chart.js/4.4.4/chart.umd.min.js',      // 360前端静态资源库，国内访问优化
     'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js'
+    'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js',
+    'https://cdn.staticfile.net/chart.js/4.4.4/chart.umd.min.js'    // 放最后备用，该镜像近期该版本路径不稳定
   ];
   var i = 0;
   function tryLoad(){
@@ -864,8 +864,8 @@
           <div class="flow-right"><div class="flow-value mono">928.4 吨</div><div class="flow-change" style="color:var(--rise)">+3.2 吨</div></div>
         </div>
         <div class="flow-row">
-          <div class="flow-left"><div class="flow-icon">COT</div><div><div class="flow-name">COMEX非商业净多头</div><div class="flow-sub"><span class="data-tag lag">⏱ 周更</span> · 截至上周五</div></div></div>
-          <div class="flow-right"><div class="flow-value mono">214,300手</div><div class="flow-change" style="color:var(--fall)">-6,100手</div></div>
+          <div class="flow-left"><div class="flow-icon">COT</div><div><div class="flow-name">COMEX非商业净多头</div><div class="flow-sub" id="cotSourceText"><span class="data-tag lag">⏱ 周更</span> · 截至上周五</div></div></div>
+          <div class="flow-right"><div class="flow-value mono" id="cotValue">214,300手</div><div class="flow-change" id="cotChange" style="color:var(--fall)">-6,100手</div></div>
         </div>
         <div class="flow-row">
           <div class="flow-left"><div class="flow-icon">央行</div><div><div class="flow-name">全球央行月度净购金</div><div class="flow-sub"><span class="data-tag lag">⏱ 滞后约2月</span> · 世界黄金协会</div></div></div>
@@ -2042,6 +2042,21 @@ async function loadLiveData(){
       if(bcEl) bcEl.textContent = '新闻源抓取失败: ' + debugMsg;
       const legendEl = document.getElementById('sentLegend');
       if(legendEl) legendEl.textContent = '⚠ 新闻抓取失败，具体原因: ' + debugMsg;
+    }
+
+    // 资金与央行动向：用CFTC官方COT真实数据替换演示数值
+    if(data.cot && typeof data.cot.netLong === 'number'){
+      const cotValEl = document.getElementById('cotValue');
+      const cotChangeEl = document.getElementById('cotChange');
+      const cotSourceEl = document.getElementById('cotSourceText');
+      if(cotValEl) cotValEl.textContent = data.cot.netLong.toLocaleString('en-US') + '手';
+      if(cotChangeEl && typeof data.cot.change === 'number'){
+        cotChangeEl.textContent = (data.cot.change>=0?'+':'') + data.cot.change.toLocaleString('en-US') + '手';
+        cotChangeEl.style.color = data.cot.change >= 0 ? 'var(--rise)' : 'var(--fall)';
+      }
+      if(cotSourceEl && data.cot.reportDate){
+        cotSourceEl.innerHTML = '<span class="data-tag lag">⏱ CFTC官方·周更</span> · 报告日期 ' + data.cot.reportDate;
+      }
     }
 
     // 08关联源：用真实计算的相关系数替换演示数值
