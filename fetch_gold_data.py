@@ -20,7 +20,7 @@
 import json
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import requests
 
@@ -291,6 +291,91 @@ def fetch_fed_rss(limit=6):
         time_str = dt.strftime("%m-%d %H:%M") if dt != datetime.min.replace(tzinfo=timezone.utc) else ""
         news.append({"time": time_str, "text": "[Fed] " + it["title"]})
     return news, None
+
+
+def fetch_gld_holdings():
+    """抓取SPDR Gold Trust(GLD)官方持仓吨数。
+    数据来自State Street(GLD发行方)自己公开的历史数据归档CSV，是官方主动公开的文件，
+    不是逆向爬虫。文件从2004年至今，只取最后几行算最新持仓和较前一交易日的变化。
+    返回 (持仓数据字典或None, 错误信息或None)。"""
+    import csv
+    import io
+
+    try:
+        resp = requests.get(
+            "https://www.spdrgoldshares.com/assets/dynamic/GLD/GLD_US_archive_EN.csv",
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        text = resp.content.decode("utf-8", errors="ignore")
+        reader = list(csv.reader(io.StringIO(text)))
+        # 文件开头有几行说明文字，真正的表头行是第一个以"Date"开头的行
+        header_idx = next((i for i, row in enumerate(reader) if row and row[0].strip() == "Date"), None)
+        if header_idx is None:
+            return None, "CSV文件里没找到表头行(Date)，格式可能已变化"
+
+        data_rows = [row for row in reader[header_idx + 1:] if len(row) > 9 and row[0].strip()]
+        if len(data_rows) < 2:
+            return None, "CSV文件里有效数据行不足2条"
+
+        def parse_tonnes(row):
+            try:
+                return float(row[9].strip())
+            except (ValueError, IndexError):
+                return None
+
+        latest_row, prev_row = data_rows[-1], data_rows[-2]
+        latest_tonnes, prev_tonnes = parse_tonnes(latest_row), parse_tonnes(prev_row)
+        if latest_tonnes is None:
+            return None, "最新一行的吨数字段解析失败"
+
+        return {
+            "tonnes": round(latest_tonnes, 1),
+            "change": round(latest_tonnes - prev_tonnes, 1) if prev_tonnes is not None else None,
+            "date": latest_row[0].strip(),
+        }, None
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
+def fetch_fmp_calendar(days_ahead=3):
+    """抓取Financial Modeling Prep官方经济日历接口。
+    需要免费注册的Key(financialmodelingprep.com免费注册)，通过环境变量 FMP_KEY 传入。
+    跟Finnhub一样，这个具体接口有可能被限制为付费专属，需要实测确认。
+    返回 (日历事件列表或None, 错误信息或None)。"""
+    api_key = os.environ.get("FMP_KEY")
+    if not api_key:
+        return None, "未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）"
+    try:
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        to_date = (datetime.now(timezone.utc) + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+        resp = requests.get(
+            "https://financialmodelingprep.com/api/v3/economic_calendar",
+            params={"from": today, "to": to_date, "apikey": api_key},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        if not isinstance(data, list) or not data:
+            return None, f"接口返回但没有可用事件，原始响应片段: {str(data)[:200]}"
+        events = []
+        for ev in data:
+            country = (ev.get("country") or "").upper()
+            if country not in ("US", "USD", ""):
+                continue
+            events.append({
+                "time": (ev.get("date") or "")[:16].replace("T", " "),
+                "name": ev.get("event") or "",
+                "impact": ev.get("impact") or "",
+                "actual": ev.get("actual"),
+                "estimate": ev.get("estimate"),
+                "prev": ev.get("previous"),
+            })
+        events.sort(key=lambda e: e["time"])
+        return (events[:10], None) if events else (None, "接口返回了事件但过滤后没有近期美国相关数据")
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
 
 
 def fetch_cot_gold():
@@ -598,7 +683,14 @@ def main():
 
     price_action, bars1h, bars4h = fetch_hourly_bars_and_analyze()
     calendar_events, calendar_error = fetch_finnhub_calendar()
+    if not calendar_events:  # Finnhub失败时尝试FMP作为备选
+        fmp_events, fmp_error = fetch_fmp_calendar()
+        if fmp_events:
+            calendar_events, calendar_error = fmp_events, None
+        else:
+            calendar_error = f"{calendar_error} | FMP备选也失败: {fmp_error}"
     cot_gold, cot_error = fetch_cot_gold()
+    gld_holdings, gld_error = fetch_gld_holdings()
 
     output = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
@@ -621,6 +713,8 @@ def main():
         "calendarError": calendar_error,
         "cot": cot_gold,
         "cotError": cot_error,
+        "gld": gld_holdings,
+        "gldError": gld_error,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
