@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-22T00:10:48.909577+00:00",
+  "fetchedAt": "2026-07-22T03:47:53.342013+00:00",
   "gold": {
-    "price": 4089.300049,
-    "updatedAt": "2026-07-22T00:10:35Z"
+    "price": 4134.0,
+    "updatedAt": "2026-07-22T03:47:35Z"
   },
   "silver": {
-    "price": 59.118999,
-    "updatedAt": "2026-07-22T00:10:34Z"
+    "price": 59.909,
+    "updatedAt": "2026-07-22T03:47:34Z"
   },
   "dxy": {
-    "value": 101.18,
-    "changePct": 0.19
+    "value": 101.14,
+    "changePct": 0.15
   },
   "vix": {
     "value": 17.05,
     "changePct": -8.58
   },
   "wti": {
-    "value": 84.62,
-    "changePct": 1.67
+    "value": 85.23,
+    "changePct": 2.4
   },
   "btc": {
-    "value": 66560.04,
-    "changePct": 2.04
+    "value": 66296.96,
+    "changePct": 1.64
   },
   "spx": {
     "value": 7509.2,
@@ -50,104 +50,64 @@
   },
   "news": [
     {
-      "time": "00:07",
-      "text": "中信证券研报称，WAIC 2026维持高关注度，算力芯片领域天数智芯、东方算芯等发布新产品，加速对海外先进产品的性能追赶；超节点是大会核心聚焦，成为指引未来算力发展向系统级层面升维的重要方向；互联等AI Infra技术加速落地，国产底座进一"
+      "time": "03:44",
+      "text": "中国财政部发行91天期债券，规模350亿元，发行利率0.9341%，边际利率1.0536%，预期0.8900%，投标倍数2.65倍，边际倍数2.07倍。"
     },
     {
-      "time": "00:07",
-      "text": "据箭元科技消息，近日，元行者一号运载火箭二级尾舱振动试验顺利完成。试验结果表明，尾舱在经历飞行全过程复杂振动环境后结构可靠，辅助动力系统满足振动环境适应性要求。试验获取了关键设备支架的传递特性，动力学数据完整有效，达到预期目标，为首飞任务实"
+      "time": "03:40",
+      "text": "中国财政部发行182天期债券，规模600亿元，发行利率1.0425%，边际利率1.1598%，预期0.9200%，投标倍数2.02倍，边际倍数1.33倍；\n中国财政部发行10年期债券，规模900亿元，发行利率1.7147%，边际利率1.73"
     },
     {
-      "time": "00:06",
-      "text": "韩国交易所启动Sidecar机制，暂停KOSPI程序化买盘。"
+      "time": "03:39",
+      "text": "菲律宾股指日内下跌1%。"
     },
     {
-      "time": "00:06",
-      "text": "日经225指数日内涨幅扩大至1.1%。"
+      "time": "03:36",
+      "text": "日本拍卖40年期国债，认购倍数2.82，过去12个月均值为2.55。"
     },
     {
-      "time": "00:05",
-      "text": "日本10年期国债收益率上行2.5个基点至2.745%。"
+      "time": "03:31",
+      "text": "上证指数早盘收报3883.58点，涨0.50%。\n深证成指早盘收报14351.91点，涨0.61%。\n创业板指早盘收报3681.20点，跌0.13%。\n沪深300早盘收报4771.10点，涨0.67%。\n科创50早盘收报1932.50点，涨"
     },
     {
-      "time": "00:04",
-      "text": "SK海力士表示，没有收购英特尔俄亥俄州半导体园区的计划。英特尔发言人表示，英特尔致力于在俄亥俄州发展，我们将继续投资，加快该园区的建设。"
+      "time": "03:30",
+      "text": "1、市场早间震荡分化，三大指数涨跌互现。贵金属板块集体走强，山金国际、兴业银锡、赤峰黄金涨停。油气股高开高走，中曼石油涨停。半导体产业链延续反弹，托伦斯、大为股份、通富微电均2连板。电力板块反复活跃，立新能源5连板。算力租赁概念盘中走强，美"
     },
     {
-      "time": "00:02",
-      "text": "韩国表示，有充足的能力稳定外汇市场，敦促出口商将更多海外资金汇回国内；下半年外汇供需平衡将有所改善。"
+      "time": "03:30",
+      "text": "国债期货早盘收盘，30年期主力合约涨0.25%，10年期主力合约涨0.05%，5年期主力合约涨0.02%，2年期主力合约涨0.01%。"
     },
     {
-      "time": "00:01",
-      "text": "韩国首尔综指盘初上涨5%，日经225指数涨0.3%。\n三星电子涨5%，SK海力士涨7%。"
+      "time": "03:29",
+      "text": "近日，有较多传言称“小红书已于6月底前秘密提交IPO申请”，但因前员工举报其“上市合规”问题而受阻。7月22日，小红书方面回应称，目前流传的IPO相关信息均不属实。（界面）"
     },
     {
-      "time": "00:00",
-      "text": "中国即将发行或正在发行的地方政府债"
+      "time": "03:25",
+      "text": "中兴通讯A股涨停，成交额130亿元；中兴通讯H股涨超9%。"
     },
     {
-      "time": "00:00",
-      "text": "中国即将发行或正在发行的国债和政策性金融债"
+      "time": "03:19",
+      "text": "浙江省统计局发布上半年浙江经济运行情况。上半年全省地区生产总值47937亿元，按不变价格计算，同比增长5.7%，高于全国水平（4.7%），稍低于浙江省今年一季度GDP增速（6.0%）。分产业看，第一产业增加值1129亿元，增长4.4%；第二"
     },
     {
-      "time": "23:53",
-      "text": "日本6月份对中国出口同比增长17.6%，对美国出口增长13%，对欧盟出口增长20.3%。"
+      "time": "03:19",
+      "text": "今天，我国太原卫星发射中心在上海东部海域使用引力一号遥四运载火箭，将搭载的东坡13~14星、东坡17~20星、西光贰号01星、天仪49星、紫丁香三号卫星共9颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。（央视新闻）"
     },
     {
-      "time": "23:50",
-      "text": "日本6月季调后商品贸易帐 -8819.32亿日元，预期 -5021亿日元，前值 -904亿日元。"
+      "time": "03:16",
+      "text": "据福建省统计局，根据地区生产总值统一核算结果，上半年全省地区生产总值29315.82亿元，按不变价格计算，同比增长4.0%。其中，第一产业增加值1259.79亿元，同比增长3.6%；第二产业增加值12476.08亿元，增长3.8%；第三产业"
     },
     {
-      "time": "23:50",
-      "text": "日本6月未季调商品贸易帐 -4069亿日元，预期 -984亿日元，前值 -3786亿日元。"
+      "time": "03:15",
+      "text": "伊朗官媒称，伊朗军方袭击了科威特境内的美国目标。"
     },
     {
-      "time": "23:50",
-      "text": "日本6月出口同比 19.3%，预期 18%，前值 17%。"
+      "time": "03:01",
+      "text": "隔夜SHIBOR报1.3730%，下降0.90个基点。\n7天SHIBOR报1.4010%，上涨0.00个基点。\n3个月SHIBOR报1.4300%，上涨0.00个基点。"
     },
     {
-      "time": "23:50",
-      "text": "日本6月进口同比 25.4%，预期 20%，前值 12.5%。"
-    },
-    {
-      "time": "07-21 20:14",
-      "text": "[AV] S&P Global Inc Stock (SPGI) Closed Down by 3.95% on Jul 21: Drivers Behind the Movement"
-    },
-    {
-      "time": "07-21 19:54",
-      "text": "[AV] Video: Huntington Bank Discusses AI, Inflation & More"
-    },
-    {
-      "time": "07-21 19:14",
-      "text": "[AV] Analog Devices Inc Stock (ADI) Moved Up by 3.05% on Jul 21: What Investors Need To Know"
-    },
-    {
-      "time": "07-21 17:53",
-      "text": "[AV] Ross Stores stock trades steadily as discount chain navigates inflation and posts higher quarterly sales"
-    },
-    {
-      "time": "07-21 17:15",
-      "text": "[AV] Citigroup Inc Stock (C) Moved Up by 3.66% on Jul 21: A Full Analysis"
-    },
-    {
-      "time": "07-21 15:51",
-      "text": "[AV] Why Applied Materials (AMAT) Stock Is Up Today"
-    },
-    {
-      "time": "07-21 14:12",
-      "text": "[AV] Darden Restaurants stock trades steadily as Olive Garden parent navigates inflation and traffic trends"
-    },
-    {
-      "time": "07-21 14:10",
-      "text": "[AV] Full Transcript: Atlantic Union Bankshares Q2 2026 Earnings Call"
-    },
-    {
-      "time": "07-21 13:40",
-      "text": "[AV] AGNC beats EPS estimates but misses revenue in Q2 2026 amid challenging market conditions"
-    },
-    {
-      "time": "07-21 13:38",
-      "text": "[AV] Newmont Advances on Gold Rally and Earnings Optimism"
+      "time": "02:58",
+      "text": "国务院新闻办举行新闻发布会，介绍贯彻落实“十五五”规划，加快推进海关现代化，服务贸易强国建设有关情况。会上介绍，我国推动自主开放、单边开放政策落地见效。今年5月我国对非洲建交国全面实施了零关税举措。目前，我国实施零关税的国家已达到63个。（"
     },
     {
       "time": "07-16 23:00",
@@ -174,38 +134,24 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 2,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4081.9,
-    "measuredMoveLow": 4103.95,
-    "measuredMoveHigh": 4126.0,
-    "sma20": 4073.48,
-    "currentPrice": 4081.9
+    "signalBarBull": true,
+    "signalBarPrice": 4126.0,
+    "measuredMoveLow": 4187.1,
+    "measuredMoveHigh": 4235.9,
+    "sma20": 4084.25,
+    "currentPrice": 4138.3
   },
   "bars1h": [
-    {
-      "open": 4008.0,
-      "high": 4026.699951171875,
-      "low": 4006.5,
-      "close": 4022.0
-    },
-    {
-      "open": 4022.199951171875,
-      "high": 4035.5,
-      "low": 4021.800048828125,
-      "close": 4023.300048828125
-    },
-    {
-      "open": 4023.0,
-      "high": 4027.699951171875,
-      "low": 4018.699951171875,
-      "close": 4025.300048828125
-    },
     {
       "open": 4025.800048828125,
       "high": 4030.39990234375,
@@ -424,18 +370,30 @@
     },
     {
       "open": 4085.5,
-      "high": 4086.10009765625,
+      "high": 4107.5,
       "low": 4081.10009765625,
-      "close": 4081.89990234375
+      "close": 4101.60009765625
+    },
+    {
+      "open": 4102.2998046875,
+      "high": 4128.39990234375,
+      "low": 4100.7998046875,
+      "close": 4126.0
+    },
+    {
+      "open": 4126.39990234375,
+      "high": 4135.2998046875,
+      "low": 4123.10009765625,
+      "close": 4134.7001953125
+    },
+    {
+      "open": 4134.7998046875,
+      "high": 4146.0,
+      "low": 4133.60009765625,
+      "close": 4138.2998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4062.10009765625,
-      "high": 4067.199951171875,
-      "low": 4052.699951171875,
-      "close": 4065.10009765625
-    },
     {
       "open": 4066.300048828125,
       "high": 4068.60009765625,
@@ -606,17 +564,25 @@
     },
     {
       "open": 4084.699951171875,
-      "high": 4089.0,
+      "high": 4128.39990234375,
       "low": 4081.0,
-      "close": 4081.89990234375
+      "close": 4126.0
+    },
+    {
+      "open": 4126.39990234375,
+      "high": 4146.0,
+      "low": 4123.10009765625,
+      "close": 4138.2998046875
     }
   ],
   "calendar": null,
-  "calendarError": "HTTPError: 403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0",
+  "calendarError": "HTTPError: 403 Client Error: Forbidden for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
     "netLong": 186682,
     "change": -7564,
     "reportDate": "2026-07-14"
   },
-  "cotError": null
+  "cotError": null,
+  "gld": null,
+  "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
