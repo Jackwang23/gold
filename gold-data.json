@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-22T20:48:02.166981+00:00",
+  "fetchedAt": "2026-07-22T22:04:55.714064+00:00",
   "gold": {
-    "price": 4130.399902,
-    "updatedAt": "2026-07-22T20:47:37Z"
+    "price": 4120.399902,
+    "updatedAt": "2026-07-22T22:04:37Z"
   },
   "silver": {
-    "price": 59.851002,
-    "updatedAt": "2026-07-22T20:47:36Z"
+    "price": 59.719002,
+    "updatedAt": "2026-07-22T22:04:36Z"
   },
   "dxy": {
-    "value": 101.11,
-    "changePct": -0.07
+    "value": 101.14,
+    "changePct": -0.04
   },
   "vix": {
     "value": 16.64,
     "changePct": -2.4
   },
   "wti": {
-    "value": 86.61,
-    "changePct": 2.0
+    "value": 86.48,
+    "changePct": 1.85
   },
   "btc": {
-    "value": 65866.32,
-    "changePct": -0.96
+    "value": 65979.15,
+    "changePct": -0.79
   },
   "spx": {
     "value": 7498.96,
@@ -50,104 +50,64 @@
   },
   "news": [
     {
-      "time": "20:46",
-      "text": "谷歌Pichai：2026年世界杯期间，搜索创历史新高。\nGemini驱动谷歌云增长。\n公司看到人工智能（AI）基础设施带来强劲需求。"
+      "time": "22:03",
+      "text": "周四亚太盘初，纳指期货跌0.3%，谷歌A与特斯拉掀开美国科技股业绩报告序幕。"
     },
     {
-      "time": "20:42",
-      "text": "美国众议院以216票赞成、212票反对的微弱优势通过规模达1.15万亿美元的《国防授权法案》。\n7名共和党议员投票反对，6名民主党议员投票支持。"
+      "time": "22:01",
+      "text": "WTI原油期货高开1.3%，也门胡塞武装在红海打击第一批（沙特）油轮。"
     },
     {
-      "time": "20:36",
-      "text": "德州仪器：汽车业务在二季度加速。"
+      "time": "21:56",
+      "text": "特斯拉：仍然预计2026年资本开支将超过250亿美元。\n资本开支将在未来2-3年增长。"
     },
     {
-      "time": "20:35",
-      "text": "美国和沙特阿拉伯达成核合作协议。"
+      "time": "21:50",
+      "text": "特斯拉CFO：二季度电动汽车订单积压（存量）是2023年以来最大的。"
     },
     {
-      "time": "20:34",
-      "text": "道明证券（TD Securities）策略师Gennadiy Goldberg和Molly Brooks在一份报告中表示，美联储的资产负债表可能要到2027年底才会开始缩减，而且即便如此，央行也有可能选择按兵不动，让经济体量“自然增长”来消"
+      "time": "21:50",
+      "text": "总台记者23日获悉，据英国海上贸易行动办公室消息，一艘油轮在距离沙特阿拉伯希基格（Al Shuqaiq）约70海里的海域发生安全事件。该船只船长报告称，该船遭一枚来源不明的抛射物击中，导致船上起火。英国海上贸易行动办公室表示，事件正在进一步"
     },
     {
-      "time": "20:33",
-      "text": "周三（7月22日），美股行业ETF多数收跌，网络股指数ETF、全球航空业ETF、生物科技指数ETF至多跌1.86%，半导体ETF涨0.48%，能源业ETF涨1.20%。\n标普500指数的11个板块中，电信板块收跌1.29%，可选消费板块跌0"
+      "time": "21:49",
+      "text": "马斯克：对特斯拉自动驾驶和机器人路线图“超级兴奋”。\n将有大量产品信息宣布。"
     },
     {
-      "time": "20:09",
-      "text": "特斯拉：在上半年将美国得州工厂的本地算力规模翻了一倍多。\n电池包产能仍然是限制性因素。\n公司正设法提高电池包的产能。"
+      "time": "21:42",
+      "text": "马斯克：“很快”就会宣布Terafab的选址。"
     },
     {
-      "time": "20:09",
-      "text": "IBM二季度营收171.6亿美元。\n二季度软件营收77.6亿美元，分析师预期79.9亿美元。\n二季度咨询营收53.3亿美元，分析师预期53.9亿美元。\n预计全年营收按恒定汇率将增长4%-5%，公司原本预计大约增长5%。"
+      "time": "21:41",
+      "text": "特斯拉美股盘后跌幅扩大至5%，SpaceX涨0.7%。\n马斯克在分析师电话会上表示：Optimus将是特斯拉最难实现规模化量产的产品。"
     },
     {
-      "time": "20:05",
-      "text": "特斯拉：预计美国Fremont工厂的人形机器人Optimus将于今年稍晚投产。\n半拖车与Megapack 3仍然按生产进度推进。"
+      "time": "21:41",
+      "text": "特斯拉美股盘后跌幅扩大至5%，马斯克在分析师电话会上表示：Optimus将是特斯拉最难实现规模化量产的产品。"
     },
     {
-      "time": "20:05",
-      "text": "谷歌母公司Alphabet：Gemini APP月活用户数（MAUs）达到9.5亿。\n（一系列）AI功能正驱动搜索增长。\n（众多）Gemini模型现在每分钟处理220亿API Tokens。"
+      "time": "21:37",
+      "text": "特斯拉美股盘后维持下跌3%的状态，马斯克在电话会议上讲话。"
     },
     {
-      "time": "20:04",
-      "text": "特斯拉二季度营收282.4亿美元，分析师预期263.2亿美元。\n二季度汽车营收205.2亿美元，分析师预期186.8亿美元。\n二季度服务与其他营收45.8亿美元，分析师预期32.7亿美元。\n二季度活跃的FSD（全自动驾驶）订阅用户数148万"
+      "time": "21:36",
+      "text": "马斯克：今年是资本支出（CapEx）极为庞大的一年。\n但我坚信，我们目前投入的所有项目都将带来极其丰厚的回报，这甚至会是我们见过的最高资本支出回报率。"
     },
     {
-      "time": "20:02",
-      "text": "谷歌母公司Alphabet二季度营收1198亿美元，分析师预期1170.2亿美元。\n二季度剔除流量获取成本（Ex-TAC）营收103.6亿美元，分析师预期1010.7亿美元。\n二季度谷歌云营收247.7亿美元，分析师预期224.6亿美元；谷"
+      "time": "21:35",
+      "text": "马斯克：FSD是车辆销售的一个“重大需求推手”。\n特斯拉需要谨慎对待那些无人驾驶出租车（Robotaxi）事故。"
     },
     {
-      "time": "20:01",
-      "text": "德州仪器二季度营收54.6亿美元，分析师预期52.4亿美元。"
+      "time": "21:31",
+      "text": "也门胡塞武装当地时间23日凌晨表示已在红海袭击两艘沙特油轮，并称这两艘油轮违反该组织近期宣布的海上禁运令。（新华社）"
     },
     {
-      "time": "20:00",
-      "text": "美股软件ETF收跌3%，创6月5日以来最大单日跌幅。"
+      "time": "21:25",
+      "text": "谷歌母公司Alphabet的CFO：收购Wiz对谷歌云利润构成拖累。"
     },
     {
-      "time": "20:00",
-      "text": "纳斯达克金龙中国指数收跌1.80%，报6180.98点。\n热门中概股里，网易初步收跌6.6%，%腾讯跌6%，小鹏、B站、贝壳、金山云跌超3%，携程跌2.5%，阿里跌1.4%，华住、世纪互联、大全新能源至少涨超1%。\nETF中，中概互联网指数"
-    },
-    {
-      "time": "07-22 18:15",
-      "text": "[AV] DoorDash Inc Stock (DASH) Moved Down by 5.27% on Jul 22: What Signal Does It Send?"
-    },
-    {
-      "time": "07-22 17:38",
-      "text": "[AV] Prologis Inc Stock (PLD) Moved Down by 3.25% on Jul 22: What Signal Does It Send?"
-    },
-    {
-      "time": "07-22 17:09",
-      "text": "[AV] Bradesco Vz stock steadies as loan growth supports earnings"
-    },
-    {
-      "time": "07-22 16:45",
-      "text": "[AV] Gold miners set for earnings growth, but higher costs could temper gains"
-    },
-    {
-      "time": "07-22 15:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.94% on Jul 22: Drivers Behind the Movement"
-    },
-    {
-      "time": "07-22 14:33",
-      "text": "[AV] Citizens Financial stock edges higher as loan growth and credit quality support outlook"
-    },
-    {
-      "time": "07-22 13:13",
-      "text": "[AV] Trustmark stock trades steadily as recent earnings highlight margin and loan growth"
-    },
-    {
-      "time": "07-22 11:11",
-      "text": "[AV] BMA stock trades steady as Banco Macro reports resilient earnings and capital ratios"
-    },
-    {
-      "time": "07-22 06:42",
-      "text": "[AV] ING Groep stock trades steadily as capital returns and interest income support earnings"
-    },
-    {
-      "time": "07-22 02:11",
-      "text": "[AV] Royal Bank Of Canada Stock Leads Large Cap Dividend Growth Ideas"
+      "time": "21:24",
+      "text": "周三美股盘后，与人工智能（AI）基础设施相关的公司股票集体走高。此前，谷歌母公司Alphabet在财报电话会议上表示，公司计划在第三季度扩大对第三方算力容量的使用。\n在算力租赁商（Neoclouds）方面，CoreWeave上涨3.7%，N"
     },
     {
       "time": "07-16 23:00",
@@ -174,7 +134,11 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -182,10 +146,10 @@
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4152.8,
-    "measuredMoveLow": 4175.3,
-    "measuredMoveHigh": 4210.6,
-    "sma20": 4135.12,
-    "currentPrice": 4140.0
+    "measuredMoveLow": 4170.3,
+    "measuredMoveHigh": 4205.6,
+    "sma20": 4134.87,
+    "currentPrice": 4135.0
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4136.39990234375,
       "high": 4142.7998046875,
-      "low": 4135.10009765625,
-      "close": 4140.0
+      "low": 4133.2001953125,
+      "close": 4135.0
     }
   ],
   "bars4h": [
@@ -607,8 +571,8 @@
     {
       "open": 4152.7998046875,
       "high": 4153.60009765625,
-      "low": 4133.89990234375,
-      "close": 4140.0
+      "low": 4133.2001953125,
+      "close": 4135.0
     }
   ],
   "calendar": null,
