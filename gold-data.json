@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-23T14:21:10.240588+00:00",
+  "fetchedAt": "2026-07-23T16:08:10.155182+00:00",
   "gold": {
-    "price": 4045.300049,
-    "updatedAt": "2026-07-23T14:20:51Z"
+    "price": 4049.899902,
+    "updatedAt": "2026-07-23T16:07:51Z"
   },
   "silver": {
-    "price": 57.780998,
-    "updatedAt": "2026-07-23T14:20:50Z"
+    "price": 57.803001,
+    "updatedAt": "2026-07-23T16:07:50Z"
   },
   "dxy": {
     "value": 101.49,
     "changePct": 0.34
   },
   "vix": {
-    "value": 18.89,
-    "changePct": 13.52
+    "value": 19.83,
+    "changePct": 19.17
   },
   "wti": {
-    "value": 91.73,
-    "changePct": 5.64
+    "value": 92.06,
+    "changePct": 6.02
   },
   "btc": {
-    "value": 65031.99,
-    "changePct": -1.62
+    "value": 64783.4,
+    "changePct": -1.99
   },
   "spx": {
-    "value": 7420.41,
-    "changePct": -1.05
+    "value": 7403.98,
+    "changePct": -1.27
   },
   "fred": {
     "10y_treasury": {
@@ -50,64 +50,104 @@
   },
   "news": [
     {
-      "time": "14:20",
-      "text": "提醒：北京时间22:30，美国能源信息署（EIA）将发布天然气库存周报。"
+      "time": "16:07",
+      "text": "【黄仁勋力挺中国AI模型：DeepSeek、Kimi这样优秀的大模型得到广泛应用】据美国媒体当地时间22日报道，英伟达公司创始人兼首席执行官黄仁勋在接受采访时谈及中国人工智能发展，称中国开源AI模型非常优秀，美国不应惧怕中国的开源AI模型。"
     },
     {
-      "time": "14:17",
-      "text": "欧洲央行官员们准备9月份加息。（彭博）"
+      "time": "16:01",
+      "text": "当地时间23日，据总台记者消息，伊朗南部格什姆岛传出爆炸声。（央视）"
     },
     {
-      "time": "14:08",
-      "text": "俄罗斯讨论将柴油出口禁令延长一个月。\n讨论将汽油出口禁令延长六个月。（国际文传电讯社IFX）"
+      "time": "16:00",
+      "text": "房地美：美国上周30年期按揭贷款/抵押贷款利率6.58%，创最近11个月新高，前值6.55%。"
     },
     {
-      "time": "14:07",
-      "text": "俄罗斯：黑海专属经济区航行不安全。"
+      "time": "15:58",
+      "text": "周四（7月23日）欧市尾盘，英国10年期国债收益率涨6.9个基点，报5.104%，北京时间19:00以来加速上涨、23:32达到5.122%。\n两年期英债收益率涨6.8个基点，报4.490%，23:32也刷新日高至4.507%。\n30年期英"
     },
     {
-      "time": "14:06",
-      "text": "明晟MSCI新兴市场外汇指数回吐涨幅，南非兰特、墨西哥比索刷新日低。"
+      "time": "15:54",
+      "text": "xAI：将Grok 4.5投放到苹果公司iOS、安卓、网页、以及X平台。"
     },
     {
-      "time": "14:05",
-      "text": "据美国纽约联储数据，上个交易日（7月22日）担保隔夜融资利率（SOFR）报3.62%，之前一天报3.61%。\n上个交易日有效的联邦基金利率报3.63%，之前一天报3.63%。"
+      "time": "15:53",
+      "text": "伊朗媒体：美军导弹袭击伊朗南部Qeshm Island的Suaz小镇。"
     },
     {
-      "time": "14:04",
-      "text": "目前，上交所已上市产业园区REITs达15只，募资规模逾280亿元，底层资产广泛分布于国家级新区、经开区、高新区和自贸试验区等重点区域。据悉，当前产业园区REITs年化现金流分派率大多处于5%至7%区间，在产权类REITs中处于较高水平，部"
+      "time": "15:51",
+      "text": "据伊朗媒体23日报道，伊朗南部格什姆岛当天发生爆炸。（新华社）"
     },
     {
-      "time": "14:01",
-      "text": "世界银行：预计委内瑞拉地震造成196亿美元损失。"
+      "time": "15:49",
+      "text": "家乐福上半年净销售394.3亿欧元，分析师预期398.8亿欧元。\n二季度同店（LFL）销售（剔除燃料、日历因素）增长1.9%。\n二季度销售（含增值税VAT）为227.1亿欧元，分析师预期230.1亿欧元。\nCFO Matthieu Mali"
     },
     {
-      "time": "14:00",
-      "text": "欧元区7月消费者信心指数初值 -15.9，预期 -17，前值 -17.7。"
+      "time": "15:48",
+      "text": "在严重风暴切断了道路通行后，巴里克矿业公司（Barrick Mining Corp.）计划从周五开始，使用直升机撤离滞留在智利北部两个营地的员工。\n公司在一份声明中表示，巴里亚莱斯（Barriales）和波特雷里约斯（Potrerillos"
     },
     {
-      "time": "13:59",
-      "text": "当地时间7月23日上午，2026年国际数学家大会在美国费城开幕，现场揭晓2026年菲尔兹奖得主。中国青年数学家王虹、邓煜获奖。"
+      "time": "15:46",
+      "text": "育碧娱乐第一财季销售2.682亿欧元，分析师预期2.729亿欧元。\n第一财季净预定2.558亿欧元，分析师预期2.543亿欧元。\n预计第二财季净预定大约3.70亿欧元，分析师预期4.264亿欧元。"
     },
     {
-      "time": "13:58",
-      "text": "特斯拉跌幅扩大至近13%，公司Q2营收大增26%但盈利降18%远逊预期，现金流转负，强调处最大投资阶段。"
+      "time": "15:40",
+      "text": "明晟公司MSCI北欧国家指数跌1%，报388.68点。\n在十个板块中，北欧金融板块跌幅最大。\nStora Enso Oyj跌8.5%，在一众北欧个股里表现最差。"
     },
     {
-      "time": "13:55",
-      "text": "当地时间23日，伊朗伊斯兰革命卫队公共关系部发表声明称，为回应美军行动，伊朗伊斯兰革命卫队当天对位于科威特阿迪里基地的美国特种电子战部队发起打击，造成多名美军人员伤亡。"
+      "time": "15:39",
+      "text": "据美国媒体23日报道，美国总统特朗普当天称，他正在“认真考虑”重启对伊朗的大规模作战行动。（新华社）"
     },
     {
-      "time": "13:51",
-      "text": "①关于决议结果：欧洲央行维持利率不变（符合预期），但警告能源冲击通胀影响尚未完全显现。\n②关于未来利率路径：重申不会预先承诺政策行动，而是将根据陆续获得的信息，逐次会议作出决定；欧洲央行“处于有利位置”，能够应对当前局势。\n③关于通胀：通胀"
+      "time": "15:38",
+      "text": "由于一项新的许可证制度打乱了货运流程，印度白银进口大幅放缓，推动当地溢价升至数月高位。知情人士称，多数银行尚未获得进口这种白色金属所需的许可，仍在等待政府批准，目前仅有少数几家银行获得了许可证。由此导致的供应紧缩，已将30天平均溢价推升至至"
     },
     {
-      "time": "13:45",
-      "text": "近日，中东地区紧张局势升温，多国发生战事。据沙特官方消息，在过去24小时内，东部达曼地区发布安全警报，有沙特运营的船只在红海航行时遭袭。局势有进一步恶化的可能。"
+      "time": "15:33",
+      "text": "白宫新闻秘书Leavitt：沙特有望迅速加入（亚伯拉罕）协议，美国总统特朗普已经与沙特讨论这方面的问题。\n将设法最终敲定美国与沙特之间的（核能）协议。\n将继续与沙特对话。"
     },
     {
-      "time": "13:43",
-      "text": "第三次中加高级别国家安全与法治对话22日在京举行，双方就打击跨国犯罪、反恐、禁毒、移民执法合作等问题深入交换意见。中共中央政法委秘书长訚柏与加拿大总理外交和国际事务高级顾问莫里森共同主持对话。"
+      "time": "15:32",
+      "text": "美国财政部拍卖四周期国债，得标利率3.730%，投标倍数2.79。\n拍卖八周期国债，得标利率3.795%，投标倍数2.31。"
+    },
+    {
+      "time": "07-23 11:09",
+      "text": "[AV] Opendoor Technologies Inc. (NASDAQ:OPEN) Sees 12% Contract Uptick, Margins in Focus"
+    },
+    {
+      "time": "07-23 11:07",
+      "text": "[AV] IPOs Have Been a Losing Bet Since 2019"
+    },
+    {
+      "time": "07-23 09:52",
+      "text": "[AV] Goldman, Absa Say Iran War Has Closed Window for Ghana Rate Cuts"
+    },
+    {
+      "time": "07-23 09:42",
+      "text": "[AV] Korea’s top financial groups head for record first-half earnings as KB and Shinhan beat estimates"
+    },
+    {
+      "time": "07-23 05:41",
+      "text": "[AV] Transcript: Cathay General Q2 2026 Earnings Conference Call"
+    },
+    {
+      "time": "07-23 05:41",
+      "text": "[AV] Bitcoin Price Forecast: Odds of a Rally Rise as BTC ETF Inflows Near $1 Billion in 6 Days"
+    },
+    {
+      "time": "07-23 02:40",
+      "text": "[AV] BPOP: High Profitability And Capital Return Will Offset Rate And Credit Uncertainty"
+    },
+    {
+      "time": "07-22 20:07",
+      "text": "[AV] Equifax Says Inflation Is Hitting Lower-Income Consumers"
+    },
+    {
+      "time": "07-22 18:15",
+      "text": "[AV] DoorDash Inc Stock (DASH) Moved Down by 5.27% on Jul 22: What Signal Does It Send?"
+    },
+    {
+      "time": "07-22 17:38",
+      "text": "[AV] Prologis Inc Stock (PLD) Moved Down by 3.25% on Jul 22: What Signal Does It Send?"
     },
     {
       "time": "07-16 23:00",
@@ -134,30 +174,20 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 2,
-    "isTrendStructure": true,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 1,
+    "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4064.6,
-    "measuredMoveLow": 3940.0,
-    "measuredMoveHigh": 3992.95,
-    "sma20": 4109.48,
-    "currentPrice": 4045.9
+    "measuredMoveLow": 3948.6,
+    "measuredMoveHigh": 3999.35,
+    "sma20": 4105.65,
+    "currentPrice": 4050.1
   },
   "bars1h": [
-    {
-      "open": 4084.699951171875,
-      "high": 4089.0,
-      "low": 4081.0,
-      "close": 4084.60009765625
-    },
     {
       "open": 4084.39990234375,
       "high": 4087.39990234375,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4046.10009765625,
-      "high": 4053.300048828125,
+      "high": 4064.699951171875,
       "low": 4042.5,
-      "close": 4045.89990234375
+      "close": 4061.10009765625
+    },
+    {
+      "open": 4061.5,
+      "high": 4062.60009765625,
+      "low": 4045.0,
+      "close": 4050.10009765625
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4064.199951171875,
       "high": 4070.10009765625,
       "low": 4042.5,
-      "close": 4045.89990234375
+      "close": 4050.10009765625
     }
   ],
   "calendar": null,
