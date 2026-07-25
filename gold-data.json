@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-25T19:45:21.238632+00:00",
+  "fetchedAt": "2026-07-25T20:35:56.363062+00:00",
   "gold": {
     "price": 4053.699951,
-    "updatedAt": "2026-07-25T19:44:55Z"
+    "updatedAt": "2026-07-25T20:35:26Z"
   },
   "silver": {
     "price": 58.282001,
-    "updatedAt": "2026-07-25T19:44:55Z"
+    "updatedAt": "2026-07-25T20:35:25Z"
   },
   "dxy": {
     "value": 101.47,
@@ -21,8 +21,8 @@
     "changePct": -3.12
   },
   "btc": {
-    "value": 64329.87,
-    "changePct": 0.36
+    "value": 64273.07,
+    "changePct": 0.27
   },
   "spx": {
     "value": 7411.98,
@@ -110,6 +110,46 @@
       "text": "7月16-18日，国家数据局党组书记、局长刘烈宏带队赴上海市，实地调研上海数据集团、上海数据交易所、上海申康医院发展中心、智元创新（上海）、它石智航、零数科技、无问芯穹、优咔网络、灵犀云、垣信卫星、国泰海通证券、松鼠云上技术等公司，围绕数据"
     },
     {
+      "time": "07-25 01:44",
+      "text": "[AV] Korea Electric Power Stock And 2 Korean Energy Names Facing Inflation Pressure"
+    },
+    {
+      "time": "07-25 01:10",
+      "text": "[AV] Oil Prices Above $100 Put RPC Santos And Expro In Focus"
+    },
+    {
+      "time": "07-24 20:41",
+      "text": "[AV] What’s Happening in the Markets This Week"
+    },
+    {
+      "time": "07-24 19:18",
+      "text": "[AV] Eaton Corporation PLC Stock (ETN) Moved Down by 3.05% on Jul 24: What Investors Need To Know"
+    },
+    {
+      "time": "07-24 17:18",
+      "text": "[AV] Western Digital Corp Stock (WDC) Moved Down by 5.14% on Jul 24: Facts Behind the Movement"
+    },
+    {
+      "time": "07-24 17:15",
+      "text": "[AV] Marvell Technology Inc Stock (MRVL) Moved Down by 5.22% on Jul 24: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-24 16:42",
+      "text": "[AV] Robert Half (RHI) Stock Trades Down, Here Is Why"
+    },
+    {
+      "time": "07-24 16:37",
+      "text": "[AV] Applied Materials Inc Stock (AMAT) Moved Down by 3.83% on Jul 24: A Full Analysis"
+    },
+    {
+      "time": "07-24 15:13",
+      "text": "[AV] iShares Trust- iShares iBoxx Investment Grade Corporate Bond ETF"
+    },
+    {
+      "time": "07-24 14:20",
+      "text": "[AV] Citi Drops Rand Bet After South Africa's Surprise Rate Hold"
+    },
+    {
       "time": "07-16 23:00",
       "text": "[Fed] Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective"
     },
@@ -134,11 +174,7 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
