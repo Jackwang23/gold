@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-26T15:39:44.228718+00:00",
+  "fetchedAt": "2026-07-26T16:36:38.073611+00:00",
   "gold": {
     "price": 4053.699951,
-    "updatedAt": "2026-07-26T15:39:27Z"
+    "updatedAt": "2026-07-26T16:36:27Z"
   },
   "silver": {
     "price": 58.282001,
-    "updatedAt": "2026-07-26T15:39:26Z"
+    "updatedAt": "2026-07-26T16:36:26Z"
   },
   "dxy": {
     "value": 101.47,
@@ -21,8 +21,8 @@
     "changePct": -3.12
   },
   "btc": {
-    "value": 64747.86,
-    "changePct": 0.68
+    "value": 64792.85,
+    "changePct": 0.75
   },
   "spx": {
     "value": 7411.98,
@@ -110,6 +110,46 @@
       "text": "7月26日，国内首款按适航要求研制的多功能长航时无人机TP200在山东烟台完成首飞。\nTP200无人机由壹通无人机自主研制，试飞过程中姿态稳定可控，爬升高度、巡航速度等均达到设计指标。TP200是专门针对长航时高空作业打造的机型，满载续航能"
     },
     {
+      "time": "07-26 11:35",
+      "text": "[AV] McDonald’s stock trades near record territory as strong U.S. sales and higher prices support margins"
+    },
+    {
+      "time": "07-26 04:10",
+      "text": "[AV] TSMC Stock And 2 Asian AI Exporters Worth Watching Now"
+    },
+    {
+      "time": "07-25 20:10",
+      "text": "[AV] Opendoor Technologies (NASDAQ:OPEN) Shares Fall 15% Amid Mortgage Rate Pressures at Market Close"
+    },
+    {
+      "time": "07-25 16:39",
+      "text": "[AV] WMT|Walmart Inc|Price:109.470|Chg%:+1.070"
+    },
+    {
+      "time": "07-25 01:44",
+      "text": "[AV] Korea Electric Power Stock And 2 Korean Energy Names Facing Inflation Pressure"
+    },
+    {
+      "time": "07-25 01:10",
+      "text": "[AV] Oil Prices Above $100 Put RPC Santos And Expro In Focus"
+    },
+    {
+      "time": "07-24 20:41",
+      "text": "[AV] What’s Happening in the Markets This Week"
+    },
+    {
+      "time": "07-24 19:18",
+      "text": "[AV] Eaton Corporation PLC Stock (ETN) Moved Down by 3.05% on Jul 24: What Investors Need To Know"
+    },
+    {
+      "time": "07-24 17:18",
+      "text": "[AV] Western Digital Corp Stock (WDC) Moved Down by 5.14% on Jul 24: Facts Behind the Movement"
+    },
+    {
+      "time": "07-24 17:15",
+      "text": "[AV] Marvell Technology Inc Stock (MRVL) Moved Down by 5.22% on Jul 24: Key Drivers Unveiled"
+    },
+    {
       "time": "07-16 23:00",
       "text": "[Fed] Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective"
     },
@@ -134,11 +174,7 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
