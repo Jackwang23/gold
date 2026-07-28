@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-28T20:46:05.438574+00:00",
+  "fetchedAt": "2026-07-28T22:05:07.748722+00:00",
   "gold": {
-    "price": 4031.199951,
-    "updatedAt": "2026-07-28T20:45:42Z"
+    "price": 4026.800049,
+    "updatedAt": "2026-07-28T22:04:42Z"
   },
   "silver": {
-    "price": 57.257999,
-    "updatedAt": "2026-07-28T20:45:41Z"
+    "price": 57.261002,
+    "updatedAt": "2026-07-28T22:04:41Z"
   },
   "dxy": {
-    "value": 101.42,
-    "changePct": -0.05
+    "value": 101.38,
+    "changePct": -0.09
   },
   "vix": {
     "value": 18.21,
     "changePct": -2.46
   },
   "wti": {
-    "value": 78.92,
-    "changePct": -4.47
+    "value": 79.13,
+    "changePct": -4.21
   },
   "btc": {
-    "value": 63849.04,
-    "changePct": 0.19
+    "value": 63922.55,
+    "changePct": 0.31
   },
   "spx": {
     "value": 7428.78,
@@ -43,12 +43,48 @@
     "dataPoints": 10,
     "minRequired": 10,
     "dxy": null,
-    "realRate": 0.297,
-    "vix": -0.65,
-    "btc": 0.43,
+    "realRate": 0.282,
+    "vix": -0.644,
+    "btc": 0.439,
     "spx": 0.278
   },
   "news": [
+    {
+      "time": "22:01",
+      "text": "WTI原油日内涨幅达1.5%，报80.65美元/桶。"
+    },
+    {
+      "time": "21:52",
+      "text": "随着交易员为美联储可能于周三开始加息的风险进行布局，与美联储基准利率挂钩的期货头寸激增至历史最高水平。将在本次利率决议公布后结算的联邦基金利率期货未平仓合约数量，超过了2024年10月合约创下的此前纪录；当时市场对美联储会议结果的分歧同样很"
+    },
+    {
+      "time": "21:40",
+      "text": "据科技公司Modal Labs的一位高管和一位知情人士透露，那个从OpenAI逃脱并在人工智能公司Hugging Face进行了长达数天的疯狂黑客攻击的“流氓代理”（（rogue agent）），还入侵了Modal Labs的一名客户。根据"
+    },
+    {
+      "time": "21:15",
+      "text": "富时A50期指连续夜盘收涨0.22%，报14851点。"
+    },
+    {
+      "time": "21:09",
+      "text": "周二（7月28日）纽约尾盘，标普500股指期货最终涨0.28%，道指期货涨0.98%，纳斯达克100股指期货跌0.82%。\n罗素2000股指期货涨0.19%。"
+    },
+    {
+      "time": "21:05",
+      "text": "周二（7月28日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7711元，较周一纽约尾盘跌56点，日内整体交投于6.7640-6.7737元区间。"
+    },
+    {
+      "time": "21:01",
+      "text": "官方周二表示，一艘船近日在拍卖中支付了370万美元，以换取更快速地通过巴拿马运河。\n巴拿马运河管理局表示，这一结果反映了“在特定时间节点对运河通行能力的需求”。\n运河管理局拒绝透露该船只的名称及与此次交易相关的其他细节。\n运河管理局指出，企"
+    },
+    {
+      "time": "20:59",
+      "text": "周二（7月28日）纽约尾盘，现货黄金跌1.17%，报4028.70美元/盎司，整体持续走低，交投于4083.01-4011.82美元，仅仅北京时间06:00前后曾短暂上涨。\nCOMEX黄金期货跌1.11%，报4090.40美元/盎司。\n现货"
+    },
+    {
+      "time": "20:49",
+      "text": "ENPH（Enphase Energy）首席执行官在财报电话会议上表示：美国住宅太阳能市场已趋于稳定。"
+    },
     {
       "time": "20:45",
       "text": "明晟公司MSCI新兴市场股票指数跌3.7%，外汇指数大致持平。"
@@ -72,82 +108,6 @@
     {
       "time": "20:20",
       "text": "秘鲁当选总统藤森庆子28日在该国首都利马宣誓就职，任期至2031年7月。\n藤森庆子当天在就职典礼上说，新政府将把应对厄尔尼诺现象和改善社会治安作为两项国家紧急任务，同时加快基础设施建设，推动青年就业、教育、社会保障等领域改革。她呼吁各政治力"
-    },
-    {
-      "time": "20:20",
-      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
-    },
-    {
-      "time": "20:18",
-      "text": "美股存储芯片概念股普跌，闪迪收跌14.25%，Rambus跌8.99%，美光科技跌8.85%，希捷科技跌8.53%，西部数据跌6.95%。\n此外，SK海力士ADR跌8.98%。"
-    },
-    {
-      "time": "20:17",
-      "text": "Bloom Energy二季度调整后每股收益（EPS）为0.78美元，分析师预期0.40美元。\n二季度营收10.7亿美元，分析师预期8.387亿美元。\n预计全年营收39亿-42亿美元，公司原本预计34亿-38亿美元。"
-    },
-    {
-      "time": "20:16",
-      "text": "科磊第四财季营收36.6亿美元，分析师预期36亿美元。\n第四财季资本开支8930万美元，分析师预期9630万美元。\n预计第一财季营收38亿-42亿美元，分析师预期39.4亿美元。"
-    },
-    {
-      "time": "20:10",
-      "text": "恩智浦二季度营收35亿美元，分析师预期34.6亿美元。\n二季度每股收益（EPS）为3.02美元，上年同期1.75美元。\n二季度调整后自由现金流（FCF）为7.91亿美元，分析师预期9.493亿美元。\n预计三季度营收36.5亿-38.5亿美元"
-    },
-    {
-      "time": "20:09",
-      "text": "Clearview Capital正将心理健康中心与戒瘾康复住宅连锁机构Advantage Behavioral Health出售给非营利组织QCF/I, Inc.，该交易通过市政债券融资。\n买方将利用约6.1亿美元无评级市政债券发行的收益"
-    },
-    {
-      "time": "20:08",
-      "text": "光伏逆变器供应商Enphase二季度营收2.919亿美元，分析师预期2.921亿美元。\n二季度资本开支1440万美元，分析师预期1410万美元。"
-    },
-    {
-      "time": "20:06",
-      "text": "Visa第三财季净营收116亿美元，分析师预期114亿美元。\n第三财季调整后每股收益（EPS）为3.32美元，分析师预期3.23美元。"
-    },
-    {
-      "time": "20:05",
-      "text": "福特汽车二季度调整后每股收益（EPS）为0.42美元，分析师预期0.36美元。\n预计全年调整后EBIT（息税前利润）为100亿-110亿美元，公司原本预计85亿-105亿美元。\nF-Series车型的复苏处于正轨之上。"
-    },
-    {
-      "time": "07-28 16:38",
-      "text": "[AV] Why Sherwin-Williams (SHW) Stock Is Trading Up Today"
-    },
-    {
-      "time": "07-28 16:08",
-      "text": "[AV] PulteGroup CEO Ryan Marshall: It's a pretty good housing market right now"
-    },
-    {
-      "time": "07-28 15:49",
-      "text": "[AV] Why Cadence Design Systems (CDNS) Stock Is Up Today"
-    },
-    {
-      "time": "07-28 14:41",
-      "text": "[AV] Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Down by 3.61% on Jul 28: What Signal Does It Send?"
-    },
-    {
-      "time": "07-28 13:34",
-      "text": "[AV] Cramer’s Mad Dash: Johnson & Johnson"
-    },
-    {
-      "time": "07-28 13:10",
-      "text": "[AV] McDonald’s Corporation (MCD) Fell as Rising Beef Prices Weighed on Sentiment"
-    },
-    {
-      "time": "07-28 11:42",
-      "text": "[AV] Here Are Tuesday’s Top Wall Street Analyst Research Calls: Boston Scientific, Clorox, CrowdStrike, Exxon Mobil, Honeywel"
-    },
-    {
-      "time": "07-28 10:07",
-      "text": "[AV] After Earnings, Is Schwab Stock a Buy, a Sell, or Fairly Valued?"
-    },
-    {
-      "time": "07-28 10:07",
-      "text": "[AV] Citigroup Inc. $C Holdings Raised by Quantinno Capital Management LP"
-    },
-    {
-      "time": "07-28 09:38",
-      "text": "[AV] Invesco and Rathbones Cut Gilts on UK Exposure to Politics, Oil"
     },
     {
       "time": "07-16 23:00",
@@ -174,7 +134,11 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
@@ -182,10 +146,10 @@
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4037.6,
-    "measuredMoveLow": 3978.5,
-    "measuredMoveHigh": 4003.55,
-    "sma20": 4035.38,
-    "currentPrice": 4028.6
+    "measuredMoveLow": 3978.7,
+    "measuredMoveHigh": 4003.75,
+    "sma20": 4035.39,
+    "currentPrice": 4028.8
   },
   "bars1h": [
     {
@@ -424,9 +388,9 @@
     },
     {
       "open": 4025.800048828125,
-      "high": 4028.60009765625,
+      "high": 4030.60009765625,
       "low": 4022.199951171875,
-      "close": 4028.60009765625
+      "close": 4028.800048828125
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4037.89990234375,
       "high": 4041.89990234375,
       "low": 4021.39990234375,
-      "close": 4028.60009765625
+      "close": 4028.800048828125
     }
   ],
   "calendar": null,
