@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-28T23:16:06.785199+00:00",
+  "fetchedAt": "2026-07-29T00:57:20.930558+00:00",
   "gold": {
-    "price": 4023.100098,
-    "updatedAt": "2026-07-28T23:15:42Z"
+    "price": 4022.100098,
+    "updatedAt": "2026-07-29T00:57:12Z"
   },
   "silver": {
-    "price": 57.062,
-    "updatedAt": "2026-07-28T23:15:41Z"
+    "price": 57.294998,
+    "updatedAt": "2026-07-29T00:57:11Z"
   },
   "dxy": {
     "value": 101.39,
-    "changePct": -0.08
+    "changePct": -0.12
   },
   "vix": {
     "value": 18.21,
     "changePct": -2.46
   },
   "wti": {
-    "value": 83.07,
-    "changePct": 0.56
+    "value": 82.54,
+    "changePct": -0.08
   },
   "btc": {
-    "value": 63567.45,
-    "changePct": -0.25
+    "value": 63915.22,
+    "changePct": 0.3
   },
   "spx": {
     "value": 7428.78,
@@ -40,74 +40,114 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 10,
+    "dataPoints": 11,
     "minRequired": 10,
-    "dxy": null,
-    "realRate": 0.269,
-    "vix": -0.638,
-    "btc": 0.457,
-    "spx": 0.279
+    "dxy": 0.143,
+    "realRate": 0.17,
+    "vix": -0.612,
+    "btc": 0.497,
+    "spx": 0.29
   },
   "news": [
     {
-      "time": "23:13",
-      "text": "国家能源局近日发布的《中国油气勘探开发发展报告（2026）》显示，2019—2025年，我国油气行业大力提升油气勘探开发力度“七年行动计划”圆满收官。为落实增储上产长期要求，实现油气核心需求自主保障，2026年油气行业将组织实施新一轮油气勘"
+      "time": "00:57",
+      "text": "特朗普：非常荣幸会见乌克兰总统泽连斯基，会晤非常顺利。"
     },
     {
-      "time": "23:12",
-      "text": "伊朗否认参与周二对沙特设施的袭击。（伊朗国家电视台）"
+      "time": "00:56",
+      "text": "日本首相高市早苗：熊本地震死亡人数上升至13人。"
     },
     {
-      "time": "23:04",
-      "text": "英国国家经济社会研究所（NIESR）警告称，由于更高的能源价格和通胀侵蚀了各部门预算，英国公共服务在本届议会任期内将面临240亿英镑（约合319亿美元）的冲击。\n该智库表示，新任首相安迪·伯纳姆正面临“极其艰难的权衡取舍”，因为去年制定的支"
+      "time": "00:54",
+      "text": "日本熊本地震后3人死亡，5人心脏骤停，7人失踪。（NHK）"
     },
     {
-      "time": "23:03",
-      "text": "SK海力士在韩国股市开盘之前跌4.5%。"
+      "time": "00:50",
+      "text": "当地时间7月28日，美国参议院以86票赞成、12票反对的投票结果，通过了一项旨在制裁俄罗斯和伊朗的法案程序性投票。根据法案内容，美国将对继续购买俄罗斯石油和天然气的国家征收100%的二级关税。此外，法案还新增条款，延长原定于今年年底到期的对"
     },
     {
-      "time": "23:02",
-      "text": "今年上半年，AI短剧交出了一份远超市场预期的成绩单。DataEye最新数据显示，今年1月至5月AI短剧市场规模已突破220亿元，全年有望冲击400亿元大关，国内AI短剧用户在今年上半年突破6亿。当前，从平台到制作方，从技术提供方到内容创作者"
+      "time": "00:49",
+      "text": "新易盛7月29日在互动平台表示，为匹配高速增长的交付需求，公司与核心原材料供应商开展长期稳定合作。当前公司供应链体系稳定，产品交付正常。"
     },
     {
-      "time": "23:02",
-      "text": "香港金管局通过贴现窗口向银行投放2.79亿港元流动性。"
+      "time": "00:49",
+      "text": "新易盛7月29日在互动平台表示，公司正有序推进H股发行相关工作，公司将严格按照相关法律法规履行信息披露义务。"
     },
     {
-      "time": "23:01",
-      "text": "2026年以来，港股首次公开募股（IPO）市场延续强劲势头。港交所数据显示，截至6月30日，2026年受理的上市新申请共373宗，加上2025年底结转的372宗未处理完毕申请，合计745宗处于处理流程之中，其中528宗处于处理中状态。Win"
+      "time": "00:48",
+      "text": "截至7月28日，上交所融资余额报13490.12亿元，较前一交易日减少153.03亿元；深交所融资余额报12895.06亿元，较前一交易日减少144.56亿元；两市合计26385.18亿元，较前一交易日减少297.59亿元。"
     },
     {
-      "time": "22:59",
-      "text": "进入2026年下半年，港股市场迎来限售股解禁高峰期。多家机构测算，2026年港股全年解禁规模或接近2万亿港元，较2025年大幅增长，今年7月、9月和12月成为筹码集中释放的重要时点。不过，从历史经验及近期市场表现看，机构普遍认为，解禁不等同"
+      "time": "00:43",
+      "text": "SK海力士：处于自2027年起量产HBM4E的正轨上。\n正与主要客户就2027年HBM供应进行商讨。"
     },
     {
-      "time": "22:58",
-      "text": "从业内获悉，中国证券业协会近日在行业内通报了2026年二季度证券公司投诉处理工作情况，给火热的市场提了醒：当二季度A股日均成交额冲上2.88万亿元、两融余额一度突破3万亿元大关之际，投资者诉求也同步“水涨船高”。数据显示，二季度全行业共接收"
+      "time": "00:39",
+      "text": "OpenAI：发布开源的代码安全命令行工具。"
     },
     {
-      "time": "22:58",
-      "text": "SK海力士：预计2026年资本开支将达到40万亿-50万亿韩元区间的上端。"
+      "time": "00:38",
+      "text": "SK海力士：预计下半年位元出货量增长将高于上半年。\n产品销售结构影响了二季度的平均销售单价。"
     },
     {
-      "time": "22:57",
-      "text": "2026年以来，全市场理财跨行代销机构数量稳步增长，理财公司纷纷将城商行、农商行乃至国有大行纳入渠道布局版图。然而渠道签约热潮之下，“签而不销”“签约易、销售难”等问题凸显，渠道扩张速度与规模增长速度渐渐拉开差距。业内人士认为，“签而不销”"
+      "time": "00:34",
+      "text": "SK海力士承诺，将通过长期协议巩固其在HBM领域的领先地位。"
     },
     {
-      "time": "22:56",
-      "text": "SK海力士ADR美股盘后跌幅扩大至5.7%，该公司二季度运营利润逊色于分析师预期；韩国股市即将在北京时间08:00开盘。\n纳斯达克100指数股指期货在亚太盘初下跌0.5%，AI顾虑和美国-伊朗紧张关系牵动投资者神经。"
+      "time": "00:33",
+      "text": "日本官方表示，疑似与地震相关的死亡人数已超过10人。（共同社）"
     },
     {
-      "time": "22:53",
-      "text": "SK海力士：二季度已经开始大规模发货HBM4。\n下半年将开始加速生产HBM4。\nSocamm2的二季度销售增速非常显著。"
+      "time": "00:25",
+      "text": "SK海力士：人工智能基础设施投资在2027年以后仍将保持稳健。\n预计长期协议不会导致供应过剩。\n长期协议条款各不相同，但通常为5年。"
     },
     {
-      "time": "22:51",
-      "text": "SK海力士：利润得到应用于AI服务器和ESSD销售的HBM、DRAM的支撑。"
+      "time": "00:24",
+      "text": "今日7时59分，C919高原型首架机在上海浦东国际机场起飞，开展首次飞行试验。"
     },
     {
-      "time": "22:51",
-      "text": "《个人贷款业务明示综合融资成本规定》8月1日起施行，相关机构加速系统改造、完善协议文本。调研发现，部分商业银行、消费金融公司已发布明示贷款成本方案并上线综合融资成本明示相关流程，部分助贷机构也在探索与放贷机构新的合作模式，以适配监管新规要求"
+      "time": "00:23",
+      "text": "美国与沙特阿拉伯打击伊拉克境内由伊朗支持的武器据点。"
+    },
+    {
+      "time": "07-28 20:16",
+      "text": "[AV] Western Digital Corp Stock (WDC) Closed Down by 7.00% on Jul 28: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-28 16:38",
+      "text": "[AV] Why Sherwin-Williams (SHW) Stock Is Trading Up Today"
+    },
+    {
+      "time": "07-28 16:08",
+      "text": "[AV] PulteGroup CEO Ryan Marshall: It's a pretty good housing market right now"
+    },
+    {
+      "time": "07-28 15:49",
+      "text": "[AV] Why Cadence Design Systems (CDNS) Stock Is Up Today"
+    },
+    {
+      "time": "07-28 14:41",
+      "text": "[AV] Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Down by 3.61% on Jul 28: What Signal Does It Send?"
+    },
+    {
+      "time": "07-28 14:37",
+      "text": "[AV] Applied Materials Inc Stock (AMAT) Moved Down by 7.54% on Jul 28: Facts Behind the Movement"
+    },
+    {
+      "time": "07-28 13:34",
+      "text": "[AV] Cramer’s Mad Dash: Johnson & Johnson"
+    },
+    {
+      "time": "07-28 13:10",
+      "text": "[AV] McDonald’s Corporation (MCD) Fell as Rising Beef Prices Weighed on Sentiment"
+    },
+    {
+      "time": "07-28 11:42",
+      "text": "[AV] Here Are Tuesday’s Top Wall Street Analyst Research Calls: Boston Scientific, Clorox, CrowdStrike, Exxon Mobil, Honeywel"
+    },
+    {
+      "time": "07-28 10:07",
+      "text": "[AV] After Earnings, Is Schwab Stock a Buy, a Sell, or Fairly Valued?"
     },
     {
       "time": "07-16 23:00",
@@ -134,30 +174,20 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4016.0,
-    "measuredMoveLow": 3971.5,
-    "measuredMoveHigh": 3993.75,
-    "sma20": 4032.69,
-    "currentPrice": 4016.0
+    "signalBarBull": true,
+    "signalBarPrice": 4024.3,
+    "measuredMoveLow": 3978.7,
+    "measuredMoveHigh": 4000.95,
+    "sma20": 4031.78,
+    "currentPrice": 4023.2
   },
   "bars1h": [
-    {
-      "open": 4094.89990234375,
-      "high": 4101.39990234375,
-      "low": 4093.300048828125,
-      "close": 4098.39990234375
-    },
     {
       "open": 4098.2001953125,
       "high": 4108.2998046875,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4017.39990234375,
-      "high": 4017.89990234375,
-      "low": 4015.5,
-      "close": 4016.0
+      "high": 4026.0,
+      "low": 4015.0,
+      "close": 4024.300048828125
+    },
+    {
+      "open": 4025.0,
+      "high": 4030.699951171875,
+      "low": 4017.10009765625,
+      "close": 4023.199951171875
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4020.89990234375,
       "high": 4034.0,
       "low": 4013.199951171875,
-      "close": 4016.0
+      "close": 4023.199951171875
     }
   ],
   "calendar": null,
