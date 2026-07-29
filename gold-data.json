@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-29T14:42:43.647259+00:00",
+  "fetchedAt": "2026-07-29T16:11:58.169428+00:00",
   "gold": {
-    "price": 4006.199951,
-    "updatedAt": "2026-07-29T14:42:05Z"
+    "price": 4014.199951,
+    "updatedAt": "2026-07-29T16:11:35Z"
   },
   "silver": {
-    "price": 57.145,
-    "updatedAt": "2026-07-29T14:42:34Z"
+    "price": 57.087002,
+    "updatedAt": "2026-07-29T16:11:34Z"
   },
   "dxy": {
-    "value": 101.34,
-    "changePct": -0.17
+    "value": 101.45,
+    "changePct": 0.07
   },
   "vix": {
-    "value": 19.92,
-    "changePct": 6.7
+    "value": 20.09,
+    "changePct": 10.32
   },
   "wti": {
-    "value": 84.99,
-    "changePct": 7.23
+    "value": 85.12,
+    "changePct": 7.39
   },
   "btc": {
-    "value": 64036.08,
-    "changePct": 0.26
+    "value": 63876.18,
+    "changePct": 0.01
   },
   "spx": {
-    "value": 7364.41,
-    "changePct": -0.66
+    "value": 7348.34,
+    "changePct": -1.08
   },
   "fred": {
     "10y_treasury": {
@@ -42,72 +42,112 @@
   "correlations": {
     "dataPoints": 11,
     "minRequired": 10,
-    "dxy": 0.155,
-    "realRate": 0.127,
-    "vix": -0.694,
-    "btc": 0.507,
-    "spx": 0.41
+    "dxy": 0.093,
+    "realRate": 0.148,
+    "vix": -0.669,
+    "btc": 0.509,
+    "spx": 0.396
   },
   "news": [
     {
-      "time": "14:42",
-      "text": "据菲律宾火山地震研究所消息，7月29日22时11分左右，菲律宾吕宋岛东部海域发生5.6级地震，震源深度10公里，包括首都大马尼拉地区在内的多地有震感。该地震预计不会造成破坏，但会有余震。\n当晚早些时候，菲律宾南部海域发生两次5级以上地震。（"
+      "time": "16:04",
+      "text": "意大利和沙特阿拉伯29日重申支持落实巴以“两国方案”，呼吁维护加沙地带停火，加大人道主义援助力度。\n意大利副总理兼外长塔亚尼与沙特外交大臣费萨尔当日在罗马出席落实“两国方案”国际联盟成员会议期间举行会谈。双方在会谈后发表联合声明，重申支持落"
     },
     {
-      "time": "14:33",
-      "text": "Kis上调SK海力士股价目标24%，至470万韩元（7月29日收盘报141万韩元）。"
+      "time": "16:00",
+      "text": "美国三大股指均跌超1%，道指目前跌860点、跌幅1.6%，纳指跌1.4%，半导体指数跌4.1%，银行指数跌1.9%，罗素2000指数跌1.4%。"
     },
     {
-      "time": "14:33",
-      "text": "美国财政部：今日伊朗制裁针对借助霍尔木兹海峡牟利的行为。\n制裁目标指向伊朗的霍尔木兹海峡“勒索网络”。"
+      "time": "15:47",
+      "text": "据英奇角航运服务公司（Inchcape Shipping Services）报告，埃及达米埃塔港（Damietta Port）的液化天然气（LNG）码头在卸货期间发生爆炸。\n目前，发生爆炸的船只已被转移至远离港口的区域，相关部门计划夜间在其"
     },
     {
-      "time": "14:30",
-      "text": "中际旭创发布最终发售价及配发结果。最终发售价定为每股980港元，全球发售5,450万股，所得款项净额约528.91亿港元。香港公开发售认购倍数为16.84倍，国际发售认购倍数为9.73倍。"
+      "time": "15:47",
+      "text": "美国中央司令部（CENTCOM）：霍尔木兹海峡对国际航运保持开放，合法合规的船舶航行正得到美国军方的支持。自5月以来，美国中央司令部部队已协助约1000艘船只及5亿桶原油顺利通过该海峡。\n在威胁霍尔木兹海峡内的商船之后，伊朗伊斯兰革命卫队（"
     },
     {
-      "time": "14:30",
-      "text": "上期所原油主力合约夜盘涨幅扩大至超过5%，最新报561.9元人民币/桶。\n布伦特原油日内涨幅达6.5%，报87.46美元/桶。"
+      "time": "15:45",
+      "text": "CBOT大豆日内跌幅达2.0%，报1192.92。"
     },
     {
-      "time": "14:30",
-      "text": "美国7月24日当周EIA精炼厂设备利用率变化 1.1%，前值 -0.1%。"
+      "time": "15:42",
+      "text": "长江存储科技有限责任公司7月29日晚发布声明称，近期，个别网络用户及自媒体账号捏造、散布和传播关于长江存储科技有限责任公司专利诉讼及资本市场的虚假信息。为澄清事实，公司声明如下：\n一、网传“美国专利商标局于7月28日裁定长江存储核心3D N"
     },
     {
-      "time": "14:30",
-      "text": "美国7月24日当周EIA库欣地区原油库存变动 -77.1万桶，前值 -67.4万桶。"
+      "time": "15:39",
+      "text": "美国财政部拍卖两年期浮息国债（FRNs），贴现利率0.050%。"
     },
     {
-      "time": "14:30",
-      "text": "美国7月24日当周EIA汽油库存变动 0.7万桶，前值 76.5万桶。"
+      "time": "15:33",
+      "text": "美国财政部拍卖四个月期国债，得标利率3.875%，投标倍数3.04。"
     },
     {
-      "time": "14:30",
-      "text": "美国7月24日当周EIA精炼油库存变动 106.2万桶，前值 139.5万桶。"
+      "time": "15:31",
+      "text": "德国DAX 30指数初步收涨0.13%，报25497.44点。\n法国股指初步收跌0.65%，意大利股指初步收跌0.45%，英国股指初步收涨0.33%。"
     },
     {
-      "time": "14:30",
-      "text": "美国7月24日当周EIA原油库存变动 -716.7万桶，前值 201万桶。"
+      "time": "15:31",
+      "text": "欧洲STOXX 600指数初步收跌0.27%，报645.10点。"
     },
     {
-      "time": "14:26",
-      "text": "摩根大通在市场情报（JPM Market Intel）警告称，下一轮抛售将不仅重创个股，还会波及各大指数。\n“目前的焦点依然牢牢锁定在AI/科技/动量股（MOMO）的平仓解杠杆上。核心担忧包括来自中国的竞争威胁——即开源模型和DUV（深紫外"
+      "time": "15:27",
+      "text": "亚马逊宣布，自7月29日起将在Prime Video上推出Starz与Crunchyroll的捆绑套餐。\n该捆绑套餐在Prime Video上的订阅价格为每月16.99美元。"
     },
     {
-      "time": "14:26",
-      "text": "纳斯达克100指数下跌1%，标普500指数下跌0.7%。\n道指重挫800点，跌幅超过1.5%，成分股卡特彼勒跌4.5%，波音回撤4.2%，高盛跌4.2%，SHW跌3.7%，英伟达跌3%目前跌幅第五大，雪佛龙、可口可乐则涨超2%。"
+      "time": "15:17",
+      "text": "谷歌为macOS版Gemini应用新增Fn键唤醒语音控制功能。"
     },
     {
-      "time": "14:20",
-      "text": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。"
+      "time": "15:17",
+      "text": "从全球市场发展态势来看，主动ETF已成为资产管理行业的重要增长引擎。截至2026年3月底，全球ETF市场总规模19.9万亿美元，其中被动ETF 17.8万亿美元，占比89.4%；主动ETF 2.1万亿美元，占比10.6%。近十年主动ETF规"
     },
     {
-      "time": "14:19",
-      "text": "法拉利备受争议的纯电车型Luce仅用两个月便达成2026年销售目标。（英国金融时报）"
+      "time": "15:04",
+      "text": "伊拉克真主党旅（Kataib Hezbollah）：将把沙特阿拉伯境内美国的“工具”（代理人/相关设施）作为打击目标。\n对美国和沙特阿拉伯的联合袭击作出反击是不可避免的。\n向伊拉克政府下最后通牒，要求在8月6日之前证明其能够捍卫伊拉克的主权"
     },
     {
-      "time": "14:18",
-      "text": "台积电表示，日本熊本地区发生7级地震后，其当地工厂的检查和设备校准工作预计需要一段时间。台积电周三在声明中称，公司目前正在检查设备并开展恢复工作。厂区供水、供电和安全系统均正常运行。台积电已调配资源支持日本业务，原材料供应也在继续。震后检查"
+      "time": "15:00",
+      "text": "乙二醇夜盘收涨4.71%，低硫燃油涨3.30%，燃油涨3.28%，瓶片涨2.16%，苯乙烯涨2%，纯苯、短纤、LPG至少涨1.76%，甲醇、对二甲苯、聚丙烯、PTA至少涨1.34%，丙烯、塑料、合成橡胶、沥青、棕榈油、玉米、玉米淀粉、焦煤至"
+    },
+    {
+      "time": "07-29 14:15",
+      "text": "[AV] Applied Materials Inc Stock (AMAT) Moved Down by 4.70% on Jul 29: Facts Behind the Movement"
+    },
+    {
+      "time": "07-29 10:53",
+      "text": "[AV] Weiss Asset Management LP Buys New Shares in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "07-29 08:19",
+      "text": "[AV] Bank of America Corporation $BAC Shares Sold by Empire Financial Management Company LLC"
+    },
+    {
+      "time": "07-29 08:18",
+      "text": "[AV] Empowered Funds LLC Has $16.95 Million Stock Position in Citigroup Inc. $C"
+    },
+    {
+      "time": "07-29 07:49",
+      "text": "[AV] Q2 Rundown: Bank of America (NYSE:BAC) Vs Other Diversified Banks Stocks"
+    },
+    {
+      "time": "07-29 07:08",
+      "text": "[AV] Absolute Gestao de Investimentos Ltda. Buys Shares of 9,000 JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "07-28 20:16",
+      "text": "[AV] Western Digital Corp Stock (WDC) Closed Down by 7.00% on Jul 28: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-28 19:09",
+      "text": "[AV] Oil Prices Put Natural Gas Services Group And Two Energy Stocks In Focus"
+    },
+    {
+      "time": "07-28 16:38",
+      "text": "[AV] Why Sherwin-Williams (SHW) Stock Is Trading Up Today"
+    },
+    {
+      "time": "07-28 16:08",
+      "text": "[AV] PulteGroup CEO Ryan Marshall: It's a pretty good housing market right now"
     },
     {
       "time": "07-16 23:00",
@@ -134,36 +174,20 @@
       "text": "[Fed] Warsh, Semiannual Monetary Policy Report to the Congress"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4086.1,
-    "measuredMoveLow": 4114.3,
-    "measuredMoveHigh": 4163.0,
-    "sma20": 4049.63,
-    "currentPrice": 4065.6
+    "signalBarPrice": 4064.8,
+    "measuredMoveLow": 4116.3,
+    "measuredMoveHigh": 4165.0,
+    "sma20": 4053.86,
+    "currentPrice": 4067.6
   },
   "bars1h": [
-    {
-      "open": 4083.0,
-      "high": 4085.699951171875,
-      "low": 4072.300048828125,
-      "close": 4075.10009765625
-    },
-    {
-      "open": 4075.39990234375,
-      "high": 4076.10009765625,
-      "low": 4071.0,
-      "close": 4074.39990234375
-    },
     {
       "open": 4074.39990234375,
       "high": 4075.5,
@@ -390,7 +414,19 @@
       "open": 4065.10009765625,
       "high": 4068.39990234375,
       "low": 4053.89990234375,
-      "close": 4065.60009765625
+      "close": 4063.199951171875
+    },
+    {
+      "open": 4063.60009765625,
+      "high": 4072.199951171875,
+      "low": 4061.699951171875,
+      "close": 4068.5
+    },
+    {
+      "open": 4068.5,
+      "high": 4070.300048828125,
+      "low": 4066.300048828125,
+      "close": 4067.60009765625
     }
   ],
   "bars4h": [
@@ -469,7 +505,7 @@
     {
       "open": 4069.89990234375,
       "high": 4085.199951171875,
-      "low": 4058.39990234375,
+      "low": 4060.300048828125,
       "close": 4065.800048828125
     },
     {
@@ -572,7 +608,7 @@
       "open": 4081.300048828125,
       "high": 4084.800048828125,
       "low": 4053.89990234375,
-      "close": 4065.60009765625
+      "close": 4067.60009765625
     }
   ],
   "calendar": null,
