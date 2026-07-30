@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-07-29T23:18:03.012691+00:00",
+  "fetchedAt": "2026-07-30T00:54:46.834421+00:00",
   "gold": {
-    "price": 4092.300049,
-    "updatedAt": "2026-07-29T23:17:50Z"
+    "price": 4068.600098,
+    "updatedAt": "2026-07-30T00:54:21Z"
   },
   "silver": {
-    "price": 58.419998,
-    "updatedAt": "2026-07-29T23:17:50Z"
+    "price": 58.022999,
+    "updatedAt": "2026-07-30T00:54:20Z"
   },
   "dxy": {
-    "value": 100.8,
-    "changePct": -0.57
+    "value": 100.89,
+    "changePct": -0.48
   },
   "vix": {
     "value": 20.66,
     "changePct": 13.45
   },
   "wti": {
-    "value": 84.4,
-    "changePct": 6.48
+    "value": 84.3,
+    "changePct": 6.36
   },
   "btc": {
-    "value": 63914.48,
-    "changePct": 0.07
+    "value": 63552.07,
+    "changePct": -0.5
   },
   "spx": {
     "value": 7316.15,
@@ -40,74 +40,114 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 11,
+    "dataPoints": 12,
     "minRequired": 10,
-    "dxy": -0.022,
-    "realRate": 0.289,
-    "vix": -0.235,
-    "btc": 0.329,
-    "spx": -0.016
+    "dxy": -0.038,
+    "realRate": 0.295,
+    "vix": -0.154,
+    "btc": 0.274,
+    "spx": -0.057
   },
   "news": [
     {
-      "time": "23:14",
-      "text": "澳洲联储助理主席Hunter：必须把通货膨胀降下来，这真的很重要。\n不能让长期通胀预期脱离锚定。"
+      "time": "00:51",
+      "text": "美国防长海格塞斯：今天早些时候已与以色列总理内塔尼亚胡会晤。"
     },
     {
-      "time": "23:13",
-      "text": "以色列总理内塔尼亚胡谈伊朗问题选项：这是特朗普的决定。"
+      "time": "00:48",
+      "text": "据伊朗新闻电视台30日报道，伊朗南部多地传出爆炸声。（新华社）"
     },
     {
-      "time": "23:13",
-      "text": "特朗普：我们已对伊朗进行重创，我们很快就会彻底解决伊朗。"
+      "time": "00:47",
+      "text": "截至7月29日，上交所融资余额报13366.95亿元，较前一交易日减少123.16亿元；深交所融资余额报12762.74亿元，较前一交易日减少132.32亿元；两市合计26129.69亿元，较前一交易日减少255.48亿元。"
     },
     {
-      "time": "23:12",
-      "text": "美军正在伊朗境内进行空袭。（AXIOS）"
+      "time": "00:47",
+      "text": "伊朗的基什岛、格什姆岛和阿布穆萨岛附近发生爆炸，阿巴斯港发生爆炸。"
     },
     {
-      "time": "23:02",
-      "text": "百威亚太第二季度净利润2.47亿美元，预估1.838亿美元。\n第二季度调整后EBITDA 4.63亿美元，预估4.633亿美元。\n第二季度营收16.8亿美元，预估16.9亿美元。\n上半年净利润4.73亿美元；上半年营收31.7亿美元，预估3"
+      "time": "00:44",
+      "text": "特朗普周三会见了沙特国防部长。（AXIOS）"
     },
     {
-      "time": "23:02",
-      "text": "香港金管局维持基准利率于4%不变。"
+      "time": "00:43",
+      "text": "韩国首尔综指跌超2%。"
     },
     {
-      "time": "23:00",
-      "text": "纵观此轮稳市举措，国资始终发挥着重要支撑作用。从中国国新控股有限责任公司、中国诚通控股集团有限公司两大国有资本运营平台率先启动增持，到各地地方国资快速跟进、接续发力，国有上市公司增持行动层层铺开、形成合力。据Wind数据统计，7月20日以来"
+      "time": "00:43",
+      "text": "7月29日上午，安徽省省长王清宪与中国电信集团总经理刘桂清举行工作会谈。王清宪指出，“十五五”时期，安徽抢抓量子科技、人工智能等前沿领域发展机遇，推进科技创新和产业创新深度融合，因地制宜培育发展新质生产力，积极抢占科技和产业制高点。希望与中"
     },
     {
-      "time": "22:58",
-      "text": "据韩国媒体报道：比尔·盖茨将前往韩国，讨论小型模块化反应堆（SMR）的合作事宜。"
+      "time": "00:27",
+      "text": "LG能源第二季度营业利润1133亿韩元，销售额7.56万亿韩元。"
     },
     {
-      "time": "22:49",
-      "text": "自6月下旬以来，伦敦现货黄金价格在4000美元/盎司附近反复拉锯。与之形成鲜明反差的是，7月以来A股黄金股率先“躁动”，部分龙头黄金股涨幅超过30%，明显跑赢同期金价。业内人士认为，当前金价中长期支撑逻辑并未发生根本改变，央行购金仍可能推动"
+      "time": "00:26",
+      "text": "美军中央司令部称，美军于美东时间7月29日晚8点（伊朗时间7月30日凌晨3点30分，北京时间早8点）起，对伊朗发动打击。美军中央司令部称，“此次行动是对昨日伊朗试图袭击中东地区美军基地的有力回击。”（CCTV国际时讯）"
     },
     {
-      "time": "22:45",
-      "text": "7月以来，多家未设立理财公司的中小银行（下称“非持牌银行”）发布新增代销理财业务合作机构的公告，通过与理财公司签约开展产品代销合作。结合非持牌银行陆续披露的2026年上半年度理财业务报告可见，此类银行自营理财规模延续收缩态势，不少机构降幅显"
+      "time": "00:23",
+      "text": "摩根大通目前预计美联储将于12月加息，这比该行此前预期的2027年下半年要早。“在沃什的新闻发布会上，他再次未能明确说明，他打算如何实现自己所强硬宣称的抗通胀决心，”摩根大通首席美国经济学家Michael Feroli在一份报告中写道，沃什"
     },
     {
-      "time": "22:44",
-      "text": "香港交易所文件显示，拿森智能科技（浙江）股份有限公司计划在香港上市，发行5,760万股，招股价区间为每股10.42至11.18港元。\n据彭博计算，该公司最高可募资6.44亿港元（8210万美元）。\n股票预计于8月7日开始交易。\n国泰海通和中"
+      "time": "00:18",
+      "text": "农发行发行1年期债券，规模70亿元，发行利率0.0000%，预期0.0000%，投标倍数1.00倍，边际倍数1.00倍；\n农发行发行10年期债券，规模10亿元，发行利率0.0000%，预期0.0000%，投标倍数1.00倍，边际倍数1.00"
     },
     {
-      "time": "22:43",
-      "text": "澳洲联储助理主席Hunter：CPI意外下行源自燃料和旅行。\n抛开燃料因素之后，CPI数据就没太多意外了。\n不希望更高的通胀预期被固化。\n上半年的就业增速并不是太糟糕。\n劳动力市场（供需关系）仍然略微偏紧。"
+      "time": "00:16",
+      "text": "标普500指数期货涨幅扩大至0.5%。"
     },
     {
-      "time": "22:38",
-      "text": "7月以来，全球股市科技主线普遍经历了一轮较大幅度回调，A股半导体板块的阶段性调整幅度不小。与市场调整形成鲜明对比的是，市场资金对半导体材料设备主题ETF呈现“逆势流入”的态势，这一方向成为近期资金流入最为集中的领域之一。Wind数据显示，截"
+      "time": "00:14",
+      "text": "中金公司研报指出，当前AI、高端装备等新兴需求快速增长，中国钨产业链下游、中游等关键环节利润率持续向好。国内钨价在7月下跌企稳后再次出现涨价迹象，海外溢价率也已创下历史新高。中金公司认为中国钨业龙头有望迎来量价齐升，且当前估值水平已具备较大"
     },
     {
-      "time": "22:36",
-      "text": "当地时间30日凌晨1时8分至11分，记者在乌克兰首都基辅多次听到强烈爆炸声，随后基辅拉响防空警报。乌空军在社交媒体发文称，俄军导弹正袭向基辅、第聂伯罗、克里沃伊罗格等城市。（新华社）"
+      "time": "00:13",
+      "text": "中金指出，美联储7月会议维持利率不变，但内部鹰派力量进一步增强，三位票委投票支持加息25个基点。中金认为，本次会议最大的变化并非利率决议，而是沃什试图减少政策干预，更多依赖市场利率自发上升来收紧金融条件，将部分紧缩功能“外包”给市场。然而，"
     },
     {
-      "time": "22:36",
-      "text": "1、AI基础设施的建设成本增速已超过核心业务。\n首席财务官苏珊·李（Susan Li）表示，法律和遣散费用扭曲了Meta第二季度的业绩表现。但经常性成本也在不断攀升。李指出，AI人才、数据中心运营、第三方云服务支出以及AI算力消耗（Toke"
+      "time": "00:13",
+      "text": "华泰证券研报指出，鑫椤锂电发布锂电产业链8月预排产数据，样本企业中电池8月排产198.8GWh，环比+8.9%，正极合计24.4万吨，环比+3.5%，负极21.4万吨，环比+4.9%，隔膜22.3亿平，环比+0.9%，电解液14.1万吨，环"
+    },
+    {
+      "time": "07-29 21:13",
+      "text": "[AV] Warsh Shooks Markets: 'There is No Soft Inflation Target' - State Street SPDR S&P 500 ETF Trust (ARCA:SPY"
+    },
+    {
+      "time": "07-29 20:15",
+      "text": "[AV] Wells Fargo & Co Stock (WFC) Closed Down by 3.19% on Jul 29: What Investors Need To Know"
+    },
+    {
+      "time": "07-29 18:39",
+      "text": "[AV] Fed Holds Rates at 3.75%, But Three Members Voted to Hike - State Street SPDR S&P 500 ETF Trust (ARCA:SPY"
+    },
+    {
+      "time": "07-29 18:15",
+      "text": "[AV] Deere & Co Stock (DE) Moved Down by 3.57% on Jul 29: A Full Analysis"
+    },
+    {
+      "time": "07-29 17:39",
+      "text": "[AV] Crypto Credit Remains Resilient Despite Macro-Driven Market Volatility"
+    },
+    {
+      "time": "07-29 17:16",
+      "text": "[AV] Citigroup Inc Stock (C) Moved Down by 3.11% on Jul 29: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-29 16:39",
+      "text": "[AV] Value Line : Annual Report for Fiscal Year Ending 04-30, 2026 (Form 10-K)"
+    },
+    {
+      "time": "07-29 15:41",
+      "text": "[AV] Allied Gold's $5.5 billion sale to Chinese gold miner falls apart amid slide in gold prices"
+    },
+    {
+      "time": "07-29 15:11",
+      "text": "[AV] Precious Metals Weekly Front Desk Presentation 072926: Tariffs get complicated; CME launches 24/7 micro-gold trading"
+    },
+    {
+      "time": "07-29 15:10",
+      "text": "[AV] Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Down by 3.31% on Jul 29: Key Drivers Unveiled"
     },
     {
       "time": "07-29 18:00",
@@ -134,30 +174,20 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 3,
-    "bearTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 4156.0,
-    "measuredMoveLow": 4234.75,
-    "measuredMoveHigh": 4313.5,
-    "sma20": 4087.64,
-    "currentPrice": 4156.0
+    "signalBarBull": false,
+    "signalBarPrice": 4123.0,
+    "measuredMoveLow": 4201.75,
+    "measuredMoveHigh": 4280.5,
+    "sma20": 4092.01,
+    "currentPrice": 4123.0
   },
   "bars1h": [
-    {
-      "open": 4045.5,
-      "high": 4052.800048828125,
-      "low": 4042.89990234375,
-      "close": 4048.699951171875
-    },
     {
       "open": 4048.300048828125,
       "high": 4052.89990234375,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4146.5,
-      "high": 4156.0,
-      "low": 4146.2001953125,
-      "close": 4156.0
+      "high": 4158.0,
+      "low": 4142.0,
+      "close": 4142.0
+    },
+    {
+      "open": 4142.5,
+      "high": 4144.2998046875,
+      "low": 4122.2998046875,
+      "close": 4123.0
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4126.7001953125,
-      "high": 4156.0,
+      "high": 4158.0,
       "low": 4121.10009765625,
-      "close": 4156.0
+      "close": 4123.0
     }
   ],
   "calendar": null,
