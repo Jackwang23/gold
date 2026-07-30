@@ -1,29 +1,32 @@
 {
-  "fetchedAt": "2026-07-30T18:46:49.415221+00:00",
-  "gold": null,
+  "fetchedAt": "2026-07-30T20:15:26.718710+00:00",
+  "gold": {
+    "price": 4114.799805,
+    "updatedAt": "2026-07-30T20:14:52Z"
+  },
   "silver": {
-    "price": 59.028,
-    "updatedAt": "2026-07-30T18:46:21Z"
+    "price": 59.382999,
+    "updatedAt": "2026-07-30T20:15:22Z"
   },
   "dxy": {
-    "value": 99.89,
-    "changePct": -0.9
+    "value": 99.93,
+    "changePct": -0.86
   },
   "vix": {
-    "value": 17.81,
-    "changePct": -13.79
+    "value": 17.37,
+    "changePct": -15.92
   },
   "wti": {
-    "value": 83.64,
-    "changePct": -0.97
+    "value": 83.67,
+    "changePct": -0.94
   },
   "btc": {
-    "value": 64674.15,
-    "changePct": 1.2
+    "value": 64712.94,
+    "changePct": 1.26
   },
   "spx": {
-    "value": 7428.66,
-    "changePct": 1.54
+    "value": 7437.63,
+    "changePct": 1.66
   },
   "fred": {
     "10y_treasury": {
@@ -39,72 +42,112 @@
   "correlations": {
     "dataPoints": 12,
     "minRequired": 10,
-    "dxy": -0.329,
-    "realRate": 0.307,
-    "vix": -0.241,
-    "btc": 0.309,
-    "spx": -0.028
+    "dxy": -0.354,
+    "realRate": 0.306,
+    "vix": -0.328,
+    "btc": 0.3,
+    "spx": 0.008
   },
   "news": [
     {
-      "time": "18:30",
-      "text": "WTI 9月原油期货收报83.59美元/桶。"
+      "time": "20:08",
+      "text": "加密货币交易所Coinbase二季度总收入12.2亿美元，分析师预期12.9亿美元。"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2609合约夜盘收跌1.39%，报553.2元人民币/桶。\n沪金夜盘收涨1.2%，沪银收涨1.82%。"
+      "time": "20:07",
+      "text": "Reddit二季度营收8.049亿美元，分析师预期7.318亿美元。"
     },
     {
-      "time": "18:16",
-      "text": "据知情人士透露，Equinix料将达成最新一笔数据中心协议，有望通过出售投资级债券融资30亿美元。（彭博）"
+      "time": "20:04",
+      "text": "第一太阳能维持全年资本开支预期在8亿-10亿美元不变，分析师预期8.758亿美元。"
     },
     {
-      "time": "18:14",
-      "text": "据知情人士透露，英国市场监管机构金融行为监管局（FCA）计划从本周五起，每日发布英国股票交易的汇总数据，这是其提高市场透明度举措的一部分。该监管机构还将发布为期一年的历史回溯数据，以帮助投资者评估英国股票的交易量。在推出完整的股票综合数据流"
+      "time": "20:03",
+      "text": "【微软市值单日增加4500亿美元，创股市之最】微软涨16%，创2008年以来最大单日涨幅，Meta收跌8%，连跌11天，7月15日以来累计下跌21%。"
     },
     {
-      "time": "17:54",
-      "text": "一份备忘录显示，高盛资产管理已经推出人工智能（AI）投资平台AlphaAI，Lou D’Ambrosio将负责领导AlphaAI。（路透）"
+      "time": "20:01",
+      "text": "亚马逊二季度净销售2006亿美元，分析师预期1970.1亿美元。\n二季度北美净销售1161.8亿美元，分析师预期1139.4亿美元。\n二季度AWS净销售422.3亿美元，分析师预期405.7亿美元；AWS净销售剔除汇率因素后增长37%，分析"
     },
     {
-      "time": "17:49",
-      "text": "据知情人士透露，基金公司Situational Awareness的资产管理规模缩水至100亿美元。\n该公司已经转让大宗股票给Citadel。（彭博）"
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收涨1.1%。\n热门中概股里，世纪互联涨16.7%，日月光半导体涨12.2%，万国数据涨8%，阿特斯太阳能涨7.7%，腾讯涨2.4%，百度涨2%，网易涨1.8%，阿里涨1%。"
     },
     {
-      "time": "17:48",
-      "text": "【伊朗军队称打击美军在巴林空军基地，已对其装备和中心造成了重大破坏】当地时间7月30日晚，伊朗军队发布公告称，军队使用无人机袭击了美军位于巴林的谢赫伊萨空军基地的发电机、导航系统以及行政和后勤保障建筑。公告表示，尽管美军基地拥有众多防御系统"
+      "time": "20:00",
+      "text": "美股存储芯片指数初步收涨17%，半导体指数涨8%。\n标普500指数初步收1.6%，科技板块飙涨5.6%，可选消费板块涨1.4%，日用消费品、电信板块跌超2%。\n纳斯达克100指数初步收涨3.4%，成分股中，Nebius初步收涨27.2%，闪"
     },
     {
-      "time": "17:48",
-      "text": "白宫贸易顾问彼得·纳瓦罗在RealClearMarkets发表的一篇专栏文章中宣称，如果当前的市场趋势持续下去，美联储应考虑下调利率。"
+      "time": "19:53",
+      "text": "周四（7月30日）纽约尾盘，欧元兑美元涨0.56%，报1.1531，北京时间15:32刷新日低至1.1435，随后反弹、21:33出现一波短线加速上涨行情。\n英镑兑美元涨0.77%，刷新日高至1.3477；美元兑瑞郎跌1.10%，报0.80"
     },
     {
-      "time": "17:44",
-      "text": "摩根士丹利牵头的银行团体洽谈为Anthropic数据中心贷款150亿美元。\n该数据中心得到Alphabet旗下谷歌公司的支持，谷歌担保Anthropic租赁和电费支付。\nNexus数据中心洽谈为数据中心借款150亿美元。（华尔街日报）"
+      "time": "19:46",
+      "text": "墨西哥财政部：墨西哥石油收入实际条款同比增长2.1%。"
     },
     {
-      "time": "17:40",
-      "text": "伊朗军方打击美国在巴林的军事基地。（伊朗媒体IRIB）"
+      "time": "19:43",
+      "text": "美国地区法官丽塔·F·林（Rita F. Lin）表示，特朗普政府未能提供足以“真正证明”其决定合理的证据。此前，政府通过将Anthropic PBC列为供应链威胁，禁止联邦政府使用该公司的人工智能技术。该法官称，以Anthropic公开批"
     },
     {
-      "time": "17:36",
-      "text": "周四（7月30日）欧市尾盘，ICE英国天然气期货跌3.50%，报141.300便士/千卡。\nTTF基准荷兰天然气期货跌3.41%，报58.650欧元/兆瓦时。\nICE欧盟碳排放交易许可（期货价格）跌0.32%，报81.26欧元/吨。"
+      "time": "19:37",
+      "text": "乌克兰总理科列茨基30日在社交媒体发文称，乌克兰收到欧盟拨付的又一笔国防援助贷款，额度为34.7亿欧元。据乌财政部此前消息，欧盟将在今年年底前向乌克兰提供共计450亿欧元的贷款，其中283亿欧元将用于国防。科列茨基称，目前乌方已收到116亿"
     },
     {
-      "time": "17:34",
-      "text": "联合国安理会30日就下一任秘书长遴选举行首轮意向性投票。安理会当月轮值主席、刚果（金）常驻联合国代表泽农·穆孔戈·恩盖在投票结束后说，意向性投票结果不对外公布，将通过候选人推举国通知各候选人。（新华社）"
+      "time": "19:36",
+      "text": "莱昂纳多·德尔·维奇奥（Leonardo Del Vecchio）留下了价值400亿欧元的遗产，但他去世后家族陷入内斗，目前由八名继承人和少数顾问共同管理着雷朋（Ray-Ban）这个眼镜帝国。\n关于德尔·维奇奥遗产分配的讨论，可能会导致该家"
     },
     {
-      "time": "17:33",
-      "text": "也门胡塞武装30日否认其与埃及达米埃塔港船只起火事件有关。据胡塞武装控制的萨巴通讯社当天援引一名胡塞武装消息人士的话报道，有关胡塞武装袭击埃及达米埃塔港一艘液化天然气船和一艘储存船舶的传闻“毫无事实依据”。胡塞武装的军事行动仅针对沙特阿拉伯"
+      "time": "19:33",
+      "text": "周四（7月30日）纽约尾盘，美元兑日元跌2.50%，报159.31日元，亚太盘初以来大致持平，北京时间15:55刷新日高至163.74日元，18:00出现一波小幅下跌的行情，21:36开启一波短线急剧跳水行情、22:22跌至157.98日元"
     },
     {
-      "time": "17:25",
-      "text": "中国地震台网正式测定：7月31日00时58分在台湾台东县海域（北纬23.01度，东经121.47度）发生4.0级地震，震源深度20千米。（央视）"
+      "time": "19:28",
+      "text": "周四（7月30日，美联储宣布按兵不动的次日）纽约尾盘，ICE美元指数跌0.93%，报99.942点，亚太盘初以来平缓地微幅上扬、北京时间15:32刷新日高至101.072点，随后开始下挫、21:36出现一波短线加速下跌行情，02:15刷新日"
     },
     {
-      "time": "17:23",
-      "text": "闪迪日内涨超25%。"
+      "time": "19:09",
+      "text": "7月30日，美国中央司令部表示，美军继续执行对伊朗的海上封锁。截至7月30日，中央司令部已改变24艘商船的航行路线，使2艘船只失去行动能力，并登船检查2艘，以确保其遵守封锁要求。（央视）"
+    },
+    {
+      "time": "07-30 16:16",
+      "text": "[AV] Caterpillar Inc Stock (CAT) Moved Up by 3.06% on Jul 30: What Signal Does It Send?"
+    },
+    {
+      "time": "07-30 15:16",
+      "text": "[AV] Meta Platforms Inc Stock (META) Moved Down by 8.61% on Jul 30: A Full Analysis"
+    },
+    {
+      "time": "07-30 14:16",
+      "text": "[AV] Broadcom Inc Stock (AVGO) Moved Up by 3.98% on Jul 30: What Investors Need To Know"
+    },
+    {
+      "time": "07-30 13:19",
+      "text": "[AV] The Coca-Cola Company: Volume Scale Beats CPG Stagflation as FIFA Activation Drives Guidance Upgrade"
+    },
+    {
+      "time": "07-30 13:08",
+      "text": "[AV] Texas Instruments Stock Leads 3 Dollar Beneficiaries Built For Higher Yields"
+    },
+    {
+      "time": "07-30 12:39",
+      "text": "[AV] Buy 4 Low-Beta Defensive Stocks as Fed Keeps Interest Rate Unchanged"
+    },
+    {
+      "time": "07-30 12:38",
+      "text": "[AV] NEM vs. EQX: Which Gold Mining Stock Is a Better Pick Now?"
+    },
+    {
+      "time": "07-30 10:54",
+      "text": "[AV] In 12 Words, JPMorgan CEO Jamie Dimon Just Issued a Stark Warning to Investors"
+    },
+    {
+      "time": "07-30 10:38",
+      "text": "[AV] In 12 Words, JPMorgan CEO Jamie Dimon Just Issued a Stark Warning to Investors"
+    },
+    {
+      "time": "07-30 09:11",
+      "text": "[AV] Transcript : Banco Bilbao Vizcaya Argentaria, S.A., Q2 2026 Earnings Call, Jul 30, 2026"
     },
     {
       "time": "07-29 18:00",
@@ -131,36 +174,20 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4161.5,
-    "measuredMoveLow": 4212.7,
-    "measuredMoveHigh": 4260.3,
-    "sma20": 4133.37,
-    "currentPrice": 4165.1
+    "signalBarBull": true,
+    "signalBarPrice": 4171.2,
+    "measuredMoveLow": 4223.3,
+    "measuredMoveHigh": 4270.9,
+    "sma20": 4136.82,
+    "currentPrice": 4175.7
   },
   "bars1h": [
-    {
-      "open": 4025.0,
-      "high": 4036.800048828125,
-      "low": 4022.300048828125,
-      "close": 4028.300048828125
-    },
-    {
-      "open": 4028.199951171875,
-      "high": 4031.39990234375,
-      "low": 4021.5,
-      "close": 4021.5
-    },
     {
       "open": 4022.0,
       "high": 4026.0,
@@ -386,8 +413,20 @@
     {
       "open": 4161.5,
       "high": 4166.7998046875,
-      "low": 4159.89990234375,
-      "close": 4165.10009765625
+      "low": 4157.7001953125,
+      "close": 4158.7998046875
+    },
+    {
+      "open": 4158.7001953125,
+      "high": 4174.5,
+      "low": 4158.0,
+      "close": 4171.2001953125
+    },
+    {
+      "open": 4171.2998046875,
+      "high": 4176.7001953125,
+      "low": 4169.2998046875,
+      "close": 4175.7001953125
     }
   ],
   "bars4h": [
@@ -567,9 +606,9 @@
     },
     {
       "open": 4169.7998046875,
-      "high": 4170.2001953125,
+      "high": 4176.7001953125,
       "low": 4157.10009765625,
-      "close": 4165.10009765625
+      "close": 4175.7001953125
     }
   ],
   "calendar": null,
