@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-07-31T16:13:26.235281+00:00",
+  "fetchedAt": "2026-07-31T17:55:16.411688+00:00",
   "gold": {
-    "price": 4047.199951,
-    "updatedAt": "2026-07-31T16:12:45Z"
+    "price": 4054.899902,
+    "updatedAt": "2026-07-31T17:54:45Z"
   },
   "silver": {
-    "price": 57.589001,
-    "updatedAt": "2026-07-31T16:12:44Z"
+    "price": 58.011002,
+    "updatedAt": "2026-07-31T17:54:44Z"
   },
   "dxy": {
-    "value": 100.05,
-    "changePct": 0.04
+    "value": 99.82,
+    "changePct": -0.19
   },
   "vix": {
-    "value": 17.26,
-    "changePct": 0.99
+    "value": 16.57,
+    "changePct": -3.04
   },
   "wti": {
-    "value": 84.24,
-    "changePct": 0.78
+    "value": 85.01,
+    "changePct": 1.7
   },
   "btc": {
-    "value": 62794.43,
-    "changePct": -2.98
+    "value": 63171.92,
+    "changePct": -2.4
   },
   "spx": {
-    "value": 7457.64,
-    "changePct": 0.27
+    "value": 7479.77,
+    "changePct": 0.57
   },
   "fred": {
     "10y_treasury": null,
@@ -36,112 +36,72 @@
   "correlations": {
     "dataPoints": 13,
     "minRequired": 10,
-    "dxy": -0.166,
+    "dxy": -0.177,
     "realRate": 0.307,
-    "vix": -0.294,
-    "btc": 0.323,
-    "spx": -0.012
+    "vix": -0.283,
+    "btc": 0.305,
+    "spx": -0.009
   },
   "news": [
     {
-      "time": "16:13",
-      "text": "美国总统特朗普声称：在解除哈马斯武装方面，美方与以色列有谅解。"
+      "time": "17:45",
+      "text": "墨西哥国家石油公司（Pemex）生产主管Octavio Barrera在公司电话会议上表示，Pemex与巴西国家石油公司（Petrobras）正在分析墨西哥湾盐下地层的勘探与开发（E&P）潜力。\nBarrera表示，目前相关公司与墨西哥能源"
     },
     {
-      "time": "16:12",
-      "text": "周五（7月31日）欧市尾盘，法国10年期国债收益率涨6.2个基点，刷新日高至4.003%，7月份累计上涨34.4个基点，整体（与天然气期货市场一样）持续走高。\n意大利10年期国债收益率涨6.1个基点，刷新日高至4.024%，7月份累涨38."
+      "time": "17:37",
+      "text": "意大利总理：决定暂停与西班牙之间的申根协定。\n此次决定是一个非同寻常的措施。\n意大利支持“欧盟在支持西班牙”方面的倡议。"
     },
     {
-      "time": "16:11",
-      "text": "美国总统特朗普声称：我们只想赢（得伊朗战争）。\n我们将非常沉重地打击他们。"
+      "time": "17:33",
+      "text": "爱尔兰（轮值主席国）负责欧洲理事会事务的发言人：欧盟大使们下周一将开会，讨论西班牙移民问题。"
     },
     {
-      "time": "16:10",
-      "text": "CBOT小麦日内跌幅达3.0%，报693.5美分/蒲式耳。乌克兰宣称，在俄罗斯针对港口基础设施的袭击扰乱了黑海地区的粮食流通之际，该国正寻求使出口路线多元化。\n同时，美国小麦产区的干旱状况进一步恶化。据美国农业部（USDA）称，由于不利天气"
+      "time": "17:30",
+      "text": "美元兑日元短线跳水约70点，现报158.82，日内当前跌幅大约0.5%。"
     },
     {
-      "time": "16:09",
-      "text": "美国中央司令部：伊朗政府再次表示已关闭霍尔木兹海峡。\n这是错误的。\n事实上，霍尔木兹海峡仍然对商船开放。\n伊朗并未控制该海峡。\n过去四个月里，已有数千艘船只通过这条国际航道。"
+      "time": "17:29",
+      "text": "意大利外交部：搁置与西班牙（关于签证/移民问题）的申根协定。"
     },
     {
-      "time": "16:08",
-      "text": "阿根廷与韩国签署关键矿物合作协议。"
+      "time": "17:27",
+      "text": "针对Meta Platforms Inc.印度负责人以及Instagram和Facebook用户涉嫌发布针对印度总理纳伦德拉·莫迪的不当内容，海得拉巴网络犯罪警察已正式立案。相关案件已根据《印度新刑法典》（Bharatiya Nyaya S"
     },
     {
-      "time": "16:08",
-      "text": "索尼影业：《蜘蛛侠》预览票房达到7200万美元，创历史（同期）新高。"
+      "time": "17:19",
+      "text": "泰达币发行人Tether在截至6月的三个月内为其储备购买了14吨黄金，延续了其购买势头，使其成为除银行和主权国家外全球最大的已知黄金持有者。根据其季度证明报告，这家加密巨头的黄金储备在6月底增至146吨，价值188亿美元。\n该公司表示，其第"
     },
     {
-      "time": "16:07",
-      "text": "美国财长贝森特：伊朗没能力支付军饷，美国正在搜寻其资产。"
+      "time": "17:17",
+      "text": "西班牙表示，非法越境进入其位于非洲飞地、与摩洛哥接壤边境的5万名移民中，已有超过半数离开。与此同时，西班牙正面临来自欧洲日益加大的压力，要求其尽快重新掌控局势。西班牙首相佩德罗·桑切斯表示，“此次事件是一场攻击，是对西班牙领土完整的侵犯”，"
     },
     {
-      "time": "16:05",
-      "text": "美国财长贝森特：核心通胀率偏低，消费者信心强劲。"
+      "time": "17:15",
+      "text": "周五（7月31日），美联储隔夜逆回购协议（RRP）使用规模为21.51亿美元（交易对手4家），上个交易日报10.76亿美元。"
     },
     {
-      "time": "16:01",
-      "text": "印度：反倾销关税政策将延续至2027年2月10日。"
+      "time": "17:11",
+      "text": "文章称，出口多、顺差大是全球产业分工的结果，而非所谓“产能过剩”的证据。更值得警惕的是，相关论调沦为经贸政治化的工具，正在扰乱全球产供链、加剧经贸摩擦。美国《通胀削减法》以本土化为条件排斥他国，欧盟《工业加速器法案》将本地含量与财政支持挂钩"
     },
     {
-      "time": "15:56",
-      "text": "雪佛龙：预计到2027年年度将收回在委内瑞拉的债务。"
+      "time": "17:03",
+      "text": "美国电信运营商T-Mobil通报德国电信，该公司不支持潜在交易。（Semafor）"
     },
     {
-      "time": "15:48",
-      "text": "巴西股市逐步恢复交易，此前已经暂停数小时。"
+      "time": "17:03",
+      "text": "据知情人士透露，美国加州州长Newsom对当地公诉人起诉派拉蒙天舞（Paramount SkyDance）一事感到忧心忡忡。\n州长担心，阻挠派拉蒙与华纳兄弟探索公司（WBD）合并交易的举动会影响到当地就业。（华尔街日报）"
     },
     {
-      "time": "15:46",
-      "text": "美国总统特朗普声称：与委内瑞拉关系很好。"
+      "time": "17:01",
+      "text": "7月31日，根据墨西哥国家地震监测局（SSN）的信息，7月31日10时15分56秒，在墨西哥东南部的恰帕斯州的玛帕斯特佩克市西南方向约165公里处发生5.0级地震，震源深度约10公里。墨西哥的地震预警系统没有启动，目前暂无人员伤亡和财产损失"
     },
     {
-      "time": "15:45",
-      "text": "美国总统特朗普声称：伊朗做得非常糟糕。\n在与美国打交道时候，伊朗不老实。\n伊朗处境艰难。"
+      "time": "17:01",
+      "text": "美国7月31日当周石油钻井数 451，前值 450。"
     },
     {
-      "time": "15:45",
-      "text": "美国总统特朗普宣称：西班牙移民局势是“灾难”。"
-    },
-    {
-      "time": "07-31 14:15",
-      "text": "[AV] Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.12% on Jul 31: Drivers Behind the Movement"
-    },
-    {
-      "time": "07-31 08:50",
-      "text": "[AV] CCM Investment Advisers LLC Acquires Shares of 29,689 Waste Management, Inc. $WM"
-    },
-    {
-      "time": "07-31 07:11",
-      "text": "[AV] NatWest Markets Plc Interim Results 2026"
-    },
-    {
-      "time": "07-31 06:08",
-      "text": "[AV] Update: US Equity Indexes Surge as Microsoft Triggers Rebound in Chipmakers While Inflation Rate Falls in June"
-    },
-    {
-      "time": "07-31 03:40",
-      "text": "[AV] Banco Santander SA Stock (SAN) Moved Up by 5.16% on Jul 30: Key Drivers Unveiled"
-    },
-    {
-      "time": "07-31 00:21",
-      "text": "[AV] Why Woodward (WWD) Shares Are Plunging Today"
-    },
-    {
-      "time": "07-30 21:08",
-      "text": "[AV] JPMorgan Chase & Co. (NYSE:JPM) Trading 1.7% Higher - Should You Buy?"
-    },
-    {
-      "time": "07-30 19:40",
-      "text": "[AV] Samsung Profits Surge 1300%; 30-Year Bond Yield Highest Since 2007; Momo's Favorite Semi ETF Loses 70%"
-    },
-    {
-      "time": "07-30 17:39",
-      "text": "[AV] Stock Market Today: SPY, QQQ Rally as AI Stocks Surge; PCE Inflation Retreats"
-    },
-    {
-      "time": "07-30 17:09",
-      "text": "[AV] The Emergence of Gold in a Multipolar World"
+      "time": "17:01",
+      "text": "美国7月31日当周天然气钻井数 127，前值 127。"
     },
     {
       "time": "07-29 18:00",
@@ -168,7 +128,11 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 1,
@@ -176,18 +140,12 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4105.6,
-    "measuredMoveLow": 4000.2,
-    "measuredMoveHigh": 4050.35,
-    "sma20": 4126.19,
-    "currentPrice": 4100.5
+    "measuredMoveLow": 4014.0,
+    "measuredMoveHigh": 4061.15,
+    "sma20": 4123.41,
+    "currentPrice": 4108.3
   },
   "bars1h": [
-    {
-      "open": 4142.5,
-      "high": 4144.2998046875,
-      "low": 4122.2998046875,
-      "close": 4129.7001953125
-    },
     {
       "open": 4130.0,
       "high": 4151.5,
@@ -418,18 +376,18 @@
     },
     {
       "open": 4101.7998046875,
-      "high": 4102.2998046875,
-      "low": 4099.60009765625,
-      "close": 4100.5
+      "high": 4106.0,
+      "low": 4097.2001953125,
+      "close": 4099.2998046875
+    },
+    {
+      "open": 4099.2001953125,
+      "high": 4109.7998046875,
+      "low": 4097.2998046875,
+      "close": 4108.2998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4060.60009765625,
-      "high": 4085.199951171875,
-      "low": 4046.89990234375,
-      "close": 4079.89990234375
-    },
     {
       "open": 4080.300048828125,
       "high": 4080.89990234375,
@@ -602,7 +560,13 @@
       "open": 4096.60009765625,
       "high": 4109.10009765625,
       "low": 4076.39990234375,
-      "close": 4100.5
+      "close": 4099.2998046875
+    },
+    {
+      "open": 4099.2001953125,
+      "high": 4109.7998046875,
+      "low": 4097.2998046875,
+      "close": 4108.2998046875
     }
   ],
   "calendar": null,
