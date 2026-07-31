@@ -1,107 +1,153 @@
 {
-  "fetchedAt": "2026-07-31T19:27:27.626454+00:00",
+  "fetchedAt": "2026-07-31T20:43:30.189138+00:00",
   "gold": {
-    "price": 4050.300049,
-    "updatedAt": "2026-07-31T19:26:45Z"
+    "price": 4051.699951,
+    "updatedAt": "2026-07-31T20:43:15Z"
   },
   "silver": {
-    "price": 58.056999,
-    "updatedAt": "2026-07-31T19:26:45Z"
+    "price": 57.881001,
+    "updatedAt": "2026-07-31T20:43:15Z"
   },
   "dxy": {
-    "value": 99.92,
-    "changePct": -0.09
+    "value": 99.79,
+    "changePct": -0.21
   },
   "vix": {
-    "value": 16.47,
-    "changePct": -3.63
+    "value": 15.99,
+    "changePct": -6.44
   },
   "wti": {
-    "value": 84.7,
-    "changePct": 1.33
+    "value": 84.53,
+    "changePct": 1.12
   },
   "btc": {
-    "value": 62958.25,
-    "changePct": -2.73
+    "value": 62917.27,
+    "changePct": -2.79
   },
   "spx": {
-    "value": 7499.43,
-    "changePct": 0.83
+    "value": 7489.72,
+    "changePct": 0.7
   },
   "fred": {
-    "10y_treasury": null,
-    "10y_real_rate": null
+    "10y_treasury": {
+      "date": "2026-07-30",
+      "value": 4.68
+    },
+    "10y_real_rate": {
+      "date": "2026-07-30",
+      "value": 2.41
+    }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 13,
     "minRequired": 10,
-    "dxy": -0.164,
-    "realRate": 0.307,
-    "vix": -0.263,
-    "btc": 0.316,
-    "spx": -0.027
+    "dxy": -0.156,
+    "realRate": 0.297,
+    "vix": -0.245,
+    "btc": 0.31,
+    "spx": -0.02
   },
   "news": [
     {
-      "time": "19:25",
-      "text": "周五（7月31日）纽约尾盘，ICE美元指数涨0.03%，报99.899点，本周累计下跌1.54%，7月份累计下跌1.47%，7月1-29日高位震荡、29日纽约中午至30日持续下挫，整体交投区间为101.640-99.806点。\n彭博美元指数"
+      "time": "20:38",
+      "text": "美元兑日元跌1%，创5月份以来最大盘中跌幅。"
     },
     {
-      "time": "19:23",
-      "text": "7月31日，西班牙内政部表示，自本轮移民危机开始以来，共有5万名非法移民进入该国飞地休达，其中4.83万人已自愿返回摩洛哥，目前仍有不足2000人滞留当地。当天，意大利宣布恢复与西班牙之间港口和机场的边境检查，以应对西班牙在北非的飞地休达移"
+      "time": "20:34",
+      "text": "周五（7月31日），美股行业ETF涨跌各异，可选消费ETF收涨3.29%，网络股指数ETF涨2.59%，能源业ETF涨1%，半导体ETF涨0.3%，科技行业ETF跌0.22%，医疗业ETF跌0.59%，生物科技指数ETF跌1.87%。\n20"
     },
     {
-      "time": "19:21",
-      "text": "在美国与沙特联军对被控在当地发动袭击的亲伊朗武装实施打击后，伊拉克于周五下令加强防空力量与情报工作。政府发言人萨巴赫・努曼表示，阿里・扎伊迪总理已下达 “即刻执行的严格指令”，要求所有营地与基地将警戒级别和战备状态提升至最高水平，武装部队以"
+      "time": "20:33",
+      "text": "标普500指数的11个板块中，可选消费板块收涨6.07%，电信板块涨4.6%，工业板块涨0.79%表现第三，信息技术/科技板块跌0.54%，房地产板块跌0.68%，公用事业板块跌0.74%，原材料板块跌2.71%。"
     },
     {
-      "time": "19:20",
-      "text": "周五（7月31日）纽约尾盘，彭博谷物分类指数跌1.57%，报31.0762点，本周累计下跌5.26%，7月份累计上涨5.65%，7月1-24日持续上扬、最高达到33.3899点，随后逐步回吐涨幅。\nCBOT玉米期货跌1.01%，报4.637"
+      "time": "20:33",
+      "text": "美元兑日元跌破158关口，现报157.99，日内跌0.92%，30内跳水逾100点。"
     },
     {
-      "time": "19:10",
-      "text": "前美联储副主席克拉里达（Richard Clarida）表示，如果央行在不明确传达政策制定者目标的情况下改变其首选的通胀衡量指标，可能会带来不确定性。目前担任太平洋投资管理公司（PIMCO，品浩）全球经济顾问的警告称，实行通胀目标制的央行必"
+      "time": "20:32",
+      "text": "凯文・M・沃什正考虑减少美联储制定利率的例行会议场次。此举可能引发重大震动，或将成为这家央行多年来运营模式最重大的改革。美联储由12名成员组成的政策委员会每年召开八次会议，投票决定上调、下调或是维持借贷成本。\n四名获准匿名受访的知情人士透露"
     },
     {
-      "time": "19:07",
-      "text": "英国财政大臣Healey要求内阁大臣准备削减预算。（英国泰晤士报）"
+      "time": "20:30",
+      "text": "新兴市场股票指数涨6.6%，创2008年美国次贷危机以来最佳单日表现。"
     },
     {
-      "time": "19:01",
-      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7525元，较周四夜盘收盘涨3点。成交量382.00亿美元。"
+      "time": "20:25",
+      "text": "美元兑日元跌0.9%，报158.03。"
     },
     {
-      "time": "19:00",
-      "text": "恒生指数主连夜盘收跌0.07%，报25922点。\n恒生科技指数主连夜盘收涨0.35%，报4855点。"
+      "time": "20:24",
+      "text": "周五（7月31日），美股存储芯片与硬件供应链指数跌1.58%，报189.63点，本周累跌5.30%，7月份累计下跌29.25%、整体持续下挫。\n2026年1-7月，成分股闪迪累积上涨411.77%，西部数据涨216.5%，希捷科技涨211."
     },
     {
-      "time": "18:34",
-      "text": "洲际交易所（ICE）：7月28日当周，投机者减持ICE布伦特原油净多头头寸6,948手合约，至185,083手合约。"
+      "time": "20:19",
+      "text": "OpenAI发现其他AI智能体逃离隔离环境的证据。（路透）"
     },
     {
-      "time": "18:31",
-      "text": "WTI 9月原油期货收涨1.08美元，涨幅超过1.29%，报84.67美元/桶，本周累计下跌超过5.19%，7月份（主力合约）累涨22.23%。\n布伦特9月原油期货收涨1.09美元，涨幅超过1.22%，报90.12美元/桶，7月份（主力合约"
+      "time": "20:19",
+      "text": "华尔街在经历了人工智能（AI）繁荣中最剧烈的一周后迎来了试探性复苏。此前科技股遭遇重挫、长期借贷成本飙升，随后市场又出现了决定性的反弹。\n本周的动荡部分是由对冲基金Situational Awareness在杠杆AI押注中遭受亏损所引发的，"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2609合约夜盘收涨0.71%，报553.80元人民币/桶。\n沪金夜盘收跌0.89%，沪银收跌1.01%。"
+      "time": "20:16",
+      "text": "周五（7月31日）纽约尾盘，欧元兑美元持平、整体呈现出V形反转、北京时间21:40跌至1.1455刷新日低，7月份累计上涨0.95%，7月29-30日显著上涨。\n英镑兑美元涨0.10%、21:40也曾刷新日低至1.34，7月份累涨1.65%"
     },
     {
-      "time": "18:27",
-      "text": "媒体援引知情人士报道称，美国纽约联储周五要求至少两家美国大型银行查询日元兑欧元的汇率。"
+      "time": "20:11",
+      "text": "周五（7月31日），彭博电动汽车价格回报指数涨0.16%，报3320.82点，本周累计上涨2.80%，7月份累计下跌6.80%，整体持续走低。"
     },
     {
-      "time": "18:13",
-      "text": "墨西哥国家石油公司（Pemex）财务主管Alberto Jimenez在公司电话会议上表示，Pemex正与墨西哥财政部分析可能的债务再融资操作。Jimenez表示，公司还在与财政部合作，将偿还债务的款项纳入政府预算计划的2027年预算分配中"
+      "time": "20:08",
+      "text": "以色列国防军7月31日发表声明称，近日以军在加沙地带多地发动空袭，打死两名巴勒斯坦伊斯兰抵抗运动（哈马斯）官员。此外，以军还称，过去一周在约旦河西岸开展了数十次军事行动，共抓捕了200多名巴勒斯坦人。（央视）"
     },
     {
-      "time": "17:58",
-      "text": "据美国媒体31日报道，一架美军F-35隐形战斗机当日在加利福尼亚州圣迭戈一处军事基地坠毁。（新华社）"
+      "time": "20:05",
+      "text": "标普确认卢森堡AAA评级，前景展望稳定。"
     },
     {
-      "time": "17:45",
-      "text": "墨西哥国家石油公司（Pemex）生产主管Octavio Barrera在公司电话会议上表示，Pemex与巴西国家石油公司（Petrobras）正在分析墨西哥湾盐下地层的勘探与开发（E&P）潜力。\nBarrera表示，目前相关公司与墨西哥能源"
+      "time": "20:03",
+      "text": "Integer Holdings Corp.（ITGR）收涨20%，创2000年10月份以来最大单日涨幅。"
+    },
+    {
+      "time": "07-31 19:15",
+      "text": "[AV] NXP Semiconductors NV Stock (NXPI) Moved Down by 5.05% on Jul 31: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 15:39",
+      "text": "[AV] Shopify Inc Stock (SHOP) Moved Down by 4.37% on Jul 31: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 14:15",
+      "text": "[AV] Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.12% on Jul 31: Drivers Behind the Movement"
+    },
+    {
+      "time": "07-31 10:00",
+      "text": "[AV] W. P. Carey: Inflation-Beating Yields, Tenant Risk Mitigation, And Resilience Amid Uncertainty"
+    },
+    {
+      "time": "07-31 08:50",
+      "text": "[AV] CCM Investment Advisers LLC Acquires Shares of 29,689 Waste Management, Inc. $WM"
+    },
+    {
+      "time": "07-31 07:11",
+      "text": "[AV] NatWest Markets Plc Interim Results 2026"
+    },
+    {
+      "time": "07-31 06:08",
+      "text": "[AV] Update: US Equity Indexes Surge as Microsoft Triggers Rebound in Chipmakers While Inflation Rate Falls in June"
+    },
+    {
+      "time": "07-31 03:40",
+      "text": "[AV] Banco Santander SA Stock (SAN) Moved Up by 5.16% on Jul 30: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 00:21",
+      "text": "[AV] Why Woodward (WWD) Shares Are Plunging Today"
+    },
+    {
+      "time": "07-30 21:08",
+      "text": "[AV] JPMorgan Chase & Co. (NYSE:JPM) Trading 1.7% Higher - Should You Buy?"
     },
     {
       "time": "07-29 18:00",
@@ -128,30 +174,20 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4109.8,
-    "measuredMoveLow": 4015.2,
-    "measuredMoveHigh": 4059.7,
-    "sma20": 4117.43,
-    "currentPrice": 4104.2
+    "measuredMoveLow": 4023.9,
+    "measuredMoveHigh": 4065.7,
+    "sma20": 4115.31,
+    "currentPrice": 4107.5
   },
   "bars1h": [
-    {
-      "open": 4121.10009765625,
-      "high": 4127.5,
-      "low": 4107.60009765625,
-      "close": 4114.10009765625
-    },
     {
       "open": 4115.89990234375,
       "high": 4117.10009765625,
@@ -382,9 +418,15 @@
     },
     {
       "open": 4106.7998046875,
-      "high": 4109.0,
+      "high": 4111.89990234375,
       "low": 4102.60009765625,
-      "close": 4104.2001953125
+      "close": 4107.7001953125
+    },
+    {
+      "open": 4107.60009765625,
+      "high": 4108.39990234375,
+      "low": 4101.89990234375,
+      "close": 4107.5
     }
   ],
   "bars4h": [
@@ -564,17 +606,17 @@
     },
     {
       "open": 4099.2001953125,
-      "high": 4111.2998046875,
+      "high": 4111.89990234375,
       "low": 4097.2998046875,
-      "close": 4104.2001953125
+      "close": 4107.5
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 183910,
-    "change": -2772,
-    "reportDate": "2026-07-21"
+    "netLong": 182070,
+    "change": -1840,
+    "reportDate": "2026-07-28"
   },
   "cotError": null,
   "gld": null,
