@@ -1,113 +1,147 @@
 {
-  "fetchedAt": "2026-07-31T14:09:39.762097+00:00",
+  "fetchedAt": "2026-07-31T16:13:26.235281+00:00",
   "gold": {
-    "price": 4023.0,
-    "updatedAt": "2026-07-31T14:09:15Z"
+    "price": 4047.199951,
+    "updatedAt": "2026-07-31T16:12:45Z"
   },
   "silver": {
-    "price": 57.174999,
-    "updatedAt": "2026-07-31T14:09:14Z"
+    "price": 57.589001,
+    "updatedAt": "2026-07-31T16:12:44Z"
   },
   "dxy": {
-    "value": 100.41,
-    "changePct": 0.4
+    "value": 100.05,
+    "changePct": 0.04
   },
   "vix": {
-    "value": 17.73,
-    "changePct": 3.74
+    "value": 17.26,
+    "changePct": 0.99
   },
   "wti": {
-    "value": 85.47,
-    "changePct": 2.25
+    "value": 84.24,
+    "changePct": 0.78
   },
   "btc": {
-    "value": 62510.0,
-    "changePct": -3.42
+    "value": 62794.43,
+    "changePct": -2.98
   },
   "spx": {
-    "value": 7412.62,
-    "changePct": -0.34
+    "value": 7457.64,
+    "changePct": 0.27
   },
   "fred": {
-    "10y_treasury": {
-      "date": "2026-07-29",
-      "value": 4.67
-    },
-    "10y_real_rate": {
-      "date": "2026-07-29",
-      "value": 2.41
-    }
+    "10y_treasury": null,
+    "10y_real_rate": null
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 13,
     "minRequired": 10,
-    "dxy": -0.13,
-    "realRate": 0.268,
-    "vix": -0.278,
-    "btc": 0.408,
-    "spx": 0.031
+    "dxy": -0.166,
+    "realRate": 0.307,
+    "vix": -0.294,
+    "btc": 0.323,
+    "spx": -0.012
   },
   "news": [
     {
-      "time": "14:09",
-      "text": "美国股市转跌。"
+      "time": "16:13",
+      "text": "美国总统特朗普声称：在解除哈马斯武装方面，美方与以色列有谅解。"
     },
     {
-      "time": "14:04",
-      "text": "外交部部长助理刘彬集体会见文莱交通与信息通讯部长瑞扎、多哥数字转型部长劳森、伊朗驻华大使法兹里、苏丹驻华大使欧玛尔、越南驻华使馆临时代办黄文俊，并见证上述国家签署《关于成立世界人工智能合作组织的协定》。"
+      "time": "16:12",
+      "text": "周五（7月31日）欧市尾盘，法国10年期国债收益率涨6.2个基点，刷新日高至4.003%，7月份累计上涨34.4个基点，整体（与天然气期货市场一样）持续走高。\n意大利10年期国债收益率涨6.1个基点，刷新日高至4.024%，7月份累涨38."
     },
     {
-      "time": "14:01",
-      "text": "美国达拉斯联储主席洛根（Lorie Logan，2026年FOMC票委）表示，她对美联储维持利率不变的决定投了反对票，因为她认为，如果不采取央行行动，通胀将无法回到官员们设定的2%目标。\n洛根在一份声明中表示：“在没有任何政策限制的情况下，"
+      "time": "16:11",
+      "text": "美国总统特朗普声称：我们只想赢（得伊朗战争）。\n我们将非常沉重地打击他们。"
     },
     {
-      "time": "14:00",
-      "text": "国盛证券公告，公司于2026年7月31日收到中国证监会下发的《立案告知书》（编号：证监立案字0252026006号），因公司涉嫌违反《证券经纪业务管理办法》关于账户实名制等规定，根据《中华人民共和国证券法》《中华人民共和国行政处罚法》等法律"
+      "time": "16:10",
+      "text": "CBOT小麦日内跌幅达3.0%，报693.5美分/蒲式耳。乌克兰宣称，在俄罗斯针对港口基础设施的袭击扰乱了黑海地区的粮食流通之际，该国正寻求使出口路线多元化。\n同时，美国小麦产区的干旱状况进一步恶化。据美国农业部（USDA）称，由于不利天气"
     },
     {
-      "time": "14:00",
-      "text": "美国7月密歇根大学消费者现况指数终值 54.8，预期 54.6，初值 54.9。"
+      "time": "16:09",
+      "text": "美国中央司令部：伊朗政府再次表示已关闭霍尔木兹海峡。\n这是错误的。\n事实上，霍尔木兹海峡仍然对商船开放。\n伊朗并未控制该海峡。\n过去四个月里，已有数千艘船只通过这条国际航道。"
     },
     {
-      "time": "14:00",
-      "text": "美国7月密歇根大学1年通胀预期终值 4.2，预期 4.3，初值 4.2。"
+      "time": "16:08",
+      "text": "阿根廷与韩国签署关键矿物合作协议。"
     },
     {
-      "time": "14:00",
-      "text": "美国7月密歇根大学消费者预期指数终值 55.4，预期 53.5，初值 54。"
+      "time": "16:08",
+      "text": "索尼影业：《蜘蛛侠》预览票房达到7200万美元，创历史（同期）新高。"
     },
     {
-      "time": "14:00",
-      "text": "美国7月密歇根大学5年通胀预期终值 3.3，预期 3.3，初值 3.3。"
+      "time": "16:07",
+      "text": "美国财长贝森特：伊朗没能力支付军饷，美国正在搜寻其资产。"
     },
     {
-      "time": "14:00",
-      "text": "美国7月密歇根大学消费者信心指数终值 55.2，预期 54，初值 54.4。"
+      "time": "16:05",
+      "text": "美国财长贝森特：核心通胀率偏低，消费者信心强劲。"
     },
     {
-      "time": "13:57",
-      "text": "明晟公司MSCI新兴市场股票指数涨6.4%，创2008年以来最大盘中涨幅。"
+      "time": "16:01",
+      "text": "印度：反倾销关税政策将延续至2027年2月10日。"
     },
     {
-      "time": "13:57",
-      "text": "湘财股份公告，公司子公司湘财证券于2026年7月31日收到中国证监会《立案告知书》，因涉嫌违反《证券经纪业务管理办法》关于账户实名制等规定被立案。湘财证券将积极配合相关工作，目前公司及子公司经营情况正常。"
+      "time": "15:56",
+      "text": "雪佛龙：预计到2027年年度将收回在委内瑞拉的债务。"
     },
     {
-      "time": "13:56",
-      "text": "当地时间12月31日，以色列国家安全部部长本-格维尔在社交媒体上发表声明称，当天加沙“和平委员会”公布的最新版加沙停火路线图对以色列而言是不可接受的。本-格维尔扬言，“承诺停止针对哈马斯组织成员的袭击行动，相当于同意哈马斯为下一次袭击做准备"
+      "time": "15:48",
+      "text": "巴西股市逐步恢复交易，此前已经暂停数小时。"
     },
     {
-      "time": "13:55",
-      "text": "据美国纽约联储数据，上个交易日（7月30日）担保隔夜融资利率（SOFR）报3.65%，之前一天报3.65%。\n上个交易日有效的联邦基金利率报3.63%，之前一天报3.63%。"
+      "time": "15:46",
+      "text": "美国总统特朗普声称：与委内瑞拉关系很好。"
     },
     {
-      "time": "13:51",
-      "text": "美股存储股走低，闪迪跌超2%，此前一度涨超9%；美光科技转跌，此前一度涨超6%，西部数据涨幅收窄至3%，SK海力士、希捷科技涨幅收窄至1%左右。"
+      "time": "15:45",
+      "text": "美国总统特朗普声称：伊朗做得非常糟糕。\n在与美国打交道时候，伊朗不老实。\n伊朗处境艰难。"
     },
     {
-      "time": "13:48",
-      "text": "美国财长贝森特：我们与日本继续保持密切协调。\n日本央行已展现出对货币稳定的承诺。\n日本经济持续表现良好。\n期待在G20会议上见到日本央行行长。"
+      "time": "15:45",
+      "text": "美国总统特朗普宣称：西班牙移民局势是“灾难”。"
+    },
+    {
+      "time": "07-31 14:15",
+      "text": "[AV] Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.12% on Jul 31: Drivers Behind the Movement"
+    },
+    {
+      "time": "07-31 08:50",
+      "text": "[AV] CCM Investment Advisers LLC Acquires Shares of 29,689 Waste Management, Inc. $WM"
+    },
+    {
+      "time": "07-31 07:11",
+      "text": "[AV] NatWest Markets Plc Interim Results 2026"
+    },
+    {
+      "time": "07-31 06:08",
+      "text": "[AV] Update: US Equity Indexes Surge as Microsoft Triggers Rebound in Chipmakers While Inflation Rate Falls in June"
+    },
+    {
+      "time": "07-31 03:40",
+      "text": "[AV] Banco Santander SA Stock (SAN) Moved Up by 5.16% on Jul 30: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 00:21",
+      "text": "[AV] Why Woodward (WWD) Shares Are Plunging Today"
+    },
+    {
+      "time": "07-30 21:08",
+      "text": "[AV] JPMorgan Chase & Co. (NYSE:JPM) Trading 1.7% Higher - Should You Buy?"
+    },
+    {
+      "time": "07-30 19:40",
+      "text": "[AV] Samsung Profits Surge 1300%; 30-Year Bond Yield Highest Since 2007; Momo's Favorite Semi ETF Loses 70%"
+    },
+    {
+      "time": "07-30 17:39",
+      "text": "[AV] Stock Market Today: SPY, QQQ Rally as AI Stocks Surge; PCE Inflation Retreats"
+    },
+    {
+      "time": "07-30 17:09",
+      "text": "[AV] The Emergence of Gold in a Multipolar World"
     },
     {
       "time": "07-29 18:00",
@@ -134,42 +168,20 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4096.8,
-    "measuredMoveLow": 3983.8,
-    "measuredMoveHigh": 4033.35,
-    "sma20": 4135.44,
-    "currentPrice": 4082.9
+    "signalBarBull": true,
+    "signalBarPrice": 4105.6,
+    "measuredMoveLow": 4000.2,
+    "measuredMoveHigh": 4050.35,
+    "sma20": 4126.19,
+    "currentPrice": 4100.5
   },
   "bars1h": [
-    {
-      "open": 4104.2001953125,
-      "high": 4128.89990234375,
-      "low": 4101.7001953125,
-      "close": 4126.0
-    },
-    {
-      "open": 4126.7001953125,
-      "high": 4148.2001953125,
-      "low": 4121.10009765625,
-      "close": 4146.2998046875
-    },
-    {
-      "open": 4146.5,
-      "high": 4158.0,
-      "low": 4142.0,
-      "close": 4142.0
-    },
     {
       "open": 4142.5,
       "high": 4144.2998046875,
@@ -390,7 +402,25 @@
       "open": 4096.60009765625,
       "high": 4103.39990234375,
       "low": 4077.60009765625,
-      "close": 4082.89990234375
+      "close": 4081.5
+    },
+    {
+      "open": 4080.800048828125,
+      "high": 4106.89990234375,
+      "low": 4076.39990234375,
+      "close": 4105.60009765625
+    },
+    {
+      "open": 4105.7998046875,
+      "high": 4109.10009765625,
+      "low": 4093.0,
+      "close": 4101.7998046875
+    },
+    {
+      "open": 4101.7998046875,
+      "high": 4102.2998046875,
+      "low": 4099.60009765625,
+      "close": 4100.5
     }
   ],
   "bars4h": [
@@ -570,9 +600,9 @@
     },
     {
       "open": 4096.60009765625,
-      "high": 4103.39990234375,
-      "low": 4077.60009765625,
-      "close": 4082.89990234375
+      "high": 4109.10009765625,
+      "low": 4076.39990234375,
+      "close": 4100.5
     }
   ],
   "calendar": null,
