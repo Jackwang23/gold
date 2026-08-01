@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-07-31T23:01:44.775717+00:00",
+  "fetchedAt": "2026-08-01T00:11:51.464948+00:00",
   "gold": {
     "price": 4043.699951,
-    "updatedAt": "2026-07-31T23:01:15Z"
+    "updatedAt": "2026-08-01T00:11:16Z"
   },
   "silver": {
     "price": 57.689999,
-    "updatedAt": "2026-07-31T23:01:15Z"
+    "updatedAt": "2026-08-01T00:11:15Z"
   },
   "dxy": {
     "value": 99.8,
@@ -21,8 +21,8 @@
     "changePct": 3.84
   },
   "btc": {
-    "value": 62894.84,
-    "changePct": -2.83
+    "value": 62900.46,
+    "changePct": -2.82
   },
   "spx": {
     "value": 7489.72,
@@ -40,15 +40,43 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 13,
+    "dataPoints": 14,
     "minRequired": 10,
-    "dxy": -0.114,
-    "realRate": 0.29,
-    "vix": -0.212,
-    "btc": 0.337,
-    "spx": -0.039
+    "dxy": -0.007,
+    "realRate": 0.275,
+    "vix": -0.133,
+    "btc": 0.354,
+    "spx": -0.073
   },
   "news": [
+    {
+      "time": "00:08",
+      "text": "美国圣路易斯联储主席穆萨勒姆（Musalem）针对美债抛售事件表示：美债抛售对美联储的信誉发出了警告。\n我本人倾向于（支持）加息。（英国金融时报）"
+    },
+    {
+      "time": "00:04",
+      "text": "韩国7月日均出口同比增长69.6%。\n7月贸易盈余303.24亿美元，预期顺差294.87亿美元。"
+    },
+    {
+      "time": "00:02",
+      "text": "韩国7月进口同比 26.5%，预期 27.8%，前值 30.1%。"
+    },
+    {
+      "time": "00:01",
+      "text": "韩国7月出口同比 62.8%，预期 59%，前值 70.9%。"
+    },
+    {
+      "time": "23:36",
+      "text": "美国地质调查局：印度尼西亚马索希东北偏东153公里处发生5.1级地震。"
+    },
+    {
+      "time": "23:21",
+      "text": "马斯克旗下太空探索公司Space Exploration Technologies Corp.收跌3.41%，报108.37美元，创美国IPO以来收盘最低，7月份累计下跌36.57%；自6月16日创下201.80美元的收盘高点以来，Spac"
+    },
+    {
+      "time": "23:07",
+      "text": "据知情人士透露，美国财政部周五对日元汇兑市场实施了干预，也是近30年来东京和华盛顿首次通过直接买入日元的方式联手撑日本货币。纽约联储代表美国财政部做出不寻常之举 —— 卖出欧元来买入日元。上述交易通过高盛和摩根士丹利操作。（英国金融时报）"
+    },
     {
       "time": "22:57",
       "text": "【伊朗警告打击美以能源基础设施】8月1日获悉，针对美国方面有关美国和以色列可能对伊朗基础设施发动袭击的消息，一名伊朗高级安全官员称，类似消息属“无稽之谈”。该安全官员表示，伊朗已制定一项全面计划，包括打击以色列关键基础设施及地区内美国能源基"
@@ -82,32 +110,44 @@
       "text": "谷歌母公司Alphabet Inc.宣布，将撤回其在Google Earth（谷歌地球）中推出的全新AI图像生成功能。原因是部分用户利用该工具生成修改过的卫星图像，这些图像似乎违反了公司的相关政策。\n该工具允许用户通过文本提示生成逼真的空中"
     },
     {
-      "time": "22:28",
-      "text": "受7月28日地震影响，日本熊本县八代市多处房屋受损。该市八代港港口物流功能全面停摆。根据最新的统计，目前熊本县内有超过1500处房屋受损。彻底坍塌的房屋超过170处，这个数字可能还会上升。港区已经确认出现土地液化、地面塌陷等灾害。\n目前，当"
+      "time": "07-31 19:15",
+      "text": "[AV] NXP Semiconductors NV Stock (NXPI) Moved Down by 5.05% on Jul 31: Key Drivers Unveiled"
     },
     {
-      "time": "22:17",
-      "text": "OpenAI本周在美国华盛顿特区预览了名为“Astra”的人工智能（AI）模型，该公司CEO Altman向（国会山的/特朗普政府的）决策者们、各大监管机构演示了“Astra”。（The Information）"
+      "time": "07-31 18:39",
+      "text": "[AV] Stock Market Today: SPY, QQQ Extend Gains on Big Tech Rally as Consumer Sentiment Strengthens"
     },
     {
-      "time": "22:14",
-      "text": "哥伦比亚启动了一项旨在积累高达40亿美元国际储备的计划，以促使该国货币从七年高点回落。7月31日，该国央行行长Leonardo Villar宣布了这项决定，就在政策制定者刚刚决定维持利率不变之后。该计划将从8月份初期开始通过每月的看跌期权拍"
+      "time": "07-31 15:39",
+      "text": "[AV] Shopify Inc Stock (SHOP) Moved Down by 4.37% on Jul 31: Key Drivers Unveiled"
     },
     {
-      "time": "22:04",
-      "text": "在本季度财报季中，越来越多的美国公司盈利超出预期，其中医疗保健和科技行业是最大赢家。\n根据彭博汇编的数据，在标准普尔500指数中已公布第三季度业绩的292家公司里，有87%的每股收益（EPS）超过了分析师预期，而去年同期整个财报季这一比例为"
+      "time": "07-31 14:15",
+      "text": "[AV] Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.12% on Jul 31: Drivers Behind the Movement"
     },
     {
-      "time": "22:03",
-      "text": "以色列前总理奥尔默特日前接受采访时指出，约旦河西岸地区确实存在“犹太恐怖主义”——由犹太人定居者实施，并且得到了以色列政府的支持。奥尔默特批评内塔尼亚胡政府纵容此类种族清洗的行径，并称千千万万以色列人都反对政府此种行为。\n近期，约旦河西岸巴"
+      "time": "07-31 10:39",
+      "text": "[AV] EZA ETF: Higher Cost Of Capital Not Good For Constituent Elements (NYSEARCA:EZA)"
     },
     {
-      "time": "21:58",
-      "text": "中国地震台网正式测定：8月1日5时24分在云南普洱市墨江县（北纬23.18度，东经101.45度）发生4.4级地震，震源深度10千米。（央视）"
+      "time": "07-31 10:08",
+      "text": "[AV] Invesco Bond Income Plus Q1 2026: Generating income through market turbulence"
     },
     {
-      "time": "21:56",
-      "text": "日本（政府）、日本央行再次干预日元外汇市场。（日经新闻）"
+      "time": "07-31 10:00",
+      "text": "[AV] W. P. Carey: Inflation-Beating Yields, Tenant Risk Mitigation, And Resilience Amid Uncertainty"
+    },
+    {
+      "time": "07-31 08:50",
+      "text": "[AV] CCM Investment Advisers LLC Acquires Shares of 29,689 Waste Management, Inc. $WM"
+    },
+    {
+      "time": "07-31 07:11",
+      "text": "[AV] NatWest Markets Plc Interim Results 2026"
+    },
+    {
+      "time": "07-31 06:08",
+      "text": "[AV] Update: US Equity Indexes Surge as Microsoft Triggers Rebound in Chipmakers While Inflation Rate Falls in June"
     },
     {
       "time": "07-29 18:00",
@@ -134,11 +174,7 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
