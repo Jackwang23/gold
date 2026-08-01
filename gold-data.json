@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-01T19:38:04.847740+00:00",
+  "fetchedAt": "2026-08-01T20:33:45.677308+00:00",
   "gold": {
     "price": 4043.699951,
-    "updatedAt": "2026-08-01T19:37:47Z"
+    "updatedAt": "2026-08-01T20:33:17Z"
   },
   "silver": {
     "price": 57.689999,
-    "updatedAt": "2026-08-01T19:37:47Z"
+    "updatedAt": "2026-08-01T20:33:17Z"
   },
   "dxy": {
     "value": 99.8,
@@ -21,8 +21,8 @@
     "changePct": 1.29
   },
   "btc": {
-    "value": 62420.1,
-    "changePct": -0.63
+    "value": 62544.83,
+    "changePct": -0.43
   },
   "spx": {
     "value": 7489.72,
@@ -45,7 +45,7 @@
     "dxy": -0.007,
     "realRate": 0.275,
     "vix": -0.133,
-    "btc": 0.348,
+    "btc": 0.35,
     "spx": -0.073
   },
   "news": [
@@ -110,6 +110,46 @@
       "text": "据海南省商务厅，在今年2月开设首批5家岛内居民日用消费品免税店的基础上，海南计划第二批开设7家岛内居民日用消费品免税店，其中三亚旺豪日用消费品免税店、文昌旺豪日用消费品免税店8月1日开业。（海南日报）"
     },
     {
+      "time": "08-01 14:05",
+      "text": "[AV] Exxon, Chevron Warn Fuel Prices to Endure as War Knocks Refining"
+    },
+    {
+      "time": "08-01 10:38",
+      "text": "[AV] Wall Street week ahead: monthly jobs report, McDonald’s and SpaceX earnings"
+    },
+    {
+      "time": "08-01 05:11",
+      "text": "[AV] TDTF ETF Profile: Dividends, Returns (BOATS:TDTF)"
+    },
+    {
+      "time": "07-31 19:15",
+      "text": "[AV] NXP Semiconductors NV Stock (NXPI) Moved Down by 5.05% on Jul 31: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 18:39",
+      "text": "[AV] Stock Market Today: SPY, QQQ Extend Gains on Big Tech Rally as Consumer Sentiment Strengthens"
+    },
+    {
+      "time": "07-31 15:39",
+      "text": "[AV] Shopify Inc Stock (SHOP) Moved Down by 4.37% on Jul 31: Key Drivers Unveiled"
+    },
+    {
+      "time": "07-31 14:15",
+      "text": "[AV] Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.12% on Jul 31: Drivers Behind the Movement"
+    },
+    {
+      "time": "07-31 13:40",
+      "text": "[AV] Invesco Mortgage Q2 2026 slides: portfolio grows amid rate headwinds"
+    },
+    {
+      "time": "07-31 10:39",
+      "text": "[AV] EZA ETF: Higher Cost Of Capital Not Good For Constituent Elements (NYSEARCA:EZA)"
+    },
+    {
+      "time": "07-31 10:08",
+      "text": "[AV] Invesco Bond Income Plus Q1 2026: Generating income through market turbulence"
+    },
+    {
       "time": "07-29 18:00",
       "text": "[Fed] Federal Reserve issues FOMC statement"
     },
@@ -134,11 +174,7 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
