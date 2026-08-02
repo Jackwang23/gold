@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-02T15:21:01.095349+00:00",
+  "fetchedAt": "2026-08-02T16:29:04.735802+00:00",
   "gold": {
     "price": 4043.699951,
-    "updatedAt": "2026-08-02T15:20:49Z"
+    "updatedAt": "2026-08-02T16:28:49Z"
   },
   "silver": {
     "price": 57.689999,
-    "updatedAt": "2026-08-02T15:20:48Z"
+    "updatedAt": "2026-08-02T16:28:49Z"
   },
   "dxy": {
     "value": 99.8,
@@ -21,8 +21,8 @@
     "changePct": 1.29
   },
   "btc": {
-    "value": 63050.99,
-    "changePct": 0.46
+    "value": 63032.05,
+    "changePct": 0.43
   },
   "spx": {
     "value": 7489.72,
@@ -49,6 +49,34 @@
     "spx": -0.1
   },
   "news": [
+    {
+      "time": "16:25",
+      "text": "伊朗议会国家安全委员会：调停方正提供协助，以期重启与美国的谅解备忘录谈判。\n各方正就所有议题交换意见。"
+    },
+    {
+      "time": "16:11",
+      "text": "乌克兰军队在创纪录的无人机密集轰炸中，于夜间袭击了俄罗斯石油公司（Rosneft PJSC）位于萨拉托夫的炼油厂。乌克兰正继续几乎每日不间断地打击敌方的燃料生产工业。乌克兰武装部队总参谋部在Telegram上发声明称，此次对萨拉托夫的袭击导"
+    },
+    {
+      "time": "16:04",
+      "text": "索尼影业最新一部电影《蜘蛛侠》全球首映票房9.27亿美元。"
+    },
+    {
+      "time": "16:04",
+      "text": "据英国方面当地时间8月1日消息，欧足联已要求国际足联主席因凡蒂诺辞职。若因凡蒂诺拒绝，欧足联准备对他发起不信任投票。\n据了解，国际足联211个成员协会中有43家协会投票支持该不信任投票即可启动罢免程序，欧足联拥有55个成员协会。\n欧足联的这"
+    },
+    {
+      "time": "16:00",
+      "text": "俄罗斯国防部：乌克兰尼古拉耶夫港港口基础设施及两艘载有军用物资的船只被击中。"
+    },
+    {
+      "time": "15:43",
+      "text": "周日（8月2日），沙特证交所全股指数收涨1.10%，报10705.87点，美国总统特朗普周日稍早（美东时间周六深夜）宣称“同意取消军事打击伊朗”，伊朗军方称其说法是“谎言”，沙特股市微幅高开之后转跌，随后迅速上涨，过半交易时间高位持稳、最终"
+    },
+    {
+      "time": "15:22",
+      "text": "《蜘蛛侠：崭新之日》创（北美市场）2026年迄今所有电影中最高的首周末票房，同时也是好莱坞影史第二高的首周末票房。该片在周末期间席卷了美国和加拿大影院，斩获3.55亿美元票房，是今年此前最大首周末票房的两倍多。《崭新之日》在“烂番茄”上获得"
+    },
     {
       "time": "13:45",
       "text": "从海南省交通运输厅获悉，为发挥交通运输基础性、先导性、战略性作用，“十五五”期间，海南已制定98个自由贸易港交通枢纽体系重大工程，着力加快建设现代化综合交通运输体系，更好支撑海南全面深化改革开放、高标准建设自由贸易港。 （海南日报）"
@@ -82,32 +110,44 @@
       "text": "当地时间8月2日，以色列安全内阁成员、能源部长埃利·科恩当天在接受采访时明确表示，以色列并未同意停止对加沙地带的军事打击，以安全内阁在过去72小时内也并未就所谓的“加沙停火方案”进行过任何讨论。（央视）"
     },
     {
-      "time": "12:30",
-      "text": "近日，全球被动元器件大厂村田发布2026财年第一季（对应自然季度2026年第二季度）财报，受益于AI算力带动MLCC（片式多层陶瓷电容器）需求爆发，公司各项财务指标大幅增长。公司新签订MLCC订单同比大增85.5%。"
+      "time": "08-02 09:38",
+      "text": "[AV] Fischer Investment Strategies LLC Has $3.32 Million Stake in Invesco QQQ $QQQ"
     },
     {
-      "time": "12:17",
-      "text": "特朗普预计将于9月12日访问爱尔兰。（爱尔兰时报）"
+      "time": "08-02 04:10",
+      "text": "[AV] Consumer Staples Stocks To Watch As Cooling Inflation Reshapes Essential Spending"
     },
     {
-      "time": "12:15",
-      "text": "日本熊本县8月2日通报，一名地震后栖身汽车中的灾民死亡，死因疑似为中暑。熊本县首府熊本市当天出现创纪录的高温，预计3日气温将继续升高。根据通报，死者为一名70多岁女性，地震发生后在汽车内避难，7月30日出现中暑症状，被送往医院后不治身亡。当"
+      "time": "08-02 01:41",
+      "text": "[AV] newton golf company, inc. Earnings dates"
     },
     {
-      "time": "12:08",
-      "text": "近日，住房城乡建设部城市建设司就防范燃气安全事故，专门约谈有关省市部门负责人。\n约谈指出，燃气安全事关人民群众切身利益，事故发生暴露出有关省市燃气安全工作存在明显薄弱环节。有关省市要深刻汲取事故教训，举一反三，采取针对性工作措施，提升本地区"
+      "time": "08-01 18:41",
+      "text": "[AV] TLT ETF Outflows Rise as Bond Vigilantes Push US 30-Year Treasury Yields to 5.26%"
     },
     {
-      "time": "12:02",
-      "text": "日本冲绳县近日发生多起驻日美军士兵被捕案件，其中两人涉嫌酒驾，一人涉嫌公然猥亵。据冲绳县警方通报，2日清晨发生的一起案件中，驻日美军嘉手纳基地一名士兵被指在冲绳市一处公寓外裸露身体，警方以公然猥亵罪将其当场逮捕。事发时，这名士兵处于醉酒状态"
+      "time": "08-01 18:10",
+      "text": "[AV] Schwab International Equity ETF (SCHF) offers broad global exposure, favored over US tech for balanced diversification."
     },
     {
-      "time": "11:59",
-      "text": "当地时间8月2日，俄罗斯首都莫斯科市长索比亚宁在社交媒体发文表示，1日发生在该市的餐厅爆炸事件是恐怖袭击，并已造成多人伤亡。\n索比亚宁称，执法机关正在调查事件的具体情况。（央视）"
+      "time": "08-01 14:05",
+      "text": "[AV] Exxon, Chevron Warn Fuel Prices to Endure as War Knocks Refining"
     },
     {
-      "time": "11:44",
-      "text": "OPEC+声明：OPEC+联合部长级监督委员会（JMMC）下次会议将于10月4日举行。"
+      "time": "08-01 10:38",
+      "text": "[AV] Wall Street week ahead: monthly jobs report, McDonald’s and SpaceX earnings"
+    },
+    {
+      "time": "08-01 09:08",
+      "text": "[AV] Why so negative? Finding value in US corporate bonds"
+    },
+    {
+      "time": "08-01 05:11",
+      "text": "[AV] TDTF ETF Profile: Dividends, Returns (BOATS:TDTF)"
+    },
+    {
+      "time": "08-01 05:10",
+      "text": "[AV] By August 2027, analysts expect the Lloyds share price to be…"
     },
     {
       "time": "07-29 18:00",
@@ -134,11 +174,7 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
