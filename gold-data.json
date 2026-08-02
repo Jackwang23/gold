@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-02T11:07:46.399808+00:00",
+  "fetchedAt": "2026-08-02T12:15:59.150278+00:00",
   "gold": {
     "price": 4043.699951,
-    "updatedAt": "2026-08-02T11:07:19Z"
+    "updatedAt": "2026-08-02T12:15:49Z"
   },
   "silver": {
     "price": 57.689999,
-    "updatedAt": "2026-08-02T11:07:18Z"
+    "updatedAt": "2026-08-02T12:15:48Z"
   },
   "dxy": {
     "value": 99.8,
@@ -21,8 +21,8 @@
     "changePct": 1.29
   },
   "btc": {
-    "value": 63120.24,
-    "changePct": 0.57
+    "value": 63082.84,
+    "changePct": 0.51
   },
   "spx": {
     "value": 7489.72,
@@ -49,6 +49,38 @@
     "spx": -0.1
   },
   "news": [
+    {
+      "time": "12:15",
+      "text": "日本熊本县8月2日通报，一名地震后栖身汽车中的灾民死亡，死因疑似为中暑。熊本县首府熊本市当天出现创纪录的高温，预计3日气温将继续升高。根据通报，死者为一名70多岁女性，地震发生后在汽车内避难，7月30日出现中暑症状，被送往医院后不治身亡。当"
+    },
+    {
+      "time": "12:08",
+      "text": "近日，住房城乡建设部城市建设司就防范燃气安全事故，专门约谈有关省市部门负责人。\n约谈指出，燃气安全事关人民群众切身利益，事故发生暴露出有关省市燃气安全工作存在明显薄弱环节。有关省市要深刻汲取事故教训，举一反三，采取针对性工作措施，提升本地区"
+    },
+    {
+      "time": "12:02",
+      "text": "日本冲绳县近日发生多起驻日美军士兵被捕案件，其中两人涉嫌酒驾，一人涉嫌公然猥亵。据冲绳县警方通报，2日清晨发生的一起案件中，驻日美军嘉手纳基地一名士兵被指在冲绳市一处公寓外裸露身体，警方以公然猥亵罪将其当场逮捕。事发时，这名士兵处于醉酒状态"
+    },
+    {
+      "time": "11:59",
+      "text": "当地时间8月2日，俄罗斯首都莫斯科市长索比亚宁在社交媒体发文表示，1日发生在该市的餐厅爆炸事件是恐怖袭击，并已造成多人伤亡。\n索比亚宁称，执法机关正在调查事件的具体情况。（央视）"
+    },
+    {
+      "time": "11:44",
+      "text": "OPEC+声明：OPEC+联合部长级监督委员会（JMMC）下次会议将于10月4日举行。"
+    },
+    {
+      "time": "11:42",
+      "text": "中信建投研报指出，7月以来A股科技板块受全球联动影响经历深度调整，呈现二三线领跌到龙头补跌的梯度路径。本轮调整是杠杆资金卖出主导的资金面冲击，源头在韩国散户杠杆ETF负反馈，市场暂时呈现业绩与股价背离。但整体来看，无差别恐慌抛售阶段大概率已"
+    },
+    {
+      "time": "11:36",
+      "text": "据伊朗迈赫尔通讯社2日报道，伊朗代理国防部长伊本·礼萨当天表示，敌方近期有关言论虽是在心理战和认知战背景下提出的，但伊朗认为，任何威胁都是“真实且值得重视的”，并将据此提升战备水平、增强威慑能力和提高自身实力。\n伊本·礼萨未说明上述表态是针"
+    },
+    {
+      "time": "11:30",
+      "text": "OPEC+代表透露，OPEC+同意将9月份的石油产量配额上调18.8万桶/日。\nOPEC+主要产油国将于9月6日举行下一次会议。"
+    },
     {
       "time": "10:18",
       "text": "伊朗法尔斯通讯社2日援引消息人士的话报道说，重开霍尔木兹海峡的计划纯属谣言。一名相关消息人士说，目前尚未就重开霍尔木兹海峡达成任何协议，有关此事的报道纯属谣言。另一名知情的军方消息人士强调，只要美国继续采取敌对行动，霍尔木兹海峡就将继续关闭"
@@ -78,36 +110,44 @@
       "text": "据网络平台数据，截至目前，2026年度电影总票房（含预售）突破230亿元，暑期档票房已突破72亿，连续23天单日票房过亿。（央视新闻）"
     },
     {
-      "time": "08:11",
-      "text": "8月1日，国家外汇管理局以视频形式召开2026年下半年外汇管理工作交流会。会议部署了2026年下半年外汇管理重点工作。其中提出，稳步扩大外汇领域制度型开放。推动贸易便利化改革，出台优化经常项目外汇管理一揽子措施，全面推广跨境贸易高水平开放外"
+      "time": "08-02 09:38",
+      "text": "[AV] Fischer Investment Strategies LLC Has $3.32 Million Stake in Invesco QQQ $QQQ"
     },
     {
-      "time": "07:02",
-      "text": "8月1日，中国人民银行召开2026年下半年工作会议。会议强调，要实施好适度宽松的货币政策，充分发挥各项存量政策效能，及时谋划出台务实管用的增量政策，加大逆周期调节力度，加力扩大内需、优化供给，扎实做好下半年各项重点工作，推动经济持续向新向优"
+      "time": "08-02 04:10",
+      "text": "[AV] Consumer Staples Stocks To Watch As Cooling Inflation Reshapes Essential Spending"
     },
     {
-      "time": "06:48",
-      "text": "2日从上港集团获悉，上海港单日集装箱吞吐量于1日突破20万标准箱，达到203881标准箱，创历史新高。（新华社）"
+      "time": "08-02 01:41",
+      "text": "[AV] newton golf company, inc. Earnings dates"
     },
     {
-      "time": "06:43",
-      "text": "小米手机正式涨价，8月2日，小米商城显示，小米17系列价格已经上调了300元-500元/台；REDMI 产品线同步跟进，主打性能的 Turbo 5，以及K90 系列各版本普遍涨价 300元。（新京报）"
+      "time": "08-01 18:41",
+      "text": "[AV] TLT ETF Outflows Rise as Bond Vigilantes Push US 30-Year Treasury Yields to 5.26%"
     },
     {
-      "time": "06:35",
-      "text": "水利部针对重庆市启动洪水防御Ⅳ级应急响应。（新华社）"
+      "time": "08-01 18:10",
+      "text": "[AV] Schwab International Equity ETF (SCHF) offers broad global exposure, favored over US tech for balanced diversification."
     },
     {
-      "time": "06:35",
-      "text": "水利部今天（2日）上午举行会商，目前全国20条河流仍维持超警。水利部今天发布红色山洪灾害气象预警。"
+      "time": "08-01 14:05",
+      "text": "[AV] Exxon, Chevron Warn Fuel Prices to Endure as War Knocks Refining"
     },
     {
-      "time": "06:23",
-      "text": "中国棉花协会发表声明称，美方所谓“强迫劳动”的指控毫无事实与法理依据。中国棉花产业始终坚持市场化、现代化发展方向，新疆机采棉目前占比已超过90%，从种植、采摘到加工、纺织，全产业链均实现了高度自动化与规模化。此次制裁严重破坏了全球棉花产业链"
+      "time": "08-01 10:38",
+      "text": "[AV] Wall Street week ahead: monthly jobs report, McDonald’s and SpaceX earnings"
     },
     {
-      "time": "06:19",
-      "text": "长安汽车宣布，7月交付20.71万辆，其中，新能源交付96500辆，同比增长28.8%。"
+      "time": "08-01 09:08",
+      "text": "[AV] Why so negative? Finding value in US corporate bonds"
+    },
+    {
+      "time": "08-01 05:11",
+      "text": "[AV] TDTF ETF Profile: Dividends, Returns (BOATS:TDTF)"
+    },
+    {
+      "time": "08-01 05:10",
+      "text": "[AV] By August 2027, analysts expect the Lloyds share price to be…"
     },
     {
       "time": "07-29 18:00",
@@ -134,11 +174,7 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
