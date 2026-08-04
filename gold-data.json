@@ -1,41 +1,38 @@
 {
-  "fetchedAt": "2026-08-04T19:07:39.158594+00:00",
-  "gold": {
-    "price": 4081.899902,
-    "updatedAt": "2026-08-04T19:07:12Z"
-  },
+  "fetchedAt": "2026-08-04T20:43:19.665484+00:00",
+  "gold": null,
   "silver": {
-    "price": 59.737999,
-    "updatedAt": "2026-08-04T19:07:11Z"
+    "price": 59.651001,
+    "updatedAt": "2026-08-04T20:43:12Z"
   },
   "dxy": {
-    "value": 99.85,
-    "changePct": -0.11
+    "value": 99.86,
+    "changePct": -0.1
   },
   "vix": {
-    "value": 16.34,
-    "changePct": 3.03
+    "value": 16.5,
+    "changePct": 4.04
   },
   "wti": {
-    "value": 75.8,
-    "changePct": -5.65
+    "value": 75.31,
+    "changePct": -6.26
   },
   "btc": {
-    "value": 64273.78,
-    "changePct": 1.28
+    "value": 64357.48,
+    "changePct": 1.41
   },
   "spx": {
-    "value": 7752.57,
-    "changePct": 2.0
+    "value": 7736.52,
+    "changePct": 1.79
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-07-31",
-      "value": 4.75
+      "date": "2026-08-03",
+      "value": 4.7
     },
     "10y_real_rate": {
-      "date": "2026-07-31",
-      "value": 2.47
+      "date": "2026-08-03",
+      "value": 2.43
     }
   },
   "goldapi": null,
@@ -50,64 +47,104 @@
   },
   "news": [
     {
-      "time": "19:05",
-      "text": "SpaceX股价上涨10％，该公司即将在美股收盘之后发布美国IPO以来首份业绩报告。"
+      "time": "20:43",
+      "text": "Booking的CEO：目前，人工智能引流对我们整体业务的贡献仍然相对较小。"
     },
     {
-      "time": "19:01",
-      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7510元，较周一夜盘收盘涨50点。成交量423.73亿美元。"
+      "time": "20:42",
+      "text": "马斯克：SpaceX预计到2026年年底将形成超过2 GW的算力。"
     },
     {
-      "time": "19:00",
-      "text": "恒生指数主连夜盘收涨0.32%，报25917点。\n恒生科技指数主连夜盘收涨0.53%，报4910点。"
+      "time": "20:42",
+      "text": "马斯克：往后我们决定完全基于英伟达开展技术搭建。\n人工智能与机器人技术将大幅提升带宽需求。"
     },
     {
-      "time": "18:30",
-      "text": "WTI 9月原油期货收跌4.57美元，跌幅将近5.69%，报75.77美元/桶。\n布伦特9月原油期货收跌4.41美元，跌幅超过5.26%，报79.36美元/桶。\n中东Abu Dhabi Murban原油期货跌4.73%，报77.22美元/桶"
+      "time": "20:37",
+      "text": "Pinterest首席执行官：我们平台上超过96%的文本搜索是非品牌搜索。"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2609合约夜盘收跌4.93%，报510.5元人民币/桶。\n沪金夜盘收涨0.87%，沪银收涨3.45%。"
+      "time": "20:35",
+      "text": "马斯克：今年将尝试回收星舰V3的第一级和第二级，可能在下一次飞行中实现。\n公司将在下一次星舰飞行中，将首批V3版星链卫星送入轨道。\nSpaceX今年迄今又迎来一个里程碑年份。\n星舰目标是每年向轨道输送100万吨以上载荷，目标上限或可达100"
     },
     {
-      "time": "18:23",
-      "text": "据华盛顿邮报，美国疾控中心（CDC）数据显示，环孢子虫病（cyclospora）疫情扩散至15个州，较上次披露新增六个州。\n密苏里州通报称，1095例患者与Taco Bell有关。\n百胜（Yum Brands）股价迅速转跌。"
+      "time": "20:34",
+      "text": "美国能源部长Wright：未来几周燃料价格应会下降。\n《琼斯法案》豁免延期可能性较大，该举措已使加州及美国东海岸能源价格有所下降。"
     },
     {
-      "time": "18:20",
-      "text": "据知情人士透露，美国白宫预计将在未来几天延长《琼斯法案》豁免期限。（路透）"
+      "time": "20:32",
+      "text": "提醒：SpaceX分析师电话会议开始。"
     },
     {
-      "time": "18:18",
-      "text": "如果民主党在美国中期选举中夺回众议院控制权，计划对石油行业飙升的利润展开审查，这使得相关企业可能面临国会调查和听证会。\n“这已在计划之中，”加利福尼亚州民主党众议员哈夫曼（Jared Huffman）表示，“我们绝对应该曝光他们并公开谴责。"
+      "time": "20:31",
+      "text": "1、马斯克旗下太空探索公司SpaceX二季度总营收78亿美元，去年同期41亿美元，同比增长92%；\n2、净亏损5.41亿美元，较去年同期10亿美元净亏损收窄4.67亿美元；\n3、调整后息税折旧摊销前利润35亿美元，去年同期12亿美元，同比增"
     },
     {
-      "time": "18:09",
-      "text": "高盛高级石油交易员Madhav Janakiraman将离职。"
+      "time": "20:21",
+      "text": "SpaceX二季度AI Segment资本开支158.3亿美元，分析师预期130.9亿美元。"
     },
     {
-      "time": "18:06",
-      "text": "在得知墨西哥胡椒可能与美国明尼苏达州的一起沙门氏菌疫情有关后，Chipotle Mexican Grill Inc.（墨式烤肉）从明尼苏达州的多间门店撤下了该产品。在协助明尼苏达州卫生部门调查此次疫情的过程中，该连锁餐厅从所有接收过该批次的"
+      "time": "20:20",
+      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
     },
     {
-      "time": "17:48",
-      "text": "标普500指数涨超2%，美股费城半导体指数涨幅扩大至7.15%。英伟达股价上涨2.49%，博通股价上涨7.49%，超威半导体股价上涨9.08%，阿斯麦ADR上涨3.63%，英特尔股价上涨10.87%。\n道指涨1090点，涨幅2.05%。"
+      "time": "20:17",
+      "text": "布伦特原油日内跌幅达6.0%，报78.74美元/桶。"
     },
     {
-      "time": "17:39",
-      "text": "土耳其4日对两艘商用货轮在黑海海域遇袭表示严重关切，并警告说俄乌冲突影响外溢正威胁民用航运和地区稳定。土耳其外交部在一份声明中表示，当地时间3日，与土耳其相关的商船“亚萨尔”号和“娜代日达”号从俄罗斯黑海港口新罗西斯克港起航后遭到无人机袭击"
+      "time": "20:15",
+      "text": "AMD二季度调整后每股收益（EPS）为1.66美元，分析师预期1.62美元。\n二季度营收115.4亿美元，分析师预期113.1亿美元。\n二季度调整后运营利润率27%，分析师预期26.9%。\n二季度调整后运营利润30.9亿美元，分析师预期30"
     },
     {
-      "time": "17:34",
-      "text": "调查结果显示，石油输出国组织（OPEC，欧佩克）7月石油产量增加116万桶/日，至产出1944万桶/日，科威特、沙特、伊拉克增产明显。（彭博）"
+      "time": "20:14",
+      "text": "美国国务院：撤销巴西大使的签证。"
     },
     {
-      "time": "17:29",
-      "text": "伊朗外交部发言人巴加埃4日说，伊朗仍在与阿曼就霍尔木兹海峡进行谈判，谈判在技术和政治层面取得“积极进展”。据伊朗伊斯兰共和国通讯社报道，巴加埃说，此次谈判重点是确定船舶可安全行驶的航道。伊朗正与阿曼合作制定管理该海峡航运的“必要机制”，双方"
+      "time": "20:07",
+      "text": "周二（8月4日），彭博电动汽车价格回报指数涨1.29%，报3395.93点，亚太早盘曾微幅下跌、北京时间10:03刷新日低至3340.03点，随后持续走高。"
     },
     {
-      "time": "17:20",
-      "text": "美国石油协会（API）的CEO：霍尔木兹海峡的石油输送量大约700万桶/日。"
+      "time": "20:02",
+      "text": "马斯克旗下太空探索公司SpaceX二季度收入78亿美元，分析师预期68.1亿美元。\n二季度AI Segment（人工智能业务）运营亏损12.6亿美元，分析师预期亏损23.9亿美元。\n二季度Space Segment（太空业务）净销售9.62"
+    },
+    {
+      "time": "08-04 16:15",
+      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.43% on Aug 4: Facts Behind the Movement"
+    },
+    {
+      "time": "08-04 13:38",
+      "text": "[AV] What do Fed rate hikes mean for U.S. households’ financial health?"
+    },
+    {
+      "time": "08-04 11:10",
+      "text": "[AV] RBC Sees Canada’s Jobs Market Steadying Into July"
+    },
+    {
+      "time": "08-04 11:01",
+      "text": "[AV] Intuit, BILL, Workiva, Elastic, and Autodesk Stocks Trade Up, What You Need To Know"
+    },
+    {
+      "time": "08-04 03:37",
+      "text": "[AV] Citi Says Japan Has Yen Defense Tools Beyond Treasury Sales"
+    },
+    {
+      "time": "08-03 18:53",
+      "text": "[AV] Video: Huntington Bank Talks Inflation, Key Rates & More"
+    },
+    {
+      "time": "08-03 17:25",
+      "text": "[AV] Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "08-03 17:11",
+      "text": "[AV] nCino, Braze, ServiceNow, Health Catalyst, and Palo Alto Networks Shares Are Soaring, What You Need To Know"
+    },
+    {
+      "time": "08-03 16:39",
+      "text": "[AV] Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "08-03 16:15",
+      "text": "[AV] NVIDIA Corp Stock (NVDA) Moved Up by 3.01% on Aug 3: Drivers Behind the Movement"
     },
     {
       "time": "07-29 18:00",
@@ -134,11 +171,7 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -146,24 +179,12 @@
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4150.4,
-    "measuredMoveLow": 4170.3,
-    "measuredMoveHigh": 4203.1,
-    "sma20": 4123.57,
-    "currentPrice": 4137.5
+    "measuredMoveLow": 4166.7,
+    "measuredMoveHigh": 4199.5,
+    "sma20": 4126.28,
+    "currentPrice": 4133.9
   },
   "bars1h": [
-    {
-      "open": 4112.7001953125,
-      "high": 4122.2998046875,
-      "low": 4107.7998046875,
-      "close": 4117.7998046875
-    },
-    {
-      "open": 4117.60009765625,
-      "high": 4123.2001953125,
-      "low": 4114.2001953125,
-      "close": 4120.0
-    },
     {
       "open": 4120.39990234375,
       "high": 4127.2001953125,
@@ -390,7 +411,19 @@
       "open": 4142.7998046875,
       "high": 4146.0,
       "low": 4132.10009765625,
-      "close": 4137.5
+      "close": 4136.7998046875
+    },
+    {
+      "open": 4136.60009765625,
+      "high": 4141.89990234375,
+      "low": 4133.2998046875,
+      "close": 4135.2998046875
+    },
+    {
+      "open": 4135.60009765625,
+      "high": 4137.2998046875,
+      "low": 4131.39990234375,
+      "close": 4133.89990234375
     }
   ],
   "bars4h": [
@@ -571,8 +604,8 @@
     {
       "open": 4150.2001953125,
       "high": 4163.7998046875,
-      "low": 4132.10009765625,
-      "close": 4137.5
+      "low": 4131.39990234375,
+      "close": 4133.89990234375
     }
   ],
   "calendar": null,
