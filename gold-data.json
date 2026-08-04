@@ -1,25 +1,28 @@
 {
-  "fetchedAt": "2026-08-04T20:43:19.665484+00:00",
-  "gold": null,
+  "fetchedAt": "2026-08-04T21:58:30.007600+00:00",
+  "gold": {
+    "price": 4078.600098,
+    "updatedAt": "2026-08-04T21:58:12Z"
+  },
   "silver": {
-    "price": 59.651001,
-    "updatedAt": "2026-08-04T20:43:12Z"
+    "price": 59.654999,
+    "updatedAt": "2026-08-04T21:58:11Z"
   },
   "dxy": {
-    "value": 99.86,
-    "changePct": -0.1
+    "value": 99.89,
+    "changePct": -0.07
   },
   "vix": {
     "value": 16.5,
     "changePct": 4.04
   },
   "wti": {
-    "value": 75.31,
-    "changePct": -6.26
+    "value": 75.14,
+    "changePct": -6.47
   },
   "btc": {
-    "value": 64357.48,
-    "changePct": 1.41
+    "value": 64140.03,
+    "changePct": 1.07
   },
   "spx": {
     "value": 7736.52,
@@ -39,112 +42,72 @@
   "correlations": {
     "dataPoints": 17,
     "minRequired": 10,
-    "dxy": -0.032,
-    "realRate": 0.271,
-    "vix": -0.147,
-    "btc": 0.32,
-    "spx": 0.073
+    "dxy": -0.022,
+    "realRate": 0.248,
+    "vix": -0.139,
+    "btc": 0.317,
+    "spx": 0.052
   },
   "news": [
     {
-      "time": "20:43",
-      "text": "Booking的CEO：目前，人工智能引流对我们整体业务的贡献仍然相对较小。"
+      "time": "21:58",
+      "text": "报道：美国告知众多AI企业，不会对开源/开放权重模型进行安全测试。"
     },
     {
-      "time": "20:42",
-      "text": "马斯克：SpaceX预计到2026年年底将形成超过2 GW的算力。"
+      "time": "21:54",
+      "text": "周二（8月4日），美股存储芯片与硬件供应链指数涨6.74%，报202.90点。\n成分股闪迪收涨10.84%，泰瑞达涨10.32%，Rambus、拉姆研究、美光科技至少涨7.62%，应用材料、西部数据至少涨4.05%，希捷科技涨1.72%。此"
     },
     {
-      "time": "20:42",
-      "text": "马斯克：往后我们决定完全基于英伟达开展技术搭建。\n人工智能与机器人技术将大幅提升带宽需求。"
+      "time": "21:41",
+      "text": "一、人工智能（AI）与算力布局（马斯克&COO）\n1、芯片与供应商锁定：马斯克明确表示SpaceX在芯片供应上独家采用英伟达GPU，承诺往后将完全基于英伟达开展技术搭建。公司预计明年将拿到英伟达GPU供应总量中“相当大的份额”。\n2、算力规"
     },
     {
-      "time": "20:37",
-      "text": "Pinterest首席执行官：我们平台上超过96%的文本搜索是非品牌搜索。"
+      "time": "21:37",
+      "text": "英伟达美股盘后涨2%，马斯克此前在电话会上谈及SpaceX算力计划。"
     },
     {
-      "time": "20:35",
-      "text": "马斯克：今年将尝试回收星舰V3的第一级和第二级，可能在下一次飞行中实现。\n公司将在下一次星舰飞行中，将首批V3版星链卫星送入轨道。\nSpaceX今年迄今又迎来一个里程碑年份。\n星舰目标是每年向轨道输送100万吨以上载荷，目标上限或可达100"
+      "time": "21:34",
+      "text": "提醒：SpaceX分析师电话会结束。"
     },
     {
-      "time": "20:34",
-      "text": "美国能源部长Wright：未来几周燃料价格应会下降。\n《琼斯法案》豁免延期可能性较大，该举措已使加州及美国东海岸能源价格有所下降。"
+      "time": "21:34",
+      "text": "【报道：特朗普政府退还约1000亿美元关税】自从美国最高法院否决其使用紧急权力（征收关税）以来，特朗普政府已发放了约1000亿美元的关税退款。"
     },
     {
-      "time": "20:32",
-      "text": "提醒：SpaceX分析师电话会议开始。"
+      "time": "21:30",
+      "text": "马斯克预计，星舰到明年底将具备足够的安全性，可实现载人飞行。\n星舰飞船大概率会在2027年底前满足载人安全要求。"
     },
     {
-      "time": "20:31",
-      "text": "1、马斯克旗下太空探索公司SpaceX二季度总营收78亿美元，去年同期41亿美元，同比增长92%；\n2、净亏损5.41亿美元，较去年同期10亿美元净亏损收窄4.67亿美元；\n3、调整后息税折旧摊销前利润35亿美元，去年同期12亿美元，同比增"
+      "time": "21:29",
+      "text": "塔米姆4日与美国总统特朗普就美伊局势通电话，强调应继续坚持对话、通过外交途径解决分歧。根据卡塔尔埃米尔宫4日发表的声明，塔米姆与特朗普讨论了地区局势最新发展，特别是旨在缓解美国与伊朗紧张关系、弥合双方分歧，从而为通过外交途径解决危机创造有利"
     },
     {
-      "time": "20:21",
-      "text": "SpaceX二季度AI Segment资本开支158.3亿美元，分析师预期130.9亿美元。"
+      "time": "21:21",
+      "text": "AMD：AI计算市场年化增速为40%。"
     },
     {
-      "time": "20:20",
-      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
+      "time": "21:15",
+      "text": "富时A50期指连续夜盘收涨0.02%，报14755点。"
     },
     {
-      "time": "20:17",
-      "text": "布伦特原油日内跌幅达6.0%，报78.74美元/桶。"
+      "time": "21:14",
+      "text": "AMD的CEO苏姿丰在分析师电话会议上预计，数据中心销售将在2027年翻倍。\n公司将于2027年推出机架级产品，配备MI500 GPU、Verano CPU、Pensando网络技术，并同时采用铜缆和光纤扩展域。\n公司预计将超过2025年金"
     },
     {
-      "time": "20:15",
-      "text": "AMD二季度调整后每股收益（EPS）为1.66美元，分析师预期1.62美元。\n二季度营收115.4亿美元，分析师预期113.1亿美元。\n二季度调整后运营利润率27%，分析师预期26.9%。\n二季度调整后运营利润30.9亿美元，分析师预期30"
+      "time": "21:13",
+      "text": "SpaceX：公司已提交招股说明书，内容涉及部分现有股东重新发售1.3695亿股A类普通股的发行业务。"
     },
     {
-      "time": "20:14",
-      "text": "美国国务院：撤销巴西大使的签证。"
+      "time": "21:13",
+      "text": "Anthropic：在我们开展内部调查期间，正与英国人工智能安全研究所（AISI）密切合作，收集这起事件的更多细节。\n目前没有证据表明存在从安全环境中逃脱的情况。"
     },
     {
-      "time": "20:07",
-      "text": "周二（8月4日），彭博电动汽车价格回报指数涨1.29%，报3395.93点，亚太早盘曾微幅下跌、北京时间10:03刷新日低至3340.03点，随后持续走高。"
+      "time": "21:12",
+      "text": "马斯克：SpaceX现在的目标是2030年实现万亿美元营收，而非2031年。\nSpaceX在2029年实现1万亿美元营收的可能性“非零”。"
     },
     {
-      "time": "20:02",
-      "text": "马斯克旗下太空探索公司SpaceX二季度收入78亿美元，分析师预期68.1亿美元。\n二季度AI Segment（人工智能业务）运营亏损12.6亿美元，分析师预期亏损23.9亿美元。\n二季度Space Segment（太空业务）净销售9.62"
-    },
-    {
-      "time": "08-04 16:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.43% on Aug 4: Facts Behind the Movement"
-    },
-    {
-      "time": "08-04 13:38",
-      "text": "[AV] What do Fed rate hikes mean for U.S. households’ financial health?"
-    },
-    {
-      "time": "08-04 11:10",
-      "text": "[AV] RBC Sees Canada’s Jobs Market Steadying Into July"
-    },
-    {
-      "time": "08-04 11:01",
-      "text": "[AV] Intuit, BILL, Workiva, Elastic, and Autodesk Stocks Trade Up, What You Need To Know"
-    },
-    {
-      "time": "08-04 03:37",
-      "text": "[AV] Citi Says Japan Has Yen Defense Tools Beyond Treasury Sales"
-    },
-    {
-      "time": "08-03 18:53",
-      "text": "[AV] Video: Huntington Bank Talks Inflation, Key Rates & More"
-    },
-    {
-      "time": "08-03 17:25",
-      "text": "[AV] Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-03 17:11",
-      "text": "[AV] nCino, Braze, ServiceNow, Health Catalyst, and Palo Alto Networks Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-03 16:39",
-      "text": "[AV] Salesforce, HubSpot, Okta, Workday, and Datadog Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-03 16:15",
-      "text": "[AV] NVIDIA Corp Stock (NVDA) Moved Up by 3.01% on Aug 3: Drivers Behind the Movement"
+      "time": "21:09",
+      "text": "周二（8月4日）纽约尾盘，标普500股指期货最终涨1.93%，道指期货涨1.98%，纳斯达克100股指期货涨3.18%。\n罗素2000股指期货涨1.96%。"
     },
     {
       "time": "07-29 18:00",
@@ -171,7 +134,11 @@
       "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -179,10 +146,10 @@
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4150.4,
-    "measuredMoveLow": 4166.7,
-    "measuredMoveHigh": 4199.5,
-    "sma20": 4126.28,
-    "currentPrice": 4133.9
+    "measuredMoveLow": 4167.0,
+    "measuredMoveHigh": 4199.8,
+    "sma20": 4126.3,
+    "currentPrice": 4134.2
   },
   "bars1h": [
     {
@@ -423,7 +390,7 @@
       "open": 4135.60009765625,
       "high": 4137.2998046875,
       "low": 4131.39990234375,
-      "close": 4133.89990234375
+      "close": 4134.2001953125
     }
   ],
   "bars4h": [
@@ -605,7 +572,7 @@
       "open": 4150.2001953125,
       "high": 4163.7998046875,
       "low": 4131.39990234375,
-      "close": 4133.89990234375
+      "close": 4134.2001953125
     }
   ],
   "calendar": null,
