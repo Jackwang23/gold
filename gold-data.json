@@ -1,113 +1,157 @@
 {
-  "fetchedAt": "2026-08-05T18:53:36.717137+00:00",
+  "fetchedAt": "2026-08-05T20:27:20.315679+00:00",
   "gold": {
-    "price": 4263.299805,
-    "updatedAt": "2026-08-05T18:53:14Z"
+    "price": 4247.799805,
+    "updatedAt": "2026-08-05T20:26:44Z"
   },
   "silver": {
-    "price": 62.414001,
-    "updatedAt": "2026-08-05T18:53:13Z"
+    "price": 62.110001,
+    "updatedAt": "2026-08-05T20:27:14Z"
   },
   "dxy": {
-    "value": 99.68,
-    "changePct": -0.21
+    "value": 99.71,
+    "changePct": -0.18
   },
   "vix": {
-    "value": 15.61,
-    "changePct": -5.39
+    "value": 15.83,
+    "changePct": -4.06
   },
   "wti": {
-    "value": 75.24,
-    "changePct": -0.7
+    "value": 75.06,
+    "changePct": -0.94
   },
   "btc": {
-    "value": 64709.39,
-    "changePct": 1.02
+    "value": 64900.73,
+    "changePct": 1.32
   },
   "spx": {
-    "value": 7741.04,
-    "changePct": 0.06
+    "value": 7723.55,
+    "changePct": -0.17
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-08-03",
-      "value": 4.7
+      "date": "2026-08-04",
+      "value": 4.63
     },
     "10y_real_rate": {
-      "date": "2026-08-03",
-      "value": 2.43
+      "date": "2026-08-04",
+      "value": 2.4
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 18,
     "minRequired": 10,
-    "dxy": -0.287,
-    "realRate": 0.263,
-    "vix": -0.349,
-    "btc": 0.261,
-    "spx": 0.489
+    "dxy": -0.274,
+    "realRate": 0.124,
+    "vix": -0.321,
+    "btc": 0.304,
+    "spx": 0.456
   },
   "news": [
     {
-      "time": "18:49",
-      "text": "伊朗总统佩泽希齐扬在国家电视台发表讲话：联系最高领袖“非常困难”。"
+      "time": "20:24",
+      "text": "周三（8月5日），恐慌指数做多收跌3.57%，巴克莱美国可转债ETF、纳指100 ETF至少跌0.9%，罗素2000指数ETF、新兴市场ETF、做多美元指数、标普500 ETF、农产品基金至多跌0.64%。\n日元做多、大豆基金、美国房地产E"
     },
     {
-      "time": "18:32",
-      "text": "伊朗外交部副部长加里布阿巴迪5日表示，美国在新一轮冲突爆发4至5天后，曾向伊朗传递信息，希望通过谈判解决相关问题。他强调，霍尔木兹海峡相关安排应仅由伊朗和阿曼协商决定，伊方绝不接受任何外部势力介入。根据新的安排，目前海峡内的临时航道将被关闭"
+      "time": "20:21",
+      "text": "标普500指数的11个板块中，电信板块收跌2.39%，能源板块跌2.03%，信息技术/科技板块涨0.02%，保健板块涨1.34%，原材料板块涨1.54%。"
     },
     {
-      "time": "18:30",
-      "text": "WTI 9月原油期货收跌0.55美元，跌幅超过0.72%，报75.22美元/桶。\n布伦特10月原油期货收涨0.09美元，涨幅超过0.11%，报79.45美元/桶。\n中东Abu Dhabi Murban原油期货涨1.37%，报77.91美元/"
+      "time": "20:20",
+      "text": "周三（8月5日），美股行业ETF多数下跌，能源业ETF收跌2.07%，半导体ETF跌1.04%，科技行业ETF跌0.53%，生物科技指数ETF涨0.87%，医疗业ETF涨1.27%。"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2609合约夜盘收跌0.58%，报510元人民币/桶。\n沪金夜盘收涨3.58%，沪银收涨3.72%。"
+      "time": "20:15",
+      "text": "Etsy裁员12%。"
     },
     {
-      "time": "18:26",
-      "text": "摩根士丹利指出，两家AI实验室的芯片融资需求——分别由两家芯片制造商以不同程度的支持——到2030年可能超过6000亿美元，远超当前算力合同延迟提款定期贷款市场的规模。\n信用策略师林赛·泰勒（Lindsay Tyler）写道，如果博通的AI"
+      "time": "20:13",
+      "text": "闪迪第四财季调整后每股收益（EPS）为39.25美元，分析师预期34.37美元。\n第四财季营收89.7亿美元，增幅51%。\n2026财年营收202.5亿美元，较上年增长175%。\n（公司董事会）批准140亿美元股票回购计划。\n预计第一财季营"
     },
     {
-      "time": "18:22",
-      "text": "俄罗斯中央选举委员会主席帕姆菲洛娃5日在克里姆林宫向俄总统普京汇报工作时表示，俄中选委已做好准备，将全力保障今年秋季举行的俄国家杜马（议会下院）选举安全。（新华社）"
+      "time": "20:11",
+      "text": "Axon Enterprise Inc.二季度净销售9.04亿美元，分析师预期8.746亿美元。\n上调全年营收增速预期至32%-34%。"
     },
     {
-      "time": "18:17",
-      "text": "也门胡塞武装当地时间8月5日晚表示，在亚丁湾对一艘沙特油轮发射导弹。据称“导弹击中目标，迫使该油轮返航”。胡塞武装在声明中称，此次袭击是执行针对沙特的“海上航运禁令”、落实“以封锁回应封锁”措施的一部分。胡塞武装“将持续监视所有沙特油轮动态"
+      "time": "20:10",
+      "text": "eBay二季度净营收31.3亿美元，分析师预期30.2亿美元。\n二季度活跃买家1.36亿，分析师预期1.359亿。\n二季度GMV为224亿美元，分析师预期215.7亿美元。\n预计三季度净营收30.7亿-31.2亿美元，分析师预期29.7亿美"
     },
     {
-      "time": "18:07",
-      "text": "根据微软最新的披露文件，其大部分人工智能收入来自OpenAI。该公司在截至6月的财年中从OpenAI录得241亿美元的销售额，OpenAI占微软实际AI销售额的一半以上。该披露表明，在微软最近一个财年中，OpenAI占其实际AI销售额的比例"
+      "time": "20:08",
+      "text": "Doordash二季度调整后EBITDA为9.14亿美元，分析师预期8.434亿美元。\n预计三季度GOV为330亿-340亿美元，分析师预期334.7亿美元。"
     },
     {
-      "time": "18:04",
-      "text": "美国联邦航空局当地时间8月5日证实，美国东部时间8月4日下午，搭载美国总统特朗普的军用直升机“海军陆战队一号”与从华盛顿里根国家机场起飞的一架客机曾短时间“过于接近”。该机构表示，根据其初步安全审查，“海军陆战队一号”与这架客机之间一度出现"
+      "time": "20:06",
+      "text": "西部数据第四财季净营收37.5亿美元，分析师预期36.8亿美元。\n第四财季调整后每股收益（EPS）为3.56美元，分析师预期3.31美元。\n预计第一财季营收40亿-42亿美元，分析师预期40.2亿美元。\n预计第一财季调整后EPS为3.85-"
     },
     {
-      "time": "18:03",
-      "text": "据美国国会预算办公室（CBO）估算，总统特朗普的核动力战列舰”黄金舰队”，到2056年其研发和采购成本可能高达2750亿美元。\n该机构的初步估算显示，首舰造价为230亿美元，后续每艘约180亿美元，这将使它们成为美国有史以来造价最昂贵的军舰"
+      "time": "20:05",
+      "text": "美联储理事Cook：来自关税、石油、AI的通胀压力可能已经放松。\n长期通胀压力高于2%。"
     },
     {
-      "time": "17:56",
-      "text": "意大利银行Banco BPM董事会一致决定，不收购Banca Monte dei Paschi di Siena SpA.（锡耶纳银行）。"
+      "time": "20:04",
+      "text": "拉美电商MercadoLibre二季度净营收102亿美元，分析师预期97.8亿美元。"
     },
     {
-      "time": "17:54",
-      "text": "俄罗斯与伊朗即将落实一项历经多轮谈判的天然气协议，两国官员证实，阿塞拜疆被选定为俄罗斯向伊朗出口天然气的首选过境通道。\n伊朗拥有全球第二大天然气储量，但在需求高峰期每日存在2‑3亿立方米的结构性供气缺口。伊朗希望借助进口天然气弥补北部地区的"
+      "time": "20:04",
+      "text": "SoundHound二季度营收6190万美元，分析师预期5220万美元。"
     },
     {
-      "time": "17:43",
-      "text": "马斯克旗下太空探索公司SpaceX目前下跌10.5%，盘中市值1.48万亿美元。\nMeta Platforms现跌0.8%，盘中市值1.49万亿美元。"
+      "time": "20:04",
+      "text": "Block预计三季度调整后运营利润8.75亿美元，分析师预期8.65亿美元。"
     },
     {
-      "time": "17:16",
-      "text": "周三（8月5日），美联储隔夜逆回购协议（RRP）使用规模为16.50亿美元（交易对手2家），上个交易日报22.51亿美元。"
+      "time": "20:03",
+      "text": "Cirrus Logics Inc.（CRUS）美股盘后跌7.1%。\n该公司第一财季净销售4.597亿美元，分析师预期4.602亿美元。\n预计第二财季净收入5.10亿-5.7亿美元，分析师预期5.566亿美元。"
     },
     {
-      "time": "17:09",
-      "text": "伊朗副外长表示，新一轮冲突开始约4-5天后，美国发出信息，要求进行谈判并解决相关问题。\n美国传话说准备重返（《伊斯兰堡谅解备忘录》所规定的美方）承诺。\n谅解备忘录包含了指导性原则，但最终结果取决于伊朗与阿曼之间的谈判。"
+      "time": "20:01",
+      "text": "纽约时报（NYT）收跌13%，创2012年10月份以来最大单日跌幅。"
+    },
+    {
+      "time": "08-05 18:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 6.88% on Aug 5: Key Drivers Unveiled"
+    },
+    {
+      "time": "08-05 17:15",
+      "text": "[AV] Mizuho Financial Group Inc Stock (MFG) Moved Up by 4.16% on Aug 5: What Signal Does It Send?"
+    },
+    {
+      "time": "08-05 15:42",
+      "text": "[AV] Mitsubishi UFJ Financial Group Inc Stock (MUFG) Moved Up by 3.11% on Aug 5: Facts Behind the Movement"
+    },
+    {
+      "time": "08-05 12:42",
+      "text": "[AV] douglas dynamics, inc. Positive Earnings Pre-Announcements"
+    },
+    {
+      "time": "08-05 09:13",
+      "text": "[AV] Are REITs Still a Buy After Their 2026 Runup?"
+    },
+    {
+      "time": "08-05 00:11",
+      "text": "[AV] Bandwidth, Rapid7, Atlassian, RingCentral, and CrowdStrike Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "08-04 20:15",
+      "text": "[AV] Southern Copper Corp Stock (SCCO) Closed Up by 4.94% on Aug 4: Facts Behind the Movement"
+    },
+    {
+      "time": "08-04 18:11",
+      "text": "[AV] Why May Correlations Turn Positive?"
+    },
+    {
+      "time": "08-04 17:41",
+      "text": "[AV] BHP Group Ltd Stock (BHP) Moved Up by 4.54% on Aug 4: What Signal Does It Send?"
+    },
+    {
+      "time": "08-04 16:42",
+      "text": "[AV] Why Timken (TKR) Shares Are Plunging Today"
+    },
+    {
+      "time": "08-05 20:05",
+      "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
     {
       "time": "07-29 18:00",
@@ -128,42 +172,22 @@
     {
       "time": "07-14 18:00",
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
-    },
-    {
-      "time": "07-14 16:40",
-      "text": "[Fed] Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 4304.3,
-    "measuredMoveLow": 4422.9,
-    "measuredMoveHigh": 4526.2,
-    "sma20": 4231.28,
-    "currentPrice": 4319.6
+    "signalBarBull": false,
+    "signalBarPrice": 4307.6,
+    "measuredMoveLow": 4406.3,
+    "measuredMoveHigh": 4503.7,
+    "sma20": 4248.84,
+    "currentPrice": 4308.9
   },
   "bars1h": [
-    {
-      "open": 4114.7998046875,
-      "high": 4120.60009765625,
-      "low": 4111.10009765625,
-      "close": 4114.60009765625
-    },
-    {
-      "open": 4114.2998046875,
-      "high": 4117.5,
-      "low": 4107.60009765625,
-      "close": 4108.2001953125
-    },
     {
       "open": 4107.39990234375,
       "high": 4121.89990234375,
@@ -390,7 +414,19 @@
       "open": 4310.7001953125,
       "high": 4328.2001953125,
       "low": 4309.60009765625,
-      "close": 4319.60009765625
+      "close": 4321.2001953125
+    },
+    {
+      "open": 4321.0,
+      "high": 4322.7001953125,
+      "low": 4307.0,
+      "close": 4307.60009765625
+    },
+    {
+      "open": 4307.89990234375,
+      "high": 4310.39990234375,
+      "low": 4307.39990234375,
+      "close": 4308.89990234375
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4302.89990234375,
       "high": 4328.2001953125,
       "low": 4296.2001953125,
-      "close": 4319.60009765625
+      "close": 4308.89990234375
     }
   ],
   "calendar": null,
