@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-05T20:27:20.315679+00:00",
+  "fetchedAt": "2026-08-05T21:49:47.105373+00:00",
   "gold": {
-    "price": 4247.799805,
-    "updatedAt": "2026-08-05T20:26:44Z"
+    "price": 4248.200195,
+    "updatedAt": "2026-08-05T21:49:14Z"
   },
   "silver": {
-    "price": 62.110001,
-    "updatedAt": "2026-08-05T20:27:14Z"
+    "price": 62.168999,
+    "updatedAt": "2026-08-05T21:49:14Z"
   },
   "dxy": {
-    "value": 99.71,
-    "changePct": -0.18
+    "value": 99.69,
+    "changePct": -0.2
   },
   "vix": {
-    "value": 15.83,
-    "changePct": -4.06
+    "value": 15.81,
+    "changePct": -4.18
   },
   "wti": {
-    "value": 75.06,
-    "changePct": -0.94
+    "value": 75.08,
+    "changePct": -0.91
   },
   "btc": {
-    "value": 64900.73,
-    "changePct": 1.32
+    "value": 64641.75,
+    "changePct": 0.91
   },
   "spx": {
     "value": 7723.55,
@@ -42,112 +42,72 @@
   "correlations": {
     "dataPoints": 18,
     "minRequired": 10,
-    "dxy": -0.274,
+    "dxy": -0.278,
     "realRate": 0.124,
-    "vix": -0.321,
-    "btc": 0.304,
+    "vix": -0.323,
+    "btc": 0.256,
     "spx": 0.456
   },
   "news": [
     {
-      "time": "20:24",
-      "text": "周三（8月5日），恐慌指数做多收跌3.57%，巴克莱美国可转债ETF、纳指100 ETF至少跌0.9%，罗素2000指数ETF、新兴市场ETF、做多美元指数、标普500 ETF、农产品基金至多跌0.64%。\n日元做多、大豆基金、美国房地产E"
+      "time": "21:46",
+      "text": "美国总统特朗普声称：我宁愿与伊朗达成一份协议。\n美方与伊朗正在对话，让我们看看会发生什么事。"
     },
     {
-      "time": "20:21",
-      "text": "标普500指数的11个板块中，电信板块收跌2.39%，能源板块跌2.03%，信息技术/科技板块涨0.02%，保健板块涨1.34%，原材料板块涨1.54%。"
+      "time": "21:45",
+      "text": "亚马逊股价周一创纪录新高之际，贝佐斯（Jeff Bezos）出售了价值近3.5亿美元的亚马逊股票，这是他今年首次出售该公司股份。\n周三盘后发布的Form 4申报文件中披露了这笔交易。这位亿万富豪两天前在另一份文件中表示，计划出售最多1500"
     },
     {
-      "time": "20:20",
-      "text": "周三（8月5日），美股行业ETF多数下跌，能源业ETF收跌2.07%，半导体ETF跌1.04%，科技行业ETF跌0.53%，生物科技指数ETF涨0.87%，医疗业ETF涨1.27%。"
+      "time": "21:35",
+      "text": "巴西央行降息25个基点，至14%。\n央行称，劳动力市场条件紧俏。\n主要CPI和基本CPI失速。\n密切留意CPI预期的进一步脱锚问题。\n通胀风险仍然高于平时。\n预计2028年一季度通胀同比升幅为3.2%。"
     },
     {
-      "time": "20:15",
-      "text": "Etsy裁员12%。"
+      "time": "21:25",
+      "text": "美国总统特朗普在拉斯维加斯夸赞通胀下滑。\n特朗普称赞股市上涨。"
     },
     {
-      "time": "20:13",
-      "text": "闪迪第四财季调整后每股收益（EPS）为39.25美元，分析师预期34.37美元。\n第四财季营收89.7亿美元，增幅51%。\n2026财年营收202.5亿美元，较上年增长175%。\n（公司董事会）批准140亿美元股票回购计划。\n预计第一财季营"
+      "time": "21:24",
+      "text": "周三（8月5日），美国科技股七巨头（Magnificent 7）指数跌0.28%，报226.01点，美股早盘高开低走，北京时间21:33刷新日高至229.56点、00:12刷新日低至225.05点，之后持稳于226点附近。成分股中，谷歌A收"
     },
     {
-      "time": "20:11",
-      "text": "Axon Enterprise Inc.二季度净销售9.04亿美元，分析师预期8.746亿美元。\n上调全年营收增速预期至32%-34%。"
+      "time": "21:22",
+      "text": "Beyond Meat二季度调整后每股亏损0.09美元，符合分析师预期。"
     },
     {
-      "time": "20:10",
-      "text": "eBay二季度净营收31.3亿美元，分析师预期30.2亿美元。\n二季度活跃买家1.36亿，分析师预期1.359亿。\n二季度GMV为224亿美元，分析师预期215.7亿美元。\n预计三季度净营收30.7亿-31.2亿美元，分析师预期29.7亿美"
+      "time": "21:22",
+      "text": "美国总统特朗普在拉斯维加斯宣称：加拿大领导层很糟糕。"
     },
     {
-      "time": "20:08",
-      "text": "Doordash二季度调整后EBITDA为9.14亿美元，分析师预期8.434亿美元。\n预计三季度GOV为330亿-340亿美元，分析师预期334.7亿美元。"
+      "time": "21:15",
+      "text": "美国化肥供应商CF二季度净销售22.2亿美元，分析师预期24.4亿美元。\n二季度每股收益（EPS）为4.73美元，上年同期2.37美元。\n二季度现金与现金等价物24.8亿美元，分析师预期27亿美元。\n伊朗冲突造成中东地区的尿素供应缩减400"
     },
     {
-      "time": "20:06",
-      "text": "西部数据第四财季净营收37.5亿美元，分析师预期36.8亿美元。\n第四财季调整后每股收益（EPS）为3.56美元，分析师预期3.31美元。\n预计第一财季营收40亿-42亿美元，分析师预期40.2亿美元。\n预计第一财季调整后EPS为3.85-"
+      "time": "21:15",
+      "text": "富时A50期指连续夜盘收跌0.35%，报14840点。"
     },
     {
-      "time": "20:05",
-      "text": "美联储理事Cook：来自关税、石油、AI的通胀压力可能已经放松。\n长期通胀压力高于2%。"
+      "time": "21:09",
+      "text": "明晟公司（MSCI）表示，其8月指数调整公告定将于8月12日发布，且将在概要公告发布后即刻向客户提供详细的调仓信息。"
     },
     {
-      "time": "20:04",
-      "text": "拉美电商MercadoLibre二季度净营收102亿美元，分析师预期97.8亿美元。"
+      "time": "21:07",
+      "text": "周三（8月5日）纽约尾盘，标普500股指期货最终跌0.04%，道指期货涨0.61%，纳斯达克100股指期货跌0.85%。\n罗素2000股指期货跌0.54%。"
     },
     {
-      "time": "20:04",
-      "text": "SoundHound二季度营收6190万美元，分析师预期5220万美元。"
+      "time": "21:06",
+      "text": "周三（8月5日）纽约尾盘（周四北京时间04:59），离岸人民币（CNH）兑美元报6.7482元，较周二纽约尾盘跌2点，日内整体交投于6.7449-6.7501元区间。"
     },
     {
-      "time": "20:04",
-      "text": "Block预计三季度调整后运营利润8.75亿美元，分析师预期8.65亿美元。"
+      "time": "21:04",
+      "text": "亚马逊旗下AWS与Anthropic、OpenAI构建合作伙伴关系。\n三方将围绕AWS Continuum工作流合作。"
     },
     {
-      "time": "20:03",
-      "text": "Cirrus Logics Inc.（CRUS）美股盘后跌7.1%。\n该公司第一财季净销售4.597亿美元，分析师预期4.602亿美元。\n预计第二财季净收入5.10亿-5.7亿美元，分析师预期5.566亿美元。"
+      "time": "21:04",
+      "text": "私人投资者正向发展中国家的人工智能（AI）项目注入越来越多的资金，推动2026年上半年的交易量创下历史新高。据全球私募资本协会的数据显示，与股票市场不同（AI热潮在股市中主要集中在韩国和中国台湾），私募资本正涌入多个国家的AI项目，涵盖数据"
     },
     {
-      "time": "20:01",
-      "text": "纽约时报（NYT）收跌13%，创2012年10月份以来最大单日跌幅。"
-    },
-    {
-      "time": "08-05 18:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 6.88% on Aug 5: Key Drivers Unveiled"
-    },
-    {
-      "time": "08-05 17:15",
-      "text": "[AV] Mizuho Financial Group Inc Stock (MFG) Moved Up by 4.16% on Aug 5: What Signal Does It Send?"
-    },
-    {
-      "time": "08-05 15:42",
-      "text": "[AV] Mitsubishi UFJ Financial Group Inc Stock (MUFG) Moved Up by 3.11% on Aug 5: Facts Behind the Movement"
-    },
-    {
-      "time": "08-05 12:42",
-      "text": "[AV] douglas dynamics, inc. Positive Earnings Pre-Announcements"
-    },
-    {
-      "time": "08-05 09:13",
-      "text": "[AV] Are REITs Still a Buy After Their 2026 Runup?"
-    },
-    {
-      "time": "08-05 00:11",
-      "text": "[AV] Bandwidth, Rapid7, Atlassian, RingCentral, and CrowdStrike Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-04 20:15",
-      "text": "[AV] Southern Copper Corp Stock (SCCO) Closed Up by 4.94% on Aug 4: Facts Behind the Movement"
-    },
-    {
-      "time": "08-04 18:11",
-      "text": "[AV] Why May Correlations Turn Positive?"
-    },
-    {
-      "time": "08-04 17:41",
-      "text": "[AV] BHP Group Ltd Stock (BHP) Moved Up by 4.54% on Aug 4: What Signal Does It Send?"
-    },
-    {
-      "time": "08-04 16:42",
-      "text": "[AV] Why Timken (TKR) Shares Are Plunging Today"
+      "time": "20:56",
+      "text": "周三（8月5日）纽约尾盘，现货黄金涨4.11%，报4245.39美元/盎司，亚太盘初以来持续上涨，北京时间23:00以来高位窄幅震荡、02:23刷新日高至4267.78美元。\n现货白银涨4.12%，报62.0075美元/盎司，亚太盘初以来也"
     },
     {
       "time": "08-05 20:05",
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -182,10 +146,10 @@
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4307.6,
-    "measuredMoveLow": 4406.3,
-    "measuredMoveHigh": 4503.7,
-    "sma20": 4248.84,
-    "currentPrice": 4308.9
+    "measuredMoveLow": 4405.4,
+    "measuredMoveHigh": 4502.8,
+    "sma20": 4248.8,
+    "currentPrice": 4308.0
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4307.89990234375,
       "high": 4310.39990234375,
-      "low": 4307.39990234375,
-      "close": 4308.89990234375
+      "low": 4303.5,
+      "close": 4308.0
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4302.89990234375,
       "high": 4328.2001953125,
       "low": 4296.2001953125,
-      "close": 4308.89990234375
+      "close": 4308.0
     }
   ],
   "calendar": null,
