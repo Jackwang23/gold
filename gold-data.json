@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-07T20:22:58.789375+00:00",
+  "fetchedAt": "2026-08-07T21:11:04.261163+00:00",
   "gold": {
-    "price": 4341.0,
-    "updatedAt": "2026-08-07T20:22:50Z"
+    "price": 4343.299805,
+    "updatedAt": "2026-08-07T21:10:50Z"
   },
   "silver": {
-    "price": 63.588001,
-    "updatedAt": "2026-08-07T20:22:50Z"
+    "price": 63.707001,
+    "updatedAt": "2026-08-07T21:10:50Z"
   },
   "dxy": {
-    "value": 99.59,
-    "changePct": -0.38
+    "value": 99.6,
+    "changePct": -0.37
   },
   "vix": {
-    "value": 14.88,
-    "changePct": -1.78
+    "value": 14.9,
+    "changePct": -1.65
   },
   "wti": {
-    "value": 77.02,
-    "changePct": -0.35
+    "value": 77.08,
+    "changePct": -0.27
   },
   "btc": {
-    "value": 64921.08,
-    "changePct": 1.03
+    "value": 64938.52,
+    "changePct": 1.05
   },
   "spx": {
     "value": 7757.64,
@@ -42,13 +42,45 @@
   "correlations": {
     "dataPoints": 20,
     "minRequired": 10,
-    "dxy": -0.47,
+    "dxy": -0.469,
     "realRate": 0.165,
-    "vix": -0.535,
-    "btc": 0.221,
+    "vix": -0.534,
+    "btc": 0.223,
     "spx": 0.703
   },
   "news": [
+    {
+      "time": "21:10",
+      "text": "周五（8月7日）纽约尾盘，标普500股指期货最终涨0.56%，道指期货涨0.24%，纳斯达克100股指期货涨1.16%。\n罗素2000股指期货涨1.07%。"
+    },
+    {
+      "time": "21:10",
+      "text": "周五（8月7日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7429元，较周四纽约尾盘涨47点，日内整体交投于6.75-6.7401元区间，美国非农就业报告发布时显著拉升，本周累涨大约0.13%。\n日线图上，离岸人民"
+    },
+    {
+      "time": "20:58",
+      "text": "周五（8月7日）纽约尾盘，现货黄金涨2.37%，报4339.75美元/盎司，亚太盘初以来平滑地持续走高、北京时间20:30发布美国非农就业数据时加速上涨——从4320美元下方拉升至4360美元一线，本周累计上涨7.27%，8月3-4日持平于"
+    },
+    {
+      "time": "20:39",
+      "text": "加密货币平台Crypto.com与特朗普传媒科技集团将整合合作伙伴关系调整为营销协议。\n特朗普媒体与科技集团称，将调整协议方向，面向Truth Social用户群体推广Crypto.com的预测市场业务。\nYorkville America"
+    },
+    {
+      "time": "20:31",
+      "text": "8月7日，西班牙政府宣布，将对来自意大利的航空和海运旅客实施边境检查，8日零时正式生效，持续至9月7日。西班牙政府表示，相关措施主要包括核查旅客身份和国籍；对非欧盟国家公民，还将查验签证或居留许可。\n当天早些时候，西班牙政府要求意大利在8月"
+    },
+    {
+      "time": "20:27",
+      "text": "据《以色列时报》网站7日报道，一个旨在维护遭以方拘留巴勒斯坦未成年人权利的以色列民间组织说，过去一段时间遭以方拘留的巴勒斯坦未成年人数量“显著增长”。报道援引以色列“反对拘留儿童的家长组织”从以监狱管理局获得的数据说，现遭以色列“行政拘留”"
+    },
+    {
+      "time": "20:24",
+      "text": "联合国也门问题特使汉斯·格伦德贝里8月7日发表声明说，也门目前再次爆发大规模冲突的风险达到2022年4月联合国斡旋促成停火以来的最高水平。"
+    },
+    {
+      "time": "20:24",
+      "text": "据知情人士透露，日本软银集团持股的3D打印机制造商Formlabs考虑IPO。（彭博）"
+    },
     {
       "time": "20:16",
       "text": "根据美国证券交易委员会（SEC）披露文件：alphabet提交文件申请发行最高额度250亿美元的分系列中期票据。"
@@ -78,78 +110,6 @@
       "text": "周五（8月7日），彭博电动汽车价格回报指数2.16%，报3475.48点，本周累计上涨3.63%。"
     },
     {
-      "time": "20:01",
-      "text": "爱彼迎收涨17%，创2020年12月份以来最大单日涨幅。"
-    },
-    {
-      "time": "20:01",
-      "text": "SpaceX收涨15.8%，报133.11美元，最近两天涨23%。"
-    },
-    {
-      "time": "20:00",
-      "text": "纳斯达克金龙中国指数初步收涨0.8%，本周累涨约0.3%。\n热门中概股里，再鼎医药初步收涨12.2%，大全新能源涨8.8%，晶科能源涨6%，世纪互联涨5%，腾讯涨1.8%，拼多多、阿里巴巴涨超1%，日月光半导体大致持平。\nETF中，ASHS"
-    },
-    {
-      "time": "20:00",
-      "text": "本周，标普累涨约3.5%，道指累涨约3%，纳指累涨5%，存储芯片指数跌约1.9%，半导体指数涨8.6%——周二高开以来持续高位窄幅震荡，科技股七巨头指数涨4.7%，降息赢家指数涨5.2%。\n周五非农日当天，标普500指数初步收涨0.6%，原"
-    },
-    {
-      "time": "19:45",
-      "text": "雪佛龙：预计年底资本开支处于指引区间180亿-190亿美元的低端。"
-    },
-    {
-      "time": "19:42",
-      "text": "美国商品期货交易委员会（CFTC）：日本当局与特朗普政府干预过后，8月4日当周，对冲基金将日元空头仓位砍半。\n杠杆基金将墨西哥比索净多头头寸推升至2025年12月以来最高水平。"
-    },
-    {
-      "time": "19:37",
-      "text": "7日获悉，伊朗议会国家安全与外交政策委员会发言人哈桑·卡什卡维表示，伊朗与阿曼已明确霍尔木兹海峡航运相关的谅解备忘录的总体框架，最终文本及具体细节将于近期对外公布。8月6日，伊朗方面公开拟议的霍尔木兹海峡战略管理方案初步文本细节，内容包括禁"
-    },
-    {
-      "time": "19:36",
-      "text": "美国商品期货交易委员会（CFTC）：截至8月4日当周，投机者将芝加哥期货交易所（CBOT）美国国债期货净空头头寸减少41,225份合约，至176,272份合约。\n将CBOT美国2年期国债期货净空头头寸减少120,346份合约，至1,004,"
-    },
-    {
-      "time": "08-07 17:27",
-      "text": "[AV] Stock Market Today: Jobs Shock Sinks Rate-Hike Bets, S&P 500 Hits Record - Invesco QQQ Trust, Series 1 (N"
-    },
-    {
-      "time": "08-07 17:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 5.79% on Aug 7: Facts Behind the Movement"
-    },
-    {
-      "time": "08-07 15:07",
-      "text": "[AV] Bank of America Corp (BAC) Stock Analysis & Forecast"
-    },
-    {
-      "time": "08-07 14:16",
-      "text": "[AV] Seagate Technology Holdings PLC Stock (STX) Moved Down by 8.62% on Aug 7: What Signal Does It Send?"
-    },
-    {
-      "time": "08-07 14:09",
-      "text": "[AV] Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%"
-    },
-    {
-      "time": "08-07 12:14",
-      "text": "[AV] Tesla Jumps as Rate Fears Ease"
-    },
-    {
-      "time": "08-07 11:40",
-      "text": "[AV] Lloyds Share Price Forecast | AI Strategy, Rate Hold"
-    },
-    {
-      "time": "08-07 11:10",
-      "text": "[AV] HYMB: Muni ETF Good For High-Yield Dividend Capture (NYSEARCA:HYMB)"
-    },
-    {
-      "time": "08-07 08:07",
-      "text": "[AV] BofA Sentiment Gauge Hits Most Extreme Bullish Level Since 2021"
-    },
-    {
-      "time": "08-07 06:04",
-      "text": "[AV] US Selling Euros for Yen Spurs Geopolitical Risk, BlackRock Says"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -182,10 +146,10 @@
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4400.0,
-    "measuredMoveLow": 4471.85,
-    "measuredMoveHigh": 4543.1,
-    "sma20": 4371.62,
-    "currentPrice": 4400.6
+    "measuredMoveLow": 4472.55,
+    "measuredMoveHigh": 4543.8,
+    "sma20": 4371.66,
+    "currentPrice": 4401.3
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4403.0,
       "high": 4404.60009765625,
-      "low": 4397.5,
-      "close": 4400.60009765625
+      "low": 4395.2998046875,
+      "close": 4401.2998046875
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4388.7001953125,
       "high": 4410.60009765625,
       "low": 4387.39990234375,
-      "close": 4400.60009765625
+      "close": 4401.2998046875
     }
   ],
   "calendar": null,
