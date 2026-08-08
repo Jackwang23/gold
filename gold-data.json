@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-08T16:52:04.499454+00:00",
+  "fetchedAt": "2026-08-08T17:31:21.494427+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-08T16:51:52Z"
+    "updatedAt": "2026-08-08T17:30:52Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-08T16:51:51Z"
+    "updatedAt": "2026-08-08T17:30:51Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 65020.06,
-    "changePct": 0.22
+    "value": 65066.81,
+    "changePct": 0.29
   },
   "spx": {
     "value": 7757.64,
@@ -45,7 +45,7 @@
     "dxy": -0.528,
     "realRate": 0.216,
     "vix": -0.607,
-    "btc": 0.265,
+    "btc": 0.27,
     "spx": 0.757
   },
   "news": [
@@ -110,46 +110,6 @@
       "text": "保加利亚总理拉德夫8日说，一架无人机当天自罗马尼亚方向进入保加利亚领空并在该国境内爆炸，但未造成人员伤亡。\n拉德夫对媒体发表声明说，爆炸发生在保加利亚北部城镇卡尔达姆的一片向日葵花田中，距离跨巴尔干天然气管道上的保加利亚压缩机站约1000米"
     },
     {
-      "time": "08-08 11:07",
-      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
-    },
-    {
-      "time": "08-08 10:06",
-      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
-    },
-    {
-      "time": "08-07 22:07",
-      "text": "[AV] 〔U.S. Stocks〕 Dow Inc Rebounds by $151 ＝ as Interest Rate Hike Expectations Recede （7th） ☆ Replacement"
-    },
-    {
-      "time": "08-07 19:13",
-      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)"
-    },
-    {
-      "time": "08-07 17:27",
-      "text": "[AV] Stock Market Today: Jobs Shock Sinks Rate-Hike Bets, S&P 500 Hits Record - Invesco QQQ Trust, Series 1 (N"
-    },
-    {
-      "time": "08-07 17:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 5.79% on Aug 7: Facts Behind the Movement"
-    },
-    {
-      "time": "08-07 17:09",
-      "text": "[AV] Gold Miners Post Best Week Since 2008 As Gold Soars - VanEck Gold Miners ETF (ARCA:GDX)"
-    },
-    {
-      "time": "08-07 17:09",
-      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
-    },
-    {
-      "time": "08-07 17:08",
-      "text": "[AV] RXO, BrightView, SiteOne, ServiceNow, and Rocket Lab Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-07 15:10",
-      "text": "[AV] Gold’s Winning Streak: Navigating Your ETF Options"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
