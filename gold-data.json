@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-08T03:44:23.519941+00:00",
+  "fetchedAt": "2026-08-08T04:41:37.246823+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-08T03:43:51Z"
+    "updatedAt": "2026-08-08T04:41:21Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-08T03:43:50Z"
+    "updatedAt": "2026-08-08T04:41:21Z"
   },
   "dxy": {
     "value": 99.6,
@@ -17,12 +17,12 @@
     "changePct": -1.65
   },
   "wti": {
-    "value": 77.08,
-    "changePct": -0.27
+    "value": 78.18,
+    "changePct": 1.15
   },
   "btc": {
-    "value": 64978.06,
-    "changePct": 1.11
+    "value": 65015.9,
+    "changePct": 1.17
   },
   "spx": {
     "value": 7757.64,
@@ -45,10 +45,26 @@
     "dxy": -0.528,
     "realRate": 0.216,
     "vix": -0.607,
-    "btc": 0.26,
+    "btc": 0.264,
     "spx": 0.757
   },
   "news": [
+    {
+      "time": "04:32",
+      "text": "路透社7日援引一名美国官员的话报道称，伊朗与阿曼围绕霍尔木兹海峡的谈判“有进展”，“预计很快达成协议”。这名官员说，一旦协议达成，霍尔木兹海峡恢复商业航运，美国将解除对伊海上封锁。这名官员同时重申，美方行动将继续基于伊朗履行承诺的实际情况。"
+    },
+    {
+      "time": "04:13",
+      "text": "国内黄金饰品价格对比显示，国内多家品牌足金饰品价格重返1300元，其中周生生足金饰品报1315元/克，周大福报价1308元/克，老庙黄金报价1310元/克。"
+    },
+    {
+      "time": "04:13",
+      "text": "据美国方面7日消息披露，美国太空探索技术公司（SpaceX）创始人马斯克明确拒绝允许乌克兰军方利用SpaceX旗下卫星互联网系统“星链”打击俄罗斯境内目标。美国方面援引乌前国防部长费多罗夫两名“身边人”消息称，费多罗夫此前一直在推动利用“星"
+    },
+    {
+      "time": "04:00",
+      "text": "据灯塔专业版，截至8月8日，2026年8月总票房（含预售）突破15亿，《蜘蛛侠：崭新之日》《八仙！》《功夫女足》《年会不能停！2》《痴迷》暂列8月票房榜前五。"
+    },
     {
       "time": "03:38",
       "text": "乌克兰空军8日在社交媒体称，乌克兰首都基辅，以及敖德萨州等多地有无人机来袭风险。基辅市军事管理局称，由于无人机和弹道导弹威胁，基辅市拉响防空警报。该部门还称，基辅一处燃料库起火，但未说明具体原因。据俄罗斯方面8日凌晨消息，俄罗斯萨马拉州、萨"
@@ -94,20 +110,44 @@
       "text": "从黑龙江省水文水资源中心了解到，松花江2026年第1号洪水洪峰已通过同江段汇入黑龙江。受松花江来水顶托和上游来水双重影响，黑龙江2026年第1号洪水洪峰预计今晚（8日）抵达黑龙江干流同江站，同江市已启动防汛三级应急响应。目前，防汛物资已全部"
     },
     {
-      "time": "00:57",
-      "text": "美国彭博社8月7日援引知情人士的话报道，五角大楼计划在今年年底前对其正在建设的“金穹”天基导弹防御系统进行首次测试，预计将于2027年进行飞行测试。今年4月，美国太空部队宣布与包括太空探索技术公司、洛克希德-马丁公司在内的12家公司签订合同"
+      "time": "08-07 17:27",
+      "text": "[AV] Stock Market Today: Jobs Shock Sinks Rate-Hike Bets, S&P 500 Hits Record - Invesco QQQ Trust, Series 1 (N"
     },
     {
-      "time": "00:55",
-      "text": "据日本方面8月7日援引多名相关人士的消息称，日本防卫省计划向财务省申请迄今最高的约8.9万亿日元，作为2027年度的防卫预算。由于包含大量未明确具体金额的申请项目，预计政府年底敲定的预算案中列入的防卫费可能进一步增加。据悉，防卫省申请的预算"
+      "time": "08-07 17:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 5.79% on Aug 7: Facts Behind the Movement"
     },
     {
-      "time": "00:48",
-      "text": "黎巴嫩总统府8月7日发表声明说，黎巴嫩和以色列日前在意大利首都罗马举行的谈判在边界问题和被扣押人员获释方面取得进展。声明援引黎总统奥恩在内阁会议上的讲话称，本轮谈判围绕停火、边界问题、被扣押人员获释以及“试点区域”撤军相关问题等议题展开。双"
+      "time": "08-07 15:07",
+      "text": "[AV] Bank of America Corp (BAC) Stock Analysis & Forecast"
     },
     {
-      "time": "00:31",
-      "text": "今年第13号台风“白海豚”（强台风级）于8月8日06时在北纬26.9°、东经126.4°，即距温州偏东方向580公里的海面上，中心最大风力14级，中心气压为950百帕，移动方向西偏北，移动速度每小时10—15公里。根据台风态势及走向，浙江海"
+      "time": "08-07 14:16",
+      "text": "[AV] Seagate Technology Holdings PLC Stock (STX) Moved Down by 8.62% on Aug 7: What Signal Does It Send?"
+    },
+    {
+      "time": "08-07 14:09",
+      "text": "[AV] Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%"
+    },
+    {
+      "time": "08-07 12:14",
+      "text": "[AV] Tesla Jumps as Rate Fears Ease"
+    },
+    {
+      "time": "08-07 11:40",
+      "text": "[AV] Lloyds Share Price Forecast | AI Strategy, Rate Hold"
+    },
+    {
+      "time": "08-07 11:10",
+      "text": "[AV] HYMB: Muni ETF Good For High-Yield Dividend Capture (NYSEARCA:HYMB)"
+    },
+    {
+      "time": "08-07 08:07",
+      "text": "[AV] BofA Sentiment Gauge Hits Most Extreme Bullish Level Since 2021"
+    },
+    {
+      "time": "08-07 06:04",
+      "text": "[AV] US Selling Euros for Yen Spurs Geopolitical Risk, BlackRock Says"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
