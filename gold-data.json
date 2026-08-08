@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-08T07:15:43.604922+00:00",
+  "fetchedAt": "2026-08-08T08:06:38.602224+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-08T07:15:21Z"
+    "updatedAt": "2026-08-08T08:06:21Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-08T07:15:21Z"
+    "updatedAt": "2026-08-08T08:06:21Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 64955.16,
-    "changePct": 0.12
+    "value": 64924.29,
+    "changePct": 0.07
   },
   "spx": {
     "value": 7757.64,
@@ -45,10 +45,22 @@
     "dxy": -0.528,
     "realRate": 0.216,
     "vix": -0.607,
-    "btc": 0.257,
+    "btc": 0.254,
     "spx": 0.757
   },
   "news": [
+    {
+      "time": "07:59",
+      "text": "美国参议院获得足够票数通过临时支出法案，以避免选举前政府停摆。"
+    },
+    {
+      "time": "07:46",
+      "text": "今天13时，台风“白海豚”中心位于距离浙江省温州市东偏南方向约465公里的洋面上，中心附近最大风力14级，45米/秒。虽然离浙江还有一定距离，但“白海豚”外围云系今天上午已经在江苏南部、安徽东南部、浙江等地激发出对流。明天，台风登陆前后，华"
+    },
+    {
+      "time": "07:39",
+      "text": "从上海轮渡获悉，因受今年第13号台风“白海豚”影响，截至13时58分，上海轮渡已全线停航。 (央视新闻)"
+    },
     {
       "time": "07:12",
       "text": "阳光电源在互动平台表示，公司目前初步判断，FCC政策主要限制新产品认证，不影响已获认证产品的销售，公司目前在美销售的光伏逆变器、储能系统不受影响。"
@@ -98,16 +110,44 @@
       "text": "乌克兰空军8日在社交媒体称，乌克兰首都基辅，以及敖德萨州等多地有无人机来袭风险。基辅市军事管理局称，由于无人机和弹道导弹威胁，基辅市拉响防空警报。该部门还称，基辅一处燃料库起火，但未说明具体原因。据俄罗斯方面8日凌晨消息，俄罗斯萨马拉州、萨"
     },
     {
-      "time": "03:06",
-      "text": "根据国融基金8月8日公告，总经理毛灵俊因个人原因离任，总经理职位暂由张圆辉代任。根据国融基金安排，该公司董事会选举韩光华拟任公司总经理，待韩光华完成相关程序后履职。"
+      "time": "08-07 17:27",
+      "text": "[AV] Stock Market Today: Jobs Shock Sinks Rate-Hike Bets, S&P 500 Hits Record - Invesco QQQ Trust, Series 1 (N"
     },
     {
-      "time": "03:03",
-      "text": "近日，有消息称，雪佛兰品牌将停止在中国市场销售。通用汽车方面回应称，会继续在中国生产雪佛兰产品，并且积极探索在美国以外的海外市场机遇。同时，依旧会为现有的中国雪佛兰车主提供完善的售后服务保障。8月5日，上汽集团与通用汽车签署合资续约协议，将"
+      "time": "08-07 17:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 5.79% on Aug 7: Facts Behind the Movement"
     },
     {
-      "time": "02:59",
-      "text": "8月8日，有消息称微信在灰度测试朋友圈“AI帮写”与“AI点评”两项能力，对此记者咨询腾讯客服后获悉，目前朋友圈的AI相关功能仍在逐步开放中，部分智能互动功能可能已在灰度测试阶段，具体支持情况请以所使用的微信版本更新情况为准。（贝壳财经）"
+      "time": "08-07 15:07",
+      "text": "[AV] Bank of America Corp (BAC) Stock Analysis & Forecast"
+    },
+    {
+      "time": "08-07 14:16",
+      "text": "[AV] Seagate Technology Holdings PLC Stock (STX) Moved Down by 8.62% on Aug 7: What Signal Does It Send?"
+    },
+    {
+      "time": "08-07 14:09",
+      "text": "[AV] Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%"
+    },
+    {
+      "time": "08-07 12:14",
+      "text": "[AV] Tesla Jumps as Rate Fears Ease"
+    },
+    {
+      "time": "08-07 11:40",
+      "text": "[AV] Lloyds Share Price Forecast | AI Strategy, Rate Hold"
+    },
+    {
+      "time": "08-07 11:10",
+      "text": "[AV] HYMB: Muni ETF Good For High-Yield Dividend Capture (NYSEARCA:HYMB)"
+    },
+    {
+      "time": "08-07 08:07",
+      "text": "[AV] BofA Sentiment Gauge Hits Most Extreme Bullish Level Since 2021"
+    },
+    {
+      "time": "08-07 06:04",
+      "text": "[AV] US Selling Euros for Yen Spurs Geopolitical Risk, BlackRock Says"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -146,10 +182,10 @@
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4400.0,
-    "measuredMoveLow": 4472.55,
-    "measuredMoveHigh": 4543.8,
-    "sma20": 4371.66,
-    "currentPrice": 4401.3
+    "measuredMoveLow": 4470.95,
+    "measuredMoveHigh": 4542.2,
+    "sma20": 4371.58,
+    "currentPrice": 4399.7
   },
   "bars1h": [
     {
@@ -390,7 +426,7 @@
       "open": 4403.0,
       "high": 4404.60009765625,
       "low": 4395.2998046875,
-      "close": 4401.2998046875
+      "close": 4399.7001953125
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4388.7001953125,
       "high": 4410.60009765625,
       "low": 4387.39990234375,
-      "close": 4401.2998046875
+      "close": 4399.7001953125
     }
   ],
   "calendar": null,
