@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-08T11:43:36.932794+00:00",
+  "fetchedAt": "2026-08-08T12:15:48.118568+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-08T11:43:21Z"
+    "updatedAt": "2026-08-08T12:15:22Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-08T11:43:21Z"
+    "updatedAt": "2026-08-08T12:15:21Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 64929.07,
-    "changePct": 0.08
+    "value": 64968.14,
+    "changePct": 0.14
   },
   "spx": {
     "value": 7757.64,
@@ -45,10 +45,38 @@
     "dxy": -0.528,
     "realRate": 0.216,
     "vix": -0.607,
-    "btc": 0.254,
+    "btc": 0.259,
     "spx": 0.757
   },
   "news": [
+    {
+      "time": "12:09",
+      "text": "8月8日上午，全球财富管理论坛在京召开“地方国有存量资产盘活进展、难点与策略”课题研讨会，楼继伟理事长出席会议并做总结发言。楼继伟在发言中表示，盘活国有资产既是近期的当务之急，也是一项长期性的战略任务。"
+    },
+    {
+      "time": "12:07",
+      "text": "伯克希尔哈撒韦：至6月30日，保险浮存金大约为1775亿美元。"
+    },
+    {
+      "time": "12:06",
+      "text": "伯克希尔哈撒韦：二季度买入大约45亿美元库存（treasury shares）股票。\n至6月30日，等价A类股流通股为143.1693万股。"
+    },
+    {
+      "time": "12:05",
+      "text": "伯克希尔哈撒韦：二季度BNSF运营利润15.6亿美元。"
+    },
+    {
+      "time": "12:00",
+      "text": "伯克希尔哈撒韦二季度运营利润129.83亿美元，同比增长16%。\n二季度归属于股东的净利润256.67亿美元，上年同期123.70亿美元。\n二季度投资收益109亿美元。\n二季度A类股每股净收益为17,868美元。\n二季度末现金降低至3655"
+    },
+    {
+      "time": "11:58",
+      "text": "伊朗外交部长阿拉格齐今天（8月8日）表示，伊朗目前正在\n与阿曼就霍尔木兹海峡的法律机制、管理方式以及确定海峡船舶通行路线进行谈判，双方已经非常接近达成协议。但是，霍尔\n木兹海峡能否重新开放还取决于其他条件，包括美国对其违反美伊谅解备忘录的行"
+    },
+    {
+      "time": "11:55",
+      "text": "8月8日，阿维塔07L正式上市，搭载896线双光路图像级激光雷达，也是首批搭载华为乾崑智驾ADS 5的车型。阿维塔科技董事长王辉在发布会上透露，截至8月8日，华为乾崑智驾里程突破137亿公里，位居全国第一。"
+    },
     {
       "time": "11:40",
       "text": "当地时间8月8日，塞尔维亚总统武契奇在贝尔格莱德会见到访的乌克兰总统泽连斯基。双方就经贸、能源、农业、基础设施和安全等领域的合作交换意见。（央视）"
@@ -82,32 +110,44 @@
       "text": "当地时间8日，伊拉克石油部长巴西姆·穆罕默德·胡达伊尔表示，由于霍尔木兹海峡关闭，伊拉克石油出口下降了75%。伊拉克正与伊朗就允许其石油出口进行谈判，但相关协调尚未生效。"
     },
     {
-      "time": "09:48",
-      "text": "伊拉克石油部长：伊拉克正与伊朗谈判以允许伊拉克石油出口，但相关安排尚未生效。\n新建巴士拉-菲什哈布尔输油管道预计耗资不超过150亿美元。\n该管道将包括从哈迪塞到巴尼亚斯的支线，以及泵站和储存设施。"
+      "time": "08-08 11:07",
+      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
     },
     {
-      "time": "09:17",
-      "text": "欧盟委员会负责技术主权等事务的执行副主席汉娜·维尔库宁7日在社交媒体上表示，欧盟委员会当天就西班牙飞地休达局势约谈短视频平台TikTok和美国元公司（Meta），要求平台在危机期间加强内容监测并采取果断措施。"
+      "time": "08-07 22:07",
+      "text": "[AV] 〔U.S. Stocks〕 Dow Inc Rebounds by $151 ＝ as Interest Rate Hike Expectations Recede （7th） ☆ Replacement"
     },
     {
-      "time": "09:05",
-      "text": "苹果官网显示，Apple智能可配合阿里巴巴千问模型工作。"
+      "time": "08-07 19:13",
+      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party - State Street SPDR S&P 500 ETF Trust (ARCA:SPY)"
     },
     {
-      "time": "09:01",
-      "text": "江波龙公告称，公司完成向特定对象发行股票，实际发行660.71万股，发行价格为560.00元/股，募集资金总额37亿元，扣除发行费用后净额36.68亿元。发行对象最终确定为21家，包括易方达基金、金长江、赵启祥、贺伟等，限售期均为6个月。"
+      "time": "08-07 17:27",
+      "text": "[AV] Stock Market Today: Jobs Shock Sinks Rate-Hike Bets, S&P 500 Hits Record - Invesco QQQ Trust, Series 1 (N"
     },
     {
-      "time": "08:41",
-      "text": "印尼巴布亚省查亚维查亚县的一个文化节现场今天（8月8日）传出枪声，现场观众一度惊慌逃散。当地警方证实发生了枪击事件，目前正在调查具体经过。截至目前，警方尚未公布人员伤亡、枪手身份及作案原因。（CCTV国际时讯）"
+      "time": "08-07 17:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 5.79% on Aug 7: Facts Behind the Movement"
     },
     {
-      "time": "08:40",
-      "text": "美国参议院确认托德布兰奇将担任美国司法部长。"
+      "time": "08-07 17:08",
+      "text": "[AV] RXO, BrightView, SiteOne, ServiceNow, and Rocket Lab Shares Are Soaring, What You Need To Know"
     },
     {
-      "time": "08:33",
-      "text": "据东方电气集团消息，近日，东方电气集团党组召开会议，通报中央纪委国家监委对宋致远涉嫌严重违纪违法进行纪律审查和监察调查的决定。集团公司党组书记、董事长罗乾宜主持会议并讲话。与会同志一致表示，坚决拥护党中央决定，坚决拥护中央纪委国家监委决定。"
+      "time": "08-07 15:07",
+      "text": "[AV] Bank of America Corp (BAC) Stock Analysis & Forecast"
+    },
+    {
+      "time": "08-07 14:16",
+      "text": "[AV] Seagate Technology Holdings PLC Stock (STX) Moved Down by 8.62% on Aug 7: What Signal Does It Send?"
+    },
+    {
+      "time": "08-07 14:09",
+      "text": "[AV] Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%"
+    },
+    {
+      "time": "08-07 12:40",
+      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
