@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-09T08:08:29.772873+00:00",
+  "fetchedAt": "2026-08-09T09:02:46.399195+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-09T08:07:53Z"
+    "updatedAt": "2026-08-09T09:02:23Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-09T08:07:52Z"
+    "updatedAt": "2026-08-09T09:02:23Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 64856.5,
-    "changePct": -0.07
+    "value": 64771.42,
+    "changePct": -0.21
   },
   "spx": {
     "value": 7757.64,
@@ -45,10 +45,18 @@
     "dxy": -0.57,
     "realRate": 0.254,
     "vix": -0.656,
-    "btc": 0.273,
+    "btc": 0.264,
     "spx": 0.792
   },
   "news": [
+    {
+      "time": "08:23",
+      "text": "伊朗外长阿拉格齐今天（8月9日）表示，目前伊朗与美国之间没有进行任何谈判，但斡旋方仍在努力寻找恢复谈判的途径。伊朗认为，在美国就此前违反相关承诺的行为作出弥补之前，不具备重新启动谈判的条件。（CCTV国际时讯）"
+    },
+    {
+      "time": "08:13",
+      "text": "针对删除《在Mac上配合Apple智能使用千问》使用文档一事，苹果客服最新回应称：“我们有功能或新项目发布时，都会提前收到通知，目前并没有收到相关通知，中国大陆还没推出‘Apple智能使用千问’相关功能。”昨日，一篇名为《在Mac上配合Ap"
+    },
     {
       "time": "07:43",
       "text": "公司于2026年6月12日发布了《自愿性公告》，就美国国防部将药明康德列入国防部1260H名单的认定提起诉讼。继公司于2026年6月11日对国防部提起诉讼后，公司于2026年6月29日向美国哥伦比亚特区联邦地区法院提出了初步禁令动议，寻求禁"
@@ -102,54 +110,6 @@
       "text": "2026年7月份，全国工业生产者出厂价格同比上涨3.5%，环比下降0.7%。工业生产者购进价格同比上涨5.5%，环比下降1.0%。1-7月平均，工业生产者出厂价格比上年同期上涨1.8%，工业生产者购进价格上涨2.8%。"
     },
     {
-      "time": "01:31",
-      "text": "7月份，全国居民消费价格同比上涨0.5%。其中，城市上涨0.5%，农村上涨0.4%；食品价格下降1.5%，非食品价格上涨0.9%；消费品价格上涨0.2%，服务价格上涨0.7%。1-7月平均，全国居民消费价格比上年同期上涨0.9%。\n7月份，"
-    },
-    {
-      "time": "01:20",
-      "text": "当地时间8月8日23时55分左右，位于日本福井县的关西电力公司大饭核电站3号机组，因发电机内部装置出现异常，相关警报被触发，反应堆自动停止运行。关西电力表示，此次事故不会对周边环境造成放射性影响。\n关西电力旗下同样位于福井县的美滨核电站3号"
-    },
-    {
-      "time": "08-09 01:39",
-      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
-    },
-    {
-      "time": "08-08 18:39",
-      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
-    },
-    {
-      "time": "08-08 16:41",
-      "text": "[AV] American Beacon GLG Natural Resources ETF outperforms S&P 500 by 15% amid rising inflation in 2026"
-    },
-    {
-      "time": "08-08 11:07",
-      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
-    },
-    {
-      "time": "08-08 10:06",
-      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
-    },
-    {
-      "time": "08-08 09:38",
-      "text": "[AV] Puff Wealth Management LLC Invests $1.20 Million in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-08 04:37",
-      "text": "[AV] Defensive Consumer Staples Stocks for Higher Rates and Steadier Demand"
-    },
-    {
-      "time": "08-08 02:11",
-      "text": "[AV] iShares MSCI Taiwan ETF (NYSE:EWT) Stock Quote"
-    },
-    {
-      "time": "08-07 23:40",
-      "text": "[AV] There Are Good Reasons Why Higher Bond Yields Are Here to Stay, This Strategist Says"
-    },
-    {
-      "time": "08-07 23:11",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
