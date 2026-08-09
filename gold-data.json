@@ -1,9 +1,12 @@
 {
-  "fetchedAt": "2026-08-09T20:43:38.838081+00:00",
-  "gold": null,
+  "fetchedAt": "2026-08-09T21:15:47.105372+00:00",
+  "gold": {
+    "price": 4343.299805,
+    "updatedAt": "2026-08-09T21:15:25Z"
+  },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-09T20:43:23Z"
+    "updatedAt": "2026-08-09T21:15:24Z"
   },
   "dxy": {
     "value": 99.6,
@@ -18,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 65100.0,
-    "changePct": 0.3
+    "value": 65085.96,
+    "changePct": 0.28
   },
   "spx": {
     "value": 7757.64,
@@ -42,10 +45,14 @@
     "dxy": -0.57,
     "realRate": 0.254,
     "vix": -0.656,
-    "btc": 0.301,
+    "btc": 0.295,
     "spx": 0.792
   },
   "news": [
+    {
+      "time": "21:03",
+      "text": "据伊朗伊斯兰共和国通讯社9日报道，伊朗最高领袖穆杰塔巴·哈梅内伊任命穆罕默德·巴盖尔·佐勒加德尔为其政治顾问。佐勒加德尔此前担任伊朗最高国家安全委员会秘书。（新闻）"
+    },
     {
       "time": "20:41",
       "text": "据美国方面9日消息，美国总统特朗普表示，目前正在“低调处理”伊朗问题，并暗示相比于重新发动大规模军事行动，他更倾向于加大经济施压。据悉，特朗普在接受采访时称，“我们只是在和他们进行‘半谈判’。我们只是在观望伊朗局势，他们面临着严重的通货膨胀"
@@ -103,50 +110,6 @@
       "text": "据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。\n报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步"
     },
     {
-      "time": "13:33",
-      "text": "巴勒斯坦伊斯兰抵抗运动（哈马斯）今天（8月9日）发表声明，宣布将坚持此前与相关斡旋方及“和平委员会”达成的共识，继续推进加沙地带停火协议第二阶段路线图。声明说，哈马斯重申将认真落实“十五点方案”中的各项共识，并主张为执行相关条款制定明确的时"
-    },
-    {
-      "time": "08-09 10:30",
-      "text": "[AV] Sax Wealth Advisors LLC Grows Holdings in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-09 01:39",
-      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
-    },
-    {
-      "time": "08-08 18:39",
-      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
-    },
-    {
-      "time": "08-08 16:41",
-      "text": "[AV] American Beacon GLG Natural Resources ETF outperforms S&P 500 by 15% amid rising inflation in 2026"
-    },
-    {
-      "time": "08-08 13:39",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-08 11:07",
-      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
-    },
-    {
-      "time": "08-08 10:06",
-      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
-    },
-    {
-      "time": "08-08 09:38",
-      "text": "[AV] Puff Wealth Management LLC Invests $1.20 Million in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-08 04:37",
-      "text": "[AV] Defensive Consumer Staples Stocks for Higher Rates and Steadier Demand"
-    },
-    {
-      "time": "08-08 02:11",
-      "text": "[AV] iShares MSCI Taiwan ETF (NYSE:EWT) Stock Quote"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -171,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
