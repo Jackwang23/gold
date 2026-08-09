@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-09T16:36:17.676047+00:00",
+  "fetchedAt": "2026-08-09T17:15:11.969779+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-09T16:35:54Z"
+    "updatedAt": "2026-08-09T17:14:54Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-09T16:35:53Z"
+    "updatedAt": "2026-08-09T17:14:53Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 65168.55,
-    "changePct": 0.41
+    "value": 65176.62,
+    "changePct": 0.42
   },
   "spx": {
     "value": 7757.64,
@@ -45,7 +45,7 @@
     "dxy": -0.57,
     "realRate": 0.254,
     "vix": -0.656,
-    "btc": 0.303,
+    "btc": 0.304,
     "spx": 0.792
   },
   "news": [
@@ -110,46 +110,6 @@
       "text": "8月9日，2026国际基础科学大会在北京雁栖湖国际会展中心开幕。9位基础科学奖章（ICBS Medal）得主出席开幕式并接受表彰，其中包括安德鲁・怀尔斯数学奖章获得者、著名数学家、普林斯顿大学教授张寿武。张寿武出现在北京雁栖湖国际会展中心登"
     },
     {
-      "time": "08-09 10:30",
-      "text": "[AV] Sax Wealth Advisors LLC Grows Holdings in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-09 01:39",
-      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
-    },
-    {
-      "time": "08-08 18:39",
-      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
-    },
-    {
-      "time": "08-08 16:41",
-      "text": "[AV] American Beacon GLG Natural Resources ETF outperforms S&P 500 by 15% amid rising inflation in 2026"
-    },
-    {
-      "time": "08-08 13:39",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-08 11:07",
-      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
-    },
-    {
-      "time": "08-08 10:06",
-      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
-    },
-    {
-      "time": "08-08 09:38",
-      "text": "[AV] Puff Wealth Management LLC Invests $1.20 Million in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-08 04:37",
-      "text": "[AV] Defensive Consumer Staples Stocks for Higher Rates and Steadier Demand"
-    },
-    {
-      "time": "08-08 02:11",
-      "text": "[AV] iShares MSCI Taiwan ETF (NYSE:EWT) Stock Quote"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
