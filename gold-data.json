@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-09T07:16:36.321047+00:00",
+  "fetchedAt": "2026-08-09T08:08:29.772873+00:00",
   "gold": {
     "price": 4343.299805,
-    "updatedAt": "2026-08-09T07:16:23Z"
+    "updatedAt": "2026-08-09T08:07:53Z"
   },
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-09T07:16:22Z"
+    "updatedAt": "2026-08-09T08:07:52Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +21,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 64797.05,
-    "changePct": -0.17
+    "value": 64856.5,
+    "changePct": -0.07
   },
   "spx": {
     "value": 7757.64,
@@ -45,10 +45,26 @@
     "dxy": -0.57,
     "realRate": 0.254,
     "vix": -0.656,
-    "btc": 0.267,
+    "btc": 0.273,
     "spx": 0.792
   },
   "news": [
+    {
+      "time": "07:43",
+      "text": "公司于2026年6月12日发布了《自愿性公告》，就美国国防部将药明康德列入国防部1260H名单的认定提起诉讼。继公司于2026年6月11日对国防部提起诉讼后，公司于2026年6月29日向美国哥伦比亚特区联邦地区法院提出了初步禁令动议，寻求禁"
+    },
+    {
+      "time": "07:37",
+      "text": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。"
+    },
+    {
+      "time": "07:36",
+      "text": "上半年，公司实现营业收入17.36亿元，较上年同期增长147.42%。公司毛利总额达到9.89亿元，较上年同期增长103.78%。整体毛利率水平达到56.95%。归属于上市公司股东的净利润-1156.31万元，亏损金额较上年同期收窄2.59"
+    },
+    {
+      "time": "07:26",
+      "text": "当地时间9日，也门胡塞武装称，当天使用一架无人机对沙特阿美公司位于沙特吉赞的炼油厂实施袭击，并称“成功命中目标”。胡塞武装表示，此次袭击是对沙特“敌方”无人机进入也门萨达省和哈杰省领空的回应。（央视新闻）"
+    },
     {
       "time": "06:15",
       "text": "伊朗总统佩泽希齐扬当地时间8月8日在德黑兰举行的新闻发布会上表示，针对美国的违约情况，应该成立一个专门团队来处理违约问题，而不是诉诸武力。他指出，与其干坐着空想，不如仔细观察细节，考虑如何解决问题。佩泽希齐扬强调，伊朗当前与阿曼关于霍尔木兹"
@@ -94,20 +110,44 @@
       "text": "当地时间8月8日23时55分左右，位于日本福井县的关西电力公司大饭核电站3号机组，因发电机内部装置出现异常，相关警报被触发，反应堆自动停止运行。关西电力表示，此次事故不会对周边环境造成放射性影响。\n关西电力旗下同样位于福井县的美滨核电站3号"
     },
     {
-      "time": "01:12",
-      "text": "马斯克当地时间8月8日在社交媒体平台X上发文称，即将通过星舰发射的V3卫星性能将比目前通过猎鹰火箭发射的V2卫星高出一个数量级，这意味着星链V3带宽是星链V2系统的100倍以上，该系统今年将达到200亿美元的年度经常性收入（ARR），“即使"
+      "time": "08-09 01:39",
+      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
     },
     {
-      "time": "00:33",
-      "text": "当地时间8日，俄罗斯国防部通报称，过去24小时，俄军在哈尔科夫地区控制了1个定居点，打击了乌军使用的交通、能源和物流基础设施，俄军还打击了乌克兰港口的军用仓库和为乌军运送军用物资的海上船只。俄军防空部队则拦截了多枚火箭弹、导弹和超过800架"
+      "time": "08-08 18:39",
+      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
     },
     {
-      "time": "00:32",
-      "text": "黎巴嫩方面8日称，一支以色列军队于当天凌晨重新进入了此前作为其撤军“试点区域”之一的西扎乌塔尔镇，并在镇广场附近建起了一座新的土墙。当地居民表示，这是以军方面违反此前美、黎、以三方签订的框架协议的又一例证。（央视新闻）"
+      "time": "08-08 16:41",
+      "text": "[AV] American Beacon GLG Natural Resources ETF outperforms S&P 500 by 15% amid rising inflation in 2026"
     },
     {
-      "time": "00:31",
-      "text": "据以色列方面8月8日消息，美军中央司令部司令布拉德·库珀当天抵达以色列进行短期访问，并同以色列国防军高层讨论“多战线局势”。\n以方消息说，库珀在访问期间同以军总参谋长扎米尔及其他高级指挥官见面，评估“多战线局势”，并讨论加沙地带局势。美军目"
+      "time": "08-08 11:07",
+      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
+    },
+    {
+      "time": "08-08 10:06",
+      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
+    },
+    {
+      "time": "08-08 09:38",
+      "text": "[AV] Puff Wealth Management LLC Invests $1.20 Million in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "08-08 04:37",
+      "text": "[AV] Defensive Consumer Staples Stocks for Higher Rates and Steadier Demand"
+    },
+    {
+      "time": "08-08 02:11",
+      "text": "[AV] iShares MSCI Taiwan ETF (NYSE:EWT) Stock Quote"
+    },
+    {
+      "time": "08-07 23:40",
+      "text": "[AV] There Are Good Reasons Why Higher Bond Yields Are Here to Stay, This Strategist Says"
+    },
+    {
+      "time": "08-07 23:11",
+      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
