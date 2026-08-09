@@ -1,12 +1,9 @@
 {
-  "fetchedAt": "2026-08-09T19:58:12.013082+00:00",
-  "gold": {
-    "price": 4343.299805,
-    "updatedAt": "2026-08-09T19:57:54Z"
-  },
+  "fetchedAt": "2026-08-09T20:43:38.838081+00:00",
+  "gold": null,
   "silver": {
     "price": 63.707001,
-    "updatedAt": "2026-08-09T19:57:53Z"
+    "updatedAt": "2026-08-09T20:43:23Z"
   },
   "dxy": {
     "value": 99.6,
@@ -21,8 +18,8 @@
     "changePct": 1.15
   },
   "btc": {
-    "value": 65148.78,
-    "changePct": 0.38
+    "value": 65100.0,
+    "changePct": 0.3
   },
   "spx": {
     "value": 7757.64,
@@ -49,6 +46,10 @@
     "spx": 0.792
   },
   "news": [
+    {
+      "time": "20:41",
+      "text": "据美国方面9日消息，美国总统特朗普表示，目前正在“低调处理”伊朗问题，并暗示相比于重新发动大规模军事行动，他更倾向于加大经济施压。据悉，特朗普在接受采访时称，“我们只是在和他们进行‘半谈判’。我们只是在观望伊朗局势，他们面临着严重的通货膨胀"
+    },
     {
       "time": "14:51",
       "text": "据伊朗迈赫尔通讯社9日报道，伊朗议会国家安全与外交政策委员会批准了确保霍尔木兹海峡安全与发展的战略行动计划纲要。（新华社）"
@@ -106,8 +107,44 @@
       "text": "巴勒斯坦伊斯兰抵抗运动（哈马斯）今天（8月9日）发表声明，宣布将坚持此前与相关斡旋方及“和平委员会”达成的共识，继续推进加沙地带停火协议第二阶段路线图。声明说，哈马斯重申将认真落实“十五点方案”中的各项共识，并主张为执行相关条款制定明确的时"
     },
     {
-      "time": "13:30",
-      "text": "8月9日，2026国际基础科学大会在北京雁栖湖国际会展中心开幕。9位基础科学奖章（ICBS Medal）得主出席开幕式并接受表彰，其中包括安德鲁・怀尔斯数学奖章获得者、著名数学家、普林斯顿大学教授张寿武。张寿武出现在北京雁栖湖国际会展中心登"
+      "time": "08-09 10:30",
+      "text": "[AV] Sax Wealth Advisors LLC Grows Holdings in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "08-09 01:39",
+      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
+    },
+    {
+      "time": "08-08 18:39",
+      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
+    },
+    {
+      "time": "08-08 16:41",
+      "text": "[AV] American Beacon GLG Natural Resources ETF outperforms S&P 500 by 15% amid rising inflation in 2026"
+    },
+    {
+      "time": "08-08 13:39",
+      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "08-08 11:07",
+      "text": "[AV] Altria Stock: A Buy After The Correction (NYSE:MO)"
+    },
+    {
+      "time": "08-08 10:06",
+      "text": "[AV] 3 Inflation Resilient Dividend Stocks Offering Steady Income as CPI and Rate Risks Loom"
+    },
+    {
+      "time": "08-08 09:38",
+      "text": "[AV] Puff Wealth Management LLC Invests $1.20 Million in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "08-08 04:37",
+      "text": "[AV] Defensive Consumer Staples Stocks for Higher Rates and Steadier Demand"
+    },
+    {
+      "time": "08-08 02:11",
+      "text": "[AV] iShares MSCI Taiwan ETF (NYSE:EWT) Stock Quote"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +171,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
