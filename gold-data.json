@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-10T14:45:33.041634+00:00",
+  "fetchedAt": "2026-08-10T16:00:31.235316+00:00",
   "gold": {
-    "price": 4349.0,
-    "updatedAt": "2026-08-10T14:45:02Z"
+    "price": 4359.600098,
+    "updatedAt": "2026-08-10T16:00:04Z"
   },
   "silver": {
-    "price": 64.811996,
-    "updatedAt": "2026-08-10T14:45:01Z"
+    "price": 65.244003,
+    "updatedAt": "2026-08-10T16:00:02Z"
   },
   "dxy": {
-    "value": 99.72,
-    "changePct": 0.12
+    "value": 99.73,
+    "changePct": 0.13
   },
   "vix": {
-    "value": 15.25,
-    "changePct": 2.35
+    "value": 15.19,
+    "changePct": 1.95
   },
   "wti": {
-    "value": 80.5,
-    "changePct": 2.97
+    "value": 81.27,
+    "changePct": 3.95
   },
   "btc": {
-    "value": 64775.69,
-    "changePct": -0.11
+    "value": 64163.51,
+    "changePct": -1.05
   },
   "spx": {
-    "value": 7770.5,
-    "changePct": 0.17
+    "value": 7766.78,
+    "changePct": 0.12
   },
   "fred": {
     "10y_treasury": {
@@ -42,72 +42,112 @@
   "correlations": {
     "dataPoints": 23,
     "minRequired": 10,
-    "dxy": -0.591,
-    "realRate": 0.283,
-    "vix": -0.68,
-    "btc": 0.285,
-    "spx": 0.818
+    "dxy": -0.589,
+    "realRate": 0.284,
+    "vix": -0.681,
+    "btc": 0.223,
+    "spx": 0.817
   },
   "news": [
     {
-      "time": "14:40",
-      "text": "据港交所文件，8月10日，恒荣联合控股有限公司向港交所提交上市申请书，独家保荐人为工银国际融资有限公司。"
+      "time": "15:57",
+      "text": "伊朗与巴基斯坦外长通电话，讨论霍尔木兹海峡谈判与防务协议。"
     },
     {
-      "time": "14:35",
-      "text": "据伊朗媒体报道，伊朗伊斯兰革命卫队总司令艾哈迈德·瓦希迪10日向伊朗新任最高国家安全委员会秘书穆赫辛·雷扎伊表示祝贺。"
+      "time": "15:55",
+      "text": "随着伊朗战争持续令许多船东不愿驶入霍尔木兹海峡，在作为行业基准的中东至亚洲航线上，租用一艘超大型油轮运输原油的成本已逼近每天50万美元。\n运费最新一轮上涨之际，据船舶租赁成交数据，全球最大的超大型油轮船东韩国 Sinokor Group初步"
     },
     {
-      "time": "14:32",
-      "text": "国寿股权投资有限公司总经理张蕾娣向记者表示，该公司当前主要聚焦半导体、人工智能和生命科学、商业航天等前沿方向，“这些赛道市场空间足够宽广，技术加速迭代创新，拥有走向全球市场的潜力。我们认为这些赛道具备孕育世界级科技巨头的潜力。”"
+      "time": "15:53",
+      "text": "Meta Platforms Inc.推出了一款新的人工智能模型，其体量足够轻量，可以在单台电脑上运行，用户能够下载并根据自己的需求进行定制。\nMeta表示，这款名为Muse Glimmer的新模型是该公司Muse Spark 1.2模型的"
     },
     {
-      "time": "14:27",
-      "text": "纽约银日内涨幅达2.0%，报64.77美元/盎司；现货白银日内涨幅达1.5%，报64.48美元/盎司。"
+      "time": "15:46",
+      "text": "据知情人士透露，IBM自2012年以来首次在加拿大债券市场融资，发行四年期、八年期债券。（彭博）"
     },
     {
-      "time": "14:25",
-      "text": "关于“公司对下半年干散货行情如何展望”的问题，海通发展8月10日在业绩说明会表示，短期来看，超级厄尔尼诺风险正在提升，一方面提振夏季煤炭需求，另一方面将对巴拿马运河通行产生影响。今年以来，中东局势推高油气价格，美国油气出口增加导致大量油轮走"
+      "time": "15:45",
+      "text": "WTI原油日内涨幅达4.0%，报81.33美元/桶。"
     },
     {
-      "time": "14:24",
-      "text": "智谱MaaS开放平台注册用户（即API用户）近700万，相比七月初增长约200万，其中包括2.3万家企业客户，对标Codex的开发者产品ZCode上线1个月用户突破百万。\n今年以来，智谱ARR增长15倍，根据我们了解，在Kimi和阿里新模型"
+      "time": "15:43",
+      "text": "伊朗最高领袖穆杰塔巴·哈梅内伊今天（8月10日）对伊朗军队和伊斯兰革命卫队进行6项新任命。（CCTV国际时讯）"
     },
     {
-      "time": "14:18",
-      "text": "当地时间8月10日，巴基斯坦外交部通报，巴基斯坦副总理兼外交部长达尔与伊朗外交部长阿拉格齐通电话。"
+      "time": "15:42",
+      "text": "美国国务卿卢比奥：美方正哥伦比亚发生的地震。"
     },
     {
-      "time": "14:17",
-      "text": "哥伦比亚西部10日上午发生7.4级地震，全国多地震感强烈。乔科省省长努比娅·卡罗琳娜·科尔多瓦通过社交媒体表示，该省首府基布多市有人员受伤，一些建筑物严重受损。"
+      "time": "15:37",
+      "text": "明晟公司MSCI北欧国家指数大致持平，报398.84点。\n在十个板块中，北欧金融板块跌幅最大。\nInvestment AB Latour跌3.4%，在一众北欧个股里表现最差。"
     },
     {
-      "time": "14:09",
-      "text": "据知情人士透露，Imperial Brands考虑在美国和欧洲裁员数千人。（彭博）"
+      "time": "15:35",
+      "text": "标准银行纳米比亚子行10日宣布正式启动人民币跨境支付系统（CIPS）服务，成为纳米比亚首家提供该服务的银行。\n标准银行纳米比亚子行首席执行官埃尔温·奇普卡在启动仪式上说，中国是纳米比亚的最重要贸易伙伴之一，对高效跨境支付解决方案的需求日益增"
     },
     {
-      "time": "14:08",
-      "text": "标普500指数与纳斯达克100指数转涨。"
+      "time": "15:32",
+      "text": "美国财政部拍卖三个月期国债，得标利率3.735%，投标倍数2.88。\n拍卖六个月期国债，得标利率3.830%，投标倍数2.85。"
     },
     {
-      "time": "14:04",
-      "text": "据知情人士透露，裕信银行与德国商业银行围绕控制权的变更启动对话。（彭博）"
+      "time": "15:30",
+      "text": "德国DAX 30指数初步收涨0.15%，报26359.10点，有望延续非农日创收盘历史新高的表现。\n法国股指初步收涨0.12%，意大利股指初步收跌0.15%、银行指数涨0.07%，英国股指初步收跌0.38%。"
     },
     {
-      "time": "13:57",
-      "text": "哥伦比亚西部乔科省（Chocó）诺维塔市（Nóvita）下辖小镇San Jose del Palmar南侧5公里发生7.4级地震。"
+      "time": "15:30",
+      "text": "欧洲STOXX 600指数初步收涨0.02%，报660.37点。\n欧元区STOXX 50指数初步收涨0.21%，报6537.28点，整体冲高回落。\n富时泛欧绩优300指数初步收涨0.04%，报2640.09点。"
     },
     {
-      "time": "13:56",
-      "text": "日元扩大跌幅至逾1%，抹去干预引发的一半涨幅。"
+      "time": "15:28",
+      "text": "荷兰天然气期货涨10.1%，报61.14美元/MWh。"
     },
     {
-      "time": "13:56",
-      "text": "北美科技软件股指数ETF涨1.4%，刷新日高至104.17美元，逼近6月1日盘中最高位108.03美元。"
+      "time": "15:22",
+      "text": "据伊朗最高领袖办公室10日消息，伊朗最高领袖穆杰塔巴将签署对数名伊朗武装部队高级指挥官的任命令。（新华社）"
     },
     {
-      "time": "13:53",
-      "text": "据美国纽约联储数据，上个交易日（8月7日，非农日）担保隔夜融资利率（SOFR）报3.62%，之前一天报3.65%。\n上个交易日有效的联邦基金利率报3.63%，之前一天报3.63%。"
+      "time": "15:22",
+      "text": "美国上周战略石油储备（SPR）原油库存减少约610万桶，至2.987亿桶，为1983年以来的最低水平。"
+    },
+    {
+      "time": "08-10 10:23",
+      "text": "[AV] JPMorgan Chase & Co. $JPM is Sapient Capital LLC's 9th Largest Position"
+    },
+    {
+      "time": "08-10 09:12",
+      "text": "[AV] Crypto Week Ahead"
+    },
+    {
+      "time": "08-10 09:12",
+      "text": "[AV] U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead"
+    },
+    {
+      "time": "08-10 08:24",
+      "text": "[AV] Deane Retirement Strategies Inc. Buys Shares of 8,280 JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "08-09 21:45",
+      "text": "[AV] Record Highs Contend With Volume Restraints, US Inflation Top Event Risk Ahead"
+    },
+    {
+      "time": "08-09 17:09",
+      "text": "[AV] Gold Price Targets $4,500 as GLD ETF Inflows Soar Ahead of US Inflation Data"
+    },
+    {
+      "time": "08-09 13:46",
+      "text": "[AV] 09SA ETF Profile: Dividends, Returns (TRADEGATE:09SA)"
+    },
+    {
+      "time": "08-09 10:30",
+      "text": "[AV] Sax Wealth Advisors LLC Grows Holdings in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "08-09 01:39",
+      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
+    },
+    {
+      "time": "08-08 18:39",
+      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
     },
     {
       "time": "08-05 20:05",
@@ -134,30 +174,20 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4405.7,
-    "measuredMoveLow": 4429.5,
-    "measuredMoveHigh": 4453.3,
-    "sma20": 4397.01,
-    "currentPrice": 4405.7
+    "signalBarPrice": 4405.2,
+    "measuredMoveLow": 4435.9,
+    "measuredMoveHigh": 4459.7,
+    "sma20": 4397.81,
+    "currentPrice": 4412.1
   },
   "bars1h": [
-    {
-      "open": 4298.2998046875,
-      "high": 4301.7998046875,
-      "low": 4293.89990234375,
-      "close": 4298.2998046875
-    },
     {
       "open": 4298.60009765625,
       "high": 4311.7998046875,
@@ -390,7 +420,13 @@
       "open": 4376.2001953125,
       "high": 4411.2998046875,
       "low": 4376.2001953125,
-      "close": 4405.7001953125
+      "close": 4405.2001953125
+    },
+    {
+      "open": 4405.2001953125,
+      "high": 4413.7001953125,
+      "low": 4402.7001953125,
+      "close": 4412.10009765625
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4391.10009765625,
-      "high": 4411.2998046875,
+      "high": 4413.7001953125,
       "low": 4375.0,
-      "close": 4405.7001953125
+      "close": 4412.10009765625
     }
   ],
   "calendar": null,
