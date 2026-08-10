@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-10T16:00:31.235316+00:00",
+  "fetchedAt": "2026-08-10T17:03:19.437518+00:00",
   "gold": {
-    "price": 4359.600098,
-    "updatedAt": "2026-08-10T16:00:04Z"
+    "price": 4357.600098,
+    "updatedAt": "2026-08-10T17:03:03Z"
   },
   "silver": {
-    "price": 65.244003,
-    "updatedAt": "2026-08-10T16:00:02Z"
+    "price": 65.050003,
+    "updatedAt": "2026-08-10T17:03:02Z"
   },
   "dxy": {
-    "value": 99.73,
-    "changePct": 0.13
+    "value": 99.74,
+    "changePct": 0.14
   },
   "vix": {
-    "value": 15.19,
-    "changePct": 1.95
+    "value": 15.31,
+    "changePct": 2.75
   },
   "wti": {
-    "value": 81.27,
-    "changePct": 3.95
+    "value": 81.39,
+    "changePct": 4.11
   },
   "btc": {
-    "value": 64163.51,
-    "changePct": -1.05
+    "value": 63794.57,
+    "changePct": -1.62
   },
   "spx": {
-    "value": 7766.78,
-    "changePct": 0.12
+    "value": 7749.43,
+    "changePct": -0.11
   },
   "fred": {
     "10y_treasury": {
@@ -42,112 +42,72 @@
   "correlations": {
     "dataPoints": 23,
     "minRequired": 10,
-    "dxy": -0.589,
+    "dxy": -0.588,
     "realRate": 0.284,
-    "vix": -0.681,
-    "btc": 0.223,
-    "spx": 0.817
+    "vix": -0.677,
+    "btc": 0.186,
+    "spx": 0.813
   },
   "news": [
     {
-      "time": "15:57",
-      "text": "伊朗与巴基斯坦外长通电话，讨论霍尔木兹海峡谈判与防务协议。"
+      "time": "17:01",
+      "text": "国际铜夜盘收跌0.02%，沪铜收涨0.16%，沪铝收涨0.64%，沪锌收涨0.35%，沪铅收涨0.60%，沪镍收跌0.42%，沪锡收跌0.46%。\n氧化铝夜盘收跌0.59%，铝合金收涨0.28%。\n不锈钢夜盘收跌0.62%。"
     },
     {
-      "time": "15:55",
-      "text": "随着伊朗战争持续令许多船东不愿驶入霍尔木兹海峡，在作为行业基准的中东至亚洲航线上，租用一艘超大型油轮运输原油的成本已逼近每天50万美元。\n运费最新一轮上涨之际，据船舶租赁成交数据，全球最大的超大型油轮船东韩国 Sinokor Group初步"
+      "time": "17:00",
+      "text": "美国总统特朗普延长美国琼斯法案针对货轮的豁免措施，但范围缩小。"
     },
     {
-      "time": "15:53",
-      "text": "Meta Platforms Inc.推出了一款新的人工智能模型，其体量足够轻量，可以在单台电脑上运行，用户能够下载并根据自己的需求进行定制。\nMeta表示，这款名为Muse Glimmer的新模型是该公司Muse Spark 1.2模型的"
+      "time": "17:00",
+      "text": "谷歌公司：相信我们遵守美国得州数据中心标准。"
     },
     {
-      "time": "15:46",
-      "text": "据知情人士透露，IBM自2012年以来首次在加拿大债券市场融资，发行四年期、八年期债券。（彭博）"
+      "time": "16:59",
+      "text": "英国石油公司BP将转让委内瑞拉Cocuina天然气田20%的股权，受让方为Trinidad旗下NGC。（路透）"
     },
     {
-      "time": "15:45",
-      "text": "WTI原油日内涨幅达4.0%，报81.33美元/桶。"
+      "time": "16:51",
+      "text": "OpenAI：推出ChatGPT企业版高级席位。\n高级席位每位用户每月125美元，按年计费则每位用户每月100美元。\n限时活动期间，符合条件的工作区所有者每新增一个高级席位，即可获得价值100美元的额度，新增五个席位最高可获500美元。\n新"
     },
     {
-      "time": "15:43",
-      "text": "伊朗最高领袖穆杰塔巴·哈梅内伊今天（8月10日）对伊朗军队和伊斯兰革命卫队进行6项新任命。（CCTV国际时讯）"
+      "time": "16:51",
+      "text": "LME期铜收涨84美元，报14160美元/吨。\nLME期铝收涨38美元，报3318美元/吨。\nLME期锌收涨30美元，报3738美元/吨。\nLME期铅收涨16美元，报1903美元/吨。\nLME期镍收跌79美元，报16925美元/吨。\nLME"
     },
     {
-      "time": "15:42",
-      "text": "美国国务卿卢比奥：美方正哥伦比亚发生的地震。"
+      "time": "16:49",
+      "text": "最近24小时，MarketVectorTM数字资产100小盘指数跌0.43%，暂报2072.69点，北京时间06:14微幅上扬至2090.82点刷新“日高”、随后快速下挫、08:00刷新“日低”至2052.06点。\nMarketVector"
     },
     {
-      "time": "15:37",
-      "text": "明晟公司MSCI北欧国家指数大致持平，报398.84点。\n在十个板块中，北欧金融板块跌幅最大。\nInvestment AB Latour跌3.4%，在一众北欧个股里表现最差。"
+      "time": "16:48",
+      "text": "俄罗斯最高法院禁止Yabloko党派参与杜马选举。（塔斯社）"
     },
     {
-      "time": "15:35",
-      "text": "标准银行纳米比亚子行10日宣布正式启动人民币跨境支付系统（CIPS）服务，成为纳米比亚首家提供该服务的银行。\n标准银行纳米比亚子行首席执行官埃尔温·奇普卡在启动仪式上说，中国是纳米比亚的最重要贸易伙伴之一，对高效跨境支付解决方案的需求日益增"
+      "time": "16:48",
+      "text": "8月10日，美国一位法官裁定，包括杜克大学、康奈尔大学和西北大学在内的32所美国主要高校必须面对一项拟议的集体诉讼。该诉讼指控这些学校合谋，利用广受欢迎的“提前录取”招生程序，抬高了数万名学生的学费成本。马萨诸塞州联邦地区法官安吉尔·凯利表"
     },
     {
-      "time": "15:32",
-      "text": "美国财政部拍卖三个月期国债，得标利率3.735%，投标倍数2.88。\n拍卖六个月期国债，得标利率3.830%，投标倍数2.85。"
+      "time": "16:43",
+      "text": "加拿大安大略教师养老金计划上半年获得9.5%的回报，主要受益于其持有的埃隆·马斯克旗下SpaceX股权带来的收益。这家基金公司的首席执行官Jo Taylor表示，风险投资增长、公开市场股票和抗通胀资产的投资推动了回报率提升。净资产攀升至30"
     },
     {
-      "time": "15:30",
-      "text": "德国DAX 30指数初步收涨0.15%，报26359.10点，有望延续非农日创收盘历史新高的表现。\n法国股指初步收涨0.12%，意大利股指初步收跌0.15%、银行指数涨0.07%，英国股指初步收跌0.38%。"
+      "time": "16:39",
+      "text": "美国总统特朗普当地时间8月10日在社交媒体发帖称，他注意到，伊朗正在要求就过去五个月军事冲突中遭受的损失获得赔偿。特朗普称，“我同样要求伊朗进行赔偿，我已指示我的代表们将这一要求明确纳入未来所有谈判之中。”（CCTV国际时讯）"
     },
     {
-      "time": "15:30",
-      "text": "欧洲STOXX 600指数初步收涨0.02%，报660.37点。\n欧元区STOXX 50指数初步收涨0.21%，报6537.28点，整体冲高回落。\n富时泛欧绩优300指数初步收涨0.04%，报2640.09点。"
+      "time": "16:37",
+      "text": "英伟达跌幅扩大至3%，刷新日低，标普500指数跌0.1%，道指跌0.16%，纳指跌0.4%，半导体指数跌超1.8%。"
     },
     {
-      "time": "15:28",
-      "text": "荷兰天然气期货涨10.1%，报61.14美元/MWh。"
+      "time": "16:32",
+      "text": "美国总统特朗普：伊朗要求（战争的发动方美国+以色列）针对损毁进行赔偿。\n（美方）同样要求伊朗赔偿。\n将赔偿问题纳入未来的（伊美）谈判。"
     },
     {
-      "time": "15:22",
-      "text": "据伊朗最高领袖办公室10日消息，伊朗最高领袖穆杰塔巴将签署对数名伊朗武装部队高级指挥官的任命令。（新华社）"
+      "time": "16:31",
+      "text": "英伟达跌幅扩大至2.6%，刷新日低。"
     },
     {
-      "time": "15:22",
-      "text": "美国上周战略石油储备（SPR）原油库存减少约610万桶，至2.987亿桶，为1983年以来的最低水平。"
-    },
-    {
-      "time": "08-10 10:23",
-      "text": "[AV] JPMorgan Chase & Co. $JPM is Sapient Capital LLC's 9th Largest Position"
-    },
-    {
-      "time": "08-10 09:12",
-      "text": "[AV] Crypto Week Ahead"
-    },
-    {
-      "time": "08-10 09:12",
-      "text": "[AV] U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead"
-    },
-    {
-      "time": "08-10 08:24",
-      "text": "[AV] Deane Retirement Strategies Inc. Buys Shares of 8,280 JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-09 21:45",
-      "text": "[AV] Record Highs Contend With Volume Restraints, US Inflation Top Event Risk Ahead"
-    },
-    {
-      "time": "08-09 17:09",
-      "text": "[AV] Gold Price Targets $4,500 as GLD ETF Inflows Soar Ahead of US Inflation Data"
-    },
-    {
-      "time": "08-09 13:46",
-      "text": "[AV] 09SA ETF Profile: Dividends, Returns (TRADEGATE:09SA)"
-    },
-    {
-      "time": "08-09 10:30",
-      "text": "[AV] Sax Wealth Advisors LLC Grows Holdings in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "08-09 01:39",
-      "text": "[AV] The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week"
-    },
-    {
-      "time": "08-08 18:39",
-      "text": "[AV] Stock Market Today: Dow Jones Futures Slip, S&P 500 Gains Ahead of July Jobs Report—Atlassian, Trade Desk, Cloudflare in"
+      "time": "16:25",
+      "text": "伊朗革命卫队海军司令：任何外国船只经过霍尔木兹海峡，都逃不过伊朗军方的识别、追踪与监控。"
     },
     {
       "time": "08-05 20:05",
@@ -174,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 2,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4405.2,
-    "measuredMoveLow": 4435.9,
-    "measuredMoveHigh": 4459.7,
-    "sma20": 4397.81,
-    "currentPrice": 4412.1
+    "signalBarPrice": 4417.9,
+    "measuredMoveLow": 4437.9,
+    "measuredMoveHigh": 4463.2,
+    "sma20": 4398.57,
+    "currentPrice": 4412.6
   },
   "bars1h": [
-    {
-      "open": 4298.60009765625,
-      "high": 4311.7998046875,
-      "low": 4298.39990234375,
-      "close": 4311.0
-    },
     {
       "open": 4310.7001953125,
       "high": 4311.39990234375,
@@ -424,9 +382,15 @@
     },
     {
       "open": 4405.2001953125,
-      "high": 4413.7001953125,
+      "high": 4419.2001953125,
       "low": 4402.7001953125,
-      "close": 4412.10009765625
+      "close": 4417.89990234375
+    },
+    {
+      "open": 4418.10009765625,
+      "high": 4424.5,
+      "low": 4408.60009765625,
+      "close": 4412.60009765625
     }
   ],
   "bars4h": [
@@ -606,9 +570,9 @@
     },
     {
       "open": 4391.10009765625,
-      "high": 4413.7001953125,
+      "high": 4424.5,
       "low": 4375.0,
-      "close": 4412.10009765625
+      "close": 4412.60009765625
     }
   ],
   "calendar": null,
