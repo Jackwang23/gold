@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-10T20:08:53.459034+00:00",
+  "fetchedAt": "2026-08-10T21:02:42.511547+00:00",
   "gold": {
-    "price": 4388.200195,
-    "updatedAt": "2026-08-10T20:08:37Z"
+    "price": 4390.100098,
+    "updatedAt": "2026-08-10T21:02:07Z"
   },
   "silver": {
-    "price": 65.844002,
-    "updatedAt": "2026-08-10T20:08:36Z"
+    "price": 65.846001,
+    "updatedAt": "2026-08-10T21:02:36Z"
   },
   "dxy": {
     "value": 99.82,
     "changePct": 0.22
   },
   "vix": {
-    "value": 15.44,
-    "changePct": 3.62
+    "value": 15.46,
+    "changePct": 3.76
   },
   "wti": {
-    "value": 82.1,
-    "changePct": 5.01
+    "value": 82.33,
+    "changePct": 5.31
   },
   "btc": {
-    "value": 64004.15,
-    "changePct": -1.3
+    "value": 64051.39,
+    "changePct": -1.22
   },
   "spx": {
     "value": 7753.11,
@@ -30,12 +30,12 @@
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-08-06",
-      "value": 4.69
+      "date": "2026-08-07",
+      "value": 4.65
     },
     "10y_real_rate": {
-      "date": "2026-08-06",
-      "value": 2.43
+      "date": "2026-08-07",
+      "value": 2.4
     }
   },
   "goldapi": null,
@@ -43,111 +43,71 @@
     "dataPoints": 23,
     "minRequired": 10,
     "dxy": -0.577,
-    "realRate": 0.284,
-    "vix": -0.669,
-    "btc": 0.198,
+    "realRate": 0.203,
+    "vix": -0.668,
+    "btc": 0.203,
     "spx": 0.812
   },
   "news": [
     {
-      "time": "20:06",
-      "text": "Hims & Hers美股盘后涨4%。"
+      "time": "21:01",
+      "text": "JBS二季度调整后EBITDA为14.3亿美元，分析师预期14.2亿美元。\n二季度净营收239亿美元，分析师预期229.7亿美元。"
     },
     {
-      "time": "20:06",
-      "text": "周一（8月10日），美股行业ETF普遍收跌，全球航空业ETF跌3.38%，半导体ETF跌2.28%，全球科技股指数ETF、科技行业ETF至多跌1.03%，网络股指数ETF涨1.29%，能源业ETF涨4.68%。\n标普500指数的11个板块中"
+      "time": "20:59",
+      "text": "当地时间10日晚，伊拉克安全部门消息人士称，伊朗伊斯兰革命卫队“圣城旅”指挥官卡尼当晚抵达巴格达，与伊拉克国民议会最大党团“协调框架联盟”、“人民动员组织”及伊拉克各民兵组织领导人举行会晤，会晤涉及伊拉克国家武器管控等议题。（央视）"
     },
     {
-      "time": "20:02",
-      "text": "英伟达与阿波罗、贝莱德、黑石围绕AI计算进行合作。"
+      "time": "20:53",
+      "text": "OpenAI已回购员工约70亿美元的公司股份，为未来可能登陆华尔街进行首次公开募股（IPO）做准备。两名知情人士表示，OpenAI此次要约收购并未寻求外部投资者参与，而是直接从现任和前员工手中回购股份。此次交易对这家AI初创公司的估值达到8"
     },
     {
-      "time": "20:00",
-      "text": "标普500指数初步收跌0.1%，房地产、公用事业、科技板块至少跌1%，能源板块涨4.4%。\n纳斯达克100指数初步收跌0.4%，半导体指数跌2.9%。"
+      "time": "20:51",
+      "text": "英伟达：AI实验室与AI初创公司都需要计算。"
     },
     {
-      "time": "20:00",
-      "text": "纳斯达克金龙中国指数初步收涨1.7%。\n热门中概股里，陆控初步收涨14.3%，BOSS直聘涨5.4%，小马智行涨4.2%，阿里巴巴涨2.9%，新东方涨2.6%，世纪互联涨2.5%，比亚迪涨2%，携程涨1.9%，拼多多涨1.1%，日月光半导体"
+      "time": "20:46",
+      "text": "明晟公司MSCI新兴市场股票指数涨0.7%，外汇指数涨0.1%。"
     },
     {
-      "time": "19:50",
-      "text": "周一（8月10日）纽约尾盘，彭博电动汽车价格回报指数涨1.44%，报3523.01点。\n亚太盘初显著走高，北京时间14:00以来持续高位窄幅震荡。"
+      "time": "20:44",
+      "text": "美国稀土公司盘后下跌5%，此前公布第二季度业绩并宣布收购计划。"
     },
     {
-      "time": "19:34",
-      "text": "特朗普否认华尔街日报关于他与沃什谈话的报道，称：我非常尊重美联储主席沃什。\n几天前还曾与沃什短暂对话过一次。\n自从沃什接任美联储主席以来，和他谈过一次。"
+      "time": "20:36",
+      "text": "货币政策分析公司（Monetary Policy Analytics）经济学家Derek Tang：（相比1998年、2011年）2026年这一次美国与日本联手干预日元汇率时，美联储”并未出资”参与美方的干预行动。\n官方数据可能要到今年晚些"
     },
     {
-      "time": "19:25",
-      "text": "周一（8月10日，美国非农就业报告发布之后一个交易日）纽约尾盘，美国10年期国债收益率涨5.51个基点，逼平北京时间00:46刷新的日高4.7005%，整体呈现出长尾V形反转、15:15微跌至4.6393%刷新日低。\n两年期美债收益率涨4."
+      "time": "20:35",
+      "text": "宏利投资管理高级投资组合经理Nathan Thooft：美国可以通过与日本协调干预来影响市场预期，但无法改写基本面。\n（谈及美国当局的能力时，他说）口袋很深，但并非无限。"
     },
     {
-      "time": "19:24",
-      "text": "美国总统特朗普声称：你们会知道（关于伊朗问题的消息）的。"
+      "time": "20:27",
+      "text": "报道：乌克兰与摩尔多瓦考虑经摩尔多瓦开辟乌克兰粮食铁路运输线路。"
     },
     {
-      "time": "19:23",
-      "text": "美国总统特朗普签署关于疫苗推荐的命令。"
+      "time": "20:27",
+      "text": "周一（8月10日），美股存储芯片与硬件供应链指数跌1.22%，报184.13点，美股盘初冲高回落，结束交易前30分钟内（再次）开启一波显著下跌的行情。\n成分股Rambus收跌5.55%，泰瑞达跌3.75%，应用材料跌3.16%，美光科技、拉"
     },
     {
-      "time": "19:20",
-      "text": "纽约银日内涨幅达4.0%，报66.05美元/盎司。"
+      "time": "20:22",
+      "text": "北美科技软件股指数ETF收涨2.26%，报105.01美元，逼近6月1日收盘位107.68美元和2025年9月份顶部117.97美元。"
     },
     {
-      "time": "19:18",
-      "text": "伊朗外交部发言人：数十年来，伊朗已经证明，不会被这些老调重弹的（制裁）手段扼杀。\n美国政客固守这一恶习，反而会亲手葬送自己从这场自作自受的危机中体面脱身的仅剩机会。\n美国财政部长吹嘘通过经济制裁令伊朗窒息。这番说辞除了尽显可悲之外，也赤裸裸"
+      "time": "20:21",
+      "text": "英伟达CEO黄仁勋：相关交易将支持AI的大范围建设。\n（与5000亿美元融资相关的）所有资金都是第三方资本。\n对于新一轮人工智能融资计划，无人拒绝。（CNBC）"
     },
     {
-      "time": "19:16",
-      "text": "利比亚国家石油公司主席：一架无人机击中扎维耶炼油厂的满载燃料储罐。周六还发生了另一起袭击，但并未引发火灾。"
+      "time": "20:20",
+      "text": "特朗普媒体科技集团二季度净利润2.38亿美元，上年同期亏损0.2亿美元。"
     },
     {
-      "time": "19:15",
-      "text": "8月10日，托德·布兰奇正式宣誓就任美国司法部长。特朗普4月2日宣布，帕姆·邦迪不再担任司法部长，由副部长布兰奇代理。6月8日，美国白宫表示，总统特朗普向美国参议院提交托德·布兰奇出任司法部长的提名。8月8日凌晨，美国参议院以50票赞成、4"
+      "time": "20:16",
+      "text": "摩根士丹利推出了”美国创新基础设施计划”（US Innovation Infrastructure Initiative），该框架目标是在未来10年内完成约1.5万亿美元的资本募集、融资、咨询及相关投资活动。\n该计划将聚焦于创新平台、基础设"
     },
     {
-      "time": "19:13",
-      "text": "一项衡量英伟达信用风险的指标跃升，创两周来最大升幅，此前有报道称，包括多家美国投资巨头在内的一批机构接近与英伟达达成合作，拟为人工智能基础设施建设提供5000亿美元融资。\nICE Data Services数据显示，英伟达债务的5年期信用违"
-    },
-    {
-      "time": "08-10 19:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.05% on Aug 10: Key Drivers Unveiled"
-    },
-    {
-      "time": "08-10 19:15",
-      "text": "[AV] Altria Group Inc Stock (MO) Moved Down by 3.99% on Aug 10: What Signal Does It Send?"
-    },
-    {
-      "time": "08-10 17:32",
-      "text": "[AV] Amid Yen Intervention, This Japan ETF Thrived"
-    },
-    {
-      "time": "08-10 17:15",
-      "text": "[AV] Corning Inc Stock (GLW) Moved Down by 3.35% on Aug 10: What Investors Need To Know"
-    },
-    {
-      "time": "08-10 14:12",
-      "text": "[AV] Arm Holdings PLC Stock (ARM) Moved Down by 4.64% on Aug 10: What Investors Need To Know"
-    },
-    {
-      "time": "08-10 10:39",
-      "text": "[AV] Stock Market Today: Dow Futures Slip, S&P 500 Gains as Trump Says US Is 'Only Semi-Negotiating' With Iran—T. Rowe Price,"
-    },
-    {
-      "time": "08-10 10:23",
-      "text": "[AV] JPMorgan Chase & Co. $JPM is Sapient Capital LLC's 9th Largest Position"
-    },
-    {
-      "time": "08-10 09:12",
-      "text": "[AV] Crypto Week Ahead"
-    },
-    {
-      "time": "08-10 09:12",
-      "text": "[AV] U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead"
-    },
-    {
-      "time": "08-10 08:24",
-      "text": "[AV] Deane Retirement Strategies Inc. Buys Shares of 8,280 JPMorgan Chase & Co. $JPM"
+      "time": "20:13",
+      "text": "周一（8月10日），美国房地产ETF收跌1.34%，日元做多跌1.06%，美国国债20+年ETF、新兴市场ETF至少跌0.72%，罗素2000指数ETF跌0.52%，纳指100 ETF跌0.3%，欧元做多、道指ETF、标普500 ETF至多"
     },
     {
       "time": "08-05 20:05",
@@ -174,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4417.9,
-    "measuredMoveLow": 4487.25,
-    "measuredMoveHigh": 4527.2,
-    "sma20": 4404.37,
-    "currentPrice": 4447.3
+    "signalBarPrice": 4437.7,
+    "measuredMoveLow": 4489.45,
+    "measuredMoveHigh": 4529.4,
+    "sma20": 4407.26,
+    "currentPrice": 4449.5
   },
   "bars1h": [
-    {
-      "open": 4309.10009765625,
-      "high": 4325.0,
-      "low": 4308.2998046875,
-      "close": 4322.7998046875
-    },
     {
       "open": 4325.2998046875,
       "high": 4328.39990234375,
@@ -426,7 +384,13 @@
       "open": 4437.7998046875,
       "high": 4453.7998046875,
       "low": 4437.7998046875,
-      "close": 4447.2998046875
+      "close": 4446.7998046875
+    },
+    {
+      "open": 4447.0,
+      "high": 4451.2998046875,
+      "low": 4444.7001953125,
+      "close": 4449.5
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4416.39990234375,
       "high": 4453.7998046875,
       "low": 4410.5,
-      "close": 4447.2998046875
+      "close": 4449.5
     }
   ],
   "calendar": null,
