@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-10T19:17:27.056429+00:00",
+  "fetchedAt": "2026-08-10T20:08:53.459034+00:00",
   "gold": {
-    "price": 4383.399902,
-    "updatedAt": "2026-08-10T19:17:03Z"
+    "price": 4388.200195,
+    "updatedAt": "2026-08-10T20:08:37Z"
   },
   "silver": {
-    "price": 65.93,
-    "updatedAt": "2026-08-10T19:17:02Z"
+    "price": 65.844002,
+    "updatedAt": "2026-08-10T20:08:36Z"
   },
   "dxy": {
     "value": 99.82,
     "changePct": 0.22
   },
   "vix": {
-    "value": 15.32,
-    "changePct": 2.82
+    "value": 15.44,
+    "changePct": 3.62
   },
   "wti": {
-    "value": 81.73,
-    "changePct": 4.54
+    "value": 82.1,
+    "changePct": 5.01
   },
   "btc": {
-    "value": 63846.81,
-    "changePct": -1.54
+    "value": 64004.15,
+    "changePct": -1.3
   },
   "spx": {
-    "value": 7755.16,
-    "changePct": -0.03
+    "value": 7753.11,
+    "changePct": -0.06
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,61 @@
   "correlations": {
     "dataPoints": 23,
     "minRequired": 10,
-    "dxy": -0.578,
+    "dxy": -0.577,
     "realRate": 0.284,
-    "vix": -0.674,
-    "btc": 0.182,
-    "spx": 0.813
+    "vix": -0.669,
+    "btc": 0.198,
+    "spx": 0.812
   },
   "news": [
+    {
+      "time": "20:06",
+      "text": "Hims & Hers美股盘后涨4%。"
+    },
+    {
+      "time": "20:06",
+      "text": "周一（8月10日），美股行业ETF普遍收跌，全球航空业ETF跌3.38%，半导体ETF跌2.28%，全球科技股指数ETF、科技行业ETF至多跌1.03%，网络股指数ETF涨1.29%，能源业ETF涨4.68%。\n标普500指数的11个板块中"
+    },
+    {
+      "time": "20:02",
+      "text": "英伟达与阿波罗、贝莱德、黑石围绕AI计算进行合作。"
+    },
+    {
+      "time": "20:00",
+      "text": "标普500指数初步收跌0.1%，房地产、公用事业、科技板块至少跌1%，能源板块涨4.4%。\n纳斯达克100指数初步收跌0.4%，半导体指数跌2.9%。"
+    },
+    {
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收涨1.7%。\n热门中概股里，陆控初步收涨14.3%，BOSS直聘涨5.4%，小马智行涨4.2%，阿里巴巴涨2.9%，新东方涨2.6%，世纪互联涨2.5%，比亚迪涨2%，携程涨1.9%，拼多多涨1.1%，日月光半导体"
+    },
+    {
+      "time": "19:50",
+      "text": "周一（8月10日）纽约尾盘，彭博电动汽车价格回报指数涨1.44%，报3523.01点。\n亚太盘初显著走高，北京时间14:00以来持续高位窄幅震荡。"
+    },
+    {
+      "time": "19:34",
+      "text": "特朗普否认华尔街日报关于他与沃什谈话的报道，称：我非常尊重美联储主席沃什。\n几天前还曾与沃什短暂对话过一次。\n自从沃什接任美联储主席以来，和他谈过一次。"
+    },
+    {
+      "time": "19:25",
+      "text": "周一（8月10日，美国非农就业报告发布之后一个交易日）纽约尾盘，美国10年期国债收益率涨5.51个基点，逼平北京时间00:46刷新的日高4.7005%，整体呈现出长尾V形反转、15:15微跌至4.6393%刷新日低。\n两年期美债收益率涨4."
+    },
+    {
+      "time": "19:24",
+      "text": "美国总统特朗普声称：你们会知道（关于伊朗问题的消息）的。"
+    },
+    {
+      "time": "19:23",
+      "text": "美国总统特朗普签署关于疫苗推荐的命令。"
+    },
+    {
+      "time": "19:20",
+      "text": "纽约银日内涨幅达4.0%，报66.05美元/盎司。"
+    },
+    {
+      "time": "19:18",
+      "text": "伊朗外交部发言人：数十年来，伊朗已经证明，不会被这些老调重弹的（制裁）手段扼杀。\n美国政客固守这一恶习，反而会亲手葬送自己从这场自作自受的危机中体面脱身的仅剩机会。\n美国财政部长吹嘘通过经济制裁令伊朗窒息。这番说辞除了尽显可悲之外，也赤裸裸"
+    },
     {
       "time": "19:16",
       "text": "利比亚国家石油公司主席：一架无人机击中扎维耶炼油厂的满载燃料储罐。周六还发生了另一起袭击，但并未引发火灾。"
@@ -62,52 +110,44 @@
       "text": "一项衡量英伟达信用风险的指标跃升，创两周来最大升幅，此前有报道称，包括多家美国投资巨头在内的一批机构接近与英伟达达成合作，拟为人工智能基础设施建设提供5000亿美元融资。\nICE Data Services数据显示，英伟达债务的5年期信用违"
     },
     {
-      "time": "19:12",
-      "text": "周一（8月10日）纽约尾盘，ICE美元指数涨0.29%，刷新日高至99.829点，整体处于上涨状态，亚太盘初以来冲高回落、北京时间16:15回落至99.603点刷新日低，之后一度持续扩大涨幅。\n彭博美元指数涨0.25%，逼近21:53刷新的"
+      "time": "08-10 19:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.05% on Aug 10: Key Drivers Unveiled"
     },
     {
-      "time": "19:10",
-      "text": "周一（8月10日）纽约尾盘，ICE原糖期货涨0.06%，ICE白糖期货涨0.50%。\nICE阿拉比卡咖啡期货跌0.10%，咖啡“C”期货跌0.22%。罗布斯塔咖啡期货涨0.85%。\n纽约可可期货涨2.09%，报6018美元/吨。伦敦可可期货"
+      "time": "08-10 19:15",
+      "text": "[AV] Altria Group Inc Stock (MO) Moved Down by 3.99% on Aug 10: What Signal Does It Send?"
     },
     {
-      "time": "19:09",
-      "text": "美国卫生部长小罗伯特·肯尼迪：正在评估孕期接种的疫苗。"
+      "time": "08-10 17:32",
+      "text": "[AV] Amid Yen Intervention, This Japan ETF Thrived"
     },
     {
-      "time": "19:03",
-      "text": "微软希望在仅生产数万个当前一代Maia人工智能芯片后，大幅扩大该芯片的产能。"
+      "time": "08-10 17:15",
+      "text": "[AV] Corning Inc Stock (GLW) Moved Down by 3.35% on Aug 10: What Investors Need To Know"
     },
     {
-      "time": "19:02",
-      "text": "记者从中国科学院南京地质古生物研究所获悉，该所晚古生代研究团队要乐副研究员、王秋来副研究员牵头与国内外科研机构合作，首次系统揭示了地球倒数第二次大冰期中一次极热事件的完整图景。研究显示，在约3亿年前的冰室气候背景下，地球曾经历过一次快速升温"
+      "time": "08-10 14:12",
+      "text": "[AV] Arm Holdings PLC Stock (ARM) Moved Down by 4.64% on Aug 10: What Investors Need To Know"
     },
     {
-      "time": "19:01",
-      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7495元，较上周五夜盘收盘跌39点。成交量259.38亿美元。"
+      "time": "08-10 10:39",
+      "text": "[AV] Stock Market Today: Dow Futures Slip, S&P 500 Gains as Trump Says US Is 'Only Semi-Negotiating' With Iran—T. Rowe Price,"
     },
     {
-      "time": "19:00",
-      "text": "恒生指数主连夜盘收涨0.07%，报25966点。\n恒生科技指数主连夜盘收涨0.18%，报4937点。"
+      "time": "08-10 10:23",
+      "text": "[AV] JPMorgan Chase & Co. $JPM is Sapient Capital LLC's 9th Largest Position"
     },
     {
-      "time": "18:57",
-      "text": "周一（8月10日）纽约尾盘，彭博谷物分类指数涨0.07%，报31.0001点，整体高开低走，北京时间10:00-美股开盘高位持稳、16:33达到31.4093点。\nCBOT玉米期货持平，报4.62美元/蒲式耳。\nCBOT小麦期货涨0.17%"
+      "time": "08-10 09:12",
+      "text": "[AV] Crypto Week Ahead"
     },
     {
-      "time": "18:56",
-      "text": "美国总统特朗普宣布“美国疫苗推荐”。\n特朗普声称：政府仅认可 11 种核心疫苗的儿童接种建议。\n不再建议所有儿童接种乙肝、新冠、流感等疫苗。"
+      "time": "08-10 09:12",
+      "text": "[AV] U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead"
     },
     {
-      "time": "18:53",
-      "text": "美元兑日元涨1%，报159.32。"
-    },
-    {
-      "time": "18:47",
-      "text": "8月10日，美国国家海洋和大气管理局（NOAA）发布的数据显示，7月是有记录以来美国平均气温最高的一个月。当月出现了持续时间长且强度大的“热穹顶”现象，导致从东海岸到大平原地区及西南部各州的气温均创下历史新高。NOAA的气温记录可追溯至18"
-    },
-    {
-      "time": "18:44",
-      "text": "美国克利夫兰联储主席哈马克（Hammack）：可能需要加息“几次”。\n不希望预判加息次数和我们最终的利率水平。\n是我们采取行动的时候了。\n当前利率并未对美国经济造成实质性限制。\n并未发现通胀自行下降。\n仍然没有看到劳动力市场出现问题。"
+      "time": "08-10 08:24",
+      "text": "[AV] Deane Retirement Strategies Inc. Buys Shares of 8,280 JPMorgan Chase & Co. $JPM"
     },
     {
       "time": "08-05 20:05",
@@ -134,22 +174,18 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 2,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4441.7,
-    "measuredMoveLow": 4476.0,
-    "measuredMoveHigh": 4510.3,
-    "sma20": 4404.09,
-    "currentPrice": 4441.7
+    "signalBarPrice": 4417.9,
+    "measuredMoveLow": 4487.25,
+    "measuredMoveHigh": 4527.2,
+    "sma20": 4404.37,
+    "currentPrice": 4447.3
   },
   "bars1h": [
     {
@@ -388,9 +424,9 @@
     },
     {
       "open": 4437.7998046875,
-      "high": 4441.89990234375,
+      "high": 4453.7998046875,
       "low": 4437.7998046875,
-      "close": 4441.7001953125
+      "close": 4447.2998046875
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4416.39990234375,
-      "high": 4442.5,
+      "high": 4453.7998046875,
       "low": 4410.5,
-      "close": 4441.7001953125
+      "close": 4447.2998046875
     }
   ],
   "calendar": null,
