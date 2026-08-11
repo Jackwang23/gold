@@ -1,113 +1,153 @@
 {
-  "fetchedAt": "2026-08-11T19:46:42.950218+00:00",
+  "fetchedAt": "2026-08-11T20:45:29.596510+00:00",
   "gold": {
-    "price": 4368.5,
-    "updatedAt": "2026-08-11T19:46:36Z"
+    "price": 4368.799805,
+    "updatedAt": "2026-08-11T20:45:06Z"
   },
   "silver": {
-    "price": 64.771004,
-    "updatedAt": "2026-08-11T19:46:36Z"
+    "price": 64.791,
+    "updatedAt": "2026-08-11T20:45:06Z"
   },
   "dxy": {
-    "value": 99.82,
-    "changePct": 0.01
+    "value": 99.83,
+    "changePct": 0.02
   },
   "vix": {
-    "value": 15.26,
-    "changePct": -1.29
+    "value": 15.28,
+    "changePct": -1.16
   },
   "wti": {
-    "value": 83.44,
-    "changePct": 1.6
+    "value": 83.4,
+    "changePct": 1.55
   },
   "btc": {
-    "value": 63396.93,
-    "changePct": -0.8
+    "value": 63629.41,
+    "changePct": -0.44
   },
   "spx": {
-    "value": 7728.5,
+    "value": 7728.2,
     "changePct": -0.32
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-08-07",
-      "value": 4.65
+      "date": "2026-08-10",
+      "value": 4.72
     },
     "10y_real_rate": {
-      "date": "2026-08-07",
-      "value": 2.4
+      "date": "2026-08-10",
+      "value": 2.43
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 24,
     "minRequired": 10,
-    "dxy": -0.59,
-    "realRate": 0.17,
+    "dxy": -0.589,
+    "realRate": 0.235,
     "vix": -0.687,
-    "btc": 0.078,
+    "btc": 0.099,
     "spx": 0.823
   },
   "news": [
     {
-      "time": "19:41",
-      "text": "伊拉克外交部11日发表声明，强烈谴责哥伦比亚承认以色列对被占领的戈兰高地拥有“主权”的决定。声明强调，戈兰高地是被占领的叙利亚领土，任何一方都无权改变其法律地位，或赋予占领方任何缺乏依据的合法性。哥伦比亚的这一决定不具备任何法律效力，也无法"
+      "time": "20:36",
+      "text": "美国石油协会（API）数据显示，上周，美国API原油库存 +907.2万桶，之前一周 +269万桶。\n上周API库欣原油库存 +157.1桶，前值 +235.8万桶。\n上周API成品油汽油库存 -153.1万桶（前值 +15.6万桶）、馏分"
     },
     {
-      "time": "19:34",
-      "text": "周二（8月11日）纽约尾盘，美国10年期国债收益率跌1.63个基点，报4.6904%，北京时间18:00-21:46持续走低，从4.73%附近下挫至4.6659%刷新日低。\n两年期美债收益率跌2.10个基点，报4.22%；30年期美债收益率"
+      "time": "20:23",
+      "text": "马里军方11日说，今年6月1日至7月31日，马里武装部队在军事行动中打死1850名恐怖分子，摧毁45处恐怖组织基地。"
     },
     {
-      "time": "19:30",
-      "text": "也门胡塞武装发言人叶海亚11日表示，胡塞武装动用大量弹道导弹和无人机，对沙特支持、在摩卡地区以及马里卜省塔达温军事基地的人员集结、武器库和指挥部实施打击。叶海亚称，相关打击“精准命中目标”，造成数十人死伤，其中包括沙特人员。他还表示，沙特方"
+      "time": "20:21",
+      "text": "纽交所（NYSE）母公司洲际交易所（ICE）发行投资级债券，为收购MarketAxess融资37.5亿美元。"
     },
     {
-      "time": "19:30",
-      "text": "周二（8月11日）纽约尾盘，美元兑日元大致持平，报159.29日元，日内交投区间为158.93-159.39日元。\n欧元兑日元跌0.02%，英镑兑日元跌0.02%。"
+      "time": "20:20",
+      "text": "周二（8月11日），美股行业ETF涨跌各异，网络股指数ETF收跌0.96%，可选消费ETF跌0.36%，科技行业ETF跌0.12%，半导体ETF涨0.62%，全球航空业ETF涨0.83%，能源业ETF涨1.25%。\n标普500指数的11个板"
     },
     {
-      "time": "19:29",
-      "text": "周二（8月11日）纽约尾盘，ICE美元指数涨0.02%，报99.833点，日内交投区间为99.725-99.898点。\n彭博美元指数跌0.05%，报1203.02点，日内交投区间为1204.50-1202.56点。"
+      "time": "20:20",
+      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
     },
     {
-      "time": "19:20",
-      "text": "周二（8月11日）纽约尾盘，ICE原糖期货涨1.64%，ICE白糖期货涨1.15%。\nICE阿拉比卡咖啡期货冲高回落最终涨0.08%，咖啡“C”期货跌0.35%、报312.80美分/磅、北京时间18:50达到327.55美分。罗布斯塔咖啡期"
+      "time": "20:18",
+      "text": "通用汽车将在贷款协议中锁定至多45亿美元供应商库存，以防供应紊乱。"
     },
     {
-      "time": "19:16",
-      "text": "也门胡塞武装发言人：武装部队打击了Mokha以及Marib境内的沙特军队集结点、武器库与指挥总部。\n我们向这两个目标发射导弹与无人机。"
+      "time": "20:14",
+      "text": "Firefly Aerospace二季度营收1.177亿美元，上年同期亏损0.155亿美元。\n二季度调整后EBITDA亏损0.612亿美元，分析师预期亏损0.479亿美元。\n二季度每股亏损0.57美元，上年同期亏损5.78美元。\nFiref"
     },
     {
-      "time": "19:09",
-      "text": "美国财长贝森特：欢迎Meta发布Muse Glimmer。"
+      "time": "20:10",
+      "text": "CoreWeave二季度营收25.8亿美元，分析师预期25.6亿美元。\n二季度净亏损6.26亿美元，分析师预期亏损7.571亿美元。\n二季度调整后EBITDA为15.1亿美元，分析师预期14.3亿美元。\n二季度运营亏损0.49亿美元，分析师"
     },
     {
-      "time": "19:06",
-      "text": "伊朗革命卫队发言人：如果伊朗再次遭遇威胁，数十万英里的能源输送管线、数千座发电厂、所有美国及非美国的各类系统，乃至接入互联网的全球基础设施都将面临风险。"
+      "time": "20:09",
+      "text": "美国参议院Sanders发函，要求OpenAI、Anthropic、Meta等众多AI公司暂停开发。（纽约时报）"
     },
     {
-      "time": "19:06",
-      "text": "纳斯达克金龙中国指数跌超3%，腾讯音乐跌11.87%，1药网跌8.29%，Tims中国跌8.05%，信也科技跌5.93%，陆金所控股跌5.72%。"
+      "time": "20:08",
+      "text": "Anthropic将向EROCK采购约470兆瓦电力设备。"
     },
     {
-      "time": "19:02",
-      "text": "美国芝加哥商业交易所集团（CME）将推出国家冰球联盟（NHL）冰球期货。"
+      "time": "20:05",
+      "text": "超微电脑第四财季净销售111.2亿美元，分析师预期112.6亿美元。\n第四财季调整后每股收益（EPS）为1.70美元，分析师预期1.59美元。\n预计第一财季净销售145亿-155亿美元，分析师预期119.9亿美元。\n预计第一财季调整后EPS"
     },
     {
-      "time": "19:01",
-      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7466元，较周一夜盘收盘涨29点。成交量264.04亿美元。"
+      "time": "20:03",
+      "text": "Lumentum第四财季净营收10.1亿美元，分析师预期9.90亿美元，上年同期4.807亿美元。\n第四财季组件与零部件营收6.494亿美元，分析师预期6.369亿美元，上年同期3.204亿美元。\n第四财季系统营收3.569亿美元，分析师预"
     },
     {
-      "time": "19:00",
-      "text": "8月11日，美国中央司令部表示，美军当天在阿曼湾行动向一艘悬挂巴拿马国旗、名为“维拉·诺瓦”号（Vela Nova）的货轮开火。中央司令部称，该船当时正驶向伊朗港口，试图突破美国对伊朗实施的封锁。在“维拉·诺瓦”号船员多次无视美军警告后，一"
+      "time": "20:03",
+      "text": "周二（8月11日），彭博电动汽车价格回报指数跌1.27%，报3478.39点，亚太时段持续下跌、北京时间14:00以来低位窄幅震荡、交投于3480点附近。"
     },
     {
-      "time": "19:00",
-      "text": "恒生指数主连夜盘收跌0.37%，报25533点。\n恒生科技指数主连夜盘收跌0.81%，报4793点。"
+      "time": "20:01",
+      "text": "Apollo Global收涨6.3%，创2025年5月份以来最佳单日表现。"
     },
     {
-      "time": "18:55",
-      "text": "美国银行分析师认为，如果美国通货膨胀报告意外低于预期，美元可能会出现相对而言更强烈的反应，因为这将“基本排除”美联储9月份加息的可能性，并对当前的市场定价构成挑战。\n包括Alex Cohen、Stephen Juneau和Meghan Sw"
+      "time": "20:00",
+      "text": "标普500指数初步收跌0.3%，电信板块跌2.2%，科技板块跌0.2%，能源板块涨0.9%。\n纳斯达克100指数初步收跌0.3%，成分股中，Applovin初步收跌5.8%，Honeywell Technologies Inc.跌5.3%，"
+    },
+    {
+      "time": "08-11 18:11",
+      "text": "[AV] Gold Producer Secures Massive Growth Into Late 2030s in Mali"
+    },
+    {
+      "time": "08-11 15:10",
+      "text": "[AV] Zacks Industry Outlook Highlights WSFS Financial, Provident Financial Services and Southern Missouri Bancorp"
+    },
+    {
+      "time": "08-11 14:40",
+      "text": "[AV] Zacks Industry Outlook Highlights Mitsubishi UFJ Financial, UBS and KB Financial"
+    },
+    {
+      "time": "08-11 14:37",
+      "text": "[AV] Canada's H&R REIT agrees to $4.81 billion breakup deal with GO Residential, Blackstone consortium"
+    },
+    {
+      "time": "08-11 12:31",
+      "text": "[AV] With Bank of America at Record Highs, Wall Street Is Bullish but Retail Is Wary"
+    },
+    {
+      "time": "08-11 10:10",
+      "text": "[AV] EM debt broadens its appeal"
+    },
+    {
+      "time": "08-11 03:08",
+      "text": "[AV] Indonesian Equities Fall Further Ahead of MSCI Review"
+    },
+    {
+      "time": "08-11 01:11",
+      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "08-11 01:09",
+      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
+    },
+    {
+      "time": "08-11 01:01",
+      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
     },
     {
       "time": "08-05 20:05",
@@ -134,30 +174,20 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4428.3,
-    "measuredMoveLow": 4349.1,
-    "measuredMoveHigh": 4388.75,
-    "sma20": 4446.2,
-    "currentPrice": 4428.4
+    "measuredMoveLow": 4348.8,
+    "measuredMoveHigh": 4388.45,
+    "sma20": 4444.24,
+    "currentPrice": 4428.1
   },
   "bars1h": [
-    {
-      "open": 4379.60009765625,
-      "high": 4390.2998046875,
-      "low": 4377.39990234375,
-      "close": 4387.7998046875
-    },
     {
       "open": 4387.7001953125,
       "high": 4399.7998046875,
@@ -390,7 +420,13 @@
       "open": 4430.39990234375,
       "high": 4433.60009765625,
       "low": 4420.0,
-      "close": 4428.39990234375
+      "close": 4429.7001953125
+    },
+    {
+      "open": 4429.2998046875,
+      "high": 4430.0,
+      "low": 4426.5,
+      "close": 4428.10009765625
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4443.2998046875,
       "high": 4445.7001953125,
       "low": 4419.7001953125,
-      "close": 4428.39990234375
+      "close": 4428.10009765625
     }
   ],
   "calendar": null,
