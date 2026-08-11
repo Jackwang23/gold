@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-10T23:35:58.676665+00:00",
+  "fetchedAt": "2026-08-11T00:33:58.679201+00:00",
   "gold": {
-    "price": 4397.0,
-    "updatedAt": "2026-08-10T23:35:37Z"
+    "price": 4413.799805,
+    "updatedAt": "2026-08-11T00:33:37Z"
   },
   "silver": {
-    "price": 65.856003,
-    "updatedAt": "2026-08-10T23:35:36Z"
+    "price": 66.25,
+    "updatedAt": "2026-08-11T00:33:36Z"
   },
   "dxy": {
-    "value": 99.81,
-    "changePct": 0.21
+    "value": 99.76,
+    "changePct": 0.17
   },
   "vix": {
     "value": 15.46,
     "changePct": 3.76
   },
   "wti": {
-    "value": 82.04,
-    "changePct": 4.94
+    "value": 82.12,
+    "changePct": 5.04
   },
   "btc": {
-    "value": 63886.08,
-    "changePct": -1.48
+    "value": 63930.99,
+    "changePct": -1.41
   },
   "spx": {
     "value": 7753.11,
@@ -40,15 +40,47 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 23,
+    "dataPoints": 24,
     "minRequired": 10,
-    "dxy": -0.577,
-    "realRate": 0.202,
-    "vix": -0.667,
-    "btc": 0.181,
-    "spx": 0.811
+    "dxy": -0.59,
+    "realRate": 0.163,
+    "vix": -0.677,
+    "btc": 0.116,
+    "spx": 0.824
   },
   "news": [
+    {
+      "time": "00:24",
+      "text": "农发行发行1年期债券，规模60亿元，发行利率0.0000%，预期0.0000%，投标倍数1.00倍，边际倍数1.00倍；\n农发行发行2年期债券，规模30亿元，发行利率0.0000%，预期0.0000%，投标倍数1.00倍，边际倍数1.00倍"
+    },
+    {
+      "time": "00:17",
+      "text": "中国商务部公告称，牛肉保障措施项下自巴西进口的牛肉于2026年8月10日已达到商务部公告2025年第87号明确的该国家（地区）规定数量的90%。根据商务部公告2025年第87号，在牛肉进口数量达到规定数量100%的第3日起（含当日），将在现"
+    },
+    {
+      "time": "00:16",
+      "text": "哥伦比亚政府10日最新通报说，当天在该国西部发生的地震已造成132人死亡、570人受伤，全国有32个城市严重受灾。"
+    },
+    {
+      "time": "00:02",
+      "text": "新加坡第二季度GDP同比增长5.9%，预估5.8%。\n新加坡第二季度GDP环比增长1.4%，预估1.2%。"
+    },
+    {
+      "time": "00:02",
+      "text": "知情人士透露，Anthropic PBC已与Riot Platforms Inc.达成一项价值91亿美元的协议。Riot是一家比特币矿业公司，最近也开始销售人工智能数据中心算力。Riot于周一早些时候披露，已达成一项为期20年的协议，从其位"
+    },
+    {
+      "time": "00:01",
+      "text": "韩国首尔综指盘初跌1.1%，日本股市今日休市。"
+    },
+    {
+      "time": "00:00",
+      "text": "中国即将发行或正在发行的地方政府债"
+    },
+    {
+      "time": "00:00",
+      "text": "中国即将发行或正在发行的国债和政策性金融债"
+    },
     {
       "time": "23:29",
       "text": "截至8月10日，年内各地发行新增专项债规模已达25448.07亿元，发行进度（全年额度4.4万亿元）达57.8%。年内置换债券发行规模已达到17942.43亿元，完成全年限额2万亿元的89.7%，接近九成。"
@@ -78,36 +110,44 @@
       "text": "7月走出一轮“预期驱动回调”行情后，碳酸锂价格近日出现企稳迹象。8月10日，碳酸锂期货主力合约LC2609报收146360元/吨，6个交易日以来累计上涨6.24%。“这几天算是稳住了。”有熟悉碳酸锂期货人士评价。此前的7月，受远期供给过剩的"
     },
     {
-      "time": "23:01",
-      "text": "英国7月BRC同店销售同比 1%，前值 1.7%。"
+      "time": "08-10 19:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.05% on Aug 10: Key Drivers Unveiled"
     },
     {
-      "time": "22:51",
-      "text": "截至8月10日，17家上市药企披露半年报，逾百家药企发布半年度业绩预告。7月1日至8月10日，百济神州、泽璟制药等74家药企接待机构调研，7家企业吸引超50家机构走访，百济神州接待调研机构数量超200家。业内人士认为，创新药板块正从估值驱动"
+      "time": "08-10 19:15",
+      "text": "[AV] Altria Group Inc Stock (MO) Moved Down by 3.99% on Aug 10: What Signal Does It Send?"
     },
     {
-      "time": "22:46",
-      "text": "8月10日，宇树科技开启网上、网下申购，发行价格为150.80元/股，发行数量4044.6434万股。根据宇树科技此前披露的发行公告，光大理财、民生理财、南银理财、宁银理财、招银理财、中邮理财旗下相关产品均进入初步询价阶段的有效报价名单。就"
+      "time": "08-10 17:39",
+      "text": "[AV] Weary Bulls Can Take Advantage Of This Spread On The S&P 500"
     },
     {
-      "time": "22:46",
-      "text": "成本高、汇款难、中间环节繁琐……当前，国内外贸企业不断深耕全球市场，小币种跨境结算需求随之持续攀升。但此前“小币种先兑美元再折算人民币”的双重汇兑模式，叠加多币种结算手续繁琐，小币种汇率避险工具缺失，让一些外贸企业被汇兑损耗高、资金到账慢等"
+      "time": "08-10 17:32",
+      "text": "[AV] Amid Yen Intervention, This Japan ETF Thrived"
     },
     {
-      "time": "22:38",
-      "text": "Anthropic取消了Claude Sonnet 5原定于8月底的涨价计划。周一，Anthropic宣布，Claude Sonnet 5的初始定价将永久保留。该模型今年6月发布时，输入Token价格为每百万2美元、输出Token价格为每百"
+      "time": "08-10 17:15",
+      "text": "[AV] Corning Inc Stock (GLW) Moved Down by 3.35% on Aug 10: What Investors Need To Know"
     },
     {
-      "time": "22:37",
-      "text": "A股公司2026年半年报披露进入高峰期，“在手订单”成为透视行业景气度的核心指标。纵观已披露的订单信息，三条主线清晰可见：船舶、电缆、激光设备等高端制造大额订单饱满，为后续业绩增长筑牢基础；创新药、光模块等行业依托技术升级与海外市场开拓，迎"
+      "time": "08-10 14:12",
+      "text": "[AV] Arm Holdings PLC Stock (ARM) Moved Down by 4.64% on Aug 10: What Investors Need To Know"
     },
     {
-      "time": "22:35",
-      "text": "近日调研获悉，受“香港保单收益征税”消息影响，一些消费者正重新评估赴港投保性价比。已有多位香港保险营销员接到客户咨询，他们明显感受到市场正在降温。此外，随着人民币汇率不断升值，赴港投保的预期收益有所降低。在业内人士看来，受税收、汇率等因素影"
+      "time": "08-10 13:40",
+      "text": "[AV] 3 Savings & Loan Stocks Worth Picking on Improving Industry Prospects"
     },
     {
-      "time": "22:32",
-      "text": "谷歌DeepMind的通用人工智能（AI）安全与对齐团队正鼓励求职者填写一份特殊表格，以避免被公司内部AI系统自动筛掉的风险。\n该团队表示，公司的申请系统存在”不可忽视的概率”会错误筛掉简历，或耗时过长才将简历送达团队。\n谷歌DeepMin"
+      "time": "08-10 10:39",
+      "text": "[AV] Stock Market Today: Dow Futures Slip, S&P 500 Gains as Trump Says US Is 'Only Semi-Negotiating' With Iran—T. Rowe Price,"
+    },
+    {
+      "time": "08-10 10:23",
+      "text": "[AV] JPMorgan Chase & Co. $JPM is Sapient Capital LLC's 9th Largest Position"
+    },
+    {
+      "time": "08-10 09:12",
+      "text": "[AV] Crypto Week Ahead"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
@@ -146,18 +182,12 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4459.0,
-    "measuredMoveLow": 4497.9,
-    "measuredMoveHigh": 4541.2,
-    "sma20": 4414.74,
-    "currentPrice": 4454.6
+    "measuredMoveLow": 4518.05,
+    "measuredMoveHigh": 4566.0,
+    "sma20": 4419.23,
+    "currentPrice": 4470.1
   },
   "bars1h": [
-    {
-      "open": 4337.7001953125,
-      "high": 4358.0,
-      "low": 4337.10009765625,
-      "close": 4356.2998046875
-    },
     {
       "open": 4356.2001953125,
       "high": 4356.89990234375,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4459.10009765625,
-      "high": 4461.60009765625,
+      "high": 4462.39990234375,
       "low": 4453.89990234375,
-      "close": 4454.60009765625
+      "close": 4462.10009765625
+    },
+    {
+      "open": 4462.2998046875,
+      "high": 4470.89990234375,
+      "low": 4456.0,
+      "close": 4470.10009765625
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4446.89990234375,
-      "high": 4461.60009765625,
+      "high": 4470.89990234375,
       "low": 4443.2001953125,
-      "close": 4454.60009765625
+      "close": 4470.10009765625
     }
   ],
   "calendar": null,
