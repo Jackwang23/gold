@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-11T20:45:29.596510+00:00",
+  "fetchedAt": "2026-08-11T21:49:36.641025+00:00",
   "gold": {
-    "price": 4368.799805,
-    "updatedAt": "2026-08-11T20:45:06Z"
+    "price": 4369.100098,
+    "updatedAt": "2026-08-11T21:49:07Z"
   },
   "silver": {
-    "price": 64.791,
-    "updatedAt": "2026-08-11T20:45:06Z"
+    "price": 64.810997,
+    "updatedAt": "2026-08-11T21:49:06Z"
   },
   "dxy": {
     "value": 99.83,
@@ -17,12 +17,12 @@
     "changePct": -1.16
   },
   "wti": {
-    "value": 83.4,
-    "changePct": 1.55
+    "value": 83.23,
+    "changePct": 1.34
   },
   "btc": {
-    "value": 63629.41,
-    "changePct": -0.44
+    "value": 63590.76,
+    "changePct": -0.5
   },
   "spx": {
     "value": 7728.2,
@@ -45,109 +45,69 @@
     "dxy": -0.589,
     "realRate": 0.235,
     "vix": -0.687,
-    "btc": 0.099,
+    "btc": 0.096,
     "spx": 0.823
   },
   "news": [
     {
-      "time": "20:36",
-      "text": "美国石油协会（API）数据显示，上周，美国API原油库存 +907.2万桶，之前一周 +269万桶。\n上周API库欣原油库存 +157.1桶，前值 +235.8万桶。\n上周API成品油汽油库存 -153.1万桶（前值 +15.6万桶）、馏分"
+      "time": "21:48",
+      "text": "也门胡塞武装11日表示，愿与沙特阿拉伯保持对话，但同时称，除非有关要求得到满足，否则将继续对沙特相关船只以及沙特支持的军事目标发动袭击。"
     },
     {
-      "time": "20:23",
-      "text": "马里军方11日说，今年6月1日至7月31日，马里武装部队在军事行动中打死1850名恐怖分子，摧毁45处恐怖组织基地。"
+      "time": "21:43",
+      "text": "谷歌母公司Alphabet旗下谷歌周二宣布了美洲地区新增的海底光缆线路，其中包括一条连接巴拿马、多米尼加共和国和智利的线路。智利正努力将自身打造为区域性数字枢纽。\n此次扩建将包括三条新的海底光缆系统——Alisios（信风）、Canoa（独"
     },
     {
-      "time": "20:21",
-      "text": "纽交所（NYSE）母公司洲际交易所（ICE）发行投资级债券，为收购MarketAxess融资37.5亿美元。"
+      "time": "21:38",
+      "text": "CoreWeave预计全年销售124亿-132亿美元，预计资本开支350亿-390亿美元。\n预计三季度销售34.5亿-36亿美元，预计资本开支115亿-135亿美元，预计网络开支8.6亿-9.4亿美元。"
     },
     {
-      "time": "20:20",
-      "text": "周二（8月11日），美股行业ETF涨跌各异，网络股指数ETF收跌0.96%，可选消费ETF跌0.36%，科技行业ETF跌0.12%，半导体ETF涨0.62%，全球航空业ETF涨0.83%，能源业ETF涨1.25%。\n标普500指数的11个板"
+      "time": "21:31",
+      "text": "CoreWeave首席财务官：7月调价针对各产品规格，整体上调约25%，来应对当前市场需求。公司正在转嫁零部件涨价带来的成本。\n营业利润率改善发生在7月调价之前。"
     },
     {
-      "time": "20:20",
-      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
+      "time": "21:30",
+      "text": "美国一名联邦法官下令，禁止美国邮政总署依据美国总统特朗普的行政命令限制邮寄投票。美国共和党籍总统特朗普3月31日颁布行政令，责成国土安全部和社会保障管理局以州为单位编纂具备合法投票资格的公民名单，同时禁止美国邮政局处理非名单内选民寄出的选票"
     },
     {
-      "time": "20:18",
-      "text": "通用汽车将在贷款协议中锁定至多45亿美元供应商库存，以防供应紊乱。"
+      "time": "21:28",
+      "text": "Kalshi年化收入超过40亿美元。\n该公司按400亿美元估值洽谈融资。（The Information）"
     },
     {
-      "time": "20:14",
-      "text": "Firefly Aerospace二季度营收1.177亿美元，上年同期亏损0.155亿美元。\n二季度调整后EBITDA亏损0.612亿美元，分析师预期亏损0.479亿美元。\n二季度每股亏损0.57美元，上年同期亏损5.78美元。\nFiref"
+      "time": "21:25",
+      "text": "超微电脑CFO：第四季度毛利率环比改善，源于客户与产品组合好于预期，同时部分合同递延至2027财年第一季度。"
     },
     {
-      "time": "20:10",
-      "text": "CoreWeave二季度营收25.8亿美元，分析师预期25.6亿美元。\n二季度净亏损6.26亿美元，分析师预期亏损7.571亿美元。\n二季度调整后EBITDA为15.1亿美元，分析师预期14.3亿美元。\n二季度运营亏损0.49亿美元，分析师"
+      "time": "21:25",
+      "text": "CoreWeave首席执行官：预计国际市场将成为主要增长驱动力。"
     },
     {
-      "time": "20:09",
-      "text": "美国参议院Sanders发函，要求OpenAI、Anthropic、Meta等众多AI公司暂停开发。（纽约时报）"
+      "time": "21:16",
+      "text": "周二（8月11日）纽约尾盘，标普500股指期货最终跌0.29%，道指期货跌0.34%，纳斯达克100股指期货跌0.28%。\n罗素2000股指期货涨0.35%。"
     },
     {
-      "time": "20:08",
-      "text": "Anthropic将向EROCK采购约470兆瓦电力设备。"
+      "time": "21:15",
+      "text": "富时A50期指连续夜盘收跌0.09%，报14925点。"
     },
     {
-      "time": "20:05",
-      "text": "超微电脑第四财季净销售111.2亿美元，分析师预期112.6亿美元。\n第四财季调整后每股收益（EPS）为1.70美元，分析师预期1.59美元。\n预计第一财季净销售145亿-155亿美元，分析师预期119.9亿美元。\n预计第一财季调整后EPS"
+      "time": "21:12",
+      "text": "Accel Partners LP.融资35亿美元，从而投资（那些）新兴的全球AI初创公司。"
     },
     {
-      "time": "20:03",
-      "text": "Lumentum第四财季净营收10.1亿美元，分析师预期9.90亿美元，上年同期4.807亿美元。\n第四财季组件与零部件营收6.494亿美元，分析师预期6.369亿美元，上年同期3.204亿美元。\n第四财季系统营收3.569亿美元，分析师预"
+      "time": "21:08",
+      "text": "CoreWeave美股盘后涨幅扩大至16%。\n该公司首席执行官称，第二季度签署的客户合同预期贡献利润率较近几个季度新增合同高出5‑10个百分点。\n短期产能实际上已全部售罄，由此促成条款愈发有利的签约订单。"
     },
     {
-      "time": "20:03",
-      "text": "周二（8月11日），彭博电动汽车价格回报指数跌1.27%，报3478.39点，亚太时段持续下跌、北京时间14:00以来低位窄幅震荡、交投于3480点附近。"
+      "time": "21:07",
+      "text": "叙利亚过渡政府外交部11日发表声明，对哥伦比亚宣布承认以色列对戈兰高地拥有“主权”进行强烈谴责。\n叙过渡政府外交部说，叙利亚重申戈兰高地是叙利亚领土不可分割的一部分，哥伦比亚政府的声明严重违反《联合国宪章》以及国际法基本原则。"
     },
     {
-      "time": "20:01",
-      "text": "Apollo Global收涨6.3%，创2025年5月份以来最佳单日表现。"
+      "time": "21:04",
+      "text": "周二（8月11日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7465元，较周一纽约尾盘跌5点，日内整体交投于6.7443-6.7490元区间。"
     },
     {
-      "time": "20:00",
-      "text": "标普500指数初步收跌0.3%，电信板块跌2.2%，科技板块跌0.2%，能源板块涨0.9%。\n纳斯达克100指数初步收跌0.3%，成分股中，Applovin初步收跌5.8%，Honeywell Technologies Inc.跌5.3%，"
-    },
-    {
-      "time": "08-11 18:11",
-      "text": "[AV] Gold Producer Secures Massive Growth Into Late 2030s in Mali"
-    },
-    {
-      "time": "08-11 15:10",
-      "text": "[AV] Zacks Industry Outlook Highlights WSFS Financial, Provident Financial Services and Southern Missouri Bancorp"
-    },
-    {
-      "time": "08-11 14:40",
-      "text": "[AV] Zacks Industry Outlook Highlights Mitsubishi UFJ Financial, UBS and KB Financial"
-    },
-    {
-      "time": "08-11 14:37",
-      "text": "[AV] Canada's H&R REIT agrees to $4.81 billion breakup deal with GO Residential, Blackstone consortium"
-    },
-    {
-      "time": "08-11 12:31",
-      "text": "[AV] With Bank of America at Record Highs, Wall Street Is Bullish but Retail Is Wary"
-    },
-    {
-      "time": "08-11 10:10",
-      "text": "[AV] EM debt broadens its appeal"
-    },
-    {
-      "time": "08-11 03:08",
-      "text": "[AV] Indonesian Equities Fall Further Ahead of MSCI Review"
-    },
-    {
-      "time": "08-11 01:11",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-11 01:09",
-      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
-    },
-    {
-      "time": "08-11 01:01",
-      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
+      "time": "20:58",
+      "text": "周二（8月11日）纽约尾盘，现货黄金跌0.50%，报4368.81美元/盎司。\n现货白银跌1.63%，报6.46705美元/盎司。\nCOMEX铜期货涨0.19%，报6.6285美元/磅。\n现货铂金跌0.82%，现货钯金跌1.20%。"
     },
     {
       "time": "08-05 20:05",
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
@@ -182,10 +146,10 @@
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4428.3,
-    "measuredMoveLow": 4348.8,
-    "measuredMoveHigh": 4388.45,
-    "sma20": 4444.24,
-    "currentPrice": 4428.1
+    "measuredMoveLow": 4348.5,
+    "measuredMoveHigh": 4388.15,
+    "sma20": 4444.23,
+    "currentPrice": 4427.8
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4429.2998046875,
       "high": 4430.0,
-      "low": 4426.5,
-      "close": 4428.10009765625
+      "low": 4426.10009765625,
+      "close": 4427.7998046875
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4443.2998046875,
       "high": 4445.7001953125,
       "low": 4419.7001953125,
-      "close": 4428.10009765625
+      "close": 4427.7998046875
     }
   ],
   "calendar": null,
