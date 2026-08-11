@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-11T16:37:13.197856+00:00",
+  "fetchedAt": "2026-08-11T17:42:00.284937+00:00",
   "gold": {
-    "price": 4385.299805,
-    "updatedAt": "2026-08-11T16:37:06Z"
+    "price": 4378.100098,
+    "updatedAt": "2026-08-11T17:41:36Z"
   },
   "silver": {
-    "price": 65.168999,
-    "updatedAt": "2026-08-11T16:37:05Z"
+    "price": 64.853996,
+    "updatedAt": "2026-08-11T17:41:36Z"
   },
   "dxy": {
-    "value": 99.82,
-    "changePct": 0.01
+    "value": 99.87,
+    "changePct": 0.06
   },
   "vix": {
-    "value": 15.38,
-    "changePct": -0.52
+    "value": 15.4,
+    "changePct": -0.39
   },
   "wti": {
-    "value": 83.02,
-    "changePct": 1.08
+    "value": 83.25,
+    "changePct": 1.36
   },
   "btc": {
-    "value": 63481.79,
-    "changePct": -0.67
+    "value": 63500.99,
+    "changePct": -0.64
   },
   "spx": {
-    "value": 7741.47,
-    "changePct": -0.15
+    "value": 7734.39,
+    "changePct": -0.24
   },
   "fred": {
     "10y_treasury": {
@@ -42,112 +42,72 @@
   "correlations": {
     "dataPoints": 24,
     "minRequired": 10,
-    "dxy": -0.589,
-    "realRate": 0.167,
+    "dxy": -0.585,
+    "realRate": 0.169,
     "vix": -0.683,
-    "btc": 0.08,
-    "spx": 0.824
+    "btc": 0.084,
+    "spx": 0.823
   },
   "news": [
     {
-      "time": "16:34",
-      "text": "OpenAI：ChatGPT在英国、日本、墨西哥、巴西、韩国新增广告内容。"
+      "time": "17:36",
+      "text": "利比亚国家石油公司：消防员扑灭Zawiya炼油厂的所有火情。"
     },
     {
-      "time": "16:29",
-      "text": "周二（8月11日）欧市尾盘，德国10年期国债收益率跌2.0个基点，报3.158%，日内交投于3.208%-3.144%区间，北京时间14:28“高开”并持续高位窄幅震荡，18:00以来持续走低、22:24刷新日低。\n两年期德债收益率跌1.2"
+      "time": "17:35",
+      "text": "哥伦比亚财政部：哥伦比亚将在地震后宣布经济紧急状态。"
     },
     {
-      "time": "16:25",
-      "text": "当地时间11日，也门海岸警卫队发表声明说，胡塞武装当天上午在曼德海峡对一艘名为“塔哈马”号的商船发动导弹袭击，造成包括船员和也门武装人员在内的6人死亡、10人受伤。（央视）"
+      "time": "17:28",
+      "text": "委内瑞拉政府表示已与以色列达成协议，将设立协调机制以提供领事服务。"
     },
     {
-      "time": "16:24",
-      "text": "利比亚国家石油公司董事会主席：利比亚Zawiya炼油厂再次遭到无人机袭击。\n该炼油厂柴油储油罐遇袭。\n此次袭击引发小规模火情。\n但该炼油厂仍然处于运营状态。"
+      "time": "17:22",
+      "text": "据城堡证券（Citadel Securities）表示，在经历大规模去杠杆之后，系统化买家正准备重新大举买入股票。\n城堡证券股票及衍生品策略主管鲁布纳（Scott Rubner）表示：”杠杆重置已基本完成，随着波动率下降，系统化策略有了增加"
     },
     {
-      "time": "16:19",
-      "text": "马斯克旗下太空探索公司SpaceX跌幅扩大至5%，刷新日低。"
+      "time": "17:18",
+      "text": "纳斯达克100指数跌0.5%。"
     },
     {
-      "time": "16:18",
-      "text": "智利铜委员会预计，智利2027年铜产量将达555万吨，较2026年增长5.2%。"
+      "time": "17:16",
+      "text": "周二（8月11日），美联储隔夜逆回购协议（RRP）使用规模为12.50亿美元（交易对手2家），上个交易日报9.75亿美元。"
     },
     {
-      "time": "16:18",
-      "text": "OpenAI特别项目负责人、首席运营官Brad Lightcap宣布离职，称：将向前看，将“尝试一些新的东西”。"
+      "time": "17:11",
+      "text": "刚果（金）的埃博拉疫情仍在蔓延和加剧。引发疫情的病毒株至今没有任何获批的疫苗或特效药。世界卫生组织发出警告称，疫情蔓延速度已超出应对能力。作为南部非洲区的枢纽，约翰内斯堡是非洲最大的航空中转站之一，每日均有往返金沙萨等疫区的航班，输入性风险"
     },
     {
-      "time": "16:11",
-      "text": "美国芝加哥联储主席Goolsbee（2027年FOMC票委）：指标表明，美国劳动力市场稳定、但情况并不良好。\n只要消费者（信心）是健康的，美国经济也会一样。\n经济当前面临的最大问题在于通胀。"
+      "time": "17:10",
+      "text": "根据哥伦比亚市政联合会当地时间11日通报，该国8月10日发生的强震死亡人数已上升为234人。（央视）"
     },
     {
-      "time": "16:11",
-      "text": "据媒体报道：俄罗斯经北极航道向亚洲的石油出口开局表现强劲。"
+      "time": "17:08",
+      "text": "英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。\n英伟达首席执行官黄仁勋在"
     },
     {
-      "time": "16:06",
-      "text": "美国能源部长Wright：目前离开霍尔木兹海峡的石油七日平均量已升至每日近900万桶。"
+      "time": "17:05",
+      "text": "巴克莱表示，美国国债买家结构正在转向更注重价值的共同基金、家庭和其他私人投资者，这一变化帮助推动30年期美债收益率升至数十年来高位。策略师Demi Hu和Anshul Pradan认为，只要通胀持续存在，这些买家就会要求越来越高的补偿，才愿"
     },
     {
-      "time": "16:04",
-      "text": "当地时间11日，伊朗最高国家安全委员会秘书雷扎伊表示，美国是霍尔木兹海峡、波斯湾和阿曼湾不安全的根源，美国对伊朗发动非法战争，危及整个地区。“除非美国改变其行为并接受伊朗的条件，否则霍尔木兹海峡不会开放。”\n他表示，美国必须结束战争，支付伊"
+      "time": "17:02",
+      "text": "Meta：Threads现已在Meta Quest上作为原生VR应用推出。"
     },
     {
-      "time": "16:00",
-      "text": "美国能源信息署（STEO）发布短期能源（STEO）：预计2026年布伦特原油价格87美元/桶（此前预计82美元/桶），预计2027年69美元/桶（此前预计65美元/桶）。\n预计2026年美国石油产量1380万桶/日（此前预计1380万桶/日"
+      "time": "17:02",
+      "text": "美国财政部拍卖580亿美元三年期国债，得标利率4.291%（7月7日为4.179%），投标倍数2.71（前次为2.60）。"
     },
     {
-      "time": "16:00",
-      "text": "伊朗革命卫队发言人：今日波斯湾海域没有美国军舰部署。"
+      "time": "17:00",
+      "text": "国际铜夜盘收涨0.21%，沪铜收涨0.04%，沪铝收涨0.58%，沪锌收跌0.08%，沪铅收平，沪镍收跌0.5%，沪锡收涨0.35%。\n氧化铝夜盘收涨0.35%，铝合金收涨0.93%。\n不锈钢夜盘收跌0.07%。"
     },
     {
-      "time": "15:55",
-      "text": "卡塔尔液化天然气（LNG）装船量攀升至3月以来最高水平，预示该国正在为霍尔木兹海峡可能重新开放做准备。拉斯拉凡港液化天然气日均装船量约8万吨，但该规模仍较去年同期下降约60%。卡塔尔14条液化天然气生产线中有7条显现开工迹象，表明受战事干扰"
+      "time": "16:57",
+      "text": "SpaceXAI：Grok聊天机器人已处于测试阶段，今日起向订阅SuperGrok Heavy、Cursor Ultra与Cursor Teams Premium套餐的桌面端及iOS用户开放使用。"
     },
     {
-      "time": "15:55",
-      "text": "周二（8月11日）欧市尾盘，英国10年期国债收益率跌2.1个基点，报4.967%，北京时间16:16涨至5.050%刷新日高，最后逐步下挫、21:49刷新日低至4.939%。\n两年期英债收益率跌2.7个基点，报4.314%，日内交投区间为4"
-    },
-    {
-      "time": "08-11 12:31",
-      "text": "[AV] With Bank of America at Record Highs, Wall Street Is Bullish but Retail Is Wary"
-    },
-    {
-      "time": "08-11 03:08",
-      "text": "[AV] Indonesian Equities Fall Further Ahead of MSCI Review"
-    },
-    {
-      "time": "08-11 01:11",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-11 01:09",
-      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
-    },
-    {
-      "time": "08-11 00:52",
-      "text": "[AV] RXO, BrightView, SiteOne, ServiceNow, and Rocket Lab Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-11 00:09",
-      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "08-10 21:39",
-      "text": "[AV] Sprott: Gold and Silver Correction Cyclical, Long-Term Bull Market Intact | 2026 Outlook - News and Statistics"
-    },
-    {
-      "time": "08-10 20:39",
-      "text": "[AV] Price correction ‘improved the long-term risk-reward profile’ for both gold and silver – Sprott’s Smirnova"
-    },
-    {
-      "time": "08-10 19:15",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.05% on Aug 10: Key Drivers Unveiled"
-    },
-    {
-      "time": "08-10 19:15",
-      "text": "[AV] Altria Group Inc Stock (MO) Moved Down by 3.99% on Aug 10: What Signal Does It Send?"
+      "time": "16:57",
+      "text": "加拿大官员、美国官员考虑下周达成新版贸易协议（草案），希望最快下周一。（CBC）"
     },
     {
       "time": "08-05 20:05",
@@ -174,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4440.4,
-    "measuredMoveLow": 4361.1,
-    "measuredMoveHigh": 4400.75,
-    "sma20": 4450.19,
-    "currentPrice": 4440.4
+    "signalBarPrice": 4438.1,
+    "measuredMoveLow": 4358.8,
+    "measuredMoveHigh": 4398.45,
+    "sma20": 4449.8,
+    "currentPrice": 4438.1
   },
   "bars1h": [
-    {
-      "open": 4391.89990234375,
-      "high": 4406.0,
-      "low": 4389.7998046875,
-      "close": 4391.2998046875
-    },
     {
       "open": 4391.5,
       "high": 4400.0,
@@ -424,18 +382,18 @@
     },
     {
       "open": 4443.5,
-      "high": 4444.39990234375,
+      "high": 4445.2998046875,
       "low": 4438.2001953125,
-      "close": 4440.39990234375
+      "close": 4443.10009765625
+    },
+    {
+      "open": 4443.2998046875,
+      "high": 4445.7001953125,
+      "low": 4437.60009765625,
+      "close": 4438.10009765625
     }
   ],
   "bars4h": [
-    {
-      "open": 4132.2998046875,
-      "high": 4151.5,
-      "low": 4117.2001953125,
-      "close": 4144.2001953125
-    },
     {
       "open": 4144.39990234375,
       "high": 4163.7998046875,
@@ -608,7 +566,13 @@
       "open": 4450.7001953125,
       "high": 4463.2998046875,
       "low": 4428.2001953125,
-      "close": 4440.39990234375
+      "close": 4443.10009765625
+    },
+    {
+      "open": 4443.2998046875,
+      "high": 4445.7001953125,
+      "low": 4437.60009765625,
+      "close": 4438.10009765625
     }
   ],
   "calendar": null,
