@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-11T23:24:16.946828+00:00",
+  "fetchedAt": "2026-08-12T00:07:29.978936+00:00",
   "gold": {
-    "price": 4374.399902,
-    "updatedAt": "2026-08-11T23:23:37Z"
+    "price": 4370.700195,
+    "updatedAt": "2026-08-12T00:07:07Z"
   },
   "silver": {
-    "price": 64.952003,
-    "updatedAt": "2026-08-11T23:23:36Z"
+    "price": 64.901001,
+    "updatedAt": "2026-08-12T00:07:06Z"
   },
   "dxy": {
     "value": 99.81,
-    "changePct": 0.0
+    "changePct": -0.0
   },
   "vix": {
     "value": 15.28,
     "changePct": -1.16
   },
   "wti": {
-    "value": 83.53,
-    "changePct": 1.7
+    "value": 83.46,
+    "changePct": 1.62
   },
   "btc": {
-    "value": 63516.09,
-    "changePct": -0.62
+    "value": 63495.24,
+    "changePct": -0.65
   },
   "spx": {
     "value": 7728.2,
@@ -40,15 +40,51 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 24,
+    "dataPoints": 25,
     "minRequired": 10,
-    "dxy": -0.59,
-    "realRate": 0.236,
-    "vix": -0.687,
-    "btc": 0.087,
-    "spx": 0.822
+    "dxy": -0.603,
+    "realRate": 0.263,
+    "vix": -0.703,
+    "btc": 0.014,
+    "spx": 0.832
   },
   "news": [
+    {
+      "time": "00:00",
+      "text": "日经225指数开盘基本持平，韩国首尔综指高开1.5%。"
+    },
+    {
+      "time": "00:00",
+      "text": "中国即将发行或正在发行的国债和政策性金融债"
+    },
+    {
+      "time": "00:00",
+      "text": "中国即将发行或正在发行的地方政府债"
+    },
+    {
+      "time": "23:50",
+      "text": "日本7月货币存量M2同比 2.2%，前值 2.2%。"
+    },
+    {
+      "time": "23:50",
+      "text": "日本7月货币存量M3同比 1.4%，前值 1.5%。"
+    },
+    {
+      "time": "23:38",
+      "text": "国际金融协会（IIF）数据显示，7月外国投资者向新兴市场投资组合注入近190亿美元，结束了连续两个月的资金外流态势，这得益于股市资金外流速度大幅放缓。"
+    },
+    {
+      "time": "23:35",
+      "text": "中央气象台8月12日06时继续发布暴雨橙色预警：预计，8月12日08时至13日08时，河南、山东西部、湖北中北部、湖南北部、西部和南部、浙江北部和东部、上海、安徽中北部、河北东北部和中南部、北京、天津、山西东部以及广西东部、广东中部、内蒙古"
+    },
+    {
+      "time": "23:26",
+      "text": "近日，北交所2只新股信胜科技、双英集团均公告称，在IPO发行过程中，战略投资者的配售比例均为30%。这一安排，打破了北交所一段时间以来新股默认为10%的战配比例。分析称，这主要是基于当前市场情况的考虑，更多的战配比例有望助力新股表现，减少破"
+    },
+    {
+      "time": "23:25",
+      "text": "美股收跌，纳指跌0.6%，市场关注周三将公布的美国CPI数据；中东僵局再撑油价，WTI原油期货四连涨；金价从两个月高位回落。\n巴基斯坦称美伊就霍尔木兹海峡问题接近达成协议，但伊朗表示在诉求获得满足前将继续关闭海峡。\n周三美国CPI有“鸽派惊"
+    },
     {
       "time": "23:19",
       "text": "据香港《信报》援引港交所CEO陈翊庭的话报道称，截至8月初，香港首次公开募股(IPO)集资额已达410亿美元，料今年再创纪录。 今年IPO集资额已突破去年通过120家公司上市集资的395亿美元。"
@@ -56,6 +92,10 @@
     {
       "time": "23:09",
       "text": "8月以来，港股AI板块迎来一轮明显的估值重塑行情。随着多家AI大模型公司相继纳入港股通标的，南向资金配置中国AI核心资产的通道进一步打开。Wind数据显示，6月26日以来，恒生科技指数累计上涨9.50%。分析人士认为，港股通资金通道扩容、头"
+    },
+    {
+      "time": "23:03",
+      "text": "11日从中国有色金属工业协会获悉，近日，中铝国际长沙有色冶金设计研究院有限公司牵头完成的“锂云母高效提锂技术与装备研发及应用”项目，成功攻克了我国锂云母提锂长期面临的设备腐蚀、回转窑结圈、回收率低等重大技术难题，实现大规模工业化生产，标志着"
     },
     {
       "time": "22:59",
@@ -70,44 +110,44 @@
       "text": "近日，多家评级机构密集发布银行2026年跟踪评级报告。截至8月11日，已有重庆三峡银行、陕西秦农农商行、浙江富阳农商行等7家中小银行主体信用评级获上调，其中重庆三峡银行与陕西秦农农商行跻身AAA信用梯队。与此同时，湖北孝感农商行、山西长子农"
     },
     {
-      "time": "22:47",
-      "text": "国家能源局昨天（11日）发布的《中国氢能发展报告（2026）》显示，截至今年6月，我国以电解水制氢为主要路线的建成和在建可再生能源制氢年产能规模已超140万吨，氢能产业取得积极进展。当前，我国氢能基础设施稳步建设。截至6月，全国累计建成加氢"
+      "time": "08-11 21:10",
+      "text": "[AV] Nike, Lululemon, Deckers, and On Holding Have All Plunged. What's the Best Buy of the Four?"
     },
     {
-      "time": "22:42",
-      "text": "8月以来，公募基金发行市场热度不减。本周（8月10日至14日），49只基金进入发行期，被动指数型产品占比超四成，硬科技与红利策略成为主线。一方面是指数型产品聚焦细分赛道，另一方面是FOF产品显著升温。将时间轴拉长至今年年内，新基金成立数量创"
+      "time": "08-11 18:11",
+      "text": "[AV] Gold Producer Secures Massive Growth Into Late 2030s in Mali"
     },
     {
-      "time": "22:36",
-      "text": "“近期，投资者态度出现了明显转变，此前观望的资金开始主动咨询。”一位资深私募可转债策略基金经理表示。在刚刚过去的7月，当股票、量化指增等产品普遍回撤时，一批此前并不起眼的可转债策略产品却扛住了市场波动，部分产品甚至取得正收益。私募排排网数据"
+      "time": "08-11 15:10",
+      "text": "[AV] Zacks Industry Outlook Highlights WSFS Financial, Provident Financial Services and Southern Missouri Bancorp"
     },
     {
-      "time": "22:32",
-      "text": "公募基金正在寻找新的结构性机会，医药生物成为重点关注方向。最新测算数据显示，公募权益类基金整体仓位进一步升至94.34%，处于历史中位高水平。与此同时，公募资金调仓迹象逐步显现，食品饮料、非银金融、银行获得主动增持，电子等前期热门板块则被减"
+      "time": "08-11 14:40",
+      "text": "[AV] Zacks Industry Outlook Highlights Mitsubishi UFJ Financial, UBS and KB Financial"
     },
     {
-      "time": "22:30",
-      "text": "伊朗石油部长穆赫辛·帕克内贾德11日表示，伊朗正在修复因战事受损的天然气生产设施，按计划9月底前其日产能可回升9500万立方米。帕克内贾德称，伊朗4座遇袭受损的天然气处理设施重建工程正在迅速推进，重建承包商已经开工，预计将比计划日程提前完工"
+      "time": "08-11 14:37",
+      "text": "[AV] Canada's H&R REIT agrees to $4.81 billion breakup deal with GO Residential, Blackstone consortium"
     },
     {
-      "time": "22:30",
-      "text": "① 时间待定 国产大飞机C919首条国际航线开通；\n② 14:00 德国7月CPI终值；\n③ 港股盘后 腾讯控股发布业绩报告；\n④ 16:00 国际能源署（IEA）公布月度原油市场报告（OMR）；\n⑤ 美股盘前 Nebius  Group "
+      "time": "08-11 12:31",
+      "text": "[AV] With Bank of America at Record Highs, Wall Street Is Bullish but Retail Is Wary"
     },
     {
-      "time": "22:29",
-      "text": "在美国得克萨斯州对新数据中心项目下达暂停令后，该州的电力需求增速预计将大幅放缓。根据周二发布的政府数据，得州电力需求明年将增长5.6%。这一增速低于7月报告预测的14%年负荷增速，而后者本将是十年来最大的增幅。此次修正源于得州8月3日决定对"
+      "time": "08-11 10:10",
+      "text": "[AV] EM debt broadens its appeal"
     },
     {
-      "time": "22:24",
-      "text": "央行逆回购再现“零操作”。8月11日，央行未开展7天期逆回购操作，当日有465亿元逆回购到期，公开市场实现净回笼465亿元。8月11日，资金面总体平稳，债市则在前期连续走强后震荡回调。受访人士认为，此次逆回购“零操作”主要缘于月初流动性充裕"
+      "time": "08-11 03:08",
+      "text": "[AV] Indonesian Equities Fall Further Ahead of MSCI Review"
     },
     {
-      "time": "22:21",
-      "text": "二季度，保险资金整体呈现净增持态势，持仓数量净增加约1.83亿股。下半年以来，保险机构与理财公司都在积极调研上市公司，高度关注AI算力、光通信、医药、硬科技等板块。受访人士认为，出于提升长期投资回报考虑，两类资金下半年有望继续加大权益资产配"
+      "time": "08-11 01:11",
+      "text": "[AV] Tutor Perini, AAON, Onterris, Quest Resource, and Blink Charging Shares Skyrocket, What You Need To Know"
     },
     {
-      "time": "22:20",
-      "text": "央企控股上市公司股份无偿划转近期再添新案例。8月初，华电新能控股股东华电福瑞与母公司中国华电集团签署协议，将所持29%股份无偿划转至集团总部，华电新能产权层级由三级提升至二级。据统计，2026年已披露及正在推进的央企控股上市公司股权无偿划转"
+      "time": "08-11 01:09",
+      "text": "[AV] Quanex, Titan International, ESCO, Boise Cascade, and ChargePoint Stocks Trade Up and Down, What You Need To Know"
     },
     {
       "time": "08-05 20:05",
@@ -134,22 +174,18 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4424.8,
-    "measuredMoveLow": 4359.1,
-    "measuredMoveHigh": 4391.95,
-    "sma20": 4438.86,
-    "currentPrice": 4424.8
+    "signalBarPrice": 4427.8,
+    "measuredMoveLow": 4364.1,
+    "measuredMoveHigh": 4396.95,
+    "sma20": 4439.11,
+    "currentPrice": 4429.8
   },
   "bars1h": [
     {
@@ -388,9 +424,9 @@
     },
     {
       "open": 4428.7001953125,
-      "high": 4428.7001953125,
+      "high": 4433.0,
       "low": 4421.39990234375,
-      "close": 4424.7998046875
+      "close": 4429.7998046875
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4430.0,
       "high": 4437.7998046875,
       "low": 4421.39990234375,
-      "close": 4424.7998046875
+      "close": 4429.7998046875
     }
   ],
   "calendar": null,
