@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-12T16:04:15.000445+00:00",
+  "fetchedAt": "2026-08-12T17:12:42.742655+00:00",
   "gold": {
-    "price": 4422.600098,
-    "updatedAt": "2026-08-12T16:03:38Z"
+    "price": 4406.200195,
+    "updatedAt": "2026-08-12T17:12:09Z"
   },
   "silver": {
-    "price": 65.911003,
-    "updatedAt": "2026-08-12T16:03:38Z"
+    "price": 65.431,
+    "updatedAt": "2026-08-12T17:12:08Z"
   },
   "dxy": {
-    "value": 99.85,
-    "changePct": 0.03
+    "value": 99.93,
+    "changePct": 0.12
   },
   "vix": {
-    "value": 14.81,
-    "changePct": -3.08
+    "value": 14.67,
+    "changePct": -3.99
   },
   "wti": {
-    "value": 83.39,
-    "changePct": 0.23
+    "value": 82.9,
+    "changePct": -0.36
   },
   "btc": {
-    "value": 63356.56,
-    "changePct": -0.31
+    "value": 63434.05,
+    "changePct": -0.19
   },
   "spx": {
-    "value": 7744.39,
-    "changePct": 0.21
+    "value": 7751.36,
+    "changePct": 0.3
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,65 @@
   "correlations": {
     "dataPoints": 25,
     "minRequired": 10,
-    "dxy": -0.595,
+    "dxy": -0.59,
     "realRate": 0.265,
-    "vix": -0.713,
-    "btc": -0.013,
-    "spx": 0.831
+    "vix": -0.716,
+    "btc": -0.001,
+    "spx": 0.834
   },
   "news": [
+    {
+      "time": "17:04",
+      "text": "美国至8月12日10年期国债竞拍-得标利率 4.683%，前值4.58%。投标倍数 2.53，前值2.59。得标利率配置百分比 65.27%，前值40.29%。"
+    },
+    {
+      "time": "17:03",
+      "text": "上期所基本金属夜盘收盘涨跌不一，氧化铝涨1%。国际铜涨0.21%，沪铜涨0.04%，沪铝涨0.58%，沪锌跌0.08%，沪铅跌0.09%，沪镍跌0.50%，沪锡涨0.35%；氧化铝涨1.00%，铝合金涨0.42%，不锈钢跌0.07%。"
+    },
+    {
+      "time": "16:56",
+      "text": "SpaceX涨幅扩大至8%，总市值达1.9万亿美元，本月已累升逾32%。"
+    },
+    {
+      "time": "16:49",
+      "text": "俄罗斯考虑通过波罗的海港口和远东地区出口粮食。（彭博）"
+    },
+    {
+      "time": "16:39",
+      "text": "苹果公司聘请Nate Gatten担任新的政府事务负责人，任用这位长期在美国航空集团任职、与共和党关系密切的高管，负责这一对公司而言颇为微妙的职位。\n苹果高级副总裁兼总法律顾问Jennifer Newstead表示，Gatten将于8月31"
+    },
+    {
+      "time": "16:35",
+      "text": "美国国际贸易委员会对三星设备启动337条款调查。万胜（Maxell）指控三星侵犯移动设备相关专利。"
+    },
+    {
+      "time": "16:32",
+      "text": "当地时间12日，巴勒斯坦总统阿巴斯在安卡拉同土耳其总统埃尔多安举行正式会谈。双方就巴以局势最新进展、双边关系及共同关心的问题深入交换意见。（央视）"
+    },
+    {
+      "time": "16:29",
+      "text": "德国国债和英国国债回吐涨幅，由于围绕重新开放霍尔木兹海峡的谈判进展仍不明朗，油价收复早前跌幅。\n交易员基本无视符合市场预期的美国7月通胀数据，目前预计欧洲央行到年底加息39个基点， 英国央行到年底加息28个基点。\n布伦特原油价格下跌0.1%"
+    },
+    {
+      "time": "16:27",
+      "text": "当地时间8月12日，南苏丹卫生部长卢克·汤普森·托安在新闻发布会上表示，自2025年9月以来，南苏丹卫生部门已登记1721例霍乱疫情死亡病例和110574例确诊病例。此次霍乱疫情已遍布全国9个州55个县和3个行政区，是南苏丹迄今最大规模的霍"
+    },
+    {
+      "time": "16:23",
+      "text": "一艘超大型油轮停靠在沙特阿拉伯位于波斯湾的主要石油出口码头，这是近一个月来首次出现类似情况。随着针对沙特石油出口的威胁扩大至红海，沙特正努力维持原油运输。\n欧盟“哨兵-2号”（Sentinel 2）卫星周二拍摄的一张卫星图像显示，一艘能够装"
+    },
+    {
+      "time": "16:16",
+      "text": "谷歌：Pixel 11 Pro Fold今日开启预购，将于8月20日上市开售。"
+    },
+    {
+      "time": "16:11",
+      "text": "美国农业部：将阿根廷2025/2026年度大豆产量预期从之前的5000万吨下调至4950万吨；将巴西2025/2026年度大豆产量预期从之前的1.8亿吨上调至1.805亿吨。维持阿根廷2025/2026年度玉米产量预期在6300万吨不变；将"
+    },
+    {
+      "time": "16:08",
+      "text": "俄罗斯7月CPI环比上涨0.54%，预估增幅为0.68%。俄罗斯7月CPI同比上涨5.98%；预估增幅为6.10%。"
+    },
     {
       "time": "16:00",
       "text": "Jane Street发行146亿美元债券，这家做市巨头将把融资所得用于技术基础设施并拓展交易策略。知情人士称，Jane Street发行了2031年、2033年和2036年到期的高级担保票据，规模分别为58.6亿美元、51.3亿美元和36"
@@ -56,98 +108,6 @@
     {
       "time": "15:54",
       "text": "DeepSeek官网“API 文档”上的“模型 & 价格”页面中，模型版本新增了DeepSeek-V4-Pro-0813，其支持非思考与思考模式。\n不过，官方尚未发布 DeepSeek-V4-Pro-0813 的更新日志。"
-    },
-    {
-      "time": "15:43",
-      "text": "据一封电子邮件声明显示，渣打牵头的持牌稳定币发行机构Anchorpoint Financial宣布推出港元稳定币。港元稳定币HKDAP通过测试接入面向机构分销商和专业投资者推出。（彭博）"
-    },
-    {
-      "time": "15:42",
-      "text": "瑞士政府希望把银行高管奖金递延数年发放的要求写入法律，作为瑞信倒闭后加强金融监管的一揽子措施之一。瑞士政府周三公布的方案显示，这项措施将适用于包括瑞银集团在内的大型银行，可能要求将40%至60%的浮动薪酬递延发放，最长可达五年。瑞士财政部长"
-    },
-    {
-      "time": "15:38",
-      "text": "欧洲斯托克50指数收盘跌0.2%，德国DAX指数跌0.2%，英国富时100指数跌0.12%，法国CAC 40指数跌0.46%。"
-    },
-    {
-      "time": "15:30",
-      "text": "SpaceXAI宣布推出Grok 4.6，现已接入Cursor和Grok Build，也可通过API和OpenRouter、Vercel和Cloudflare调用，定价为每百万输入token 2美元和每百万输出token 6美元。"
-    },
-    {
-      "time": "15:22",
-      "text": "美国银行将以约19亿美元收购Jio金融子公司49.9%的股份。（彭博）"
-    },
-    {
-      "time": "15:06",
-      "text": "美国银行对冲基金客户以接近创纪录的金额买入美国股票后一周，投资水平又达到了2008年以来最高。该行Jill Carey Hall牵头的策略师在研报中写道，截至8月7日当周，客户连续第六周净买入美股，向ETF注入41亿美元，从个股撤资24亿美"
-    },
-    {
-      "time": "15:05",
-      "text": "据港交所文件，8月12日，苏州泽璟生物制药股份有限公司向港交所提交上市申请书，独家保荐人为中金公司。"
-    },
-    {
-      "time": "15:04",
-      "text": "特朗普因计划出售Truth Social帖文快速访问权限计划遭起诉。（彭博）"
-    },
-    {
-      "time": "14:54",
-      "text": "摩根资产管理首席全球策略师David Kelly表示，美联储应维持利率不变，并预计随着越来越多证据显示持续性的工资-物价螺旋不会形成，通胀将逐步回落。Kelly周三在美国7月消费者价格指数公布后表示：“他们绝对应该按兵不动，而且我其实认为他"
-    },
-    {
-      "time": "14:52",
-      "text": "8月9日—12日，农业农村部党组书记、部长张柱在重庆、四川调研强调。张柱强调，当前正值秋粮产量形成关键期，要把粮食生产摆在突出位置，高质量推进高标准农田建设，落实落细各项防灾减灾、稳产增产措施，为夺取全年粮食丰收作出更多川渝贡献。要持续推进"
-    },
-    {
-      "time": "14:45",
-      "text": "8月12日，国家防灾减灾救灾委员会办公室、应急管理部针对今年第13号台风“白海豚”残余环流带来的强降雨影响，根据河北、河南等地受灾群众安置救助需要，会同国家粮食和物资储备局调拨折叠床、褥子、毛毯、家庭应急包等2万件中央救灾物资，支持灾区做好"
-    },
-    {
-      "time": "14:44",
-      "text": "国务院国资委党委书记、主任程福波到中国电信集团有限公司调研企业科技创新、改革发展和党的建设等工作。程福波强调，要继续抓好新型基础设施建设，坚持适度超前、科学布局、协调发展，统筹推进信息通信网络、全国一体化算力网等建设和集约高效利用，持续推动"
-    },
-    {
-      "time": "14:43",
-      "text": "美国总统特朗普12日在社交媒体上发文宣称，“美国完全控制着霍尔木兹海峡……伊朗对此束手无策”。\n特朗普还写道：“我认为我们会继续控制它！”（新华社）"
-    },
-    {
-      "time": "08-12 14:29",
-      "text": "[AV] Citi's Hollenhorst Weighs Oil Against Domestic Economy"
-    },
-    {
-      "time": "08-12 12:38",
-      "text": "[AV] Nebius, CoreWeave, Lumentum, Quantinuum, Super Micro, and More Stocks That Explain Today’s Market"
-    },
-    {
-      "time": "08-12 12:09",
-      "text": "[AV] Asking the Right Questions - Raymond James - Commentaries"
-    },
-    {
-      "time": "08-12 10:40",
-      "text": "[AV] Nasdaq Futures Climb as CoreWeave and Super Micro Provide a Boost, U.S. Inflation Data in Focus"
-    },
-    {
-      "time": "08-11 21:41",
-      "text": "[AV] Consumer Discretionary Stocks With Hidden Value Before Retail Data Reshapes The Trade"
-    },
-    {
-      "time": "08-11 21:17",
-      "text": "[AV] Stock Market Today: Dow Futures Slip, S&P 500 Gains as Trump Says US Is 'Only Semi-Negotiating' With Iran—T. Rowe Price,"
-    },
-    {
-      "time": "08-11 21:10",
-      "text": "[AV] Nike, Lululemon, Deckers, and On Holding Have All Plunged. What's the Best Buy of the Four?"
-    },
-    {
-      "time": "08-11 19:41",
-      "text": "[AV] 3 Energy Stocks Tied To Oil Prices And Long Term Contracts"
-    },
-    {
-      "time": "08-11 18:43",
-      "text": "[AV] Amid Geopolitical, Supply Problems, Largest US Institutional Investors Reap 6.6% Return in Q2"
-    },
-    {
-      "time": "08-11 18:11",
-      "text": "[AV] Gold Producer Secures Massive Growth Into Late 2030s in Mali"
     },
     {
       "time": "08-05 20:05",
@@ -174,32 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4498.2,
-    "measuredMoveLow": 4516.35,
-    "measuredMoveHigh": 4557.7,
-    "sma20": 4460.41,
-    "currentPrice": 4475.0
+    "signalBarPrice": 4465.0,
+    "measuredMoveLow": 4505.65,
+    "measuredMoveHigh": 4546.3,
+    "sma20": 4464.14,
+    "currentPrice": 4465.0
   },
   "bars1h": [
-    {
-      "open": 4459.10009765625,
-      "high": 4462.39990234375,
-      "low": 4453.89990234375,
-      "close": 4462.10009765625
-    },
-    {
-      "open": 4462.2998046875,
-      "high": 4478.60009765625,
-      "low": 4456.0,
-      "close": 4468.5
-    },
     {
       "open": 4469.0,
       "high": 4493.7001953125,
@@ -426,16 +378,22 @@
       "open": 4481.2001953125,
       "high": 4489.5,
       "low": 4470.2001953125,
-      "close": 4475.0
+      "close": 4480.39990234375
+    },
+    {
+      "open": 4480.2001953125,
+      "high": 4486.2001953125,
+      "low": 4455.89990234375,
+      "close": 4461.7001953125
+    },
+    {
+      "open": 4461.7001953125,
+      "high": 4465.7001953125,
+      "low": 4460.10009765625,
+      "close": 4465.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4248.5,
-      "high": 4325.5,
-      "low": 4243.10009765625,
-      "close": 4293.0
-    },
     {
       "open": 4293.60009765625,
       "high": 4328.2001953125,
@@ -607,8 +565,14 @@
     {
       "open": 4497.7998046875,
       "high": 4502.7001953125,
-      "low": 4468.0,
-      "close": 4475.0
+      "low": 4455.89990234375,
+      "close": 4461.7001953125
+    },
+    {
+      "open": 4461.7001953125,
+      "high": 4465.7001953125,
+      "low": 4460.10009765625,
+      "close": 4465.0
     }
   ],
   "calendar": null,
