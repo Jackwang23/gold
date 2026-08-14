@@ -1,16 +1,16 @@
 {
-  "fetchedAt": "2026-08-14T20:56:11.124452+00:00",
+  "fetchedAt": "2026-08-14T21:28:25.577853+00:00",
   "gold": {
-    "price": 4377.100098,
-    "updatedAt": "2026-08-14T20:55:54Z"
+    "price": 4377.600098,
+    "updatedAt": "2026-08-14T21:27:54Z"
   },
   "silver": {
-    "price": 64.816002,
-    "updatedAt": "2026-08-14T20:55:54Z"
+    "price": 64.827003,
+    "updatedAt": "2026-08-14T21:27:54Z"
   },
   "dxy": {
-    "value": 99.65,
-    "changePct": -0.31
+    "value": 99.64,
+    "changePct": -0.32
   },
   "vix": {
     "value": 14.25,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 62833.62,
-    "changePct": -0.9
+    "value": 62843.87,
+    "changePct": -0.88
   },
   "spx": {
     "value": 7785.76,
@@ -45,10 +45,54 @@
     "dxy": -0.613,
     "realRate": 0.225,
     "vix": -0.762,
-    "btc": -0.15,
+    "btc": -0.149,
     "spx": 0.859
   },
   "news": [
+    {
+      "time": "21:26",
+      "text": "周五（8月7日）纽约尾盘，美国10年期基准国债收益率上行5.14个基点，报4.690%，北京时间20:30发布美国7月零售销售数据时从日低点4.628%快速拉升上行。\n两年期美债收益率升2.88个基点，报4.169%，本周累跌2.40个基点"
+    },
+    {
+      "time": "21:23",
+      "text": "据美国证券交易委员会文件显示： THIRD POINT LLC已出售其持有的全部英伟达股份。同时将其持有的亚马逊公司股份减持9.8%，减持后持股数为180万股。"
+    },
+    {
+      "time": "21:17",
+      "text": "Anthropic公司在IPO前夕，初步预测2026年第二季度营收将超过115亿美元。"
+    },
+    {
+      "time": "21:15",
+      "text": "周五（8月14日）纽约尾盘，国际贵金属期货收盘涨跌不一。\n现货黄金先跌后涨，日内涨幅0.6%，报4375.67美元/盎司，本周累计上涨0.81%。\nCOMEX黄金期货涨0.26%报4432.00美元/盎司，本周累计上涨0.73%。美国经济数"
+    },
+    {
+      "time": "21:13",
+      "text": "美国总统特朗普14日声称，“击败伊朗后”他很快就会“宣布霍尔木兹海峡为美国领土”。\n特朗普当天在纽约州长岛举行的活动上发表讲话时说，伊朗正遭受惨败，“在我们彻底击败伊朗后，很快我就会宣布霍尔木兹海峡为美国领土”。他说出这句话时轻笑了一下，并"
+    },
+    {
+      "time": "21:07",
+      "text": "惠誉：英国首相在工党内部地位“更具主导性”，更高的支持率将有助于本届议会剩余任期内实现更大的政治稳定。"
+    },
+    {
+      "time": "21:06",
+      "text": "惠誉：预计英国政府总体赤字将持续收窄，2028年降至GDP的4.2%。英国政府总体债务占GDP比重到2028年底将升至106%。"
+    },
+    {
+      "time": "21:05",
+      "text": "惠誉确认英国评级为“AA-”，展望稳定。预计今年因能源进口增加，经常项目赤字将温和扩大。"
+    },
+    {
+      "time": "21:02",
+      "text": "布伦特原油日内涨2%，现报88.89美元/桶。"
+    },
+    {
+      "time": "21:00",
+      "text": "巴西总统卢拉14日表示，巴西政府将在今年10月大选结束后，再决定是否认可美国总统特朗普提名的丹尼尔·佩雷斯作为美驻巴西大使人选。\n卢拉当天在接受媒体采访时批评美国政府试图干涉巴西内政。他说，美国在巴西举行总统选举前45天突然提出大使任命，而"
+    },
+    {
+      "time": "20:56",
+      "text": "哈佛大学披露持有SpaceX价值22亿美元的股权。"
+    },
     {
       "time": "20:55",
       "text": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每股95美元的价格购买了105,263股英特尔股票。"
@@ -64,90 +108,6 @@
     {
       "time": "20:31",
       "text": "美国证券交易委员会文件显示，英伟达持有SpaceX1.228亿股A类普通股，估值约为210亿美元。"
-    },
-    {
-      "time": "20:25",
-      "text": "特朗普表示，每周从委内瑞拉获取数百万桶石油。\n伊朗仍拥有导弹和无人机，但数量并不多。伊朗已无防御力量。伊朗货币毫无价值。\n我们在伊朗问题上取得了重大胜利。"
-    },
-    {
-      "time": "20:22",
-      "text": "白宫官员称美伊局势暂无变化，尚未有关于美伊停火协议延长的消息 。"
-    },
-    {
-      "time": "20:16",
-      "text": "美国SEC文件显示，伯克希尔哈撒韦公司在第二季度对Alphabet(GOOG.O)A类股持仓增加45.2%，至7880万股；C类股持仓增至2720万股。\n还增持了达美航空（DAL）、莱纳房屋（LEN）、梅西百货（M）。\n清仓了星座品牌（ST"
-    },
-    {
-      "time": "20:05",
-      "text": "美股周五收盘，道指收跌0.20%，标普500指数跌0.17%，纳指跌0.28%。\n无人机技术公司Unusual Machines(UMAC.N)大涨24.83%。\n存储概念股维持涨势，闪迪涨7.39%、美光涨2.3%。半导体股票涨跌互现，A"
-    },
-    {
-      "time": "19:58",
-      "text": "根据印度核能法案下的拟议规则和法规，企业在获得正式许可证之前，可先获得原则性批准，以开展供应商谈判、前期开发工作并取得项目用地。\n获得许可证后，核电项目将接受涵盖设计、选址、建设、调试和运营等环节的分阶段监管审查。监管机构还将拥有在项目关键"
-    },
-    {
-      "time": "19:55",
-      "text": "美国总统特朗普表示，我很快将宣布霍尔木兹海峡为美国领土。美国对伊朗的封锁“势不可挡”，是一道“钢铁之墙”。\n特朗普称，美国已经做好应对伊朗的充分准备，不会允许伊朗继续所作所为，也不会允许伊朗拥有核武器。"
-    },
-    {
-      "time": "19:53",
-      "text": "派拉蒙与华纳兄弟探索合并协议项下所有监管条件均已满足。"
-    },
-    {
-      "time": "19:51",
-      "text": "Stripe与Advent洽谈收购PayPal。"
-    },
-    {
-      "time": "19:38",
-      "text": "甲骨文：AI数据中心园区项目朱庇特计划仍按计划推进，我们将继续与合作伙伴密切合作，推动该项目向前发展。甲骨文跌幅收窄，现跌3.5%，此前一度跌4.7%。"
-    },
-    {
-      "time": "19:38",
-      "text": "美国商品期货交易委员会（CFTC）数据显示，截至8月11日当周，投机者继续增持原油和黄金净多头头寸。其中，WTI原油投机净多头增加4034份合约，至105860份；COMEX黄金净多头增加9470份，至141868份；COMEX铜净多头增加"
-    },
-    {
-      "time": "19:34",
-      "text": "美国芯片制造商超威半导体，也就是AMD，当地时间13日发行债券，将筹集资金47.5亿美元。创下公司最高规模发债纪录。预计债券于8月17日完成交割。\nAMD13日在官网公布的文件显示，此次发行的债券分为四档，期限分别为3年、5年、7年和10年"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
-      "time": "08-14 11:40",
-      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
-    },
-    {
-      "time": "08-14 10:08",
-      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
-    },
-    {
-      "time": "08-14 01:10",
-      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
-    },
-    {
-      "time": "08-13 23:10",
-      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
-    },
-    {
-      "time": "08-13 16:12",
-      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-13 15:39",
-      "text": "[AV] America builds what it needs: Citigroup CEO Jane Fraser"
-    },
-    {
-      "time": "08-13 14:40",
-      "text": "[AV] A Fantastic Fundamental Foundation for This REIT ETF"
-    },
-    {
-      "time": "08-13 13:11",
-      "text": "[AV] PIMCO Corporate & Income Opportunity Fund yields 12.03% with stable monthly payouts amid market volatility."
-    },
-    {
-      "time": "08-13 13:10",
-      "text": "[AV] Perspective: Morning Commentary for August 13"
     },
     {
       "time": "08-05 20:05",
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -182,18 +146,12 @@
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4435.5,
-    "measuredMoveLow": 4476.05,
-    "measuredMoveHigh": 4520.6,
-    "sma20": 4413.43,
-    "currentPrice": 4431.5
+    "measuredMoveLow": 4476.55,
+    "measuredMoveHigh": 4521.1,
+    "sma20": 4416.37,
+    "currentPrice": 4432.0
   },
   "bars1h": [
-    {
-      "open": 4458.7001953125,
-      "high": 4458.7001953125,
-      "low": 4449.39990234375,
-      "close": 4455.5
-    },
     {
       "open": 4455.2001953125,
       "high": 4465.2001953125,
@@ -426,16 +384,16 @@
       "open": 4431.39990234375,
       "high": 4432.39990234375,
       "low": 4426.89990234375,
-      "close": 4431.5
+      "close": 4432.10009765625
+    },
+    {
+      "open": 4432.0,
+      "high": 4432.0,
+      "low": 4432.0,
+      "close": 4432.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4400.39990234375,
-      "high": 4410.60009765625,
-      "low": 4387.39990234375,
-      "close": 4403.10009765625
-    },
     {
       "open": 4403.0,
       "high": 4408.0,
@@ -608,7 +566,13 @@
       "open": 4443.0,
       "high": 4443.39990234375,
       "low": 4426.89990234375,
-      "close": 4431.5
+      "close": 4432.10009765625
+    },
+    {
+      "open": 4432.0,
+      "high": 4432.0,
+      "low": 4432.0,
+      "close": 4432.0
     }
   ],
   "calendar": null,
