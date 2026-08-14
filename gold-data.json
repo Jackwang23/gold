@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-14T19:37:46.517539+00:00",
+  "fetchedAt": "2026-08-14T20:15:27.818251+00:00",
   "gold": {
-    "price": 4378.299805,
-    "updatedAt": "2026-08-14T19:37:24Z"
+    "price": 4373.5,
+    "updatedAt": "2026-08-14T20:14:54Z"
   },
   "silver": {
-    "price": 64.898003,
-    "updatedAt": "2026-08-14T19:37:24Z"
+    "price": 64.794998,
+    "updatedAt": "2026-08-14T20:14:54Z"
   },
   "dxy": {
-    "value": 99.64,
-    "changePct": -0.32
+    "value": 99.65,
+    "changePct": -0.31
   },
   "vix": {
-    "value": 14.37,
-    "changePct": -1.78
+    "value": 14.26,
+    "changePct": -2.53
   },
   "wti": {
-    "value": 82.31,
-    "changePct": 1.3
+    "value": 82.37,
+    "changePct": 1.38
   },
   "btc": {
-    "value": 62869.92,
-    "changePct": -0.84
+    "value": 62894.2,
+    "changePct": -0.8
   },
   "spx": {
-    "value": 7782.59,
-    "changePct": -0.21
+    "value": 7785.76,
+    "changePct": -0.17
   },
   "fred": {
     "10y_treasury": {
@@ -45,10 +45,38 @@
     "dxy": -0.613,
     "realRate": 0.277,
     "vix": -0.761,
-    "btc": -0.148,
+    "btc": -0.146,
     "spx": 0.859
   },
   "news": [
+    {
+      "time": "20:05",
+      "text": "美股周五收盘，道指收跌0.20%，标普500指数跌0.17%，纳指跌0.28%。\n无人机技术公司Unusual Machines(UMAC.N)大涨24.83%。\n存储概念股维持涨势，闪迪涨7.39%、美光涨2.3%。半导体股票涨跌互现，A"
+    },
+    {
+      "time": "19:58",
+      "text": "根据印度核能法案下的拟议规则和法规，企业在获得正式许可证之前，可先获得原则性批准，以开展供应商谈判、前期开发工作并取得项目用地。\n获得许可证后，核电项目将接受涵盖设计、选址、建设、调试和运营等环节的分阶段监管审查。监管机构还将拥有在项目关键"
+    },
+    {
+      "time": "19:55",
+      "text": "美国总统特朗普表示，我很快将宣布霍尔木兹海峡为美国领土。美国对伊朗的封锁“势不可挡”，是一道“钢铁之墙”。\n特朗普称，美国已经做好应对伊朗的充分准备，不会允许伊朗继续所作所为，也不会允许伊朗拥有核武器。"
+    },
+    {
+      "time": "19:53",
+      "text": "派拉蒙与华纳兄弟探索合并协议项下所有监管条件均已满足。"
+    },
+    {
+      "time": "19:51",
+      "text": "Stripe与Advent洽谈收购PayPal。"
+    },
+    {
+      "time": "19:38",
+      "text": "甲骨文：AI数据中心园区项目朱庇特计划仍按计划推进，我们将继续与合作伙伴密切合作，推动该项目向前发展。甲骨文跌幅收窄，现跌3.5%，此前一度跌4.7%。"
+    },
+    {
+      "time": "19:38",
+      "text": "美国商品期货交易委员会（CFTC）数据显示，截至8月11日当周，投机者继续增持原油和黄金净多头头寸。其中，WTI原油投机净多头增加4034份合约，至105860份；COMEX黄金净多头增加9470份，至141868份；COMEX铜净多头增加"
+    },
     {
       "time": "19:34",
       "text": "美国芯片制造商超威半导体，也就是AMD，当地时间13日发行债券，将筹集资金47.5亿美元。创下公司最高规模发债纪录。预计债券于8月17日完成交割。\nAMD13日在官网公布的文件显示，此次发行的债券分为四档，期限分别为3年、5年、7年和10年"
@@ -82,32 +110,44 @@
       "text": "恒生指数主连夜盘收涨0.61%。\n恒生科技指数主连夜盘收涨0.81%。"
     },
     {
-      "time": "19:00",
-      "text": "据悉，特朗普预计将出席白宫举行的预测市场会议，Coinbase、a16z、Kalshi等公司将参与。\n此次会议正值美国预测市场快速扩张之际，相关平台近期面临监管和消费者保护方面的关注。"
+      "time": "08-14 15:14",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
     },
     {
-      "time": "18:43",
-      "text": "摩根大通终止与Polymarket的银行合作关系。"
+      "time": "08-14 11:40",
+      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
     },
     {
-      "time": "18:35",
-      "text": "上期所原油期货主力合约夜盘收涨2.60%，报569.30元人民币/桶。\n沪银2609合约夜盘收涨0.68%，报15820元/千克。\n沪金2609合约夜盘收涨0.63%，报949.66元/克。"
+      "time": "08-14 10:08",
+      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
     },
     {
-      "time": "18:20",
-      "text": "用于甲骨文数据中心的天然气管道项目已被推迟至2027年2月。"
+      "time": "08-14 01:10",
+      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
     },
     {
-      "time": "18:20",
-      "text": "白宫新闻秘书莱维特表示，美国还有更多施压伊朗的手段。美国可以继续惩罚伊朗并削弱其经济。"
+      "time": "08-13 23:10",
+      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
     },
     {
-      "time": "18:19",
-      "text": "Tiger Global披露二季度13F持仓：\n减持Alphabet、博通、Spotify、Meta等；同时新建AMD、希捷、Visa、丹纳赫等仓位。\n增持Intuit、Corpay、Reddit、MercadoLibre等；退出AppLo"
+      "time": "08-13 16:12",
+      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
     },
     {
-      "time": "18:04",
-      "text": "智利国有铜业公司Codelco将关闭Chuquicamata和Ministro Hales矿区。"
+      "time": "08-13 15:39",
+      "text": "[AV] America builds what it needs: Citigroup CEO Jane Fraser"
+    },
+    {
+      "time": "08-13 14:40",
+      "text": "[AV] A Fantastic Fundamental Foundation for This REIT ETF"
+    },
+    {
+      "time": "08-13 13:11",
+      "text": "[AV] PIMCO Corporate & Income Opportunity Fund yields 12.03% with stable monthly payouts amid market volatility."
+    },
+    {
+      "time": "08-13 13:10",
+      "text": "[AV] Perspective: Morning Commentary for August 13"
     },
     {
       "time": "08-05 20:05",
@@ -134,30 +174,20 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 1,
-    "isTrendStructure": true,
+    "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4435.5,
-    "measuredMoveLow": 4477.65,
-    "measuredMoveHigh": 4522.2,
-    "sma20": 4411.75,
-    "currentPrice": 4433.1
+    "measuredMoveLow": 4473.55,
+    "measuredMoveHigh": 4518.1,
+    "sma20": 4413.3,
+    "currentPrice": 4429.0
   },
   "bars1h": [
-    {
-      "open": 4465.7998046875,
-      "high": 4470.7001953125,
-      "low": 4458.0,
-      "close": 4458.2998046875
-    },
     {
       "open": 4458.7001953125,
       "high": 4458.7001953125,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4430.2998046875,
-      "high": 4434.2998046875,
+      "high": 4435.60009765625,
       "low": 4428.60009765625,
-      "close": 4433.10009765625
+      "close": 4431.5
+    },
+    {
+      "open": 4431.39990234375,
+      "high": 4431.5,
+      "low": 4428.2001953125,
+      "close": 4429.0
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4443.0,
       "high": 4443.39990234375,
       "low": 4427.5,
-      "close": 4433.10009765625
+      "close": 4429.0
     }
   ],
   "calendar": null,
