@@ -1,29 +1,32 @@
 {
-  "fetchedAt": "2026-08-14T15:34:07.541391+00:00",
-  "gold": null,
+  "fetchedAt": "2026-08-14T16:32:55.255218+00:00",
+  "gold": {
+    "price": 4386.200195,
+    "updatedAt": "2026-08-14T16:32:24Z"
+  },
   "silver": {
-    "price": 65.141998,
-    "updatedAt": "2026-08-14T15:33:53Z"
+    "price": 64.988998,
+    "updatedAt": "2026-08-14T16:32:23Z"
   },
   "dxy": {
     "value": 99.56,
-    "changePct": -0.4
+    "changePct": -0.41
   },
   "vix": {
-    "value": 14.49,
-    "changePct": -0.96
+    "value": 14.47,
+    "changePct": -1.09
   },
   "wti": {
-    "value": 81.6,
-    "changePct": 0.43
+    "value": 81.8,
+    "changePct": 0.68
   },
   "btc": {
-    "value": 62780.15,
-    "changePct": -0.98
+    "value": 63074.8,
+    "changePct": -0.52
   },
   "spx": {
-    "value": 7782.63,
-    "changePct": -0.21
+    "value": 7785.3,
+    "changePct": -0.18
   },
   "fred": {
     "10y_treasury": {
@@ -39,13 +42,41 @@
   "correlations": {
     "dataPoints": 27,
     "minRequired": 10,
-    "dxy": -0.619,
+    "dxy": -0.617,
     "realRate": 0.277,
-    "vix": -0.758,
-    "btc": -0.16,
-    "spx": 0.86
+    "vix": -0.76,
+    "btc": -0.14,
+    "spx": 0.859
   },
   "news": [
+    {
+      "time": "16:32",
+      "text": "美国证券交易委员会（SEC）文件显示，软银集团将其在台积电(TSM.N)的股份减少71.5%，降至56.5万份存托凭证。"
+    },
+    {
+      "time": "16:25",
+      "text": "当地时间8月14日，路易吉·曼吉奥内就枪杀联合健康保险首席执行官布赖恩·汤普森（Brian Thompson）一案正式认罪。联邦法官将路易吉·曼吉奥内的量刑日期定于12月18日。\n路易吉·曼吉奥内当天在法庭上表示，他就其联邦刑事案件认罪，承"
+    },
+    {
+      "time": "16:10",
+      "text": "受利物浦出售消息影响，曼联股价上涨3.4%。"
+    },
+    {
+      "time": "16:00",
+      "text": "利物浦足球俱乐部向包括贝索斯在内的财团出售约30%股份。（彭博）"
+    },
+    {
+      "time": "15:53",
+      "text": "中创新航发布2026年中期业绩预告。公告显示，上半年公司预计实现净利润约人民币15.06亿元至15.81亿元，较去年同期（同比）上升约100%至110%。去年同期，中创新航净利润约为人民币7.53亿元。公告称，公司利润同比上升，主要得益于新"
+    },
+    {
+      "time": "15:46",
+      "text": "被控枪杀美国联合健康保险公司首席执行官的路易吉·曼吉奥内今天（8月14日）在法庭上表示，他就其联邦刑事案件认罪。这一认罪协议将避免这起备受瞩目的案件进入联邦审判阶段。此外，认罪还可能使曼吉奥内得以寻求撤销纽约州的谋杀指控，并推迟即将到来的州"
+    },
+    {
+      "time": "15:42",
+      "text": "欧洲斯托克50指数收盘跌0.1%，德国DAX指数涨0.5%，英国富时100指数跌0.3%，法国CAC 40指数跌0.2%。"
+    },
     {
       "time": "15:33",
       "text": "菲利普斯66与马拉松石油合并谈判破裂。（Semafor）"
@@ -79,32 +110,44 @@
       "text": "正值暑期，受商场展演、文旅活动以及家庭陪伴需求增长的带动，机器人租赁市场迎来旺季。记者在采访中了解到，部分热门机器人，目前一个月要“接单”20多场表演。公司负责人表示，今年公司机器人租赁订单同比增加了30%，品类也从原来单一的表演性机器人，"
     },
     {
-      "time": "14:52",
-      "text": "OpenAI首席财务官Friar将于今日举行投资者会议。（CNBC）"
+      "time": "08-14 15:14",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
     },
     {
-      "time": "14:42",
-      "text": "贵州茅台发布2026年半年度报告。截至二季度末，中央汇金、证金公司均退出贵州茅台十大股东名单。对比一季度末，中央汇金和证金公司分别持有贵州茅台0.83%和0.32%股份，为公司的第五和第十大股东。"
+      "time": "08-14 11:40",
+      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
     },
     {
-      "time": "14:25",
-      "text": "今年以来，多地公积金使用门槛大幅降低，使用范围不断扩大。广州推出的公积金新政，全面上调住房公积金贷款额度，精准支持育儿家庭，多种上浮条件还可以叠加比例计算。例如新婚家庭生育一个孩子，可享受公积金贷款额度10%的上浮；二孩、三孩及以上家庭上浮"
+      "time": "08-14 10:08",
+      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
     },
     {
-      "time": "14:20",
-      "text": "博通股价下跌5%，领跌标普500指数。"
+      "time": "08-14 01:10",
+      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
     },
     {
-      "time": "14:16",
-      "text": "美国参议员伊丽莎白·沃伦要求财政部长斯科特·贝森特解释特朗普政府干预日元的依据，延续了这位资深民主党人对特朗普政府外汇政策进行审查的一贯做法。沃伦在一封日期为8月13日的信中写道，“迄今为止，政府仍未就此次干预提供详细依据，也没有正式披露动"
+      "time": "08-13 23:10",
+      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
     },
     {
-      "time": "14:15",
-      "text": "记者14日获悉，美国总统特朗普当天请求美国最高法院允许其继续推进白宫宴会厅项目。特朗普本月7日在社交平台“真实社交”发文称，将立即就联邦上诉法院阻止白宫宴会厅项目的裁决向美国最高法院提出上诉，并称该裁决“出于政治动机且违法”。当天早些时候，"
+      "time": "08-13 16:12",
+      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
     },
     {
-      "time": "14:07",
-      "text": "从多个信源处获悉，理想汽车正在探索自研云端推理芯片，将采用与智驾芯片相同的数据流架构，项目还在早期阶段。\nAI数据中心普遍使用GPU完成模型训练和推理，也有数据中心部署云端推理芯片。一位芯片行业人士说，云端推理芯片可以承接部分原本在GPU上"
+      "time": "08-13 15:39",
+      "text": "[AV] America builds what it needs: Citigroup CEO Jane Fraser"
+    },
+    {
+      "time": "08-13 14:40",
+      "text": "[AV] A Fantastic Fundamental Foundation for This REIT ETF"
+    },
+    {
+      "time": "08-13 13:11",
+      "text": "[AV] PIMCO Corporate & Income Opportunity Fund yields 12.03% with stable monthly payouts amid market volatility."
+    },
+    {
+      "time": "08-13 13:10",
+      "text": "[AV] Perspective: Morning Commentary for August 13"
     },
     {
       "time": "08-05 20:05",
@@ -131,30 +174,20 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4425.8,
-    "measuredMoveLow": 4487.15,
-    "measuredMoveHigh": 4531.7,
-    "sma20": 4406.12,
-    "currentPrice": 4442.6
+    "signalBarPrice": 4449.0,
+    "measuredMoveLow": 4493.15,
+    "measuredMoveHigh": 4537.7,
+    "sma20": 4408.56,
+    "currentPrice": 4448.6
   },
   "bars1h": [
-    {
-      "open": 4460.10009765625,
-      "high": 4473.2001953125,
-      "low": 4459.89990234375,
-      "close": 4473.10009765625
-    },
     {
       "open": 4473.2001953125,
       "high": 4509.10009765625,
@@ -385,9 +418,15 @@
     },
     {
       "open": 4438.7001953125,
-      "high": 4451.7001953125,
-      "low": 4438.2998046875,
-      "close": 4442.60009765625
+      "high": 4452.2998046875,
+      "low": 4436.39990234375,
+      "close": 4449.0
+    },
+    {
+      "open": 4449.0,
+      "high": 4454.2998046875,
+      "low": 4446.0,
+      "close": 4448.60009765625
     }
   ],
   "bars4h": [
@@ -569,7 +608,7 @@
       "open": 4430.7001953125,
       "high": 4454.60009765625,
       "low": 4427.2998046875,
-      "close": 4442.60009765625
+      "close": 4448.60009765625
     }
   ],
   "calendar": null,
