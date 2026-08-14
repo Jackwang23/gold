@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-14T16:32:55.255218+00:00",
+  "fetchedAt": "2026-08-14T17:38:53.971323+00:00",
   "gold": {
-    "price": 4386.200195,
-    "updatedAt": "2026-08-14T16:32:24Z"
+    "price": 4381.399902,
+    "updatedAt": "2026-08-14T17:38:24Z"
   },
   "silver": {
-    "price": 64.988998,
-    "updatedAt": "2026-08-14T16:32:23Z"
+    "price": 65.002998,
+    "updatedAt": "2026-08-14T17:38:23Z"
   },
   "dxy": {
-    "value": 99.56,
-    "changePct": -0.41
+    "value": 99.68,
+    "changePct": -0.28
   },
   "vix": {
-    "value": 14.47,
-    "changePct": -1.09
+    "value": 14.38,
+    "changePct": -1.71
   },
   "wti": {
-    "value": 81.8,
-    "changePct": 0.68
+    "value": 82.13,
+    "changePct": 1.08
   },
   "btc": {
-    "value": 63074.8,
+    "value": 63071.45,
     "changePct": -0.52
   },
   "spx": {
-    "value": 7785.3,
-    "changePct": -0.18
+    "value": 7776.43,
+    "changePct": -0.29
   },
   "fred": {
     "10y_treasury": {
@@ -42,112 +42,72 @@
   "correlations": {
     "dataPoints": 27,
     "minRequired": 10,
-    "dxy": -0.617,
+    "dxy": -0.612,
     "realRate": 0.277,
-    "vix": -0.76,
-    "btc": -0.14,
-    "spx": 0.859
+    "vix": -0.761,
+    "btc": -0.139,
+    "spx": 0.858
   },
   "news": [
     {
-      "time": "16:32",
-      "text": "美国证券交易委员会（SEC）文件显示，软银集团将其在台积电(TSM.N)的股份减少71.5%，降至56.5万份存托凭证。"
+      "time": "17:19",
+      "text": "也门胡塞武装据悉使用无人机袭击了沙特阿美公司在纳季兰的设施。"
     },
     {
-      "time": "16:25",
-      "text": "当地时间8月14日，路易吉·曼吉奥内就枪杀联合健康保险首席执行官布赖恩·汤普森（Brian Thompson）一案正式认罪。联邦法官将路易吉·曼吉奥内的量刑日期定于12月18日。\n路易吉·曼吉奥内当天在法庭上表示，他就其联邦刑事案件认罪，承"
+      "time": "17:18",
+      "text": "特朗普在安德鲁斯联合基地（JBA）接受记者采访时表示，美国经济表现“难以置信地好”，并盛赞近期股市表现。此外，特朗普在谈及“亚伯拉罕·林肯”号航母时表示，“那艘船正在航行”。"
     },
     {
-      "time": "16:10",
-      "text": "受利物浦出售消息影响，曼联股价上涨3.4%。"
+      "time": "17:15",
+      "text": "当地时间8月14日，德国莱茵河中游考布河段水位降至约8厘米，创下历史新低，此前最低纪录为2018年10月的25厘米。\n考布河段位于莱茵兰‑普法尔茨州科布伦茨与美因茨之间，是衡量莱茵河航运状况的重要参考点。德国内河航运协会警告，如果考布水位降"
     },
     {
-      "time": "16:00",
-      "text": "利物浦足球俱乐部向包括贝索斯在内的财团出售约30%股份。（彭博）"
+      "time": "17:06",
+      "text": "国际铜夜盘收涨0.47%，沪铜收涨0.49%，沪铝收涨0.08%，沪锌收涨0.41%，沪铅收跌0.22%，沪镍收涨0.07%，沪锡收涨0.36%。\n氧化铝夜盘收跌0.19%，铝合金收涨0.24%。\n不锈钢夜盘收跌0.49%。"
     },
     {
-      "time": "15:53",
-      "text": "中创新航发布2026年中期业绩预告。公告显示，上半年公司预计实现净利润约人民币15.06亿元至15.81亿元，较去年同期（同比）上升约100%至110%。去年同期，中创新航净利润约为人民币7.53亿元。公告称，公司利润同比上升，主要得益于新"
+      "time": "17:04",
+      "text": "贝克休斯：美国能源公司在三周内第二次增加钻井平台。美国油气钻井平台数量上升至2025年3月以来的最高水平。"
     },
     {
-      "time": "15:46",
-      "text": "被控枪杀美国联合健康保险公司首席执行官的路易吉·曼吉奥内今天（8月14日）在法庭上表示，他就其联邦刑事案件认罪。这一认罪协议将避免这起备受瞩目的案件进入联邦审判阶段。此外，认罪还可能使曼吉奥内得以寻求撤销纽约州的谋杀指控，并推迟即将到来的州"
+      "time": "17:02",
+      "text": "法国与德国国债利差扩大至10月份以来最阔。\n法国与德国10年期国债利差扩大3个基点，至84个基点；意大利与德国10年期国债利差扩大2个基点，至78个基点。\n法国30年期国债收益率升至2008年以来最高水平，而同期限德国国债收益率则跳升9个基"
     },
     {
-      "time": "15:42",
-      "text": "欧洲斯托克50指数收盘跌0.1%，德国DAX指数涨0.5%，英国富时100指数跌0.3%，法国CAC 40指数跌0.2%。"
+      "time": "17:01",
+      "text": "美国8月14日当周石油钻井数 455，前值 454。"
     },
     {
-      "time": "15:33",
-      "text": "菲利普斯66与马拉松石油合并谈判破裂。（Semafor）"
+      "time": "17:01",
+      "text": "美国8月14日当周天然气钻井数 128，前值 124。"
     },
     {
-      "time": "15:32",
-      "text": "法国10年期国债收益率上升10个基点至4.04%，创2009年以来新高。"
+      "time": "17:01",
+      "text": "美国8月14日当周总钻井数 593，前值 588。"
     },
     {
-      "time": "15:20",
-      "text": "德国30年期国债收益率上升8个基点至3.72%，创2011年以来新高。"
+      "time": "17:00",
+      "text": "美国司法部与商品期货交易委员会正在对铁矿石交易商Radiant World的交易活动展开调查。"
     },
     {
-      "time": "15:16",
-      "text": "8月14日晚，阿里千问正式开源Qwen3.8系列模型，所有开发者、科研机构和企业均可自由下载、部署和使用。全新开源的Qwen3.8-27B，系原生多模态稠密（Dense）模型，仅270亿参数规模，整体水平便超越了Qwen3.7-Plus，在"
+      "time": "16:58",
+      "text": "LME期铜收涨12美元，报14160美元/吨。\nLME期铝收跌6美元，报3252美元/吨。\nLME期锌收涨5美元，报3756美元/吨。\nLME期铅收涨8美元，报1895美元/吨。\nLME期镍收涨39美元，报16815美元/吨。\nLME期锡收"
     },
     {
-      "time": "15:11",
-      "text": "沙特公共投资基金（PIF）向美国证券交易委员会（SEC）提交的13F文件显示，截至二季度末，PIF持有多家美国上市公司股票。其中，SpaceX持仓市值约263.4亿美元，成为披露名单中规模最大的持仓之一。"
+      "time": "16:49",
+      "text": "美国据称更倾向于对古巴施加经济压力，而不是动用军事手段。（彭博）"
     },
     {
-      "time": "15:05",
-      "text": "SK集团会长崔泰源就9440亿韩元离婚判决提起上诉。（韩联社）"
+      "time": "16:47",
+      "text": "美联储表示下一操作期内不会出于准备金管理目的买入美国国库券后，华尔街策略师正在调整对其未来月度国库券购买规模的预期。\n美联储这一决定意味着，自准备金管理购买(RMP)计划于2025年12月启动以来，首次暂停此类购买，暂停期为截至9月14日的"
     },
     {
-      "time": "15:01",
-      "text": "国内商品期货夜盘收盘，合成橡胶、对二甲苯、乙二醇、PTA、低硫燃油、纯苯、苯乙烯涨超2%，焦炭、瓶片、豆一涨超1%。胶版纸、铁矿石小幅下跌。"
+      "time": "16:43",
+      "text": "CAPRICORN INVESTMENT持有SpaceX 1.208亿股股份， 价值206.4亿美元。"
     },
     {
-      "time": "14:54",
-      "text": "正值暑期，受商场展演、文旅活动以及家庭陪伴需求增长的带动，机器人租赁市场迎来旺季。记者在采访中了解到，部分热门机器人，目前一个月要“接单”20多场表演。公司负责人表示，今年公司机器人租赁订单同比增加了30%，品类也从原来单一的表演性机器人，"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
-      "time": "08-14 11:40",
-      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
-    },
-    {
-      "time": "08-14 10:08",
-      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
-    },
-    {
-      "time": "08-14 01:10",
-      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
-    },
-    {
-      "time": "08-13 23:10",
-      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
-    },
-    {
-      "time": "08-13 16:12",
-      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-13 15:39",
-      "text": "[AV] America builds what it needs: Citigroup CEO Jane Fraser"
-    },
-    {
-      "time": "08-13 14:40",
-      "text": "[AV] A Fantastic Fundamental Foundation for This REIT ETF"
-    },
-    {
-      "time": "08-13 13:11",
-      "text": "[AV] PIMCO Corporate & Income Opportunity Fund yields 12.03% with stable monthly payouts amid market volatility."
-    },
-    {
-      "time": "08-13 13:10",
-      "text": "[AV] Perspective: Morning Commentary for August 13"
+      "time": "16:40",
+      "text": "美联储古尔斯比表示，支持7月维持利率不变的决定。他指出，近期两次生产率数据表现不理想，若生产率继续走低，美联储可能需要重新审视市场对人工智能（AI）的预期。\n古尔斯比表示，最新CPI数据令人鼓舞，但仍需观察更多数据才能作出判断；持续的消费疲"
     },
     {
       "time": "08-05 20:05",
@@ -174,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
-    "signalBarBull": true,
-    "signalBarPrice": 4449.0,
-    "measuredMoveLow": 4493.15,
-    "measuredMoveHigh": 4537.7,
-    "sma20": 4408.56,
-    "currentPrice": 4448.6
+    "signalBarBull": false,
+    "signalBarPrice": 4438.0,
+    "measuredMoveLow": 4482.55,
+    "measuredMoveHigh": 4527.1,
+    "sma20": 4409.81,
+    "currentPrice": 4438.0
   },
   "bars1h": [
-    {
-      "open": 4473.2001953125,
-      "high": 4509.10009765625,
-      "low": 4471.89990234375,
-      "close": 4486.89990234375
-    },
     {
       "open": 4486.7001953125,
       "high": 4494.10009765625,
@@ -425,17 +383,17 @@
     {
       "open": 4449.0,
       "high": 4454.2998046875,
-      "low": 4446.0,
-      "close": 4448.60009765625
+      "low": 4437.2001953125,
+      "close": 4442.7001953125
+    },
+    {
+      "open": 4443.0,
+      "high": 4443.39990234375,
+      "low": 4437.0,
+      "close": 4438.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4380.60009765625,
-      "high": 4432.2998046875,
-      "low": 4361.0,
-      "close": 4400.39990234375
-    },
     {
       "open": 4400.39990234375,
       "high": 4410.60009765625,
@@ -608,7 +566,13 @@
       "open": 4430.7001953125,
       "high": 4454.60009765625,
       "low": 4427.2998046875,
-      "close": 4448.60009765625
+      "close": 4442.7001953125
+    },
+    {
+      "open": 4443.0,
+      "high": 4443.39990234375,
+      "low": 4437.0,
+      "close": 4438.0
     }
   ],
   "calendar": null,
