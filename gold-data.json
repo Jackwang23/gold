@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-15T03:23:23.577081+00:00",
+  "fetchedAt": "2026-08-15T04:04:41.665609+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-15T03:22:55Z"
+    "updatedAt": "2026-08-15T04:04:25Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-15T03:22:54Z"
+    "updatedAt": "2026-08-15T04:04:24Z"
   },
   "dxy": {
-    "value": 99.64,
-    "changePct": -0.32
+    "value": 99.67,
+    "changePct": -0.29
   },
   "vix": {
     "value": 14.25,
     "changePct": -2.6
   },
   "wti": {
-    "value": 82.4,
-    "changePct": 1.42
+    "value": 81.25,
+    "changePct": -2.43
   },
   "btc": {
-    "value": 63044.77,
-    "changePct": -0.56
+    "value": 63010.98,
+    "changePct": -0.62
   },
   "spx": {
     "value": 7785.76,
@@ -42,13 +42,29 @@
   "correlations": {
     "dataPoints": 28,
     "minRequired": 10,
-    "dxy": -0.63,
+    "dxy": -0.629,
     "realRate": 0.186,
     "vix": -0.779,
-    "btc": -0.2,
+    "btc": -0.201,
     "spx": 0.868
   },
   "news": [
+    {
+      "time": "03:43",
+      "text": "从国铁集团获悉，今年1至7月，全国铁路发送旅客28亿人次、同比增长4.1%，再创历史同期新高。（北京日报）"
+    },
+    {
+      "time": "03:40",
+      "text": "中央气象台8月15日10时继续发布暴雨蓝色预警：预计，8月15日14时至16日14时，浙江中南部和东部、福建东部和西南部、江西南部、广东东部和南部沿海、广西西部、海南岛西南部、云南南部和西部、川西高原北部、青海东南部、西藏东部及内蒙古东部、"
+    },
+    {
+      "time": "03:38",
+      "text": "据内蒙古自治区商务厅（口岸办）消息，截至8月14日，内蒙古全区陆路口岸2026年进出境货运量突破1亿吨，较去年提前一个月迈入“亿吨大关”，货运规模保持全国第一，区域向北开放枢纽作用进一步夯实。（央视新闻）"
+    },
+    {
+      "time": "03:24",
+      "text": "韩国总统李在明15日提出“包容稳定的对朝和平共处蓝图”，表示将开启把朝鲜半岛不稳定的停战体制转变为和平体制的进程。"
+    },
     {
       "time": "03:10",
       "text": "伊朗副外长卡泽姆·加里布阿巴迪15日回应美国总统特朗普有关霍尔木兹海峡的言论，强调霍尔木兹海峡的开放与关闭都只能由伊朗掌控。加里布阿巴迪在社交媒体上发文说，特朗普扬言伊朗战败后，他将很快宣布霍尔木兹海峡为美国领土。然而，霍尔木兹海峡并非靠一"
@@ -94,20 +110,44 @@
       "text": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n未来7-8年内印度将新建多达8座芯片工厂。\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n印度必须寻求替代能源。"
     },
     {
-      "time": "02:21",
-      "text": "印度尼西亚弗洛勒斯岛附近海域8月15日清晨发生7.7级地震，已造成2人死亡。根据印尼气象、气候和地球物理局最新通报，地震引发的海啸预警已解除。"
+      "time": "08-15 00:44",
+      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
     },
     {
-      "time": "02:18",
-      "text": "美国陆军14日发表声明说，在一架“阿帕奇”军用直升机日前坠毁致两名士兵丧生后，美国陆军决定暂停所有“阿帕奇”直升机训练任务。声明说，陆军高层已下令暂停AH-64“阿帕奇”直升机的训练任务，“停飞令将持续生效，直至我们对事故的根本原因有更深入"
+      "time": "08-14 21:37",
+      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
     },
     {
-      "time": "02:16",
-      "text": "今天（15日）是第四个全国生态日，中国消费者协会今天发布《中国消费者绿色消费指南（2026版）》。指南重点围绕“3060”碳达峰碳中和目标，以日常生活为基础，帮助消费者增加绿色消费知识，提升绿色消费信心，培养可持续生活方式。指南立足于我国社"
+      "time": "08-14 16:12",
+      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
     },
     {
-      "time": "01:47",
-      "text": "截至8月14日，年内共有102家公司在港交所上市，募资总额达3287.58亿港元，同比增长154.17%。其中，84家公司IPO引入了基石投资者，涉及951笔投资，同比增长291%；基石投资额1392.1亿港元，同比增长158.3%。（证券"
+      "time": "08-14 15:14",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
+    },
+    {
+      "time": "08-14 11:40",
+      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
+    },
+    {
+      "time": "08-14 10:08",
+      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
+    },
+    {
+      "time": "08-14 01:10",
+      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
+    },
+    {
+      "time": "08-13 23:10",
+      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
+    },
+    {
+      "time": "08-13 22:45",
+      "text": "[AV] Nasdaq Surges 150 Points; US Inflation Rate Slows To 3.4% In July"
+    },
+    {
+      "time": "08-13 20:37",
+      "text": "[AV] iShares 7-10 Year Treasury Bond ETF (NASDAQ: IEF) Share Price, IEF Stock News, IEF Share Price & Updates"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
