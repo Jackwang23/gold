@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-15T04:47:22.302218+00:00",
+  "fetchedAt": "2026-08-15T05:25:46.022290+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-15T04:46:55Z"
+    "updatedAt": "2026-08-15T05:25:25Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-15T04:46:54Z"
+    "updatedAt": "2026-08-15T05:25:24Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 63077.9,
-    "changePct": -0.51
+    "value": 63057.83,
+    "changePct": -0.54
   },
   "spx": {
     "value": 7785.76,
@@ -45,10 +45,18 @@
     "dxy": -0.629,
     "realRate": 0.186,
     "vix": -0.779,
-    "btc": -0.198,
+    "btc": -0.199,
     "spx": 0.868
   },
   "news": [
+    {
+      "time": "04:57",
+      "text": "印度尼西亚救援部门官员15日对媒体表示，印尼东部弗洛勒斯岛附近海域当天早上发生的7.7级地震及多次强余震已造成至少20人死亡。（新华社）"
+    },
+    {
+      "time": "04:55",
+      "text": "当地时间8月14日，伊朗外长阿拉格齐在接受媒体采访时表示，目前调停方卡塔尔和巴基斯坦都在进行信息交流并与伊朗保持联系，但这并不意味着正在进行谈判。伊朗目前没有决定是否与美国重新开始谈判。阿拉格齐还表示，伊朗与阿曼的谈判正在进行，与确定霍尔木"
+    },
     {
       "time": "04:18",
       "text": "据印尼气象、气候和地球物理局发布的报告，印尼中部当地时间8月15日11时54分，印尼东努沙登加拉省纳克县姆拜镇东北42公里处发生5.0级地震，震源深度10公里。（央视新闻）"
@@ -102,14 +110,6 @@
       "text": "印度总理莫迪：印度需要加快改革步伐。\n印度将迈向下一阶段的改革。\n印度工厂应具备竞争力并保持产品质量。"
     },
     {
-      "time": "02:41",
-      "text": "中央纪委国家监委网站8月15日通报，据内蒙古自治区纪委监委消息：内蒙古自治区人大财政经济委员会主任委员冯玉臻涉嫌严重违纪违法，目前正接受内蒙古自治区纪委监委纪律审查和监察调查。"
-    },
-    {
-      "time": "02:40",
-      "text": "截至目前，2026年暑期档电影票房（含预售）突破95亿元，连续36天单日票房过亿。2026年度电影总票房（含预售）突破252亿元。（央视新闻）"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -137,19 +137,19 @@
   "newsDebug": {
     "fedError": null,
     "wscnError": null,
-    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'We have detected your API key as 6ZJ60RKIKXZ0Q38B and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/p"
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4435.5,
-    "measuredMoveLow": 4476.55,
-    "measuredMoveHigh": 4521.1,
-    "sma20": 4416.37,
-    "currentPrice": 4432.0
+    "signalBarBull": true,
+    "signalBarPrice": 4437.3,
+    "measuredMoveLow": 4481.85,
+    "measuredMoveHigh": 4526.4,
+    "sma20": 4416.64,
+    "currentPrice": 4437.3
   },
   "bars1h": [
     {
@@ -388,9 +388,9 @@
     },
     {
       "open": 4432.0,
-      "high": 4432.0,
+      "high": 4437.2998046875,
       "low": 4432.0,
-      "close": 4432.0
+      "close": 4437.2998046875
     }
   ],
   "bars4h": [
@@ -570,9 +570,9 @@
     },
     {
       "open": 4432.0,
-      "high": 4432.0,
+      "high": 4437.2998046875,
       "low": 4432.0,
-      "close": 4432.0
+      "close": 4437.2998046875
     }
   ],
   "calendar": null,
