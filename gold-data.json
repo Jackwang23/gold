@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-15T17:46:08.658773+00:00",
+  "fetchedAt": "2026-08-15T18:30:49.042283+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-15T17:45:56Z"
+    "updatedAt": "2026-08-15T18:30:26Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-15T17:45:55Z"
+    "updatedAt": "2026-08-15T18:30:25Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 62995.75,
-    "changePct": 0.03
+    "value": 62977.49,
+    "changePct": 0.0
   },
   "spx": {
     "value": 7785.76,
@@ -45,7 +45,7 @@
     "dxy": -0.629,
     "realRate": 0.186,
     "vix": -0.779,
-    "btc": -0.202,
+    "btc": -0.203,
     "spx": 0.868
   },
   "news": [
@@ -577,12 +577,8 @@
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
-  "cot": {
-    "netLong": 217940,
-    "change": 20306,
-    "reportDate": "2026-08-11"
-  },
-  "cotError": null,
+  "cot": null,
+  "cotError": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://publicreporting.cftc.gov/resource/6dca-aqww.json?%24where=market_and_exchange_names%3D%27GOLD+-+COMMODITY+EXCHANGE+INC.%27&%24order=report_date_as_yyyy_mm_dd+DESC&%24limit=2",
   "gld": null,
   "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
