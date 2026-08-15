@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-15T12:38:57.534484+00:00",
+  "fetchedAt": "2026-08-15T13:18:10.482351+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-15T12:38:26Z"
+    "updatedAt": "2026-08-15T13:17:56Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-15T12:38:25Z"
+    "updatedAt": "2026-08-15T13:17:55Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 62916.24,
-    "changePct": -0.09
+    "value": 62988.83,
+    "changePct": 0.02
   },
   "spx": {
     "value": 7785.76,
@@ -45,10 +45,34 @@
     "dxy": -0.629,
     "realRate": 0.186,
     "vix": -0.779,
-    "btc": -0.206,
+    "btc": -0.202,
     "spx": 0.868
   },
   "news": [
+    {
+      "time": "13:00",
+      "text": "记者当地时间8月15日获悉，美国弗吉尼亚州立大学发生枪击事件，造成5人受伤，其中1人情况危急。（央视）"
+    },
+    {
+      "time": "12:51",
+      "text": "当地时间8月15日，伊朗外交部发言人巴加埃表示，尽管美国从中阻挠，伊朗和阿曼之间的会谈仍在积极推进，双方已就霍尔木兹海峡航道通行方案达成协议。（央视）"
+    },
+    {
+      "time": "12:43",
+      "text": "墨西哥总统辛鲍姆14日批评美国撤销墨前总统洛佩斯·奥夫拉多尔之子洛佩斯·贝尔特兰的美国签证，称这一做法“本质上具有政治色彩”。"
+    },
+    {
+      "time": "12:42",
+      "text": "韩国西江大学15日确认，该校约18万条个人信息泄露，涉及在校学生、毕业生、教职员和其他人员，据信包括韩国前总统朴槿惠的个人信息。（新华社）"
+    },
+    {
+      "time": "12:41",
+      "text": "联合国分管人道主义事务的副秘书长托马斯·弗莱彻14日说，埃博拉病毒正在刚果（金）“占据上风”。联合国将追加3050万美元拨款，增派工作人员，扩大应对疫情行动。（新华社）"
+    },
+    {
+      "time": "12:40",
+      "text": "2026年8月15日，中国船舶集团公司老干部局发布讣告：中国共产党优秀党员，船舶工业优秀老领导，原中国船舶工业集团公司副总经理、党组成员王树森同志因病医治无效，于2026年8月14日17时在北京逝世，享年85岁。（澎湃）"
+    },
     {
       "time": "12:32",
       "text": "记者了解到，经过多方应急抢险力量昼夜不停努力，8月15日晚上8时29分，河南省周口市川汇区贾鲁河东岸堤防117米溃口成功合龙。"
@@ -86,70 +110,6 @@
       "text": "近期，市场上有讨论称，宇树科技场外出现“黄牛收购筹码”，部分中介报价大幅超过发行价格。\n对此，记者向投资机构、私募、券商等市场资深人士多方求证，其均反馈称，并未发现此类情况，相关传闻基本都是捕风捉影；同时指出，这类私下场外约定和交易合规性存"
     },
     {
-      "time": "11:35",
-      "text": "匈牙利总理毛焦尔当地时间15日在保克什核电站举行的新闻发布会上表示，驳船的受控沉降工作已经开始，尽管多瑙河主河道的水位仍在下降，但核电站泵站处的水位已上升了一厘米。"
-    },
-    {
-      "time": "11:29",
-      "text": "韩国总统李在明8月15日表示，韩国政府将调查、追缴亲日反民族行为者不当聚敛的财产，并追究其历史责任。李在明当天在世宗文化会馆举行的光复节81周年庆祝仪式上说，随着6月2日《亲日反民族行为者财产的国家归属等相关特别法》正式颁布，韩国政府将更加"
-    },
-    {
-      "time": "11:28",
-      "text": "今天，2026年全国生态日主场活动在内蒙古自治区呼伦贝尔市举办，主题为“厚植中国式现代化的绿色底色”。国家发展改革委等多部门发布生态文明建设重要成果：2012年以来，我国以年均3.4%的能耗增速，支撑了年均6.1%的经济增长，成为全球能耗强"
-    },
-    {
-      "time": "11:23",
-      "text": "据德国地球科学研究中心消息，格林尼治时间8月15日10时54分（北京时间8月15日18时54分），印度尼西亚北苏门答腊省发生6.8级地震，震中位于北纬2.98度、东经99.06度，震源深度168.5公里。另据美国地质调查局地震信息网消息，此"
-    },
-    {
-      "time": "11:23",
-      "text": "深圳市气象台2026年08月15日18时49分发布全市雷电预警信号，以及珠江口、深圳湾、南山区（南头、南山、蛇口、招商街道）和宝安区（松岗、福永、西乡、沙井、新安、航城、福海、新桥、燕罗街道）雷雨大风黄色预警信号，和南山区、福田区、宝安区、"
-    },
-    {
-      "time": "11:22",
-      "text": "据伊朗媒体报道，伊朗外交部发言人Esmail Baghaei表示，伊朗和阿曼已就一份“航行路线图”达成协议，这是管理霍尔木兹海峡航运的更广泛协议的一部分。伊朗与阿曼就联合声明的讨论仍在进行中。下一阶段将发生什么，以及如何恢复霍尔木兹海峡的安"
-    },
-    {
-      "time": "08-15 00:44",
-      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
-    },
-    {
-      "time": "08-14 21:37",
-      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-    },
-    {
-      "time": "08-14 18:11",
-      "text": "[AV] Financial Stocks Edge Lower in Premarket as Friday Session Begins"
-    },
-    {
-      "time": "08-14 16:12",
-      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
-      "time": "08-14 11:40",
-      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
-    },
-    {
-      "time": "08-14 10:08",
-      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
-    },
-    {
-      "time": "08-14 01:10",
-      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
-    },
-    {
-      "time": "08-13 23:10",
-      "text": "[AV] monday.com and MongoDB lead AI software rally - top AI stocks today, August 13, 2026"
-    },
-    {
-      "time": "08-13 22:45",
-      "text": "[AV] Nasdaq Surges 150 Points; US Inflation Rate Slows To 3.4% In July"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
