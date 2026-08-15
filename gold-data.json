@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-15T20:51:37.400947+00:00",
+  "fetchedAt": "2026-08-15T21:21:46.939547+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-15T20:51:26Z"
+    "updatedAt": "2026-08-15T21:21:26Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-15T20:51:26Z"
+    "updatedAt": "2026-08-15T21:21:26Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 63030.01,
-    "changePct": 0.09
+    "value": 63035.77,
+    "changePct": 0.1
   },
   "spx": {
     "value": 7785.76,
@@ -45,7 +45,7 @@
     "dxy": -0.629,
     "realRate": 0.186,
     "vix": -0.779,
-    "btc": -0.201,
+    "btc": -0.2,
     "spx": 0.868
   },
   "news": [
@@ -110,46 +110,6 @@
       "text": "纪念江泽民同志诞辰100周年大会17日上午在京隆重举行。习近平将出席大会并发表重要讲话。（新华社）"
     },
     {
-      "time": "08-15 12:39",
-      "text": "[AV] Texas Roadhouse and Brinker International Have the Recipe Rivals Are Missing"
-    },
-    {
-      "time": "08-15 00:44",
-      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
-    },
-    {
-      "time": "08-14 21:37",
-      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-    },
-    {
-      "time": "08-14 18:11",
-      "text": "[AV] Financial Stocks Edge Lower in Premarket as Friday Session Begins"
-    },
-    {
-      "time": "08-14 16:12",
-      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
-      "time": "08-14 13:35",
-      "text": "[AV] Perspective: Morning Commentary for August 14"
-    },
-    {
-      "time": "08-14 11:40",
-      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
-    },
-    {
-      "time": "08-14 10:08",
-      "text": "[AV] Gateway Investment Advisers LLC Purchases 1,789 Shares of Invesco QQQ $QQQ"
-    },
-    {
-      "time": "08-14 01:10",
-      "text": "[AV] Owens Corning Stock And Other Rate Sensitive Real Estate Names As Yields Ease"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
