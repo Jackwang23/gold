@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-16T04:21:03.204363+00:00",
+  "fetchedAt": "2026-08-16T05:01:15.078128+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-16T04:20:57Z"
+    "updatedAt": "2026-08-16T05:00:57Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-16T04:20:56Z"
+    "updatedAt": "2026-08-16T05:00:56Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 63082.5,
-    "changePct": 0.17
+    "value": 63007.22,
+    "changePct": 0.05
   },
   "spx": {
     "value": 7785.76,
@@ -45,10 +45,18 @@
     "dxy": -0.642,
     "realRate": 0.153,
     "vix": -0.793,
-    "btc": -0.245,
+    "btc": -0.248,
     "spx": 0.876
   },
   "news": [
+    {
+      "time": "04:39",
+      "text": "近期，强厄尔尼诺事件发生概率持续增大，暴雨、干旱等极端天气，在全球多地肆虐。多个食糖生产国和出口国的甘蔗种植产业受到冲击。随着市场对主要甘蔗产区产量将下降的担忧升温，全球糖期货价格日前也升至年内高点。美国国家海洋和大气管理局发布报告显示，今"
+    },
+    {
+      "time": "04:39",
+      "text": "伊朗军方15日称，3名伊朗飞行员今年3月执行打击美军驻卡塔尔基地时被卡塔尔军方“生擒”后扣押至今，伊朗要求卡方“放人”。卡塔尔外交部当天晚些时候作出回应，称对上述“误导性言论”感到吃惊，否认扣押伊朗飞行员，称卡方当时尽力搜救，找到一名伊朗飞"
+    },
     {
       "time": "04:12",
       "text": "据美国证券交易委员会（SEC）披露，段永平管理的H&H International Investment二季度末持仓总市值约191亿美元，较一季度末约200亿美元有所下降。二季度，H&H继续增持拼多多、伯克希尔哈撒韦B类股和迪士尼，新建阿里"
@@ -102,54 +110,6 @@
       "text": "近日，高瓴旗下专注二级市场投资的基金管理平台HHLR Advisors（简称“HHLR”）公布的最新美股持仓情况显示，截至二季度末，HHLR美股持仓总市值约为8.32亿美元，持仓数量为35只，生物科技继续占据组合重要位置。从加减仓动作来看，"
     },
     {
-      "time": "00:40",
-      "text": "哈佛对SpaceX进行了高达22亿美元的重大投资。（福克斯新闻）"
-    },
-    {
-      "time": "00:33",
-      "text": "乌克兰首都基辅当地时间16日响起多次爆炸声。 (央视新闻)"
-    },
-    {
-      "time": "08-15 12:39",
-      "text": "[AV] Texas Roadhouse and Brinker International Have the Recipe Rivals Are Missing"
-    },
-    {
-      "time": "08-15 01:40",
-      "text": "[AV] The Top 5 Analyst Questions From Oaktree Specialty Lending’s Q2 Earnings Call"
-    },
-    {
-      "time": "08-15 01:11",
-      "text": "[AV] What’s Happening in the Markets This Week"
-    },
-    {
-      "time": "08-15 00:44",
-      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
-    },
-    {
-      "time": "08-14 21:37",
-      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-    },
-    {
-      "time": "08-14 18:11",
-      "text": "[AV] Financial Stocks Edge Lower in Premarket as Friday Session Begins"
-    },
-    {
-      "time": "08-14 16:12",
-      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
-      "time": "08-14 13:35",
-      "text": "[AV] Perspective: Morning Commentary for August 14"
-    },
-    {
-      "time": "08-14 11:40",
-      "text": "[AV] Wall Street Pricey? Try These 5 Dividend ETFs Under $50"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
