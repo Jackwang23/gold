@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-16T16:51:50.482134+00:00",
+  "fetchedAt": "2026-08-16T17:20:00.904831+00:00",
   "gold": {
     "price": 4377.600098,
-    "updatedAt": "2026-08-16T16:51:29Z"
+    "updatedAt": "2026-08-16T17:19:29Z"
   },
   "silver": {
     "price": 64.827003,
-    "updatedAt": "2026-08-16T16:51:28Z"
+    "updatedAt": "2026-08-16T17:19:29Z"
   },
   "dxy": {
     "value": 99.67,
@@ -21,8 +21,8 @@
     "changePct": 1.42
   },
   "btc": {
-    "value": 63173.66,
-    "changePct": 0.24
+    "value": 63139.49,
+    "changePct": 0.18
   },
   "spx": {
     "value": 7785.76,
@@ -45,7 +45,7 @@
     "dxy": -0.642,
     "realRate": 0.153,
     "vix": -0.793,
-    "btc": -0.241,
+    "btc": -0.242,
     "spx": 0.876
   },
   "news": [
@@ -110,46 +110,6 @@
       "text": "伊朗陆军总司令哈塔米今天（8月16日）发表声明称，任何逮捕或消灭一名入境美国军人的伊朗人员，都将获得50亿土曼（约合3万美元）的悬赏奖励。 (CCTV国际时讯)"
     },
     {
-      "time": "08-16 06:42",
-      "text": "[AV] £5,000 invested in Lloyds shares 10 years ago is now worth…"
-    },
-    {
-      "time": "08-16 06:21",
-      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-15 12:39",
-      "text": "[AV] Texas Roadhouse and Brinker International Have the Recipe Rivals Are Missing"
-    },
-    {
-      "time": "08-15 01:40",
-      "text": "[AV] The Top 5 Analyst Questions From Oaktree Specialty Lending’s Q2 Earnings Call"
-    },
-    {
-      "time": "08-15 01:11",
-      "text": "[AV] What’s Happening in the Markets This Week"
-    },
-    {
-      "time": "08-15 00:44",
-      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
-    },
-    {
-      "time": "08-14 21:37",
-      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-    },
-    {
-      "time": "08-14 18:11",
-      "text": "[AV] Financial Stocks Edge Lower in Premarket as Friday Session Begins"
-    },
-    {
-      "time": "08-14 16:12",
-      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "08-14 15:14",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.20% on Aug 14: What Signal Does It Send?"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
