@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-17T16:57:51.099750+00:00",
+  "fetchedAt": "2026-08-17T17:34:01.328849+00:00",
   "gold": {
-    "price": 4426.0,
-    "updatedAt": "2026-08-17T16:57:33Z"
+    "price": 4419.0,
+    "updatedAt": "2026-08-17T17:33:33Z"
   },
   "silver": {
-    "price": 66.499001,
-    "updatedAt": "2026-08-17T16:57:32Z"
+    "price": 66.144997,
+    "updatedAt": "2026-08-17T17:33:32Z"
   },
   "dxy": {
-    "value": 99.49,
-    "changePct": -0.18
+    "value": 99.54,
+    "changePct": -0.13
   },
   "vix": {
-    "value": 15.11,
-    "changePct": 6.04
+    "value": 15.26,
+    "changePct": 7.09
   },
   "wti": {
-    "value": 82.78,
-    "changePct": 0.46
+    "value": 83.75,
+    "changePct": 1.64
   },
   "btc": {
-    "value": 64062.99,
-    "changePct": 1.98
+    "value": 64118.2,
+    "changePct": 2.07
   },
   "spx": {
-    "value": 7767.6,
-    "changePct": -0.23
+    "value": 7758.88,
+    "changePct": -0.35
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,49 @@
   "correlations": {
     "dataPoints": 30,
     "minRequired": 10,
-    "dxy": -0.662,
-    "realRate": 0.117,
-    "vix": -0.793,
-    "btc": -0.247,
+    "dxy": -0.66,
+    "realRate": 0.118,
+    "vix": -0.791,
+    "btc": -0.244,
     "spx": 0.879
   },
   "news": [
+    {
+      "time": "17:22",
+      "text": "布伦特原油期货涨穿90美元关口，为8月12日以来首次，当前涨幅1.8%。\nWTI原油期货涨幅扩大至2%，报83.10美元/桶。\n恐慌指数VIX涨7.5%，报15.32；标普500指数跌超0.3%。"
+    },
+    {
+      "time": "17:16",
+      "text": "周一（8月17日），美联储隔夜逆回购协议（RRP）使用规模为25.5亿美元，交易对手6家。"
+    },
+    {
+      "time": "17:15",
+      "text": "美国三大股指下跌，半导体指数目前仍然涨2.3%。"
+    },
+    {
+      "time": "17:11",
+      "text": "30年期美国国债收益率升至近二十年来最高水平，反映出投资者对国家债务激增以及通胀持续高于美联储目标的焦虑。周一盘中，所谓长债的收益率升至5.29%，为2007年以来最高，推高了美国政府的借贷成本。尽管近期经济数据显示通胀温和、就业人数下降，"
+    },
+    {
+      "time": "17:10",
+      "text": "加拿大总理卡尼：预计自己会在8月19日关税截止日期前与特朗普通话。\n与美国的关税磋商是密集的、微妙的。"
+    },
+    {
+      "time": "17:10",
+      "text": "美国能源部长Wright围绕伊朗问题宣称：美国正在玩长期游戏。"
+    },
+    {
+      "time": "17:09",
+      "text": "美国能源部长Wright：我们并没有全面恢复中东地区的石油供应。\n将继续改善霍尔木兹海峡的航运。"
+    },
+    {
+      "time": "17:03",
+      "text": "船舶航行追踪数据显示，一艘阿联酋公司所属油轮在穿越霍尔木兹海峡途中被截停。这艘阿联酋油轮是在格什姆岛附近被拦停。"
+    },
+    {
+      "time": "17:00",
+      "text": "国际铜夜盘收跌0.97%，沪铜收跌0.84%，沪铝收跌0.19%，沪锌收跌0.46%，沪铅收涨0.06%，沪镍收跌0.06%，沪锡收跌1.47%。\n氧化铝夜盘收跌0.52%，铝合金收跌0.71%。\n不锈钢夜盘收涨0.32%。"
+    },
     {
       "time": "16:51",
       "text": "LME期铜收跌2美元，报14158美元/吨。\nLME期铝收涨14美元，报3266美元/吨。\nLME期锌收涨12美元，报3769美元/吨。\nLME期铅收跌7美元，报1888美元/吨。\nLME期镍收涨19美元，报16834美元/吨。\nLME期锡"
@@ -72,82 +108,6 @@
     {
       "time": "16:26",
       "text": "上周美国战略石油储备的原油库存下降约530万桶，降至2.934亿桶，为1982年以来最低水平。"
-    },
-    {
-      "time": "16:26",
-      "text": "据以色列多家媒体17日报道，美国总统特朗普的女婿库什纳以及加沙地带“和平委员会”成员当天在耶路撒冷与以色列总理内塔尼亚胡举行会晤，以期进一步推进所谓“加沙和平计划”。以总理办公室在会后发表声明说，内塔尼亚胡与“和平委员会”讨论后，同意成立两"
-    },
-    {
-      "time": "16:20",
-      "text": "周一（8月17日）欧市尾盘，ICE英国天然气期货涨1.23%，TTF基准荷兰天然气期货涨1.85%，ICE欧盟碳排放交易许可（期货价格）跌0.30%。"
-    },
-    {
-      "time": "16:15",
-      "text": "周一（8月17日）欧市尾盘，德国10年期国债收益率涨1.9个基点，报3.223%，日内交投于3.193%-3.223%区间，整体持续走高，延续上周五涨7.3个基点的表现，逼近2011年二季度顶部3.505%。\n两年期德债收益率涨0.4个基点"
-    },
-    {
-      "time": "16:12",
-      "text": "初步计划显示：安哥拉10月份原油出口量预计为93.2万桶/日。（彭博）"
-    },
-    {
-      "time": "16:11",
-      "text": "当地时间17日，黎巴嫩总统奥恩对议会呼吁延长联黎部队在黎南部任务期限的倡议表示欢迎。奥恩表示，联黎部队在黎南部的存在至关重要，不仅能协助当地居民安居乐业，也有利于与黎军队密切协调、共同维护地区稳定。（央视）"
-    },
-    {
-      "time": "16:03",
-      "text": "周一（8月17日）欧市尾盘，英国10年期国债收益率涨2.6个基点，延续上周五涨8.4个基点的表现，报5.063%。\n两年期英债收益率涨1.1个基点，报4.366%。\n30年期英债收益率涨3.0个基点，报5.817%；50年期英债收益率涨2."
-    },
-    {
-      "time": "16:02",
-      "text": "据灯塔专业版实时数据，截至8月18日0时0分，影片《欢迎来龙餐馆》票房突破10亿。"
-    },
-    {
-      "time": "15:58",
-      "text": "伊朗最高领袖高级顾问批评了美国政府对伊朗的威胁性言辞，称美国家庭最终将承受华盛顿敌对政策带来的后果。"
-    },
-    {
-      "time": "15:55",
-      "text": "乌克兰武装部队总参谋部17日在社交媒体发文称，当天凌晨，乌国防军对俄军位于克里米亚和赫尔松地区多处攻击型无人机的存储、发射和控制设施发动了袭击。乌武装部队总参谋部称，位于克里米亚近卫军村的俄军攻击型无人机的存储和发射地点被乌军袭击后起火。\n"
-    },
-    {
-      "time": "08-17 15:31",
-      "text": "[AV] Huntington Bank: Oil Inventory, July Inflation & Retail Sales Data"
-    },
-    {
-      "time": "08-17 13:08",
-      "text": "[AV] Beat the Market the Zacks Way: Bank of America, Marex, Mettler-Toledo International in Focus"
-    },
-    {
-      "time": "08-17 13:07",
-      "text": "[AV] 4 Must-Buy Consumer Staples Stocks as Consumer Sentiment Dips"
-    },
-    {
-      "time": "08-17 12:53",
-      "text": "[AV] Bears beware: Case for bull market momentum"
-    },
-    {
-      "time": "08-17 10:50",
-      "text": "[AV] Goldman Sachs Says Market Pricing for Fed Rate Hikes Too Hawkish - News and Statistics"
-    },
-    {
-      "time": "08-17 10:22",
-      "text": "[AV] Walmart, Target, Home Depot Q2 Preview: Reading The US Consumer As Inflation Plateaus"
-    },
-    {
-      "time": "08-17 10:12",
-      "text": "[AV] European Markets Open; Canada CPI, Empire State Data and Fabrinet Earnings Drive Monday's Key Risk Events"
-    },
-    {
-      "time": "08-17 08:40",
-      "text": "[AV] Zacks Market Edge Highlights: ARW, MKSI and MWH"
-    },
-    {
-      "time": "08-17 02:12",
-      "text": "[AV] Why Strategy (MSTR) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "08-16 22:46",
-      "text": "[AV] Dan Niles Says AI Infrastructure Rally Has ‘At Least A Year’ To Run — Names Intel His Favorite Chip Bet"
     },
     {
       "time": "08-05 20:05",
@@ -174,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4484.8,
-    "measuredMoveLow": 4513.1,
-    "measuredMoveHigh": 4545.2,
-    "sma20": 4454.8,
-    "currentPrice": 4481.0
+    "measuredMoveLow": 4506.4,
+    "measuredMoveHigh": 4538.5,
+    "sma20": 4456.68,
+    "currentPrice": 4474.3
   },
   "bars1h": [
-    {
-      "open": 4396.2001953125,
-      "high": 4397.10009765625,
-      "low": 4367.5,
-      "close": 4373.7001953125
-    },
     {
       "open": 4373.7001953125,
       "high": 4378.0,
@@ -426,7 +384,13 @@
       "open": 4485.0,
       "high": 4486.5,
       "low": 4479.7001953125,
-      "close": 4481.0
+      "close": 4481.5
+    },
+    {
+      "open": 4481.7001953125,
+      "high": 4483.7001953125,
+      "low": 4473.89990234375,
+      "close": 4474.2998046875
     }
   ],
   "bars4h": [
@@ -607,8 +571,8 @@
     {
       "open": 4485.0,
       "high": 4486.5,
-      "low": 4479.7001953125,
-      "close": 4481.0
+      "low": 4473.89990234375,
+      "close": 4474.2998046875
     }
   ],
   "calendar": null,
