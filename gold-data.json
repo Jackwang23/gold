@@ -1,22 +1,28 @@
 {
-  "fetchedAt": "2026-08-17T04:58:19.955508+00:00",
-  "gold": null,
-  "silver": null,
+  "fetchedAt": "2026-08-17T05:41:39.996954+00:00",
+  "gold": {
+    "price": 4395.600098,
+    "updatedAt": "2026-08-17T05:41:31Z"
+  },
+  "silver": {
+    "price": 65.873001,
+    "updatedAt": "2026-08-17T05:41:31Z"
+  },
   "dxy": {
     "value": 99.49,
-    "changePct": -0.18
+    "changePct": -0.19
   },
   "vix": {
     "value": 14.25,
     "changePct": -2.6
   },
   "wti": {
-    "value": 82.19,
-    "changePct": -0.25
+    "value": 82.15,
+    "changePct": -0.3
   },
   "btc": {
-    "value": 63476.34,
-    "changePct": 0.72
+    "value": 63400.37,
+    "changePct": 0.6
   },
   "spx": {
     "value": 7785.76,
@@ -36,13 +42,49 @@
   "correlations": {
     "dataPoints": 30,
     "minRequired": 10,
-    "dxy": -0.656,
-    "realRate": 0.121,
+    "dxy": -0.662,
+    "realRate": 0.122,
     "vix": -0.805,
-    "btc": -0.279,
+    "btc": -0.28,
     "spx": 0.882
   },
   "news": [
+    {
+      "time": "05:36",
+      "text": "小米汽车：小米SU7系列累计交付突破50万台。"
+    },
+    {
+      "time": "05:35",
+      "text": "中国台湾证交所加权股价指数收高0.1%报45,857.27点。"
+    },
+    {
+      "time": "05:31",
+      "text": "因近期供给风险，LME铜的现货与三个月期货价差升至500美元以上。"
+    },
+    {
+      "time": "05:23",
+      "text": "日本20年期国债收益率上行6.5个基点至3.815%。"
+    },
+    {
+      "time": "05:14",
+      "text": "《广州市粮食安全保障“十五五”规划（征求意见稿）》公开征求意见。其中提到，培育壮大粮食龙头企业。支持主业突出、实力雄厚、带动力强的国有骨干粮企和优质龙头民企作为“链主”，构建大中小企业融通发展的粮食产业生态体系。引导“链主”企业规模化发展，"
+    },
+    {
+      "time": "05:13",
+      "text": "为推动广州加快建设国家新一代人工智能创新发展试验区、国家人工智能创新应用先导区，推进人工智能与经济社会各行业各领域深度融合，加快培育发展新质生产力，《广州市人工智能发展促进条例》拟于2026年10月提交第三次审议并表决。"
+    },
+    {
+      "time": "05:11",
+      "text": "中际旭创午后持续拉升，涨超7%。"
+    },
+    {
+      "time": "05:05",
+      "text": "创业板指涨超2%，深证成指涨1.57%，沪指涨0.82%，半导体芯片、农业、养殖业、算力硬件等方向涨幅居前，沪深京三市上涨个股近3700只。"
+    },
+    {
+      "time": "05:04",
+      "text": "长鑫科技午后涨超10%，股价创上市以来新高，总市值再次突破4万亿，日内成交额近230亿元。"
+    },
     {
       "time": "04:55",
       "text": "8月17日，梨视频援引供应链内部消息称，苹果计划在2026年8月底前完成全球各区域iPhone 17系列调价，全机型涨价上限不超千元人民币，调价标准可参照此前日本落地的涨价方案。就在7月18日，日本市场上调了iPhone、Apple Wat"
@@ -66,82 +108,6 @@
     {
       "time": "04:30",
       "text": "日本6月第三产业活动指数环比 -0.2%，预期 -1%，前值 1.1%。"
-    },
-    {
-      "time": "04:30",
-      "text": "科创50半日涨超3%，芯片、农业股集体走强。\n恒指半日涨1.6%，恒生科技指数涨2%，商汤大涨逾10%，中芯国际、华虹涨逾7%。\n日本10年国债收益率升至30年来最高，市场押注日本央行最快9月升息。\n日本第二季度GDP环比折年率增长1.1%"
-    },
-    {
-      "time": "04:30",
-      "text": "① 全天 韩国股市因假期休市；\n② 15:00 中国7月规模以上工业增加值、社会消费品零售总额、1至7月城镇固定资产投资、1至7月全国房地产开发投资、7月70个大中城市房价报告，国新办就国民经济运行情况举行新闻发布会；\n③ 20:30 美国"
-    },
-    {
-      "time": "04:30",
-      "text": "日本6月工业产出环比终值 1.9%，初值 1.3%。"
-    },
-    {
-      "time": "04:30",
-      "text": "日本6月设备利用指数环比 4.1%，前值 0.1%。"
-    },
-    {
-      "time": "04:30",
-      "text": "日本6月工业产出同比终值 4.9%，初值 4.2%。"
-    },
-    {
-      "time": "04:23",
-      "text": "宜家日本将于8月20日起上调部分商品价格。"
-    },
-    {
-      "time": "04:22",
-      "text": "吉利汽车控股有限公司发布2026年中期业绩，上半年公司总营收达1736亿元，同比增长15%，创历史新高，连续六年保持稳健增长。核心归母净利润达96.8亿元，同比增46%，增速超过营收增长；核心归母净利率5.6%，同比增长27%。毛利率提升至"
-    },
-    {
-      "time": "04:07",
-      "text": "印度5年期国债收益率升幅扩大至8个基点。此前印度央行宣布，将提前关闭针对海外居民的特别美元存款窗口。"
-    },
-    {
-      "time": "04:02",
-      "text": "吉利汽车上半年净利润90.9亿元人民币，同比-1.8%，市场预期71.2亿元；上半年营收1,736亿元人民币，同比+15%。"
-    },
-    {
-      "time": "08-16 17:08",
-      "text": "[AV] Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain"
-    },
-    {
-      "time": "08-16 16:08",
-      "text": "[AV] AMD Stock And 2 AI Infrastructure Names for Lower Rate Growth"
-    },
-    {
-      "time": "08-16 06:42",
-      "text": "[AV] £5,000 invested in Lloyds shares 10 years ago is now worth…"
-    },
-    {
-      "time": "08-16 06:21",
-      "text": "[AV] Rapid7, 8x8, Doximity, Marqeta, and Tenable Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "08-15 12:39",
-      "text": "[AV] Texas Roadhouse and Brinker International Have the Recipe Rivals Are Missing"
-    },
-    {
-      "time": "08-15 01:40",
-      "text": "[AV] The Top 5 Analyst Questions From Oaktree Specialty Lending’s Q2 Earnings Call"
-    },
-    {
-      "time": "08-15 01:11",
-      "text": "[AV] What’s Happening in the Markets This Week"
-    },
-    {
-      "time": "08-15 00:44",
-      "text": "[AV] S&P Global Stock And Cboe Stand Out As Options Trading Picks"
-    },
-    {
-      "time": "08-14 21:37",
-      "text": "[AV] Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-    },
-    {
-      "time": "08-14 18:11",
-      "text": "[AV] Financial Stocks Edge Lower in Premarket as Friday Session Begins"
     },
     {
       "time": "08-05 20:05",
@@ -168,26 +134,24 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4437.3,
-    "measuredMoveLow": 4490.65,
-    "measuredMoveHigh": 4527.0,
-    "sma20": 4428.97,
-    "currentPrice": 4454.3
+    "signalBarPrice": 4447.1,
+    "measuredMoveLow": 4491.4,
+    "measuredMoveHigh": 4527.3,
+    "sma20": 4431.81,
+    "currentPrice": 4455.5
   },
   "bars1h": [
-    {
-      "open": 4432.2998046875,
-      "high": 4441.89990234375,
-      "low": 4428.60009765625,
-      "close": 4441.7998046875
-    },
     {
       "open": 4441.89990234375,
       "high": 4451.5,
@@ -420,7 +384,13 @@
       "open": 4453.5,
       "high": 4456.2998046875,
       "low": 4445.5,
-      "close": 4454.2998046875
+      "close": 4447.10009765625
+    },
+    {
+      "open": 4447.2998046875,
+      "high": 4457.5,
+      "low": 4443.39990234375,
+      "close": 4455.5
     }
   ],
   "bars4h": [
@@ -594,9 +564,9 @@
     },
     {
       "open": 4426.0,
-      "high": 4456.2998046875,
+      "high": 4457.5,
       "low": 4423.5,
-      "close": 4454.2998046875
+      "close": 4455.5
     }
   ],
   "calendar": null,
