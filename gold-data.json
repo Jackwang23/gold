@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-17T19:34:43.000695+00:00",
+  "fetchedAt": "2026-08-17T20:00:17.823421+00:00",
   "gold": {
-    "price": 4416.5,
-    "updatedAt": "2026-08-17T19:34:33Z"
+    "price": 4421.100098,
+    "updatedAt": "2026-08-17T20:00:04Z"
   },
   "silver": {
-    "price": 66.026001,
-    "updatedAt": "2026-08-17T19:34:33Z"
+    "price": 66.016998,
+    "updatedAt": "2026-08-17T20:00:03Z"
   },
   "dxy": {
-    "value": 99.59,
-    "changePct": -0.08
+    "value": 99.57,
+    "changePct": -0.1
   },
   "vix": {
-    "value": 15.19,
-    "changePct": 6.6
+    "value": 15.24,
+    "changePct": 6.95
   },
   "wti": {
-    "value": 84.39,
-    "changePct": 2.42
+    "value": 84.4,
+    "changePct": 2.43
   },
   "btc": {
-    "value": 64297.31,
-    "changePct": 2.35
+    "value": 64254.3,
+    "changePct": 2.29
   },
   "spx": {
-    "value": 7750.02,
-    "changePct": -0.46
+    "value": 7745.44,
+    "changePct": -0.52
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,37 @@
   "correlations": {
     "dataPoints": 30,
     "minRequired": 10,
-    "dxy": -0.658,
-    "realRate": 0.119,
-    "vix": -0.793,
-    "btc": -0.234,
-    "spx": 0.878
+    "dxy": -0.659,
+    "realRate": 0.118,
+    "vix": -0.791,
+    "btc": -0.236,
+    "spx": 0.877
   },
   "news": [
+    {
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收涨0.3%。\n热门中概股里，华住初步收涨11.4%，小鹏涨4.2%，世纪互联涨4.1%，亚朵涨3.1%，万国数据涨2.8%，拼多多涨2.5%，日月光半导体、新东方涨0.9%，阿里巴巴涨0.3%，名创优品跌8.6%，"
+    },
+    {
+      "time": "19:57",
+      "text": "纳斯达克：正与监管机构沟通，拟在纳斯达克股票市场提供近乎全天候的交易服务，每周5天、每天23小时。\n2026年12月6日起，纳斯达克将新增美国东部时间晚上9点至凌晨4点的交易时段。"
+    },
+    {
+      "time": "19:44",
+      "text": "国际足联（FIFA）已经将首席运营官（COO）Kevin Lamour免职。（英国天空新闻）"
+    },
+    {
+      "time": "19:43",
+      "text": "周一（8月17日）纽约尾盘，美国10年期国债收益率涨2.98个基点，报4.7219%，日线图上，7月13日涨穿4.6%，7月23日以来持续交投于4.7%附近。\n两年期美债收益率涨1.04个基点，报4.1795%；30年期美债收益率涨5.10"
+    },
+    {
+      "time": "19:37",
+      "text": "据知情人士透露，Anthropic PBC基于当前业绩推算，年化收入有望超过650亿美元，较去年底的增长速度翻了七倍以上。该公司用于根据较短时间段推算全年收入的指标——收入运行率（run rate），截至7月底已达到650亿美元。Anthr"
+    },
+    {
+      "time": "19:35",
+      "text": "美国官员提议仅将美国本土价值部分从加拿大车辆15%关税中予以扣除，但加拿大官员希望全部北美地区价值部分都获得扣除。\n媒体援引知情的谈判消息人士报道称，美加双方正在磋商，在扣除部分价值成分后，美国对加拿大汽车现行25%的关税有可能下调至15%"
+    },
     {
       "time": "19:32",
       "text": "美国贸易代表格里尔称，总统特朗普扬言对英国征收100%关税并非虚张声势。\n当被问及英国废除数字服务税是否设有最后期限时，格里尔表示：“我不会设定人为划定的时间期限。”（英国泰晤士报）"
@@ -86,28 +110,44 @@
       "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7417元，较上周五夜盘收盘涨5点。成交量311.47亿美元。"
     },
     {
-      "time": "19:00",
-      "text": "恒生指数主连夜盘收跌0.27%，报25355点。\n恒生科技指数主连夜盘收跌0.15%，报4779点。"
+      "time": "08-17 15:31",
+      "text": "[AV] Huntington Bank: Oil Inventory, July Inflation & Retail Sales Data"
     },
     {
-      "time": "18:57",
-      "text": "美国能源部长Wright：（美国）战略石油储备（SPR）目前仍保有3亿桶库存，伊朗冲突结束后，其储备量将高于冲突前水平。\n美国政府将在未来几日公布若干举措，助力炼油企业提高燃料产量。"
+      "time": "08-17 13:37",
+      "text": "[AV] Billionaire BlackRock CEO Larry Fink Says One of ‘Worst’ Financial Decisions You’ll Ever Make Is Keeping Your Money in t"
     },
     {
-      "time": "18:52",
-      "text": "当地时间17日，俄罗斯方面称袭击了敖德萨港的乌军目标。乌克兰方面称打击俄罗斯罗斯托夫州的工厂。\n俄罗斯国防部17日中午通报称，过去24小时，俄军控制了顿涅茨克地区以及扎波罗热地区的两个居民点。俄军打击了乌军基础设施、无人装备组装车间及储存场"
+      "time": "08-17 13:08",
+      "text": "[AV] Beat the Market the Zacks Way: Bank of America, Marex, Mettler-Toledo International in Focus"
     },
     {
-      "time": "18:48",
-      "text": "俄罗斯外长拉夫罗夫8月17日在评论日本方面针对俄罗斯总统普京登上俄日争议岛屿的表态时证实，俄罗斯外交部近日连续召见日本驻俄罗斯大使武藤显，可日本驻俄大使馆却以武藤“不在莫斯科”或“身体不适”等理由回应，称武藤无法接受召见。（CCTV国际时讯"
+      "time": "08-17 13:07",
+      "text": "[AV] 4 Must-Buy Consumer Staples Stocks as Consumer Sentiment Dips"
     },
     {
-      "time": "18:38",
-      "text": "美国投资级债券发行量已连续第三个月创月度纪录，延续了市场有史以来最快的发行节奏，人工智能（AI）基础设施建设支出正推动企业加大借贷力度。\n据彭博新闻社汇编的数据，8月高评级债券发行规模达到1452亿美元，超过了2020年同月1360亿美元的"
+      "time": "08-17 12:53",
+      "text": "[AV] Bears beware: Case for bull market momentum"
     },
     {
-      "time": "18:31",
-      "text": "WTI 9月原油期货收涨2.10美元，涨幅2.55%，报84.50美元/桶，北京时间01:00以来显著上涨。\n布伦特10月原油期货收涨2.35美元，涨幅2.65%，报90.87美元/桶。\n中东Abu Dhabi Murban原油期货涨6.7"
+      "time": "08-17 10:50",
+      "text": "[AV] Goldman Sachs Says Market Pricing for Fed Rate Hikes Too Hawkish - News and Statistics"
+    },
+    {
+      "time": "08-17 10:22",
+      "text": "[AV] Walmart, Target, Home Depot Q2 Preview: Reading The US Consumer As Inflation Plateaus"
+    },
+    {
+      "time": "08-17 10:12",
+      "text": "[AV] European Markets Open; Canada CPI, Empire State Data and Fabrinet Earnings Drive Monday's Key Risk Events"
+    },
+    {
+      "time": "08-17 08:40",
+      "text": "[AV] Zacks Market Edge Highlights: ARW, MKSI and MWH"
+    },
+    {
+      "time": "08-17 08:12",
+      "text": "[AV] Fifth Third Stock And Other Banks That Could Gain From A Steeper Yield Curve"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
@@ -146,10 +182,10 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4484.8,
-    "measuredMoveLow": 4503.6,
-    "measuredMoveHigh": 4535.1,
-    "sma20": 4459.92,
-    "currentPrice": 4472.1
+    "measuredMoveLow": 4506.8,
+    "measuredMoveHigh": 4538.3,
+    "sma20": 4460.08,
+    "currentPrice": 4475.3
   },
   "bars1h": [
     {
@@ -388,9 +424,9 @@
     },
     {
       "open": 4462.89990234375,
-      "high": 4472.89990234375,
+      "high": 4477.0,
       "low": 4456.60009765625,
-      "close": 4472.10009765625
+      "close": 4475.2998046875
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4485.0,
       "high": 4486.5,
       "low": 4454.5,
-      "close": 4472.10009765625
+      "close": 4475.2998046875
     }
   ],
   "calendar": null,
