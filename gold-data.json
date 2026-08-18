@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-18T15:48:12.974231+00:00",
+  "fetchedAt": "2026-08-18T16:32:16.622850+00:00",
   "gold": {
-    "price": 4361.799805,
-    "updatedAt": "2026-08-18T15:48:05Z"
+    "price": 4364.899902,
+    "updatedAt": "2026-08-18T16:32:05Z"
   },
   "silver": {
-    "price": 63.988998,
-    "updatedAt": "2026-08-18T15:48:05Z"
+    "price": 64.067001,
+    "updatedAt": "2026-08-18T16:32:05Z"
   },
   "dxy": {
-    "value": 99.61,
-    "changePct": -0.03
+    "value": 99.58,
+    "changePct": -0.06
   },
   "vix": {
-    "value": 15.91,
-    "changePct": 4.74
+    "value": 15.67,
+    "changePct": 3.16
   },
   "wti": {
-    "value": 84.92,
-    "changePct": 0.5
+    "value": 84.25,
+    "changePct": -0.3
   },
   "btc": {
-    "value": 64830.21,
-    "changePct": 0.5
+    "value": 64641.56,
+    "changePct": 0.21
   },
   "spx": {
-    "value": 7704.95,
-    "changePct": -0.52
+    "value": 7702.41,
+    "changePct": -0.55
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,53 @@
   "correlations": {
     "dataPoints": 31,
     "minRequired": 10,
-    "dxy": -0.671,
+    "dxy": -0.672,
     "realRate": 0.151,
-    "vix": -0.786,
-    "btc": -0.187,
-    "spx": 0.877
+    "vix": -0.79,
+    "btc": -0.195,
+    "spx": 0.876
   },
   "news": [
+    {
+      "time": "16:28",
+      "text": "以色列一名高级官员声称，对伊德利卜地区叙利亚空军基地发动袭击，目的是阻止土耳其军队在该地构筑阵地。\n土耳其一名高级官员回应：该空军基地并无土耳其人员驻守。以色列编造借口轰炸邻国，破坏地区稳定。（Axios）"
+    },
+    {
+      "time": "16:25",
+      "text": "周二（8月18日）欧市尾盘，德国10年期国债收益率涨3.8个基点，连续三个交易日走高（期内累计上涨12.8个基点），报3.259%，全天处于上涨状态，北京时间14:29“高开”至3.240%，日内大部分时间持稳于3.255%附近，21:30"
+    },
+    {
+      "time": "16:18",
+      "text": "美国用原油生产柴油的利润已飙升至每桶100美元以上，创下新的历史最高纪录。与此同时，全球炼油产能紧缺的局面仍在加剧燃料价格上涨。这一备受关注的指标——即柴油裂解价差——周二徘徊在每桶100美元附近，较此前超过102美元/桶的历史高点小幅回落"
+    },
+    {
+      "time": "16:09",
+      "text": "英国石油公司BP参与委内瑞拉石油贸易，挑战Trafigura、Vitol。"
+    },
+    {
+      "time": "16:08",
+      "text": "摩根大通资产管理公司美洲区首席市场策略师Gabriela Santos警告称，”AI因子”集中度风险已从股票市场蔓延至固定收益市场，进一步加大了投资者保持谨慎的必要性。科技股的剧烈震荡凸显了拥挤交易的风险，并强调了仓位规模、杠杆控制以及AI"
+    },
+    {
+      "time": "16:06",
+      "text": "周二（8月18日）欧市尾盘，法国10年期国债收益率涨4.8个基点，连续三个交易日走高，报4.114%，全天处于上涨状态、北京时间21:30美股开盘时达到4.128%，逼近2008年11月6日顶部4.203%、当年9月22日顶部4.548%。"
+    },
+    {
+      "time": "16:01",
+      "text": "苹果公司已同意对其在欧洲的App Store进行一系列调整，包括取消对不使用iPhone应用市场的开发者的按安装收费，以解决与欧盟之间因竞争问题引发的争议。\n该公司将以5%的数字交易佣金取代其核心技术费，适用于在其平台之外分发的应用；同时，"
+    },
+    {
+      "time": "15:58",
+      "text": "周二（8月18日）欧市尾盘，英国10年期国债收益率涨1.5个基点，报5.075%，日内大部分时间高位震荡，美股开盘以来呈现出V形走势。\n两年期英债收益率涨0.7个基点，报4.374%。\n30年期英债收益率涨1.7个基点，50年期英债收益率涨"
+    },
+    {
+      "time": "15:56",
+      "text": "针对扎波罗热核电站一公交站18日发生无人机爆炸一事，俄罗斯外交部发言人扎哈罗娃当天发布声明说，此次袭击由乌方发动，其目的是阻挠国际原子能机构总干事格罗西原定于20日至21日对扎波罗热核电站的访问。"
+    },
+    {
+      "time": "15:52",
+      "text": "俄罗斯将改道黑海输送Kazakh石油，之前通过UST-Luga供应。（路透）"
+    },
     {
       "time": "15:44",
       "text": "WTI原油日内涨幅达1.5%，报85美元/桶。"
@@ -70,44 +110,44 @@
       "text": "明晟公司MSCI北欧国家指数跌0.6%，报396.69点。\n在十个板块中，北欧工业板块跌幅最大。\n诺基亚跌7.3%，在一众北欧个股里表现最差。"
     },
     {
-      "time": "15:32",
-      "text": "恒天然：8月18日全球乳品贸易（GDT）拍卖价格指数上涨2.3%，奶粉各合同期FAS拍卖均价3,873美元/吨。\n批发奶粉价格指数涨3%，报3,591美元/吨。"
+      "time": "08-18 15:43",
+      "text": "[AV] Nvidia, AMD, Broadcom, Meta Slide as Bond Yields Surge: Why Tech Stocks Are Getting Hit"
     },
     {
-      "time": "15:32",
-      "text": "美国财政部拍卖六周期国债，得标利率3.645%，投标倍数2.97。"
+      "time": "08-18 13:31",
+      "text": "[AV] Southern Company’s 17-GW Power Pipeline Faces a 144-Basis-Point Yield Hurdle"
     },
     {
-      "time": "15:31",
-      "text": "俄罗斯鞑靼斯坦共和国投资发展署署长塔利娅·米努林娜17日表示，期待俄罗斯-中国互利合作“萌芽”论坛助力俄中两国地方务实合作释放更大潜力。她特别提到，俄罗斯农业部长奥克萨娜·卢特首次参加论坛，围绕农业发展与粮食安全等议题同中方伙伴交流。\n米努"
+      "time": "08-18 13:16",
+      "text": "[AV] VGLT, TLT ETFs eye record lows despite inflows as US 30-year Treasury yield jumps"
     },
     {
-      "time": "15:30",
-      "text": "德国DAX 30指数初步收跌0.81%，报26124点。\n法国股指初步收跌0.73%，意大利股指初步收跌0.94%、银行指数跌0.85%，英国股指初步收涨0.17%。"
+      "time": "08-18 11:42",
+      "text": "[AV] Norwegian Cruise Line rating cut at Mizuho after ‘self-inflicted wounds’"
     },
     {
-      "time": "15:30",
-      "text": "欧洲STOXX 600指数初步收跌0.65%，报652.13点。\n欧元区STOXX 50指数初步收跌0.96%，报6468.00点。\n富时泛欧绩优300指数初步收跌0.65%，报2607.03点。"
+      "time": "08-18 11:11",
+      "text": "[AV] West Fraser Timber Stock Under Pressure as Lumber Weakness, Tariff Uncertainty and Macro Risks Weigh on Sentiment"
     },
     {
-      "time": "15:28",
-      "text": "美国银行的Michael Hartnett表示，全球投资者进一步提高股票持仓，股票配置升至近五年来最高水平，市场几乎没有给悲观者留下空间。\nHartnett为首的美银策略师团队在报告中写道，美银最新行业调查显示，净56%的基金经理超配股票，"
+      "time": "08-18 09:17",
+      "text": "[AV] 36,368 Shares in The Goldman Sachs Group, Inc. $GS Bought by Mizuho Markets Americas LLC"
     },
     {
-      "time": "15:24",
-      "text": "针对人工智能(AI)以及支撑AI运行所需数据中心的反对声浪，正在成为美国选举中日益敏感的议题，以至于华尔街也开始被迫将这一因素纳入股市投资建议。\n美国银行策略师上周告诉客户，如果共和党在11月中期选举中表现强劲，美股将会“大涨”。Micha"
+      "time": "08-18 09:04",
+      "text": "[AV] Invesco QQQ $QQQ Shares Sold by SBI Securities Co. Ltd."
     },
     {
-      "time": "15:15",
-      "text": "援引消息人士称，美国国防部正考虑在伊朗战争结束后缩减其海湾地区军事部署，伊朗的打击暴露了美国主要基地存在的防御短板。 备选方案包括将兵力向西调往约旦、以色列或沙特阿拉伯，而非重建受损设施。尚未作出正式决定。\n此前，美国在海外的大型军事基地数"
+      "time": "08-18 06:24",
+      "text": "[AV] Invesco Growth And Income Fund Q2 2026 Commentary (ACGIX)"
     },
     {
-      "time": "15:13",
-      "text": "伊朗伊斯兰共和国广播电视台18日报道，伊朗当天在首都德黑兰伊玛目霍梅尼清真寺建筑外广场举行已故最高领袖阿里·哈梅内伊下葬四十日纪念仪式。（新华社）"
+      "time": "08-18 04:39",
+      "text": "[AV] Morgan Stanley targets EUR/AUD at 1.53, backs Aussie dollar carry trade"
     },
     {
-      "time": "15:10",
-      "text": "伊朗伊斯兰革命卫队副总司令穆斯塔法·伊扎迪日前表示，美国曾考虑将“委内瑞拉”模式用于伊朗，但最终未能得逞。据革命卫队旗下新闻网站18日报道，伊扎迪说，美国曾制定推翻伊朗政权和“肢解”伊朗的方案，甚至考虑将“委内瑞拉”模式用于伊朗，但最终未能"
+      "time": "08-17 22:42",
+      "text": "[AV] Wheaton Precious Metals Hits Record Revenue as Gold Holds Near $4,300"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
@@ -146,18 +182,12 @@
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4422.3,
-    "measuredMoveLow": 4329.8,
-    "measuredMoveHigh": 4372.95,
-    "sma20": 4455.43,
-    "currentPrice": 4416.1
+    "measuredMoveLow": 4337.2,
+    "measuredMoveHigh": 4380.35,
+    "sma20": 4453.02,
+    "currentPrice": 4423.5
   },
   "bars1h": [
-    {
-      "open": 4441.7998046875,
-      "high": 4441.89990234375,
-      "low": 4422.2998046875,
-      "close": 4425.5
-    },
     {
       "open": 4426.0,
       "high": 4459.39990234375,
@@ -390,16 +420,16 @@
       "open": 4422.60009765625,
       "high": 4434.10009765625,
       "low": 4406.7998046875,
-      "close": 4416.10009765625
+      "close": 4420.2001953125
+    },
+    {
+      "open": 4420.2998046875,
+      "high": 4427.0,
+      "low": 4420.0,
+      "close": 4423.5
     }
   ],
   "bars4h": [
-    {
-      "open": 4446.2001953125,
-      "high": 4463.2998046875,
-      "low": 4428.2001953125,
-      "close": 4443.2001953125
-    },
     {
       "open": 4443.5,
       "high": 4445.7001953125,
@@ -572,7 +602,13 @@
       "open": 4452.60009765625,
       "high": 4463.0,
       "low": 4406.7998046875,
-      "close": 4416.10009765625
+      "close": 4420.2001953125
+    },
+    {
+      "open": 4420.2998046875,
+      "high": 4427.0,
+      "low": 4420.0,
+      "close": 4423.5
     }
   ],
   "calendar": null,
