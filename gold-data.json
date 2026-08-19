@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-19T15:46:55.451905+00:00",
+  "fetchedAt": "2026-08-19T16:32:53.117637+00:00",
   "gold": {
-    "price": 4492.899902,
-    "updatedAt": "2026-08-19T15:46:38Z"
+    "price": 4495.100098,
+    "updatedAt": "2026-08-19T16:32:38Z"
   },
   "silver": {
-    "price": 65.958,
-    "updatedAt": "2026-08-19T15:46:37Z"
+    "price": 66.016998,
+    "updatedAt": "2026-08-19T16:32:37Z"
   },
   "dxy": {
-    "value": 98.89,
-    "changePct": -0.76
+    "value": 98.88,
+    "changePct": -0.78
   },
   "vix": {
-    "value": 15.19,
-    "changePct": -4.1
+    "value": 15.08,
+    "changePct": -4.8
   },
   "wti": {
-    "value": 85.27,
-    "changePct": 0.39
+    "value": 85.46,
+    "changePct": 0.61
   },
   "btc": {
-    "value": 68429.57,
-    "changePct": 5.8
+    "value": 68811.35,
+    "changePct": 6.39
   },
   "spx": {
-    "value": 7726.5,
-    "changePct": 0.45
+    "value": 7725.32,
+    "changePct": 0.44
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,45 @@
   "correlations": {
     "dataPoints": 32,
     "minRequired": 10,
-    "dxy": -0.703,
-    "realRate": 0.222,
-    "vix": -0.783,
-    "btc": 0.068,
-    "spx": 0.867
+    "dxy": -0.704,
+    "realRate": 0.223,
+    "vix": -0.785,
+    "btc": 0.086,
+    "spx": 0.866
   },
   "news": [
+    {
+      "time": "16:32",
+      "text": "人工智能先驱李飞飞表示，包括她本人在内的科技人士需要更好地向公众解释AI带来的益处，并警告称，美国公众日益升温的反对情绪可能给全球带来风险。\n李飞飞表示：“如果我们不能展现出对AI的积极态度和积极发展路径，所有人都会受损。”\n李飞飞认为，这"
+    },
+    {
+      "time": "16:27",
+      "text": "欧洲央行行长拉加德仍受到世界经济论坛招揽，希望其出任高层职务。"
+    },
+    {
+      "time": "16:25",
+      "text": "加拿大总理卡尼：加拿大正朝着与美国达成贸易协议迈进，谈判已取得显著进展。加拿大将在每个战略领域争取“最佳条款”。"
+    },
+    {
+      "time": "16:24",
+      "text": "高盛McClure：AI顺风因素对IPO市场产生了显著影响，受市场波动影响，部分IPO可能推迟至2027年。\n私募股权市场并购交易出现“复苏迹象”，企业不会在中期选举前后进行并购投机。"
+    },
+    {
+      "time": "16:19",
+      "text": "美国总统特朗普：提名海蒂·奥弗顿博士担任下一任美国食品药品监督管理局（FDA）局长。"
+    },
+    {
+      "time": "16:07",
+      "text": "现货黄金价格涨3.72%，报4495.29美元/盎司；现货白银价格涨4.15%，报65.93美元/盎司。"
+    },
+    {
+      "time": "16:05",
+      "text": "受美国财政部意外宣布计划削减债券收益率的影响，比特币价格上涨，债券收益率下降，加密货币相关股票走高。\n比特币价格一度上涨7.7%，达到69523美元，创下6月2日以来的最高价。\n数据显示近24小时加密市场总爆仓金额达约13.45亿美元，涉及"
+    },
+    {
+      "time": "15:48",
+      "text": "欧洲超长期债券价格周三上涨，受益于长期美国国债大幅走高并终结了德国国债连续三天的下跌趋势。10年期德国国债债收益率一度下跌2个基点至3.24%，30年期德国国债收益率一度下跌4个基点至3.73%；上述两种期限的收益率均从当天早些时候触及的2"
+    },
     {
       "time": "15:42",
       "text": "欧洲斯托克50指数收盘涨0.4%，德国DAX指数跌0.2%，英国富时100指数涨0.1%，法国CAC 40指数跌0.1%。"
@@ -78,36 +110,44 @@
       "text": "比特币涨幅扩大至7.7%。"
     },
     {
-      "time": "15:28",
-      "text": "特朗普：已与加拿大达成协议。\n重申与加拿大的协议有待最终敲定。\n农民将无需缴纳关税。\n昨晚有大量船只通过了霍尔木兹海峡。\n伊朗不能拥有核武器，因为他们会使用它。\n当这一切结束时，油价会低得多。"
+      "time": "08-19 12:10",
+      "text": "[AV] BNY Mellon Small/Mid Cap Growth Fund Q2 2026 Commentary (DBMAX)"
     },
     {
-      "time": "15:25",
-      "text": "康佳集团股份有限公司原副总裁杨波涉嫌严重违纪违法，目前正接受中央纪委国家监委驻华润集团纪检监察组纪律审查和惠州市惠东县监察委员会监察调查。（“惠州清风”微信公众号）"
+      "time": "08-19 11:10",
+      "text": "[AV] NatWest stock trades softer as forecasts point to limited upside"
     },
     {
-      "time": "15:19",
-      "text": "Lyntris开盘报15.50美元，IPO定价为17.50美元。"
+      "time": "08-19 09:41",
+      "text": "[AV] Stock Market Today: S&P 500, Nasdaq 100 Futures Rise as Trump Says 'No Talks' Are Happening With Iran—Keysight Technolog"
     },
     {
-      "time": "15:13",
-      "text": "SpaceXAI：Grok 4.6现已在Amazon Bedrock上正式可用。"
+      "time": "08-19 04:51",
+      "text": "[AV] Dow stock holds steady as broader market slides on rate and geopolitical worries"
     },
     {
-      "time": "15:11",
-      "text": "中共中央政治局委员、外交部长王毅19日在首尔同韩国外长赵显举行会谈。\n王毅表示，希望双方不断做大合作蛋糕，推动传统产能合作向高附加值合作升级，挖掘人工智能、绿色转型、数字经济、高端设备、银发经济等新的合作增长点，加快推进中韩自贸协定第二阶段"
+      "time": "08-19 04:13",
+      "text": "[AV] iShares MSCI Israel ETF rated BUY for growth amid strong sectors and economic recovery despite risks"
     },
     {
-      "time": "15:10",
-      "text": "以太坊涨至2000.44美元，过去24小时内涨超4%。"
+      "time": "08-18 22:41",
+      "text": "[AV] Mexico ETF Slides 0.6%; Firm Peso Narrows Emerging-Market Loss by 2.3 Points"
     },
     {
-      "time": "15:07",
-      "text": "Scotts Miracle-Gro涨超6%，特朗普称Scotts Miracle-Gro公司是一家伟大的公司。Scotts Miracle-Gro公司免费提供了草坪。"
+      "time": "08-18 21:00",
+      "text": "[AV] Mizuho Markets Head Expects BOJ to Raise Rates Soon, More Often"
     },
     {
-      "time": "15:01",
-      "text": "国内商品期货夜盘收盘，主力合约多数上涨。乙二醇涨超4%，燃油涨超3%，菜油涨超2%，沥青、焦炭、纯碱、20号胶、合成橡胶等涨超1%；铁矿石、PTA跌超1%。"
+      "time": "08-18 20:15",
+      "text": "[AV] Newmont Corporation Stock (NEM) Closed Down by 3.57% on Aug 18: Key Drivers Unveiled"
+    },
+    {
+      "time": "08-18 20:10",
+      "text": "[AV] Tackle Interest Rate Uncertainty With Structured Credit"
+    },
+    {
+      "time": "08-18 19:24",
+      "text": "[AV] Bank of America Says $5,000 Gold Is Within Reach"
     },
     {
       "time": "08-05 20:05",
@@ -134,11 +174,7 @@
       "text": "[Fed] Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
@@ -146,18 +182,12 @@
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4496.3,
-    "measuredMoveLow": 4634.8,
-    "measuredMoveHigh": 4724.6,
-    "sma20": 4427.85,
-    "currentPrice": 4545.0
+    "measuredMoveLow": 4641.8,
+    "measuredMoveHigh": 4731.6,
+    "sma20": 4435.81,
+    "currentPrice": 4552.0
   },
   "bars1h": [
-    {
-      "open": 4468.0,
-      "high": 4482.10009765625,
-      "low": 4466.0,
-      "close": 4482.0
-    },
     {
       "open": 4482.2998046875,
       "high": 4491.7001953125,
@@ -388,18 +418,18 @@
     },
     {
       "open": 4547.0,
-      "high": 4547.0,
+      "high": 4552.7998046875,
       "low": 4536.5,
-      "close": 4545.0
+      "close": 4552.2001953125
+    },
+    {
+      "open": 4552.2001953125,
+      "high": 4557.5,
+      "low": 4549.5,
+      "close": 4552.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4472.39990234375,
-      "high": 4502.7001953125,
-      "low": 4440.0,
-      "close": 4480.39990234375
-    },
     {
       "open": 4480.2001953125,
       "high": 4486.2001953125,
@@ -572,7 +602,13 @@
       "open": 4419.7001953125,
       "high": 4557.60009765625,
       "low": 4417.0,
-      "close": 4545.0
+      "close": 4552.2001953125
+    },
+    {
+      "open": 4552.2001953125,
+      "high": 4557.5,
+      "low": 4549.5,
+      "close": 4552.0
     }
   ],
   "calendar": null,
