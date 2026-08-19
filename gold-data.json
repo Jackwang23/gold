@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-19T17:41:21.695085+00:00",
+  "fetchedAt": "2026-08-19T18:00:11.461686+00:00",
   "gold": {
-    "price": 4489.600098,
-    "updatedAt": "2026-08-19T17:41:08Z"
+    "price": 4486.299805,
+    "updatedAt": "2026-08-19T17:59:38Z"
   },
   "silver": {
-    "price": 65.834,
-    "updatedAt": "2026-08-19T17:41:07Z"
+    "price": 65.799004,
+    "updatedAt": "2026-08-19T17:59:37Z"
   },
   "dxy": {
-    "value": 98.93,
-    "changePct": -0.72
+    "value": 98.95,
+    "changePct": -0.7
   },
   "vix": {
-    "value": 15.26,
-    "changePct": -3.66
+    "value": 15.23,
+    "changePct": -3.85
   },
   "wti": {
-    "value": 85.31,
-    "changePct": 0.44
+    "value": 85.1,
+    "changePct": 0.19
   },
   "btc": {
-    "value": 67979.23,
-    "changePct": 5.1
+    "value": 68187.01,
+    "changePct": 5.42
   },
   "spx": {
-    "value": 7712.87,
-    "changePct": 0.27
+    "value": 7714.86,
+    "changePct": 0.3
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,29 @@
   "correlations": {
     "dataPoints": 32,
     "minRequired": 10,
-    "dxy": -0.702,
+    "dxy": -0.701,
     "realRate": 0.222,
-    "vix": -0.782,
-    "btc": 0.046,
-    "spx": 0.864
+    "vix": -0.783,
+    "btc": 0.053,
+    "spx": 0.865
   },
   "news": [
+    {
+      "time": "17:56",
+      "text": "Meta：面向小型企业推出全新Meta AI功能。"
+    },
+    {
+      "time": "17:50",
+      "text": "这家企业协助该芯片厂商开发开源AI模型，本轮融资对应的企业估值为200亿美元。现有投资方General Catalyst正洽谈牵头本轮融资。\nMercor过往绝大部分收入来自OpenAI、谷歌、Anthropic等闭源AI模型厂商。但随着英"
+    },
+    {
+      "time": "17:45",
+      "text": "据悉，美加一份暂定贸易协议拟将加拿大部分钢铝出口产品关税下调至25%。相关细节尚未敲定，预计不会一刀切全面适用。部分含该类金属的衍生品可能适用不同税率。\n纽柯钢铁（Nucor）与钢铁动力公司（Steel Dynamics）跌幅扩大，双双触及"
+    },
+    {
+      "time": "17:43",
+      "text": "lululemon Athletica的首席通讯官比尔·钱德勒（Bill Chandler）即将离职，最后工作日将是9月4日。而奥尼尔定于9月8日正式就任首席执行官。\n钱德勒是奥尼尔履新前第三位离职的高管。上周，lululemon的首席AI"
+    },
     {
       "time": "17:39",
       "text": "标普：将美光科技评级上调至“BBB+”，因对公司近期需求前景的信心增强。展望为“正面”。"
@@ -94,22 +110,6 @@
       "text": "据印尼气象、气候和地球物理局发布的报告，印尼当地（西部）时间8月19日23时17分，印尼东努沙登加拉省芒加莱县鲁滕镇东北43公里处发生5.7级地震，震源深度10公里。（央视）"
     },
     {
-      "time": "16:32",
-      "text": "人工智能先驱李飞飞表示，包括她本人在内的科技人士需要更好地向公众解释AI带来的益处，并警告称，美国公众日益升温的反对情绪可能给全球带来风险。\n李飞飞表示：“如果我们不能展现出对AI的积极态度和积极发展路径，所有人都会受损。”\n李飞飞认为，这"
-    },
-    {
-      "time": "16:27",
-      "text": "欧洲央行行长拉加德仍受到世界经济论坛招揽，希望其出任高层职务。"
-    },
-    {
-      "time": "16:25",
-      "text": "加拿大总理卡尼：加拿大正朝着与美国达成贸易协议迈进，谈判已取得显著进展。加拿大将在每个战略领域争取“最佳条款”。"
-    },
-    {
-      "time": "16:24",
-      "text": "高盛McClure：AI顺风因素对IPO市场产生了显著影响，受市场波动影响，部分IPO可能推迟至2027年。\n私募股权市场并购交易出现“复苏迹象”，企业不会在中期选举前后进行并购投机。"
-    },
-    {
       "time": "08-05 20:05",
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     },
@@ -144,12 +144,12 @@
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
-    "signalBarBull": false,
-    "signalBarPrice": 4542.8,
-    "measuredMoveLow": 4632.6,
-    "measuredMoveHigh": 4722.4,
-    "sma20": 4443.45,
-    "currentPrice": 4542.8
+    "signalBarBull": true,
+    "signalBarPrice": 4547.0,
+    "measuredMoveLow": 4635.8,
+    "measuredMoveHigh": 4725.6,
+    "sma20": 4443.61,
+    "currentPrice": 4546.0
   },
   "bars1h": [
     {
@@ -390,7 +390,7 @@
       "open": 4551.39990234375,
       "high": 4557.0,
       "low": 4541.89990234375,
-      "close": 4542.7998046875
+      "close": 4546.0
     }
   ],
   "bars4h": [
@@ -572,7 +572,7 @@
       "open": 4552.2001953125,
       "high": 4557.5,
       "low": 4541.89990234375,
-      "close": 4542.7998046875
+      "close": 4546.0
     }
   ],
   "calendar": null,
