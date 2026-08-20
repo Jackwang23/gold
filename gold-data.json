@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-20T16:51:20.554678+00:00",
+  "fetchedAt": "2026-08-20T17:30:14.593330+00:00",
   "gold": {
-    "price": 4512.899902,
-    "updatedAt": "2026-08-20T16:50:40Z"
+    "price": 4513.0,
+    "updatedAt": "2026-08-20T17:29:40Z"
   },
   "silver": {
-    "price": 68.382004,
-    "updatedAt": "2026-08-20T16:50:39Z"
+    "price": 68.257004,
+    "updatedAt": "2026-08-20T17:29:39Z"
   },
   "dxy": {
-    "value": 98.91,
-    "changePct": 0.08
+    "value": 98.92,
+    "changePct": 0.09
   },
   "vix": {
-    "value": 15.75,
-    "changePct": 5.78
+    "value": 15.73,
+    "changePct": 5.64
   },
   "wti": {
-    "value": 86.41,
-    "changePct": 0.68
+    "value": 86.46,
+    "changePct": 0.73
   },
   "btc": {
-    "value": 72627.65,
-    "changePct": 4.85
+    "value": 72790.92,
+    "changePct": 5.09
   },
   "spx": {
-    "value": 7683.34,
-    "changePct": -0.32
+    "value": 7666.22,
+    "changePct": -0.54
   },
   "fred": {
     "10y_treasury": {
@@ -45,10 +45,62 @@
     "dxy": -0.735,
     "realRate": 0.162,
     "vix": -0.766,
-    "btc": 0.315,
-    "spx": 0.839
+    "btc": 0.316,
+    "spx": 0.835
   },
   "news": [
+    {
+      "time": "17:19",
+      "text": "美国发布新的一般许可证，授权为卢克石油国际有限公司的出售谈判及签订或有合同以及相关维护活动进行交易。"
+    },
+    {
+      "time": "17:19",
+      "text": "OpenAI：计算机网页现已在欧元区、英国和瑞士对Mac上的ChatGPT Pro、Business和Enterprise用户开放。\nChatGPT可以记住用户在应用和网站上的活动，因此未来的对话会感觉更个性化，并且需要更少的上下文。"
+    },
+    {
+      "time": "17:17",
+      "text": "周四（8月20日），美联储隔夜逆回购协议（RRP）使用规模为2.25亿美元（交易对手1家），上个交易日报1.55亿美元。"
+    },
+    {
+      "time": "17:09",
+      "text": "德国、法国、意大利和英国领导人联合声明：我们要求以色列立即撤回E1项目，并停止在约旦河西岸的定居点扩张。"
+    },
+    {
+      "time": "17:08",
+      "text": "意大利西雅那银行竞购Banca Generali和Banco BPM。（英国金融时报）"
+    },
+    {
+      "time": "17:07",
+      "text": "LVMH支持的L Catterton将收购日本投资顾问Financial Standard。\n交易金额未披露，据信规模达数十亿日元。（日经新闻）"
+    },
+    {
+      "time": "17:03",
+      "text": "英伟达股价转涨。"
+    },
+    {
+      "time": "17:03",
+      "text": "谷歌：Gemma下载量突破10亿次。"
+    },
+    {
+      "time": "17:02",
+      "text": "美国财政部拍卖80亿美元30年期通胀保值国债（TIPS），得标利率2.973%，投标倍数2.82。"
+    },
+    {
+      "time": "17:00",
+      "text": "国际铜夜盘收涨0.19%，沪铜收涨0.01%，沪铝收跌0.47%，沪锌收涨0.79%，沪铅收涨1.10%，沪镍收跌0.96%，沪锡收涨0.75%。\n氧化铝夜盘收涨0.45%，铝合金收跌0.33%。\n不锈钢夜盘收跌1.39%。"
+    },
+    {
+      "time": "16:59",
+      "text": "美国银行最新的全球基金经理调查显示，股票在专业投资者投资组合中的占比达到56%，为2021年11月份以来最高。在这份调查结果表明基金经理看涨股票的同时，同一份调查还显示，“债券收益率无序上升”被视为股市面临的第二大威胁，仅次于对AI泡沫的担"
+    },
+    {
+      "time": "16:51",
+      "text": "花旗集团的货币策略师近期转为看空美元，原因是市场正在为美联储鹰派立场减弱、中期选举以及美国财政部扩大债务回购做准备。\n由Daniel Tobon领导的花旗策略师在周四的一份研究报告中写道，该团队将未来三个月美元指数预测从102.12下调至9"
+    },
+    {
+      "time": "16:51",
+      "text": "LME期铜收跌13美元，报14036美元/吨。\nLME期铝收跌22美元，报3205美元/吨。\nLME期锌收涨52美元，报3760美元/吨。\nLME期铅收涨14美元，报1902美元/吨。\nLME期镍收跌233美元，报16880美元/吨。\nLM"
+    },
     {
       "time": "16:50",
       "text": "一家美国政府支持的投资联盟正在谈判一项协议，拟对坦桑尼亚一个大型镍矿项目投资超过5亿美元。Orion CMC将收购Kabanga Nickel Ltd.的股份并取得较大少数股权，Lifezone计划保留对该子公司的控制权。（彭博）"
@@ -56,98 +108,6 @@
     {
       "time": "16:46",
       "text": "周四（8月20日）欧市尾盘，ICE英国天然气期货涨2.90%，TTF基准荷兰天然气期货涨2.86%，ICE欧盟碳排放交易许可（期货价格）涨0.74%。"
-    },
-    {
-      "time": "16:45",
-      "text": "德国罗伯特·科赫研究所20日发布的报告说，4月6日至8月9日，德国约有1.4万人死于高温 相关原因，相当于每10万人中就有17人因此身亡。报告说，比较往年，德国今年以来同高温有关的死亡人数已明显升高。"
-    },
-    {
-      "time": "16:42",
-      "text": "英国外交大臣米利班德19日晚发表声明说，以色列政府推进“E1区”定居点建设项目招标是“不可接受且具有破坏性的”行为。米利班德说，“E1区”定居点建设项目将横穿巴勒斯坦地区核心地带，把约旦河西岸与东耶路撒冷分隔开来，这将危及“两国方案”的可行"
-    },
-    {
-      "time": "16:39",
-      "text": "法德意英四国联合声明：我们重申致力于围绕巴勒斯坦实现两国方案的目标。"
-    },
-    {
-      "time": "16:32",
-      "text": "全球疫苗免疫联盟（GAVI）：将提供700万美元，资助向刚果民主共和国（DRC）运送7万剂埃尔维博（ERVEBO）埃博拉疫苗。"
-    },
-    {
-      "time": "16:25",
-      "text": "乌克兰基辅市长克利奇科20日表示，当天基辅市一栋商务中心因无人机残骸坠落起火，造成1人死亡、2人受伤。（央视）"
-    },
-    {
-      "time": "16:24",
-      "text": "德国经济部表示，冬季开始时天然气储存水平在60%-70%之间就足够了，这意味着欧洲最大的能源消费国德国应对供应中断的缓冲能力很弱。该部周四在一份声明中表示，“冬季伊始，库存水平预计在60%至70%之间，加上额外的进口能力，通常足以满足冬季平"
-    },
-    {
-      "time": "16:24",
-      "text": "【美财长：24日举行新闻发布会阐述针对伊朗的行动】8月20日，美国财政部长贝森特表示，他将于24日举行新闻发布会，具体阐述美国针对伊朗的行动计划。贝森特称，“我们掌握非对称信息，我不确定为什么石油问题会成为关注焦点，如果我们施加最大程度的经"
-    },
-    {
-      "time": "16:19",
-      "text": "尽管墨西哥近期物价涨幅有所放缓，但受贸易不确定性和地缘冲突等因素影响，通胀风险仍偏向上行。这是该行8月6日货币政策会议纪要显示的内容。该行重申了利率前瞻指引，称维持利率不变是”适宜的”。\n墨西哥央行（Banxico）理事会部分委员指出，地缘"
-    },
-    {
-      "time": "16:18",
-      "text": "德意志银行正大力重建其能源交易业务，距离该行基本退出大宗商品领域已过去十多年。据知情人士透露，作为该计划的一部分，公司已聘请前高盛集团交易员Madhav Janakiraman和Benoit Bosc，以及至少两名摩根士丹利资深大宗商品销售"
-    },
-    {
-      "time": "16:16",
-      "text": "周四（8月20日）欧市尾盘，德国10年期国债收益率跌0.2个基点，报3.259%，在一波W形反转行情中、北京时间20:34刷新日高至3.276%，随后持续下挫、美国财政部长贝森特谈及债券回购规模之际刷新日低至3.241%、之后收复失地。\n两"
-    },
-    {
-      "time": "16:15",
-      "text": "中国电影《给阿嬷的情书》20日在缅甸仰光首映，中缅两国各界人士200余人观影。（新华社）"
-    },
-    {
-      "time": "16:14",
-      "text": "一艘悬挂喀麦隆国旗的货船“卢图夫”号（LUTUF）在索马里沿海遭海盗劫持。事发地点位于马赖亚镇（Mareerey）以南约6.5公里处。据悉，该船装载有武器、通信设备及卫星设备，原定目的地为索马里首都摩加迪沙的一家土耳其军事训练中心。事发时，"
-    },
-    {
-      "time": "16:14",
-      "text": "在英国新任财政大臣约翰·希利（John Healey）筹备其10月首份秋季预算案之际，英国银行业正密集向政府施压，强烈反对进一步上调行业税收。英国最具影响力的行业协会UK Finance于周四致信希利，明确指出在秋季预算中提高银行业税收将“"
-    },
-    {
-      "time": "08-20 11:38",
-      "text": "[AV] Morgan Stanley is out with its gold price outlook for 2027"
-    },
-    {
-      "time": "08-20 11:20",
-      "text": "[AV] Could Bank of Montreal (TSX:BMO) Strengthen Its Outlook?"
-    },
-    {
-      "time": "08-20 10:11",
-      "text": "[AV] Why Is Royal Gold (NASDAQ:RGLD) Drawing Focus as Nasdaq Resets?"
-    },
-    {
-      "time": "08-20 09:42",
-      "text": "[AV] Bank of Montreal Stock Slides as Downside Pressure Builds: BMO Faces Correction Risk Amid Credit and Macro Concerns"
-    },
-    {
-      "time": "08-20 04:42",
-      "text": "[AV] MSCI World ETF: A Diversified Benchmark That Hangs on a Handful of Tech Stocks"
-    },
-    {
-      "time": "08-20 02:11",
-      "text": "[AV] 3 U.S. Financial Stocks Built to Benefit From Higher Interest Rates"
-    },
-    {
-      "time": "08-19 20:12",
-      "text": "[AV] Sumitomo Mitsui Financial Group Inc Stock (SMFG) Closed Down by 4.78% on Aug 19: What Investors Need To Know"
-    },
-    {
-      "time": "08-19 19:33",
-      "text": "[AV] MSCI World ETF: A Benchmark Squeezed Between Record Territory and Rising Rate Pressures"
-    },
-    {
-      "time": "08-19 18:41",
-      "text": "[AV] Hecla and Coeur Mining stocks jump 13% after Tr..."
-    },
-    {
-      "time": "08-19 17:37",
-      "text": "[AV] C's July Card Delinquencies Tick Up: Will This Impact Asset Quality?"
     },
     {
       "time": "08-19 18:00",
@@ -174,26 +134,24 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4571.7,
-    "measuredMoveLow": 4611.25,
-    "measuredMoveHigh": 4656.8,
-    "sma20": 4552.89,
-    "currentPrice": 4565.7
+    "measuredMoveLow": 4611.05,
+    "measuredMoveHigh": 4656.6,
+    "sma20": 4552.18,
+    "currentPrice": 4565.5
   },
   "bars1h": [
-    {
-      "open": 4386.10009765625,
-      "high": 4401.0,
-      "low": 4384.60009765625,
-      "close": 4391.7998046875
-    },
     {
       "open": 4391.10009765625,
       "high": 4411.10009765625,
@@ -426,7 +384,13 @@
       "open": 4578.10009765625,
       "high": 4580.7001953125,
       "low": 4559.2001953125,
-      "close": 4565.7001953125
+      "close": 4566.7001953125
+    },
+    {
+      "open": 4566.7998046875,
+      "high": 4570.89990234375,
+      "low": 4564.10009765625,
+      "close": 4565.5
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4578.10009765625,
       "high": 4580.7001953125,
       "low": 4559.2001953125,
-      "close": 4565.7001953125
+      "close": 4565.5
     }
   ],
   "calendar": null,
