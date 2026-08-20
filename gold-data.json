@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-20T19:32:15.242254+00:00",
+  "fetchedAt": "2026-08-20T20:03:14.661406+00:00",
   "gold": {
-    "price": 4524.899902,
-    "updatedAt": "2026-08-20T19:31:40Z"
+    "price": 4527.5,
+    "updatedAt": "2026-08-20T20:02:40Z"
   },
   "silver": {
-    "price": 68.246002,
-    "updatedAt": "2026-08-20T19:31:40Z"
+    "price": 68.373001,
+    "updatedAt": "2026-08-20T20:02:40Z"
   },
   "dxy": {
     "value": 98.89,
     "changePct": 0.06
   },
   "vix": {
-    "value": 16.06,
-    "changePct": 7.86
+    "value": 16.05,
+    "changePct": 7.79
   },
   "wti": {
-    "value": 86.75,
-    "changePct": 1.07
+    "value": 86.61,
+    "changePct": 0.91
   },
   "btc": {
-    "value": 72627.75,
-    "changePct": 4.85
+    "value": 72664.73,
+    "changePct": 4.91
   },
   "spx": {
-    "value": 7651.32,
-    "changePct": -0.74
+    "value": 7641.63,
+    "changePct": -0.86
   },
   "fred": {
     "10y_treasury": {
@@ -44,11 +44,35 @@
     "minRequired": 10,
     "dxy": -0.736,
     "realRate": 0.161,
-    "vix": -0.755,
-    "btc": 0.323,
-    "spx": 0.828
+    "vix": -0.754,
+    "btc": 0.325,
+    "spx": 0.824
   },
   "news": [
+    {
+      "time": "20:01",
+      "text": "沃尔玛收跌9.2%，创2022年5月份以来最大单日跌幅。"
+    },
+    {
+      "time": "20:00",
+      "text": "标普500指数初步收跌0.8%，可选消费板块跌1.8%，日用消费品、保健板块跌1.7%，电信板块跌0.7%，科技板块跌0.4%，能源板块涨0.5%。\n纳斯达克100指数初步收跌0.7%，成分股中，沃尔玛初步收跌9%，CrowdStrike跌"
+    },
+    {
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收跌1.15%。\n热门中概股里，网易初步收跌5.7%，新东方跌3.3%，腾讯跌0.8%，拼多多跌0.8%，阿里巴巴涨0.9%，日月光半导体涨2.3%。\nETF中，KWEB跌1.9%，CQQQ跌1.8%。"
+    },
+    {
+      "time": "19:54",
+      "text": "加拿大官员Leblanc：我们“非常接近”（与美国）达成贸易协议。（CBC）"
+    },
+    {
+      "time": "19:44",
+      "text": "周四（8月20日）纽约尾盘，美国10年期国债收益率涨4.35个基点，报4.6902%，北京时间10:41微跌至4.6308%刷新日低，随后持续走高、20:34达到4.7120%，美国财政部长贝森特“回购规模可能会超过40亿美元”的论调带来一"
+    },
+    {
+      "time": "19:42",
+      "text": "美国副总统万斯谈伊朗：我们如今进入了一个新阶段，对伊朗施加经济压力是我们手中最有效的手段。\n但这是一场微妙的博弈：当我们对其施加经济压力时，伊朗也会试图反过来对我们施加经济压力。\n不过过去几周的实际情况是，伊朗承受的压力远大于我们。\n我们会"
+    },
     {
       "time": "19:32",
       "text": "加拿大负责对美贸易事务的部长：加美两国仍在就潜在协议持续开展谈判。"
@@ -86,28 +110,44 @@
       "text": "恒生指数主连夜盘收涨0.00%，报25696点。\n恒生科技指数主连夜盘收跌0.34%，报4686点。"
     },
     {
-      "time": "18:31",
-      "text": "【秘鲁发生7.2级地震，首都利马有震感】8月20日，根据秘鲁地球物理研究所发布的信息，当日13时左右，秘鲁阿亚库乔大区发生7.2级地震。震中位于帕里纳科查斯省科拉科拉以北35公里处，震源深度108公里。首都利马地区有震感，目前尚无人员伤亡报"
+      "time": "08-20 11:38",
+      "text": "[AV] Morgan Stanley is out with its gold price outlook for 2027"
     },
     {
-      "time": "18:30",
-      "text": "WTI 9月原油期货收涨2美元，涨幅2.33%，报87.83美元/桶。\n布伦特10月原油期货收涨2.16美元，涨幅将近2.36%，报93.78美元/桶。\n中东Abu Dhabi Murban原油期货涨1.60%，报100.99美元/桶。\nN"
+      "time": "08-20 11:20",
+      "text": "[AV] Could Bank of Montreal (TSX:BMO) Strengthen Its Outlook?"
     },
     {
-      "time": "18:30",
-      "text": "上期所原油期货2610合约夜盘收涨1.11%，报591.40元人民币/桶。\n沪金夜盘收涨1.03%，沪银收涨2.97%。"
+      "time": "08-20 10:11",
+      "text": "[AV] Why Is Royal Gold (NASDAQ:RGLD) Drawing Focus as Nasdaq Resets?"
     },
     {
-      "time": "18:29",
-      "text": "伊朗外交部20日发表声明，强烈谴责美国对伊朗实施新的经济和贸易制裁，称伊朗将利用“一切工具和能力”维护国家利益和伊朗人民的合法权利。声明说，美国宣布对伊朗实施大规模经济和贸易制裁，侵犯了伊朗公民基本人权，是“经济恐怖主义”和“反人类罪”的体"
+      "time": "08-20 09:42",
+      "text": "[AV] Bank of Montreal Stock Slides as Downside Pressure Builds: BMO Faces Correction Risk Amid Credit and Macro Concerns"
     },
     {
-      "time": "18:27",
-      "text": "特朗普政府正授权提前切换至冬季汽油配方销售，这是其为缓解伊朗战争引发的燃油成本和供应担忧而采取的最新举措。美国环保署宣布，正在放宽正常的夏季汽油要求。这一切换使得可以使用污染更重的冬季燃油配方，通常在9月中旬才会进行。该豁免令允许自9月1日"
+      "time": "08-20 08:08",
+      "text": "[AV] Zacks Industry Outlook U.S. Bancorp, State Street, and Northern Trust"
     },
     {
-      "time": "18:26",
-      "text": "据美国地质调查局地震信息网消息，格林尼治时间8月20日18时整（北京时间8月21日2时整），秘鲁中南部发生6.7级地震，震中位于南纬14.63度、西经73.62度，震源深度66.7公里。（新华社）"
+      "time": "08-20 04:42",
+      "text": "[AV] MSCI World ETF: A Diversified Benchmark That Hangs on a Handful of Tech Stocks"
+    },
+    {
+      "time": "08-20 02:11",
+      "text": "[AV] 3 U.S. Financial Stocks Built to Benefit From Higher Interest Rates"
+    },
+    {
+      "time": "08-19 20:12",
+      "text": "[AV] Sumitomo Mitsui Financial Group Inc Stock (SMFG) Closed Down by 4.78% on Aug 19: What Investors Need To Know"
+    },
+    {
+      "time": "08-19 19:33",
+      "text": "[AV] MSCI World ETF: A Benchmark Squeezed Between Record Territory and Rising Rate Pressures"
+    },
+    {
+      "time": "08-19 18:41",
+      "text": "[AV] Hecla and Coeur Mining stocks jump 13% after Tr..."
     },
     {
       "time": "08-19 18:00",
@@ -134,11 +174,7 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
@@ -146,10 +182,10 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4576.0,
-    "measuredMoveLow": 4626.55,
-    "measuredMoveHigh": 4672.1,
-    "sma20": 4553.44,
-    "currentPrice": 4581.0
+    "measuredMoveLow": 4631.25,
+    "measuredMoveHigh": 4676.8,
+    "sma20": 4553.67,
+    "currentPrice": 4585.7
   },
   "bars1h": [
     {
@@ -388,9 +424,9 @@
     },
     {
       "open": 4578.5,
-      "high": 4585.89990234375,
+      "high": 4587.7001953125,
       "low": 4574.7001953125,
-      "close": 4581.0
+      "close": 4585.7001953125
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4578.10009765625,
-      "high": 4585.89990234375,
+      "high": 4587.7001953125,
       "low": 4559.2001953125,
-      "close": 4581.0
+      "close": 4585.7001953125
     }
   ],
   "calendar": null,
