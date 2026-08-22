@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-22T20:28:48.301395+00:00",
+  "fetchedAt": "2026-08-22T20:52:04.772512+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-22T20:28:42Z"
+    "updatedAt": "2026-08-22T20:51:42Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-22T20:28:41Z"
+    "updatedAt": "2026-08-22T20:51:41Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 77311.57,
-    "changePct": -1.31
+    "value": 77330.38,
+    "changePct": -1.28
   },
   "spx": {
     "value": 7674.37,
@@ -118,6 +118,10 @@
       "text": "[AV] Korea Investment CORP Makes New Investment in Regions Financial Corporation $RF"
     },
     {
+      "time": "08-22 09:09",
+      "text": "[AV] Lincoln National Stock And 2 US Life Insurers For Higher Long Term Yields"
+    },
+    {
       "time": "08-22 06:40",
       "text": "[AV] Zions Bancorp stock holds below recent highs as valuation reflects mixed earnings"
     },
@@ -144,10 +148,6 @@
     {
       "time": "08-21 15:48",
       "text": "[AV] Weyerhaeuser stock holds steady as housing demand supports valuations"
-    },
-    {
-      "time": "08-21 14:09",
-      "text": "[AV] US service sector fuels acceleration in business activity, S&P Global says"
     },
     {
       "time": "08-19 18:00",
