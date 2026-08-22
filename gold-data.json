@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-22T07:55:25.492030+00:00",
+  "fetchedAt": "2026-08-22T08:31:37.642640+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-22T07:55:11Z"
+    "updatedAt": "2026-08-22T08:31:11Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-22T07:55:10Z"
+    "updatedAt": "2026-08-22T08:31:10Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 77339.73,
-    "changePct": -1.27
+    "value": 77132.25,
+    "changePct": -1.54
   },
   "spx": {
     "value": 7674.37,
@@ -49,6 +49,10 @@
     "spx": 0.769
   },
   "news": [
+    {
+      "time": "08:10",
+      "text": "广东省发展改革委印发《推动信用服务业扩能提质的若干措施》，围绕场景拓展、主体培育、跨境合作、环境优化四大方向推出21项具体举措，进一步激发信用服务市场活力，推动行业扩规模、提质量、增效能，助力全省营商环境持续优化。"
+    },
     {
       "time": "07:46",
       "text": "今年第20号台风“简拉维”已于西北太平洋洋面上生成。（央视）"
@@ -106,8 +110,44 @@
       "text": "记者当地时间22日自乌克兰方面获悉，俄军使用弹道导弹袭击基辅达尔尼察区一处铁路企业，1名工作人员遇难。（央视）"
     },
     {
-      "time": "06:36",
-      "text": "金属粉末，激光一扫，一到两天就能打印出一个机器人大腿！传统制造是切削一整块金属，一点一点削成型；工业级金属3D打印则是用金属粉末一层层铺上去，激光逐点烧结，从无到有一层一层长出来。一体成型，多用于航空航天、医疗器械、汽车、机器人等高端制造领"
+      "time": "08-21 22:56",
+      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
+    },
+    {
+      "time": "08-21 19:15",
+      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
+    },
+    {
+      "time": "08-21 17:08",
+      "text": "[AV] Above the Noise: AI, earnings, and permabears"
+    },
+    {
+      "time": "08-21 16:16",
+      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.18% on Aug 21: What Signal Does It Send?"
+    },
+    {
+      "time": "08-21 15:48",
+      "text": "[AV] Weyerhaeuser stock holds steady as housing demand supports valuations"
+    },
+    {
+      "time": "08-21 14:09",
+      "text": "[AV] US service sector fuels acceleration in business activity, S&P Global says"
+    },
+    {
+      "time": "08-21 13:39",
+      "text": "[AV] Why Is Southern Company (NYSE:SO) in Focus as Treasury Yields Rise?"
+    },
+    {
+      "time": "08-21 11:09",
+      "text": "[AV] Asia Emerging Markets Insights: ASEAN - Navigating Macro Headwinds"
+    },
+    {
+      "time": "08-21 10:19",
+      "text": "[AV] Nextpower, Array, and American Superconductor Shares Plummet, What You Need To Know"
+    },
+    {
+      "time": "08-21 09:43",
+      "text": "[AV] Video: Increasing rates. Is it 2007 all over again?"
     },
     {
       "time": "08-19 18:00",
@@ -134,22 +174,18 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 2,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": false,
-    "signalBarPrice": 4661.6,
-    "measuredMoveLow": 4724.05,
-    "measuredMoveHigh": 4786.5,
-    "sma20": 4638.56,
-    "currentPrice": 4661.6
+    "signalBarBull": true,
+    "signalBarPrice": 4686.6,
+    "measuredMoveLow": 4743.05,
+    "measuredMoveHigh": 4805.5,
+    "sma20": 4639.51,
+    "currentPrice": 4680.6
   },
   "bars1h": [
     {
@@ -388,9 +424,9 @@
     },
     {
       "open": 4674.60009765625,
-      "high": 4675.39990234375,
+      "high": 4680.60009765625,
       "low": 4661.0,
-      "close": 4661.60009765625
+      "close": 4680.60009765625
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4674.60009765625,
-      "high": 4675.39990234375,
+      "high": 4680.60009765625,
       "low": 4661.0,
-      "close": 4661.60009765625
+      "close": 4680.60009765625
     }
   ],
   "calendar": null,
