@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-22T04:50:23.644643+00:00",
+  "fetchedAt": "2026-08-22T05:28:19.780599+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-22T04:50:10Z"
+    "updatedAt": "2026-08-22T05:28:10Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-22T04:50:10Z"
+    "updatedAt": "2026-08-22T05:28:10Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 78579.98,
-    "changePct": 7.6
+    "value": 77261.66,
+    "changePct": 5.79
   },
   "spx": {
     "value": 7674.37,
@@ -49,6 +49,26 @@
     "spx": 0.769
   },
   "news": [
+    {
+      "time": "05:22",
+      "text": "比亚迪第三代唐在成都车展亮相，预计四季度上市。新车定位大五座科技旗舰SUV，车身尺寸为5045×1980×1740毫米，轴距2950毫米，第二排腿部空间超过1000毫米，靠背仰角达130°。新车全行业首发“星际双屏”，搭载云辇-A双腔空气悬"
+    },
+    {
+      "time": "05:10",
+      "text": "加拿大总理卡尼21日深夜发表声明，宣布即刻暂停与美国的贸易谈判，并召回加拿大谈判代表团。\n声明说，美国拟于当地时间21日午夜起对价值200亿美元的加拿大商品征收50%的关税。为保护本国企业与工人利益，加拿大将对美方实施对等反制关税。"
+    },
+    {
+      "time": "05:09",
+      "text": "据中建环能消息，近日，群核科技与中建环能举行技术座谈交流会。双方围绕人工智能、空间智能等技术在环保行业中的创新应用展开深入交流，并就数字化场景建设、智能装备升级及业务融合方向进行了研讨。"
+    },
+    {
+      "time": "05:07",
+      "text": "近日，在天津市滨海新区西中环快速路跨海河桥工程南岸主墩施工现场，华北地区在建最大跨径提篮钢箱拱桥转入拱部施工阶段。（新华社）"
+    },
+    {
+      "time": "04:57",
+      "text": "2026年中国国际服务贸易交易会海外分会暨挪威克里斯蒂安松开放日活动21日在挪威西部海滨城市克里斯蒂安松举行。挪威政商界代表在活动上介绍了国家馆建设情况和企业组团参展计划，为挪威以主宾国身份参加今年服贸会预热。2026年服贸会将于9月9日至"
+    },
     {
       "time": "04:36",
       "text": "据阿曼国家通讯社21日报道，阿曼外交大臣巴德尔与伊朗外长阿拉格齐当天进行通话，讨论恢复霍尔木兹海峡自由航行的问题。报道说，双方认为继续谈判并达成切实协议至关重要，有助于恢复霍尔木兹海峡自由航行、维护地区安全稳定。双方还讨论了最新地区局势的发"
@@ -90,66 +110,6 @@
       "text": "美国贸易代表格里尔当地时间8月21日深夜表示，加拿大拒绝在最后期限前与美国最终敲定贸易协议，并仍在继续对美国采取报复性措施。\n加拿大总理卡尼表示，已决定暂停与美国的贸易谈判。卡尼称，谈判进展还不足以实现为加拿大国民设定的目标。\n格里尔称，美"
     },
     {
-      "time": "03:47",
-      "text": "当地时间8月21日午夜，加拿大总理卡尼表示，已决定暂停与美国的贸易谈判。（央视）"
-    },
-    {
-      "time": "03:43",
-      "text": "中信证券研报表示，当前光伏行业需求已基本触底，2026年下半年起国内外装机有望逐季改善；供给侧“反内卷”从自律倡议走向硬性制度约束，能效标准与成本核算通则推动落后产能加速出清，行业竞争重心转向技术及效率比拼。产业链价格及盈利有望迎来修复，具"
-    },
-    {
-      "time": "03:42",
-      "text": "加拿大总理卡尼：已暂停与美国的贸易谈判。\n加拿大将对美国关税进行“对等”反击，一美元对一美元。"
-    },
-    {
-      "time": "03:35",
-      "text": "记者当地时间21日获悉，美国贸易代表格里尔表示，加拿大已拒绝敲定贸易协议。（央视）"
-    },
-    {
-      "time": "03:34",
-      "text": "美国海关发布指导意见，部分加拿大商品或被征收50%的关税，关税将于美国东部时间周六凌晨00:01生效。（彭博）"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
-      "time": "08-21 17:08",
-      "text": "[AV] Above the Noise: AI, earnings, and permabears"
-    },
-    {
-      "time": "08-21 16:16",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.18% on Aug 21: What Signal Does It Send?"
-    },
-    {
-      "time": "08-21 15:48",
-      "text": "[AV] Weyerhaeuser stock holds steady as housing demand supports valuations"
-    },
-    {
-      "time": "08-21 14:09",
-      "text": "[AV] US service sector fuels acceleration in business activity, S&P Global says"
-    },
-    {
-      "time": "08-21 13:39",
-      "text": "[AV] Why Is Southern Company (NYSE:SO) in Focus as Treasury Yields Rise?"
-    },
-    {
-      "time": "08-21 11:09",
-      "text": "[AV] Asia Emerging Markets Insights: ASEAN - Navigating Macro Headwinds"
-    },
-    {
-      "time": "08-21 10:19",
-      "text": "[AV] Nextpower, Array, and American Superconductor Shares Plummet, What You Need To Know"
-    },
-    {
-      "time": "08-21 09:43",
-      "text": "[AV] Video: Increasing rates. Is it 2007 all over again?"
-    },
-    {
-      "time": "08-21 09:40",
-      "text": "[AV] Strategic: Put cash to work"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
