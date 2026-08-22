@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-22T08:31:37.642640+00:00",
+  "fetchedAt": "2026-08-22T09:03:43.247460+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-22T08:31:11Z"
+    "updatedAt": "2026-08-22T09:03:11Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-22T08:31:10Z"
+    "updatedAt": "2026-08-22T09:03:10Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 77132.25,
-    "changePct": -1.54
+    "value": 77067.02,
+    "changePct": -1.62
   },
   "spx": {
     "value": 7674.37,
@@ -45,10 +45,26 @@
     "dxy": -0.781,
     "realRate": -0.156,
     "vix": -0.736,
-    "btc": 0.567,
+    "btc": 0.566,
     "spx": 0.769
   },
   "news": [
+    {
+      "time": "09:01",
+      "text": "中国地震台网正式测定：8月22日16时22分在南极洲斯科舍海（南纬60.45度，西经47.30度）发生6.0级地震，震源深度20千米。"
+    },
+    {
+      "time": "08:38",
+      "text": "东方雨虹近日在机构调研时表示，2026年上半年，公司精准把握原材料价格波动窗口，在不同价位实施了沥青储备，有效摊薄了公司整体沥青库存成本。今年以来，沥青等大宗原材料价格大幅上涨，基于持续优化的行业竞争格局，公司及行业其他头部企业协同推进产品"
+    },
+    {
+      "time": "08:37",
+      "text": "近日，多地“兰州拉面”馆撤换原有招牌，统一更新为“青海拉面”门头，引发广泛关注。记者从青海省拉面产业行业协会获悉：截至目前，全国已有约1000家“兰州拉面”门店完成门头更换。记者走访多家拉面店了解到，很多消费者选择时更看重口味，而不是招牌。"
+    },
+    {
+      "time": "08:36",
+      "text": "8月19日-23日，2026世界机器人大会（WRC）在北京召开。期间，章鱼动力（SynapX）正式发布由SYNWorld世界基础模型、OctoH-Hand高自由度仿生灵巧手及OctoSense数采方案构成的“脑-手-数据”技术体系。该体系旨"
+    },
     {
       "time": "08:10",
       "text": "广东省发展改革委印发《推动信用服务业扩能提质的若干措施》，围绕场景拓展、主体培育、跨境合作、环境优化四大方向推出21项具体举措，进一步激发信用服务市场活力，推动行业扩规模、提质量、增效能，助力全省营商环境持续优化。"
@@ -94,62 +110,6 @@
       "text": "据西班牙方面21日消息，西班牙巴伦西亚自治区塞戈尔韦等地突发森林火灾。由于火势蔓延迅速并威胁周边居民区，当地应急部门已紧急请求派遣军事应急部队赶赴现场支援，并对部分居民实施紧急撤离。"
     },
     {
-      "time": "06:57",
-      "text": "8月21日，第十届全国大学生集成电路创新创业大赛芯片设计与产业链赛项全国总决赛颁奖典礼在上海临港新片区滴水湖会议中心举行。颁奖典礼上，上海集成电路技术与产业促进中心、司南半导体超级孵化器、海洋高新集成电路孵化器、上海临港新工科产教融合研究院"
-    },
-    {
-      "time": "06:56",
-      "text": "据中铝集团消息，8月20日，中铝集团党组书记、董事长段向东在集团总部会见宁德时代创始人、董事长兼CEO曾毓群一行。双方围绕新能源技术应用、绿色能源产业链协同等方向深入交流。"
-    },
-    {
-      "time": "06:46",
-      "text": "8月19日，广东省市场监督管理局组织召开平台企业行政指导会。会议指出部分平台存在商家证照核验流于形式、资质动态管理机制不完善等问题，在零星小额交易管控、账户主体一致性校验方面也存在明显短板；部分平台规则设置存在主观模糊的“口袋条款”，处罚裁"
-    },
-    {
-      "time": "06:42",
-      "text": "记者当地时间22日自乌克兰方面获悉，俄军使用弹道导弹袭击基辅达尔尼察区一处铁路企业，1名工作人员遇难。（央视）"
-    },
-    {
-      "time": "08-21 22:56",
-      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
-      "time": "08-21 17:08",
-      "text": "[AV] Above the Noise: AI, earnings, and permabears"
-    },
-    {
-      "time": "08-21 16:16",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.18% on Aug 21: What Signal Does It Send?"
-    },
-    {
-      "time": "08-21 15:48",
-      "text": "[AV] Weyerhaeuser stock holds steady as housing demand supports valuations"
-    },
-    {
-      "time": "08-21 14:09",
-      "text": "[AV] US service sector fuels acceleration in business activity, S&P Global says"
-    },
-    {
-      "time": "08-21 13:39",
-      "text": "[AV] Why Is Southern Company (NYSE:SO) in Focus as Treasury Yields Rise?"
-    },
-    {
-      "time": "08-21 11:09",
-      "text": "[AV] Asia Emerging Markets Insights: ASEAN - Navigating Macro Headwinds"
-    },
-    {
-      "time": "08-21 10:19",
-      "text": "[AV] Nextpower, Array, and American Superconductor Shares Plummet, What You Need To Know"
-    },
-    {
-      "time": "08-21 09:43",
-      "text": "[AV] Video: Increasing rates. Is it 2007 all over again?"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
