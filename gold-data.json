@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-22T16:50:56.347007+00:00",
+  "fetchedAt": "2026-08-22T17:21:16.251479+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-22T16:50:41Z"
+    "updatedAt": "2026-08-22T17:20:41Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-22T16:50:41Z"
+    "updatedAt": "2026-08-22T17:21:11Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 77358.82,
-    "changePct": -1.25
+    "value": 77305.34,
+    "changePct": -1.31
   },
   "spx": {
     "value": 7674.37,
@@ -110,46 +110,6 @@
       "text": "俄罗斯副总理诺瓦克：俄罗斯当前面临汽油供应紧张问题。\n但国内柴油与航空燃油供应充足。\n俄罗斯多家炼油厂近期已完成检修，并开始供应更多燃料。\n政府尚未决定是否解除目前有效期至9月1日的柴油出口禁令，“我们将密切关注事态发展，并根据需要迅速做出"
     },
     {
-      "time": "08-22 10:41",
-      "text": "[AV] Korea Investment CORP Makes New Investment in Regions Financial Corporation $RF"
-    },
-    {
-      "time": "08-22 06:40",
-      "text": "[AV] Zions Bancorp stock holds below recent highs as valuation reflects mixed earnings"
-    },
-    {
-      "time": "08-21 22:56",
-      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
-      "time": "08-21 18:42",
-      "text": "[AV] Quantum Stocks Face Reality Check: QUBT, QNT Stand Out on 75%+ Upside"
-    },
-    {
-      "time": "08-21 17:08",
-      "text": "[AV] Above the Noise: AI, earnings, and permabears"
-    },
-    {
-      "time": "08-21 16:16",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.18% on Aug 21: What Signal Does It Send?"
-    },
-    {
-      "time": "08-21 15:48",
-      "text": "[AV] Weyerhaeuser stock holds steady as housing demand supports valuations"
-    },
-    {
-      "time": "08-21 14:09",
-      "text": "[AV] US service sector fuels acceleration in business activity, S&P Global says"
-    },
-    {
-      "time": "08-21 13:39",
-      "text": "[AV] Why Is Southern Company (NYSE:SO) in Focus as Treasury Yields Rise?"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
