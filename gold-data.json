@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-23T16:35:07.947569+00:00",
+  "fetchedAt": "2026-08-23T17:01:28.158926+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-23T16:34:44Z"
+    "updatedAt": "2026-08-23T17:01:14Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-23T16:34:43Z"
+    "updatedAt": "2026-08-23T17:01:13Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 77397.84,
-    "changePct": 0.41
+    "value": 77408.49,
+    "changePct": 0.42
   },
   "spx": {
     "value": 7674.37,
@@ -110,46 +110,6 @@
       "text": "新加坡总理黄循财宣布了一揽子育儿福利措施，以支持家庭应对这个城市国家创纪录的低出生率，以及社会对育儿成本与压力的日益担忧。黄循财在周日发表的国庆群众大会演讲中表示，每名新加坡籍儿童在17岁之前将获得近7万新元（约合55,150美元）的直接资"
     },
     {
-      "time": "08-23 10:10",
-      "text": "[AV] Vistra Sheds $4 Billion Over the Week, Yet Analysts Project 62% Potential Gain"
-    },
-    {
-      "time": "08-23 10:08",
-      "text": "[AV] Home Depot Beats Estimates but Loses $1.5 Billion as Transactions Keep Falling"
-    },
-    {
-      "time": "08-23 03:40",
-      "text": "[AV] Canadian Imperial Bank Of Commerce Stock And 2 Lower Risk Picks For Higher Rates"
-    },
-    {
-      "time": "08-22 15:08",
-      "text": "[AV] Zacks Industry Outlook Highlights State Street and Northern Trust"
-    },
-    {
-      "time": "08-22 14:42",
-      "text": "[AV] 4 Stocks in Focus That Declared Dividend Hikes Amid Geopolitical Tensions"
-    },
-    {
-      "time": "08-22 10:41",
-      "text": "[AV] Korea Investment CORP Makes New Investment in Regions Financial Corporation $RF"
-    },
-    {
-      "time": "08-22 09:09",
-      "text": "[AV] Lincoln National Stock And 2 US Life Insurers For Higher Long Term Yields"
-    },
-    {
-      "time": "08-22 06:40",
-      "text": "[AV] Zions Bancorp stock holds below recent highs as valuation reflects mixed earnings"
-    },
-    {
-      "time": "08-21 22:56",
-      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
