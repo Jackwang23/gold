@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-23T04:38:00.540176+00:00",
+  "fetchedAt": "2026-08-23T05:12:37.715017+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-23T04:37:43Z"
+    "updatedAt": "2026-08-23T05:12:13Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-23T04:37:42Z"
+    "updatedAt": "2026-08-23T05:12:12Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 76820.21,
-    "changePct": -1.93
+    "value": 76350.34,
+    "changePct": -2.53
   },
   "spx": {
     "value": 7674.37,
@@ -49,6 +49,14 @@
     "spx": 0.752
   },
   "news": [
+    {
+      "time": "04:44",
+      "text": "周六公布的一份财务披露文件显示，美国总统特朗普6月进行了逾1000笔证券交易，其中大举买入伯克希尔哈撒韦公司、Visa Inc.、Mastercard Inc.和Cintas Corp.。美国联邦政府道德办公室公布的申报文件显示，这些交易总"
+    },
+    {
+      "time": "04:40",
+      "text": "阿里巴巴宣布拟向美国境外的非美国人士配售新股，配售总金额为800亿港元。这也是阿里巴巴2019年港股上市以来首次启动新股配售。本次配售所得款项净额将100%用于投资全栈AI能力，加强AI基础设施建设，进一步巩固阿里在AI领域的全球领先地位。"
+    },
     {
       "time": "02:45",
       "text": "蔚来创始人、董事长、CEO李斌在复旦管院科创论坛表示，中国汽车行业正在进入四个新阶段。第一是“最残酷决赛阶段”：未来三五年，最后的玩家将逐渐尘埃落定，最近两年将决定车企能否跟上竞争。第二是“纯电渗透率加速爬升阶段”：今年仅纯电保持增长，插混"
@@ -102,54 +110,6 @@
       "text": "加拿大总理卡尼：将在未来几天公布新关税措施的细节。\n对美国的报复性关税将于9月8日生效。\n加拿大针对美国的反制措施将集中在钢铁、乳制品等行业。\n我们原本愿意取消对美国的报复性关税。\n我们愿意在美方谈判中取消针对战略行业的剩余报复性关税，尤其"
     },
     {
-      "time": "13:56",
-      "text": "湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。\n"
-    },
-    {
-      "time": "13:49",
-      "text": "英国利兹大学牵头的一项研究发现，运动时释放的一种分子是肌肉适应运动所需的关键物质。这种分子有助于增强肌肉力量和耐力，帮助抵御肌肉损伤，还可能成为治疗2型糖尿病引起肌肉损伤的潜在靶点。（新华社）"
-    },
-    {
-      "time": "08-22 15:08",
-      "text": "[AV] Zacks Industry Outlook Highlights State Street and Northern Trust"
-    },
-    {
-      "time": "08-22 14:42",
-      "text": "[AV] 4 Stocks in Focus That Declared Dividend Hikes Amid Geopolitical Tensions"
-    },
-    {
-      "time": "08-22 10:41",
-      "text": "[AV] Korea Investment CORP Makes New Investment in Regions Financial Corporation $RF"
-    },
-    {
-      "time": "08-22 09:09",
-      "text": "[AV] Lincoln National Stock And 2 US Life Insurers For Higher Long Term Yields"
-    },
-    {
-      "time": "08-22 06:40",
-      "text": "[AV] Zions Bancorp stock holds below recent highs as valuation reflects mixed earnings"
-    },
-    {
-      "time": "08-21 22:56",
-      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
-      "time": "08-21 18:42",
-      "text": "[AV] Quantum Stocks Face Reality Check: QUBT, QNT Stand Out on 75%+ Upside"
-    },
-    {
-      "time": "08-21 17:08",
-      "text": "[AV] Above the Noise: AI, earnings, and permabears"
-    },
-    {
-      "time": "08-21 16:16",
-      "text": "[AV] Newmont Corporation Stock (NEM) Moved Up by 3.18% on Aug 21: What Signal Does It Send?"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
