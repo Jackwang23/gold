@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-23T08:36:05.809023+00:00",
+  "fetchedAt": "2026-08-23T09:04:09.215670+00:00",
   "gold": {
     "price": 4604.399902,
-    "updatedAt": "2026-08-23T08:35:43Z"
+    "updatedAt": "2026-08-23T09:03:43Z"
   },
   "silver": {
     "price": 69.108002,
-    "updatedAt": "2026-08-23T08:35:42Z"
+    "updatedAt": "2026-08-23T09:03:42Z"
   },
   "dxy": {
     "value": 98.8,
@@ -21,8 +21,8 @@
     "changePct": -0.88
   },
   "btc": {
-    "value": 76320.43,
-    "changePct": -0.99
+    "value": 76522.24,
+    "changePct": -0.73
   },
   "spx": {
     "value": 7674.37,
@@ -110,46 +110,6 @@
       "text": "匈牙利总理毛焦尔·彼得22日宣布，得益于紧急工程施工作业及多瑙河水位回升，该国唯一的核电站——保克什核电站3号机组已于当天恢复发电。\n“若一切顺利，核电站将于下周三（26日）恢复至2000兆瓦的全额产能，全部8台汽轮机将再次投入运行。”毛焦"
     },
     {
-      "time": "08-23 03:40",
-      "text": "[AV] Canadian Imperial Bank Of Commerce Stock And 2 Lower Risk Picks For Higher Rates"
-    },
-    {
-      "time": "08-22 15:08",
-      "text": "[AV] Zacks Industry Outlook Highlights State Street and Northern Trust"
-    },
-    {
-      "time": "08-22 14:42",
-      "text": "[AV] 4 Stocks in Focus That Declared Dividend Hikes Amid Geopolitical Tensions"
-    },
-    {
-      "time": "08-22 10:41",
-      "text": "[AV] Korea Investment CORP Makes New Investment in Regions Financial Corporation $RF"
-    },
-    {
-      "time": "08-22 09:09",
-      "text": "[AV] Lincoln National Stock And 2 US Life Insurers For Higher Long Term Yields"
-    },
-    {
-      "time": "08-22 06:40",
-      "text": "[AV] Zions Bancorp stock holds below recent highs as valuation reflects mixed earnings"
-    },
-    {
-      "time": "08-21 22:56",
-      "text": "[AV] ING stock trades below fair value as Q2 2026 strength supports capital moves"
-    },
-    {
-      "time": "08-21 19:15",
-      "text": "[AV] Goldman Sachs Group Inc Stock (GS) Moved Up by 3.73% on Aug 21: Facts Behind the Movement"
-    },
-    {
-      "time": "08-21 18:42",
-      "text": "[AV] Quantum Stocks Face Reality Check: QUBT, QNT Stand Out on 75%+ Upside"
-    },
-    {
-      "time": "08-21 17:08",
-      "text": "[AV] Above the Noise: AI, earnings, and permabears"
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
