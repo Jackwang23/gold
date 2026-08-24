@@ -1,41 +1,41 @@
 {
-  "fetchedAt": "2026-08-24T19:58:01.361204+00:00",
+  "fetchedAt": "2026-08-24T20:39:37.144225+00:00",
   "gold": {
-    "price": 4653.600098,
-    "updatedAt": "2026-08-24T19:57:46Z"
+    "price": 4650.100098,
+    "updatedAt": "2026-08-24T20:39:16Z"
   },
   "silver": {
-    "price": 68.946999,
-    "updatedAt": "2026-08-24T19:57:46Z"
+    "price": 68.984001,
+    "updatedAt": "2026-08-24T20:39:16Z"
   },
   "dxy": {
-    "value": 99.01,
-    "changePct": 0.21
+    "value": 99.0,
+    "changePct": 0.2
   },
   "vix": {
-    "value": 15.83,
-    "changePct": 4.63
+    "value": 15.85,
+    "changePct": 4.76
   },
   "wti": {
-    "value": 85.04,
-    "changePct": -2.32
+    "value": 84.96,
+    "changePct": -2.41
   },
   "btc": {
-    "value": 78720.27,
-    "changePct": 1.24
+    "value": 78944.61,
+    "changePct": 1.53
   },
   "spx": {
-    "value": 7655.43,
-    "changePct": -0.25
+    "value": 7652.86,
+    "changePct": -0.28
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-08-20",
-      "value": 4.69
+      "date": "2026-08-21",
+      "value": 4.74
     },
     "10y_real_rate": {
-      "date": "2026-08-20",
-      "value": 2.35
+      "date": "2026-08-21",
+      "value": 2.4
     }
   },
   "goldapi": null,
@@ -43,71 +43,111 @@
     "dataPoints": 37,
     "minRequired": 10,
     "dxy": -0.802,
-    "realRate": -0.285,
+    "realRate": -0.216,
     "vix": -0.706,
     "btc": 0.674,
     "spx": 0.726
   },
   "news": [
     {
+      "time": "20:27",
+      "text": "以色列国防军和以国家安全总局（辛贝特）24日发表联合声明称，以军当日打击加沙地带两处巴勒斯坦伊斯兰抵抗运动（哈马斯）的武器库。（新华社）"
+    },
+    {
+      "time": "20:23",
+      "text": "【伊朗最高领袖顾问：回应美方威胁将比以往更加坚决】伊朗最高领袖顾问穆赫贝尔24日晚在社交媒体平台表示，面对美方威胁，伊朗的回应将比以往更加坚决。美国财政部长贝森特24日召开新闻发布会，公布针对伊朗的经济制裁措施，以进一步加大对伊朗的施压。（"
+    },
+    {
+      "time": "20:21",
+      "text": "周一（8月24日），美国布伦特油价基金收跌1.9%，新兴市场ETF跌1.5%，大豆基金、纳斯达克100 ETF至多跌1.14%，巴克莱美国可转债ETF跌0.99%，罗素2000指数ETF、标普500 ETF、欧元做多、日元做多、农产品基金至"
+    },
+    {
+      "time": "20:19",
+      "text": "周一（8月24日），彭博电动汽车价格回报指数跌0.23%，报3503.23点，整体高开低走。"
+    },
+    {
+      "time": "20:17",
+      "text": "德意志银行表示，如果财政部选择动用其在美联储的一般账户（TGA）资金来为日益扩大的国债回购提供融资，这对银行准备金和国库券发行的影响将是中性的。\n德意志银行策略师曾晟（Steven Zeng）表示：“我不确定他们的意思是，将从TGA为增量回"
+    },
+    {
+      "time": "20:15",
+      "text": "北美科技软件股指数ETF跌0.89%，报102.45美元。\nGlobal X网络安全ETF跌1.65%，纳斯达克网络安全ETF跌1.71%，ETFMG网络安全ETF跌1.84%。"
+    },
+    {
+      "time": "20:12",
+      "text": "美国证券交易委员会（SEC）就Situational Awareness传唤多家银行。\nSEC要求它们围绕Situational Awareness交易提供细节信息。\nSEC警告银行业保留与Situational Awareness相关的信"
+    },
+    {
+      "time": "20:11",
+      "text": "标普500指数的11个板块多数收涨，日用消费品、金融、公用事业、电信板块至少涨1.01%，能源板块跌0.76%，信息技术/科技板块跌1.59%。"
+    },
+    {
+      "time": "20:06",
+      "text": "周一（8月24日），美股行业ETF涨跌各异，半导体ETF收跌2.43%，全球科技股指数ETF、科技行业ETF至多跌1.94%，能源业ETF跌0.83%。"
+    },
+    {
+      "time": "20:04",
+      "text": "美国农业部（USDA）：美国大豆作物上周优良率为60%，玉米作物优良率57%，棉花作物优良率37%。"
+    },
+    {
+      "time": "20:02",
+      "text": "加拿大股市涨0.3%，创8月14日以来收盘新高。"
+    },
+    {
+      "time": "20:01",
+      "text": "英伟达连跌七天，创2022年以来最长连跌天数。"
+    },
+    {
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数收跌1.66%，报6199.18点，失守50日均线（该技术指标目前报6229.86点），最近数日持续测试这一技术指标。\nETF中，中国科技指数ETF（CQQQ）收跌2.84%，中概互联网指数ETF（KWEB）收跌1.54"
+    },
+    {
+      "time": "20:00",
+      "text": "标普500指数收跌21.51点，跌幅0.28%，报7652.86点，低开之后整体低位震荡。\n道琼斯工业平均指数收涨140.15点，涨幅0.26%，报53417.16点。\n纳斯达克综合指数（纳指）收跌200.264点，跌幅0.77%，报259"
+    },
+    {
       "time": "19:51",
       "text": "当地时间24日晚，伊朗经济和财政部长马达尼扎德表示，伊朗政府长期以来一直在筹划应对美国制裁，并已做好应对新制裁的充分准备。他表示，世界金融和经济命脉并非如此简单，美国不可能“完全切断伊朗的金融和贸易联系。”马达尼扎德称，如果美国胆敢采取任何"
     },
     {
-      "time": "19:35",
-      "text": "周一（8月24日）纽约尾盘，美国10年期国债收益率跌3.18个基点，报4.7021%，整固持续走低，美国财政部长贝森特讲话期间、在北京时间00:04刷新日低至4.6782%。\n两年期美债收益率持平，报4.2358%；30年期美债收益率跌4."
+      "time": "08-24 14:15",
+      "text": "[AV] Don’t let debt fears derail market perspective"
     },
     {
-      "time": "19:27",
-      "text": "委内瑞拉代总统Delcy Rodriguez：委内瑞拉与Barbados签署能源协议。"
+      "time": "08-24 13:45",
+      "text": "[AV] Morgan Stanley warns bond yields could rise in post-WWII-style era"
     },
     {
-      "time": "19:25",
-      "text": "伊朗总统：华盛顿方面必须改变对待德黑兰的口吻与处事方式，依靠胁迫与霸凌只会让推进相关进程变得更加复杂。"
+      "time": "08-24 13:42",
+      "text": "[AV] FX Weekly Overview (Brazil Issue)"
     },
     {
-      "time": "19:25",
-      "text": "美军南方司令部24日发表声明说，美军23日在东太平洋打击一艘“贩毒船”，造成船上两人死亡。\n这是美军南方司令部时隔两月后再次宣布对所谓“贩毒船”发动打击。声明说，根据美军南方司令部司令弗朗西斯·多诺万的命令，美军“西半球联合特遣部队”对一艘"
+      "time": "08-24 13:42",
+      "text": "[AV] Precious Metals StoneX Bullion weekly round-up; bond yields, debasement; conflicting influences on gold"
     },
     {
-      "time": "19:20",
-      "text": "周一（8月24日）纽约尾盘，美元兑日元涨0.15%，报159.20日元，日内交投区间为158.56-159.28日元。\n欧元兑日元大致持平，英镑兑日元涨0.04%。"
+      "time": "08-24 12:46",
+      "text": "[AV] Morgan Stanley sees quality stocks and AI adopters leading market"
     },
     {
-      "time": "19:18",
-      "text": "周一（8月24日）纽约尾盘，ICE美元指数涨0.22%，报99.021点，日内交投区间为98.762-99.063点。\n彭博美元指数涨0.19%，报1193.86点，日内交投区间为1190.85-1194.24点。"
+      "time": "08-24 12:45",
+      "text": "[AV] Granite REIT Stock Faces Renewed Pressure as a Sharp August Decline Raises Correction and Valuation Concerns"
     },
     {
-      "time": "19:16",
-      "text": "周一（8月24日）纽约尾盘，彭博谷物分类指数跌0.03%，报33.1748点。\nCBOT玉米期货涨1.28%，CBOT小麦期货涨0.21%。\nCBOT大豆期货跌1.23%，报12.2550美元/蒲式耳，豆粕期货涨0.80%，豆油期货跌3.1"
+      "time": "08-24 10:09",
+      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
     },
     {
-      "time": "19:06",
-      "text": "美国财政部宣布组建量子就绪工作组。\n工作组将帮助转化量子安全技术。"
+      "time": "08-24 09:46",
+      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
     },
     {
-      "time": "19:05",
-      "text": "路透社与益普索联合开展的民调显示，美国民众对伊朗战争的支持率已降至31%，为冲突爆发初期以来的最低水平。\n特朗普支持率维持在33%，持平其总统任期最低水平。"
+      "time": "08-24 09:29",
+      "text": "[AV] Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up"
     },
     {
-      "time": "19:05",
-      "text": "伊朗经济部长阿里·马达尼扎德：我们已为美国制裁做好充分准备，他们（美国）无法切断我们的金融命脉。"
-    },
-    {
-      "time": "19:03",
-      "text": "恒生指数主连夜盘收涨0.57%，报25599点。\n恒生科技指数主连夜盘收涨0.35%，报4597点。"
-    },
-    {
-      "time": "19:01",
-      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7224元，较上周五夜盘收盘跌9点。成交量349.53亿美元。"
-    },
-    {
-      "time": "18:30",
-      "text": "WTI 10月原油期货收跌2.05美元，跌幅超过2.35%，报85.01美元/桶。\n布伦特10月原油期货收跌2.22美元，跌幅2.35%，报92.17美元/桶。\n中东Abu Dhabi Murban原油期货跌2.23%，报101.18美元/"
-    },
-    {
-      "time": "18:30",
-      "text": "上期所原油期货2610合约夜盘收跌0.98%，报587.8元人民币/桶。\n沪金夜盘收涨0.61%，沪银收跌0.65%。"
+      "time": "08-24 08:43",
+      "text": "[AV] Uranium Energy Corp embraces long-term growth with heavy investment despite low prices and risks."
     },
     {
       "time": "08-19 18:00",
@@ -134,30 +174,20 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": true,
-    "signalBarPrice": 4708.0,
-    "measuredMoveLow": 4751.35,
-    "measuredMoveHigh": 4794.7,
-    "sma20": 4702.18,
-    "currentPrice": 4708.0
+    "signalBarPrice": 4707.5,
+    "measuredMoveLow": 4742.05,
+    "measuredMoveHigh": 4779.0,
+    "sma20": 4703.47,
+    "currentPrice": 4705.1
   },
   "bars1h": [
-    {
-      "open": 4590.0,
-      "high": 4594.7001953125,
-      "low": 4582.60009765625,
-      "close": 4590.89990234375
-    },
     {
       "open": 4591.5,
       "high": 4604.39990234375,
@@ -388,9 +418,15 @@
     },
     {
       "open": 4692.7001953125,
-      "high": 4708.10009765625,
+      "high": 4712.10009765625,
       "low": 4692.2001953125,
-      "close": 4708.0
+      "close": 4707.5
+    },
+    {
+      "open": 4707.89990234375,
+      "high": 4711.5,
+      "low": 4705.0,
+      "close": 4705.10009765625
     }
   ],
   "bars4h": [
@@ -572,7 +608,7 @@
       "open": 4702.2001953125,
       "high": 4712.7001953125,
       "low": 4681.2001953125,
-      "close": 4708.0
+      "close": 4705.10009765625
     }
   ],
   "calendar": null,
