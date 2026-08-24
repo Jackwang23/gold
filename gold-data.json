@@ -1,15 +1,15 @@
 {
-  "fetchedAt": "2026-08-24T20:39:37.144225+00:00",
+  "fetchedAt": "2026-08-24T21:06:04.342480+00:00",
   "gold": {
-    "price": 4650.100098,
-    "updatedAt": "2026-08-24T20:39:16Z"
+    "price": 4652.799805,
+    "updatedAt": "2026-08-24T21:05:46Z"
   },
   "silver": {
-    "price": 68.984001,
-    "updatedAt": "2026-08-24T20:39:16Z"
+    "price": 69.086998,
+    "updatedAt": "2026-08-24T21:05:46Z"
   },
   "dxy": {
-    "value": 99.0,
+    "value": 98.99,
     "changePct": 0.2
   },
   "vix": {
@@ -17,12 +17,12 @@
     "changePct": 4.76
   },
   "wti": {
-    "value": 84.96,
-    "changePct": -2.41
+    "value": 84.94,
+    "changePct": -2.44
   },
   "btc": {
-    "value": 78944.61,
-    "changePct": 1.53
+    "value": 78996.96,
+    "changePct": 1.6
   },
   "spx": {
     "value": 7652.86,
@@ -44,11 +44,35 @@
     "minRequired": 10,
     "dxy": -0.802,
     "realRate": -0.216,
-    "vix": -0.706,
+    "vix": -0.705,
     "btc": 0.674,
-    "spx": 0.726
+    "spx": 0.725
   },
   "news": [
+    {
+      "time": "21:06",
+      "text": "据知情人士透露，Oura寻求通过IPO融资至多30亿美元。（彭博）"
+    },
+    {
+      "time": "21:04",
+      "text": "周一（8月24日）纽约尾盘（周二北京时间04:59），离岸人民币（CNH）兑美元报6.7218元，较上周五纽约尾盘跌8点，日内整体交投于6.7128-6.7255元区间，亚太盘初逼近2023年2月2日顶部6.7057元和当年1月16日顶部6"
+    },
+    {
+      "time": "20:59",
+      "text": "周一（8月24日）纽约尾盘，现货黄金涨1.04%，报4650.51美元/盎司，在震荡上行行情中、北京时间21:35达到4680.92美元，逼近5月14日顶部4718.64美元和3月2日顶部5419.11美元，持续站上200日均线（该技术指标"
+    },
+    {
+      "time": "20:54",
+      "text": "特朗普政府准备吊销最多20万名外籍人士的商务及旅游签证，这些人已经提交或者正在申请美国庇护身份。如若落实，这将是美国历史上单笔规模最大的批量吊销签证行动，该举措很可能面临法律诉讼。根据美国国务院文件以及两名美方官员透露，除非遭遇法律挑战或者"
+    },
+    {
+      "time": "20:53",
+      "text": "在美国法院叫停了一项针对境外工人、范围更窄的六位数收费之后，特朗普政府希望通过正式法规，对H-1B项目加征一项适用范围更广的103,265美元费用，将其适用于在美国境内被聘用的人员。\n美国国土安全部周一在一项拟议规则中提出的这项新费用，将加"
+    },
+    {
+      "time": "20:50",
+      "text": "当地时间24日，谈及加美关税冲突，加拿大总理卡尼表示，如果美国改变策略，加拿大愿意进行对话。卡尼称，如果“美国人首先以对我们产业的正确态度和真正的伙伴关系坐到谈判桌前，我们当然也会坐到谈判桌前。”他表示，不会接受“加拿大是美国的附庸”这种观"
+    },
     {
       "time": "20:27",
       "text": "以色列国防军和以国家安全总局（辛贝特）24日发表联合声明称，以军当日打击加沙地带两处巴勒斯坦伊斯兰抵抗运动（哈马斯）的武器库。（新华社）"
@@ -86,70 +110,6 @@
       "text": "周一（8月24日），美股行业ETF涨跌各异，半导体ETF收跌2.43%，全球科技股指数ETF、科技行业ETF至多跌1.94%，能源业ETF跌0.83%。"
     },
     {
-      "time": "20:04",
-      "text": "美国农业部（USDA）：美国大豆作物上周优良率为60%，玉米作物优良率57%，棉花作物优良率37%。"
-    },
-    {
-      "time": "20:02",
-      "text": "加拿大股市涨0.3%，创8月14日以来收盘新高。"
-    },
-    {
-      "time": "20:01",
-      "text": "英伟达连跌七天，创2022年以来最长连跌天数。"
-    },
-    {
-      "time": "20:00",
-      "text": "纳斯达克金龙中国指数收跌1.66%，报6199.18点，失守50日均线（该技术指标目前报6229.86点），最近数日持续测试这一技术指标。\nETF中，中国科技指数ETF（CQQQ）收跌2.84%，中概互联网指数ETF（KWEB）收跌1.54"
-    },
-    {
-      "time": "20:00",
-      "text": "标普500指数收跌21.51点，跌幅0.28%，报7652.86点，低开之后整体低位震荡。\n道琼斯工业平均指数收涨140.15点，涨幅0.26%，报53417.16点。\n纳斯达克综合指数（纳指）收跌200.264点，跌幅0.77%，报259"
-    },
-    {
-      "time": "19:51",
-      "text": "当地时间24日晚，伊朗经济和财政部长马达尼扎德表示，伊朗政府长期以来一直在筹划应对美国制裁，并已做好应对新制裁的充分准备。他表示，世界金融和经济命脉并非如此简单，美国不可能“完全切断伊朗的金融和贸易联系。”马达尼扎德称，如果美国胆敢采取任何"
-    },
-    {
-      "time": "08-24 14:15",
-      "text": "[AV] Don’t let debt fears derail market perspective"
-    },
-    {
-      "time": "08-24 13:45",
-      "text": "[AV] Morgan Stanley warns bond yields could rise in post-WWII-style era"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] FX Weekly Overview (Brazil Issue)"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] Precious Metals StoneX Bullion weekly round-up; bond yields, debasement; conflicting influences on gold"
-    },
-    {
-      "time": "08-24 12:46",
-      "text": "[AV] Morgan Stanley sees quality stocks and AI adopters leading market"
-    },
-    {
-      "time": "08-24 12:45",
-      "text": "[AV] Granite REIT Stock Faces Renewed Pressure as a Sharp August Decline Raises Correction and Valuation Concerns"
-    },
-    {
-      "time": "08-24 10:09",
-      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
-    },
-    {
-      "time": "08-24 09:46",
-      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
-    },
-    {
-      "time": "08-24 09:29",
-      "text": "[AV] Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up"
-    },
-    {
-      "time": "08-24 08:43",
-      "text": "[AV] Uranium Energy Corp embraces long-term growth with heavy investment despite low prices and risks."
-    },
-    {
       "time": "08-19 18:00",
       "text": "[Fed] Minutes of the Federal Open Market Committee, July 28–29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
@@ -182,10 +146,10 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4707.5,
-    "measuredMoveLow": 4742.05,
-    "measuredMoveHigh": 4779.0,
-    "sma20": 4703.47,
-    "currentPrice": 4705.1
+    "measuredMoveLow": 4744.35,
+    "measuredMoveHigh": 4781.3,
+    "sma20": 4703.58,
+    "currentPrice": 4707.4
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4707.89990234375,
       "high": 4711.5,
-      "low": 4705.0,
-      "close": 4705.10009765625
+      "low": 4703.39990234375,
+      "close": 4707.39990234375
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4702.2001953125,
       "high": 4712.7001953125,
       "low": 4681.2001953125,
-      "close": 4705.10009765625
+      "close": 4707.39990234375
     }
   ],
   "calendar": null,
