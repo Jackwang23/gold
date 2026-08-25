@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-25T04:39:34.628644+00:00",
+  "fetchedAt": "2026-08-25T05:17:24.329271+00:00",
   "gold": {
-    "price": 4628.5,
-    "updatedAt": "2026-08-25T04:39:17Z"
+    "price": 4642.100098,
+    "updatedAt": "2026-08-25T05:17:17Z"
   },
   "silver": {
-    "price": 67.936996,
-    "updatedAt": "2026-08-25T04:39:17Z"
+    "price": 68.223999,
+    "updatedAt": "2026-08-25T05:17:17Z"
   },
   "dxy": {
-    "value": 99.08,
-    "changePct": 0.08
+    "value": 99.07,
+    "changePct": 0.07
   },
   "vix": {
     "value": 15.85,
     "changePct": 4.76
   },
   "wti": {
-    "value": 85.26,
-    "changePct": 0.29
+    "value": 85.06,
+    "changePct": 0.06
   },
   "btc": {
-    "value": 80329.78,
-    "changePct": 3.31
+    "value": 80472.56,
+    "changePct": 3.49
   },
   "spx": {
     "value": 7652.86,
@@ -42,13 +42,53 @@
   "correlations": {
     "dataPoints": 38,
     "minRequired": 10,
-    "dxy": -0.807,
+    "dxy": -0.806,
     "realRate": -0.208,
-    "vix": -0.684,
-    "btc": 0.71,
-    "spx": 0.704
+    "vix": -0.683,
+    "btc": 0.712,
+    "spx": 0.703
   },
   "news": [
+    {
+      "time": "05:15",
+      "text": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。"
+    },
+    {
+      "time": "05:14",
+      "text": "长飞光纤光缆港股午后持续拉升，现涨超16%。"
+    },
+    {
+      "time": "05:13",
+      "text": "A股PCB概念股探底回升，金安国纪午后涨停。"
+    },
+    {
+      "time": "05:11",
+      "text": "近期，国际金价快速反弹。国内黄金零售市场也随之波动。作为全国黄金珠宝市场的“风向标”，深圳水贝市场上周末迎来了一波客流小高峰。记者在调研中发现，随着金价在高位波动，消费者不再盲目“求大”，转而青睐“轻量化”与“高颜值”兼具的产品。多家商户表"
+    },
+    {
+      "time": "05:04",
+      "text": "巴基斯坦三军新闻局25日发表声明说，巴陆军参谋长穆尼尔与内政部长纳克维结束了对伊朗为期一天的访问，巴伊双方重点围绕防止局势进一步升级、重新开放霍尔木兹海峡以及加快结束冲突的措施进行了全面讨论。 声明说，双方还就地区和平以及如何通过谈判解决争"
+    },
+    {
+      "time": "05:03",
+      "text": "8月25日，针对近期市场对公司业务调整的关注，追觅科技发布说明称，公司近期确实对部分处于探索阶段的业务进行了调整，但公司主营业务及整体经营活动保持稳定，核心产品研发、生产、销售、交付及售后服务均正常开展，国内外市场业务按照既定计划推进。追觅"
+    },
+    {
+      "time": "05:03",
+      "text": "A股液冷服务器午后持续走高，英维克、康盛股份、亿利达涨停，申菱环境涨超10%，同飞股份、汇通能源、五洋自控、豪尔赛、银轮股份跟涨。"
+    },
+    {
+      "time": "05:00",
+      "text": "日本6月领先指标终值 116.5，初值 116.4。"
+    },
+    {
+      "time": "05:00",
+      "text": "日本6月同步指标终值 118.5，初值 118.2。"
+    },
+    {
+      "time": "04:50",
+      "text": "特斯拉：将美国市场Cybertruck双电机全轮驱动车型售价上调至74,990美元；\n将Cybertruck Premium全轮驱动车型售价上调至84,990美元。"
+    },
     {
       "time": "04:37",
       "text": "我国专家牵头，联合美国、德国、法国、日本、意大利等多国专家共同制定的国际标准《电子和通信设备用变压器、电感器的测量方法和试验程序》近日由国际电工委员会（IEC）与电气电子工程师学会（IEEE）联合发布，正式成为全球电子通信磁性元件检测领域统"
@@ -68,86 +108,6 @@
     {
       "time": "04:27",
       "text": "今年第18号台风“沙德尔”（强台风级）将于8月26日进入东海，并向浙闽一带沿海靠近。受其影响，浙江东南部等地部分地区有大到暴雨。根据《国家防汛抗旱应急预案》及有关规定，国家防总、应急管理部决定于8月25日10时针对浙江省启动防汛防台风四级应"
-    },
-    {
-      "time": "04:26",
-      "text": "8月25日，位于山东济南黄岗路的黄河隧道正式通车，这也是国内首条穿越黄河的单洞双层盾构隧道。据介绍，以前驾车从济南龙湖湿地公园到蓝翔中路，需要40分钟，现在通行只需要约5分钟。（央视新闻）"
-    },
-    {
-      "time": "04:26",
-      "text": "当地时间25日，俄罗斯克拉斯诺达尔边疆区行政长官孔德拉季耶夫通报，当天凌晨，黑海沿岸阿菲普斯基镇遭袭，至少10栋私人住宅受损，其中1栋起火。炼油厂区域内也发生了火灾。乌军无人机碎片坠落在阿菲普斯基火车站区域，造成2人遇难、2人受伤。"
-    },
-    {
-      "time": "04:25",
-      "text": "据气象部门预报，未来三天，西北地区、内蒙古、华北等地有明显降雨过程，青海东部和南部、内蒙古西部、河北中部、北京、天津等地部分地区有大到暴雨，其中部分地区有大暴雨，局地有特大暴雨。根据《国家防汛抗旱应急预案》及有关规定，国家防总、应急管理部决"
-    },
-    {
-      "time": "04:22",
-      "text": "新疆发行20年期其他专项地方债，规模0.9600亿元，发行利率2.2500%，边际倍数8.33倍，倍数预期2.24；\n新疆发行30年期其他专项地方债，规模13.0600亿元，发行利率2.2900%，边际倍数6.81倍，倍数预期2.28；\n新"
-    },
-    {
-      "time": "04:20",
-      "text": "新疆发行20年期一般债地方债，规模13.4900亿元，发行利率2.2300%，边际倍数2.86倍，倍数预期2.25；\n新疆发行10年期其他专项地方债，规模4.2200亿元，发行利率1.7300%，边际倍数2.63倍，倍数预期1.73；\n新疆"
-    },
-    {
-      "time": "04:16",
-      "text": "特步国际上半年净利润8.179亿元人民币，上年同期9.136亿元人民币。\n上半年营收67.9亿元人民币，同比-0.7%。\n每股中期派息0.18港元，上年同期0.180港元。"
-    },
-    {
-      "time": "03:57",
-      "text": "据媒体报道，韩国下月将减少政府债券发行量。"
-    },
-    {
-      "time": "03:54",
-      "text": "北京时间2026年8月25日11时21分，长征六号丙遥一运载火箭在太原卫星发射中心发射升空，将中科卫星14星、中科卫星15星、银河航天灵知09泰国立方星等7颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。"
-    },
-    {
-      "time": "03:49",
-      "text": "一箭七星！长征六号丙遥一运载火箭发射成功。"
-    },
-    {
-      "time": "03:36",
-      "text": "深圳市统计局：1—7月，全市规模以上工业增加值同比增长9.2%，比上半年加快0.5个百分点。\n1—7月，全市社会消费品零售总额5895.25亿元，同比增长1.1%。\n1—7月，全市固定资产投资同比下降10.9%，降幅较上半年收窄3.7个百分"
-    },
-    {
-      "time": "08-24 20:45",
-      "text": "[AV] AngloGold Ashanti (NYSE:AU) Shines As Bullion Nears Multi-Month Highs"
-    },
-    {
-      "time": "08-24 14:15",
-      "text": "[AV] Don’t let debt fears derail market perspective"
-    },
-    {
-      "time": "08-24 13:45",
-      "text": "[AV] Morgan Stanley warns bond yields could rise in post-WWII-style era"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] FX Weekly Overview (Brazil Issue)"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] Precious Metals StoneX Bullion weekly round-up; bond yields, debasement; conflicting influences on gold"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] South Bow Corp Stock Under Pressure: Bearish Momentum, Valuation Concerns and Rising Correction Risk"
-    },
-    {
-      "time": "08-24 12:46",
-      "text": "[AV] Morgan Stanley sees quality stocks and AI adopters leading market"
-    },
-    {
-      "time": "08-24 12:45",
-      "text": "[AV] Granite REIT Stock Faces Renewed Pressure as a Sharp August Decline Raises Correction and Valuation Concerns"
-    },
-    {
-      "time": "08-24 10:09",
-      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
-    },
-    {
-      "time": "08-24 09:46",
-      "text": "[AV] Morgan Stanley’s Wilson Sees Higher Oil as Key Risk for Equities"
     },
     {
       "time": "08-19 18:00",
@@ -174,26 +134,24 @@
       "text": "[Fed] Bowman, Responsible Innovation and Financial Inclusion"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4714.5,
-    "measuredMoveLow": 4612.1,
-    "measuredMoveHigh": 4649.0,
-    "sma20": 4709.84,
-    "currentPrice": 4685.9
+    "measuredMoveLow": 4617.5,
+    "measuredMoveHigh": 4655.35,
+    "sma20": 4709.39,
+    "currentPrice": 4693.2
   },
   "bars1h": [
-    {
-      "open": 4639.39990234375,
-      "high": 4651.60009765625,
-      "low": 4634.5,
-      "close": 4645.7998046875
-    },
     {
       "open": 4645.5,
       "high": 4661.7001953125,
@@ -425,8 +383,14 @@
     {
       "open": 4689.39990234375,
       "high": 4693.5,
-      "low": 4684.60009765625,
-      "close": 4685.89990234375
+      "low": 4679.5,
+      "close": 4681.10009765625
+    },
+    {
+      "open": 4681.2998046875,
+      "high": 4694.5,
+      "low": 4679.2998046875,
+      "close": 4693.2001953125
     }
   ],
   "bars4h": [
@@ -601,8 +565,8 @@
     {
       "open": 4740.7998046875,
       "high": 4743.2998046875,
-      "low": 4684.60009765625,
-      "close": 4685.89990234375
+      "low": 4679.2998046875,
+      "close": 4693.2001953125
     }
   ],
   "calendar": null,
