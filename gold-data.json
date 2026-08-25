@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-25T20:32:00.133946+00:00",
+  "fetchedAt": "2026-08-25T21:03:59.277201+00:00",
   "gold": {
-    "price": 4663.200195,
-    "updatedAt": "2026-08-25T20:31:29Z"
+    "price": 4659.899902,
+    "updatedAt": "2026-08-25T21:03:30Z"
   },
   "silver": {
-    "price": 68.989998,
-    "updatedAt": "2026-08-25T20:31:29Z"
+    "price": 68.790001,
+    "updatedAt": "2026-08-25T21:03:29Z"
   },
   "dxy": {
-    "value": 98.88,
-    "changePct": -0.12
+    "value": 98.9,
+    "changePct": -0.1
   },
   "vix": {
     "value": 15.45,
     "changePct": -2.52
   },
   "wti": {
-    "value": 80.43,
-    "changePct": -5.39
+    "value": 81.08,
+    "changePct": -4.62
   },
   "btc": {
-    "value": 78756.51,
-    "changePct": -0.26
+    "value": 78167.98,
+    "changePct": -1.01
   },
   "spx": {
     "value": 7677.28,
@@ -42,13 +42,41 @@
   "correlations": {
     "dataPoints": 38,
     "minRequired": 10,
-    "dxy": -0.811,
+    "dxy": -0.81,
     "realRate": -0.235,
     "vix": -0.691,
-    "btc": 0.716,
-    "spx": 0.707
+    "btc": 0.715,
+    "spx": 0.708
   },
   "news": [
+    {
+      "time": "20:58",
+      "text": "美国里士满联储主席Barkin（2027年FOMC票委）：美债最终将缩面临清算。\n如果债务于某个时间节点膨胀，投资者将停止购买。"
+    },
+    {
+      "time": "20:56",
+      "text": "明晟公司MSCI新兴市场股票指数涨0.6%，外汇指数大致持平。"
+    },
+    {
+      "time": "20:52",
+      "text": "美国石油协会（API）数据显示，上周，美国API原油库存 +420万桶，之前一周 -32.8万桶。\n上周API库欣原油库存 +100万桶，前值 -143.8万桶。\n上周API成品油汽油库存 -320万桶（前值 +107.6万桶）、馏分油库存"
+    },
+    {
+      "time": "20:50",
+      "text": "两名未接种疫苗的人在宾夕法尼亚州死于麻疹，这是美国今年出现的首例麻疹死亡病例，而此时该国正应对三十年来最大规模的麻疹疫情。死亡病例出现在兰开斯特县，州卫生部门周二表示，不会公布关于死者的其他任何细节。"
+    },
+    {
+      "time": "20:49",
+      "text": "周二（8月25日）纽约尾盘，现货黄金涨0.21%，报4662.05美元/盎司，整体呈现出宽底U形走势，亚太早盘冲高回落、一度涨至4696.83美元。\n现货白银跌0.17%，报68.82美元/盎司。\nCOMEX铜期货涨1.53%，报6.809"
+    },
+    {
+      "time": "20:46",
+      "text": "数十年来，霍尔木兹海峡的关闭一直是石油市场终极的“末日场景”。如今，这一尾部风险已实质性地成为现实，而期权市场的表现却呈现出一种非常反直觉的状态，尤其是与以往那些严重程度较低的供应冲击相比。\n布伦特原油的期权微观结构已经发生了显著变化。自2"
+    },
+    {
+      "time": "20:43",
+      "text": "SMBC日兴证券美国公司美国利率策略主管阿巴特（Joseph Abate）在一份报告中表示，财政部或可将其在美联储账户中的1000亿美元资金转向定期债务的购买，以替代任何潜在的三方回购投资。\nSMBC估计，财政部一般账户（TGA）中的平均超"
+    },
     {
       "time": "20:30",
       "text": "周二（8月25日），美股存储芯片与硬件供应链指数涨1.56%，报195.40点。"
@@ -82,74 +110,6 @@
       "text": "标普500指数的11个板块中，信息技术/科技板块收涨0.98%，电信板块涨0.46%，能源板块跌1.7%。"
     },
     {
-      "time": "20:04",
-      "text": "周二（8月25日），彭博电动汽车价格回报指数跌1.10%，报3465.48点，亚太早盘显著走低、北京时间11:00刷新日低至3446.46点，整体呈现出长尾L形走势。"
-    },
-    {
-      "time": "20:02",
-      "text": "WTI原油日内跌幅达5.0%，报80.73美元/桶；布伦特原油日内跌幅达5.5%，报85.54美元/桶。\n巴基斯坦军方和伊朗安全部门消息人士对俄罗斯卫星通讯社透露，美国与伊朗已就停火协议条款达成共识，其内容包括霍尔木兹海峡的自由航行。消息人"
-    },
-    {
-      "time": "20:01",
-      "text": "财捷Intuit第四财季净营收43.5亿美元，分析师预期42.7亿美元。\n预计2027财年营收232.8亿-235.1亿美元，分析师预期238.2亿美元。"
-    },
-    {
-      "time": "20:00",
-      "text": "纳斯达克金龙中国指数收涨1.11%，报6268.26点。\n热门中概股里，中汽系统初步收涨13.3%，世纪互联涨6.4%，网易涨4.8%，小鹏涨4.1%，万国数据涨3.8%，百度涨1.1%，阿里巴巴涨0.8%。\nETF中，中概互联网指数ETF"
-    },
-    {
-      "time": "20:00",
-      "text": "标普500指数初步收涨0.3%，科技板块涨1%，电信板块涨0.5%，能源板块跌1.6%。\n纳斯达克100指数初步收涨0.6%，成分股中，Lumentum初步收涨6.2%，迈威尔科技涨5.2%，铿腾电子涨5.1%，Nebius Group、A"
-    },
-    {
-      "time": "19:57",
-      "text": "伊朗副外长加里巴巴迪：根据相关协议，进入波斯湾的航道将经由伊朗水域，驶出航道则经由阿曼领海。两条航道的船舶均需途经伊朗水域。\n该航道属于临时性质，伊朗与阿曼必须在30‑60天内完成谈判，确立全新永久航道，用以取代此前的海上通行方案。\n霍尔木"
-    },
-    {
-      "time": "19:55",
-      "text": "布伦特原油日内跌幅达4.5%，报86.46美元/桶。"
-    },
-    {
-      "time": "08-25 14:00",
-      "text": "[AV] KeyCorp stock holds above $21 as investors digest latest earnings trends"
-    },
-    {
-      "time": "08-24 20:45",
-      "text": "[AV] AngloGold Ashanti (NYSE:AU) Shines As Bullion Nears Multi-Month Highs"
-    },
-    {
-      "time": "08-24 20:39",
-      "text": "[AV] ICYMI - Morgan Stanley lifts Brent forecast to $100 as oil market tightens"
-    },
-    {
-      "time": "08-24 16:44",
-      "text": "[AV] Post Holdings Stock: Buy, Hold or Wait as Growth Meets Value"
-    },
-    {
-      "time": "08-24 14:15",
-      "text": "[AV] Don’t let debt fears derail market perspective"
-    },
-    {
-      "time": "08-24 13:45",
-      "text": "[AV] Morgan Stanley warns bond yields could rise in post-WWII-style era"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] FX Weekly Overview (Brazil Issue)"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] Precious Metals StoneX Bullion weekly round-up; bond yields, debasement; conflicting influences on gold"
-    },
-    {
-      "time": "08-24 13:42",
-      "text": "[AV] South Bow Corp Stock Under Pressure: Bearish Momentum, Valuation Concerns and Rising Correction Risk"
-    },
-    {
-      "time": "08-24 12:46",
-      "text": "[AV] Morgan Stanley sees quality stocks and AI adopters leading market"
-    },
-    {
       "time": "08-25 18:00",
       "text": "[Fed] Minutes of the Board's discount rate meetings on July 20 and July 29, 2026"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Cook, Economic Outlook"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
@@ -182,10 +146,10 @@
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4723.4,
-    "measuredMoveLow": 4765.9,
-    "measuredMoveHigh": 4807.8,
-    "sma20": 4697.67,
-    "currentPrice": 4724.0
+    "measuredMoveLow": 4759.1,
+    "measuredMoveHigh": 4801.0,
+    "sma20": 4697.33,
+    "currentPrice": 4717.2
   },
   "bars1h": [
     {
@@ -425,8 +389,8 @@
     {
       "open": 4723.2001953125,
       "high": 4726.0,
-      "low": 4719.7001953125,
-      "close": 4724.0
+      "low": 4716.7001953125,
+      "close": 4717.2001953125
     }
   ],
   "bars4h": [
@@ -608,7 +572,7 @@
       "open": 4700.60009765625,
       "high": 4726.0,
       "low": 4691.2998046875,
-      "close": 4724.0
+      "close": 4717.2001953125
     }
   ],
   "calendar": null,
