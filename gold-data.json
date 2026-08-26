@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-26T16:18:28.477405+00:00",
+  "fetchedAt": "2026-08-26T18:15:59.147161+00:00",
   "gold": {
-    "price": 4599.200195,
-    "updatedAt": "2026-08-26T16:18:13Z"
+    "price": 4601.200195,
+    "updatedAt": "2026-08-26T18:15:43Z"
   },
   "silver": {
-    "price": 68.071999,
-    "updatedAt": "2026-08-26T16:18:13Z"
+    "price": 68.320999,
+    "updatedAt": "2026-08-26T18:15:43Z"
   },
   "dxy": {
-    "value": 99.14,
+    "value": 99.15,
     "changePct": 0.23
   },
   "vix": {
-    "value": 15.62,
-    "changePct": 1.1
+    "value": 15.41,
+    "changePct": -0.26
   },
   "wti": {
-    "value": 82.79,
-    "changePct": 0.52
+    "value": 82.39,
+    "changePct": 0.04
   },
   "btc": {
-    "value": 78041.08,
-    "changePct": -0.67
+    "value": 78522.54,
+    "changePct": -0.05
   },
   "spx": {
-    "value": 7667.38,
-    "changePct": -0.13
+    "value": 7672.24,
+    "changePct": -0.07
   },
   "fred": {
     "10y_treasury": {
@@ -42,112 +42,72 @@
   "correlations": {
     "dataPoints": 39,
     "minRequired": 10,
-    "dxy": -0.815,
+    "dxy": -0.814,
     "realRate": -0.252,
-    "vix": -0.685,
+    "vix": -0.689,
     "btc": 0.735,
-    "spx": 0.7
+    "spx": 0.701
   },
   "news": [
     {
-      "time": "16:18",
-      "text": "周三（8月26日）欧市尾盘，德国10年期国债收益率涨3.3个基点，报3.234%，日内交投于3.185%-3.237%区间，整体持续上扬，美联储青睐的PCE通胀指标发布时、临近结束交易时先后加速走高。\n两年期德债收益率涨3.0个基点，报2."
+      "time": "17:58",
+      "text": "尼泊尔警方：山洪暴发导致54名美国公民失踪。"
     },
     {
-      "time": "16:16",
-      "text": "Jefferies的IB策略全球主管、TMT投行主席Jason Greenberg：软件交易在过去一年“大幅下降”。\nAI赋能交易填补空缺。（彭博电视）"
+      "time": "17:53",
+      "text": "Revolution Medicines公司旗下名为Rasonque的药物获得美国批准上市，该药可延长晚期胰腺癌患者的生存期。\nRasonque的标价超过每年47.5万美元，是首批能够广泛靶向RAS蛋白的药物之一——该蛋白与肿瘤生长密切相关"
     },
     {
-      "time": "16:14",
-      "text": "白宫将宣布与多家生物科技企业达成最惠国待遇药品定价协议。"
+      "time": "17:46",
+      "text": "欧盟委员会发言人：欧盟不对Meta在美国达成的和解置评。\n欧盟正就Meta涉嫌在成瘾性设计方面违反《数字服务法案》的初步调查结论，与该公司持续开展对话。"
     },
     {
-      "time": "16:05",
-      "text": "苹果公司将于9月9日举办今年最大规模的产品发布会，此次发布会的口号是“惊喜与闪耀”（Surprise and shine）。该公司准备推出多款新品，包括首款折叠屏iPhone以及iPhone 18 Pro和Pro Max，搭载更快的芯片和更"
+      "time": "17:45",
+      "text": "巴克莱表示，美国国库券市场有能力承受更大规模的债券回购，而短期债务销售的上限取决于财政部是否愿意继续扩大该市场。\n巴克莱策略师塞缪尔·厄尔在一份报告中写道：“市场吸收国库券发行的能力是巨大的”，并指出有7万亿美元的未偿国库券每三个月滚动一次"
     },
     {
-      "time": "16:02",
-      "text": "2026年第二届世界机器人运动会于今晚落幕。今年首次亮相的灵巧手专项赛，把机器人最精细的操作能力搬上赛场。从电动工具装配、粉末称量，到镊子夹豆、线缆连接，8项看似简单的日常动作，背后却对应着视觉感知、触觉反馈、力控、运动规划和自主决策等一系"
+      "time": "17:43",
+      "text": "加纳央行在预测通胀率方面采用人工智能（AI）技术。"
     },
     {
-      "time": "16:01",
-      "text": "俄罗斯7月工业产出同比增长0.4%。"
+      "time": "17:41",
+      "text": "瑞士央行副行长： 我认为拥有充足资本并不会成为银行的竞争劣势。\n希望本国银行拥有雄厚的资本缓冲，在下次经济下行周期中，从陷入困境的外资银行手中夺取市场份额。"
     },
     {
-      "time": "15:58",
-      "text": "CBOT小麦日内涨幅达2.5%，报766美分。"
+      "time": "17:41",
+      "text": "初创公司Instinct按25亿美元估值融资2.5亿美元，Index Ventures领投。（华尔街日报）"
     },
     {
-      "time": "15:56",
-      "text": "周三（8月26日）欧市尾盘，法国10年期国债收益率涨2.9个基点，报4.078%，整体持续走高。\n两年期法债收益率涨2.8个基点，30年期法债收益率涨3.4个基点。\n意大利10年期国债收益率涨6个基点，报4.059%，投资者关注国际油价走高"
+      "time": "17:40",
+      "text": "8月26日，荷兰国家公共卫生与环境研究所通报，该国乌特勒支省一名本土西尼罗病毒感染者死亡。此前，荷兰从一名献血者的血液内检测出西尼罗病毒，这是该国2020年以来首例确诊的本土感染病例。这名感染者也来自乌特勒支省，但荷兰国家公共卫生与环境研究"
     },
     {
-      "time": "15:54",
-      "text": "WTI原油期货涨超0.3%，至82.60美元上方。"
+      "time": "17:39",
+      "text": "当地时间26日，伊朗外长阿拉格齐就美国针对伊朗的“经济恐怖主义行动”致函联合国秘书长、安理会轮值主席等。信函阐述了伊朗对美方这一行动的立场，并强调联合国及国际社会负有谴责美国政府“非法犯罪行为”的法律和道义责任。信函表示，美国对伊朗发动战争"
     },
     {
-      "time": "15:51",
-      "text": "8月26日，俄罗斯方面任命的卢甘斯克地区领导人帕谢奇尼克在社交媒体发文说，乌克兰武装部队当天使用无人机袭击该地区一车辆，造成9人死亡、6人受伤。\n帕谢奇尼克表示，乌军对该地区一辆在公路上行驶的班车发动“精准打击”，造成8人当场死亡，另有1名"
+      "time": "17:34",
+      "text": "谷歌：为北美及欧洲加速器项目遴选28家人工智能能源初创企业。\n2026加速器批次将借助人工智能提升能源效率、推进电网现代化。"
     },
     {
-      "time": "15:47",
-      "text": "周三（8月26日）欧市尾盘，英国10年期国债收益率涨3.3个基点，报5.020%，北京时间20:30发布美联储青睐的PCE通胀数据以来显著走高。\n两年期英债收益率涨3.0个基点，报4.343%。\n30年期英债收益率涨3.7个基点，50年期英"
+      "time": "17:33",
+      "text": "OpenAI：宣布与美国16个州达成数据隐私协议。\n该数据隐私协议覆盖伊利诺伊州、艾奥瓦州、缅因州、马萨诸塞州、密苏里州、内布拉斯加州、新罕布什尔州、新泽西州、纽约州、俄亥俄州。\n将面向教师的ChatGPT服务拓展至20个州的另外55个学区"
     },
     {
-      "time": "15:46",
-      "text": "媒体援引知情人士报道称，俄罗斯诺尔西炼油厂在8月26日遭遇无人机袭击后已停止原油加工。"
+      "time": "17:32",
+      "text": "英国首相伯纳姆下周将接见到访的法国总统马克龙。（Politico）"
     },
     {
-      "time": "15:37",
-      "text": "明晟公司MSCI北欧国家指数跌0.4%，报405.34点。\n在十个板块中，北欧医疗保健板块跌幅最大。\n时装公司H. & M. Hennes & Mauritz AB（海恩斯莫里斯）跌3%，在一众北欧个股里表现最差。"
+      "time": "17:31",
+      "text": "据伊朗Press TV：阿曼停止与美国就护卫油轮通过霍尔木兹海峡南部航线进行合作。"
     },
     {
-      "time": "15:32",
-      "text": "美国财政部拍卖四个月期国债，得标利率3.750%，投标倍数3.09。"
+      "time": "17:23",
+      "text": "Anthropic面向所有付费用户推出Chrome版Claude。\nChrome版Claude新增自主浏览器操作功能。"
     },
     {
-      "time": "15:32",
-      "text": "美国财政部拍卖两年期浮息国债（FRNS），贴现利率0.055%（7月29日为0.050%），投标倍数3.14。"
-    },
-    {
-      "time": "08-26 15:15",
-      "text": "[AV] Agnico Eagle Mines Ltd Stock (AEM) Moved Down by 3.56% on Aug 26: Drivers Behind the Movement"
-    },
-    {
-      "time": "08-26 13:47",
-      "text": "[AV] Charles Schwab Corp Stock (SCHW) Opened Down by 3.50% on Aug 26: Drivers Behind the Movement"
-    },
-    {
-      "time": "08-26 11:55",
-      "text": "[AV] Futures flat as traders brace for inflation data and Nvidia"
-    },
-    {
-      "time": "08-26 11:10",
-      "text": "[AV] 3 Bank Stocks with Questionable Fundamentals"
-    },
-    {
-      "time": "08-26 09:08",
-      "text": "[AV] Nvidia earnings preview: The report the entire market is waiting on"
-    },
-    {
-      "time": "08-26 08:47",
-      "text": "[AV] Zacks.com featured highlights Centene, Archer-Daniels-Midland, Avnet, Arrow and AMN"
-    },
-    {
-      "time": "08-26 08:34",
-      "text": "[AV] ETMarkets Smart Talk | Large caps look better for next 24 months, but hidden gems remain in smallcaps: Divam Sharma"
-    },
-    {
-      "time": "08-25 21:10",
-      "text": "[AV] US Treasury Turmoil Could Reshape Invesco SEI And Acadian Stock Outlook"
-    },
-    {
-      "time": "08-25 21:02",
-      "text": "[AV] Stagflation calls for flexibility in fixed income, not abandonment"
-    },
-    {
-      "time": "08-25 18:41",
-      "text": "[AV] Performance Food (PFGC) Grew Sales 6.4% as Product Inflation Hit 4.7%. How Much Growth Was Real?"
+      "time": "17:17",
+      "text": "中国地震台网正式测定：8月27日00时45分，在哥伦比亚（北纬6.75度，西经73.08度）发生5.3级地震，震源深度150公里。"
     },
     {
       "time": "08-25 18:00",
@@ -174,32 +134,24 @@
       "text": "[Fed] Cook, Economic Outlook"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
-    "isTrendStructure": false,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
+    "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4658.2,
-    "measuredMoveLow": 4562.6,
-    "measuredMoveHigh": 4608.95,
-    "sma20": 4689.52,
-    "currentPrice": 4655.3
+    "measuredMoveLow": 4566.8,
+    "measuredMoveHigh": 4613.0,
+    "sma20": 4682.45,
+    "currentPrice": 4659.2
   },
   "bars1h": [
-    {
-      "open": 4737.2998046875,
-      "high": 4755.0,
-      "low": 4732.7001953125,
-      "close": 4741.0
-    },
-    {
-      "open": 4740.7998046875,
-      "high": 4743.2998046875,
-      "low": 4713.2001953125,
-      "close": 4714.5
-    },
     {
       "open": 4714.5,
       "high": 4718.2998046875,
@@ -425,17 +377,23 @@
     {
       "open": 4651.60009765625,
       "high": 4656.7998046875,
+      "low": 4640.7998046875,
+      "close": 4647.10009765625
+    },
+    {
+      "open": 4647.10009765625,
+      "high": 4657.60009765625,
       "low": 4645.89990234375,
-      "close": 4655.2998046875
+      "close": 4653.2001953125
+    },
+    {
+      "open": 4653.10009765625,
+      "high": 4659.7998046875,
+      "low": 4652.2998046875,
+      "close": 4659.2001953125
     }
   ],
   "bars4h": [
-    {
-      "open": 4419.7001953125,
-      "high": 4557.60009765625,
-      "low": 4417.0,
-      "close": 4552.2001953125
-    },
     {
       "open": 4552.2001953125,
       "high": 4569.60009765625,
@@ -608,7 +566,13 @@
       "open": 4669.5,
       "high": 4688.60009765625,
       "low": 4638.2001953125,
-      "close": 4655.2998046875
+      "close": 4647.10009765625
+    },
+    {
+      "open": 4647.10009765625,
+      "high": 4659.7998046875,
+      "low": 4645.89990234375,
+      "close": 4659.2001953125
     }
   ],
   "calendar": null,
