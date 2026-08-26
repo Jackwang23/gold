@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-26T18:15:59.147161+00:00",
+  "fetchedAt": "2026-08-26T20:11:06.907357+00:00",
   "gold": {
-    "price": 4601.200195,
-    "updatedAt": "2026-08-26T18:15:43Z"
+    "price": 4595.5,
+    "updatedAt": "2026-08-26T20:10:44Z"
   },
   "silver": {
-    "price": 68.320999,
-    "updatedAt": "2026-08-26T18:15:43Z"
+    "price": 68.286003,
+    "updatedAt": "2026-08-26T20:10:43Z"
   },
   "dxy": {
     "value": 99.15,
     "changePct": 0.23
   },
   "vix": {
-    "value": 15.41,
-    "changePct": -0.26
+    "value": 15.38,
+    "changePct": -0.45
   },
   "wti": {
-    "value": 82.39,
-    "changePct": 0.04
+    "value": 81.9,
+    "changePct": -0.56
   },
   "btc": {
-    "value": 78522.54,
-    "changePct": -0.05
+    "value": 78487.85,
+    "changePct": -0.1
   },
   "spx": {
-    "value": 7672.24,
-    "changePct": -0.07
+    "value": 7675.7,
+    "changePct": -0.02
   },
   "fred": {
     "10y_treasury": {
@@ -42,72 +42,112 @@
   "correlations": {
     "dataPoints": 39,
     "minRequired": 10,
-    "dxy": -0.814,
+    "dxy": -0.815,
     "realRate": -0.252,
-    "vix": -0.689,
-    "btc": 0.735,
-    "spx": 0.701
+    "vix": -0.69,
+    "btc": 0.734,
+    "spx": 0.702
   },
   "news": [
     {
-      "time": "17:58",
-      "text": "尼泊尔警方：山洪暴发导致54名美国公民失踪。"
+      "time": "20:10",
+      "text": "周三（8月26日），美股行业ETF涨跌各异，工业指数ETF涨1.09%，科技行业ETF涨0.63%，能源业ETF涨0.6%，全球科技股指数ETF、网络股指数ETF至多涨0.3%，半导体ETF跌0.01%，可选消费ETF跌0.67%，医疗业E"
     },
     {
-      "time": "17:53",
-      "text": "Revolution Medicines公司旗下名为Rasonque的药物获得美国批准上市，该药可延长晚期胰腺癌患者的生存期。\nRasonque的标价超过每年47.5万美元，是首批能够广泛靶向RAS蛋白的药物之一——该蛋白与肿瘤生长密切相关"
+      "time": "20:08",
+      "text": "标普保健板块收跌1.01%，电信板块跌0.71%，可选消费板块跌0.62%，信息技术/科技板块涨0.37%，工业板块涨1.07%。"
     },
     {
-      "time": "17:46",
-      "text": "欧盟委员会发言人：欧盟不对Meta在美国达成的和解置评。\n欧盟正就Meta涉嫌在成瘾性设计方面违反《数字服务法案》的初步调查结论，与该公司持续开展对话。"
+      "time": "20:06",
+      "text": "CrowdStrike预计三季度营收15.2亿-15.3亿美元，分析师预期15.2亿美元。"
     },
     {
-      "time": "17:45",
-      "text": "巴克莱表示，美国国库券市场有能力承受更大规模的债券回购，而短期债务销售的上限取决于财政部是否愿意继续扩大该市场。\n巴克莱策略师塞缪尔·厄尔在一份报告中写道：“市场吸收国库券发行的能力是巨大的”，并指出有7万亿美元的未偿国库券每三个月滚动一次"
+      "time": "20:05",
+      "text": "新思科技预计第四财季营收25.3亿-25.8亿美元，分析师预期25.5亿美元。"
     },
     {
-      "time": "17:43",
-      "text": "加纳央行在预测通胀率方面采用人工智能（AI）技术。"
+      "time": "20:01",
+      "text": "Okta二季度营收8.05亿美元，分析师预期7.928亿美元。\nOkta美股盘后涨9%。"
     },
     {
-      "time": "17:41",
-      "text": "瑞士央行副行长： 我认为拥有充足资本并不会成为银行的竞争劣势。\n希望本国银行拥有雄厚的资本缓冲，在下次经济下行周期中，从陷入困境的外资银行手中夺取市场份额。"
+      "time": "20:01",
+      "text": "Salesforce预计三季度营收114.2亿-115亿美元，分析师预期114.2亿美元。\nSalesforce美股盘后涨7%。"
     },
     {
-      "time": "17:41",
-      "text": "初创公司Instinct按25亿美元估值融资2.5亿美元，Index Ventures领投。（华尔街日报）"
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收跌0.5%。\n热门中概股里，网易初步收跌4%，百胜中国跌2.9%，拼多多跌1.1%，腾讯、百度跌0.1%，阿里涨0.3%，日月光半导体涨0.4%，小米、小鹏、新东方至多涨1.5%。\nETF中，KWEB跌0.5%，C"
     },
     {
-      "time": "17:40",
-      "text": "8月26日，荷兰国家公共卫生与环境研究所通报，该国乌特勒支省一名本土西尼罗病毒感染者死亡。此前，荷兰从一名献血者的血液内检测出西尼罗病毒，这是该国2020年以来首例确诊的本土感染病例。这名感染者也来自乌特勒支省，但荷兰国家公共卫生与环境研究"
+      "time": "20:00",
+      "text": "美股存储芯片指数初步收涨0.7%，半导体指数大致持平。\n标普500指数初步大致收平，工业板块涨1.1%，科技板块涨0.4%，电信板块跌0.6%，保健板块跌0.9%。\n纳斯达克100指数初步大致收平，成分股中，Lumentum初步收涨5.8%"
     },
     {
-      "time": "17:39",
-      "text": "当地时间26日，伊朗外长阿拉格齐就美国针对伊朗的“经济恐怖主义行动”致函联合国秘书长、安理会轮值主席等。信函阐述了伊朗对美方这一行动的立场，并强调联合国及国际社会负有谴责美国政府“非法犯罪行为”的法律和道义责任。信函表示，美国对伊朗发动战争"
+      "time": "19:53",
+      "text": "周三（8月26日），彭博电动汽车价格回报指数涨0.21%，报3471.71点，北京时间09:26微跌至3450.71点刷新日低，随后显著反弹、12:55刷新日高至3499.47点，日内大部分时间高位震荡，美股盘初显著回吐涨幅。"
     },
     {
-      "time": "17:34",
-      "text": "谷歌：为北美及欧洲加速器项目遴选28家人工智能能源初创企业。\n2026加速器批次将借助人工智能提升能源效率、推进电网现代化。"
+      "time": "19:51",
+      "text": "周三（8月26日）纽约尾盘，美国10年期国债收益率涨2.97个基点，报4.6584%，整体持续上扬，北京时间20:30发布美联储青睐的PCE通胀指标带来一波V形反转行情、最低跌至4.6130%。\n两年期美债收益率涨4.56个基点，报4.21"
     },
     {
-      "time": "17:33",
-      "text": "OpenAI：宣布与美国16个州达成数据隐私协议。\n该数据隐私协议覆盖伊利诺伊州、艾奥瓦州、缅因州、马萨诸塞州、密苏里州、内布拉斯加州、新罕布什尔州、新泽西州、纽约州、俄亥俄州。\n将面向教师的ChatGPT服务拓展至20个州的另外55个学区"
+      "time": "19:46",
+      "text": "SolarEdge股价涨幅扩大至13%，创三个月来最大盘中涨幅。"
     },
     {
-      "time": "17:32",
-      "text": "英国首相伯纳姆下周将接见到访的法国总统马克龙。（Politico）"
+      "time": "19:45",
+      "text": "当地时间26日，伊朗原子能组织主席伊斯拉米表示，国际原子能机构对任何遭受军事袭击的核设施进行检查，都必须获得伊朗议会的法律批准，并制定相应的章程。他表示，所有遭受军事袭击的伊朗核设施此前均已在国际原子能机构登记并接受过检查。\n该机构未能谴责"
     },
     {
-      "time": "17:31",
-      "text": "据伊朗Press TV：阿曼停止与美国就护卫油轮通过霍尔木兹海峡南部航线进行合作。"
+      "time": "19:41",
+      "text": "周三（8月26日）纽约尾盘，ICE原糖期货涨2.03%，ICE白糖期货跌0.43%。\nICE阿拉比卡咖啡期货跌3.97%，咖啡“C”期货跌4.32%。罗布斯塔咖啡期货跌2.19%。\n纽约可可期货持平，报5829美元/吨。伦敦可可期货涨0.1"
     },
     {
-      "time": "17:23",
-      "text": "Anthropic面向所有付费用户推出Chrome版Claude。\nChrome版Claude新增自主浏览器操作功能。"
+      "time": "19:38",
+      "text": "谷歌公司将AI责任团队移出DeepMind Lab。（华尔街日报）"
     },
     {
-      "time": "17:17",
-      "text": "中国地震台网正式测定：8月27日00时45分，在哥伦比亚（北纬6.75度，西经73.08度）发生5.3级地震，震源深度150公里。"
+      "time": "19:38",
+      "text": "美国总统特朗普以国家安全为由签署一项紧急行政令，禁止部分外国制造的变压器及其他关键能源设备进入美国电网。该行政令禁止美国采购或安装存在网络安全风险、运行风险的特定外国产电力设备。行政令要求美国能源部在120天内出台配套监管规则，并授权能源部"
+    },
+    {
+      "time": "08-26 15:15",
+      "text": "[AV] Agnico Eagle Mines Ltd Stock (AEM) Moved Down by 3.56% on Aug 26: Drivers Behind the Movement"
+    },
+    {
+      "time": "08-26 13:47",
+      "text": "[AV] Charles Schwab Corp Stock (SCHW) Opened Down by 3.50% on Aug 26: Drivers Behind the Movement"
+    },
+    {
+      "time": "08-26 11:55",
+      "text": "[AV] Futures flat as traders brace for inflation data and Nvidia"
+    },
+    {
+      "time": "08-26 11:10",
+      "text": "[AV] 3 Bank Stocks with Questionable Fundamentals"
+    },
+    {
+      "time": "08-26 09:08",
+      "text": "[AV] Nvidia earnings preview: The report the entire market is waiting on"
+    },
+    {
+      "time": "08-26 08:47",
+      "text": "[AV] Zacks.com featured highlights Centene, Archer-Daniels-Midland, Avnet, Arrow and AMN"
+    },
+    {
+      "time": "08-26 08:34",
+      "text": "[AV] ETMarkets Smart Talk | Large caps look better for next 24 months, but hidden gems remain in smallcaps: Divam Sharma"
+    },
+    {
+      "time": "08-25 21:10",
+      "text": "[AV] US Treasury Turmoil Could Reshape Invesco SEI And Acadian Stock Outlook"
+    },
+    {
+      "time": "08-25 21:02",
+      "text": "[AV] Stagflation calls for flexibility in fixed income, not abandonment"
+    },
+    {
+      "time": "08-25 18:41",
+      "text": "[AV] Performance Food (PFGC) Grew Sales 6.4% as Product Inflation Hit 4.7%. How Much Growth Was Real?"
     },
     {
       "time": "08-25 18:00",
@@ -134,36 +174,20 @@
       "text": "[Fed] Cook, Economic Outlook"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4658.2,
-    "measuredMoveLow": 4566.8,
-    "measuredMoveHigh": 4613.0,
-    "sma20": 4682.45,
-    "currentPrice": 4659.2
+    "signalBarPrice": 4647.7,
+    "measuredMoveLow": 4557.9,
+    "measuredMoveHigh": 4602.8,
+    "sma20": 4676.43,
+    "currentPrice": 4647.7
   },
   "bars1h": [
-    {
-      "open": 4714.5,
-      "high": 4718.2998046875,
-      "low": 4670.5,
-      "close": 4685.5
-    },
-    {
-      "open": 4685.7001953125,
-      "high": 4697.7001953125,
-      "low": 4678.10009765625,
-      "close": 4688.2998046875
-    },
     {
       "open": 4689.39990234375,
       "high": 4693.5,
@@ -388,9 +412,21 @@
     },
     {
       "open": 4653.10009765625,
-      "high": 4659.7998046875,
-      "low": 4652.2998046875,
-      "close": 4659.2001953125
+      "high": 4660.2998046875,
+      "low": 4647.5,
+      "close": 4648.5
+    },
+    {
+      "open": 4648.89990234375,
+      "high": 4656.2998046875,
+      "low": 4645.7001953125,
+      "close": 4648.7998046875
+    },
+    {
+      "open": 4649.2001953125,
+      "high": 4649.2998046875,
+      "low": 4647.39990234375,
+      "close": 4647.7001953125
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4647.10009765625,
-      "high": 4659.7998046875,
-      "low": 4645.89990234375,
-      "close": 4659.2001953125
+      "high": 4660.2998046875,
+      "low": 4645.7001953125,
+      "close": 4647.7001953125
     }
   ],
   "calendar": null,
