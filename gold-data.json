@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-08-26T04:40:36.910751+00:00",
+  "fetchedAt": "2026-08-26T05:17:09.802719+00:00",
   "gold": {
-    "price": 4642.299805,
-    "updatedAt": "2026-08-26T04:40:01Z"
+    "price": 4643.5,
+    "updatedAt": "2026-08-26T05:17:01Z"
   },
   "silver": {
-    "price": 69.230003,
-    "updatedAt": "2026-08-26T04:40:00Z"
+    "price": 69.181999,
+    "updatedAt": "2026-08-26T05:17:01Z"
   },
   "dxy": {
-    "value": 98.97,
-    "changePct": 0.05
+    "value": 99.0,
+    "changePct": 0.08
   },
   "vix": {
     "value": 15.45,
     "changePct": -2.52
   },
   "wti": {
-    "value": 80.32,
-    "changePct": -2.48
+    "value": 80.51,
+    "changePct": -2.25
   },
   "btc": {
-    "value": 78933.34,
-    "changePct": -0.04
+    "value": 78874.14,
+    "changePct": -0.11
   },
   "spx": {
     "value": 7677.28,
@@ -42,13 +42,45 @@
   "correlations": {
     "dataPoints": 39,
     "minRequired": 10,
-    "dxy": -0.817,
+    "dxy": -0.816,
     "realRate": -0.253,
     "vix": -0.685,
-    "btc": 0.74,
+    "btc": 0.741,
     "spx": 0.699
   },
   "news": [
+    {
+      "time": "05:16",
+      "text": "A股电力股再度拉升，立新能源直线涨停。"
+    },
+    {
+      "time": "05:15",
+      "text": "欧洲央行执委Schnabel：鉴于通胀风险，利率必须进一步上调。"
+    },
+    {
+      "time": "05:09",
+      "text": "据多家媒体25日报道，美国政府已暂停处理全球范围内的移民签证申请，同时向美国领事官员就处理签证申请提供培训。"
+    },
+    {
+      "time": "05:04",
+      "text": "安踏体育港股午后直线拉升，涨超5%，公司2026年上半年收入人民币435.07亿元，同比增长12.9%。"
+    },
+    {
+      "time": "04:59",
+      "text": "巴西对冲基金SPX Capital正在重新审视全球业务之际，两名驻新加坡的主要投资组合经理已经离职。根据监管文件显示，Predee Anuvatnujotikul和Garret Mallal分别于6月和8月不再与SPX Capital Ma"
+    },
+    {
+      "time": "04:56",
+      "text": "据知情人士透露，软银集团正与投资银行洽谈潜在的100亿至200亿美元债券发行，以帮助为其对OpenAI的投资贷款进行再融资。此次发行可能以美元和欧元计价，最早可能于9月启动，谈判仍在进行中，细节可能会发生变化。这些人士称，发行所得将部分用于"
+    },
+    {
+      "time": "04:46",
+      "text": "8月26日，南京出让1宗江宁区宅地，规划建筑面积15.08万平方米，容积率1.6，起始价13.52亿元，起始楼面价8966元/平方米。最终南京市卓学置业有限公司以底价13.52亿元竞得该地块。"
+    },
+    {
+      "time": "04:42",
+      "text": "知情人士称，Meta Platforms Inc.与美国多个州的检察长已就一宗引发轰动的诉讼案进行庭审期间和解的可能性进行过讨论，该案指控Meta故意将Facebook和Instagram设计得让青少年用户易于沉迷。案件审理目前已在加利福尼"
+    },
     {
       "time": "04:30",
       "text": "深成指、创业板指均涨超1%，大金融、有色板块集体走强。\n恒指半日涨0.68%，恒生科技指数涨1.58%，小鹏涨超7%，华虹宏力涨近7%。\n国际油价跌超2%，伊朗称霍尔木兹海峡临时航线谅解达成，仅限商船通行。\n工信部：未来五年加快打造航空航天"
@@ -70,84 +102,12 @@
       "text": "① 港股盘后 理想汽车发布业绩报告；\n② 18:10 欧洲央行执委Piero Cipollone在德意志银行一场关于支付的活动上讲话；\n③ 20:30 美国二季度GDP修正值，7月耐用品订单初值，7月个人收入、实际个人消费支出（PCE）；\n"
     },
     {
+      "time": "04:17",
+      "text": "TrendForce集邦咨询全球储能供应链数据库数据显示，2026年上半年，全球储能电芯出货量超460GWh，较去年同期大增约94%，全球储能市场整体迎来高速爆发期。"
+    },
+    {
       "time": "04:15",
       "text": "面壁智能迎来成立四周年，公司发布内部全员信复盘发展历程并公布下一阶段战略方向。信中披露，旗下MiniCPM系列开源模型全球累计下载量突破5000万次，已实现文本、视觉、语音全模态覆盖，端侧模型落地至智能汽车、消费手机，以及工业、法律、卫星等"
-    },
-    {
-      "time": "04:15",
-      "text": "工业和信息化部相关负责人表示，“十五五”时期将加力加快解决汽车产品质量、自动驾驶安全等重点问题，并研究制定了《智能网联新能源汽车产业发展“十五五”规划》，通过多举措并举，推动产业高质量发展。“十四五”期间，我国新能源汽车产业规模从百万辆级跃"
-    },
-    {
-      "time": "04:09",
-      "text": "据广西壮族自治区气象局预报，26日随着今年第19号台风“紫檀”登陆北上，陆地雨势加强，沿海及桂东南有大雨到暴雨、局地大暴雨。29日-31日受今年第18号台风“沙德尔”西移影响，广西自东向西有一次较强降雨天气过程。按照广西水利厅洪水防御工作预"
-    },
-    {
-      "time": "03:56",
-      "text": "挪威政府当地时间25日说，计划对智能眼镜及同类设备的使用实施监管，考虑禁止这些设备在公共场所启动人脸识别功能。（央视新闻）"
-    },
-    {
-      "time": "03:52",
-      "text": "美国宾夕法尼亚州卫生局25日称，该州出现两例与麻疹有关的死亡病例，这是美国2026年首次、也是该州35年来首次出现麻疹死亡病例。两名死者均未接种过相关疫苗。宾夕法尼亚州卫生局局长德布拉·博根在新闻发布会上说，确诊病例中，没有一个人完整接种过"
-    },
-    {
-      "time": "03:48",
-      "text": "中国财政部发行91天期债券，规模300亿元，发行利率1.0899%，边际利率1.1625%，预期1.0900%，投标倍数3.99倍，边际倍数1.23倍；\n中国财政部发行182天期债券，规模600亿元，发行利率1.1578%，边际利率1.22"
-    },
-    {
-      "time": "03:31",
-      "text": "上证指数早盘收报3916.83点，涨0.70%。\n深证成指早盘收报13911.29点，涨1.20%。\n创业板指早盘收报3444.05点，涨1.37%。\n沪深300早盘收报4600.77点，涨1.07%。\n科创50早盘收报1639.58点，涨"
-    },
-    {
-      "time": "03:30",
-      "text": "1、沪指早间震荡拉升，深成指、创业板指均涨超1%。大金融板块集体走强，锦龙股份、湘财股份、南华期货等多股涨停。有色、贵金属板块拉升，深中华A5连板，精艺股份、江西铜业等涨停。可控核聚变概念活跃，融发核电、百利电气、顺纳股份等涨停。下跌方面，"
-    },
-    {
-      "time": "03:30",
-      "text": "俄罗斯总统新闻秘书佩斯科夫在接受采访时表示，美国中央情报局局长拉特克利夫访问莫斯科，涉及“情报部门之间的接触”。（CCTV国际时讯）"
-    },
-    {
-      "time": "03:30",
-      "text": "国债期货早盘收盘，30年期主力合约跌0.25%，10年期主力合约跌0.08%，5年期主力合约跌0.07%，2年期主力合约跌0.02%。"
-    },
-    {
-      "time": "08-25 21:02",
-      "text": "[AV] Stagflation calls for flexibility in fixed income, not abandonment"
-    },
-    {
-      "time": "08-25 17:38",
-      "text": "[AV] Gold Price Predictions: Why Morgan Stanley Sees Gold Prices Breaking Above $5,000 in 2027"
-    },
-    {
-      "time": "08-25 16:44",
-      "text": "[AV] JUST IN: ProCap Financial CEO Anthony Pompliano tells Fox Business \"\"As long as they keep printing money, Bitcoin's goin"
-    },
-    {
-      "time": "08-25 15:05",
-      "text": "[AV] Risk-on on the MIB, led higher by Prysmian and Tenaris"
-    },
-    {
-      "time": "08-25 14:00",
-      "text": "[AV] KeyCorp stock holds above $21 as investors digest latest earnings trends"
-    },
-    {
-      "time": "08-25 12:42",
-      "text": "[AV] RXO’s Latest Curve Freight Market Forecast Shows the Biggest Sequential Increase in Truckload Spot Rates Since 2021"
-    },
-    {
-      "time": "08-25 02:42",
-      "text": "[AV] By August 2027 the Barclays share price and dividend could turn £4,999 into…"
-    },
-    {
-      "time": "08-24 20:45",
-      "text": "[AV] AngloGold Ashanti (NYSE:AU) Shines As Bullion Nears Multi-Month Highs"
-    },
-    {
-      "time": "08-24 20:42",
-      "text": "[AV] RXO, ArcBest, and Lucid Shares Plummet, What You Need To Know"
-    },
-    {
-      "time": "08-24 20:39",
-      "text": "[AV] ICYMI - Morgan Stanley lifts Brent forecast to $100 as oil market tightens"
     },
     {
       "time": "08-25 18:00",
@@ -174,26 +134,24 @@
       "text": "[Fed] Cook, Economic Outlook"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4711.5,
-    "measuredMoveLow": 4627.7,
-    "measuredMoveHigh": 4663.4,
-    "sma20": 4703.23,
-    "currentPrice": 4699.1
+    "measuredMoveLow": 4629.0,
+    "measuredMoveHigh": 4664.7,
+    "sma20": 4703.89,
+    "currentPrice": 4700.4
   },
   "bars1h": [
-    {
-      "open": 4700.10009765625,
-      "high": 4728.2998046875,
-      "low": 4696.2001953125,
-      "close": 4714.89990234375
-    },
     {
       "open": 4715.2998046875,
       "high": 4726.89990234375,
@@ -425,8 +383,14 @@
     {
       "open": 4699.7998046875,
       "high": 4701.2001953125,
-      "low": 4698.2001953125,
-      "close": 4699.10009765625
+      "low": 4695.7001953125,
+      "close": 4697.60009765625
+    },
+    {
+      "open": 4697.5,
+      "high": 4701.39990234375,
+      "low": 4697.2998046875,
+      "close": 4700.39990234375
     }
   ],
   "bars4h": [
@@ -602,7 +566,13 @@
       "open": 4693.2001953125,
       "high": 4728.0,
       "low": 4686.2001953125,
-      "close": 4699.10009765625
+      "close": 4697.60009765625
+    },
+    {
+      "open": 4697.5,
+      "high": 4701.39990234375,
+      "low": 4697.2998046875,
+      "close": 4700.39990234375
     }
   ],
   "calendar": null,
