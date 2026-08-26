@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-08-26T14:46:11.868925+00:00",
+  "fetchedAt": "2026-08-26T16:18:28.477405+00:00",
   "gold": {
-    "price": 4623.0,
-    "updatedAt": "2026-08-26T14:45:43Z"
+    "price": 4599.200195,
+    "updatedAt": "2026-08-26T16:18:13Z"
   },
   "silver": {
-    "price": 68.530998,
-    "updatedAt": "2026-08-26T14:45:43Z"
+    "price": 68.071999,
+    "updatedAt": "2026-08-26T16:18:13Z"
   },
   "dxy": {
-    "value": 99.19,
-    "changePct": 0.27
+    "value": 99.14,
+    "changePct": 0.23
   },
   "vix": {
-    "value": 15.52,
-    "changePct": 0.45
+    "value": 15.62,
+    "changePct": 1.1
   },
   "wti": {
-    "value": 81.73,
-    "changePct": -0.76
+    "value": 82.79,
+    "changePct": 0.52
   },
   "btc": {
-    "value": 77923.85,
-    "changePct": -0.82
+    "value": 78041.08,
+    "changePct": -0.67
   },
   "spx": {
-    "value": 7669.24,
-    "changePct": -0.1
+    "value": 7667.38,
+    "changePct": -0.13
   },
   "fred": {
     "10y_treasury": {
@@ -42,72 +42,112 @@
   "correlations": {
     "dataPoints": 39,
     "minRequired": 10,
-    "dxy": -0.813,
+    "dxy": -0.815,
     "realRate": -0.252,
     "vix": -0.685,
-    "btc": 0.738,
-    "spx": 0.699
+    "btc": 0.735,
+    "spx": 0.7
   },
   "news": [
     {
-      "time": "14:39",
-      "text": "墨西哥总统辛鲍姆：我已经收到参加二十国集团（G20）会议的邀请，我们正研究是否前往（轮值主席国美国）。\n不会在（对方）大选期间前往巴西。"
+      "time": "16:18",
+      "text": "周三（8月26日）欧市尾盘，德国10年期国债收益率涨3.3个基点，报3.234%，日内交投于3.185%-3.237%区间，整体持续上扬，美联储青睐的PCE通胀指标发布时、临近结束交易时先后加速走高。\n两年期德债收益率涨3.0个基点，报2."
     },
     {
-      "time": "14:38",
-      "text": "2026年8月26日，日喀则市吉隆县发生泥石流灾害。记者从前方指挥部获悉，截至8月26日20时，经初步核实统计，此次泥石流灾害已造成3人遇难，265人失联，具体伤亡人数还在进一步核查中，各项救援工作正有序开展。（央视）"
+      "time": "16:16",
+      "text": "Jefferies的IB策略全球主管、TMT投行主席Jason Greenberg：软件交易在过去一年“大幅下降”。\nAI赋能交易填补空缺。（彭博电视）"
     },
     {
-      "time": "14:30",
-      "text": "7月核心个人消费支出（PCE）物价指数环比上涨0.2%，同比上涨3.3%，两项数据均符合预期。  摩根士丹利财富管理公司首席经济策略师艾伦·曾特纳（Ellen Zentner）对此表示：“今天通胀数据出现的温和超预期上行，以及相对强劲的经济"
+      "time": "16:14",
+      "text": "白宫将宣布与多家生物科技企业达成最惠国待遇药品定价协议。"
     },
     {
-      "time": "14:30",
-      "text": "美国能源信息署（EIA）：美国上周EIA原油库存增加9.5万桶，彭博用户预计增加200万桶、分析师预期增加139.280万桶，之前一周增长440.5万桶。\n东海岸馏分燃料油库存上周下降，降至2022年5月以来的最低水平。\n中西部炼油厂处理量"
+      "time": "16:05",
+      "text": "苹果公司将于9月9日举办今年最大规模的产品发布会，此次发布会的口号是“惊喜与闪耀”（Surprise and shine）。该公司准备推出多款新品，包括首款折叠屏iPhone以及iPhone 18 Pro和Pro Max，搭载更快的芯片和更"
     },
     {
-      "time": "14:30",
-      "text": "美国8月21日当周EIA汽油库存变动 -253.6万桶，前值 68.8万桶。"
+      "time": "16:02",
+      "text": "2026年第二届世界机器人运动会于今晚落幕。今年首次亮相的灵巧手专项赛，把机器人最精细的操作能力搬上赛场。从电动工具装配、粉末称量，到镊子夹豆、线缆连接，8项看似简单的日常动作，背后却对应着视觉感知、触觉反馈、力控、运动规划和自主决策等一系"
     },
     {
-      "time": "14:30",
-      "text": "美国8月21日当周EIA精炼油库存变动 -222.8万桶，前值 -153万桶。"
+      "time": "16:01",
+      "text": "俄罗斯7月工业产出同比增长0.4%。"
     },
     {
-      "time": "14:30",
-      "text": "美国8月21日当周EIA精炼厂设备利用率变化 0.2%，前值 1%。"
+      "time": "15:58",
+      "text": "CBOT小麦日内涨幅达2.5%，报766美分。"
     },
     {
-      "time": "14:30",
-      "text": "美国8月21日当周EIA库欣地区原油库存变动 117.6万桶，前值 -131.4万桶。"
+      "time": "15:56",
+      "text": "周三（8月26日）欧市尾盘，法国10年期国债收益率涨2.9个基点，报4.078%，整体持续走高。\n两年期法债收益率涨2.8个基点，30年期法债收益率涨3.4个基点。\n意大利10年期国债收益率涨6个基点，报4.059%，投资者关注国际油价走高"
     },
     {
-      "time": "14:30",
-      "text": "美国8月21日当周EIA原油库存变动 9.5万桶，前值 440.5万桶。"
+      "time": "15:54",
+      "text": "WTI原油期货涨超0.3%，至82.60美元上方。"
     },
     {
-      "time": "14:26",
-      "text": "彭博美元指数涨0.3%，意味着“贝森特回购”以来的失地收复一半。"
+      "time": "15:51",
+      "text": "8月26日，俄罗斯方面任命的卢甘斯克地区领导人帕谢奇尼克在社交媒体发文说，乌克兰武装部队当天使用无人机袭击该地区一车辆，造成9人死亡、6人受伤。\n帕谢奇尼克表示，乌军对该地区一辆在公路上行驶的班车发动“精准打击”，造成8人当场死亡，另有1名"
     },
     {
-      "time": "14:24",
-      "text": "从MiniMax的2026年中期业绩电话会上了解到，MiniMax的收入结构在快速变化。从最新ARR（年度经常性收入）结构看，To B业务占比已达到约80%，To C业务占比约20%，对比去年同期To B业务占比约30%、To C占比约70"
+      "time": "15:47",
+      "text": "周三（8月26日）欧市尾盘，英国10年期国债收益率涨3.3个基点，报5.020%，北京时间20:30发布美联储青睐的PCE通胀数据以来显著走高。\n两年期英债收益率涨3.0个基点，报4.343%。\n30年期英债收益率涨3.7个基点，50年期英"
     },
     {
-      "time": "14:22",
-      "text": "亚马逊宣布，将在9月30日关闭其众包工作平台Mechanical Turk (MTurk)。这个平台诞生于2005年，旨在将一些对人类来说轻而易举、但对计算机而言却极具挑战的数字任务（如数据标注、音视频转录、问卷调查等）分发给全球的“数字零"
+      "time": "15:46",
+      "text": "媒体援引知情人士报道称，俄罗斯诺尔西炼油厂在8月26日遭遇无人机袭击后已停止原油加工。"
     },
     {
-      "time": "14:21",
-      "text": "据路透社报道，孟加拉国总理新闻和广播顾问拉赫曼8月25日表示，孟加拉国正考虑从中国采购歼-10CE战斗机和攻击直升机，并朝正式谈判迈进。孟官方一个小组目前正在起草协议。（环球时报）"
+      "time": "15:37",
+      "text": "明晟公司MSCI北欧国家指数跌0.4%，报405.34点。\n在十个板块中，北欧医疗保健板块跌幅最大。\n时装公司H. & M. Hennes & Mauritz AB（海恩斯莫里斯）跌3%，在一众北欧个股里表现最差。"
     },
     {
-      "time": "14:20",
-      "text": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。"
+      "time": "15:32",
+      "text": "美国财政部拍卖四个月期国债，得标利率3.750%，投标倍数3.09。"
     },
     {
-      "time": "14:18",
-      "text": "美国财政部发布与俄罗斯相关的104B通用许可证。\n美国为了钻石进口而发放与俄罗斯相关的许可证。"
+      "time": "15:32",
+      "text": "美国财政部拍卖两年期浮息国债（FRNS），贴现利率0.055%（7月29日为0.050%），投标倍数3.14。"
+    },
+    {
+      "time": "08-26 15:15",
+      "text": "[AV] Agnico Eagle Mines Ltd Stock (AEM) Moved Down by 3.56% on Aug 26: Drivers Behind the Movement"
+    },
+    {
+      "time": "08-26 13:47",
+      "text": "[AV] Charles Schwab Corp Stock (SCHW) Opened Down by 3.50% on Aug 26: Drivers Behind the Movement"
+    },
+    {
+      "time": "08-26 11:55",
+      "text": "[AV] Futures flat as traders brace for inflation data and Nvidia"
+    },
+    {
+      "time": "08-26 11:10",
+      "text": "[AV] 3 Bank Stocks with Questionable Fundamentals"
+    },
+    {
+      "time": "08-26 09:08",
+      "text": "[AV] Nvidia earnings preview: The report the entire market is waiting on"
+    },
+    {
+      "time": "08-26 08:47",
+      "text": "[AV] Zacks.com featured highlights Centene, Archer-Daniels-Midland, Avnet, Arrow and AMN"
+    },
+    {
+      "time": "08-26 08:34",
+      "text": "[AV] ETMarkets Smart Talk | Large caps look better for next 24 months, but hidden gems remain in smallcaps: Divam Sharma"
+    },
+    {
+      "time": "08-25 21:10",
+      "text": "[AV] US Treasury Turmoil Could Reshape Invesco SEI And Acadian Stock Outlook"
+    },
+    {
+      "time": "08-25 21:02",
+      "text": "[AV] Stagflation calls for flexibility in fixed income, not abandonment"
+    },
+    {
+      "time": "08-25 18:41",
+      "text": "[AV] Performance Food (PFGC) Grew Sales 6.4% as Product Inflation Hit 4.7%. How Much Growth Was Real?"
     },
     {
       "time": "08-25 18:00",
@@ -134,36 +174,20 @@
       "text": "[Fed] Cook, Economic Outlook"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4674.5,
-    "measuredMoveLow": 4596.9,
-    "measuredMoveHigh": 4635.7,
-    "sma20": 4696.73,
-    "currentPrice": 4674.5
+    "signalBarPrice": 4658.2,
+    "measuredMoveLow": 4562.6,
+    "measuredMoveHigh": 4608.95,
+    "sma20": 4689.52,
+    "currentPrice": 4655.3
   },
   "bars1h": [
-    {
-      "open": 4711.7998046875,
-      "high": 4725.60009765625,
-      "low": 4708.39990234375,
-      "close": 4724.5
-    },
-    {
-      "open": 4724.89990234375,
-      "high": 4740.60009765625,
-      "low": 4723.0,
-      "close": 4737.2001953125
-    },
     {
       "open": 4737.2998046875,
       "high": 4755.0,
@@ -389,8 +413,20 @@
     {
       "open": 4686.7001953125,
       "high": 4688.60009765625,
-      "low": 4670.39990234375,
-      "close": 4674.5
+      "low": 4658.0,
+      "close": 4658.2001953125
+    },
+    {
+      "open": 4658.0,
+      "high": 4664.60009765625,
+      "low": 4638.2001953125,
+      "close": 4651.60009765625
+    },
+    {
+      "open": 4651.60009765625,
+      "high": 4656.7998046875,
+      "low": 4645.89990234375,
+      "close": 4655.2998046875
     }
   ],
   "bars4h": [
@@ -571,8 +607,8 @@
     {
       "open": 4669.5,
       "high": 4688.60009765625,
-      "low": 4653.2998046875,
-      "close": 4674.5
+      "low": 4638.2001953125,
+      "close": 4655.2998046875
     }
   ],
   "calendar": null,
