@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-08-29T15:38:25.872986+00:00",
+  "fetchedAt": "2026-08-29T18:53:01.660061+00:00",
   "gold": {
     "price": 4456.399902,
-    "updatedAt": "2026-08-29T15:38:02Z"
+    "updatedAt": "2026-08-29T18:52:33Z"
   },
   "silver": {
     "price": 66.502998,
-    "updatedAt": "2026-08-29T15:38:02Z"
+    "updatedAt": "2026-08-29T18:52:32Z"
   },
   "dxy": {
     "value": 99.7,
@@ -17,12 +17,12 @@
     "changePct": -0.55
   },
   "wti": {
-    "value": 83.53,
-    "changePct": 1.58
+    "value": 83.4,
+    "changePct": -0.16
   },
   "btc": {
-    "value": 77873.52,
-    "changePct": -2.97
+    "value": 78231.27,
+    "changePct": -2.52
   },
   "spx": {
     "value": 7711.76,
@@ -45,7 +45,7 @@
     "dxy": -0.816,
     "realRate": -0.389,
     "vix": -0.713,
-    "btc": 0.749,
+    "btc": 0.748,
     "spx": 0.712
   },
   "news": [
