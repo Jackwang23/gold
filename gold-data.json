@@ -1,113 +1,153 @@
 {
-  "fetchedAt": "2026-09-04T18:10:30.776586+00:00",
+  "fetchedAt": "2026-09-04T20:46:28.253748+00:00",
   "gold": {
-    "price": 4416.700195,
-    "updatedAt": "2026-09-04T18:09:57Z"
+    "price": 4431.5,
+    "updatedAt": "2026-09-04T20:45:58Z"
   },
   "silver": {
-    "price": 65.969002,
-    "updatedAt": "2026-09-04T18:09:56Z"
+    "price": 66.294998,
+    "updatedAt": "2026-09-04T20:45:57Z"
   },
   "dxy": {
-    "value": 99.15,
+    "value": 99.16,
     "changePct": 0.16
   },
   "vix": {
-    "value": 14.23,
-    "changePct": -0.63
+    "value": 14.53,
+    "changePct": 1.47
   },
   "wti": {
-    "value": 90.79,
-    "changePct": -0.56
+    "value": 91.2,
+    "changePct": -0.11
   },
   "btc": {
-    "value": 79592.59,
-    "changePct": -2.07
+    "value": 79725.47,
+    "changePct": -1.9
   },
   "spx": {
-    "value": 7711.54,
-    "changePct": -0.47
+    "value": 7718.6,
+    "changePct": -0.38
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-02",
-      "value": 4.79
+      "date": "2026-09-03",
+      "value": 4.77
     },
     "10y_real_rate": {
-      "date": "2026-09-02",
-      "value": 2.45
+      "date": "2026-09-03",
+      "value": 2.42
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 48,
     "minRequired": 10,
-    "dxy": -0.82,
-    "realRate": -0.307,
-    "vix": -0.726,
-    "btc": 0.721,
-    "spx": 0.723
+    "dxy": -0.821,
+    "realRate": -0.319,
+    "vix": -0.728,
+    "btc": 0.723,
+    "spx": 0.724
   },
   "news": [
     {
-      "time": "17:53",
-      "text": "据两名美国官员及另外两名知情消息人士透露，特朗普政府正在制定一项战后战略，核心是依托地区力量遏制伊朗，并推动以色列与其周边国家进一步实现关系正常化。该方案仍处于起草初期，旨在伊朗战争结束后，以及特朗普任期最后两年，指导美国的中东政策走向。两"
+      "time": "20:17",
+      "text": "周五（9月4日），彭博电动汽车价格回报指数跌0.18%，报3407.93点，本周累计下跌2.96%，8月31日至9月2日亚太早盘持续下跌，之后逐步收复失地。"
     },
     {
-      "time": "17:42",
-      "text": "洲际交易所（ICE）：9月1日当周，投机者所持ICE布伦特原油净多头头寸增加37,837手合约，至261,435手合约，创14周新高。\n所持罗布斯塔咖啡净多头头寸降低至15,588手合约，创12周新低。\n所持伦敦可可净空头头寸降低至1,31"
+      "time": "20:16",
+      "text": "美联储：美国上周银行存款19.559万亿美元，之前一周19.532万亿美元。"
     },
     {
-      "time": "17:41",
-      "text": "AI云公司Nscale寻求在IPO之前融资35亿美元。"
+      "time": "20:12",
+      "text": "北美科技软件股指数ETF收跌2.23%，报104.57美元，本周回撤4.50%。\nGlobal X网络安全ETF收跌0.72%，本周回撤3.68%。\n纳斯达克网络安全ETF收跌0.77%，本周回撤4.03%。\nETFMG网络安全ETF收跌0"
     },
     {
-      "time": "17:15",
-      "text": "周五（9月4日），美联储隔夜逆回购协议（RRP）使用规模为6.75亿美元（交易对手2家），上个交易日报7.02亿美元。"
+      "time": "20:07",
+      "text": "标普500指数的11个板块中，可选消费板块收跌1.26%，能源板块跌0.98%，电信板块跌0.94%，信息技术/科技板块涨0.23%，工业板块涨0.41%。"
     },
     {
-      "time": "17:12",
-      "text": "美国能源部长Wright：改善委内瑞拉局面的关键驱动力是能源。\n我很荣幸有机会见证多项能源协议达成，这些协议将以当下与未来的经贸往来取代过去的冲突。"
+      "time": "20:04",
+      "text": "周五（9月4日），美股行业ETF涨跌各异，半导体ETF收涨2.6%，全球科技股指数ETF涨1.21%，科技行业ETF涨0.72%，网络股指数ETF、能源业ETF跌0.87%，可选消费ETF跌1.33%。"
     },
     {
-      "time": "17:12",
-      "text": "Tesla Robotaxi： 应广大用户要求，网络出租车将于美国中部时间下午2点上线。（原定于美国中部时间下午5点上线）"
+      "time": "20:02",
+      "text": "美国总统特朗普周五称，伊朗战争对美国而言只是“小事”。特朗普说：“我把它称为军事冲突，因为对我们来说只是小事，不算什么大事。我们只是间歇性地发动打击。我听到了他的说法，觉得很有意思，我认为他说得很有道理，我们目前并没有真正交战。”\n一天前，"
     },
     {
-      "time": "17:00",
-      "text": "美国9月4日当周总钻井数 588，前值 588。"
+      "time": "20:00",
+      "text": "露露柠檬收跌17%，创2018年以来收盘新低。"
     },
     {
-      "time": "17:00",
-      "text": "美国9月4日当周石油钻井数 449，前值 447。"
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数收涨0.89%，报6055.89点，本周累计下跌2.5%。\n热门中概股里，百度初步收涨4%，美团涨3.9%，网易、小米、新东方涨约2%，阿里涨1.2%。\nETF中，中概互联网指数ETF（KWEB）收涨2.00%，本周累跌"
     },
     {
-      "time": "17:00",
-      "text": "美国9月4日当周天然气钻井数 130，前值 132。"
+      "time": "20:00",
+      "text": "本周，标普大致持平，道指累跌0.3%，纳指累涨0.4%，半导体指数累涨2.2%，存储芯片指数涨5.8%，软件ETF跌4.6%。\n非农日当天，标普500指数初步收跌0.4%，可选消费板块回撤1.1%，保健、能源板块跌1%，电信板块跌0.9%，"
     },
     {
-      "time": "17:00",
-      "text": "国际铜夜盘收涨0.24%，沪铜收涨0.16%，沪铝收跌0.23%，沪锌收涨0.97%，沪铅收涨0.09%，沪镍收平，沪锡收跌0.2%。\n氧化铝夜盘收涨0.44%，铝合金收跌0.21%。\n不锈钢夜盘收涨0.69%。"
+      "time": "19:51",
+      "text": "Anthropic接近任命摩根士丹利和高盛担任其2000亿美元IPO的核心承销角色。（英国金融时报）"
     },
     {
-      "time": "16:57",
-      "text": "XP Investimentos策略师Marco Oviedo：美国非农就业数据印证了CPI才是关键数据点。\n如果CPI如预期那样显示核心年通胀率下降，我认为美联储暂停加息就基本可以确定了。\n在那之前，我不预期会出现大的波动。"
+      "time": "19:33",
+      "text": "美国商品期货交易委员会（CFTC）：9月1日当周，投机者所持COMEX黄金净多头头寸减少10,504手合约，至140,811手合约，创四周新低。\n所持COMEX铜净多头头寸创五周新低。\n所持NYMEX钯金净空头头寸创11周新低。"
     },
     {
-      "time": "16:56",
-      "text": "新兴市场货币指数有望实现连续第十周上涨，若果真如此，那将是2007年以来最长连涨周数。明晟（MSCI）发展中国家货币指数目前涨0.4%，本周累计涨幅料达0.7%。\n在美国非农就业数据强劲、市场对美联储加息的押注升温并推高美元后，该指数一度收"
+      "time": "19:32",
+      "text": "美国商品期货交易委员会（CFTC）：9月1日当周，投机者所持NYMEX WTI原油净多头头寸增加15,046手合约，至119,619手合约，创12周新高。\n所持布伦特与WTI原油净多头头寸创15周新高。\n所持NYMEX汽油净多头头寸创九个月"
     },
     {
-      "time": "16:51",
-      "text": "LME期铜收涨82美元，报14416美元/吨，本周累计上涨超过0.85%。\nLME期铝收跌18美元，报3294美元/吨。\nLME期锌收涨34美元，报3946美元/吨。\nLME期铅收涨4美元，报1908美元/吨。\nLME期镍收涨60美元，报1"
+      "time": "19:32",
+      "text": "美国财政部长斯科特·贝森特表示，一旦伊朗冲突结束，油价可能暴跌至每桶40美元，并带动近期升至多年高位的债券收益率回落。\n贝森特在周五播出的一场与斯蒂夫·班农的访谈中表示：“等我们跨过这场伊朗冲突，我预计油价会降下来。此后石油市场将出现非常严"
     },
     {
-      "time": "16:50",
-      "text": "有消息人士称，约旦境内传来巨响，约旦北部的美国目标遭到导弹袭击。（塔斯尼姆通讯社）"
+      "time": "19:30",
+      "text": "美国商品期货交易委员会（CFTC）：9月1日当周，投机者将芝加哥期货交易所美国超长期国债期货净空头头寸削减36734手，至369311手。"
     },
     {
-      "time": "16:46",
-      "text": "当地时间9月4日，美国疾病控制与预防中心（CDC）表示，今年迄今为止，美国已确诊3134例麻疹病例，创下35年多来的年度最高纪录。（央视）"
+      "time": "19:26",
+      "text": "周五（9月4日）纽约尾盘，美元兑日元涨0.26%，报156.22日元，本周累计下跌2.41%，整体交投区间为160.39-155.30日元。\n本周，欧元兑日元累跌2.18%，英镑兑日元累跌2.56%。"
+    },
+    {
+      "time": "09-04 15:08",
+      "text": "[AV] Micron, SanDisk Jump 4% Despite Hot Jobs Report Raising Fed Hike Odds - Micron Technology (NASDAQ:MU)"
+    },
+    {
+      "time": "09-04 13:22",
+      "text": "[AV] The Zacks Analyst Blog Highlights Archer-Daniels-Midland, Travelers Companies, Virtu Financial, Paycom Software and The "
+    },
+    {
+      "time": "09-04 02:24",
+      "text": "[AV] Atlanticus Holdings, Intercontinental Exchange, and PayPal Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "09-03 23:39",
+      "text": "[AV] Spotting Winners: BOK Financial (NASDAQ:BOKF) And Regional Banks Stocks In Q2"
+    },
+    {
+      "time": "09-03 21:25",
+      "text": "[AV] [U.S. Stocks] Dow Inc extends significant gains, rising $624 as expectations of U.S. rate hikes recede (3rd) ☆Replacemen"
+    },
+    {
+      "time": "09-03 20:41",
+      "text": "[AV] In a Real Regime Shift?"
+    },
+    {
+      "time": "09-03 15:53",
+      "text": "[AV] In 12 months, the Lloyds share price and dividend could turn £9,999 into…"
+    },
+    {
+      "time": "09-03 13:15",
+      "text": "[AV] We believe inflation is likely to surprise to the downside, says Morgan Stanley's Matthew Hornbach"
+    },
+    {
+      "time": "09-03 12:22",
+      "text": "[AV] State Street Real Return ETF (RLY) Touches New 52-Week High"
+    },
+    {
+      "time": "09-03 11:35",
+      "text": "[AV] Gold.com Inc (GOLD) (Q4 2026) Earnings Call Highlights: Revenue Nearly Doubles to $5 Billion, ..."
     },
     {
       "time": "09-03 12:30",
@@ -134,36 +174,20 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4464.0,
-    "measuredMoveLow": 4338.7,
-    "measuredMoveHigh": 4401.6,
-    "sma20": 4501.96,
-    "currentPrice": 4464.5
+    "measuredMoveLow": 4352.1,
+    "measuredMoveHigh": 4415.0,
+    "sma20": 4497.31,
+    "currentPrice": 4477.9
   },
   "bars1h": [
-    {
-      "open": 4466.0,
-      "high": 4478.2001953125,
-      "low": 4464.89990234375,
-      "close": 4477.10009765625
-    },
-    {
-      "open": 4477.2998046875,
-      "high": 4483.89990234375,
-      "low": 4470.7998046875,
-      "close": 4483.0
-    },
     {
       "open": 4483.10009765625,
       "high": 4486.0,
@@ -388,18 +412,24 @@
     },
     {
       "open": 4464.7001953125,
-      "high": 4465.0,
-      "low": 4463.7998046875,
-      "close": 4464.5
+      "high": 4474.5,
+      "low": 4459.0,
+      "close": 4471.2998046875
+    },
+    {
+      "open": 4471.60009765625,
+      "high": 4485.60009765625,
+      "low": 4470.0,
+      "close": 4482.0
+    },
+    {
+      "open": 4481.7998046875,
+      "high": 4482.2998046875,
+      "low": 4476.0,
+      "close": 4477.89990234375
     }
   ],
   "bars4h": [
-    {
-      "open": 4575.89990234375,
-      "high": 4580.89990234375,
-      "low": 4495.0,
-      "close": 4507.89990234375
-    },
     {
       "open": 4507.89990234375,
       "high": 4529.89990234375,
@@ -571,16 +601,22 @@
     {
       "open": 4483.7998046875,
       "high": 4491.0,
-      "low": 4461.10009765625,
-      "close": 4464.5
+      "low": 4459.0,
+      "close": 4482.0
+    },
+    {
+      "open": 4481.7998046875,
+      "high": 4482.2998046875,
+      "low": 4476.0,
+      "close": 4477.89990234375
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 243334,
-    "change": 21145,
-    "reportDate": "2026-08-25"
+    "netLong": 228124,
+    "change": -15210,
+    "reportDate": "2026-09-01"
   },
   "cotError": null,
   "gld": null,
