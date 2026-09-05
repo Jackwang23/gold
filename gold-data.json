@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-04T22:49:35.638029+00:00",
+  "fetchedAt": "2026-09-05T00:39:42.511325+00:00",
   "gold": {
     "price": 4431.100098,
-    "updatedAt": "2026-09-04T22:49:28Z"
+    "updatedAt": "2026-09-05T00:39:28Z"
   },
   "silver": {
     "price": 66.341003,
-    "updatedAt": "2026-09-04T22:49:27Z"
+    "updatedAt": "2026-09-05T00:39:27Z"
   },
   "dxy": {
     "value": 99.16,
@@ -21,8 +21,8 @@
     "changePct": -0.09
   },
   "btc": {
-    "value": 79643.06,
-    "changePct": -2.0
+    "value": 79650.62,
+    "changePct": -1.99
   },
   "spx": {
     "value": 7718.6,
@@ -40,22 +40,54 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 48,
+    "dataPoints": 49,
     "minRequired": 10,
-    "dxy": -0.821,
-    "realRate": -0.319,
-    "vix": -0.728,
-    "btc": 0.723,
-    "spx": 0.724
+    "dxy": -0.822,
+    "realRate": -0.31,
+    "vix": -0.73,
+    "btc": 0.721,
+    "spx": 0.726
   },
   "news": [
+    {
+      "time": "00:38",
+      "text": "当地时间9月4日获悉，美国联邦地区法官特雷弗·麦克法登当天驳回《星条旗报》发行人马克斯·莱德勒、总编辑埃里克·斯莱文和中东记者拉拉·科尔特提出的临时限制令申请，允许美国国防部继续推进对三人的解雇。法官认为，三人目前未能证明其宪法第一修正案权"
+    },
+    {
+      "time": "23:51",
+      "text": "席卷美国政坛的数据中心反对浪潮正在向北蔓延，令加拿大总理马克·卡尼吸引投资以扩建AI基础设施的努力变得更加复杂。安大略省奥克维尔市和阿尔伯塔省洛基维尤县已对数据中心开发实施为期一年的暂停令。在地广人稀的马尼托巴省，省长Wab Kinew否决"
+    },
+    {
+      "time": "23:33",
+      "text": "中物联大宗分会相关负责人表示，8月份指数环比回升，主要是国内外市场需求恢复带动，企业生产经营活动加快，大宗商品市场景气水平回升。进入“金九银十”生产建设旺季，大宗商品市场有望延续稳中有进的发展态势。但当前地缘政治、极端天气等外部不确定因素较"
+    },
+    {
+      "time": "23:23",
+      "text": "据黎巴嫩国家通讯社4日报道，以色列当天空袭黎巴嫩南部多地，造成至少5人死亡、23人受伤。\n黎通社当天援引黎卫生部发表的声明报道，以色列当天对黎南部多个城镇发动一系列空袭，造成至少3人死亡、23人受伤。此外，据黎通社报道，当天下午，两人在黎南"
+    },
+    {
+      "time": "23:22",
+      "text": "据了解该交易的内幕人士透露，Coatue Management（蔻图资本管理公司）正在与初创公司MatX谈判，拟成立一家合资企业，为采购存储芯片和逻辑芯片以及芯片制造商的产能提供融资。该潜在合资企业正在讨论以数十亿美元规模进行注资。Coat"
+    },
+    {
+      "time": "23:15",
+      "text": "伊拉克石油部援引部长Basim Mohammed Khudair的话在一份声明中表示，作为石油输出国组织（OPEC，欧佩克）第二大产油国的伊拉克，将很快获得进口汽油船运，以弥补国内供应短缺。\n由于民众担忧情绪，汽油需求已从每日3300万升上"
+    },
+    {
+      "time": "23:05",
+      "text": "美国在亚美尼亚与阿塞拜疆的（和平）协议中允诺了英伟达芯片供应权限。（华尔街日报）"
+    },
+    {
+      "time": "23:02",
+      "text": "DoubleLine Capital（双线资本，由“新债王”Jeffrey Gundlach创立）信贷主管Robert Cohen正在大型科技公司（如谷歌母公司Alphabet和亚马逊）的优质债券中寻找捡漏机会。Cohen说“我不需要去猜市"
+    },
     {
       "time": "22:48",
       "text": "据央视财经，7月下旬以来，中东航线海运价格迎来大幅跳涨，以上海港到达曼港为例，一个40英尺标准集装箱的运价，从6600美元左右一路突破10000美元关口，涨幅超50%。\n国际物流公司也在寻找更安全更快捷的运输方式，帮助商户将商品出口海外。浙"
     },
     {
       "time": "22:43",
-      "text": "据媒体报道：Anthropic预计将于9月下旬公开IPO招股书，最早预计将于10月中旬启动IPO路演推介。"
+      "text": "Anthropic预计将于9月下旬公开IPO招股说明书，最早预计将于10月中旬启动IPO路演推介。（路透）"
     },
     {
       "time": "22:28",
@@ -78,36 +110,44 @@
       "text": "周五（9月4日）纽约尾盘，美国10年期基准国债收益率涨1.41个基点，报4.7821%，北京时间20:28（美国非农就业报告出炉前两分钟）跌至4.7440%刷新日低、数据发布时拉升至4.8103%刷新日高，本周累计上涨6.41个基点，主要交"
     },
     {
-      "time": "21:56",
-      "text": "Meta因智能眼镜生物特征数据收集行为遭到起诉。"
+      "time": "09-04 19:04",
+      "text": "[AV] GLOBALFOUNDRIES (GFS) Surged on Robust CID Growth and Dividend Announcement"
     },
     {
-      "time": "21:56",
-      "text": "社交媒体平台X公司成功在早期诉讼中阻止了一家公司使用部分与“Twitter”（推特）相关的商标。\n美国特拉华联邦地区法院法官科尔姆·F·康诺利周四裁定，“Operation Bluebird”（蓝色小鸟行动）在抗辩中声称X公司已放弃八个“含"
+      "time": "09-04 15:08",
+      "text": "[AV] Micron, SanDisk Jump 4% Despite Hot Jobs Report Raising Fed Hike Odds - Micron Technology (NASDAQ:MU)"
     },
     {
-      "time": "21:49",
-      "text": "周五（9月4日）纽约尾盘，标普500股指期货最终跌0.53%，道指期货跌0.84%，纳斯达克100股指期货跌0.01%。\n罗素2000股指期货涨0.22%。"
+      "time": "09-04 13:22",
+      "text": "[AV] The Zacks Analyst Blog Highlights Archer-Daniels-Midland, Travelers Companies, Virtu Financial, Paycom Software and The "
     },
     {
-      "time": "21:44",
-      "text": "美股加密货币与加密货币关联指数跌0.08%，报75.46点，本周累计上涨12.05%，8月31日至9月2日大致持平于67点附近，9月3日早盘显著上涨，之后高位持稳。\n最近24小时，比特币跌1.96%，暂报79855.75美元，美国非农就业报"
+      "time": "09-04 02:24",
+      "text": "[AV] Atlanticus Holdings, Intercontinental Exchange, and PayPal Shares Skyrocket, What You Need To Know"
     },
     {
-      "time": "21:16",
-      "text": "标普道琼斯指数公司：将Bloom Energy、Illumina（因美纳）、Everpure（爱惠浦）纳入标普500指数。\n将HubSpot、AGNC、Corcept、Brinker纳入标普中盘股400指数。\n将Palo Alto、Aris"
+      "time": "09-03 23:39",
+      "text": "[AV] Spotting Winners: BOK Financial (NASDAQ:BOKF) And Regional Banks Stocks In Q2"
     },
     {
-      "time": "21:15",
-      "text": "富时A50期指连续夜盘收涨0.29%，报14696点。"
+      "time": "09-03 21:25",
+      "text": "[AV] [U.S. Stocks] Dow Inc extends significant gains, rising $624 as expectations of U.S. rate hikes recede (3rd) ☆Replacemen"
     },
     {
-      "time": "21:14",
-      "text": "周五（9月4日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7080元——逼近2022年7月8日最终报价6.6862元、当年4月27日最终报价6.5868元，较周四纽约尾盘涨95点，日内整体交投于6.7186-6.7"
+      "time": "09-03 20:41",
+      "text": "[AV] In a Real Regime Shift?"
     },
     {
-      "time": "21:04",
-      "text": "惠誉：上调葡萄牙评级至A+。"
+      "time": "09-03 15:53",
+      "text": "[AV] In 12 months, the Lloyds share price and dividend could turn £9,999 into…"
+    },
+    {
+      "time": "09-03 13:15",
+      "text": "[AV] We believe inflation is likely to surprise to the downside, says Morgan Stanley's Matthew Hornbach"
+    },
+    {
+      "time": "09-03 12:22",
+      "text": "[AV] State Street Real Return ETF (RLY) Touches New 52-Week High"
     },
     {
       "time": "09-03 12:30",
@@ -134,11 +174,7 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 1,
