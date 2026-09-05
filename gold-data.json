@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-05T12:27:34.825669+00:00",
+  "fetchedAt": "2026-09-05T15:28:50.289545+00:00",
   "gold": {
     "price": 4431.100098,
-    "updatedAt": "2026-09-05T12:27:01Z"
+    "updatedAt": "2026-09-05T15:28:31Z"
   },
   "silver": {
     "price": 66.341003,
-    "updatedAt": "2026-09-05T12:27:00Z"
+    "updatedAt": "2026-09-05T15:28:31Z"
   },
   "dxy": {
     "value": 99.16,
@@ -21,8 +21,8 @@
     "changePct": 0.2
   },
   "btc": {
-    "value": 79666.0,
-    "changePct": -0.01
+    "value": 79687.31,
+    "changePct": 0.02
   },
   "spx": {
     "value": 7718.6,
@@ -49,6 +49,18 @@
     "spx": 0.726
   },
   "news": [
+    {
+      "time": "13:41",
+      "text": "美国中央司令部今天（9月5日）发声明称，“在伊朗伊斯兰革命卫队向两艘在地区水域巡逻的美军舰船发射弹道导弹后，美国中央司令部部队对三艘伊朗原油运输船实施了打击。”（CCTV国际时讯）"
+    },
+    {
+      "time": "13:27",
+      "text": "9月5日，上海市国资委系统人工智能专题研讨班开班。上海市副市长贺青指出，要深刻把握人工智能发展大势，切实增强转型的紧迫感和责任感。深刻认识人工智能已成为大国博弈的战略制高点，正在改写科研范式、产业逻辑，重塑企业的决策机制、组织形态和人的角色"
+    },
+    {
+      "time": "13:11",
+      "text": "据中国化学工程集团有限公司消息，近日，中国化学工程三化建承建的恒逸能源科技（吐鲁番）240万吨/年高品质纤维用煤制乙二醇项目空分装置正式开工，标志着这一全球在建单体规模最大的煤制乙二醇项目核心配套工程破土动工。该项目是吐鲁番市千亿级煤化纺新"
+    },
     {
       "time": "12:05",
       "text": "OpenAI称已聘用三名人员，专门负责美国各州的政策事务。（Axios）"
@@ -98,58 +110,6 @@
       "text": "9月3日至9月5日，2026低空经济发展大会在芜湖举行。长三角G60科创走廊九城市政府首次联合发布《长三角G60科创走廊城市低空安全联合行动倡议》。其中明确，严守法规制度，落实实名登记、空域查询、飞行审批，坚决杜绝黑飞；强化科技赋能，接入低"
     },
     {
-      "time": "10:07",
-      "text": "据塔斯社报道，美国总统特使威特科夫和库什纳今天（9月5日）已抵达俄罗斯首都莫斯科。（CCTV国际时讯）"
-    },
-    {
-      "time": "09:53",
-      "text": "一项新发布的独立研究显示，一批与美国开放人工智能研究中心（OpenAI）相关的人工智能体今年早些时候“劫持”了一个德国网站，用于相互传递信息，分享测试任务答案和突破运行环境限制的方法。"
-    },
-    {
-      "time": "09:49",
-      "text": "国家发展改革委紧急安排中央预算内投资2000万元，支持江西省做好暴雨洪涝灾害灾后应急恢复，重点用于灾区受损道路、水利等基础设施和学校、医院等公共服务设施灾后应急恢复建设，推动尽快恢复正常生产生活秩序。"
-    },
-    {
-      "time": "09-05 08:42",
-      "text": "[AV] TCW Group Inc. Has $155.35 Million Stake in JPMorgan Chase & Co. $JPM"
-    },
-    {
-      "time": "09-05 02:41",
-      "text": "[AV] FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know"
-    },
-    {
-      "time": "09-05 02:13",
-      "text": "[AV] FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know"
-    },
-    {
-      "time": "09-04 19:04",
-      "text": "[AV] GLOBALFOUNDRIES (GFS) Surged on Robust CID Growth and Dividend Announcement"
-    },
-    {
-      "time": "09-04 15:08",
-      "text": "[AV] Micron, SanDisk Jump 4% Despite Hot Jobs Report Raising Fed Hike Odds - Micron Technology (NASDAQ:MU)"
-    },
-    {
-      "time": "09-04 13:22",
-      "text": "[AV] The Zacks Analyst Blog Highlights Archer-Daniels-Midland, Travelers Companies, Virtu Financial, Paycom Software and The "
-    },
-    {
-      "time": "09-04 10:00",
-      "text": "[AV] SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?"
-    },
-    {
-      "time": "09-04 02:24",
-      "text": "[AV] Atlanticus Holdings, Intercontinental Exchange, and PayPal Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "09-03 23:39",
-      "text": "[AV] Spotting Winners: BOK Financial (NASDAQ:BOKF) And Regional Banks Stocks In Q2"
-    },
-    {
-      "time": "09-03 21:25",
-      "text": "[AV] [U.S. Stocks] Dow Inc extends significant gains, rising $624 as expectations of U.S. rate hikes recede (3rd) ☆Replacemen"
-    },
-    {
       "time": "09-03 12:30",
       "text": "[Fed] Waller, The Economic Outlook and Some Comments on My Policy Communication"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 1,
