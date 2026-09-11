@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-11T16:57:56.713110+00:00",
+  "fetchedAt": "2026-09-11T19:32:32.088604+00:00",
   "gold": {
-    "price": 4363.100098,
-    "updatedAt": "2026-09-11T16:57:27Z"
+    "price": 4348.600098,
+    "updatedAt": "2026-09-11T19:31:58Z"
   },
   "silver": {
-    "price": 64.579002,
-    "updatedAt": "2026-09-11T16:57:27Z"
+    "price": 64.514999,
+    "updatedAt": "2026-09-11T19:31:57Z"
   },
   "dxy": {
-    "value": 99.08,
-    "changePct": -0.01
+    "value": 99.12,
+    "changePct": 0.03
   },
   "vix": {
-    "value": 15.83,
-    "changePct": -11.27
+    "value": 15.86,
+    "changePct": -11.1
   },
   "wti": {
-    "value": 99.81,
-    "changePct": -2.61
+    "value": 100.56,
+    "changePct": -1.87
   },
   "btc": {
-    "value": 77871.4,
-    "changePct": 1.7
+    "value": 77178.87,
+    "changePct": 0.8
   },
   "spx": {
-    "value": 7668.02,
-    "changePct": 1.01
+    "value": 7663.24,
+    "changePct": 0.94
   },
   "fred": {
     "10y_treasury": {
@@ -43,111 +43,71 @@
     "dataPoints": 55,
     "minRequired": 10,
     "dxy": -0.801,
-    "realRate": -0.264,
+    "realRate": -0.266,
     "vix": -0.718,
-    "btc": 0.699,
+    "btc": 0.698,
     "spx": 0.728
   },
   "news": [
     {
-      "time": "16:50",
-      "text": "LME期铜收涨6美元，报14240美元/吨。\nLME期铝收跌40美元，报3253美元/吨。\nLME期锌收跌11美元，报3881美元/吨。\nLME期铅收跌9美元，报1892美元/吨。\nLME期镍收跌197美元，报16469美元/吨。\nLME期"
+      "time": "19:31",
+      "text": "伊朗外交部发言人表示，沙特、日本和约旦因支持针对伊朗的国际原子能机构决议，将面临后果。（伊朗媒体Fars News）"
     },
     {
-      "time": "16:46",
-      "text": "周五（9月11日）欧市尾盘，德国10年期国债收益率涨0.3个基点，报3.504%，北京时间20:30发布美国CPI通胀数据时曾达到3.532%，继续逼近2009年二季度顶部3.749%、2008年四季度最高位4.148%，本周累计上涨16."
+      "time": "19:31",
+      "text": "美国商品期货交易委员会（CFTC）：9月8日当周，纽约商业期货交易所(NYMEX)和洲际交易所(ICE)四大市场的天然气投机客净空头仓位增加3,719口，至54,416口。"
     },
     {
-      "time": "16:45",
-      "text": "CBOT大豆日内跌幅达2.0%，报1302.53美分。"
+      "time": "19:31",
+      "text": "美国商品期货交易委员会（CFTC）：9月8日当周，CFTC比特币净多头持仓为1,524手合约。"
     },
     {
-      "time": "16:42",
-      "text": "美国正在考虑如何利用《国防生产法》（DPA）来提升国内炼油产能。据两位了解特朗普政府计划的消息人士透露，该计划是在特朗普总统近期与美国炼油企业高管的会议期间讨论的。美国官员在会上询问，如何才能最有效地利用联邦支持来提升产能。目前尚未做出最终"
+      "time": "19:30",
+      "text": "美国商品期货交易委员会（CFTC）：9月8日当周，COMEX黄金投机客在截至9月8日当周削减净多头仓位1,263口，至139,548口。"
     },
     {
-      "time": "16:41",
-      "text": "美国参议院Warren发函给财政部长贝森特，质询他“俄罗斯外长为何出席了近期在美国主办的二十国集团（G20）会议”。"
+      "time": "19:29",
+      "text": "周五（9月11日）纽约尾盘，美元兑日元跌0.45%，报153.73日元，本周累计下跌1.63%，交投区间为156.28-152.89日元，9月7日显著下挫，随后持续低位震荡。\n欧元兑日元累跌1.76%，英镑兑日元累跌1.56%。"
     },
     {
-      "time": "16:36",
-      "text": "周五（9月11日）欧市尾盘，英国10年期国债收益率跌3.1个基点，报5.343%，北京时间20:30发布美国CPI通胀数据时微涨至5.380%，继续逼近2007年三季度顶部5.564%、2000年一季度顶部5.899%、以及1998年一季度"
+      "time": "19:27",
+      "text": "摩根大通根据个人消费支出价格指数衡量的核心通胀趋势，将其对美联储的预估改为9月和12月各加息25个基点。\n该行首席美国经济学家Michael Feroli周五在研报中说：“下周加息的理由很简单，核心个人消费支出通胀今年每个月都高于3%，而且"
     },
     {
-      "time": "16:33",
-      "text": "两名知情美国官员透露，沙特一处关键输油管道系统于周四遭到弹药袭击。一名美国官员称，初步研判，遭打击目标是管道配套泵站。周五拍摄的卫星图像显示，其中一座泵站遭受严重火灾损毁；周四另一座泵站的影像记录到小型火情，冒出滚滚黑色浓烟。目前尚不明确袭"
+      "time": "19:26",
+      "text": "周五（9月11日）纽约尾盘，ICE美元指数涨0.07%，报99.118点，北京时间20:30发布美国CPI通胀数据带来尖锐的短线冲高回落行情，本周大致持平，交投区间为1184.82-1192.98点，整体呈现出V形走势、发布CPI数据时刷新"
     },
     {
-      "time": "16:28",
-      "text": "美国商务部长卢特尼克：美国可以设法从（总统特朗普提议的）5000美元现金支票中“创收”。\n这笔（财政）开销不会依赖税收。（NBC）"
+      "time": "19:22",
+      "text": "周五（9月11日）纽约尾盘，彭博谷物分类指数跌1.88%，报34.5625点，北京时间00:00美国农业部发布谷物库存月报时出现一波尖锐的冲高回落行情，本周乐基下跌1.04%，整体高开低走。\nCBOT玉米期货跌0.33%，报5.32美元/蒲"
     },
     {
-      "time": "16:25",
-      "text": "埃及寻求从俄罗斯、乌克兰获取稳定的谷物供应。（国际文传电讯社）"
+      "time": "19:17",
+      "text": "在备受关注的通胀报告显示上个月美国消费者价格上涨加快之后，美联储主席凯文·沃什面临着在下周的政策会议上加息的巨大压力。\nInflation Insights LLC总裁兼创始人Omair Sharif在给客户的一份报告中写道：“对美联储而言"
     },
     {
-      "time": "16:15",
-      "text": "9月11日，俄罗斯总统新闻秘书佩斯科夫在接受采访时表示，克里姆林宫预计，在近期俄罗斯、美国和乌克兰能够举行三方会晤并继续对话。他还补充说，就乌克兰问题谈判本身，没有人为举行谈判预设条件，俄罗斯保持开放态度。（央视）"
+      "time": "19:10",
+      "text": "美国总统特朗普谈5000美元“分红”：我说话算话。"
     },
     {
-      "time": "16:08",
-      "text": "苹果：太平洋时间9月12日凌晨5点起，消费者可在苹果官网以及Apple Store App上预约订购iPhone 18 Pro与iPhone 18 Pro Max。"
+      "time": "19:09",
+      "text": "花旗集团：预计美联储将在9月加息，到2027年年中将转而降息。"
     },
     {
-      "time": "16:02",
-      "text": "俄罗斯二季度GDP初值同比增长1.3%，符合预期。"
+      "time": "19:05",
+      "text": "委内瑞拉执政党统一社会主义党11日在社交媒体发布公告说，遭美国关押的马杜罗总统夫妇的辩护团队以健康理由申请暂时释放第一夫人西莉亚·弗洛雷斯。\n根据该公告，辩护团队向美国纽约一家法院提交了申请，请求基于“危急的医疗状况”、宪法原则及安全保证，"
     },
     {
-      "time": "16:01",
-      "text": "美联储数据显示，美国第二季度家庭净资产环比增加12.803万亿美元，第一季度增幅修正为7,929亿美元。第二季度家庭净资产的名义增量创1950年代有数据记录以来最大。"
+      "time": "19:04",
+      "text": "恒生指数主连夜盘收跌0.02%，报24793点。\n恒生科技指数主连夜盘收跌0.23%，报4312点。"
     },
     {
-      "time": "16:00",
-      "text": "美国农业部（USDA）：预计美国期末棉花库存360万捆，分析师预期379万捆，USDA之前预计400万捆。"
+      "time": "19:01",
+      "text": "在岸人民币兑美元（CNY）北京时间03:00收报6.7079元，较周四夜盘收盘涨36点。成交量487.67亿美元。"
     },
     {
-      "time": "16:00",
-      "text": "美国二季度家庭净值变动 128034亿美元，前值 1130亿美元。"
-    },
-    {
-      "time": "09-11 12:18",
-      "text": "[AV] Duke Energy (NYSE:DUK) faces a fresh market test as oil and yields rise"
-    },
-    {
-      "time": "09-11 11:09",
-      "text": "[AV] What is moving American Tower (NYSE:AMT) shares in today's market?"
-    },
-    {
-      "time": "09-11 07:37",
-      "text": "[AV] Zacks.com featured highlights include LifeStance Health, Tutor Perini, News, Everus Construction and HF Sinclair"
-    },
-    {
-      "time": "09-11 00:38",
-      "text": "[AV] State Street Launches Inflation Drivers Data “Super” Set"
-    },
-    {
-      "time": "09-10 16:35",
-      "text": "[AV] Washington Trust (NASDAQ:WASH): Is Caution Growing?"
-    },
-    {
-      "time": "09-10 16:03",
-      "text": "[AV] Bank of America flags a $163B risk hanging over stocks"
-    },
-    {
-      "time": "09-10 14:29",
-      "text": "[AV] Opendoor Sinks 7% as Yield Spike Meets Delayed Profit Timeline, Offerpad and Zillow Group Trail"
-    },
-    {
-      "time": "09-10 13:40",
-      "text": "[AV] Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micr"
-    },
-    {
-      "time": "09-10 13:12",
-      "text": "[AV] How SiTime’s (SITM) Silicon Timing Devices Power AI Data Centers"
-    },
-    {
-      "time": "09-10 13:09",
-      "text": "[AV] Why Are Rising Yields Testing Bank of America (NYSE:BAC)?"
+      "time": "18:37",
+      "text": "高盛仍认为其2026年底金价4900美元/盎司的预测存在上行净风险，但金价走势也将面临更大的双向波动。\n“我们给出的2026年底黄金公允估值4900美元/盎司，前提是各国央行持续强劲购金。”"
     },
     {
       "time": "09-03 12:30",
@@ -174,38 +134,24 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4412.5,
-    "measuredMoveLow": 4460.65,
-    "measuredMoveHigh": 4516.6,
-    "sma20": 4384.61,
-    "currentPrice": 4404.7
+    "signalBarPrice": 4389.1,
+    "measuredMoveLow": 4448.75,
+    "measuredMoveHigh": 4504.7,
+    "sma20": 4390.1,
+    "currentPrice": 4392.8
   },
   "bars1h": [
-    {
-      "open": 4437.7001953125,
-      "high": 4448.39990234375,
-      "low": 4433.2001953125,
-      "close": 4444.5
-    },
-    {
-      "open": 4444.2998046875,
-      "high": 4462.5,
-      "low": 4443.5,
-      "close": 4455.2001953125
-    },
-    {
-      "open": 4455.2001953125,
-      "high": 4464.39990234375,
-      "low": 4451.2998046875,
-      "close": 4462.7001953125
-    },
     {
       "open": 4462.7001953125,
       "high": 4464.5,
@@ -426,16 +372,28 @@
       "open": 4408.60009765625,
       "high": 4414.39990234375,
       "low": 4393.2998046875,
-      "close": 4404.7001953125
+      "close": 4403.7998046875
+    },
+    {
+      "open": 4403.7001953125,
+      "high": 4412.7001953125,
+      "low": 4400.0,
+      "close": 4400.60009765625
+    },
+    {
+      "open": 4400.5,
+      "high": 4402.39990234375,
+      "low": 4385.7998046875,
+      "close": 4389.10009765625
+    },
+    {
+      "open": 4389.2998046875,
+      "high": 4395.7998046875,
+      "low": 4386.2998046875,
+      "close": 4392.7998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4474.5,
-      "high": 4493.39990234375,
-      "low": 4464.89990234375,
-      "close": 4490.2001953125
-    },
     {
       "open": 4490.0,
       "high": 4558.5,
@@ -608,17 +566,19 @@
       "open": 4443.7001953125,
       "high": 4444.89990234375,
       "low": 4393.2998046875,
-      "close": 4404.7001953125
+      "close": 4400.60009765625
+    },
+    {
+      "open": 4400.5,
+      "high": 4402.39990234375,
+      "low": 4385.7998046875,
+      "close": 4392.7998046875
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
-  "cot": {
-    "netLong": 228124,
-    "change": -15210,
-    "reportDate": "2026-09-01"
-  },
-  "cotError": null,
+  "cot": null,
+  "cotError": "ReadTimeout: HTTPSConnectionPool(host='publicreporting.cftc.gov', port=443): Read timed out. (read timeout=10)",
   "gld": null,
   "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
