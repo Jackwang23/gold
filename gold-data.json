@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-11T21:57:29.152930+00:00",
+  "fetchedAt": "2026-09-12T00:03:49.008471+00:00",
   "gold": {
     "price": 4349.700195,
-    "updatedAt": "2026-09-11T21:56:58Z"
+    "updatedAt": "2026-09-12T00:03:29Z"
   },
   "silver": {
     "price": 64.622002,
-    "updatedAt": "2026-09-11T21:56:57Z"
+    "updatedAt": "2026-09-12T00:03:28Z"
   },
   "dxy": {
     "value": 99.1,
@@ -21,8 +21,8 @@
     "changePct": -2.43
   },
   "btc": {
-    "value": 77148.29,
-    "changePct": 0.76
+    "value": 77283.43,
+    "changePct": 0.93
   },
   "spx": {
     "value": 7656.98,
@@ -40,74 +40,114 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 55,
+    "dataPoints": 56,
     "minRequired": 10,
-    "dxy": -0.801,
-    "realRate": -0.235,
+    "dxy": -0.798,
+    "realRate": -0.205,
     "vix": -0.718,
-    "btc": 0.698,
+    "btc": 0.695,
     "spx": 0.728
   },
   "news": [
     {
-      "time": "21:52",
-      "text": "伊拉克总理办公室：调查证实，针对沙特阿拉伯的无人机袭击来自伊拉克境内，一名伊拉克军事指挥官因此被免职。"
+      "time": "23:55",
+      "text": "伊拉克下令关闭与伊朗接壤的Shalamcheh边境。（路透）"
     },
     {
-      "time": "21:51",
-      "text": "Kalshi Inc.正在申请监管批准，计划在美国推出首批个股永续期货，拟上市挂钩特斯拉、苹果、英伟达等股票的合约。\n公司将请求商品期货交易委员会（CFTC）和证券交易委员会（SEC）联合监管这类永不到期的期货，将其作为证券期货产品，杠杆水"
+      "time": "23:49",
+      "text": "美国总统特朗普针对美墨加贸易磋商宣称：将等到你们看见我们与加拿大、墨西哥达成协议。"
     },
     {
-      "time": "21:40",
-      "text": "Datafolha民调结果显示：巴西总统候选人博索纳罗（Bolsonaro）将在大选第一轮投票中落后于现任总统卢拉，两人的支持率分别为35%和39%。"
+      "time": "23:42",
+      "text": "欧洲糖价已飙升至近一年来的最高水平，原因是甜菜作物长势恶化导致供应收紧。\n根据标普全球能源旗下普氏能源资讯（Platts）的数据，9月3日，作为甜菜核心种植区的西北欧本土糖价在工厂交货价达到每吨550欧元（约合638美元），为2025年9月"
     },
     {
-      "time": "21:36",
-      "text": "明晟公司MSCI新兴市场股票指数跌1.3%，发展中国家外汇指数跌0.2%。"
+      "time": "23:41",
+      "text": "美国总统特朗普：对谷歌公司在芬兰投资建设AI中心感到不高兴。"
     },
     {
-      "time": "21:33",
-      "text": "沙特民防部门表示，海米斯穆谢特的危险已经解除。"
+      "time": "23:28",
+      "text": "高盛：现在预计美联储将于9月份加息，之前预计会按兵不动。"
     },
     {
-      "time": "21:32",
-      "text": "德国地球科学研究中心：印度尼西亚爪哇岛发生 6.2 级地震。"
+      "time": "23:27",
+      "text": "在博通以610亿美元收购VMware后，欧盟反垄断监管机构正对其软件授权模式改革展开深入审查，担忧客户因此遭受实质性损害。一系列落款日期为7月份的问询函显示，欧盟已向欧洲云服务商发出问询，重点核查VMware产品的重要性、替代可行性及新认证"
     },
     {
-      "time": "21:29",
-      "text": "美国哥伦比亚特区联邦巡回上诉法院裁定，能源部无权依据联邦法律动用紧急权力阻止密歇根州J.H. Campbell燃煤电厂关闭。\n法院支持密歇根州、明尼苏达州、伊利诺伊州以及公共利益团体的主张，认定能源部曲解了法律中”紧急干预”的含义。判决书指"
+      "time": "23:14",
+      "text": "据知情人士透露，Anthropic PBC正与英伟达洽谈，拟将其引入即将进行的首次公开募股（IPO）作为锚定投资者，该IPO有望成为史上规模最大的IPO。引入英伟达这样资金雄厚的锚定投资者，将增强市场对此次上市的信心，同时进一步深化芯片制造"
     },
     {
-      "time": "21:26",
-      "text": "甲骨文公司：至8月31日，与2026年重组计划相关的总预计重组成本最高可达21亿美元。"
+      "time": "23:13",
+      "text": "随着加拿大与欧盟起草一项涵盖贸易与安全的全面协议，英国首相安迪·伯纳姆（Andy Burnham）正在权衡其对欧盟的策略。欧盟与加拿大正致力于构建一种新型伙伴关系，来制衡美国，这可能使英国计划于11月与欧盟举行的峰会相形见绌。伯纳姆已开始阐"
     },
     {
-      "time": "21:23",
-      "text": "沙特：Khamis Mushait针对潜在危险拉响警报。"
+      "time": "22:54",
+      "text": "文章称，热潮之下，粗放式扶持人工智能的苗头值得警惕，政策红利转化为产业实效仍存在不少堵点。破解这一难题，关键在于提升政策精细化与适配性。扶持人工智能产业，需要各地强化协作联动，破除区域间政策“内卷”。产业行稳致远，终究需要厚培优质的发展土壤"
     },
     {
-      "time": "21:22",
-      "text": "俄罗斯总统普京：乌克兰冲突是由西方挑起的，他们向俄罗斯施压，并试图将乌克兰拖入北约。\n欧洲正在发生的一切都是西方全球主义者系统性错误的结果。\n不会就萨克森-安哈尔特州选举置评，称这纯属德国内政。"
+      "time": "22:49",
+      "text": "中国常驻联合国代表团临时代办孙磊11日在联合国南南合作日纪念活动高级别讨论会上发言，呼吁深化南南合作。\n孙磊表示，中方支持乌拉圭代表“77国集团和中国”所作发言，赞赏联合国南南合作办公室为促进全球南方发展所作努力。南方国家面临实现经济社会发"
     },
     {
-      "time": "21:15",
-      "text": "富时A50期指连续夜盘收涨0.03%，报14517点。"
+      "time": "22:40",
+      "text": "两名美国政府官员针对总统特朗普和也门胡塞武装表示，美国当前无意袭击胡塞武装。美方向沙特提供有关胡塞武装的（军事）情报。美军中央司令部司令Cooper（库伯）周四出现在沙特。（ABC）"
     },
     {
-      "time": "21:14",
-      "text": "当地时间11日，沙特外交部发表声明，强烈谴责来自伊拉克的多架无人机袭击沙特利雅得和麦地那地区的东西输油管道。袭击造成人员受伤及部分设施受损，目前相关损失正在处理中。沙特方面表示，应伊拉克总理提出的请求，沙特此前给予伊拉克政府采取充分措施的机"
+      "time": "22:28",
+      "text": "OpenAI证实，其正在测试的AI智能体（Agent）在今年5月对知名编程服务平台RubyGems发起了网络攻击。\n据悉，这批AI智能体在执行训练任务时，为绕过受限的网络环境，将RubyGems作为临时浏览器以获取公开信息。它们高频创建账号"
     },
     {
-      "time": "21:13",
-      "text": "周五（9月11日）纽约尾盘，美国10年期基准国债收益率涨0.43个基点，报4.9669%，北京时间20:30发布美国CPI通胀数据时拉升至4.9792%、继续逼近2023年10月23日顶部5.0187%，随后快速下挫、21:03跌至4.90"
+      "time": "22:24",
+      "text": "美国总统特朗普当地时间9月11日在社交媒体平台发帖，连续第3天承诺：如果共和党在11月的中期选举中保住国会控制权，将向每位美国成年人发放5000美元。特朗普在帖文中写道：“由于我国正吸纳数万亿美元的经济发展、投资和纯粹的成功，我们将向美国所"
     },
     {
-      "time": "21:09",
-      "text": "桑坦德银行（Sancorp Santander SA）的分析师们认为，日本政府养老投资基金（GPIF）可能在不正式修改资产配置政策的情况下，抛售高达620亿美元的美国国债。若日本央行通过连续加息成功扭转日元弱势，GPIF可能在未来数月内开始"
+      "time": "22:22",
+      "text": "中国地震台网正式测定：9月12日05时23分在印尼爪哇岛附近海域（南纬5.20度，东经106.85度）发生6.5级地震，震源深度370千米。（央视）"
     },
     {
-      "time": "21:07",
-      "text": "周五（9月11日）纽约尾盘，标普500股指期货最终涨0.86%，道指期货涨0.96%，纳斯达克100股指期货涨0.92%。\n罗素2000股指期货涨0.43%。"
+      "time": "22:11",
+      "text": "9月10日，中国商务部研究院国际服务贸易研究所在服贸会上发布《入境游促进消费的内在机理及增长潜力研究》，该报告在携程集团支持下完成，报告尤其关注中国入境游发展现状与特点。报告称，中国入境游已形成较好基础，有望迈入高质量发展新阶段，预计未来1"
+    },
+    {
+      "time": "09-11 20:30",
+      "text": "[AV] Intercontinental Exchange (NYSE:ICE) In Focus As Oil & Yields Drive A Fresh Sector Rotation"
+    },
+    {
+      "time": "09-11 19:40",
+      "text": "[AV] Can High Tide (NASDAQ:HITI) Weather A Tougher Market?"
+    },
+    {
+      "time": "09-11 16:26",
+      "text": "[AV] Can American Tower (NYSE:AMT) Keep Its Momentum?"
+    },
+    {
+      "time": "09-11 14:38",
+      "text": "[AV] Dow Jumps Over 1%; US Inflation Holds at 3.4% In August"
+    },
+    {
+      "time": "09-11 12:18",
+      "text": "[AV] Duke Energy (NYSE:DUK) faces a fresh market test as oil and yields rise"
+    },
+    {
+      "time": "09-11 11:09",
+      "text": "[AV] What is moving American Tower (NYSE:AMT) shares in today's market?"
+    },
+    {
+      "time": "09-11 07:37",
+      "text": "[AV] Zacks.com featured highlights include LifeStance Health, Tutor Perini, News, Everus Construction and HF Sinclair"
+    },
+    {
+      "time": "09-11 03:45",
+      "text": "[AV] BofA Strategists Warn of Stock Volatility as Outflows Hit US"
+    },
+    {
+      "time": "09-11 00:38",
+      "text": "[AV] State Street Launches Inflation Drivers Data “Super” Set"
+    },
+    {
+      "time": "09-10 18:28",
+      "text": "[AV] Form 8K Central Plains Bancshares Inc For: 10 September By Investing.com"
     },
     {
       "time": "09-03 12:30",
@@ -134,11 +174,7 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
@@ -576,7 +612,7 @@
     }
   ],
   "calendar": null,
-  "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
+  "calendarError": "ReadTimeout: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=10) | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
     "netLong": 231960,
     "change": 3836,
