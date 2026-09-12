@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-12T20:34:09.640223+00:00",
+  "fetchedAt": "2026-09-12T22:33:54.719872+00:00",
   "gold": {
     "price": 4349.700195,
-    "updatedAt": "2026-09-12T20:33:33Z"
+    "updatedAt": "2026-09-12T22:33:33Z"
   },
   "silver": {
     "price": 64.622002,
-    "updatedAt": "2026-09-12T20:33:32Z"
+    "updatedAt": "2026-09-12T22:33:33Z"
   },
   "dxy": {
     "value": 99.12,
@@ -21,8 +21,8 @@
     "changePct": -2.37
   },
   "btc": {
-    "value": 77158.35,
-    "changePct": -0.02
+    "value": 77202.73,
+    "changePct": 0.04
   },
   "spx": {
     "value": 7656.98,
@@ -49,6 +49,30 @@
     "spx": 0.728
   },
   "news": [
+    {
+      "time": "22:20",
+      "text": "根据纳斯达克Global Index Watch周五晚些时候发布的模拟数据，SpaceX的权重预计将从约1.28%升至约2.82%。最终权重将在本月晚些时候确定。华尔街预计，这一变化将促使追踪该基准的指数基金和交易所交易基金新增数十亿美元的"
+    },
+    {
+      "time": "22:14",
+      "text": "法国央行发表声明，否认其在市场上出售了债务持仓，此前该央行遭到让-吕克·梅朗雄及其极左翼政党的批评。\n该声明是对埃里克·科克雷尔言论的回应，后者称法国央行持有的证券投资组合出现了“令人担忧”的缩减。\n法国央行表示，“自收购以来，这些证券均未"
+    },
+    {
+      "time": "22:11",
+      "text": "欧洲央行行长拉加德表示，欧元区通胀将在一段时间内维持高位。“当前的冲击会持续时间更长。”她说，中东冲突“仍在持续。我们预计，能源价格的波动和压力将继续存在，尽管价格上涨也带来了经济增长放缓的风险。”"
+    },
+    {
+      "time": "21:57",
+      "text": "特斯拉公司预告将于10月1日举办活动，展示下一代Roadster车型。这是一款小众产品，该公司首席执行官马斯克最早于2017年11月份发布了这款车。这场定于秋季举行的活动一直备受特斯拉车迷期待，并可能进一步引发有关特斯拉与SpaceX合并的"
+    },
+    {
+      "time": "21:56",
+      "text": "OpenAI首席执行官Sam Altman表示，公司专注于解决围绕AI技术的安全担忧，今年不会上市。Altman表示，今年进行首次公开募股“时机不合适”，公司要到明年才会上市。\n“我认为，哪怕冒着10%的在本十年结束前杀死所有人的风险，都是"
+    },
+    {
+      "time": "18:32",
+      "text": "宣言称，各类贸易限制措施激增，无论是滥施关税和非关税措施，还是以环保为幌子的贸易保护主义，都可能导致全球贸易进一步萎缩，破坏全球供应链，加剧国际经济贸易不确定性，对世界经济发展前景产生负面影响。对单边关税和非关税措施的上升表示严重关切，这些"
+    },
     {
       "time": "16:34",
       "text": "OpenAI的CEO Altman：我同意Dario（Anthropic的CEO Amodei）有关需要控制前沿模型发展步伐的观点。"
@@ -86,70 +110,6 @@
       "text": "美国共和党议员敦促美国内政部长伯格姆采取行动应对汽油价格。（POLITICO）"
     },
     {
-      "time": "13:15",
-      "text": "9月12日晚，苹果官网显示，iPhone 18 Pro/Pro Max预购现已开启，起售价分别为9999元、10999元，将于本月18日正式发售。"
-    },
-    {
-      "time": "13:01",
-      "text": "9月11日下午，针对公司与谷歌合作智能家居项目是否涵盖AI眼镜相关产品，创维数字在业绩说明会上表示，公司与Google Asia Pacific Pte. Ltd于近日正式签署《智能家居合作协议》。基于Google Home平台与Gemin"
-    },
-    {
-      "time": "12:29",
-      "text": "12日，以“共享创新 共塑未来：新一轮科技革命背景下的全球科技共同体使命”为主题的2026浦江创新论坛在上海正式拉开帷幕。本届论坛由中华人民共和国科学技术部与上海市人民政府共同主办，南非共和国担任主宾国，湖南省担任主宾省。（新华社）"
-    },
-    {
-      "time": "11:57",
-      "text": "受降温天气影响，黑龙江省漠河市气温日渐走低。9月12日，当地供热部门正式开栓供暖，比计划时间提前13天，确保居民住上暖屋子。（新华社）"
-    },
-    {
-      "time": "11:52",
-      "text": "据新华社报道，当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。\n习近平指出，中方始终从战略高度和长远角度看待和发展中印关系。近两年"
-    },
-    {
-      "time": "11:49",
-      "text": "在9月12日2026中国算力大会主论坛上，中国工程院院士邬贺铨指出，智能体的出现带动了Token的消费。今年3月，Token的消费已经达到日均140万亿。随着技术进步，Token的消耗并不是以多为荣，而是以效率为荣。中国Token的应用成本"
-    },
-    {
-      "time": "09-11 20:30",
-      "text": "[AV] Intercontinental Exchange (NYSE:ICE) In Focus As Oil & Yields Drive A Fresh Sector Rotation"
-    },
-    {
-      "time": "09-11 19:40",
-      "text": "[AV] Can High Tide (NASDAQ:HITI) Weather A Tougher Market?"
-    },
-    {
-      "time": "09-11 16:26",
-      "text": "[AV] Can American Tower (NYSE:AMT) Keep Its Momentum?"
-    },
-    {
-      "time": "09-11 14:38",
-      "text": "[AV] Dow Jumps Over 1%; US Inflation Holds at 3.4% In August"
-    },
-    {
-      "time": "09-11 12:30",
-      "text": "[AV] KULR Technology Group (NYSE:KULR) faces a fresh market test as oil and yields rise"
-    },
-    {
-      "time": "09-11 12:18",
-      "text": "[AV] Duke Energy (NYSE:DUK) faces a fresh market test as oil and yields rise"
-    },
-    {
-      "time": "09-11 11:09",
-      "text": "[AV] What is moving American Tower (NYSE:AMT) shares in today's market?"
-    },
-    {
-      "time": "09-11 08:54",
-      "text": "[AV] Interest rates at the intersection of inflation, public finances, and artificial intelligence"
-    },
-    {
-      "time": "09-11 07:37",
-      "text": "[AV] Zacks.com featured highlights include LifeStance Health, Tutor Perini, News, Everus Construction and HF Sinclair"
-    },
-    {
-      "time": "09-11 03:45",
-      "text": "[AV] BofA Strategists Warn of Stock Volatility as Outflows Hit US"
-    },
-    {
       "time": "09-03 12:30",
       "text": "[Fed] Waller, The Economic Outlook and Some Comments on My Policy Communication"
     },
@@ -174,7 +134,11 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
