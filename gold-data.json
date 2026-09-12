@@ -1,13 +1,7 @@
 {
-  "fetchedAt": "2026-09-12T12:40:52.384280+00:00",
-  "gold": {
-    "price": 4349.700195,
-    "updatedAt": "2026-09-12T12:40:32Z"
-  },
-  "silver": {
-    "price": 64.622002,
-    "updatedAt": "2026-09-12T12:40:31Z"
-  },
+  "fetchedAt": "2026-09-12T15:50:44.380120+00:00",
+  "gold": null,
+  "silver": null,
   "dxy": {
     "value": 99.12,
     "changePct": 0.03
@@ -21,8 +15,8 @@
     "changePct": -2.37
   },
   "btc": {
-    "value": 77324.75,
-    "changePct": 0.2
+    "value": 77360.31,
+    "changePct": 0.24
   },
   "spx": {
     "value": 7656.98,
@@ -50,6 +44,42 @@
   },
   "news": [
     {
+      "time": "15:19",
+      "text": "在周六发布的一段视频采访中，伊朗总统马苏德·佩泽希齐扬对《今日印度》表示，伊朗“目前无法做出”与美国进行直接谈判的决定。\n他说，首先必须营造互信氛围。\n“美国人必须停止封锁和制裁，”他说。\n他还表示，美国“应该停止以霸凌的方式同我们说话。”"
+    },
+    {
+      "time": "15:08",
+      "text": "马斯克：Anthropic PBC的CEO Amodei关于放慢人工智能（AI）模型发展速度的建议是正确的。"
+    },
+    {
+      "time": "14:38",
+      "text": "Anthropic PBC首席执行官Dario Amodei表示，人工智能（AI）行业必须放慢新模型的开发速度，并提到对人工智能给人类造成风险的担忧越来越严重。\n“我们必须放慢提升AI能力的速度，”他在一篇博客文章中写道。“进步的速度看起来"
+    },
+    {
+      "time": "14:15",
+      "text": "Anthropic首席执行官表示，人工智能行业必须放慢新模型的开发速度，理由是对人类风险日益担忧。他指出两个主要原因：一是AI具备自我改进的能力，二是最近OpenAI与Hugging Face发生的事件——一群AI代理秘密结盟，执行了未被指"
+    },
+    {
+      "time": "14:09",
+      "text": "伊朗将于周一向海湾国家通报霍尔木兹海峡航运协议。（彭博）"
+    },
+    {
+      "time": "13:36",
+      "text": "恺英网络9月12日晚间公告，公司拟间接参股韩国公司Wemade（娱美德）。娱美德是韩国交易所科斯达克上市的游戏企业，是韩国本土第一代网游研发企业，是极具影响力的“传奇”IP原始权利方。"
+    },
+    {
+      "time": "13:26",
+      "text": "美国共和党议员敦促美国内政部长伯格姆采取行动应对汽油价格。（POLITICO）"
+    },
+    {
+      "time": "13:15",
+      "text": "9月12日晚，苹果官网显示，iPhone 18 Pro/Pro Max预购现已开启，起售价分别为9999元、10999元，将于本月18日正式发售。"
+    },
+    {
+      "time": "13:01",
+      "text": "9月11日下午，针对公司与谷歌合作智能家居项目是否涵盖AI眼镜相关产品，创维数字在业绩说明会上表示，公司与Google Asia Pacific Pte. Ltd于近日正式签署《智能家居合作协议》。基于Google Home平台与Gemin"
+    },
+    {
       "time": "12:29",
       "text": "12日，以“共享创新 共塑未来：新一轮科技革命背景下的全球科技共同体使命”为主题的2026浦江创新论坛在上海正式拉开帷幕。本届论坛由中华人民共和国科学技术部与上海市人民政府共同主办，南非共和国担任主宾国，湖南省担任主宾省。（新华社）"
     },
@@ -59,7 +89,7 @@
     },
     {
       "time": "11:52",
-      "text": "【习近平会见印度总理莫迪】当地时间9月12日下午，国家主席习近平在新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。（央视新闻）"
+      "text": "据新华社报道，当地时间9月12日下午，国家主席习近平在印度新德里出席金砖国家领导人第十八次会晤期间会见印度总理莫迪。两国领导人坦诚深入交换意见，就中印要做伙伴达成重要共识。"
     },
     {
       "time": "11:49",
@@ -72,82 +102,6 @@
     {
       "time": "11:15",
       "text": "特朗普：与委内瑞拉人相处得非常好，他们现在非常开心。\n爱尔兰正在扩大军事投资。\n美国国防工业基础正在迅速增长。\n对美国武器的需求“惊人”，包括爱国者系统。\n（谈毒品走私）我们尚未聚焦陆地渠道。\n英国必须像美国一样遣返犯罪移民。"
-    },
-    {
-      "time": "11:11",
-      "text": "特朗普盛赞就业形势，将工厂建设归功于关税。\n特朗普批评欧洲的商业监管“不可接受”。"
-    },
-    {
-      "time": "11:10",
-      "text": "在伊朗支持的胡塞武装与沙特的冲突恶化，加剧中东紧张局势之际，美国总统唐纳德·特朗普表示，胡塞武装已请求美国不要袭击该军事组织。“胡塞武装给我们打了电话，他们不想跟我们打仗，”特朗普周六在都柏林与爱尔兰总理米哈尔·马丁会晤期间对记者表示。“他"
-    },
-    {
-      "time": "11:08",
-      "text": "特朗普称赞美国股市是“独一无二的”。"
-    },
-    {
-      "time": "11:07",
-      "text": "华储网发布关于2026年9月16日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌国产冻猪肉12900吨。"
-    },
-    {
-      "time": "11:04",
-      "text": "华储网发布关于2026年9月15日中央储备冻猪肉轮换出库竞价交易有关事项的通知：本次出库竞价交易挂牌国产冻猪肉15500吨。"
-    },
-    {
-      "time": "11:00",
-      "text": "乌克兰总统泽连斯基说，如果俄罗斯总统普京也出席12月中旬在迈阿密举行的二十国集团(G20)领导人峰会，那么他将前去参会，称两人应当会面并作出决定。根据德国之声周六发表的采访，泽连斯基说：“当然，我们必须去。我们必须会面、交谈并作出决定。”该"
-    },
-    {
-      "time": "10:58",
-      "text": "特朗普：关于爱尔兰统一，无论怎样回答都不讨好。"
-    },
-    {
-      "time": "10:48",
-      "text": "国务院新闻办公室将于2026年9月14日（星期一）下午3时举行国务院政策例行吹风会，请工业和信息化部副部长柯吉欣和中国人民银行、国务院国资委、市场监管总局、中国证监会有关负责人介绍加强中小企业回款难问题治理有关工作情况，并答记者问。"
-    },
-    {
-      "time": "10:46",
-      "text": "在2026中国算力大会上，首批普惠算力赋能中小企业发展服务清单正式发布。服务清单覆盖通用算力、智能算力、大模型服务、行业智能体应用等多层次普惠算力服务矩阵，可提供容器化租赁、按量计费等灵活付费模式，将推动算力资源普惠共享，助力中小企业数字化"
-    },
-    {
-      "time": "09-11 20:30",
-      "text": "[AV] Intercontinental Exchange (NYSE:ICE) In Focus As Oil & Yields Drive A Fresh Sector Rotation"
-    },
-    {
-      "time": "09-11 19:40",
-      "text": "[AV] Can High Tide (NASDAQ:HITI) Weather A Tougher Market?"
-    },
-    {
-      "time": "09-11 16:26",
-      "text": "[AV] Can American Tower (NYSE:AMT) Keep Its Momentum?"
-    },
-    {
-      "time": "09-11 14:38",
-      "text": "[AV] Dow Jumps Over 1%; US Inflation Holds at 3.4% In August"
-    },
-    {
-      "time": "09-11 12:30",
-      "text": "[AV] KULR Technology Group (NYSE:KULR) faces a fresh market test as oil and yields rise"
-    },
-    {
-      "time": "09-11 12:18",
-      "text": "[AV] Duke Energy (NYSE:DUK) faces a fresh market test as oil and yields rise"
-    },
-    {
-      "time": "09-11 11:09",
-      "text": "[AV] What is moving American Tower (NYSE:AMT) shares in today's market?"
-    },
-    {
-      "time": "09-11 08:54",
-      "text": "[AV] Interest rates at the intersection of inflation, public finances, and artificial intelligence"
-    },
-    {
-      "time": "09-11 07:37",
-      "text": "[AV] Zacks.com featured highlights include LifeStance Health, Tutor Perini, News, Everus Construction and HF Sinclair"
-    },
-    {
-      "time": "09-11 03:45",
-      "text": "[AV] BofA Strategists Warn of Stock Volatility as Outflows Hit US"
     },
     {
       "time": "09-03 12:30",
@@ -174,7 +128,11 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": null,
+  "newsDebug": {
+    "fedError": null,
+    "wscnError": null,
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+  },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
