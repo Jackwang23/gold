@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-12T18:11:39.600036+00:00",
+  "fetchedAt": "2026-09-12T20:34:09.640223+00:00",
   "gold": {
     "price": 4349.700195,
-    "updatedAt": "2026-09-12T18:11:32Z"
+    "updatedAt": "2026-09-12T20:33:33Z"
   },
   "silver": {
     "price": 64.622002,
-    "updatedAt": "2026-09-12T18:11:32Z"
+    "updatedAt": "2026-09-12T20:33:32Z"
   },
   "dxy": {
     "value": 99.12,
@@ -21,8 +21,8 @@
     "changePct": -2.37
   },
   "btc": {
-    "value": 77192.46,
-    "changePct": 0.02
+    "value": 77158.35,
+    "changePct": -0.02
   },
   "spx": {
     "value": 7656.98,
@@ -110,6 +110,46 @@
       "text": "在9月12日2026中国算力大会主论坛上，中国工程院院士邬贺铨指出，智能体的出现带动了Token的消费。今年3月，Token的消费已经达到日均140万亿。随着技术进步，Token的消耗并不是以多为荣，而是以效率为荣。中国Token的应用成本"
     },
     {
+      "time": "09-11 20:30",
+      "text": "[AV] Intercontinental Exchange (NYSE:ICE) In Focus As Oil & Yields Drive A Fresh Sector Rotation"
+    },
+    {
+      "time": "09-11 19:40",
+      "text": "[AV] Can High Tide (NASDAQ:HITI) Weather A Tougher Market?"
+    },
+    {
+      "time": "09-11 16:26",
+      "text": "[AV] Can American Tower (NYSE:AMT) Keep Its Momentum?"
+    },
+    {
+      "time": "09-11 14:38",
+      "text": "[AV] Dow Jumps Over 1%; US Inflation Holds at 3.4% In August"
+    },
+    {
+      "time": "09-11 12:30",
+      "text": "[AV] KULR Technology Group (NYSE:KULR) faces a fresh market test as oil and yields rise"
+    },
+    {
+      "time": "09-11 12:18",
+      "text": "[AV] Duke Energy (NYSE:DUK) faces a fresh market test as oil and yields rise"
+    },
+    {
+      "time": "09-11 11:09",
+      "text": "[AV] What is moving American Tower (NYSE:AMT) shares in today's market?"
+    },
+    {
+      "time": "09-11 08:54",
+      "text": "[AV] Interest rates at the intersection of inflation, public finances, and artificial intelligence"
+    },
+    {
+      "time": "09-11 07:37",
+      "text": "[AV] Zacks.com featured highlights include LifeStance Health, Tutor Perini, News, Everus Construction and HF Sinclair"
+    },
+    {
+      "time": "09-11 03:45",
+      "text": "[AV] BofA Strategists Warn of Stock Volatility as Outflows Hit US"
+    },
+    {
       "time": "09-03 12:30",
       "text": "[Fed] Waller, The Economic Outlook and Some Comments on My Policy Communication"
     },
@@ -134,11 +174,7 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
