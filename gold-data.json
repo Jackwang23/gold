@@ -1,40 +1,40 @@
 {
-  "fetchedAt": "2026-09-15T17:30:21.828096+00:00",
+  "fetchedAt": "2026-09-15T20:25:03.660024+00:00",
   "gold": {
-    "price": 4294.200195,
-    "updatedAt": "2026-09-15T17:30:10Z"
+    "price": 4296.700195,
+    "updatedAt": "2026-09-15T20:24:41Z"
   },
   "silver": {
-    "price": 63.481998,
-    "updatedAt": "2026-09-15T17:30:10Z"
+    "price": 63.742001,
+    "updatedAt": "2026-09-15T20:24:40Z"
   },
   "dxy": {
     "value": 99.65,
     "changePct": 0.19
   },
   "vix": {
-    "value": 17.58,
-    "changePct": 2.81
+    "value": 17.28,
+    "changePct": 1.05
   },
   "wti": {
-    "value": 106.41,
-    "changePct": 4.95
+    "value": 106.1,
+    "changePct": 4.65
   },
   "btc": {
-    "value": 76481.56,
-    "changePct": -2.15
+    "value": 75875.98,
+    "changePct": -2.93
   },
   "spx": {
-    "value": 7580.65,
-    "changePct": -0.52
+    "value": 7585.73,
+    "changePct": -0.45
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-11",
-      "value": 4.96
+      "date": "2026-09-14",
+      "value": 4.97
     },
     "10y_real_rate": {
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "value": 2.6
     }
   },
@@ -43,71 +43,111 @@
     "dataPoints": 59,
     "minRequired": 10,
     "dxy": -0.791,
-    "realRate": -0.168,
-    "vix": -0.711,
-    "btc": 0.674,
+    "realRate": -0.167,
+    "vix": -0.713,
+    "btc": 0.675,
     "spx": 0.728
   },
   "news": [
     {
-      "time": "17:16",
-      "text": "周二（9月15日），美联储隔夜逆回购协议（RRP）使用规模为7亿美元（交易对手2家），上个交易日报14.20亿美元。"
+      "time": "20:24",
+      "text": "北美科技软件股指数ETF跌1.02%，报105.55美元。\nGlobal X网络安全ETF涨2.23%，纳斯达克网络安全ETF涨0.95%，ETFMG网络安全ETF涨1.71%。"
     },
     {
-      "time": "17:14",
-      "text": "WTI原油日内涨幅达5.0%，报106.48美元/桶。航运消息人士称，在东西向石油管道遭袭后，沙特红海最大港口延布的石油装船作业暂停。"
+      "time": "20:21",
+      "text": "周二（9月15日），巴克莱美国可转债ETF收跌0.91%，罗素2000指数ETF跌0.7%，纳斯达克100 ETF、道指ETF至少跌0.62%，日元做多跌0.5%，标普500 ETF跌0.46%，新兴市场ETF跌0.35%，农产品基金、美国"
     },
     {
-      "time": "17:10",
-      "text": "谷歌公司发布Gemini 3.8实时对话模型。\n推出Gemini 3.8 Live和Gemini 3.8 Live Extended Thinking，两款模型为我们目前最出色的对话式人工智能模型。\n与Salesforce、Genspark"
+      "time": "20:20",
+      "text": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。"
     },
     {
-      "time": "17:08",
-      "text": "德国总理默茨取消下周前往美国纽约的计划，他将留在柏林。"
+      "time": "20:18",
+      "text": "周二（9月15日），美股行业ETF普遍收跌，可选消费ETF跌1.75%，生物科技指数ETF跌1.27%，网络股指数ETF跌0.96%，全球科技股指数ETF跌0.33%，半导体ETF涨0.11%，能源业ETF涨2.17%。"
     },
     {
-      "time": "17:05",
-      "text": "伊朗原子能组织发言人在国际原子能机构会议上表示：伊朗不会屈服，我国核计划是和平性质的。\n伊朗是《不扩散核武器条约》最早的成员国之一，并且一直恪守条约义务。\n国际原子能机构核查人员在对伊朗核设施开展反复、持续核查后，至今是否提交过显示伊朗存在"
+      "time": "20:10",
+      "text": "标普500指数的11个板块中，可选消费板块收跌1.76%，电信板块跌0.84%，金融、信息技术/科技板块跌0.34%，能源板块涨2.26%。"
     },
     {
-      "time": "17:05",
-      "text": "比特币跌3%至76000美元，市场对美国《CLARITY法案》今年获得通过的预期降温。"
+      "time": "20:03",
+      "text": "周二（9月15日），彭博电动汽车价格回报指数跌1.12%，报3259.43点，北京时间08:00-13:02大致持稳——形成日内顶部，随后短线迅速扩大跌幅，14:00以来持稳于3270点附近，美股盘初再次扩大跌幅，之后低位持稳。"
     },
     {
-      "time": "17:02",
-      "text": "美国财政部拍卖130亿美元20年期国债，得标利率5.420%，突破2023年10月按5.245%所创历史最高，投标倍数2.57。"
+      "time": "20:00",
+      "text": "标普500指数初步收跌0.4%，可选消费板块跌2%，电信板块跌0.8%，科技板块跌0.4%，能源板块涨2%。\n纳斯达克100指数初步收跌0.7%，成分股中，AXON初步收跌9.7%，Strategy跌5.6%，ALNY跌5%，TTWO、希捷"
     },
     {
-      "time": "17:01",
-      "text": "Thatch按10亿美元估值融资1.08亿美元。"
+      "time": "20:00",
+      "text": "纳斯达克金龙中国指数初步收跌1.1%。\n热门中概股里，小鹏初步收跌4.4%，理想跌3.3%，小米跌2.7%，百度、拼多多、比亚迪至少跌1.4%，日月光半导体跌0.3%，阿里涨0.1%，腾讯涨1.1%，网易涨1.3%。\nETF中，KWEB跌1"
     },
     {
-      "time": "17:00",
-      "text": "国际铜夜盘收涨0.38%，沪铜收涨0.25%，沪铝收涨0.46%，沪锌收涨0.19%，沪铅收跌0.22%，沪镍收跌2.47%，沪锡收跌0.02%。\n氧化铝夜盘收跌0.22%，铝合金收跌0.06%。\n不锈钢夜盘收跌1.55%。"
+      "time": "19:59",
+      "text": "美国司法部：要求各州在派拉蒙案件中缴纳19亿美元保证金。"
     },
     {
-      "time": "16:59",
-      "text": "OpenAI考虑在加拿大建立数据中心，赞赏总理卡尼的计划。"
+      "time": "19:53",
+      "text": "Salesforce首席执行官马克·贝尼奥夫在Salesforce活动上谈人工智能安全：我们必须让企业和技术高管对其所开发的技术负责。"
     },
     {
-      "time": "16:51",
-      "text": "LME期铜收涨82美元，报14084美元/吨。\nLME期铝收涨7美元，报3252美元/吨。\nLME期锌收涨30美元，报3824美元/吨。\nLME期铅收跌8美元，报1874美元/吨。\nLME期镍收跌357美元，报15977美元/吨。\nLME期"
+      "time": "19:51",
+      "text": "周二（9月15日）纽约尾盘，美国10年期基准国债收益率涨1.03个基点，报4.9978%，整体冲高回落，北京时间15:52曾达到5.0390%，逼近2007年7月9日盘中最高位5.1952%、当年6月13日顶部5.3228%，9月4日（美国"
     },
     {
-      "time": "16:49",
-      "text": "DoubleLine Capital的Jeffrey Sherman表示，美联储需要加息，以让交易员相信其致力于压低通胀，并缓解本周推动10年期美国国债收益率突破5%的市场担忧。\n该资产管理公司的这位副首席投资官接受彭博电视采访时表示，美联"
+      "time": "19:45",
+      "text": "帮助小企业利用AI开发应用的初创公司Emergence公布名为Emergence World 2的模拟实验结果，展示了自主智能体在遭遇网络钓鱼攻击和虚假信息等“黑天鹅”事件时会采取什么行动。\n为期16天的实验中，Emergence研究人员创"
     },
     {
-      "time": "16:44",
-      "text": "布伦特原油日内涨幅达3.0%，报108.87美元/桶。"
+      "time": "19:44",
+      "text": "美国副总统万斯：伊朗战争将进入“截然不同的阶段”。"
     },
     {
-      "time": "16:36",
-      "text": "据智利矿业监管机构称，周二在智利北部安托法加斯塔大区的一处矿区发生了一起致命事故。\n国家地质与矿业局（简称Sernageomin）在X平台发布的一则帖子中表示，事故发生在塔尔塔尔市（Taltal）的Zulema I-Daniela II矿区"
+      "time": "19:41",
+      "text": "OpenAI首席财务官萨拉·弗莱尔强调，必须认真对待人工智能风险的安全问题。"
     },
     {
-      "time": "16:34",
-      "text": "伊朗外长阿拉格齐：虚构说法称伊朗毫无防御能力。\n事实却是， 美国国防部发布的消息称数百处美军军事设施被炸得粉碎，数十架军机被烧毁。\n而这仅仅只是冰山一角。我们将在适当时机披露全部真相。\n对于那些编造有关伊朗谎言的人，结局不会好看。"
+      "time": "19:33",
+      "text": "周二（9月15日）纽约尾盘，ICE原糖期货跌0.99%，ICE白糖期货跌0.64%。\nICE阿拉比卡咖啡期货跌0.76%，咖啡“C”期货跌2.46%。罗布斯塔咖啡期货跌1.70%。\n纽约可可期货跌2.71%，报5860美元/吨。伦敦可可期货"
+    },
+    {
+      "time": "09-15 14:24",
+      "text": "[AV] Moody's London HQ Building at 10 Gresham Street Hits the Market"
+    },
+    {
+      "time": "09-15 13:07",
+      "text": "[AV] Fixed Income ETFs Surge to All-Time Highs Ahead of Pivotal Fed Decision"
+    },
+    {
+      "time": "09-15 08:38",
+      "text": "[AV] Morgan Stanley joins Goldman Sachs in 11th-hour switch to forecasting a Fed hike"
+    },
+    {
+      "time": "09-15 07:37",
+      "text": "[AV] Morgan Stanley turns more hawkish, forecasts two Fed hikes and ECB move"
+    },
+    {
+      "time": "09-14 20:48",
+      "text": "[AV] LatAm Poised for Take-Off"
+    },
+    {
+      "time": "09-14 20:27",
+      "text": "[AV] Bank of America leads financial services stocks lower on weak Wall Street fee forecast"
+    },
+    {
+      "time": "09-14 19:22",
+      "text": "[AV] KeyCorp at Barclays conference: growth, margin gains in focus By Investing.com"
+    },
+    {
+      "time": "09-14 19:03",
+      "text": "[AV] Bank of America CEO sees at least 10% drop in Q3 investment banking fees By Reuters"
+    },
+    {
+      "time": "09-14 17:26",
+      "text": "[AV] Should You Buy Costco Stock Before Sept. 24?"
+    },
+    {
+      "time": "09-14 17:23",
+      "text": "[AV] Bank of America CEO sees at least 10% drop in Q3 investment banking fees"
     },
     {
       "time": "09-03 12:30",
@@ -134,42 +174,20 @@
       "text": "[Fed] Cook, Outlook for the U.S. and Alaskan Economies"
     }
   ],
-  "newsDebug": {
-    "fedError": null,
-    "wscnError": null,
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
-  },
+  "newsDebug": null,
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4316.8,
-    "measuredMoveLow": 4364.7,
-    "measuredMoveHigh": 4393.0,
-    "sma20": 4330.73,
-    "currentPrice": 4336.4
+    "signalBarBull": true,
+    "signalBarPrice": 4348.7,
+    "measuredMoveLow": 4364.3,
+    "measuredMoveHigh": 4392.6,
+    "sma20": 4331.84,
+    "currentPrice": 4336.0
   },
   "bars1h": [
-    {
-      "open": 4379.7001953125,
-      "high": 4396.5,
-      "low": 4367.10009765625,
-      "close": 4394.5
-    },
-    {
-      "open": 4394.39990234375,
-      "high": 4396.7998046875,
-      "low": 4371.10009765625,
-      "close": 4371.7998046875
-    },
-    {
-      "open": 4371.5,
-      "high": 4377.10009765625,
-      "low": 4367.2001953125,
-      "close": 4370.60009765625
-    },
     {
       "open": 4370.60009765625,
       "high": 4371.89990234375,
@@ -388,9 +406,27 @@
     },
     {
       "open": 4335.7998046875,
-      "high": 4339.7001953125,
+      "high": 4339.7998046875,
       "low": 4330.5,
-      "close": 4336.39990234375
+      "close": 4335.2998046875
+    },
+    {
+      "open": 4335.5,
+      "high": 4350.60009765625,
+      "low": 4332.89990234375,
+      "close": 4348.7001953125
+    },
+    {
+      "open": 4348.7001953125,
+      "high": 4350.7998046875,
+      "low": 4333.7001953125,
+      "close": 4337.2998046875
+    },
+    {
+      "open": 4337.2998046875,
+      "high": 4338.7998046875,
+      "low": 4335.2001953125,
+      "close": 4336.0
     }
   ],
   "bars4h": [
@@ -570,9 +606,9 @@
     },
     {
       "open": 4335.7998046875,
-      "high": 4339.7001953125,
+      "high": 4350.7998046875,
       "low": 4330.5,
-      "close": 4336.39990234375
+      "close": 4336.0
     }
   ],
   "calendar": null,
