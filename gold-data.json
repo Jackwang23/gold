@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-17T22:21:18.440308+00:00",
+  "fetchedAt": "2026-09-18T00:41:18.707657+00:00",
   "gold": {
-    "price": 4343.100098,
-    "updatedAt": "2026-09-17T22:20:50Z"
+    "price": 4359.5,
+    "updatedAt": "2026-09-18T00:40:50Z"
   },
   "silver": {
-    "price": 65.453003,
-    "updatedAt": "2026-09-17T22:20:49Z"
+    "price": 65.800003,
+    "updatedAt": "2026-09-18T00:40:49Z"
   },
   "dxy": {
     "value": 100.24,
@@ -17,12 +17,12 @@
     "changePct": -12.82
   },
   "wti": {
-    "value": 101.08,
-    "changePct": -1.32
+    "value": 100.88,
+    "changePct": -1.51
   },
   "btc": {
-    "value": 76202.28,
-    "changePct": 0.07
+    "value": 76280.33,
+    "changePct": 0.17
   },
   "spx": {
     "value": 7637.76,
@@ -40,15 +40,55 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 61,
+    "dataPoints": 62,
     "minRequired": 10,
-    "dxy": -0.785,
-    "realRate": -0.14,
+    "dxy": -0.781,
+    "realRate": -0.117,
     "vix": -0.71,
-    "btc": 0.667,
+    "btc": 0.666,
     "spx": 0.728
   },
   "news": [
+    {
+      "time": "09-17 19:57",
+      "text": "[AV] AI cycle will not be slowed by rate hikes, says Morgan Stanley's Lisa Shalett"
+    },
+    {
+      "time": "09-17 13:57",
+      "text": "[AV] What Is Moving Caterpillar (NYSE:CAT) Today?"
+    },
+    {
+      "time": "09-17 13:52",
+      "text": "[AV] Why Is PepsiCo (NASDAQ:PEP) in Focus Today?"
+    },
+    {
+      "time": "09-17 13:51",
+      "text": "[AV] What Is Moving Verizon Communications (NYSE:VZ) Today?"
+    },
+    {
+      "time": "09-17 13:38",
+      "text": "[AV] Jim Cramer Says Defense Giant Still Too Expensive, Despite $22.9 Billion Tomahawk Missile Deal"
+    },
+    {
+      "time": "09-17 11:57",
+      "text": "[AV] SK Hynix, Intel, Micron, SanDisk, Other Chip Stocks Surge Up To 7% As AI Optimism Outweighs Fed Jolt"
+    },
+    {
+      "time": "09-17 11:02",
+      "text": "[AV] Multidimensional Energy Pathways; The Resilience Imperative; and Stubborn Inflation"
+    },
+    {
+      "time": "09-17 07:03",
+      "text": "[AV] Zacks.com featured highlights DiamondRock, Vertiv, Mueller Water Products and Phibro"
+    },
+    {
+      "time": "09-17 03:47",
+      "text": "[AV] Gen Digital stock heads into the open after a 1.9% Nasdaq decline"
+    },
+    {
+      "time": "09-17 01:54",
+      "text": "[AV] DuPont stock heads into the open after a modest loss"
+    },
     {
       "time": "09-16 18:00",
       "text": "[Fed] Federal Reserve issues FOMC statement"
@@ -76,34 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f6cc280ba10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f10d7fa6d50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4380.6,
-    "measuredMoveLow": 4436.85,
-    "measuredMoveHigh": 4492.5,
-    "sma20": 4373.0,
-    "currentPrice": 4381.2
+    "measuredMoveLow": 4445.9,
+    "measuredMoveHigh": 4495.7,
+    "sma20": 4379.62,
+    "currentPrice": 4396.1
   },
   "bars1h": [
-    {
-      "open": 4362.7998046875,
-      "high": 4374.2998046875,
-      "low": 4361.7001953125,
-      "close": 4366.89990234375
-    },
-    {
-      "open": 4366.89990234375,
-      "high": 4373.39990234375,
-      "low": 4361.7001953125,
-      "close": 4373.2001953125
-    },
     {
       "open": 4372.7001953125,
       "high": 4379.10009765625,
@@ -328,9 +356,21 @@
     },
     {
       "open": 4381.60009765625,
-      "high": 4384.10009765625,
+      "high": 4388.5,
+      "low": 4380.10009765625,
+      "close": 4383.0
+    },
+    {
+      "open": 4383.2001953125,
+      "high": 4387.10009765625,
+      "low": 4378.2998046875,
+      "close": 4385.0
+    },
+    {
+      "open": 4384.39990234375,
+      "high": 4397.2998046875,
       "low": 4380.7001953125,
-      "close": 4381.2001953125
+      "close": 4396.10009765625
     }
   ],
   "bars4h": [
@@ -510,9 +550,9 @@
     },
     {
       "open": 4381.60009765625,
-      "high": 4384.10009765625,
-      "low": 4380.7001953125,
-      "close": 4381.2001953125
+      "high": 4397.2998046875,
+      "low": 4378.2998046875,
+      "close": 4396.10009765625
     }
   ],
   "calendar": null,
