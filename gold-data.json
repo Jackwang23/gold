@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-18T17:41:53.395089+00:00",
+  "fetchedAt": "2026-09-18T19:58:54.971869+00:00",
   "gold": {
-    "price": 4395.700195,
-    "updatedAt": "2026-09-18T17:41:09Z"
+    "price": 4379.899902,
+    "updatedAt": "2026-09-18T19:58:39Z"
   },
   "silver": {
-    "price": 66.913002,
-    "updatedAt": "2026-09-18T17:41:09Z"
+    "price": 66.459,
+    "updatedAt": "2026-09-18T19:58:39Z"
   },
   "dxy": {
-    "value": 100.22,
-    "changePct": -0.0
+    "value": 100.2,
+    "changePct": -0.02
   },
   "vix": {
-    "value": 15.37,
-    "changePct": -0.45
+    "value": 14.9,
+    "changePct": -3.5
   },
   "wti": {
-    "value": 95.98,
-    "changePct": -5.82
+    "value": 95.65,
+    "changePct": -6.14
   },
   "btc": {
-    "value": 80661.66,
-    "changePct": 5.57
+    "value": 81192.4,
+    "changePct": 6.27
   },
   "spx": {
-    "value": 7626.88,
-    "changePct": -0.14
+    "value": 7646.45,
+    "changePct": 0.11
   },
   "fred": {
     "10y_treasury": {
@@ -42,11 +42,11 @@
   "correlations": {
     "dataPoints": 62,
     "minRequired": 10,
-    "dxy": -0.778,
-    "realRate": -0.106,
-    "vix": -0.711,
-    "btc": 0.665,
-    "spx": 0.726
+    "dxy": -0.78,
+    "realRate": -0.111,
+    "vix": -0.71,
+    "btc": 0.663,
+    "spx": 0.728
   },
   "news": [
     {
@@ -76,34 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb835698350>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb178e1f890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4421.1,
-    "measuredMoveLow": 4459.4,
-    "measuredMoveHigh": 4493.2,
-    "sma20": 4407.03,
-    "currentPrice": 4425.6
+    "measuredMoveLow": 4454.5,
+    "measuredMoveHigh": 4488.3,
+    "sma20": 4410.99,
+    "currentPrice": 4420.7
   },
   "bars1h": [
-    {
-      "open": 4318.39990234375,
-      "high": 4356.2001953125,
-      "low": 4318.39990234375,
-      "close": 4337.89990234375
-    },
-    {
-      "open": 4338.2001953125,
-      "high": 4338.89990234375,
-      "low": 4312.0,
-      "close": 4315.2001953125
-    },
     {
       "open": 4315.2001953125,
       "high": 4336.0,
@@ -328,9 +316,21 @@
     },
     {
       "open": 4421.2001953125,
-      "high": 4427.60009765625,
+      "high": 4435.2001953125,
       "low": 4419.89990234375,
-      "close": 4425.60009765625
+      "close": 4431.2998046875
+    },
+    {
+      "open": 4431.39990234375,
+      "high": 4432.89990234375,
+      "low": 4418.2001953125,
+      "close": 4420.7998046875
+    },
+    {
+      "open": 4420.7001953125,
+      "high": 4424.2998046875,
+      "low": 4417.10009765625,
+      "close": 4420.7001953125
     }
   ],
   "bars4h": [
@@ -510,17 +510,17 @@
     },
     {
       "open": 4421.2001953125,
-      "high": 4427.60009765625,
-      "low": 4419.89990234375,
-      "close": 4425.60009765625
+      "high": 4435.2001953125,
+      "low": 4417.10009765625,
+      "close": 4420.7001953125
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 231960,
-    "change": 3836,
-    "reportDate": "2026-09-08"
+    "netLong": 230338,
+    "change": -1622,
+    "reportDate": "2026-09-15"
   },
   "cotError": null,
   "gld": null,
