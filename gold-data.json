@@ -1,41 +1,41 @@
 {
-  "fetchedAt": "2026-09-18T19:58:54.971869+00:00",
+  "fetchedAt": "2026-09-18T22:28:48.988011+00:00",
   "gold": {
-    "price": 4379.899902,
-    "updatedAt": "2026-09-18T19:58:39Z"
+    "price": 4379.0,
+    "updatedAt": "2026-09-18T22:28:10Z"
   },
   "silver": {
-    "price": 66.459,
-    "updatedAt": "2026-09-18T19:58:39Z"
+    "price": 66.376999,
+    "updatedAt": "2026-09-18T22:28:09Z"
   },
   "dxy": {
-    "value": 100.2,
-    "changePct": -0.02
+    "value": 100.21,
+    "changePct": -0.0
   },
   "vix": {
-    "value": 14.9,
-    "changePct": -3.5
+    "value": 14.81,
+    "changePct": -4.08
   },
   "wti": {
-    "value": 95.65,
-    "changePct": -6.14
+    "value": 95.47,
+    "changePct": -6.32
   },
   "btc": {
-    "value": 81192.4,
-    "changePct": 6.27
+    "value": 81238.11,
+    "changePct": 6.33
   },
   "spx": {
-    "value": 7646.45,
-    "changePct": 0.11
+    "value": 7650.5,
+    "changePct": 0.17
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-16",
-      "value": 5.01
+      "date": "2026-09-17",
+      "value": 4.94
     },
     "10y_real_rate": {
-      "date": "2026-09-16",
-      "value": 2.68
+      "date": "2026-09-17",
+      "value": 2.61
     }
   },
   "goldapi": null,
@@ -43,9 +43,9 @@
     "dataPoints": 62,
     "minRequired": 10,
     "dxy": -0.78,
-    "realRate": -0.111,
+    "realRate": -0.121,
     "vix": -0.71,
-    "btc": 0.663,
+    "btc": 0.662,
     "spx": 0.728
   },
   "news": [
@@ -76,28 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb178e1f890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fe23956fc90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": true,
     "signalBarPrice": 4421.1,
-    "measuredMoveLow": 4454.5,
-    "measuredMoveHigh": 4488.3,
-    "sma20": 4410.99,
-    "currentPrice": 4420.7
+    "measuredMoveLow": 4449.7,
+    "measuredMoveHigh": 4483.5,
+    "sma20": 4411.79,
+    "currentPrice": 4415.9
   },
   "bars1h": [
-    {
-      "open": 4315.2001953125,
-      "high": 4336.0,
-      "low": 4315.2001953125,
-      "close": 4335.39990234375
-    },
     {
       "open": 4334.2001953125,
       "high": 4337.5,
@@ -329,8 +323,14 @@
     {
       "open": 4420.7001953125,
       "high": 4424.2998046875,
-      "low": 4417.10009765625,
-      "close": 4420.7001953125
+      "low": 4413.5,
+      "close": 4415.60009765625
+    },
+    {
+      "open": 4415.60009765625,
+      "high": 4421.5,
+      "low": 4414.39990234375,
+      "close": 4415.89990234375
     }
   ],
   "bars4h": [
@@ -511,8 +511,8 @@
     {
       "open": 4421.2001953125,
       "high": 4435.2001953125,
-      "low": 4417.10009765625,
-      "close": 4420.7001953125
+      "low": 4413.5,
+      "close": 4415.89990234375
     }
   ],
   "calendar": null,
