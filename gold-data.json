@@ -1,28 +1,25 @@
 {
-  "fetchedAt": "2026-09-19T00:33:00.486784+00:00",
-  "gold": {
-    "price": 4379.0,
-    "updatedAt": "2026-09-19T00:32:40Z"
-  },
+  "fetchedAt": "2026-09-19T05:06:53.543245+00:00",
+  "gold": null,
   "silver": {
     "price": 66.376999,
-    "updatedAt": "2026-09-19T00:32:39Z"
+    "updatedAt": "2026-09-19T05:06:10Z"
   },
   "dxy": {
-    "value": 100.21,
-    "changePct": -0.0
+    "value": 100.22,
+    "changePct": 0.0
   },
   "vix": {
     "value": 14.81,
     "changePct": -4.08
   },
   "wti": {
-    "value": 95.47,
-    "changePct": -6.32
+    "value": 100.3,
+    "changePct": -1.58
   },
   "btc": {
-    "value": 81242.78,
-    "changePct": 6.33
+    "value": 81065.2,
+    "changePct": 6.1
   },
   "spx": {
     "value": 7650.5,
@@ -50,46 +47,6 @@
   },
   "news": [
     {
-      "time": "09-18 22:15",
-      "text": "[AV] Could Copart (NASDAQ:CPRT) Turn Consolidation Into A Bigger Story?"
-    },
-    {
-      "time": "09-18 18:13",
-      "text": "[AV] McDonald's is the new 'Value Meal,' says trader Mike Khouw"
-    },
-    {
-      "time": "09-18 14:15",
-      "text": "[AV] Mid-America Apartment Communities stock hits 52-week low at 120.27 USD"
-    },
-    {
-      "time": "09-18 13:18",
-      "text": "[AV] Why Is PayPal Holdings (NASDAQ:PYPL) in Focus Across S&P 500?"
-    },
-    {
-      "time": "09-18 13:01",
-      "text": "[AV] Enphase Energy Drops 5% as Solar Selling Resumes; First Solar and Sunrun Fall 4%"
-    },
-    {
-      "time": "09-18 11:26",
-      "text": "[AV] What Is Driving Attention to Intuitive Surgical (NASDAQ:ISRG)?"
-    },
-    {
-      "time": "09-18 11:21",
-      "text": "[AV] Why Is Crown Castle (NYSE:CCI) in Focus Across S&P 500?"
-    },
-    {
-      "time": "09-18 11:19",
-      "text": "[AV] What Is Driving Attention to Bristol Myers Squibb (NYSE:BMY)?"
-    },
-    {
-      "time": "09-18 11:13",
-      "text": "[AV] Why Is Altria Group (NYSE:MO) in Focus Across NYSE Composite?"
-    },
-    {
-      "time": "09-18 07:49",
-      "text": "[AV] Ieq Capital LLC Sells 20,745 Shares of JPMorgan Chase & Co. $JPM"
-    },
-    {
       "time": "09-18 13:30",
       "text": "[Fed] Bowman, Initial Findings from Independent Review of Silicon Valley Bank"
     },
@@ -116,8 +73,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa12ed77f50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdc2d62bcd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
