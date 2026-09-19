@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-19T13:26:10.360489+00:00",
+  "fetchedAt": "2026-09-19T16:41:33.435205+00:00",
   "gold": {
     "price": 4379.0,
-    "updatedAt": "2026-09-19T13:25:46Z"
+    "updatedAt": "2026-09-19T16:41:16Z"
   },
   "silver": {
     "price": 66.376999,
-    "updatedAt": "2026-09-19T13:25:46Z"
+    "updatedAt": "2026-09-19T16:41:16Z"
   },
   "dxy": {
     "value": 100.22,
@@ -21,8 +21,8 @@
     "changePct": -1.58
   },
   "btc": {
-    "value": 81242.96,
-    "changePct": 0.42
+    "value": 81878.03,
+    "changePct": 1.21
   },
   "spx": {
     "value": 7650.5,
@@ -45,10 +45,50 @@
     "dxy": -0.774,
     "realRate": -0.103,
     "vix": -0.71,
-    "btc": 0.658,
+    "btc": 0.657,
     "spx": 0.728
   },
   "news": [
+    {
+      "time": "09-19 13:50",
+      "text": "[AV] Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside"
+    },
+    {
+      "time": "09-19 10:49",
+      "text": "[AV] Intercontinental Exchange stock edges higher as interest-rate leverage draws analyst focus"
+    },
+    {
+      "time": "09-19 09:07",
+      "text": "[AV] Rep. C. Scott Franklin Sells Off JPMorgan Chase & Co. (NYSE:JPM) Shares"
+    },
+    {
+      "time": "09-19 00:48",
+      "text": "[AV] Why Is JPMorgan Chase & Co. (NYSE:JPM) In The Spotlight?"
+    },
+    {
+      "time": "09-19 00:28",
+      "text": "[AV] What Is Incyte Corporation (NASDAQ:INCY) Signaling Through Its Pipeline?"
+    },
+    {
+      "time": "09-18 22:15",
+      "text": "[AV] Could Copart (NASDAQ:CPRT) Turn Consolidation Into A Bigger Story?"
+    },
+    {
+      "time": "09-18 20:16",
+      "text": "[AV] PENN Entertainment, Inspired, Lovesac, Rush Street Interactive, and Marriott Vacations Stocks Trade Down, What You Need "
+    },
+    {
+      "time": "09-18 20:08",
+      "text": "[AV] iHeartMedia, Charter, Sonos, Compass, and The Real Brokerage Stocks Trade Down, What You Need To Know"
+    },
+    {
+      "time": "09-18 18:13",
+      "text": "[AV] McDonald's is the new 'Value Meal,' says trader Mike Khouw"
+    },
+    {
+      "time": "09-18 14:15",
+      "text": "[AV] Mid-America Apartment Communities stock hits 52-week low at 120.27 USD"
+    },
     {
       "time": "09-18 13:30",
       "text": "[Fed] Bowman, Initial Findings from Independent Review of Silicon Valley Bank"
@@ -76,8 +116,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fd834ef3ad0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f8f5017b990>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "long",
