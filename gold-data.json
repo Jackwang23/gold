@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-19T18:57:37.283952+00:00",
+  "fetchedAt": "2026-09-19T21:23:51.281312+00:00",
   "gold": {
     "price": 4379.0,
-    "updatedAt": "2026-09-19T18:57:17Z"
+    "updatedAt": "2026-09-19T21:23:17Z"
   },
   "silver": {
     "price": 66.376999,
-    "updatedAt": "2026-09-19T18:57:16Z"
+    "updatedAt": "2026-09-19T21:23:16Z"
   },
   "dxy": {
     "value": 100.22,
@@ -21,8 +21,8 @@
     "changePct": -1.58
   },
   "btc": {
-    "value": 81417.51,
-    "changePct": 0.64
+    "value": 80922.91,
+    "changePct": 0.03
   },
   "spx": {
     "value": 7650.5,
@@ -45,7 +45,7 @@
     "dxy": -0.774,
     "realRate": -0.103,
     "vix": -0.71,
-    "btc": 0.658,
+    "btc": 0.659,
     "spx": 0.728
   },
   "news": [
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7598e73fd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f85f7df3bd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
@@ -517,12 +517,8 @@
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
-  "cot": {
-    "netLong": 230338,
-    "change": -1622,
-    "reportDate": "2026-09-15"
-  },
-  "cotError": null,
+  "cot": null,
+  "cotError": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://publicreporting.cftc.gov/resource/6dca-aqww.json?%24where=market_and_exchange_names%3D%27GOLD+-+COMMODITY+EXCHANGE+INC.%27&%24order=report_date_as_yyyy_mm_dd+DESC&%24limit=2",
   "gld": null,
   "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
