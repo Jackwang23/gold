@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-20T18:18:46.809219+00:00",
+  "fetchedAt": "2026-09-20T20:59:46.493721+00:00",
   "gold": {
     "price": 4379.0,
-    "updatedAt": "2026-09-20T18:18:19Z"
+    "updatedAt": "2026-09-20T20:59:30Z"
   },
   "silver": {
     "price": 66.376999,
-    "updatedAt": "2026-09-20T18:18:18Z"
+    "updatedAt": "2026-09-20T20:59:29Z"
   },
   "dxy": {
     "value": 100.22,
@@ -21,8 +21,8 @@
     "changePct": -5.72
   },
   "btc": {
-    "value": 81202.08,
-    "changePct": -0.04
+    "value": 81076.32,
+    "changePct": -0.19
   },
   "spx": {
     "value": 7650.5,
@@ -50,6 +50,46 @@
   },
   "news": [
     {
+      "time": "09-20 07:45",
+      "text": "[AV] Vega Investment Solutions Reduces Stock Holdings in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "09-19 21:49",
+      "text": "[AV] Is Duke Energy (NYSE:DUK) Ready for the Next Power-Demand Shift?"
+    },
+    {
+      "time": "09-19 20:19",
+      "text": "[AV] Hanmi Financial Corporation stock holds steady as investors weigh recent earnings"
+    },
+    {
+      "time": "09-19 13:59",
+      "text": "[AV] Why Does Bank of Montreal (TSX:BMO) Matter in This TSX Session?"
+    },
+    {
+      "time": "09-19 13:50",
+      "text": "[AV] Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside"
+    },
+    {
+      "time": "09-19 10:49",
+      "text": "[AV] Intercontinental Exchange stock edges higher as interest-rate leverage draws analyst focus"
+    },
+    {
+      "time": "09-19 09:07",
+      "text": "[AV] Rep. C. Scott Franklin Sells Off JPMorgan Chase & Co. (NYSE:JPM) Shares"
+    },
+    {
+      "time": "09-19 02:48",
+      "text": "[AV] What Is Driving Attention to Organigram Global (NASDAQ:OGI)?"
+    },
+    {
+      "time": "09-19 00:48",
+      "text": "[AV] Why Is JPMorgan Chase & Co. (NYSE:JPM) In The Spotlight?"
+    },
+    {
+      "time": "09-19 00:28",
+      "text": "[AV] What Is Incyte Corporation (NASDAQ:INCY) Signaling Through Its Pipeline?"
+    },
+    {
       "time": "09-18 13:30",
       "text": "[Fed] Bowman, Initial Findings from Independent Review of Silicon Valley Bank"
     },
@@ -76,8 +116,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f73393078d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0885983cd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "long",
