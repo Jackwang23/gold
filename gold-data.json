@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-22T11:48:48.920250+00:00",
+  "fetchedAt": "2026-09-22T16:28:05.103607+00:00",
   "gold": {
-    "price": 4320.700195,
-    "updatedAt": "2026-09-22T11:48:06Z"
+    "price": 4327.299805,
+    "updatedAt": "2026-09-22T16:27:36Z"
   },
   "silver": {
-    "price": 65.600998,
-    "updatedAt": "2026-09-22T11:48:05Z"
+    "price": 65.843002,
+    "updatedAt": "2026-09-22T16:27:36Z"
   },
   "dxy": {
-    "value": 100.43,
-    "changePct": -0.0
+    "value": 100.69,
+    "changePct": 0.26
   },
   "vix": {
-    "value": 14.73,
-    "changePct": -0.94
+    "value": 14.32,
+    "changePct": -3.7
   },
   "wti": {
-    "value": 90.09,
-    "changePct": -5.94
+    "value": 91.81,
+    "changePct": -4.14
   },
   "btc": {
-    "value": 86050.76,
-    "changePct": -0.64
+    "value": 86114.65,
+    "changePct": -0.56
   },
   "spx": {
-    "value": 7764.7,
-    "changePct": 1.49
+    "value": 7759.5,
+    "changePct": -0.07
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,57 @@
   "correlations": {
     "dataPoints": 66,
     "minRequired": 10,
-    "dxy": -0.758,
-    "realRate": -0.072,
-    "vix": -0.705,
-    "btc": 0.619,
-    "spx": 0.717
+    "dxy": -0.753,
+    "realRate": -0.071,
+    "vix": -0.703,
+    "btc": 0.62,
+    "spx": 0.718
   },
   "news": [
+    {
+      "time": "09-22 13:34",
+      "text": "[AV] Is Marathon Petroleum (NYSE:MPC) Stock Worth Watching Today?"
+    },
+    {
+      "time": "09-22 13:32",
+      "text": "[AV] Is SLB (NYSE:SLB) Stock Worth Watching Today?"
+    },
+    {
+      "time": "09-22 13:20",
+      "text": "[AV] What's Driving Bank of America's Move in Financial Stocks This Week?"
+    },
+    {
+      "time": "09-22 13:16",
+      "text": "[AV] The Zacks Analyst Blog Highlights Valero, Phillips 66 and Eni"
+    },
+    {
+      "time": "09-22 12:42",
+      "text": "[AV] What's Driving McDonald's' Move in Consumer Stocks This Week?"
+    },
+    {
+      "time": "09-22 12:23",
+      "text": "[AV] Inflation Tops Family Offices’ Worries, Citi Survey Finds"
+    },
+    {
+      "time": "09-22 07:10",
+      "text": "[AV] Bank of America Corp DE Increases Holdings in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "09-22 06:01",
+      "text": "[AV] US Bancorp stock heads into the open after a 0.9 percent gain"
+    },
+    {
+      "time": "09-22 04:22",
+      "text": "[AV] D.R. Horton stock heads into the open after a 4.1 percent drop"
+    },
+    {
+      "time": "09-22 00:08",
+      "text": "[AV] American Electric Power (NASDAQ:AEP) Faces Grid spending & Demand Growth"
+    },
+    {
+      "time": "09-22 14:20",
+      "text": "[Fed] Jefferson, Discount Window Modernization and Treasury Market Functioning"
+    },
     {
       "time": "09-18 13:30",
       "text": "[Fed] Bowman, Initial Findings from Independent Review of Silicon Valley Bank"
@@ -68,16 +112,12 @@
     {
       "time": "09-03 12:30",
       "text": "[Fed] Waller, The Economic Outlook and Some Comments on My Policy Communication"
-    },
-    {
-      "time": "09-01 13:05",
-      "text": "[Fed] Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ffa92d33dd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7efd0e477710>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "short",
@@ -85,43 +125,13 @@
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4359.0,
-    "measuredMoveLow": 4265.4,
-    "measuredMoveHigh": 4308.65,
-    "sma20": 4376.68,
-    "currentPrice": 4351.9
+    "signalBarPrice": 4361.9,
+    "measuredMoveLow": 4275.4,
+    "measuredMoveHigh": 4318.65,
+    "sma20": 4373.1,
+    "currentPrice": 4361.9
   },
   "bars1h": [
-    {
-      "open": 4431.39990234375,
-      "high": 4432.89990234375,
-      "low": 4418.2001953125,
-      "close": 4420.7998046875
-    },
-    {
-      "open": 4420.7001953125,
-      "high": 4424.2998046875,
-      "low": 4413.5,
-      "close": 4415.60009765625
-    },
-    {
-      "open": 4415.60009765625,
-      "high": 4424.89990234375,
-      "low": 4414.39990234375,
-      "close": 4424.89990234375
-    },
-    {
-      "open": 4415.0,
-      "high": 4417.7998046875,
-      "low": 4412.0,
-      "close": 4412.10009765625
-    },
-    {
-      "open": 4412.2001953125,
-      "high": 4414.7998046875,
-      "low": 4406.89990234375,
-      "close": 4411.60009765625
-    },
     {
       "open": 4411.5,
       "high": 4414.2998046875,
@@ -328,18 +338,42 @@
     },
     {
       "open": 4358.7998046875,
-      "high": 4360.60009765625,
+      "high": 4360.7998046875,
       "low": 4346.2998046875,
-      "close": 4351.89990234375
+      "close": 4359.89990234375
+    },
+    {
+      "open": 4360.2001953125,
+      "high": 4381.39990234375,
+      "low": 4357.10009765625,
+      "close": 4371.5
+    },
+    {
+      "open": 4371.60009765625,
+      "high": 4381.89990234375,
+      "low": 4365.2001953125,
+      "close": 4371.0
+    },
+    {
+      "open": 4370.7998046875,
+      "high": 4376.39990234375,
+      "low": 4351.7998046875,
+      "close": 4365.2998046875
+    },
+    {
+      "open": 4365.5,
+      "high": 4378.2998046875,
+      "low": 4362.60009765625,
+      "close": 4368.7001953125
+    },
+    {
+      "open": 4368.60009765625,
+      "high": 4369.7998046875,
+      "low": 4359.7998046875,
+      "close": 4361.89990234375
     }
   ],
   "bars4h": [
-    {
-      "open": 4320.7998046875,
-      "high": 4326.7001953125,
-      "low": 4301.60009765625,
-      "close": 4324.39990234375
-    },
     {
       "open": 4324.39990234375,
       "high": 4340.7001953125,
@@ -510,9 +544,15 @@
     },
     {
       "open": 4366.2998046875,
-      "high": 4375.2998046875,
+      "high": 4381.39990234375,
       "low": 4346.2998046875,
-      "close": 4351.89990234375
+      "close": 4371.5
+    },
+    {
+      "open": 4371.60009765625,
+      "high": 4381.89990234375,
+      "low": 4351.7998046875,
+      "close": 4361.89990234375
     }
   ],
   "calendar": null,
