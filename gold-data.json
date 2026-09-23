@@ -1,32 +1,29 @@
 {
-  "fetchedAt": "2026-09-23T11:58:27.565254+00:00",
-  "gold": {
-    "price": 4310.399902,
-    "updatedAt": "2026-09-23T11:58:11Z"
-  },
+  "fetchedAt": "2026-09-23T16:45:08.060271+00:00",
+  "gold": null,
   "silver": {
-    "price": 65.212997,
-    "updatedAt": "2026-09-23T11:58:10Z"
+    "price": 64.733002,
+    "updatedAt": "2026-09-23T16:44:41Z"
   },
   "dxy": {
-    "value": 100.88,
-    "changePct": 0.45
+    "value": 101.08,
+    "changePct": 0.65
   },
   "vix": {
-    "value": 14.36,
-    "changePct": -3.43
+    "value": 14.83,
+    "changePct": -0.27
   },
   "wti": {
-    "value": 90.64,
-    "changePct": -4.18
+    "value": 92.36,
+    "changePct": -2.36
   },
   "btc": {
-    "value": 85635.05,
-    "changePct": -0.62
+    "value": 84085.0,
+    "changePct": -2.42
   },
   "spx": {
-    "value": 7764.7,
-    "changePct": 1.49
+    "value": 7708.15,
+    "changePct": -0.73
   },
   "fred": {
     "10y_treasury": {
@@ -50,6 +47,50 @@
   },
   "news": [
     {
+      "time": "09-23 12:40",
+      "text": "[AV] The Zacks Analyst Blog Highlights Five Below, Dollar Tree, Kohl's, Target and The TJX Companies"
+    },
+    {
+      "time": "09-23 12:38",
+      "text": "[AV] Is Simon Property Group (NYSE:SPG) on the Radar as Oil and Bond Yields Reshape Market Tone?"
+    },
+    {
+      "time": "09-23 12:09",
+      "text": "[AV] Why Is American Tower (NYSE:AMT) in Focus as Wall Street Weighs AI Strength and Rate Pressure?"
+    },
+    {
+      "time": "09-23 07:44",
+      "text": "[AV] Invesco Emerging Markets Local Debt Fund Q2 2026 Commentary (OEMAX)"
+    },
+    {
+      "time": "09-23 07:20",
+      "text": "[AV] Equitable Holdings Inc. Cuts Stock Position in JPMorgan Chase & Co. $JPM"
+    },
+    {
+      "time": "09-23 06:57",
+      "text": "[AV] CenterPoint Energy stock heads into the open after a 0.6 percent gain"
+    },
+    {
+      "time": "09-23 05:12",
+      "text": "[AV] eBay Inc. stock gains 1.8 percent ahead of the open"
+    },
+    {
+      "time": "09-23 03:41",
+      "text": "[AV] Life Insurance Stocks Q2 Recap: Benchmarking Aflac (NYSE:AFL)"
+    },
+    {
+      "time": "09-23 02:12",
+      "text": "[AV] RTX Corp Stock (RTX) Moved Down by 3.43% on Sep 22: Facts Behind the Movement"
+    },
+    {
+      "time": "09-23 02:08",
+      "text": "[AV] Elizabeth Warren Slams Trump's Oil Stock Trades Amid High Gas Prices - Chevron (NYSE:CVX)"
+    },
+    {
+      "time": "09-23 14:05",
+      "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
+    },
+    {
       "time": "09-22 14:20",
       "text": "[Fed] Jefferson, Discount Window Modernization and Treasury Market Functioning"
     },
@@ -68,16 +109,12 @@
     {
       "time": "09-16 18:00",
       "text": "[Fed] Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting"
-    },
-    {
-      "time": "09-03 12:30",
-      "text": "[Fed] Waller, The Economic Outlook and Some Comments on My Policy Communication"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f274ee3b510>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f22a6f73690>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "short",
@@ -85,43 +122,13 @@
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4356.2,
-    "measuredMoveLow": 4264.9,
-    "measuredMoveHigh": 4304.25,
-    "sma20": 4376.34,
-    "currentPrice": 4343.6
+    "signalBarPrice": 4320.4,
+    "measuredMoveLow": 4228.8,
+    "measuredMoveHigh": 4275.9,
+    "sma20": 4362.18,
+    "currentPrice": 4323.0
   },
   "bars1h": [
-    {
-      "open": 4383.0,
-      "high": 4390.89990234375,
-      "low": 4382.2001953125,
-      "close": 4384.39990234375
-    },
-    {
-      "open": 4384.2998046875,
-      "high": 4391.89990234375,
-      "low": 4380.39990234375,
-      "close": 4383.0
-    },
-    {
-      "open": 4383.0,
-      "high": 4383.2998046875,
-      "low": 4377.2998046875,
-      "close": 4381.0
-    },
-    {
-      "open": 4382.5,
-      "high": 4402.7998046875,
-      "low": 4382.0,
-      "close": 4398.7001953125
-    },
-    {
-      "open": 4398.7001953125,
-      "high": 4408.60009765625,
-      "low": 4395.5,
-      "close": 4406.7998046875
-    },
     {
       "open": 4407.0,
       "high": 4414.10009765625,
@@ -330,16 +337,40 @@
       "open": 4352.10009765625,
       "high": 4354.0,
       "low": 4330.89990234375,
-      "close": 4343.60009765625
+      "close": 4346.2998046875
+    },
+    {
+      "open": 4346.39990234375,
+      "high": 4355.60009765625,
+      "low": 4337.2001953125,
+      "close": 4346.2998046875
+    },
+    {
+      "open": 4346.2998046875,
+      "high": 4350.60009765625,
+      "low": 4317.2998046875,
+      "close": 4320.39990234375
+    },
+    {
+      "open": 4320.10009765625,
+      "high": 4335.0,
+      "low": 4313.89990234375,
+      "close": 4330.60009765625
+    },
+    {
+      "open": 4330.60009765625,
+      "high": 4333.60009765625,
+      "low": 4313.2998046875,
+      "close": 4318.2998046875
+    },
+    {
+      "open": 4318.2998046875,
+      "high": 4324.39990234375,
+      "low": 4314.5,
+      "close": 4323.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4369.0,
-      "high": 4394.7998046875,
-      "low": 4362.60009765625,
-      "close": 4382.7998046875
-    },
     {
       "open": 4382.7998046875,
       "high": 4405.2001953125,
@@ -512,7 +543,13 @@
       "open": 4354.89990234375,
       "high": 4357.2998046875,
       "low": 4330.89990234375,
-      "close": 4343.60009765625
+      "close": 4346.2998046875
+    },
+    {
+      "open": 4346.2998046875,
+      "high": 4350.60009765625,
+      "low": 4313.2998046875,
+      "close": 4323.0
     }
   ],
   "calendar": null,
