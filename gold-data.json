@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-24T11:48:25.170324+00:00",
+  "fetchedAt": "2026-09-24T16:40:05.916416+00:00",
   "gold": {
-    "price": 4260.899902,
-    "updatedAt": "2026-09-24T11:47:51Z"
+    "price": 4276.399902,
+    "updatedAt": "2026-09-24T16:39:26Z"
   },
   "silver": {
-    "price": 63.616001,
-    "updatedAt": "2026-09-24T11:47:50Z"
+    "price": 63.937,
+    "updatedAt": "2026-09-24T16:39:25Z"
   },
   "dxy": {
-    "value": 101.27,
-    "changePct": 0.17
+    "value": 101.19,
+    "changePct": 0.09
   },
   "vix": {
-    "value": 16.06,
-    "changePct": 5.8
+    "value": 15.65,
+    "changePct": 3.1
   },
   "wti": {
-    "value": 93.64,
-    "changePct": 1.61
+    "value": 94.08,
+    "changePct": 2.08
   },
   "btc": {
-    "value": 83443.05,
-    "changePct": -1.11
+    "value": 84664.05,
+    "changePct": 0.33
   },
   "spx": {
-    "value": 7706.03,
-    "changePct": -0.76
+    "value": 7707.14,
+    "changePct": 0.01
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,53 @@
   "correlations": {
     "dataPoints": 68,
     "minRequired": 10,
-    "dxy": -0.732,
-    "realRate": -0.078,
-    "vix": -0.702,
-    "btc": 0.59,
-    "spx": 0.712
+    "dxy": -0.731,
+    "realRate": -0.075,
+    "vix": -0.701,
+    "btc": 0.589,
+    "spx": 0.713
   },
   "news": [
+    {
+      "time": "09-24 08:28",
+      "text": "[AV] Hasbro stock heads into the open after a market-driven decline"
+    },
+    {
+      "time": "09-24 07:24",
+      "text": "[AV] Evergy stock falls 1.7 percent ahead of the open"
+    },
+    {
+      "time": "09-24 07:09",
+      "text": "[AV] Envestnet Asset Management Inc. Cuts Stake in Citigroup Inc. $C"
+    },
+    {
+      "time": "09-24 06:39",
+      "text": "[AV] Kimco Realty stock heads into the open after a 1.2 percent drop"
+    },
+    {
+      "time": "09-24 06:28",
+      "text": "[AV] Air Products and Chemicals stock slips before the bell"
+    },
+    {
+      "time": "09-24 06:16",
+      "text": "[AV] Ecolab stock falls 0.8 percent ahead of the open"
+    },
+    {
+      "time": "09-24 06:11",
+      "text": "[AV] Duke Energy stock heads into the open after a 0.8 percent S&P 500 drop"
+    },
+    {
+      "time": "09-24 05:38",
+      "text": "[AV] Consolidated Edison stock slips 1.18 percent before the bell"
+    },
+    {
+      "time": "09-24 05:29",
+      "text": "[AV] A.O. Smith stock heads into the open after a 0.8 percent drop"
+    },
+    {
+      "time": "09-24 04:38",
+      "text": "[AV] Fortinet Inc. stock heads into the open after a 1.13 percent Nasdaq drop"
+    },
     {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
@@ -76,52 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7efd3d4f78d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ff0647d1c10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
-    "alwaysIn": "short",
+    "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4295.5,
-    "measuredMoveLow": 4233.8,
-    "measuredMoveHigh": 4263.65,
-    "sma20": 4315.91,
-    "currentPrice": 4293.5
+    "signalBarPrice": 4288.0,
+    "measuredMoveLow": 4340.65,
+    "measuredMoveHigh": 4370.5,
+    "sma20": 4310.65,
+    "currentPrice": 4310.8
   },
   "bars1h": [
-    {
-      "open": 4391.10009765625,
-      "high": 4409.60009765625,
-      "low": 4390.7001953125,
-      "close": 4401.7998046875
-    },
-    {
-      "open": 4402.10009765625,
-      "high": 4402.5,
-      "low": 4393.5,
-      "close": 4396.2001953125
-    },
-    {
-      "open": 4394.7001953125,
-      "high": 4403.7998046875,
-      "low": 4394.7001953125,
-      "close": 4400.60009765625
-    },
-    {
-      "open": 4400.7998046875,
-      "high": 4404.10009765625,
-      "low": 4396.39990234375,
-      "close": 4402.0
-    },
-    {
-      "open": 4401.39990234375,
-      "high": 4407.5,
-      "low": 4392.2998046875,
-      "close": 4394.7998046875
-    },
     {
       "open": 4395.0,
       "high": 4396.60009765625,
@@ -330,22 +340,40 @@
       "open": 4292.39990234375,
       "high": 4302.39990234375,
       "low": 4286.39990234375,
-      "close": 4293.5
+      "close": 4300.39990234375
+    },
+    {
+      "open": 4300.2001953125,
+      "high": 4318.2001953125,
+      "low": 4295.0,
+      "close": 4316.0
+    },
+    {
+      "open": 4316.2001953125,
+      "high": 4320.0,
+      "low": 4299.7001953125,
+      "close": 4302.5
+    },
+    {
+      "open": 4302.5,
+      "high": 4308.39990234375,
+      "low": 4287.39990234375,
+      "close": 4288.0
+    },
+    {
+      "open": 4288.2998046875,
+      "high": 4295.10009765625,
+      "low": 4279.5,
+      "close": 4291.2998046875
+    },
+    {
+      "open": 4291.5,
+      "high": 4324.2998046875,
+      "low": 4287.2001953125,
+      "close": 4310.7998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4366.39990234375,
-      "high": 4393.5,
-      "low": 4343.7998046875,
-      "close": 4390.0
-    },
-    {
-      "open": 4390.0,
-      "high": 4423.2998046875,
-      "low": 4383.7998046875,
-      "close": 4409.7998046875
-    },
     {
       "open": 4410.10009765625,
       "high": 4412.7001953125,
@@ -512,7 +540,19 @@
       "open": 4313.39990234375,
       "high": 4320.2998046875,
       "low": 4278.2998046875,
-      "close": 4293.5
+      "close": 4300.39990234375
+    },
+    {
+      "open": 4300.2001953125,
+      "high": 4320.0,
+      "low": 4279.5,
+      "close": 4291.2998046875
+    },
+    {
+      "open": 4291.5,
+      "high": 4324.2998046875,
+      "low": 4287.2001953125,
+      "close": 4310.7998046875
     }
   ],
   "calendar": null,
