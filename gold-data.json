@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-24T16:40:05.916416+00:00",
+  "fetchedAt": "2026-09-24T20:09:29.877839+00:00",
   "gold": {
-    "price": 4276.399902,
-    "updatedAt": "2026-09-24T16:39:26Z"
+    "price": 4273.100098,
+    "updatedAt": "2026-09-24T20:08:57Z"
   },
   "silver": {
-    "price": 63.937,
-    "updatedAt": "2026-09-24T16:39:25Z"
+    "price": 63.794998,
+    "updatedAt": "2026-09-24T20:08:56Z"
   },
   "dxy": {
-    "value": 101.19,
-    "changePct": 0.09
+    "value": 101.27,
+    "changePct": 0.16
   },
   "vix": {
-    "value": 15.65,
-    "changePct": 3.1
+    "value": 15.48,
+    "changePct": 1.98
   },
   "wti": {
-    "value": 94.08,
-    "changePct": 2.08
+    "value": 95.2,
+    "changePct": 3.3
   },
   "btc": {
-    "value": 84664.05,
-    "changePct": 0.33
+    "value": 84393.48,
+    "changePct": 0.01
   },
   "spx": {
-    "value": 7707.14,
-    "changePct": 0.01
+    "value": 7704.13,
+    "changePct": -0.02
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,25 @@
   "correlations": {
     "dataPoints": 68,
     "minRequired": 10,
-    "dxy": -0.731,
-    "realRate": -0.075,
-    "vix": -0.701,
+    "dxy": -0.73,
+    "realRate": -0.076,
+    "vix": -0.7,
     "btc": 0.589,
     "spx": 0.713
   },
   "news": [
+    {
+      "time": "09-24 16:38",
+      "text": "[AV] Skyworks Solutions and Universal Display Stocks Trade Down, What You Need To Know"
+    },
+    {
+      "time": "09-24 15:38",
+      "text": "[AV] Microchip Technology, Skyworks Solutions, and Universal Display Shares Are Falling, What You Need To Know"
+    },
+    {
+      "time": "09-24 13:20",
+      "text": "[AV] Vizsla Silver Corp. (TSX:VZLA) Stock Slips 5.63%: Panuco Execution Timelines, Dilution Sensitivity, and Sector-Wide Mult"
+    },
     {
       "time": "09-24 08:28",
       "text": "[AV] Hasbro stock heads into the open after a market-driven decline"
@@ -78,18 +90,6 @@
       "text": "[AV] Duke Energy stock heads into the open after a 0.8 percent S&P 500 drop"
     },
     {
-      "time": "09-24 05:38",
-      "text": "[AV] Consolidated Edison stock slips 1.18 percent before the bell"
-    },
-    {
-      "time": "09-24 05:29",
-      "text": "[AV] A.O. Smith stock heads into the open after a 0.8 percent drop"
-    },
-    {
-      "time": "09-24 04:38",
-      "text": "[AV] Fortinet Inc. stock heads into the open after a 1.13 percent Nasdaq drop"
-    },
-    {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
     },
@@ -116,40 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ff0647d1c10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdb94923950>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": null
   },
   "priceAction": {
     "alwaysIn": "long",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4288.0,
-    "measuredMoveLow": 4340.65,
-    "measuredMoveHigh": 4370.5,
-    "sma20": 4310.65,
-    "currentPrice": 4310.8
+    "signalBarBull": true,
+    "signalBarPrice": 4308.7,
+    "measuredMoveLow": 4338.05,
+    "measuredMoveHigh": 4367.9,
+    "sma20": 4307.78,
+    "currentPrice": 4308.2
   },
   "bars1h": [
-    {
-      "open": 4395.0,
-      "high": 4396.60009765625,
-      "low": 4375.89990234375,
-      "close": 4378.2998046875
-    },
-    {
-      "open": 4378.2001953125,
-      "high": 4378.2998046875,
-      "low": 4370.10009765625,
-      "close": 4370.7001953125
-    },
-    {
-      "open": 4370.7001953125,
-      "high": 4382.39990234375,
-      "low": 4370.0,
-      "close": 4380.0
-    },
     {
       "open": 4379.39990234375,
       "high": 4384.39990234375,
@@ -370,7 +352,25 @@
       "open": 4291.5,
       "high": 4324.2998046875,
       "low": 4287.2001953125,
-      "close": 4310.7998046875
+      "close": 4308.7001953125
+    },
+    {
+      "open": 4308.0,
+      "high": 4313.0,
+      "low": 4293.2001953125,
+      "close": 4300.10009765625
+    },
+    {
+      "open": 4300.2001953125,
+      "high": 4317.2001953125,
+      "low": 4291.2998046875,
+      "close": 4307.10009765625
+    },
+    {
+      "open": 4307.2001953125,
+      "high": 4310.89990234375,
+      "low": 4302.2001953125,
+      "close": 4308.2001953125
     }
   ],
   "bars4h": [
@@ -552,7 +552,7 @@
       "open": 4291.5,
       "high": 4324.2998046875,
       "low": 4287.2001953125,
-      "close": 4310.7998046875
+      "close": 4308.2001953125
     }
   ],
   "calendar": null,
