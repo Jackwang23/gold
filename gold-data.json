@@ -1,54 +1,94 @@
 {
-  "fetchedAt": "2026-09-25T17:26:34.595138+00:00",
+  "fetchedAt": "2026-09-25T20:40:26.290138+00:00",
   "gold": {
-    "price": 4293.100098,
-    "updatedAt": "2026-09-25T17:25:59Z"
+    "price": 4286.5,
+    "updatedAt": "2026-09-25T20:40:00Z"
   },
   "silver": {
-    "price": 64.552002,
-    "updatedAt": "2026-09-25T17:25:59Z"
+    "price": 64.412003,
+    "updatedAt": "2026-09-25T20:40:00Z"
   },
   "dxy": {
-    "value": 101.06,
-    "changePct": -0.23
+    "value": 101.03,
+    "changePct": -0.26
   },
   "vix": {
-    "value": 15.03,
-    "changePct": -4.08
+    "value": 14.87,
+    "changePct": -5.11
   },
   "wti": {
-    "value": 92.21,
-    "changePct": -2.54
+    "value": 92.72,
+    "changePct": -2.0
   },
   "btc": {
-    "value": 83858.94,
-    "changePct": -0.62
+    "value": 84142.97,
+    "changePct": -0.28
   },
   "spx": {
-    "value": 7741.22,
-    "changePct": 0.48
+    "value": 7743.41,
+    "changePct": 0.51
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-23",
-      "value": 5.11
+      "date": "2026-09-24",
+      "value": 5.18
     },
     "10y_real_rate": {
-      "date": "2026-09-23",
-      "value": 2.76
+      "date": "2026-09-24",
+      "value": 2.85
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 69,
     "minRequired": 10,
-    "dxy": -0.722,
-    "realRate": -0.078,
-    "vix": -0.698,
-    "btc": 0.576,
-    "spx": 0.708
+    "dxy": -0.723,
+    "realRate": -0.079,
+    "vix": -0.697,
+    "btc": 0.575,
+    "spx": 0.707
   },
   "news": [
+    {
+      "time": "09-25 19:23",
+      "text": "[AV] Canada's next rate move may be a hike, not a cut, says RBC"
+    },
+    {
+      "time": "09-25 18:18",
+      "text": "[AV] Home Depot stock last at USD 293.20 in New York trading"
+    },
+    {
+      "time": "09-25 18:02",
+      "text": "[AV] Cisco Systems stock last at USD 107.48, up 0.48 percent in New York trading"
+    },
+    {
+      "time": "09-25 16:58",
+      "text": "[AV] Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "09-25 16:41",
+      "text": "[AV] High beta leads S&P 500 factors in rising-yield environment: S&P Global (SPY:NYSEARCA)"
+    },
+    {
+      "time": "09-25 14:28",
+      "text": "[AV] QXO (QXO) Slides on Fading Rate-Cut Expectations"
+    },
+    {
+      "time": "09-25 11:19",
+      "text": "[AV] 3 Stocks in Focus That Declared Dividend Hikes Amid Economic Woes"
+    },
+    {
+      "time": "09-25 11:10",
+      "text": "[AV] Buy 3 AI-Led Stocks Amid Solid Estimate Revisions and Upside Potential"
+    },
+    {
+      "time": "09-25 10:46",
+      "text": "[AV] |‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now."
+    },
+    {
+      "time": "09-25 10:03",
+      "text": "[AV] Jim Cramer Discussed Walmart Inc. (WMT)’s Strategy To Navigate Through Current Slump"
+    },
     {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
@@ -76,40 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f179be6f8d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f5900e23a50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
-    "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4310.9,
-    "measuredMoveLow": 4356.8,
-    "measuredMoveHigh": 4388.0,
-    "sma20": 4318.52,
-    "currentPrice": 4325.6
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 1,
+    "isTrendStructure": true,
+    "signalBarBull": true,
+    "signalBarPrice": 4329.8,
+    "measuredMoveLow": 4354.0,
+    "measuredMoveHigh": 4385.2,
+    "sma20": 4321.07,
+    "currentPrice": 4322.8
   },
   "bars1h": [
-    {
-      "open": 4333.7998046875,
-      "high": 4338.0,
-      "low": 4312.60009765625,
-      "close": 4314.7998046875
-    },
-    {
-      "open": 4314.0,
-      "high": 4332.0,
-      "low": 4308.0,
-      "close": 4325.7001953125
-    },
-    {
-      "open": 4325.39990234375,
-      "high": 4328.7001953125,
-      "low": 4315.60009765625,
-      "close": 4318.89990234375
-    },
     {
       "open": 4320.10009765625,
       "high": 4325.10009765625,
@@ -328,18 +350,30 @@
     },
     {
       "open": 4321.60009765625,
-      "high": 4328.2998046875,
-      "low": 4320.39990234375,
-      "close": 4325.60009765625
+      "high": 4328.39990234375,
+      "low": 4314.5,
+      "close": 4318.10009765625
+    },
+    {
+      "open": 4318.2998046875,
+      "high": 4331.10009765625,
+      "low": 4317.7001953125,
+      "close": 4329.7998046875
+    },
+    {
+      "open": 4329.7998046875,
+      "high": 4332.39990234375,
+      "low": 4322.7001953125,
+      "close": 4326.60009765625
+    },
+    {
+      "open": 4326.5,
+      "high": 4327.60009765625,
+      "low": 4322.39990234375,
+      "close": 4322.7998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4395.2001953125,
-      "high": 4435.2001953125,
-      "low": 4393.39990234375,
-      "close": 4415.60009765625
-    },
     {
       "open": 4415.60009765625,
       "high": 4424.89990234375,
@@ -512,15 +546,21 @@
       "open": 4326.5,
       "high": 4336.0,
       "low": 4314.5,
-      "close": 4325.60009765625
+      "close": 4326.60009765625
+    },
+    {
+      "open": 4326.5,
+      "high": 4327.60009765625,
+      "low": 4322.39990234375,
+      "close": 4322.7998046875
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 230338,
-    "change": -1622,
-    "reportDate": "2026-09-15"
+    "netLong": 225853,
+    "change": -4485,
+    "reportDate": "2026-09-22"
   },
   "cotError": null,
   "gld": null,
