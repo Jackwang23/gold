@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-09-25T20:40:26.290138+00:00",
+  "fetchedAt": "2026-09-25T23:35:14.491614+00:00",
   "gold": {
-    "price": 4286.5,
-    "updatedAt": "2026-09-25T20:40:00Z"
+    "price": 4286.200195,
+    "updatedAt": "2026-09-25T23:34:31Z"
   },
   "silver": {
-    "price": 64.412003,
-    "updatedAt": "2026-09-25T20:40:00Z"
+    "price": 64.418999,
+    "updatedAt": "2026-09-25T23:34:30Z"
   },
   "dxy": {
-    "value": 101.03,
-    "changePct": -0.26
+    "value": 101.04,
+    "changePct": -0.25
   },
   "vix": {
     "value": 14.87,
     "changePct": -5.11
   },
   "wti": {
-    "value": 92.72,
-    "changePct": -2.0
+    "value": 92.44,
+    "changePct": -2.29
   },
   "btc": {
-    "value": 84142.97,
-    "changePct": -0.28
+    "value": 84063.49,
+    "changePct": -0.37
   },
   "spx": {
     "value": 7743.41,
@@ -50,46 +50,6 @@
   },
   "news": [
     {
-      "time": "09-25 19:23",
-      "text": "[AV] Canada's next rate move may be a hike, not a cut, says RBC"
-    },
-    {
-      "time": "09-25 18:18",
-      "text": "[AV] Home Depot stock last at USD 293.20 in New York trading"
-    },
-    {
-      "time": "09-25 18:02",
-      "text": "[AV] Cisco Systems stock last at USD 107.48, up 0.48 percent in New York trading"
-    },
-    {
-      "time": "09-25 16:58",
-      "text": "[AV] Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "09-25 16:41",
-      "text": "[AV] High beta leads S&P 500 factors in rising-yield environment: S&P Global (SPY:NYSEARCA)"
-    },
-    {
-      "time": "09-25 14:28",
-      "text": "[AV] QXO (QXO) Slides on Fading Rate-Cut Expectations"
-    },
-    {
-      "time": "09-25 11:19",
-      "text": "[AV] 3 Stocks in Focus That Declared Dividend Hikes Amid Economic Woes"
-    },
-    {
-      "time": "09-25 11:10",
-      "text": "[AV] Buy 3 AI-Led Stocks Amid Solid Estimate Revisions and Upside Potential"
-    },
-    {
-      "time": "09-25 10:46",
-      "text": "[AV] |‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now."
-    },
-    {
-      "time": "09-25 10:03",
-      "text": "[AV] Jim Cramer Discussed Walmart Inc. (WMT)’s Strategy To Navigate Through Current Slump"
-    },
-    {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
     },
@@ -116,20 +76,20 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f5900e23a50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0610423990>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "long",
+    "alwaysIn": "short",
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4329.8,
-    "measuredMoveLow": 4354.0,
-    "measuredMoveHigh": 4385.2,
-    "sma20": 4321.07,
-    "currentPrice": 4322.8
+    "measuredMoveLow": 4258.1,
+    "measuredMoveHigh": 4289.3,
+    "sma20": 4320.96,
+    "currentPrice": 4320.5
   },
   "bars1h": [
     {
@@ -369,8 +329,8 @@
     {
       "open": 4326.5,
       "high": 4327.60009765625,
-      "low": 4322.39990234375,
-      "close": 4322.7998046875
+      "low": 4320.0,
+      "close": 4320.5
     }
   ],
   "bars4h": [
@@ -551,8 +511,8 @@
     {
       "open": 4326.5,
       "high": 4327.60009765625,
-      "low": 4322.39990234375,
-      "close": 4322.7998046875
+      "low": 4320.0,
+      "close": 4320.5
     }
   ],
   "calendar": null,
