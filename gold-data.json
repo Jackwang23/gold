@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-09-26T07:42:49.555279+00:00",
+  "fetchedAt": "2026-09-26T12:29:18.402323+00:00",
   "gold": {
     "price": 4286.200195,
-    "updatedAt": "2026-09-26T07:42:16Z"
+    "updatedAt": "2026-09-26T12:28:46Z"
   },
   "silver": {
     "price": 64.418999,
-    "updatedAt": "2026-09-26T07:42:15Z"
+    "updatedAt": "2026-09-26T12:28:46Z"
   },
   "dxy": {
     "value": 100.97,
@@ -21,8 +21,8 @@
     "changePct": -2.33
   },
   "btc": {
-    "value": 84053.34,
-    "changePct": 0.02
+    "value": 84080.96,
+    "changePct": 0.05
   },
   "spx": {
     "value": 7743.41,
@@ -50,6 +50,46 @@
   },
   "news": [
     {
+      "time": "09-25 21:52",
+      "text": "[AV] 3 Australian Undervalued Stocks Trading Up To 50% Below Fair Value"
+    },
+    {
+      "time": "09-25 21:28",
+      "text": "[AV] Western Digital, FormFactor, Penguin Solutions, Himax, and Power Integrations Shares Are Falling, What You Need To Know"
+    },
+    {
+      "time": "09-25 19:23",
+      "text": "[AV] Canada's next rate move may be a hike, not a cut, says RBC"
+    },
+    {
+      "time": "09-25 18:18",
+      "text": "[AV] Home Depot stock last at USD 293.20 in New York trading"
+    },
+    {
+      "time": "09-25 18:02",
+      "text": "[AV] Cisco Systems stock last at USD 107.48, up 0.48 percent in New York trading"
+    },
+    {
+      "time": "09-25 16:58",
+      "text": "[AV] Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know"
+    },
+    {
+      "time": "09-25 16:41",
+      "text": "[AV] High beta leads S&P 500 factors in rising-yield environment: S&P Global (SPY:NYSEARCA)"
+    },
+    {
+      "time": "09-25 14:28",
+      "text": "[AV] QXO (QXO) Slides on Fading Rate-Cut Expectations"
+    },
+    {
+      "time": "09-25 13:21",
+      "text": "[AV] EWBC Gains 17.7% in 6 Months: How Should You Play the Stock Now?"
+    },
+    {
+      "time": "09-25 11:19",
+      "text": "[AV] 3 Stocks in Focus That Declared Dividend Hikes Amid Economic Woes"
+    },
+    {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
     },
@@ -76,20 +116,20 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f4bcc313290>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f560b505110>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
-    "alwaysIn": "short",
+    "alwaysIn": "long",
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": true,
     "signalBarPrice": 4329.8,
-    "measuredMoveLow": 4258.1,
-    "measuredMoveHigh": 4289.3,
-    "sma20": 4320.96,
-    "currentPrice": 4320.5
+    "measuredMoveLow": 4352.4,
+    "measuredMoveHigh": 4383.6,
+    "sma20": 4320.99,
+    "currentPrice": 4321.2
   },
   "bars1h": [
     {
@@ -330,7 +370,7 @@
       "open": 4326.5,
       "high": 4327.60009765625,
       "low": 4320.0,
-      "close": 4320.5
+      "close": 4321.2001953125
     }
   ],
   "bars4h": [
@@ -512,7 +552,7 @@
       "open": 4326.5,
       "high": 4327.60009765625,
       "low": 4320.0,
-      "close": 4320.5
+      "close": 4321.2001953125
     }
   ],
   "calendar": null,
