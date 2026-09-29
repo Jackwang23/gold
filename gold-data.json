@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-29T13:49:18.141105+00:00",
+  "fetchedAt": "2026-09-29T19:10:03.004699+00:00",
   "gold": {
-    "price": 4161.5,
-    "updatedAt": "2026-09-29T13:48:40Z"
+    "price": 4172.100098,
+    "updatedAt": "2026-09-29T19:09:41Z"
   },
   "silver": {
-    "price": 61.110001,
-    "updatedAt": "2026-09-29T13:48:39Z"
+    "price": 61.472,
+    "updatedAt": "2026-09-29T19:09:40Z"
   },
   "dxy": {
-    "value": 101.41,
-    "changePct": 0.21
+    "value": 101.37,
+    "changePct": 0.17
   },
   "vix": {
-    "value": 15.96,
-    "changePct": -0.68
+    "value": 16.0,
+    "changePct": -0.44
   },
   "wti": {
-    "value": 90.59,
-    "changePct": -2.17
+    "value": 89.45,
+    "changePct": -3.4
   },
   "btc": {
-    "value": 84070.3,
-    "changePct": 0.68
+    "value": 83639.68,
+    "changePct": 0.16
   },
   "spx": {
-    "value": 7677.96,
-    "changePct": -0.07
+    "value": 7676.51,
+    "changePct": -0.09
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,25 @@
   "correlations": {
     "dataPoints": 73,
     "minRequired": 10,
-    "dxy": -0.723,
-    "realRate": -0.153,
-    "vix": -0.679,
-    "btc": 0.485,
-    "spx": 0.673
+    "dxy": -0.722,
+    "realRate": -0.151,
+    "vix": -0.68,
+    "btc": 0.488,
+    "spx": 0.674
   },
   "news": [
+    {
+      "time": "09-29 19:00",
+      "text": "[Fed] Waller, Payments in the Age of AI Agents"
+    },
+    {
+      "time": "09-29 16:40",
+      "text": "[Fed] Barr, Economic Conditions and Monetary Policy"
+    },
+    {
+      "time": "09-29 15:00",
+      "text": "[Fed] Bowman, Opening Remarks"
+    },
     {
       "time": "09-28 17:25",
       "text": "[Fed] Cook, An Update on AI and the Economy"
@@ -60,74 +72,26 @@
     {
       "time": "09-22 14:20",
       "text": "[Fed] Jefferson, Discount Window Modernization and Treasury Market Functioning"
-    },
-    {
-      "time": "09-18 13:30",
-      "text": "[Fed] Bowman, Initial Findings from Independent Review of Silicon Valley Bank"
-    },
-    {
-      "time": "09-18 13:30",
-      "text": "[Fed] Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing"
-    },
-    {
-      "time": "09-16 18:00",
-      "text": "[Fed] Federal Reserve issues FOMC statement"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f8f51f19710>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2e52e73790>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": true,
-    "signalBarPrice": 4185.6,
-    "measuredMoveLow": 4215.2,
-    "measuredMoveHigh": 4240.2,
-    "sma20": 4168.69,
-    "currentPrice": 4190.2
+    "signalBarBull": false,
+    "signalBarPrice": 4177.8,
+    "measuredMoveLow": 4235.5,
+    "measuredMoveHigh": 4267.4,
+    "sma20": 4178.48,
+    "currentPrice": 4203.6
   },
   "bars1h": [
-    {
-      "open": 4326.5,
-      "high": 4327.60009765625,
-      "low": 4320.0,
-      "close": 4321.2001953125
-    },
-    {
-      "open": 4308.7998046875,
-      "high": 4310.0,
-      "low": 4292.39990234375,
-      "close": 4294.2001953125
-    },
-    {
-      "open": 4293.7998046875,
-      "high": 4300.60009765625,
-      "low": 4291.89990234375,
-      "close": 4294.60009765625
-    },
-    {
-      "open": 4294.2001953125,
-      "high": 4295.10009765625,
-      "low": 4260.5,
-      "close": 4264.60009765625
-    },
-    {
-      "open": 4264.39990234375,
-      "high": 4265.10009765625,
-      "low": 4239.2998046875,
-      "close": 4249.39990234375
-    },
-    {
-      "open": 4249.2001953125,
-      "high": 4250.7001953125,
-      "low": 4227.10009765625,
-      "close": 4229.89990234375
-    },
     {
       "open": 4230.10009765625,
       "high": 4236.0,
@@ -328,18 +292,48 @@
     },
     {
       "open": 4183.0,
-      "high": 4194.2001953125,
+      "high": 4196.7998046875,
       "low": 4182.5,
-      "close": 4190.2001953125
+      "close": 4189.7998046875
+    },
+    {
+      "open": 4189.5,
+      "high": 4207.2001953125,
+      "low": 4188.5,
+      "close": 4202.0
+    },
+    {
+      "open": 4202.2001953125,
+      "high": 4202.2001953125,
+      "low": 4180.0,
+      "close": 4190.39990234375
+    },
+    {
+      "open": 4190.5,
+      "high": 4190.89990234375,
+      "low": 4176.7001953125,
+      "close": 4177.7998046875
+    },
+    {
+      "open": 4177.7998046875,
+      "high": 4181.2001953125,
+      "low": 4174.39990234375,
+      "close": 4176.39990234375
+    },
+    {
+      "open": 4176.5,
+      "high": 4209.0,
+      "low": 4176.5,
+      "close": 4203.7001953125
+    },
+    {
+      "open": 4203.7001953125,
+      "high": 4204.10009765625,
+      "low": 4203.10009765625,
+      "close": 4203.60009765625
     }
   ],
   "bars4h": [
-    {
-      "open": 4360.2001953125,
-      "high": 4381.89990234375,
-      "low": 4351.7998046875,
-      "close": 4368.7001953125
-    },
     {
       "open": 4368.60009765625,
       "high": 4409.60009765625,
@@ -510,9 +504,15 @@
     },
     {
       "open": 4185.5,
-      "high": 4194.2001953125,
-      "low": 4180.60009765625,
-      "close": 4190.2001953125
+      "high": 4207.2001953125,
+      "low": 4180.0,
+      "close": 4190.39990234375
+    },
+    {
+      "open": 4190.5,
+      "high": 4209.0,
+      "low": 4174.39990234375,
+      "close": 4203.60009765625
     }
   ],
   "calendar": null,
