@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-30T15:07:55.033205+00:00",
+  "fetchedAt": "2026-09-30T20:02:03.980888+00:00",
   "gold": {
-    "price": 4162.200195,
-    "updatedAt": "2026-09-30T15:07:17Z"
+    "price": 4155.200195,
+    "updatedAt": "2026-09-30T20:01:18Z"
   },
   "silver": {
-    "price": 60.473,
-    "updatedAt": "2026-09-30T15:07:17Z"
+    "price": 60.441002,
+    "updatedAt": "2026-09-30T20:01:17Z"
   },
   "dxy": {
-    "value": 101.25,
-    "changePct": -0.12
+    "value": 101.5,
+    "changePct": 0.13
   },
   "vix": {
-    "value": 15.82,
-    "changePct": -1.37
+    "value": 16.19,
+    "changePct": 0.94
   },
   "wti": {
-    "value": 91.54,
-    "changePct": 2.42
+    "value": 90.45,
+    "changePct": 1.2
   },
   "btc": {
-    "value": 83836.74,
-    "changePct": 0.26
+    "value": 83488.34,
+    "changePct": -0.16
   },
   "spx": {
-    "value": 7709.12,
-    "changePct": 0.5
+    "value": 7652.03,
+    "changePct": -0.25
   },
   "fred": {
     "10y_treasury": {
@@ -42,13 +42,57 @@
   "correlations": {
     "dataPoints": 74,
     "minRequired": 10,
-    "dxy": -0.725,
-    "realRate": -0.177,
-    "vix": -0.677,
+    "dxy": -0.724,
+    "realRate": -0.178,
+    "vix": -0.68,
     "btc": 0.464,
-    "spx": 0.664
+    "spx": 0.67
   },
   "news": [
+    {
+      "time": "09-30 14:10",
+      "text": "[AV] Form 4 Aflac Inc For: 30 September By Investing.com"
+    },
+    {
+      "time": "09-30 13:44",
+      "text": "[AV] Pre-Markets Up on Excellent Data from PCE and ADP"
+    },
+    {
+      "time": "09-30 13:16",
+      "text": "[AV] Dana McNabb named General Mills CEO, succeeding Jeff Harmening"
+    },
+    {
+      "time": "09-30 12:26",
+      "text": "[AV] Form 4 Evogene Ltd. For: 30 September By Investing.com"
+    },
+    {
+      "time": "09-30 11:52",
+      "text": "[AV] US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings"
+    },
+    {
+      "time": "09-30 10:59",
+      "text": "[AV] Consumer Confidence Falls Amid Ongoing Geopolitical Tensions: 4 Picks"
+    },
+    {
+      "time": "09-30 10:44",
+      "text": "[AV] Will the ADP Employment Report support Fed hawkish outlook and another USD rally?"
+    },
+    {
+      "time": "09-30 07:13",
+      "text": "[AV] Bear of the Day: Yum! Brands (YUM)"
+    },
+    {
+      "time": "09-30 07:12",
+      "text": "[AV] Bear of the Day: Yum! Brands (YUM)"
+    },
+    {
+      "time": "09-30 06:54",
+      "text": "[AV] Gold prices have pulled back — but a Morgan Stanley strategist sees 3 key reasons to hold the precious metal"
+    },
+    {
+      "time": "09-30 19:25",
+      "text": "[Fed] Cook, The Dual Mandate in Rural America"
+    },
     {
       "time": "09-29 19:00",
       "text": "[Fed] Waller, Payments in the Age of AI Agents"
@@ -68,60 +112,26 @@
     {
       "time": "09-23 14:05",
       "text": "[Fed] Barr, A Long-Term View on the Costs of Shelter"
-    },
-    {
-      "time": "09-22 14:20",
-      "text": "[Fed] Jefferson, Discount Window Modernization and Treasury Market Functioning"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7feed0d6fa90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f8ab5c1ef10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
-    "isTrendStructure": true,
+    "bearTrendBarsInLast3": 0,
+    "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4208.6,
-    "measuredMoveLow": 4127.6,
-    "measuredMoveHigh": 4164.9,
-    "sma20": 4214.12,
-    "currentPrice": 4202.2
+    "signalBarPrice": 4182.7,
+    "measuredMoveLow": 4109.9,
+    "measuredMoveHigh": 4146.35,
+    "sma20": 4207.28,
+    "currentPrice": 4182.8
   },
   "bars1h": [
-    {
-      "open": 4150.10009765625,
-      "high": 4159.2001953125,
-      "low": 4147.7998046875,
-      "close": 4154.10009765625
-    },
-    {
-      "open": 4154.0,
-      "high": 4161.39990234375,
-      "low": 4153.5,
-      "close": 4159.60009765625
-    },
-    {
-      "open": 4160.0,
-      "high": 4160.2998046875,
-      "low": 4146.2001953125,
-      "close": 4150.0
-    },
-    {
-      "open": 4149.2998046875,
-      "high": 4168.60009765625,
-      "low": 4145.2001953125,
-      "close": 4166.89990234375
-    },
-    {
-      "open": 4167.10009765625,
-      "high": 4170.7001953125,
-      "low": 4157.7998046875,
-      "close": 4168.7001953125
-    },
     {
       "open": 4169.10009765625,
       "high": 4171.7998046875,
@@ -330,16 +340,40 @@
       "open": 4208.7998046875,
       "high": 4215.0,
       "low": 4195.10009765625,
-      "close": 4202.2001953125
+      "close": 4196.39990234375
+    },
+    {
+      "open": 4196.60009765625,
+      "high": 4199.5,
+      "low": 4182.10009765625,
+      "close": 4188.2001953125
+    },
+    {
+      "open": 4188.60009765625,
+      "high": 4194.2001953125,
+      "low": 4185.7998046875,
+      "close": 4189.10009765625
+    },
+    {
+      "open": 4189.2001953125,
+      "high": 4190.10009765625,
+      "low": 4178.2001953125,
+      "close": 4182.7001953125
+    },
+    {
+      "open": 4182.39990234375,
+      "high": 4186.7001953125,
+      "low": 4178.5,
+      "close": 4182.7001953125
+    },
+    {
+      "open": 4182.7998046875,
+      "high": 4187.89990234375,
+      "low": 4180.5,
+      "close": 4182.7998046875
     }
   ],
   "bars4h": [
-    {
-      "open": 4346.39990234375,
-      "high": 4355.60009765625,
-      "low": 4313.2998046875,
-      "close": 4318.2998046875
-    },
     {
       "open": 4318.2998046875,
       "high": 4331.5,
@@ -511,18 +545,20 @@
     {
       "open": 4217.89990234375,
       "high": 4251.10009765625,
-      "low": 4195.10009765625,
-      "close": 4202.2001953125
+      "low": 4182.10009765625,
+      "close": 4188.2001953125
+    },
+    {
+      "open": 4188.60009765625,
+      "high": 4194.2001953125,
+      "low": 4178.2001953125,
+      "close": 4182.7998046875
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
-  "cot": {
-    "netLong": 225853,
-    "change": -4485,
-    "reportDate": "2026-09-22"
-  },
-  "cotError": null,
+  "cot": null,
+  "cotError": "ReadTimeout: HTTPSConnectionPool(host='publicreporting.cftc.gov', port=443): Read timed out. (read timeout=10)",
   "gld": null,
   "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
