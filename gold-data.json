@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-09-30T08:21:05.708097+00:00",
+  "fetchedAt": "2026-09-30T15:07:55.033205+00:00",
   "gold": {
-    "price": 4198.5,
-    "updatedAt": "2026-09-30T08:20:47Z"
+    "price": 4162.200195,
+    "updatedAt": "2026-09-30T15:07:17Z"
   },
   "silver": {
-    "price": 61.435001,
-    "updatedAt": "2026-09-30T08:20:46Z"
+    "price": 60.473,
+    "updatedAt": "2026-09-30T15:07:17Z"
   },
   "dxy": {
-    "value": 101.28,
-    "changePct": -0.09
+    "value": 101.25,
+    "changePct": -0.12
   },
   "vix": {
-    "value": 15.87,
-    "changePct": -1.06
+    "value": 15.82,
+    "changePct": -1.37
   },
   "wti": {
-    "value": 89.39,
-    "changePct": 0.01
+    "value": 91.54,
+    "changePct": 2.42
   },
   "btc": {
-    "value": 83205.58,
-    "changePct": -0.5
+    "value": 83836.74,
+    "changePct": 0.26
   },
   "spx": {
-    "value": 7670.84,
-    "changePct": -0.17
+    "value": 7709.12,
+    "changePct": 0.5
   },
   "fred": {
     "10y_treasury": {
@@ -42,53 +42,13 @@
   "correlations": {
     "dataPoints": 74,
     "minRequired": 10,
-    "dxy": -0.722,
-    "realRate": -0.169,
-    "vix": -0.679,
-    "btc": 0.471,
-    "spx": 0.671
+    "dxy": -0.725,
+    "realRate": -0.177,
+    "vix": -0.677,
+    "btc": 0.464,
+    "spx": 0.664
   },
   "news": [
-    {
-      "time": "09-30 06:54",
-      "text": "[AV] Gold prices have pulled back — but a Morgan Stanley strategist sees 3 key reasons to hold the precious metal"
-    },
-    {
-      "time": "09-29 17:23",
-      "text": "[AV] Seabridge Gold Stock Drops 5.65% as Gold Sell-Off and KSM Regulatory Uncertainty Pressure TSX:SEA"
-    },
-    {
-      "time": "09-29 17:13",
-      "text": "[AV] Southern Company (NYSE:SO) in Focus as Data Center Demand Meets Rising Yields"
-    },
-    {
-      "time": "09-29 15:31",
-      "text": "[AV] Can government bond markets regain their poise?"
-    },
-    {
-      "time": "09-29 15:19",
-      "text": "[AV] US Open: Nasdaq tries to recover loses 🗽 Fair Isaac shares in panic"
-    },
-    {
-      "time": "09-29 15:13",
-      "text": "[AV] C vs PNC: Which Stock Offers the Better Investment Opportunity?"
-    },
-    {
-      "time": "09-29 14:30",
-      "text": "[AV] Mike Wilson says S&P 500 correction could benefit the market"
-    },
-    {
-      "time": "09-29 14:23",
-      "text": "[AV] Opendoor: Operational Progress Is Masked By The Absence Of A Macro Catalyst (NASDAQ:OPEN)"
-    },
-    {
-      "time": "09-29 13:59",
-      "text": "[AV] Canadian Dollar Technical Outlook: USD/CAD Seven-Day Rally Tests Major Resistance"
-    },
-    {
-      "time": "09-29 11:56",
-      "text": "[AV] Why Did Sun Life Financial (TSX:SLF) Slip 0.301% on 28 September 2026?"
-    },
     {
       "time": "09-29 19:00",
       "text": "[Fed] Waller, Payments in the Age of AI Agents"
@@ -116,58 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f399ca83e50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7feed0d6fa90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 0,
+    "alwaysIn": "short",
+    "bullTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 4222.6,
-    "measuredMoveLow": 4257.0,
-    "measuredMoveHigh": 4286.4,
-    "sma20": 4205.18,
-    "currentPrice": 4227.6
+    "signalBarBull": false,
+    "signalBarPrice": 4208.6,
+    "measuredMoveLow": 4127.6,
+    "measuredMoveHigh": 4164.9,
+    "sma20": 4214.12,
+    "currentPrice": 4202.2
   },
   "bars1h": [
-    {
-      "open": 4150.7001953125,
-      "high": 4160.89990234375,
-      "low": 4147.7001953125,
-      "close": 4156.39990234375
-    },
-    {
-      "open": 4156.60009765625,
-      "high": 4181.0,
-      "low": 4148.60009765625,
-      "close": 4162.39990234375
-    },
-    {
-      "open": 4162.10009765625,
-      "high": 4179.60009765625,
-      "low": 4158.7001953125,
-      "close": 4167.2998046875
-    },
-    {
-      "open": 4167.2998046875,
-      "high": 4175.2998046875,
-      "low": 4164.10009765625,
-      "close": 4172.0
-    },
-    {
-      "open": 4172.2001953125,
-      "high": 4172.39990234375,
-      "low": 4155.2001953125,
-      "close": 4156.2998046875
-    },
-    {
-      "open": 4156.10009765625,
-      "high": 4156.89990234375,
-      "low": 4144.2001953125,
-      "close": 4148.5
-    },
     {
       "open": 4150.10009765625,
       "high": 4159.2001953125,
@@ -339,8 +263,8 @@
     {
       "open": 4211.0,
       "high": 4214.2001953125,
-      "low": 4206.0,
-      "close": 4207.60009765625
+      "low": 4203.2001953125,
+      "close": 4205.5
     },
     {
       "open": 4204.7001953125,
@@ -368,18 +292,48 @@
     },
     {
       "open": 4225.60009765625,
-      "high": 4228.7998046875,
-      "low": 4224.60009765625,
-      "close": 4227.60009765625
+      "high": 4234.0,
+      "low": 4222.7998046875,
+      "close": 4223.39990234375
+    },
+    {
+      "open": 4223.39990234375,
+      "high": 4227.0,
+      "low": 4214.2998046875,
+      "close": 4219.2998046875
+    },
+    {
+      "open": 4219.39990234375,
+      "high": 4222.2001953125,
+      "low": 4212.5,
+      "close": 4216.0
+    },
+    {
+      "open": 4215.89990234375,
+      "high": 4223.7998046875,
+      "low": 4207.7998046875,
+      "close": 4218.2998046875
+    },
+    {
+      "open": 4217.89990234375,
+      "high": 4251.10009765625,
+      "low": 4213.89990234375,
+      "close": 4240.2001953125
+    },
+    {
+      "open": 4240.2998046875,
+      "high": 4246.5,
+      "low": 4207.5,
+      "close": 4208.60009765625
+    },
+    {
+      "open": 4208.7998046875,
+      "high": 4215.0,
+      "low": 4195.10009765625,
+      "close": 4202.2001953125
     }
   ],
   "bars4h": [
-    {
-      "open": 4356.2001953125,
-      "high": 4359.7998046875,
-      "low": 4330.89990234375,
-      "close": 4346.2998046875
-    },
     {
       "open": 4346.39990234375,
       "high": 4355.60009765625,
@@ -540,7 +494,7 @@
       "open": 4216.7001953125,
       "high": 4219.5,
       "low": 4198.60009765625,
-      "close": 4207.60009765625
+      "close": 4205.5
     },
     {
       "open": 4204.7001953125,
@@ -550,9 +504,15 @@
     },
     {
       "open": 4225.60009765625,
-      "high": 4228.7998046875,
-      "low": 4224.60009765625,
-      "close": 4227.60009765625
+      "high": 4234.0,
+      "low": 4207.7998046875,
+      "close": 4218.2998046875
+    },
+    {
+      "open": 4217.89990234375,
+      "high": 4251.10009765625,
+      "low": 4195.10009765625,
+      "close": 4202.2001953125
     }
   ],
   "calendar": null,
