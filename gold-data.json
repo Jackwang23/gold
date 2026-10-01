@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-10-01T04:38:48.445831+00:00",
+  "fetchedAt": "2026-10-01T11:11:46.324754+00:00",
   "gold": {
-    "price": 4177.799805,
-    "updatedAt": "2026-10-01T04:38:19Z"
+    "price": 4172.200195,
+    "updatedAt": "2026-10-01T11:11:19Z"
   },
   "silver": {
-    "price": 61.296001,
-    "updatedAt": "2026-10-01T04:38:18Z"
+    "price": 60.973999,
+    "updatedAt": "2026-10-01T11:11:19Z"
   },
   "dxy": {
-    "value": 101.62,
-    "changePct": 0.17
+    "value": 101.78,
+    "changePct": 0.32
   },
   "vix": {
-    "value": 16.34,
-    "changePct": 1.87
+    "value": 16.25,
+    "changePct": -0.55
   },
   "wti": {
-    "value": 89.23,
-    "changePct": -1.32
+    "value": 91.54,
+    "changePct": 1.24
   },
   "btc": {
-    "value": 83840.14,
-    "changePct": 0.26
+    "value": 83874.36,
+    "changePct": 0.38
   },
   "spx": {
     "value": 7651.54,
@@ -42,53 +42,13 @@
   "correlations": {
     "dataPoints": 75,
     "minRequired": 10,
-    "dxy": -0.724,
-    "realRate": -0.196,
-    "vix": -0.681,
-    "btc": 0.444,
+    "dxy": -0.723,
+    "realRate": -0.198,
+    "vix": -0.68,
+    "btc": 0.443,
     "spx": 0.667
   },
   "news": [
-    {
-      "time": "09-30 22:37",
-      "text": "[AV] Procore Technologies, Zeta Global, and SoundHound AI Stocks Trade Up, What You Need To Know"
-    },
-    {
-      "time": "09-30 20:00",
-      "text": "[AV] Royal Bank of Canada (TSX:RY): Can Dividend Growth Continue?"
-    },
-    {
-      "time": "09-30 16:53",
-      "text": "[AV] Itau Unibanco Holding SA Stock (ITUB) Moved Up by 5.32% on Sep 30: Facts Behind the Movement"
-    },
-    {
-      "time": "09-30 15:56",
-      "text": "[AV] 8x8, Commerce, Sprout Social, Tenable, and HubSpot Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "09-30 15:12",
-      "text": "[AV] Gold price will break $5,000/oz in H2 2027, and silver’s run to $120 was driven by more than hype – Morgan Stanley’s Gow"
-    },
-    {
-      "time": "09-30 14:42",
-      "text": "[AV] 3 SBIC & Commercial Finance Stocks to Buy on Improving Industry Trends"
-    },
-    {
-      "time": "09-30 14:29",
-      "text": "[AV] American Century Exited The Timken Company (TKR) Amid Industrial Cycle Concerns"
-    },
-    {
-      "time": "09-30 14:10",
-      "text": "[AV] Form 4 Aflac Inc For: 30 September By Investing.com"
-    },
-    {
-      "time": "09-30 13:44",
-      "text": "[AV] Pre-Markets Up on Excellent Data from PCE and ADP"
-    },
-    {
-      "time": "09-30 13:16",
-      "text": "[AV] Dana McNabb named General Mills CEO, succeeding Jeff Harmening"
-    },
     {
       "time": "09-30 19:25",
       "text": "[Fed] Cook, The Dual Mandate in Rural America"
@@ -116,82 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2b6da1b810>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f5153c33b50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
+    "alwaysIn": "long",
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 1,
-    "isTrendStructure": true,
+    "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4180.9,
-    "measuredMoveLow": 4129.2,
-    "measuredMoveHigh": 4165.65,
-    "sma20": 4202.7,
-    "currentPrice": 4202.1
+    "signalBarPrice": 4202.0,
+    "measuredMoveLow": 4228.7,
+    "measuredMoveHigh": 4255.4,
+    "sma20": 4192.75,
+    "currentPrice": 4202.0
   },
   "bars1h": [
-    {
-      "open": 4172.89990234375,
-      "high": 4178.2998046875,
-      "low": 4169.2001953125,
-      "close": 4171.60009765625
-    },
-    {
-      "open": 4171.0,
-      "high": 4181.2001953125,
-      "low": 4170.7001953125,
-      "close": 4178.0
-    },
-    {
-      "open": 4178.0,
-      "high": 4186.7998046875,
-      "low": 4175.39990234375,
-      "close": 4185.60009765625
-    },
-    {
-      "open": 4185.7998046875,
-      "high": 4193.2998046875,
-      "low": 4181.5,
-      "close": 4185.7001953125
-    },
-    {
-      "open": 4185.5,
-      "high": 4190.89990234375,
-      "low": 4180.60009765625,
-      "close": 4183.0
-    },
-    {
-      "open": 4183.0,
-      "high": 4196.7998046875,
-      "low": 4182.5,
-      "close": 4189.7998046875
-    },
-    {
-      "open": 4189.5,
-      "high": 4207.2001953125,
-      "low": 4188.5,
-      "close": 4202.0
-    },
-    {
-      "open": 4202.2001953125,
-      "high": 4202.2001953125,
-      "low": 4180.0,
-      "close": 4190.39990234375
-    },
-    {
-      "open": 4190.5,
-      "high": 4190.89990234375,
-      "low": 4176.7001953125,
-      "close": 4177.7998046875
-    },
-    {
-      "open": 4177.7998046875,
-      "high": 4181.2001953125,
-      "low": 4174.39990234375,
-      "close": 4176.39990234375
-    },
     {
       "open": 4176.5,
       "high": 4209.0,
@@ -363,23 +263,77 @@
     {
       "open": 4186.10009765625,
       "high": 4186.2001953125,
+      "low": 4169.39990234375,
+      "close": 4175.2998046875
+    },
+    {
+      "open": 4175.5,
+      "high": 4194.60009765625,
+      "low": 4175.2001953125,
+      "close": 4186.2001953125
+    },
+    {
+      "open": 4186.10009765625,
+      "high": 4191.39990234375,
       "low": 4180.89990234375,
-      "close": 4180.89990234375
+      "close": 4190.2998046875
+    },
+    {
+      "open": 4190.2998046875,
+      "high": 4206.39990234375,
+      "low": 4188.7998046875,
+      "close": 4205.39990234375
     },
     {
       "open": 4205.0,
-      "high": 4207.7998046875,
+      "high": 4210.2998046875,
       "low": 4200.7998046875,
-      "close": 4202.10009765625
+      "close": 4209.5
+    },
+    {
+      "open": 4209.89990234375,
+      "high": 4222.7998046875,
+      "low": 4209.0,
+      "close": 4217.7998046875
+    },
+    {
+      "open": 4217.60009765625,
+      "high": 4222.10009765625,
+      "low": 4210.39990234375,
+      "close": 4211.60009765625
+    },
+    {
+      "open": 4211.5,
+      "high": 4213.5,
+      "low": 4184.2001953125,
+      "close": 4193.7001953125
+    },
+    {
+      "open": 4193.7998046875,
+      "high": 4197.89990234375,
+      "low": 4178.39990234375,
+      "close": 4182.7998046875
+    },
+    {
+      "open": 4182.2998046875,
+      "high": 4193.5,
+      "low": 4182.10009765625,
+      "close": 4184.10009765625
+    },
+    {
+      "open": 4184.10009765625,
+      "high": 4208.5,
+      "low": 4179.89990234375,
+      "close": 4205.89990234375
+    },
+    {
+      "open": 4206.10009765625,
+      "high": 4206.10009765625,
+      "low": 4201.89990234375,
+      "close": 4202.0
     }
   ],
   "bars4h": [
-    {
-      "open": 4320.10009765625,
-      "high": 4331.2001953125,
-      "low": 4309.0,
-      "close": 4313.2998046875
-    },
     {
       "open": 4313.39990234375,
       "high": 4320.2998046875,
@@ -539,14 +493,26 @@
     {
       "open": 4188.0,
       "high": 4192.2998046875,
-      "low": 4180.89990234375,
-      "close": 4180.89990234375
+      "low": 4169.39990234375,
+      "close": 4175.2998046875
     },
     {
-      "open": 4205.0,
-      "high": 4207.7998046875,
-      "low": 4200.7998046875,
-      "close": 4202.10009765625
+      "open": 4175.5,
+      "high": 4210.2998046875,
+      "low": 4175.2001953125,
+      "close": 4209.5
+    },
+    {
+      "open": 4209.89990234375,
+      "high": 4222.7998046875,
+      "low": 4178.39990234375,
+      "close": 4182.7998046875
+    },
+    {
+      "open": 4182.2998046875,
+      "high": 4208.5,
+      "low": 4179.89990234375,
+      "close": 4202.0
     }
   ],
   "calendar": null,
