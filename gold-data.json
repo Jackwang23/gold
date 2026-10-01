@@ -1,54 +1,62 @@
 {
-  "fetchedAt": "2026-10-01T17:23:45.047510+00:00",
+  "fetchedAt": "2026-10-01T21:56:21.949804+00:00",
   "gold": {
-    "price": 4177.0,
-    "updatedAt": "2026-10-01T17:23:20Z"
+    "price": 4178.5,
+    "updatedAt": "2026-10-01T21:55:51Z"
   },
   "silver": {
-    "price": 60.953999,
-    "updatedAt": "2026-10-01T17:23:19Z"
+    "price": 61.115002,
+    "updatedAt": "2026-10-01T21:55:50Z"
   },
   "dxy": {
-    "value": 102.17,
-    "changePct": 0.7
+    "value": 102.02,
+    "changePct": 0.56
   },
   "vix": {
-    "value": 16.83,
-    "changePct": 3.0
+    "value": 16.39,
+    "changePct": 0.31
   },
   "wti": {
-    "value": 92.15,
-    "changePct": 1.91
+    "value": 92.91,
+    "changePct": 2.75
   },
   "btc": {
-    "value": 84679.0,
-    "changePct": 1.35
+    "value": 84516.51,
+    "changePct": 1.15
   },
   "spx": {
-    "value": 7663.01,
-    "changePct": 0.15
+    "value": 7666.45,
+    "changePct": 0.19
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-29",
-      "value": 5.26
+      "date": "2026-09-30",
+      "value": 5.29
     },
     "10y_real_rate": {
-      "date": "2026-09-29",
-      "value": 2.91
+      "date": "2026-09-30",
+      "value": 2.93
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 75,
     "minRequired": 10,
-    "dxy": -0.717,
+    "dxy": -0.719,
     "realRate": -0.197,
-    "vix": -0.683,
+    "vix": -0.681,
     "btc": 0.442,
     "spx": 0.666
   },
   "news": [
+    {
+      "time": "10-01 19:00",
+      "text": "[Fed] Bowman, Modernizing Financial Regulation: Initial Observations from eSLR"
+    },
+    {
+      "time": "10-01 17:30",
+      "text": "[Fed] Jefferson, The U.S. Economy and Monetary Policy"
+    },
     {
       "time": "10-01 14:00",
       "text": "[Fed] Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI"
@@ -64,52 +72,26 @@
     {
       "time": "09-29 16:40",
       "text": "[Fed] Barr, Economic Conditions and Monetary Policy"
-    },
-    {
-      "time": "09-29 15:00",
-      "text": "[Fed] Bowman, Opening Remarks"
-    },
-    {
-      "time": "09-28 17:25",
-      "text": "[Fed] Cook, An Update on AI and the Economy"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f98f1c23890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f4dcd3bb990>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 1,
+    "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": true,
-    "signalBarPrice": 4200.7,
-    "measuredMoveLow": 4227.4,
-    "measuredMoveHigh": 4254.1,
-    "sma20": 4196.7,
-    "currentPrice": 4200.7
+    "signalBarBull": false,
+    "signalBarPrice": 4192.2,
+    "measuredMoveLow": 4231.6,
+    "measuredMoveHigh": 4255.4,
+    "sma20": 4200.54,
+    "currentPrice": 4207.8
   },
   "bars1h": [
-    {
-      "open": 4208.2998046875,
-      "high": 4213.2998046875,
-      "low": 4198.60009765625,
-      "close": 4203.60009765625
-    },
-    {
-      "open": 4203.5,
-      "high": 4216.0,
-      "low": 4202.7001953125,
-      "close": 4210.89990234375
-    },
-    {
-      "open": 4211.0,
-      "high": 4214.2001953125,
-      "low": 4203.2001953125,
-      "close": 4205.5
-    },
     {
       "open": 4204.7001953125,
       "high": 4217.39990234375,
@@ -328,9 +310,27 @@
     },
     {
       "open": 4192.2001953125,
-      "high": 4203.5,
+      "high": 4217.60009765625,
       "low": 4191.60009765625,
-      "close": 4200.7001953125
+      "close": 4201.0
+    },
+    {
+      "open": 4200.89990234375,
+      "high": 4213.2998046875,
+      "low": 4193.89990234375,
+      "close": 4207.7998046875
+    },
+    {
+      "open": 4207.2001953125,
+      "high": 4210.7998046875,
+      "low": 4204.2998046875,
+      "close": 4207.0
+    },
+    {
+      "open": 4207.10009765625,
+      "high": 4210.5,
+      "low": 4203.39990234375,
+      "close": 4207.7998046875
     }
   ],
   "bars4h": [
@@ -510,9 +510,9 @@
     },
     {
       "open": 4192.2001953125,
-      "high": 4203.5,
+      "high": 4217.60009765625,
       "low": 4191.60009765625,
-      "close": 4200.7001953125
+      "close": 4207.7998046875
     }
   ],
   "calendar": null,
