@@ -1,41 +1,41 @@
 {
-  "fetchedAt": "2026-10-02T19:19:32.294609+00:00",
+  "fetchedAt": "2026-10-02T23:09:40.014084+00:00",
   "gold": {
-    "price": 4146.399902,
-    "updatedAt": "2026-10-02T19:18:57Z"
+    "price": 4141.799805,
+    "updatedAt": "2026-10-02T23:08:58Z"
   },
   "silver": {
-    "price": 60.611,
-    "updatedAt": "2026-10-02T19:18:57Z"
+    "price": 60.523998,
+    "updatedAt": "2026-10-02T23:08:57Z"
   },
   "dxy": {
-    "value": 101.94,
-    "changePct": -0.16
+    "value": 101.92,
+    "changePct": -0.17
   },
   "vix": {
-    "value": 15.55,
-    "changePct": -5.13
+    "value": 15.31,
+    "changePct": -6.59
   },
   "wti": {
-    "value": 91.02,
-    "changePct": -1.99
+    "value": 91.26,
+    "changePct": -1.73
   },
   "btc": {
-    "value": 84052.76,
-    "changePct": -0.94
+    "value": 84476.24,
+    "changePct": -0.44
   },
   "spx": {
-    "value": 7722.3,
+    "value": 7722.72,
     "changePct": 0.73
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-09-30",
-      "value": 5.29
+      "date": "2026-10-01",
+      "value": 5.24
     },
     "10y_real_rate": {
-      "date": "2026-09-30",
-      "value": 2.93
+      "date": "2026-10-01",
+      "value": 2.88
     }
   },
   "goldapi": null,
@@ -43,10 +43,10 @@
     "dataPoints": 76,
     "minRequired": 10,
     "dxy": -0.72,
-    "realRate": -0.22,
-    "vix": -0.674,
-    "btc": 0.418,
-    "spx": 0.652
+    "realRate": -0.219,
+    "vix": -0.671,
+    "btc": 0.416,
+    "spx": 0.651
   },
   "news": [
     {
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2b24913590>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fcb0581bd50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
@@ -84,20 +84,14 @@
     "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
-    "signalBarBull": false,
-    "signalBarPrice": 4156.1,
-    "measuredMoveLow": 4070.1,
-    "measuredMoveHigh": 4122.7,
-    "sma20": 4198.73,
-    "currentPrice": 4175.3
+    "signalBarBull": true,
+    "signalBarPrice": 4175.4,
+    "measuredMoveLow": 4066.9,
+    "measuredMoveHigh": 4119.5,
+    "sma20": 4198.26,
+    "currentPrice": 4172.1
   },
   "bars1h": [
-    {
-      "open": 4190.2998046875,
-      "high": 4206.39990234375,
-      "low": 4188.7998046875,
-      "close": 4205.39990234375
-    },
     {
       "open": 4205.0,
       "high": 4210.2998046875,
@@ -328,9 +322,15 @@
     },
     {
       "open": 4175.7001953125,
-      "high": 4177.0,
-      "low": 4172.7998046875,
-      "close": 4175.2998046875
+      "high": 4178.89990234375,
+      "low": 4169.39990234375,
+      "close": 4176.60009765625
+    },
+    {
+      "open": 4176.7998046875,
+      "high": 4177.7001953125,
+      "low": 4164.89990234375,
+      "close": 4172.10009765625
     }
   ],
   "bars4h": [
@@ -510,17 +510,17 @@
     },
     {
       "open": 4168.0,
-      "high": 4177.0,
+      "high": 4178.89990234375,
       "low": 4158.89990234375,
-      "close": 4175.2998046875
+      "close": 4172.10009765625
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 225853,
-    "change": -4485,
-    "reportDate": "2026-09-22"
+    "netLong": 218632,
+    "change": -7221,
+    "reportDate": "2026-09-29"
   },
   "cotError": null,
   "gld": null,
