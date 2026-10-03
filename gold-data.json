@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-02T23:09:40.014084+00:00",
+  "fetchedAt": "2026-10-03T01:58:11.853912+00:00",
   "gold": {
     "price": 4141.799805,
-    "updatedAt": "2026-10-02T23:08:58Z"
+    "updatedAt": "2026-10-03T01:57:29Z"
   },
   "silver": {
     "price": 60.523998,
-    "updatedAt": "2026-10-02T23:08:57Z"
+    "updatedAt": "2026-10-03T01:57:28Z"
   },
   "dxy": {
     "value": 101.92,
@@ -21,8 +21,8 @@
     "changePct": -1.73
   },
   "btc": {
-    "value": 84476.24,
-    "changePct": -0.44
+    "value": 84603.78,
+    "changePct": -0.29
   },
   "spx": {
     "value": 7722.72,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 76,
+    "dataPoints": 77,
     "minRequired": 10,
-    "dxy": -0.72,
-    "realRate": -0.219,
-    "vix": -0.671,
-    "btc": 0.416,
-    "spx": 0.651
+    "dxy": -0.722,
+    "realRate": -0.239,
+    "vix": -0.661,
+    "btc": 0.392,
+    "spx": 0.637
   },
   "news": [
     {
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fcb0581bd50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f5b0b8534d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
