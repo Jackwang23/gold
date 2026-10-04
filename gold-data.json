@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-04T08:49:31.027373+00:00",
+  "fetchedAt": "2026-10-04T14:40:12.101326+00:00",
   "gold": {
     "price": 4141.799805,
-    "updatedAt": "2026-10-04T08:49:04Z"
+    "updatedAt": "2026-10-04T14:39:35Z"
   },
   "silver": {
     "price": 60.523998,
-    "updatedAt": "2026-10-04T08:49:03Z"
+    "updatedAt": "2026-10-04T14:39:34Z"
   },
   "dxy": {
     "value": 101.93,
@@ -21,8 +21,8 @@
     "changePct": -1.9
   },
   "btc": {
-    "value": 85104.35,
-    "changePct": 0.4
+    "value": 85124.64,
+    "changePct": 0.43
   },
   "spx": {
     "value": 7722.72,
@@ -50,46 +50,6 @@
   },
   "news": [
     {
-      "time": "10-03 23:55",
-      "text": "[AV] EVgo, Advanced Energy, NN, Blink Charging, and Ameresco Shares Are Soaring, What You Need To Know"
-    },
-    {
-      "time": "10-03 18:50",
-      "text": "[AV] Dollar Tree Stock And The Trade Down Retail Winners Investors Should Watch"
-    },
-    {
-      "time": "10-03 15:34",
-      "text": "[AV] Regions Financial shows strong results and attractive 7.2% yield on preferred shares amid economic challenges"
-    },
-    {
-      "time": "10-03 14:54",
-      "text": "[AV] Blue Owl Capital Corp's strong portfolio and low risk defy negative headlines amid Fed rate hikes."
-    },
-    {
-      "time": "10-03 14:42",
-      "text": "[AV] Bond Volatility Could Determine How S&P 500 Breadth Gap Closes, Morgan Stanley Says"
-    },
-    {
-      "time": "10-03 06:50",
-      "text": "[AV] D.R. Horton, Inc. (DHI) stock price, news, quote and history"
-    },
-    {
-      "time": "10-02 23:29",
-      "text": "[AV] Treasury Yields Push to Multi-Decade Highs, and History Says They May Climb Further"
-    },
-    {
-      "time": "10-02 23:01",
-      "text": "[AV] FTSE MIB Rises to 50,483 as STMicroelectronics and Technoprobe Lead a Milan Rebound"
-    },
-    {
-      "time": "10-02 22:59",
-      "text": "[AV] Arrow Electronics, Methode Electronics, Proto Labs, and SolarEdge Shares Skyrocket, What You Need To Know"
-    },
-    {
-      "time": "10-02 22:22",
-      "text": "[AV] Impinj, Power Integrations, Kulicke and Soffa, Microchip Technology, and Monolithic Power Systems Shares Are Soaring, Wh"
-    },
-    {
       "time": "10-01 19:00",
       "text": "[Fed] Bowman, Modernizing Financial Regulation: Initial Observations from eSLR"
     },
@@ -116,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7efebe433fd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb375af1510>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
