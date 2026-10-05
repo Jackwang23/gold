@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-10-04T21:46:54.851388+00:00",
+  "fetchedAt": "2026-10-05T00:29:51.494837+00:00",
   "gold": {
-    "price": 4141.799805,
-    "updatedAt": "2026-10-04T21:46:35Z"
+    "price": 4155.899902,
+    "updatedAt": "2026-10-05T00:29:36Z"
   },
   "silver": {
-    "price": 60.523998,
-    "updatedAt": "2026-10-04T21:46:35Z"
+    "price": 61.178001,
+    "updatedAt": "2026-10-05T00:29:35Z"
   },
   "dxy": {
-    "value": 101.93,
-    "changePct": -0.17
+    "value": 101.95,
+    "changePct": 0.02
   },
   "vix": {
     "value": 15.31,
     "changePct": -6.59
   },
   "wti": {
-    "value": 91.11,
-    "changePct": -1.9
+    "value": 90.73,
+    "changePct": -0.42
   },
   "btc": {
-    "value": 86033.98,
-    "changePct": 1.5
+    "value": 86258.61,
+    "changePct": 1.76
   },
   "spx": {
     "value": 7722.72,
@@ -40,15 +40,55 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 78,
+    "dataPoints": 79,
     "minRequired": 10,
-    "dxy": -0.724,
-    "realRate": -0.257,
-    "vix": -0.652,
-    "btc": 0.365,
-    "spx": 0.624
+    "dxy": -0.725,
+    "realRate": -0.271,
+    "vix": -0.644,
+    "btc": 0.342,
+    "spx": 0.612
   },
   "news": [
+    {
+      "time": "10-04 07:04",
+      "text": "[AV] When will Lloyds’ shares reach £1.50 again?"
+    },
+    {
+      "time": "10-03 23:55",
+      "text": "[AV] EVgo, Advanced Energy, NN, Blink Charging, and Ameresco Shares Are Soaring, What You Need To Know"
+    },
+    {
+      "time": "10-03 18:50",
+      "text": "[AV] Dollar Tree Stock And The Trade Down Retail Winners Investors Should Watch"
+    },
+    {
+      "time": "10-03 15:34",
+      "text": "[AV] Regions Financial shows strong results and attractive 7.2% yield on preferred shares amid economic challenges"
+    },
+    {
+      "time": "10-03 14:54",
+      "text": "[AV] Blue Owl Capital Corp's strong portfolio and low risk defy negative headlines amid Fed rate hikes."
+    },
+    {
+      "time": "10-03 14:42",
+      "text": "[AV] Bond Volatility Could Determine How S&P 500 Breadth Gap Closes, Morgan Stanley Says"
+    },
+    {
+      "time": "10-03 10:30",
+      "text": "[AV] Blue Owl Capital Is A Big Bargain Now, I Am Buying The Dip"
+    },
+    {
+      "time": "10-03 06:50",
+      "text": "[AV] D.R. Horton, Inc. (DHI) stock price, news, quote and history"
+    },
+    {
+      "time": "10-02 23:29",
+      "text": "[AV] Treasury Yields Push to Multi-Decade Highs, and History Says They May Climb Further"
+    },
+    {
+      "time": "10-02 23:01",
+      "text": "[AV] FTSE MIB Rises to 50,483 as STMicroelectronics and Technoprobe Lead a Milan Rebound"
+    },
     {
       "time": "10-01 19:00",
       "text": "[Fed] Bowman, Modernizing Financial Regulation: Initial Observations from eSLR"
@@ -76,40 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fd6411eb590>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f51b3511bd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
     "signalBarPrice": 4162.3,
-    "measuredMoveLow": 4057.1,
-    "measuredMoveHigh": 4109.7,
-    "sma20": 4197.77,
-    "currentPrice": 4162.3
+    "measuredMoveLow": 4074.6,
+    "measuredMoveHigh": 4127.2,
+    "sma20": 4195.09,
+    "currentPrice": 4179.8
   },
   "bars1h": [
-    {
-      "open": 4205.0,
-      "high": 4210.2998046875,
-      "low": 4200.7998046875,
-      "close": 4209.5
-    },
-    {
-      "open": 4209.89990234375,
-      "high": 4222.7998046875,
-      "low": 4209.0,
-      "close": 4217.7998046875
-    },
-    {
-      "open": 4217.60009765625,
-      "high": 4222.10009765625,
-      "low": 4210.39990234375,
-      "close": 4211.60009765625
-    },
     {
       "open": 4211.5,
       "high": 4213.5,
@@ -331,6 +353,24 @@
       "high": 4177.7001953125,
       "low": 4162.2998046875,
       "close": 4162.2998046875
+    },
+    {
+      "open": 4171.10009765625,
+      "high": 4176.60009765625,
+      "low": 4166.7998046875,
+      "close": 4176.0
+    },
+    {
+      "open": 4175.7001953125,
+      "high": 4175.89990234375,
+      "low": 4168.60009765625,
+      "close": 4171.60009765625
+    },
+    {
+      "open": 4170.7998046875,
+      "high": 4181.60009765625,
+      "low": 4170.7998046875,
+      "close": 4179.7998046875
     }
   ],
   "bars4h": [
@@ -506,7 +546,13 @@
       "open": 4166.7001953125,
       "high": 4178.89990234375,
       "low": 4162.2998046875,
-      "close": 4162.2998046875
+      "close": 4176.0
+    },
+    {
+      "open": 4175.7001953125,
+      "high": 4181.60009765625,
+      "low": 4168.60009765625,
+      "close": 4179.7998046875
     }
   ],
   "calendar": null,
