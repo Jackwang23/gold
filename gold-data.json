@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-10-06T01:55:41.769498+00:00",
+  "fetchedAt": "2026-10-06T08:41:19.790414+00:00",
   "gold": {
-    "price": 4130.799805,
-    "updatedAt": "2026-10-06T01:55:09Z"
+    "price": 4149.399902,
+    "updatedAt": "2026-10-06T08:40:39Z"
   },
   "silver": {
-    "price": 60.827999,
-    "updatedAt": "2026-10-06T01:55:08Z"
+    "price": 61.245998,
+    "updatedAt": "2026-10-06T08:40:39Z"
   },
   "dxy": {
-    "value": 102.09,
-    "changePct": 0.16
+    "value": 102.1,
+    "changePct": -0.07
   },
   "vix": {
-    "value": 15.52,
-    "changePct": 1.37
+    "value": 15.46,
+    "changePct": -0.39
   },
   "wti": {
-    "value": 89.5,
-    "changePct": -1.77
+    "value": 88.38,
+    "changePct": -1.17
   },
   "btc": {
-    "value": 85639.16,
-    "changePct": -0.97
+    "value": 85848.99,
+    "changePct": 0.07
   },
   "spx": {
     "value": 7773.95,
@@ -42,13 +42,53 @@
   "correlations": {
     "dataPoints": 80,
     "minRequired": 10,
-    "dxy": -0.726,
-    "realRate": -0.291,
-    "vix": -0.639,
-    "btc": 0.318,
-    "spx": 0.584
+    "dxy": -0.724,
+    "realRate": -0.288,
+    "vix": -0.64,
+    "btc": 0.32,
+    "spx": 0.587
   },
   "news": [
+    {
+      "time": "10-06 01:22",
+      "text": "[AV] Citi Strategist Says JGBs Becoming Appealing as Yields Near Peak"
+    },
+    {
+      "time": "10-05 17:26",
+      "text": "[AV] Why Skyworks Solutions (SWKS) Shares Are Trading Lower Today"
+    },
+    {
+      "time": "10-05 17:16",
+      "text": "[AV] Banco Santander Brasil SA Stock (BSBR) Moved Up by 7.13% on Oct 5: Facts Behind the Movement"
+    },
+    {
+      "time": "10-05 16:46",
+      "text": "[AV] Schwab trading activity index rises in September"
+    },
+    {
+      "time": "10-05 15:53",
+      "text": "[AV] Citigroup Reports Q3 Earnings on October 13 After a Yield-Driven Bank Selloff. Here’s What the Stock Needs to Show"
+    },
+    {
+      "time": "10-05 13:24",
+      "text": "[AV] These 3 stocks are worth buying after recent employment data"
+    },
+    {
+      "time": "10-05 12:26",
+      "text": "[AV] JPMorgan Chase Earned More in 2025 Than Bank of America and Wells Fargo Combined. Can the Stock Keep Outrunning Them?"
+    },
+    {
+      "time": "10-05 12:15",
+      "text": "[AV] The Zacks Analyst Blog Highlights Abbott, Corcept, Precigen and Bausch Health Companies"
+    },
+    {
+      "time": "10-05 12:04",
+      "text": "[AV] Here Are Monday’s Top Wall Street Analyst Research Calls: Align Technology, AutoNation, Estee Lauder, Harley-Davidson, H"
+    },
+    {
+      "time": "10-05 11:52",
+      "text": "[AV] PepsiCo and Delta Air Lines earnings, Fed minutes, University of Michigan consumer sentiment: What to Watch"
+    },
     {
       "time": "10-01 19:00",
       "text": "[Fed] Bowman, Modernizing Financial Regulation: Initial Observations from eSLR"
@@ -76,64 +116,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f82c9f6e390>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0d69d23510>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": null
   },
   "priceAction": {
-    "alwaysIn": "short",
-    "bullTrendBarsInLast3": 1,
-    "bearTrendBarsInLast3": 2,
-    "isTrendStructure": false,
-    "signalBarBull": true,
-    "signalBarPrice": 4178.4,
-    "measuredMoveLow": 4111.7,
-    "measuredMoveHigh": 4135.95,
-    "sma20": 4174.08,
-    "currentPrice": 4160.2
+    "alwaysIn": "long",
+    "bullTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 0,
+    "isTrendStructure": true,
+    "signalBarBull": false,
+    "signalBarPrice": 4148.2,
+    "measuredMoveLow": 4202.9,
+    "measuredMoveHigh": 4230.6,
+    "sma20": 4163.62,
+    "currentPrice": 4175.2
   },
   "bars1h": [
-    {
-      "open": 4214.39990234375,
-      "high": 4218.39990234375,
-      "low": 4209.2998046875,
-      "close": 4214.0
-    },
-    {
-      "open": 4213.89990234375,
-      "high": 4216.0,
-      "low": 4195.39990234375,
-      "close": 4212.7001953125
-    },
-    {
-      "open": 4212.60009765625,
-      "high": 4218.7001953125,
-      "low": 4206.89990234375,
-      "close": 4211.60009765625
-    },
-    {
-      "open": 4211.5,
-      "high": 4259.0,
-      "low": 4204.39990234375,
-      "close": 4248.2001953125
-    },
-    {
-      "open": 4248.39990234375,
-      "high": 4255.89990234375,
-      "low": 4207.7001953125,
-      "close": 4221.2001953125
-    },
-    {
-      "open": 4220.7001953125,
-      "high": 4226.60009765625,
-      "low": 4184.5,
-      "close": 4188.2998046875
-    },
-    {
-      "open": 4188.39990234375,
-      "high": 4189.39990234375,
-      "low": 4153.7998046875,
-      "close": 4156.10009765625
-    },
     {
       "open": 4156.2001953125,
       "high": 4170.5,
@@ -329,190 +327,232 @@
     {
       "open": 4178.10009765625,
       "high": 4179.60009765625,
-      "low": 4158.0,
-      "close": 4160.2001953125
+      "low": 4156.0,
+      "close": 4157.2001953125
+    },
+    {
+      "open": 4157.0,
+      "high": 4166.2001953125,
+      "low": 4130.7001953125,
+      "close": 4157.39990234375
+    },
+    {
+      "open": 4157.60009765625,
+      "high": 4160.7998046875,
+      "low": 4151.0,
+      "close": 4154.5
+    },
+    {
+      "open": 4155.7998046875,
+      "high": 4158.0,
+      "low": 4146.7998046875,
+      "close": 4148.2001953125
+    },
+    {
+      "open": 4147.89990234375,
+      "high": 4152.7998046875,
+      "low": 4143.2998046875,
+      "close": 4146.7001953125
+    },
+    {
+      "open": 4146.60009765625,
+      "high": 4162.60009765625,
+      "low": 4140.10009765625,
+      "close": 4158.89990234375
+    },
+    {
+      "open": 4159.0,
+      "high": 4170.60009765625,
+      "low": 4155.5,
+      "close": 4167.5
+    },
+    {
+      "open": 4167.5,
+      "high": 4177.2998046875,
+      "low": 4165.2001953125,
+      "close": 4175.2001953125
     }
   ],
   "bars4h": [
     {
-      "open": 4149.2998046875,
-      "high": 4171.7998046875,
-      "low": 4145.2001953125,
-      "close": 4158.2001953125
+      "open": 4172.89990234375,
+      "high": 4193.2998046875,
+      "low": 4169.2001953125,
+      "close": 4185.7001953125
     },
     {
-      "open": 4157.89990234375,
-      "high": 4180.89990234375,
-      "low": 4153.10009765625,
+      "open": 4185.5,
+      "high": 4207.2001953125,
+      "low": 4180.0,
+      "close": 4190.39990234375
+    },
+    {
+      "open": 4190.5,
+      "high": 4210.10009765625,
+      "low": 4174.39990234375,
+      "close": 4209.89990234375
+    },
+    {
+      "open": 4209.89990234375,
+      "high": 4219.7001953125,
+      "low": 4204.2001953125,
+      "close": 4208.10009765625
+    },
+    {
+      "open": 4208.2998046875,
+      "high": 4217.39990234375,
+      "low": 4198.60009765625,
+      "close": 4211.39990234375
+    },
+    {
+      "open": 4211.0,
+      "high": 4234.0,
+      "low": 4197.60009765625,
+      "close": 4223.39990234375
+    },
+    {
+      "open": 4223.39990234375,
+      "high": 4251.10009765625,
+      "low": 4207.7998046875,
+      "close": 4240.2001953125
+    },
+    {
+      "open": 4240.2998046875,
+      "high": 4246.5,
+      "low": 4182.10009765625,
+      "close": 4189.10009765625
+    },
+    {
+      "open": 4189.2001953125,
+      "high": 4192.2998046875,
+      "low": 4178.2001953125,
+      "close": 4189.10009765625
+    },
+    {
+      "open": 4190.10009765625,
+      "high": 4194.60009765625,
+      "low": 4169.39990234375,
+      "close": 4186.2001953125
+    },
+    {
+      "open": 4186.10009765625,
+      "high": 4222.7998046875,
+      "low": 4180.89990234375,
+      "close": 4217.7998046875
+    },
+    {
+      "open": 4217.60009765625,
+      "high": 4222.10009765625,
+      "low": 4178.39990234375,
+      "close": 4184.10009765625
+    },
+    {
+      "open": 4184.10009765625,
+      "high": 4217.7998046875,
+      "low": 4179.89990234375,
+      "close": 4195.10009765625
+    },
+    {
+      "open": 4195.39990234375,
+      "high": 4217.60009765625,
+      "low": 4179.5,
+      "close": 4201.0
+    },
+    {
+      "open": 4200.89990234375,
+      "high": 4213.2998046875,
+      "low": 4193.89990234375,
+      "close": 4208.2998046875
+    },
+    {
+      "open": 4208.5,
+      "high": 4213.2998046875,
+      "low": 4162.89990234375,
+      "close": 4195.0
+    },
+    {
+      "open": 4195.2998046875,
+      "high": 4226.7998046875,
+      "low": 4194.2001953125,
+      "close": 4211.0
+    },
+    {
+      "open": 4210.7998046875,
+      "high": 4226.60009765625,
+      "low": 4195.39990234375,
+      "close": 4212.7001953125
+    },
+    {
+      "open": 4212.60009765625,
+      "high": 4259.0,
+      "low": 4184.5,
+      "close": 4188.2998046875
+    },
+    {
+      "open": 4188.39990234375,
+      "high": 4189.39990234375,
+      "low": 4153.7998046875,
+      "close": 4175.39990234375
+    },
+    {
+      "open": 4175.7001953125,
+      "high": 4178.89990234375,
+      "low": 4162.2998046875,
       "close": 4171.60009765625
     },
     {
-      "open": 4171.0,
-      "high": 4193.2998046875,
-      "low": 4170.7001953125,
-      "close": 4183.0
+      "open": 4170.7998046875,
+      "high": 4191.0,
+      "low": 4164.0,
+      "close": 4172.0
     },
     {
-      "open": 4183.0,
-      "high": 4207.2001953125,
-      "low": 4176.7001953125,
-      "close": 4177.7998046875
+      "open": 4171.2001953125,
+      "high": 4194.89990234375,
+      "low": 4152.2998046875,
+      "close": 4188.7001953125
     },
     {
-      "open": 4177.7998046875,
-      "high": 4218.10009765625,
-      "low": 4174.39990234375,
-      "close": 4215.0
-    },
-    {
-      "open": 4216.2001953125,
-      "high": 4219.7001953125,
-      "low": 4198.60009765625,
-      "close": 4203.60009765625
-    },
-    {
-      "open": 4203.5,
-      "high": 4217.39990234375,
-      "low": 4197.60009765625,
-      "close": 4210.2001953125
-    },
-    {
-      "open": 4209.7998046875,
-      "high": 4234.0,
-      "low": 4208.2998046875,
-      "close": 4219.2998046875
-    },
-    {
-      "open": 4219.39990234375,
-      "high": 4251.10009765625,
-      "low": 4207.5,
-      "close": 4208.60009765625
-    },
-    {
-      "open": 4208.7998046875,
-      "high": 4215.0,
-      "low": 4178.2001953125,
-      "close": 4182.7001953125
-    },
-    {
-      "open": 4182.39990234375,
-      "high": 4192.2998046875,
-      "low": 4178.5,
-      "close": 4184.5
+      "open": 4189.0,
+      "high": 4198.89990234375,
+      "low": 4179.10009765625,
+      "close": 4184.10009765625
     },
     {
       "open": 4184.39990234375,
-      "high": 4194.60009765625,
-      "low": 4169.39990234375,
-      "close": 4190.2998046875
-    },
-    {
-      "open": 4190.2998046875,
-      "high": 4222.7998046875,
-      "low": 4188.7998046875,
-      "close": 4211.60009765625
-    },
-    {
-      "open": 4211.5,
-      "high": 4213.5,
-      "low": 4178.39990234375,
-      "close": 4205.89990234375
-    },
-    {
-      "open": 4206.10009765625,
-      "high": 4217.7998046875,
-      "low": 4180.7998046875,
-      "close": 4192.5
-    },
-    {
-      "open": 4192.2998046875,
-      "high": 4217.60009765625,
-      "low": 4179.5,
-      "close": 4207.7998046875
-    },
-    {
-      "open": 4207.2001953125,
-      "high": 4213.2998046875,
-      "low": 4201.10009765625,
-      "close": 4211.5
-    },
-    {
-      "open": 4211.39990234375,
-      "high": 4212.0,
-      "low": 4162.89990234375,
-      "close": 4205.5
-    },
-    {
-      "open": 4207.60009765625,
-      "high": 4226.7998046875,
-      "low": 4207.2001953125,
-      "close": 4217.2998046875
-    },
-    {
-      "open": 4217.0,
-      "high": 4226.60009765625,
-      "low": 4195.39990234375,
-      "close": 4211.60009765625
-    },
-    {
-      "open": 4211.5,
-      "high": 4259.0,
-      "low": 4153.7998046875,
-      "close": 4156.10009765625
-    },
-    {
-      "open": 4156.2001953125,
-      "high": 4178.89990234375,
-      "low": 4154.60009765625,
-      "close": 4176.60009765625
-    },
-    {
-      "open": 4176.7998046875,
-      "high": 4186.39990234375,
-      "low": 4162.2998046875,
-      "close": 4185.0
-    },
-    {
-      "open": 4184.89990234375,
-      "high": 4191.0,
-      "low": 4152.2998046875,
-      "close": 4158.7998046875
-    },
-    {
-      "open": 4159.0,
-      "high": 4198.89990234375,
-      "low": 4157.60009765625,
-      "close": 4195.7001953125
-    },
-    {
-      "open": 4195.5,
-      "high": 4198.7001953125,
-      "low": 4179.10009765625,
-      "close": 4184.60009765625
-    },
-    {
-      "open": 4184.2998046875,
-      "high": 4186.10009765625,
+      "high": 4194.0,
       "low": 4150.39990234375,
-      "close": 4158.2998046875
+      "close": 4164.7001953125
     },
     {
-      "open": 4158.2998046875,
+      "open": 4164.7001953125,
       "high": 4171.60009765625,
       "low": 4152.89990234375,
-      "close": 4167.2998046875
+      "close": 4168.2998046875
     },
     {
-      "open": 4167.60009765625,
-      "high": 4178.7998046875,
-      "low": 4160.10009765625,
-      "close": 4178.39990234375
+      "open": 4168.39990234375,
+      "high": 4172.5,
+      "low": 4160.60009765625,
+      "close": 4161.39990234375
     },
     {
-      "open": 4178.10009765625,
+      "open": 4161.2001953125,
       "high": 4179.60009765625,
-      "low": 4158.0,
-      "close": 4160.2001953125
+      "low": 4130.7001953125,
+      "close": 4154.5
+    },
+    {
+      "open": 4155.7998046875,
+      "high": 4170.60009765625,
+      "low": 4140.10009765625,
+      "close": 4167.5
+    },
+    {
+      "open": 4167.5,
+      "high": 4177.2998046875,
+      "low": 4165.2001953125,
+      "close": 4175.2001953125
     }
   ],
   "calendar": null,
