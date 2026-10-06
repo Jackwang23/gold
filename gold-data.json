@@ -1,32 +1,32 @@
 {
-  "fetchedAt": "2026-10-06T08:41:19.790414+00:00",
+  "fetchedAt": "2026-10-06T15:28:33.129691+00:00",
   "gold": {
-    "price": 4149.399902,
-    "updatedAt": "2026-10-06T08:40:39Z"
+    "price": 4165.200195,
+    "updatedAt": "2026-10-06T15:28:10Z"
   },
   "silver": {
-    "price": 61.245998,
-    "updatedAt": "2026-10-06T08:40:39Z"
+    "price": 61.390999,
+    "updatedAt": "2026-10-06T15:28:09Z"
   },
   "dxy": {
-    "value": 102.1,
-    "changePct": -0.07
+    "value": 101.83,
+    "changePct": -0.33
   },
   "vix": {
-    "value": 15.46,
-    "changePct": -0.39
+    "value": 15.34,
+    "changePct": -1.16
   },
   "wti": {
-    "value": 88.38,
-    "changePct": -1.17
+    "value": 88.1,
+    "changePct": -1.49
   },
   "btc": {
-    "value": 85848.99,
-    "changePct": 0.07
+    "value": 86296.13,
+    "changePct": 0.59
   },
   "spx": {
-    "value": 7773.95,
-    "changePct": 0.66
+    "value": 7843.47,
+    "changePct": 0.89
   },
   "fred": {
     "10y_treasury": {
@@ -43,51 +43,15 @@
     "dataPoints": 80,
     "minRequired": 10,
     "dxy": -0.724,
-    "realRate": -0.288,
-    "vix": -0.64,
-    "btc": 0.32,
-    "spx": 0.587
+    "realRate": -0.286,
+    "vix": -0.639,
+    "btc": 0.321,
+    "spx": 0.576
   },
   "news": [
     {
-      "time": "10-06 01:22",
-      "text": "[AV] Citi Strategist Says JGBs Becoming Appealing as Yields Near Peak"
-    },
-    {
-      "time": "10-05 17:26",
-      "text": "[AV] Why Skyworks Solutions (SWKS) Shares Are Trading Lower Today"
-    },
-    {
-      "time": "10-05 17:16",
-      "text": "[AV] Banco Santander Brasil SA Stock (BSBR) Moved Up by 7.13% on Oct 5: Facts Behind the Movement"
-    },
-    {
-      "time": "10-05 16:46",
-      "text": "[AV] Schwab trading activity index rises in September"
-    },
-    {
-      "time": "10-05 15:53",
-      "text": "[AV] Citigroup Reports Q3 Earnings on October 13 After a Yield-Driven Bank Selloff. Here’s What the Stock Needs to Show"
-    },
-    {
-      "time": "10-05 13:24",
-      "text": "[AV] These 3 stocks are worth buying after recent employment data"
-    },
-    {
-      "time": "10-05 12:26",
-      "text": "[AV] JPMorgan Chase Earned More in 2025 Than Bank of America and Wells Fargo Combined. Can the Stock Keep Outrunning Them?"
-    },
-    {
-      "time": "10-05 12:15",
-      "text": "[AV] The Zacks Analyst Blog Highlights Abbott, Corcept, Precigen and Bausch Health Companies"
-    },
-    {
-      "time": "10-05 12:04",
-      "text": "[AV] Here Are Monday’s Top Wall Street Analyst Research Calls: Align Technology, AutoNation, Estee Lauder, Harley-Davidson, H"
-    },
-    {
-      "time": "10-05 11:52",
-      "text": "[AV] PepsiCo and Delta Air Lines earnings, Fed minutes, University of Michigan consumer sentiment: What to Watch"
+      "time": "10-06 14:45",
+      "text": "[Fed] Bowman, Modernizing the Regulatory and Supervisory Landscape"
     },
     {
       "time": "10-01 19:00",
@@ -108,72 +72,26 @@
     {
       "time": "09-29 19:00",
       "text": "[Fed] Waller, Payments in the Age of AI Agents"
-    },
-    {
-      "time": "09-29 16:40",
-      "text": "[Fed] Barr, Economic Conditions and Monetary Policy"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0d69d23510>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": null
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f61c52a8810>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 4148.2,
-    "measuredMoveLow": 4202.9,
-    "measuredMoveHigh": 4230.6,
-    "sma20": 4163.62,
-    "currentPrice": 4175.2
+    "signalBarPrice": 4180.0,
+    "measuredMoveLow": 4229.05,
+    "measuredMoveHigh": 4267.7,
+    "sma20": 4171.82,
+    "currentPrice": 4190.4
   },
   "bars1h": [
-    {
-      "open": 4156.2001953125,
-      "high": 4170.5,
-      "low": 4154.60009765625,
-      "close": 4168.2001953125
-    },
-    {
-      "open": 4168.0,
-      "high": 4172.5,
-      "low": 4158.89990234375,
-      "close": 4166.5
-    },
-    {
-      "open": 4166.7001953125,
-      "high": 4175.7001953125,
-      "low": 4164.2998046875,
-      "close": 4175.39990234375
-    },
-    {
-      "open": 4175.7001953125,
-      "high": 4178.89990234375,
-      "low": 4169.39990234375,
-      "close": 4176.60009765625
-    },
-    {
-      "open": 4176.7998046875,
-      "high": 4177.7001953125,
-      "low": 4162.2998046875,
-      "close": 4162.2998046875
-    },
-    {
-      "open": 4171.10009765625,
-      "high": 4176.60009765625,
-      "low": 4166.7998046875,
-      "close": 4176.0
-    },
-    {
-      "open": 4175.7001953125,
-      "high": 4175.89990234375,
-      "low": 4168.60009765625,
-      "close": 4171.60009765625
-    },
     {
       "open": 4170.7998046875,
       "high": 4186.39990234375,
@@ -368,18 +286,54 @@
     },
     {
       "open": 4167.5,
-      "high": 4177.2998046875,
+      "high": 4182.89990234375,
       "low": 4165.2001953125,
-      "close": 4175.2001953125
+      "close": 4182.7998046875
+    },
+    {
+      "open": 4182.60009765625,
+      "high": 4185.89990234375,
+      "low": 4177.2001953125,
+      "close": 4180.2001953125
+    },
+    {
+      "open": 4179.89990234375,
+      "high": 4188.7001953125,
+      "low": 4176.2001953125,
+      "close": 4186.10009765625
+    },
+    {
+      "open": 4186.5,
+      "high": 4202.7998046875,
+      "low": 4183.7998046875,
+      "close": 4201.5
+    },
+    {
+      "open": 4201.7001953125,
+      "high": 4208.0,
+      "low": 4193.5,
+      "close": 4197.89990234375
+    },
+    {
+      "open": 4198.2001953125,
+      "high": 4202.5,
+      "low": 4179.2998046875,
+      "close": 4180.0
+    },
+    {
+      "open": 4180.10009765625,
+      "high": 4185.89990234375,
+      "low": 4170.60009765625,
+      "close": 4184.5
+    },
+    {
+      "open": 4184.39990234375,
+      "high": 4192.7001953125,
+      "low": 4183.89990234375,
+      "close": 4190.39990234375
     }
   ],
   "bars4h": [
-    {
-      "open": 4172.89990234375,
-      "high": 4193.2998046875,
-      "low": 4169.2001953125,
-      "close": 4185.7001953125
-    },
     {
       "open": 4185.5,
       "high": 4207.2001953125,
@@ -550,9 +504,15 @@
     },
     {
       "open": 4167.5,
-      "high": 4177.2998046875,
+      "high": 4202.7998046875,
       "low": 4165.2001953125,
-      "close": 4175.2001953125
+      "close": 4201.5
+    },
+    {
+      "open": 4201.7001953125,
+      "high": 4208.0,
+      "low": 4170.60009765625,
+      "close": 4190.39990234375
     }
   ],
   "calendar": null,
