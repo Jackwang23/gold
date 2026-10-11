@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-10T21:45:12.640475+00:00",
+  "fetchedAt": "2026-10-11T00:32:36.068739+00:00",
   "gold": {
     "price": 4195.600098,
-    "updatedAt": "2026-10-10T21:44:34Z"
+    "updatedAt": "2026-10-11T00:32:05Z"
   },
   "silver": {
     "price": 60.949001,
-    "updatedAt": "2026-10-10T21:44:34Z"
+    "updatedAt": "2026-10-11T00:32:04Z"
   },
   "dxy": {
     "value": 102.21,
@@ -21,8 +21,8 @@
     "changePct": 0.39
   },
   "btc": {
-    "value": 82997.85,
-    "changePct": 0.55
+    "value": 82883.98,
+    "changePct": 0.41
   },
   "spx": {
     "value": 7811.54,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 84,
+    "dataPoints": 85,
     "minRequired": 10,
-    "dxy": -0.721,
-    "realRate": -0.33,
-    "vix": -0.6,
-    "btc": 0.271,
-    "spx": 0.505
+    "dxy": -0.717,
+    "realRate": -0.335,
+    "vix": -0.592,
+    "btc": 0.262,
+    "spx": 0.49
   },
   "news": [
     {
@@ -76,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f20cffd3f90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7ad54a3b90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
     "alwaysIn": "long",
@@ -88,7 +88,7 @@
     "signalBarPrice": 4216.3,
     "measuredMoveLow": 4249.2,
     "measuredMoveHigh": 4282.1,
-    "sma20": 4211.93,
+    "sma20": 4211.94,
     "currentPrice": 4216.3
   },
   "bars1h": [
@@ -105,7 +105,7 @@
       "close": 4141.7998046875
     },
     {
-      "open": 4142.0,
+      "open": 4141.89990234375,
       "high": 4150.5,
       "low": 4138.10009765625,
       "close": 4145.5
@@ -126,10 +126,10 @@
       "open": 4151.10009765625,
       "high": 4155.2998046875,
       "low": 4144.0,
-      "close": 4147.89990234375
+      "close": 4147.7998046875
     },
     {
-      "open": 4147.89990234375,
+      "open": 4148.0,
       "high": 4150.7998046875,
       "low": 4134.2998046875,
       "close": 4146.39990234375
@@ -147,7 +147,7 @@
       "close": 4142.5
     },
     {
-      "open": 4142.39990234375,
+      "open": 4142.89990234375,
       "high": 4158.7998046875,
       "low": 4139.2998046875,
       "close": 4154.7001953125
@@ -171,10 +171,10 @@
       "close": 4148.10009765625
     },
     {
-      "open": 4148.2998046875,
+      "open": 4148.2001953125,
       "high": 4170.7001953125,
       "low": 4146.89990234375,
-      "close": 4157.39990234375
+      "close": 4157.2998046875
     },
     {
       "open": 4157.5,
@@ -186,7 +186,7 @@
       "open": 4151.5,
       "high": 4159.10009765625,
       "low": 4151.5,
-      "close": 4158.10009765625
+      "close": 4158.2998046875
     },
     {
       "open": 4158.10009765625,
@@ -195,7 +195,7 @@
       "close": 4158.2998046875
     },
     {
-      "open": 4159.89990234375,
+      "open": 4159.7001953125,
       "high": 4165.89990234375,
       "low": 4156.10009765625,
       "close": 4163.2998046875
@@ -207,13 +207,13 @@
       "close": 4169.2001953125
     },
     {
-      "open": 4169.5,
+      "open": 4169.39990234375,
       "high": 4175.2998046875,
       "low": 4166.39990234375,
-      "close": 4168.2998046875
+      "close": 4168.10009765625
     },
     {
-      "open": 4168.2001953125,
+      "open": 4167.89990234375,
       "high": 4199.89990234375,
       "low": 4167.89990234375,
       "close": 4199.7998046875
@@ -225,7 +225,7 @@
       "close": 4202.60009765625
     },
     {
-      "open": 4202.2998046875,
+      "open": 4202.60009765625,
       "high": 4204.60009765625,
       "low": 4198.10009765625,
       "close": 4202.2998046875
@@ -243,13 +243,13 @@
       "close": 4217.89990234375
     },
     {
-      "open": 4218.2001953125,
+      "open": 4218.0,
       "high": 4224.0,
       "low": 4213.5,
-      "close": 4220.5
+      "close": 4220.60009765625
     },
     {
-      "open": 4220.60009765625,
+      "open": 4220.7001953125,
       "high": 4222.7998046875,
       "low": 4214.2001953125,
       "close": 4219.2001953125
@@ -285,13 +285,13 @@
       "close": 4200.39990234375
     },
     {
-      "open": 4200.39990234375,
+      "open": 4200.5,
       "high": 4221.7001953125,
       "low": 4199.2001953125,
       "close": 4215.2001953125
     },
     {
-      "open": 4215.5,
+      "open": 4215.10009765625,
       "high": 4216.2998046875,
       "low": 4205.7998046875,
       "close": 4207.2998046875
@@ -303,13 +303,13 @@
       "close": 4213.7998046875
     },
     {
-      "open": 4213.10009765625,
+      "open": 4213.2998046875,
       "high": 4218.89990234375,
       "low": 4209.89990234375,
       "close": 4215.89990234375
     },
     {
-      "open": 4216.2001953125,
+      "open": 4215.89990234375,
       "high": 4223.0,
       "low": 4212.2001953125,
       "close": 4220.7001953125
@@ -335,7 +335,7 @@
   ],
   "bars4h": [
     {
-      "open": 4176.89990234375,
+      "open": 4176.7998046875,
       "high": 4186.39990234375,
       "low": 4162.2998046875,
       "close": 4185.0
@@ -347,7 +347,7 @@
       "close": 4158.7998046875
     },
     {
-      "open": 4159.2001953125,
+      "open": 4159.0,
       "high": 4198.89990234375,
       "low": 4157.60009765625,
       "close": 4195.7001953125
@@ -374,10 +374,10 @@
       "open": 4167.60009765625,
       "high": 4178.7998046875,
       "low": 4160.10009765625,
-      "close": 4178.2998046875
+      "close": 4178.39990234375
     },
     {
-      "open": 4177.89990234375,
+      "open": 4178.10009765625,
       "high": 4179.60009765625,
       "low": 4130.7001953125,
       "close": 4148.2001953125
@@ -389,7 +389,7 @@
       "close": 4182.7998046875
     },
     {
-      "open": 4182.5,
+      "open": 4182.60009765625,
       "high": 4208.0,
       "low": 4176.2001953125,
       "close": 4197.89990234375
@@ -408,7 +408,7 @@
     },
     {
       "open": 4195.0,
-      "high": 4197.7001953125,
+      "high": 4197.7998046875,
       "low": 4173.10009765625,
       "close": 4174.2998046875
     },
@@ -425,19 +425,19 @@
       "close": 4145.89990234375
     },
     {
-      "open": 4146.10009765625,
+      "open": 4145.7001953125,
       "high": 4150.39990234375,
       "low": 4091.199951171875,
       "close": 4124.0
     },
     {
-      "open": 4124.39990234375,
+      "open": 4124.0,
       "high": 4153.2001953125,
       "low": 4119.0,
       "close": 4136.39990234375
     },
     {
-      "open": 4136.39990234375,
+      "open": 4136.5,
       "high": 4146.0,
       "low": 4126.89990234375,
       "close": 4131.39990234375
@@ -449,7 +449,7 @@
       "close": 4157.10009765625
     },
     {
-      "open": 4157.2001953125,
+      "open": 4157.0,
       "high": 4165.7001953125,
       "low": 4138.10009765625,
       "close": 4145.5
@@ -479,7 +479,7 @@
       "close": 4169.2001953125
     },
     {
-      "open": 4169.5,
+      "open": 4169.39990234375,
       "high": 4204.7998046875,
       "low": 4166.39990234375,
       "close": 4202.2998046875
@@ -503,7 +503,7 @@
       "close": 4213.7998046875
     },
     {
-      "open": 4213.10009765625,
+      "open": 4213.2998046875,
       "high": 4227.7998046875,
       "low": 4209.89990234375,
       "close": 4220.2001953125
