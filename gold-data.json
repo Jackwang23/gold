@@ -1,41 +1,41 @@
 {
-  "fetchedAt": "2026-10-16T18:24:03.962091+00:00",
+  "fetchedAt": "2026-10-16T21:32:49.777080+00:00",
   "gold": {
-    "price": 4162.299805,
-    "updatedAt": "2026-10-16T18:23:38Z"
+    "price": 4166.100098,
+    "updatedAt": "2026-10-16T21:32:09Z"
   },
   "silver": {
-    "price": 57.153,
-    "updatedAt": "2026-10-16T18:23:37Z"
+    "price": 57.116001,
+    "updatedAt": "2026-10-16T21:32:08Z"
   },
   "dxy": {
-    "value": 101.86,
-    "changePct": -0.14
+    "value": 101.78,
+    "changePct": -0.22
   },
   "vix": {
-    "value": 21.39,
-    "changePct": 29.95
+    "value": 19.99,
+    "changePct": 21.45
   },
   "wti": {
-    "value": 98.92,
-    "changePct": 0.97
+    "value": 99.04,
+    "changePct": 1.09
   },
   "btc": {
-    "value": 81269.46,
-    "changePct": -1.06
+    "value": 81657.47,
+    "changePct": -0.59
   },
   "spx": {
-    "value": 7649.1,
-    "changePct": -1.23
+    "value": 7659.44,
+    "changePct": -1.09
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-10-14",
-      "value": 5.19
+      "date": "2026-10-15",
+      "value": 5.1
     },
     "10y_real_rate": {
-      "date": "2026-10-14",
-      "value": 2.84
+      "date": "2026-10-15",
+      "value": 2.78
     }
   },
   "goldapi": null,
@@ -43,10 +43,10 @@
     "dataPoints": 90,
     "minRequired": 10,
     "dxy": -0.722,
-    "realRate": -0.377,
-    "vix": -0.564,
+    "realRate": -0.375,
+    "vix": -0.577,
     "btc": 0.21,
-    "spx": 0.439
+    "spx": 0.438
   },
   "news": [
     {
@@ -76,34 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f965833c110>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9d7e33ba10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 4188.4,
-    "measuredMoveLow": 4132.1,
-    "measuredMoveHigh": 4158.55,
-    "sma20": 4193.2,
-    "currentPrice": 4185.0
+    "signalBarBull": true,
+    "signalBarPrice": 4189.9,
+    "measuredMoveLow": 4133.8,
+    "measuredMoveHigh": 4160.25,
+    "sma20": 4194.11,
+    "currentPrice": 4186.7
   },
   "bars1h": [
-    {
-      "open": 4160.0,
-      "high": 4182.39990234375,
-      "low": 4156.7998046875,
-      "close": 4181.0
-    },
-    {
-      "open": 4181.2998046875,
-      "high": 4183.2998046875,
-      "low": 4165.10009765625,
-      "close": 4165.60009765625
-    },
     {
       "open": 4166.7001953125,
       "high": 4168.89990234375,
@@ -329,17 +317,23 @@
     {
       "open": 4183.89990234375,
       "high": 4188.60009765625,
-      "low": 4182.2001953125,
-      "close": 4185.0
+      "low": 4176.2998046875,
+      "close": 4180.7001953125
+    },
+    {
+      "open": 4180.39990234375,
+      "high": 4193.2998046875,
+      "low": 4179.10009765625,
+      "close": 4189.89990234375
+    },
+    {
+      "open": 4189.7998046875,
+      "high": 4190.60009765625,
+      "low": 4184.2001953125,
+      "close": 4186.7001953125
     }
   ],
   "bars4h": [
-    {
-      "open": 4213.10009765625,
-      "high": 4227.7998046875,
-      "low": 4209.89990234375,
-      "close": 4220.2001953125
-    },
     {
       "open": 4220.2001953125,
       "high": 4235.7998046875,
@@ -510,17 +504,23 @@
     },
     {
       "open": 4188.7998046875,
-      "high": 4190.89990234375,
-      "low": 4177.10009765625,
-      "close": 4185.0
+      "high": 4193.2998046875,
+      "low": 4176.2998046875,
+      "close": 4189.89990234375
+    },
+    {
+      "open": 4189.7998046875,
+      "high": 4190.60009765625,
+      "low": 4184.2001953125,
+      "close": 4186.7001953125
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 210335,
-    "change": -8297,
-    "reportDate": "2026-10-06"
+    "netLong": 207879,
+    "change": -2456,
+    "reportDate": "2026-10-13"
   },
   "cotError": null,
   "gld": null,
