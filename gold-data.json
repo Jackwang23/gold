@@ -1,28 +1,25 @@
 {
-  "fetchedAt": "2026-10-23T20:14:51.875706+00:00",
-  "gold": {
-    "price": 3997.899902,
-    "updatedAt": "2026-10-23T20:14:15Z"
-  },
+  "fetchedAt": "2026-10-23T23:12:50.675880+00:00",
+  "gold": null,
   "silver": {
-    "price": 54.042,
-    "updatedAt": "2026-10-23T20:14:14Z"
+    "price": 54.046001,
+    "updatedAt": "2026-10-23T23:12:15Z"
   },
   "dxy": {
-    "value": 101.8,
-    "changePct": 0.19
+    "value": 101.75,
+    "changePct": 0.14
   },
   "vix": {
-    "value": 19.68,
-    "changePct": 3.42
+    "value": 19.45,
+    "changePct": 2.21
   },
   "wti": {
-    "value": 103.54,
-    "changePct": 4.09
+    "value": 103.44,
+    "changePct": 3.99
   },
   "btc": {
-    "value": 81279.66,
-    "changePct": -0.04
+    "value": 80409.01,
+    "changePct": -1.11
   },
   "spx": {
     "value": 7623.68,
@@ -30,12 +27,12 @@
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-10-21",
-      "value": 5.13
+      "date": "2026-10-22",
+      "value": 4.96
     },
     "10y_real_rate": {
-      "date": "2026-10-21",
-      "value": 2.76
+      "date": "2026-10-22",
+      "value": 2.64
     }
   },
   "goldapi": null,
@@ -76,8 +73,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa9da56bb90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fd6d7d47f10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
@@ -85,11 +82,11 @@
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4011.9,
-    "measuredMoveLow": 3950.8,
-    "measuredMoveHigh": 3981.35,
-    "sma20": 4025.07,
-    "currentPrice": 4011.9
+    "signalBarPrice": 4014.4,
+    "measuredMoveLow": 3948.9,
+    "measuredMoveHigh": 3979.45,
+    "sma20": 4024.98,
+    "currentPrice": 4010.0
   },
   "bars1h": [
     {
@@ -329,8 +326,8 @@
     {
       "open": 4013.199951171875,
       "high": 4013.5,
-      "low": 4011.0,
-      "close": 4011.89990234375
+      "low": 4006.0,
+      "close": 4010.0
     }
   ],
   "bars4h": [
@@ -512,7 +509,7 @@
       "open": 4014.699951171875,
       "high": 4016.10009765625,
       "low": 4004.5,
-      "close": 4011.89990234375
+      "close": 4010.0
     }
   ],
   "calendar": null,
