@@ -1,28 +1,25 @@
 {
-  "fetchedAt": "2026-10-24T01:38:48.600065+00:00",
-  "gold": {
-    "price": 3996.899902,
-    "updatedAt": "2026-10-24T01:38:16Z"
-  },
+  "fetchedAt": "2026-10-24T06:29:53.470558+00:00",
+  "gold": null,
   "silver": {
     "price": 54.046001,
-    "updatedAt": "2026-10-24T01:38:15Z"
+    "updatedAt": "2026-10-24T06:29:21Z"
   },
   "dxy": {
-    "value": 101.75,
-    "changePct": 0.14
+    "value": 101.81,
+    "changePct": 0.2
   },
   "vix": {
     "value": 19.45,
     "changePct": 2.21
   },
   "wti": {
-    "value": 103.44,
-    "changePct": 3.99
+    "value": 103.27,
+    "changePct": 3.82
   },
   "btc": {
-    "value": 80659.53,
-    "changePct": -0.8
+    "value": 80670.83,
+    "changePct": -0.79
   },
   "spx": {
     "value": 7623.68,
@@ -76,20 +73,20 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fd1f97af910>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7efe663441d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 4014.4,
-    "measuredMoveLow": 3948.9,
-    "measuredMoveHigh": 3979.45,
-    "sma20": 4024.98,
-    "currentPrice": 4010.0
+    "signalBarPrice": 4007.9,
+    "measuredMoveLow": 3946.8,
+    "measuredMoveHigh": 3977.35,
+    "sma20": 4024.88,
+    "currentPrice": 4007.9
   },
   "bars1h": [
     {
@@ -330,7 +327,7 @@
       "open": 4013.199951171875,
       "high": 4013.5,
       "low": 4006.0,
-      "close": 4010.0
+      "close": 4007.89990234375
     }
   ],
   "bars4h": [
@@ -512,7 +509,7 @@
       "open": 4014.699951171875,
       "high": 4016.10009765625,
       "low": 4004.5,
-      "close": 4010.0
+      "close": 4007.89990234375
     }
   ],
   "calendar": null,
