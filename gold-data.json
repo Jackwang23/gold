@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T20:29:46.286063+00:00",
+  "fetchedAt": "2026-10-25T22:46:11.124615+00:00",
   "gold": {
-    "price": 3996.899902,
-    "updatedAt": "2026-10-25T20:29:11Z"
+    "price": 4003.699951,
+    "updatedAt": "2026-10-25T22:45:42Z"
   },
   "silver": {
-    "price": 54.046001,
-    "updatedAt": "2026-10-25T20:29:11Z"
+    "price": 54.300999,
+    "updatedAt": "2026-10-25T22:45:41Z"
   },
   "dxy": {
     "value": 101.81,
@@ -17,12 +17,12 @@
     "changePct": 2.21
   },
   "wti": {
-    "value": 103.27,
-    "changePct": 3.82
+    "value": 102.04,
+    "changePct": -1.19
   },
   "btc": {
-    "value": 80439.3,
-    "changePct": -0.44
+    "value": 80442.65,
+    "changePct": -0.43
   },
   "spx": {
     "value": 7623.68,
@@ -76,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f287a195fd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fe5be6665d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
@@ -86,18 +86,12 @@
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 4007.9,
-    "measuredMoveLow": 3946.8,
-    "measuredMoveHigh": 3977.35,
-    "sma20": 4024.88,
-    "currentPrice": 4007.9
+    "measuredMoveLow": 3952.8,
+    "measuredMoveHigh": 3983.35,
+    "sma20": 4025.26,
+    "currentPrice": 4013.9
   },
   "bars1h": [
-    {
-      "open": 4108.0,
-      "high": 4109.2998046875,
-      "low": 4103.39990234375,
-      "close": 4107.10009765625
-    },
     {
       "open": 4107.0,
       "high": 4108.39990234375,
@@ -331,6 +325,12 @@
       "high": 4013.5,
       "low": 4006.0,
       "close": 4007.89990234375
+    },
+    {
+      "open": 4010.199951171875,
+      "high": 4017.89990234375,
+      "low": 4006.800048828125,
+      "close": 4013.89990234375
     }
   ],
   "bars4h": [
@@ -504,9 +504,9 @@
     },
     {
       "open": 4013.89990234375,
-      "high": 4016.0,
+      "high": 4017.89990234375,
       "low": 4006.0,
-      "close": 4007.89990234375
+      "close": 4013.89990234375
     }
   ],
   "calendar": null,
