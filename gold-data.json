@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-24T22:40:17.970286+00:00",
+  "fetchedAt": "2026-10-25T00:33:08.096690+00:00",
   "gold": {
     "price": 3996.899902,
-    "updatedAt": "2026-10-24T22:39:53Z"
+    "updatedAt": "2026-10-25T00:32:37Z"
   },
   "silver": {
     "price": 54.046001,
-    "updatedAt": "2026-10-24T22:39:53Z"
+    "updatedAt": "2026-10-25T00:32:36Z"
   },
   "dxy": {
     "value": 101.81,
@@ -21,8 +21,8 @@
     "changePct": 3.82
   },
   "btc": {
-    "value": 80493.4,
-    "changePct": -0.72
+    "value": 80766.02,
+    "changePct": -0.38
   },
   "spx": {
     "value": 7623.68,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 98,
+    "dataPoints": 99,
     "minRequired": 10,
-    "dxy": -0.745,
+    "dxy": -0.749,
     "realRate": -0.414,
-    "vix": -0.613,
-    "btc": 0.125,
-    "spx": 0.413
+    "vix": -0.625,
+    "btc": 0.113,
+    "spx": 0.414
   },
   "news": [
     {
@@ -76,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f76d136ba50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb5c817b910>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
     "alwaysIn": "short",
