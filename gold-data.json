@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-10-30T20:58:51.786503+00:00",
+  "fetchedAt": "2026-10-31T00:39:19.094033+00:00",
   "gold": {
-    "price": 3876.899902,
-    "updatedAt": "2026-10-30T20:58:14Z"
+    "price": 3876.399902,
+    "updatedAt": "2026-10-31T00:38:56Z"
   },
   "silver": {
-    "price": 49.256001,
-    "updatedAt": "2026-10-30T20:58:13Z"
+    "price": 49.254002,
+    "updatedAt": "2026-10-31T00:38:55Z"
   },
   "dxy": {
-    "value": 101.93,
-    "changePct": -0.11
+    "value": 101.96,
+    "changePct": -0.07
   },
   "vix": {
     "value": 19.42,
     "changePct": 12.91
   },
   "wti": {
-    "value": 102.9,
-    "changePct": 0.88
+    "value": 102.95,
+    "changePct": 0.93
   },
   "btc": {
-    "value": 76759.24,
-    "changePct": -1.31
+    "value": 77208.66,
+    "changePct": -0.73
   },
   "spx": {
     "value": 7580.07,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 104,
+    "dataPoints": 105,
     "minRequired": 10,
-    "dxy": -0.767,
-    "realRate": -0.418,
-    "vix": -0.652,
-    "btc": 0.079,
-    "spx": 0.384
+    "dxy": -0.769,
+    "realRate": -0.415,
+    "vix": -0.666,
+    "btc": 0.073,
+    "spx": 0.39
   },
   "news": [
     {
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f6b71273ed0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f1426f83e50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
@@ -85,11 +85,11 @@
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
     "signalBarBull": false,
-    "signalBarPrice": 3882.6,
-    "measuredMoveLow": 3737.2,
-    "measuredMoveHigh": 3809.9,
-    "sma20": 3959.02,
-    "currentPrice": 3882.6
+    "signalBarPrice": 3893.1,
+    "measuredMoveLow": 3739.5,
+    "measuredMoveHigh": 3812.2,
+    "sma20": 3959.14,
+    "currentPrice": 3884.9
   },
   "bars1h": [
     {
@@ -330,7 +330,7 @@
       "open": 3892.800048828125,
       "high": 3897.39990234375,
       "low": 3881.300048828125,
-      "close": 3882.60009765625
+      "close": 3884.89990234375
     }
   ],
   "bars4h": [
@@ -512,7 +512,7 @@
       "open": 3905.5,
       "high": 3906.199951171875,
       "low": 3879.300048828125,
-      "close": 3882.60009765625
+      "close": 3884.89990234375
     }
   ],
   "calendar": null,
