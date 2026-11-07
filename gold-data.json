@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-07T10:11:12.434538+00:00",
+  "fetchedAt": "2026-11-07T16:27:44.283354+00:00",
   "gold": {
     "price": 4072.100098,
-    "updatedAt": "2026-11-07T10:10:36Z"
+    "updatedAt": "2026-11-07T16:27:07Z"
   },
   "silver": {
     "price": 52.070999,
-    "updatedAt": "2026-11-07T10:10:36Z"
+    "updatedAt": "2026-11-07T16:27:06Z"
   },
   "dxy": {
     "value": 102.3,
@@ -21,8 +21,8 @@
     "changePct": 0.34
   },
   "btc": {
-    "value": 75965.32,
-    "changePct": 0.29
+    "value": 75686.5,
+    "changePct": -0.08
   },
   "spx": {
     "value": 7376.86,
@@ -76,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7bd58195fa50>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x70e56e098bd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
     "alwaysIn": "long",
