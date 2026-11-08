@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-07T23:49:45.796768+00:00",
+  "fetchedAt": "2026-11-08T04:55:01.129331+00:00",
   "gold": {
     "price": 4072.100098,
-    "updatedAt": "2026-11-07T23:49:22Z"
+    "updatedAt": "2026-11-08T04:54:22Z"
   },
   "silver": {
     "price": 52.070999,
-    "updatedAt": "2026-11-07T23:49:21Z"
+    "updatedAt": "2026-11-08T04:54:21Z"
   },
   "dxy": {
     "value": 102.3,
@@ -21,8 +21,8 @@
     "changePct": 0.34
   },
   "btc": {
-    "value": 75811.86,
-    "changePct": 0.09
+    "value": 75738.23,
+    "changePct": -0.01
   },
   "spx": {
     "value": 7376.86,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 112,
+    "dataPoints": 113,
     "minRequired": 10,
-    "dxy": -0.78,
+    "dxy": -0.782,
     "realRate": -0.407,
-    "vix": -0.596,
+    "vix": -0.588,
     "btc": 0.054,
-    "spx": 0.428
+    "spx": 0.434
   },
   "news": [
     {
@@ -76,8 +76,8 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x761c12b7c4d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7bcff2713610>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
     "alwaysIn": "long",
