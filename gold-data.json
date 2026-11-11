@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-10T22:24:20.574749+00:00",
+  "fetchedAt": "2026-11-11T02:05:55.510063+00:00",
   "gold": {
-    "price": 4033.800049,
-    "updatedAt": "2026-11-10T22:23:28Z"
+    "price": 4045.300049,
+    "updatedAt": "2026-11-11T02:05:28Z"
   },
   "silver": {
-    "price": 51.664001,
-    "updatedAt": "2026-11-10T22:23:27Z"
+    "price": 52.418999,
+    "updatedAt": "2026-11-11T02:05:28Z"
   },
   "dxy": {
-    "value": 102.24,
-    "changePct": 0.58
+    "value": 102.22,
+    "changePct": 0.56
   },
   "vix": {
     "value": 19.46,
     "changePct": -2.31
   },
   "wti": {
-    "value": 86.44,
-    "changePct": -0.47
+    "value": 86.26,
+    "changePct": -0.68
   },
   "btc": {
-    "value": 73702.37,
-    "changePct": -2.02
+    "value": 73473.79,
+    "changePct": -2.33
   },
   "spx": {
     "value": 7520.93,
@@ -40,13 +40,13 @@
   },
   "goldapi": null,
   "correlations": {
-    "dataPoints": 115,
+    "dataPoints": 116,
     "minRequired": 10,
-    "dxy": -0.786,
-    "realRate": -0.409,
-    "vix": -0.594,
-    "btc": 0.057,
-    "spx": 0.443
+    "dxy": -0.788,
+    "realRate": -0.41,
+    "vix": -0.598,
+    "btc": 0.059,
+    "spx": 0.448
   },
   "news": [
     {
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x79f9579574d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7085c093a410>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
@@ -84,32 +84,14 @@
     "bullTrendBarsInLast3": 0,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 4035.0,
-    "measuredMoveLow": 3924.4,
-    "measuredMoveHigh": 3982.45,
-    "sma20": 4079.28,
-    "currentPrice": 4040.5
+    "signalBarBull": false,
+    "signalBarPrice": 4040.4,
+    "measuredMoveLow": 3936.8,
+    "measuredMoveHigh": 3994.6,
+    "sma20": 4067.93,
+    "currentPrice": 4052.4
   },
   "bars1h": [
-    {
-      "open": 4131.7001953125,
-      "high": 4132.2998046875,
-      "low": 4115.5,
-      "close": 4115.7001953125
-    },
-    {
-      "open": 4115.2001953125,
-      "high": 4119.7001953125,
-      "low": 4092.300048828125,
-      "close": 4094.800048828125
-    },
-    {
-      "open": 4094.5,
-      "high": 4108.5,
-      "low": 4094.39990234375,
-      "close": 4103.60009765625
-    },
     {
       "open": 4103.7001953125,
       "high": 4107.60009765625,
@@ -331,6 +313,24 @@
       "high": 4042.800048828125,
       "low": 4034.39990234375,
       "close": 4040.5
+    },
+    {
+      "open": 4043.699951171875,
+      "high": 4046.60009765625,
+      "low": 4038.300048828125,
+      "close": 4046.199951171875
+    },
+    {
+      "open": 4046.5,
+      "high": 4049.5,
+      "low": 4038.39990234375,
+      "close": 4040.39990234375
+    },
+    {
+      "open": 4040.800048828125,
+      "high": 4060.60009765625,
+      "low": 4034.10009765625,
+      "close": 4052.39990234375
     }
   ],
   "bars4h": [
@@ -510,15 +510,19 @@
     },
     {
       "open": 4038.89990234375,
-      "high": 4042.800048828125,
-      "low": 4034.39990234375,
-      "close": 4040.5
+      "high": 4060.60009765625,
+      "low": 4034.10009765625,
+      "close": 4052.39990234375
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
-  "cot": null,
-  "cotError": "ReadTimeout: HTTPSConnectionPool(host='publicreporting.cftc.gov', port=443): Read timed out. (read timeout=10)",
+  "cot": {
+    "netLong": 179548,
+    "change": -6903,
+    "reportDate": "2026-11-03"
+  },
+  "cotError": null,
   "gld": null,
   "gldError": "Error: new-line character seen in unquoted field - do you need to open the file with newline=''?"
 }
