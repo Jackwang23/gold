@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-14T09:26:34.672845+00:00",
+  "fetchedAt": "2026-11-14T15:58:01.259395+00:00",
   "gold": {
     "price": 3887.600098,
-    "updatedAt": "2026-11-14T09:25:55Z"
+    "updatedAt": "2026-11-14T15:57:25Z"
   },
   "silver": {
     "price": 48.650002,
-    "updatedAt": "2026-11-14T09:25:54Z"
+    "updatedAt": "2026-11-14T15:57:24Z"
   },
   "dxy": {
     "value": 103.41,
@@ -21,8 +21,8 @@
     "changePct": -0.2
   },
   "btc": {
-    "value": 67041.04,
-    "changePct": -1.77
+    "value": 65573.83,
+    "changePct": -3.92
   },
   "spx": {
     "value": 7561.67,
@@ -45,7 +45,7 @@
     "dxy": -0.808,
     "realRate": -0.436,
     "vix": -0.604,
-    "btc": 0.096,
+    "btc": 0.099,
     "spx": 0.451
   },
   "news": [
@@ -76,7 +76,7 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x79d27905e3d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x78c0746d9c90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
@@ -86,10 +86,10 @@
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 3878.5,
-    "measuredMoveLow": 3831.5,
-    "measuredMoveHigh": 3859.55,
-    "sma20": 3896.66,
-    "currentPrice": 3887.6
+    "measuredMoveLow": 3830.2,
+    "measuredMoveHigh": 3858.25,
+    "sma20": 3896.59,
+    "currentPrice": 3886.3
   },
   "bars1h": [
     {
@@ -330,7 +330,7 @@
       "open": 3881.800048828125,
       "high": 3888.89990234375,
       "low": 3872.89990234375,
-      "close": 3887.60009765625
+      "close": 3886.300048828125
     }
   ],
   "bars4h": [
@@ -512,7 +512,7 @@
       "open": 3881.800048828125,
       "high": 3888.89990234375,
       "low": 3872.89990234375,
-      "close": 3887.60009765625
+      "close": 3886.300048828125
     }
   ],
   "calendar": null,
