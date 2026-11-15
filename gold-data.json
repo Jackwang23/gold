@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-15T19:58:15.345658+00:00",
+  "fetchedAt": "2026-11-15T23:54:52.516463+00:00",
   "gold": {
-    "price": 3887.600098,
-    "updatedAt": "2026-11-15T19:57:57Z"
+    "price": 3903.570068,
+    "updatedAt": "2026-11-15T23:54:27Z"
   },
   "silver": {
-    "price": 48.650002,
-    "updatedAt": "2026-11-15T19:57:57Z"
+    "price": 48.950001,
+    "updatedAt": "2026-11-15T23:54:27Z"
   },
   "dxy": {
-    "value": 103.41,
-    "changePct": 0.23
+    "value": 103.43,
+    "changePct": 0.01
   },
   "vix": {
     "value": 19.3,
     "changePct": 3.21
   },
   "wti": {
-    "value": 88.56,
-    "changePct": -0.2
+    "value": 88.46,
+    "changePct": -0.11
   },
   "btc": {
-    "value": 64956.04,
-    "changePct": 1.29
+    "value": 65151.5,
+    "changePct": 1.6
   },
   "spx": {
     "value": 7561.67,
@@ -42,10 +42,10 @@
   "correlations": {
     "dataPoints": 120,
     "minRequired": 10,
-    "dxy": -0.814,
-    "realRate": -0.448,
+    "dxy": -0.813,
+    "realRate": -0.447,
     "vix": -0.608,
-    "btc": 0.117,
+    "btc": 0.116,
     "spx": 0.455
   },
   "news": [
@@ -76,28 +76,22 @@
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x73e75ee74890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f5b0cd58ad0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
+    "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
     "signalBarPrice": 3878.6,
-    "measuredMoveLow": 3830.2,
-    "measuredMoveHigh": 3858.25,
-    "sma20": 3896.57,
-    "currentPrice": 3886.3
+    "measuredMoveLow": 3836.3,
+    "measuredMoveHigh": 3864.35,
+    "sma20": 3895.2,
+    "currentPrice": 3892.4
   },
   "bars1h": [
-    {
-      "open": 3981.0,
-      "high": 3988.199951171875,
-      "low": 3974.60009765625,
-      "close": 3986.699951171875
-    },
     {
       "open": 3984.39990234375,
       "high": 3986.300048828125,
@@ -331,6 +325,12 @@
       "high": 3888.300048828125,
       "low": 3872.89990234375,
       "close": 3886.300048828125
+    },
+    {
+      "open": 3889.199951171875,
+      "high": 3893.89990234375,
+      "low": 3880.5,
+      "close": 3892.39990234375
     }
   ],
   "bars4h": [
@@ -507,6 +507,12 @@
       "high": 3891.5,
       "low": 3872.89990234375,
       "close": 3886.300048828125
+    },
+    {
+      "open": 3889.199951171875,
+      "high": 3893.89990234375,
+      "low": 3880.5,
+      "close": 3892.39990234375
     }
   ],
   "calendar": null,
