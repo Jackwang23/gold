@@ -1,41 +1,41 @@
 {
-  "fetchedAt": "2026-11-16T13:45:52.707942+00:00",
+  "fetchedAt": "2026-11-16T23:14:32.249698+00:00",
   "gold": {
-    "price": 3877.899902,
-    "updatedAt": "2026-11-16T13:45:28Z"
+    "price": 3856.169922,
+    "updatedAt": "2026-11-16T23:13:57Z"
   },
   "silver": {
-    "price": 47.272999,
-    "updatedAt": "2026-11-16T13:45:28Z"
+    "price": 47.053001,
+    "updatedAt": "2026-11-16T23:13:56Z"
   },
   "dxy": {
-    "value": 103.48,
-    "changePct": 0.06
+    "value": 103.57,
+    "changePct": 0.15
   },
   "vix": {
-    "value": 20.75,
-    "changePct": 7.51
+    "value": 22.91,
+    "changePct": 18.7
   },
   "wti": {
-    "value": 87.69,
-    "changePct": -0.98
+    "value": 85.31,
+    "changePct": -3.67
   },
   "btc": {
-    "value": 64300.0,
-    "changePct": -1.54
+    "value": 65225.98,
+    "changePct": -0.12
   },
   "spx": {
-    "value": 7561.67,
-    "changePct": -0.4
+    "value": 7416.59,
+    "changePct": -1.92
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-11-12",
-      "value": 5.1
+      "date": "2026-11-13",
+      "value": 5.15
     },
     "10y_real_rate": {
-      "date": "2026-11-12",
-      "value": 2.86
+      "date": "2026-11-13",
+      "value": 2.91
     }
   },
   "goldapi": null,
@@ -43,12 +43,16 @@
     "dataPoints": 120,
     "minRequired": 10,
     "dxy": -0.823,
-    "realRate": -0.476,
-    "vix": -0.614,
-    "btc": 0.123,
-    "spx": 0.451
+    "realRate": -0.479,
+    "vix": -0.619,
+    "btc": 0.122,
+    "spx": 0.464
   },
   "news": [
+    {
+      "time": "11-16 17:00",
+      "text": "[Fed] Warsh, Opening Remarks"
+    },
     {
       "time": "11-16 10:00",
       "text": "[Fed] Barr, Some Potential Financial Stability Implications of Artificial Intelligence"
@@ -68,84 +72,26 @@
     {
       "time": "11-10 20:30",
       "text": "[Fed] Bowman, The U.S. Economy and Considerations for Monetary Policy"
-    },
-    {
-      "time": "11-10 09:00",
-      "text": "[Fed] Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x763134f1a4d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x74bc9334c4d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "long",
+    "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 0,
+    "bearTrendBarsInLast3": 1,
     "isTrendStructure": true,
-    "signalBarBull": true,
-    "signalBarPrice": 3876.1,
-    "measuredMoveLow": 3909.65,
-    "measuredMoveHigh": 3944.2,
-    "sma20": 3874.63,
-    "currentPrice": 3875.1
+    "signalBarBull": false,
+    "signalBarPrice": 3854.6,
+    "measuredMoveLow": 3799.8,
+    "measuredMoveHigh": 3828.5,
+    "sma20": 3864.36,
+    "currentPrice": 3857.2
   },
   "bars1h": [
-    {
-      "open": 3889.0,
-      "high": 3891.10009765625,
-      "low": 3877.800048828125,
-      "close": 3879.5
-    },
-    {
-      "open": 3879.60009765625,
-      "high": 3882.699951171875,
-      "low": 3876.89990234375,
-      "close": 3881.699951171875
-    },
-    {
-      "open": 3883.300048828125,
-      "high": 3889.89990234375,
-      "low": 3879.10009765625,
-      "close": 3884.699951171875
-    },
-    {
-      "open": 3884.10009765625,
-      "high": 3895.199951171875,
-      "low": 3883.0,
-      "close": 3889.39990234375
-    },
-    {
-      "open": 3889.60009765625,
-      "high": 3920.39990234375,
-      "low": 3888.0,
-      "close": 3911.699951171875
-    },
-    {
-      "open": 3911.300048828125,
-      "high": 3920.300048828125,
-      "low": 3908.39990234375,
-      "close": 3919.800048828125
-    },
-    {
-      "open": 3920.0,
-      "high": 3927.199951171875,
-      "low": 3917.699951171875,
-      "close": 3924.5
-    },
-    {
-      "open": 3924.39990234375,
-      "high": 3925.800048828125,
-      "low": 3911.89990234375,
-      "close": 3917.10009765625
-    },
-    {
-      "open": 3917.10009765625,
-      "high": 3923.60009765625,
-      "low": 3891.800048828125,
-      "close": 3908.5
-    },
     {
       "open": 3907.89990234375,
       "high": 3908.5,
@@ -330,22 +276,64 @@
       "open": 3872.300048828125,
       "high": 3879.39990234375,
       "low": 3865.89990234375,
-      "close": 3875.10009765625
+      "close": 3868.89990234375
+    },
+    {
+      "open": 3868.800048828125,
+      "high": 3892.60009765625,
+      "low": 3864.39990234375,
+      "close": 3881.800048828125
+    },
+    {
+      "open": 3881.89990234375,
+      "high": 3889.699951171875,
+      "low": 3861.0,
+      "close": 3861.89990234375
+    },
+    {
+      "open": 3862.199951171875,
+      "high": 3867.89990234375,
+      "low": 3859.10009765625,
+      "close": 3867.10009765625
+    },
+    {
+      "open": 3867.0,
+      "high": 3874.39990234375,
+      "low": 3857.699951171875,
+      "close": 3859.0
+    },
+    {
+      "open": 3858.5,
+      "high": 3859.10009765625,
+      "low": 3843.699951171875,
+      "close": 3858.60009765625
+    },
+    {
+      "open": 3857.39990234375,
+      "high": 3869.800048828125,
+      "low": 3855.800048828125,
+      "close": 3866.89990234375
+    },
+    {
+      "open": 3866.699951171875,
+      "high": 3867.800048828125,
+      "low": 3854.0,
+      "close": 3854.60009765625
+    },
+    {
+      "open": 3854.60009765625,
+      "high": 3861.699951171875,
+      "low": 3851.300048828125,
+      "close": 3859.0
+    },
+    {
+      "open": 3859.5,
+      "high": 3862.60009765625,
+      "low": 3857.199951171875,
+      "close": 3857.199951171875
     }
   ],
   "bars4h": [
-    {
-      "open": 4131.2998046875,
-      "high": 4140.2998046875,
-      "low": 4074.89990234375,
-      "close": 4119.2001953125
-    },
-    {
-      "open": 4118.89990234375,
-      "high": 4157.7001953125,
-      "low": 4109.10009765625,
-      "close": 4151.0
-    },
     {
       "open": 4150.60009765625,
       "high": 4156.2001953125,
@@ -510,17 +498,29 @@
     },
     {
       "open": 3872.300048828125,
-      "high": 3879.39990234375,
-      "low": 3865.89990234375,
-      "close": 3875.10009765625
+      "high": 3892.60009765625,
+      "low": 3859.10009765625,
+      "close": 3867.10009765625
+    },
+    {
+      "open": 3867.0,
+      "high": 3874.39990234375,
+      "low": 3843.699951171875,
+      "close": 3854.60009765625
+    },
+    {
+      "open": 3854.60009765625,
+      "high": 3862.60009765625,
+      "low": 3851.300048828125,
+      "close": 3857.199951171875
     }
   ],
   "calendar": null,
   "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
-    "netLong": 179548,
-    "change": -6903,
-    "reportDate": "2026-11-03"
+    "netLong": 190107,
+    "change": 10559,
+    "reportDate": "2026-11-10"
   },
   "cotError": null,
   "gld": null,
