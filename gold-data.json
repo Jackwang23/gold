@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-17T05:07:07.790100+00:00",
+  "fetchedAt": "2026-11-17T14:24:59.108828+00:00",
   "gold": {
-    "price": 3876.75,
-    "updatedAt": "2026-11-17T05:06:28Z"
+    "price": 3862.149902,
+    "updatedAt": "2026-11-17T14:24:28Z"
   },
   "silver": {
-    "price": 47.428001,
-    "updatedAt": "2026-11-17T05:06:27Z"
+    "price": 47.485001,
+    "updatedAt": "2026-11-17T14:24:28Z"
   },
   "dxy": {
-    "value": 103.55,
-    "changePct": 0.14
+    "value": 103.63,
+    "changePct": 0.07
   },
   "vix": {
-    "value": 22.91,
-    "changePct": 18.7
+    "value": 22.93,
+    "changePct": 0.09
   },
   "wti": {
-    "value": 85.72,
-    "changePct": -3.21
+    "value": 87.2,
+    "changePct": 1.73
   },
   "btc": {
-    "value": 64847.18,
-    "changePct": -0.7
+    "value": 64920.92,
+    "changePct": 0.1
   },
   "spx": {
     "value": 7416.59,
@@ -42,13 +42,17 @@
   "correlations": {
     "dataPoints": 120,
     "minRequired": 10,
-    "dxy": -0.828,
-    "realRate": -0.511,
-    "vix": -0.629,
-    "btc": 0.129,
-    "spx": 0.471
+    "dxy": -0.829,
+    "realRate": -0.512,
+    "vix": -0.63,
+    "btc": 0.13,
+    "spx": 0.472
   },
   "news": [
+    {
+      "time": "11-17 14:10",
+      "text": "[Fed] Waller, Considerations at the Intersection of Payments and Tokenized Markets"
+    },
     {
       "time": "11-16 17:00",
       "text": "[Fed] Warsh, Opening Remarks"
@@ -68,90 +72,26 @@
     {
       "time": "11-12 15:00",
       "text": "[Fed] Barr, American Inequality and the Future of AI"
-    },
-    {
-      "time": "11-10 20:30",
-      "text": "[Fed] Bowman, The U.S. Economy and Considerations for Monetary Policy"
     }
   ],
   "newsDebug": {
     "fedError": null,
-    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7c9c06078350>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
+    "wscnError": "ConnectTimeout: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x70d18f664dd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=10)'))",
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "long",
-    "bullTrendBarsInLast3": 0,
+    "alwaysIn": "short",
+    "bullTrendBarsInLast3": 1,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 3855.3,
-    "measuredMoveLow": 3901.75,
-    "measuredMoveHigh": 3926.2,
-    "sma20": 3867.33,
-    "currentPrice": 3877.3
+    "signalBarPrice": 3856.6,
+    "measuredMoveLow": 3811.3,
+    "measuredMoveHigh": 3836.5,
+    "sma20": 3866.55,
+    "currentPrice": 3861.7
   },
   "bars1h": [
-    {
-      "open": 3896.0,
-      "high": 3901.60009765625,
-      "low": 3890.5,
-      "close": 3897.199951171875
-    },
-    {
-      "open": 3897.699951171875,
-      "high": 3900.699951171875,
-      "low": 3889.10009765625,
-      "close": 3892.89990234375
-    },
-    {
-      "open": 3893.10009765625,
-      "high": 3909.89990234375,
-      "low": 3876.10009765625,
-      "close": 3885.10009765625
-    },
-    {
-      "open": 3885.60009765625,
-      "high": 3903.5,
-      "low": 3884.10009765625,
-      "close": 3898.199951171875
-    },
-    {
-      "open": 3898.199951171875,
-      "high": 3898.60009765625,
-      "low": 3875.39990234375,
-      "close": 3876.89990234375
-    },
-    {
-      "open": 3877.199951171875,
-      "high": 3890.0,
-      "low": 3871.10009765625,
-      "close": 3883.10009765625
-    },
-    {
-      "open": 3883.199951171875,
-      "high": 3894.60009765625,
-      "low": 3879.800048828125,
-      "close": 3888.800048828125
-    },
-    {
-      "open": 3888.800048828125,
-      "high": 3891.5,
-      "low": 3881.60009765625,
-      "close": 3884.300048828125
-    },
-    {
-      "open": 3883.800048828125,
-      "high": 3884.800048828125,
-      "low": 3876.5,
-      "close": 3878.5
-    },
-    {
-      "open": 3878.300048828125,
-      "high": 3883.0,
-      "low": 3874.60009765625,
-      "close": 3881.800048828125
-    },
     {
       "open": 3881.800048828125,
       "high": 3888.89990234375,
@@ -324,28 +264,76 @@
       "open": 3873.10009765625,
       "high": 3882.39990234375,
       "low": 3870.5,
-      "close": 3878.0
+      "close": 3873.199951171875
     },
     {
-      "open": 3877.300048828125,
-      "high": 3877.300048828125,
-      "low": 3877.300048828125,
-      "close": 3877.300048828125
+      "open": 3873.300048828125,
+      "high": 3878.0,
+      "low": 3865.60009765625,
+      "close": 3877.199951171875
+    },
+    {
+      "open": 3877.60009765625,
+      "high": 3889.60009765625,
+      "low": 3874.39990234375,
+      "close": 3883.60009765625
+    },
+    {
+      "open": 3883.5,
+      "high": 3884.0,
+      "low": 3872.5,
+      "close": 3873.5
+    },
+    {
+      "open": 3873.39990234375,
+      "high": 3881.89990234375,
+      "low": 3873.0,
+      "close": 3873.800048828125
+    },
+    {
+      "open": 3873.60009765625,
+      "high": 3877.0,
+      "low": 3864.5,
+      "close": 3872.199951171875
+    },
+    {
+      "open": 3872.39990234375,
+      "high": 3873.5,
+      "low": 3862.5,
+      "close": 3869.0
+    },
+    {
+      "open": 3868.300048828125,
+      "high": 3868.300048828125,
+      "low": 3855.60009765625,
+      "close": 3856.60009765625
+    },
+    {
+      "open": 3856.5,
+      "high": 3873.5,
+      "low": 3856.0,
+      "close": 3870.800048828125
+    },
+    {
+      "open": 3871.39990234375,
+      "high": 3872.0,
+      "low": 3856.10009765625,
+      "close": 3863.89990234375
+    },
+    {
+      "open": 3863.800048828125,
+      "high": 3867.0,
+      "low": 3839.199951171875,
+      "close": 3853.60009765625
+    },
+    {
+      "open": 3853.39990234375,
+      "high": 3865.0,
+      "low": 3853.300048828125,
+      "close": 3861.699951171875
     }
   ],
   "bars4h": [
-    {
-      "open": 4124.10009765625,
-      "high": 4136.39990234375,
-      "low": 4119.39990234375,
-      "close": 4122.2001953125
-    },
-    {
-      "open": 4121.7001953125,
-      "high": 4121.89990234375,
-      "low": 4076.199951171875,
-      "close": 4087.0
-    },
     {
       "open": 4087.0,
       "high": 4090.5,
@@ -504,9 +492,27 @@
     },
     {
       "open": 3868.89990234375,
-      "high": 3882.39990234375,
+      "high": 3889.60009765625,
       "low": 3864.300048828125,
-      "close": 3877.300048828125
+      "close": 3883.60009765625
+    },
+    {
+      "open": 3883.5,
+      "high": 3884.0,
+      "low": 3862.5,
+      "close": 3869.0
+    },
+    {
+      "open": 3868.300048828125,
+      "high": 3873.5,
+      "low": 3839.199951171875,
+      "close": 3853.60009765625
+    },
+    {
+      "open": 3853.39990234375,
+      "high": 3865.0,
+      "low": 3853.300048828125,
+      "close": 3861.699951171875
     }
   ],
   "calendar": null,
