@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-21T04:09:51.043526+00:00",
+  "fetchedAt": "2026-11-21T12:39:56.843646+00:00",
   "gold": {
     "price": 3539.0,
-    "updatedAt": "2026-11-21T04:09:37Z"
+    "updatedAt": "2026-11-21T12:39:38Z"
   },
   "silver": {
     "price": 41.080002,
-    "updatedAt": "2026-11-21T04:09:36Z"
+    "updatedAt": "2026-11-21T12:39:37Z"
   },
   "dxy": {
-    "value": 103.84,
-    "changePct": -0.06
+    "value": 103.81,
+    "changePct": -0.09
   },
   "vix": {
     "value": 35.89,
     "changePct": 26.2
   },
   "wti": {
-    "value": 83.62,
-    "changePct": 0.49
+    "value": 83.98,
+    "changePct": 0.93
   },
   "btc": {
-    "value": 55694.86,
-    "changePct": -10.03
+    "value": 58792.56,
+    "changePct": -0.01
   },
   "spx": {
     "value": 6910.39,
@@ -45,7 +45,7 @@
     "dxy": -0.852,
     "realRate": -0.595,
     "vix": -0.727,
-    "btc": 0.26,
+    "btc": 0.253,
     "spx": 0.622
   },
   "news": [
@@ -85,11 +85,11 @@
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
     "signalBarBull": false,
-    "signalBarPrice": 3531.7,
-    "measuredMoveLow": 3445.2,
-    "measuredMoveHigh": 3492.1,
-    "sma20": 3555.46,
-    "currentPrice": 3539.0
+    "signalBarPrice": 3515.4,
+    "measuredMoveLow": 3421.6,
+    "measuredMoveHigh": 3468.5,
+    "sma20": 3554.28,
+    "currentPrice": 3515.4
   },
   "bars1h": [
     {
@@ -330,7 +330,7 @@
       "open": 3526.39990234375,
       "high": 3544.300048828125,
       "low": 3514.60009765625,
-      "close": 3539.0
+      "close": 3515.39990234375
     }
   ],
   "bars4h": [
@@ -512,7 +512,7 @@
       "open": 3526.39990234375,
       "high": 3544.300048828125,
       "low": 3514.60009765625,
-      "close": 3539.0
+      "close": 3515.39990234375
     }
   ],
   "calendar": null,
