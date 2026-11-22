@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-22T15:05:42.126188+00:00",
+  "fetchedAt": "2026-11-22T21:03:38.919776+00:00",
   "gold": {
     "price": 3539.0,
-    "updatedAt": "2026-11-22T15:05:10Z"
+    "updatedAt": "2026-11-22T21:03:10Z"
   },
   "silver": {
     "price": 41.080002,
-    "updatedAt": "2026-11-22T15:05:09Z"
+    "updatedAt": "2026-11-22T21:03:09Z"
   },
   "dxy": {
     "value": 103.81,
@@ -21,8 +21,8 @@
     "changePct": 0.24
   },
   "btc": {
-    "value": 60921.82,
-    "changePct": 1.38
+    "value": 60969.63,
+    "changePct": 1.46
   },
   "spx": {
     "value": 6910.39,
@@ -510,7 +510,7 @@
     }
   ],
   "calendar": null,
-  "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
+  "calendarError": "HTTPError: 502 Server Error: Bad Gateway for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
     "netLong": 166132,
     "change": -23975,
