@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-22T21:03:38.919776+00:00",
+  "fetchedAt": "2026-11-23T01:44:51.039365+00:00",
   "gold": {
-    "price": 3539.0,
-    "updatedAt": "2026-11-22T21:03:10Z"
+    "price": 3613.850098,
+    "updatedAt": "2026-11-23T01:44:41Z"
   },
   "silver": {
-    "price": 41.080002,
-    "updatedAt": "2026-11-22T21:03:09Z"
+    "price": 42.299999,
+    "updatedAt": "2026-11-23T01:44:40Z"
   },
   "dxy": {
-    "value": 103.81,
-    "changePct": -0.09
+    "value": 103.76,
+    "changePct": -0.05
   },
   "vix": {
     "value": 35.89,
     "changePct": 26.2
   },
   "wti": {
-    "value": 83.41,
-    "changePct": 0.24
+    "value": 83.18,
+    "changePct": -0.95
   },
   "btc": {
-    "value": 60969.63,
-    "changePct": 1.46
+    "value": 60923.83,
+    "changePct": 1.38
   },
   "spx": {
     "value": 6910.39,
@@ -42,11 +42,11 @@
   "correlations": {
     "dataPoints": 120,
     "minRequired": 10,
-    "dxy": -0.856,
-    "realRate": -0.61,
-    "vix": -0.747,
-    "btc": 0.275,
-    "spx": 0.654
+    "dxy": -0.861,
+    "realRate": -0.624,
+    "vix": -0.759,
+    "btc": 0.299,
+    "spx": 0.675
   },
   "news": [
     {
@@ -80,36 +80,18 @@
     "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
   },
   "priceAction": {
-    "alwaysIn": "short",
-    "bullTrendBarsInLast3": 0,
+    "alwaysIn": "long",
+    "bullTrendBarsInLast3": 2,
     "bearTrendBarsInLast3": 0,
     "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 3515.4,
-    "measuredMoveLow": 3421.6,
-    "measuredMoveHigh": 3468.5,
-    "sma20": 3554.25,
-    "currentPrice": 3515.4
+    "signalBarBull": true,
+    "signalBarPrice": 3584.4,
+    "measuredMoveLow": 3675.35,
+    "measuredMoveHigh": 3738.7,
+    "sma20": 3561.09,
+    "currentPrice": 3612.0
   },
   "bars1h": [
-    {
-      "open": 3741.199951171875,
-      "high": 3743.10009765625,
-      "low": 3729.199951171875,
-      "close": 3734.199951171875
-    },
-    {
-      "open": 3733.89990234375,
-      "high": 3742.60009765625,
-      "low": 3731.699951171875,
-      "close": 3738.39990234375
-    },
-    {
-      "open": 3737.699951171875,
-      "high": 3743.800048828125,
-      "low": 3731.10009765625,
-      "close": 3737.5
-    },
     {
       "open": 3737.5,
       "high": 3742.39990234375,
@@ -331,6 +313,24 @@
       "high": 3544.300048828125,
       "low": 3514.60009765625,
       "close": 3515.39990234375
+    },
+    {
+      "open": 3568.0,
+      "high": 3588.0,
+      "low": 3566.300048828125,
+      "close": 3584.39990234375
+    },
+    {
+      "open": 3583.89990234375,
+      "high": 3585.300048828125,
+      "low": 3567.800048828125,
+      "close": 3572.89990234375
+    },
+    {
+      "open": 3572.699951171875,
+      "high": 3629.60009765625,
+      "low": 3570.0,
+      "close": 3612.0
     }
   ],
   "bars4h": [
@@ -507,10 +507,16 @@
       "high": 3544.300048828125,
       "low": 3502.89990234375,
       "close": 3515.39990234375
+    },
+    {
+      "open": 3568.0,
+      "high": 3629.60009765625,
+      "low": 3566.300048828125,
+      "close": 3612.0
     }
   ],
   "calendar": null,
-  "calendarError": "HTTPError: 502 Server Error: Bad Gateway for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
+  "calendarError": "HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/calendar/economic?token=d9e6h7pr01qh241amrugd9e6h7pr01qh241amrv0 | FMP备选也失败: 未设置 FMP_KEY 环境变量（可选数据源，不影响其他部分）",
   "cot": {
     "netLong": 166132,
     "change": -23975,
