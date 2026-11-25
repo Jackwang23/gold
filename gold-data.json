@@ -1,54 +1,58 @@
 {
-  "fetchedAt": "2026-11-24T17:05:37.336069+00:00",
+  "fetchedAt": "2026-11-25T01:25:29.557510+00:00",
   "gold": {
-    "price": 3566.5,
-    "updatedAt": "2026-11-24T17:05:14Z"
+    "price": 3536.949951,
+    "updatedAt": "2026-11-25T01:25:15Z"
   },
   "silver": {
-    "price": 40.630001,
-    "updatedAt": "2026-11-24T17:05:13Z"
+    "price": 40.52,
+    "updatedAt": "2026-11-25T01:25:14Z"
   },
   "dxy": {
-    "value": 103.87,
-    "changePct": -0.43
+    "value": 103.88,
+    "changePct": -0.42
   },
   "vix": {
-    "value": 27.72,
-    "changePct": 4.13
+    "value": 26.36,
+    "changePct": -0.98
   },
   "wti": {
-    "value": 80.8,
-    "changePct": 0.79
+    "value": 81.61,
+    "changePct": 1.8
   },
   "btc": {
-    "value": 59300.0,
-    "changePct": -3.12
+    "value": 59341.37,
+    "changePct": -3.05
   },
   "spx": {
-    "value": 7166.25,
-    "changePct": -0.98
+    "value": 7201.09,
+    "changePct": -0.5
   },
   "fred": {
     "10y_treasury": {
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "value": 4.92
     },
     "10y_real_rate": {
-      "date": "2026-11-20",
-      "value": 2.77
+      "date": "2026-11-23",
+      "value": 2.79
     }
   },
   "goldapi": null,
   "correlations": {
     "dataPoints": 120,
     "minRequired": 10,
-    "dxy": -0.866,
-    "realRate": -0.621,
-    "vix": -0.769,
-    "btc": 0.324,
-    "spx": 0.688
+    "dxy": -0.87,
+    "realRate": -0.628,
+    "vix": -0.779,
+    "btc": 0.348,
+    "spx": 0.703
   },
   "news": [
+    {
+      "time": "11-24 19:00",
+      "text": "[Fed] Minutes of the Board's discount rate meetings on October 19 and October 28, 2026"
+    },
     {
       "time": "11-20 17:15",
       "text": "[Fed] Cook, The U.S. Economy in Global Context"
@@ -68,10 +72,6 @@
     {
       "time": "11-18 18:35",
       "text": "[Fed] Barr, Investing in America’s Underserved Communities"
-    },
-    {
-      "time": "11-17 14:10",
-      "text": "[Fed] Waller, Considerations at the Intersection of Payments and Tokenized Markets"
     }
   ],
   "newsDebug": {
@@ -82,64 +82,16 @@
   "priceAction": {
     "alwaysIn": "short",
     "bullTrendBarsInLast3": 0,
-    "bearTrendBarsInLast3": 1,
-    "isTrendStructure": false,
-    "signalBarBull": false,
-    "signalBarPrice": 3613.6,
-    "measuredMoveLow": 3447.2,
-    "measuredMoveHigh": 3506.85,
-    "sma20": 3625.64,
-    "currentPrice": 3566.5
+    "bearTrendBarsInLast3": 0,
+    "isTrendStructure": true,
+    "signalBarBull": true,
+    "signalBarPrice": 3555.1,
+    "measuredMoveLow": 3422.5,
+    "measuredMoveHigh": 3480.95,
+    "sma20": 3590.18,
+    "currentPrice": 3539.4
   },
   "bars1h": [
-    {
-      "open": 3583.89990234375,
-      "high": 3585.300048828125,
-      "low": 3567.800048828125,
-      "close": 3572.89990234375
-    },
-    {
-      "open": 3572.699951171875,
-      "high": 3629.60009765625,
-      "low": 3570.0,
-      "close": 3599.60009765625
-    },
-    {
-      "open": 3599.199951171875,
-      "high": 3607.10009765625,
-      "low": 3574.199951171875,
-      "close": 3590.800048828125
-    },
-    {
-      "open": 3590.5,
-      "high": 3609.5,
-      "low": 3588.199951171875,
-      "close": 3607.800048828125
-    },
-    {
-      "open": 3608.10009765625,
-      "high": 3612.800048828125,
-      "low": 3602.89990234375,
-      "close": 3607.89990234375
-    },
-    {
-      "open": 3607.0,
-      "high": 3626.199951171875,
-      "low": 3604.60009765625,
-      "close": 3616.10009765625
-    },
-    {
-      "open": 3616.300048828125,
-      "high": 3627.0,
-      "low": 3612.5,
-      "close": 3620.800048828125
-    },
-    {
-      "open": 3620.699951171875,
-      "high": 3636.39990234375,
-      "low": 3616.89990234375,
-      "close": 3617.300048828125
-    },
     {
       "open": 3617.60009765625,
       "high": 3620.10009765625,
@@ -330,22 +282,58 @@
       "open": 3568.5,
       "high": 3574.60009765625,
       "low": 3557.39990234375,
-      "close": 3566.5
+      "close": 3563.5
+    },
+    {
+      "open": 3563.800048828125,
+      "high": 3573.199951171875,
+      "low": 3560.300048828125,
+      "close": 3566.39990234375
+    },
+    {
+      "open": 3566.0,
+      "high": 3568.39990234375,
+      "low": 3551.89990234375,
+      "close": 3554.5
+    },
+    {
+      "open": 3554.10009765625,
+      "high": 3563.800048828125,
+      "low": 3553.39990234375,
+      "close": 3555.39990234375
+    },
+    {
+      "open": 3555.800048828125,
+      "high": 3557.300048828125,
+      "low": 3545.39990234375,
+      "close": 3551.5
+    },
+    {
+      "open": 3551.10009765625,
+      "high": 3555.199951171875,
+      "low": 3548.300048828125,
+      "close": 3555.10009765625
+    },
+    {
+      "open": 3557.800048828125,
+      "high": 3566.800048828125,
+      "low": 3546.10009765625,
+      "close": 3548.89990234375
+    },
+    {
+      "open": 3547.89990234375,
+      "high": 3556.0,
+      "low": 3537.89990234375,
+      "close": 3547.5
+    },
+    {
+      "open": 3547.0,
+      "high": 3552.300048828125,
+      "low": 3534.5,
+      "close": 3539.39990234375
     }
   ],
   "bars4h": [
-    {
-      "open": 3863.800048828125,
-      "high": 3894.0,
-      "low": 3839.199951171875,
-      "close": 3868.89990234375
-    },
-    {
-      "open": 3869.0,
-      "high": 3875.0,
-      "low": 3843.800048828125,
-      "close": 3850.199951171875
-    },
     {
       "open": 3850.0,
       "high": 3860.5,
@@ -512,7 +500,19 @@
       "open": 3641.199951171875,
       "high": 3641.39990234375,
       "low": 3557.39990234375,
-      "close": 3566.5
+      "close": 3563.5
+    },
+    {
+      "open": 3563.800048828125,
+      "high": 3573.199951171875,
+      "low": 3545.39990234375,
+      "close": 3551.5
+    },
+    {
+      "open": 3551.10009765625,
+      "high": 3566.800048828125,
+      "low": 3534.5,
+      "close": 3539.39990234375
     }
   ],
   "calendar": null,
