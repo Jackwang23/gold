@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-11-27T03:17:10.585478+00:00",
+  "fetchedAt": "2026-11-27T12:57:34.091095+00:00",
   "gold": {
-    "price": 3627.0,
-    "updatedAt": "2026-11-27T03:16:49Z"
+    "price": 3663.899902,
+    "updatedAt": "2026-11-27T12:57:20Z"
   },
   "silver": {
-    "price": 43.435001,
-    "updatedAt": "2026-11-27T03:16:48Z"
+    "price": 43.669998,
+    "updatedAt": "2026-11-27T12:57:19Z"
   },
   "dxy": {
-    "value": 103.66,
-    "changePct": -0.01
+    "value": 103.79,
+    "changePct": 0.11
   },
   "vix": {
-    "value": 26.8,
-    "changePct": -5.27
+    "value": 25.31,
+    "changePct": -5.56
   },
   "wti": {
-    "value": 85.77,
-    "changePct": 2.5
+    "value": 85.04,
+    "changePct": 1.63
   },
   "btc": {
-    "value": 61469.41,
-    "changePct": 1.81
+    "value": 61468.61,
+    "changePct": 1.61
   },
   "spx": {
     "value": 7182.78,
@@ -42,11 +42,11 @@
   "correlations": {
     "dataPoints": 120,
     "minRequired": 10,
-    "dxy": -0.879,
-    "realRate": -0.641,
-    "vix": -0.797,
-    "btc": 0.387,
-    "spx": 0.735
+    "dxy": -0.88,
+    "realRate": -0.642,
+    "vix": -0.795,
+    "btc": 0.386,
+    "spx": 0.734
   },
   "news": [
     {
@@ -77,7 +77,7 @@
   "newsDebug": {
     "fedError": null,
     "wscnError": "ConnectionError: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives?channel=global-channel&client=pc&cursor=0&limit=15 (Caused by NameResolutionError(\"HTTPSConnection(host='api-prod.wallstreetcn.com', port=443): Failed to resolve 'api-prod.wallstreetcn.com' ([Errno -2] Name or service not known)\"))",
-    "avError": "节流跳过(Alpha Vantage每4小时才调用一次,避免超出免费额度)"
+    "avError": "接口返回但没有feed字段，原始响应片段: {'Information': 'Thank you for using Alpha Vantage! This is a premium endpoint. You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly unlock all premium en"
   },
   "priceAction": {
     "alwaysIn": "long",
